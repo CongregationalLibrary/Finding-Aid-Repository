@@ -1,0 +1,1124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid instanceurl="">BrocktonMAFirst-0037</recordid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Brockton, Mass. First Parish Congregational Church records, 1738-1980. </titleproper>
+        <author>Zachary Bodnar, Jessica Steytler, Sandra Sudak</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2019-03-07</date>
+        <num>RG0037</num>
+      </publicationstmt>
+      <seriesstmt>
+        <p>Portions of this collection are part of New England's Hidden Histories. Digital
+          historical representations of these portions of the collection can be viewed online.</p>
+      </seriesstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS2 - 2013</abbr>
+      <citation>Describing Archives: A Content Standard, Second Edition</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2019-03-08T14:51:17+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Friday March 8, 2019
+          at 14:51</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Brockton, Mass. First Parish Congregational Church records, 1738-1980.</unittitle>
+      <unitid>RG0037</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>1.92</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(4 boxes, 1 reel)</physdesc>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1738">1738</fromdate>
+          <todate standarddate="1980">1980</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" unitdatetype="inclusive">1738-1980</unitdate>
+      <abstract id="aspace_90134e352f7c5024108de4349d02ffc3">The First Parish Congregational Church
+        in Brockton was originally founded as the Fourth Parish Church in Bridgewater in 1737 and
+        formally gathered as such in 1740. The name of the church changed, in 1823, to First Parish
+        Congregational Church to reflect the incorporation of the town of North Bridgewater. In 1827
+        a portion of the church's membership left to form the South Congregational Church and in
+        1850 another portion left to form the Porter Evangelical Congregational Church. In 1874 the
+        town of North Bridgewater changed to Brockton. In 1980 the First Parish Congregational
+        Church merged with the South Congregational Church, the Porter Congregational Church, and
+        the Waldo Congregational Church to form the Christ Congregational Church which continues to
+        operate today. This collection contains the administrative, legal, fiscal, and vital records
+        of the church and includes meeting minutes, membership records, building records, and
+        ministerial records.</abstract>
+      <origination label="creator">
+        <corpname identifier="n95089805" source="lcnaf">
+          <part>First Parish Congregational Church (Brockton, Mass.)</part>
+        </corpname>
+      </origination>
+      <origination label="creator">
+        <corpname identifier="n95089790" source="lcnaf">
+          <part>Fourth Parish Church (Bridgewater, Mass.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_a32b16e83b7064cfb742ba15b6dd7cdf">
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_1e22bed2a0a1440b3c6482a734927d5c">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+      <p>Digital Reproductions are protected by copyright and/or related rights. You are free to use
+        the Digital Reproductions in any way that is permitted by the copyright and related rights
+        legislation that applies to your use. In addition, no permission is required from the
+        Congregational Library &amp; Archives for educational uses. For other uses, you need to
+        obtain permission from the Congregational Library &amp; Archives. For additional information
+        regarding copyright, please consult the Congregational Library &amp; Archives' <ref
+          actuate="onrequest" href="http://www.congregationallibrary.org/about/digital-copyright"
+          linktitle="Digital Collections Copyright &amp; Use" show="new">Digital Collections
+          Copyright &amp; Use</ref> policy.</p>
+    </userestrict>
+    <prefercite id="aspace_beb3d2183de08e85c6d8b80b01bfb4f2">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Brockton, Mass. First Parish Congregational Church
+        records, 1738-1980, RG0037. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_6247e6c5b6ff31a0995fbbfed6a13682">
+      <head>Acquisition Information</head>
+      <p>While the records are unclear, it appears that this collection is the result of two major
+        deposits. The first deposit, by Rev. James H. O'Brien of the First Parish Congregational
+        Church in Brockton, occured in 1965. That same year some records were microfilmed by the
+        Harvard University Reprographic Services (originally RG1339). In 1980, when the First Parish
+        Congregational Church reformed into the Christ Congregational Church, additional First
+        Parish Congregational Church materials were deposited with the Congregational Library &amp;
+        Archives along with materials from the South, Porter, and Waldo Congregational churches; no
+        accession number.</p>
+    </acqinfo>
+    <accruals id="aspace_de84f819b599bd8b925ba3285e88f74a">
+      <head>Accruals</head>
+      <p>Additional accruals are expected for this collection in the form of full-text
+        transcription. There is no anticipated date for this accrual.</p>
+    </accruals>
+    <custodhist id="aspace_2e677b7e920dee6bd8233820e473ca67">
+      <head>Custodial History</head>
+      <p>Many of the items within the collection were damaged by a fire in 1965. In response to the
+        damage sustained by the collection due to the fire, the First Parish Congregational Church
+        contracted with F. C. Wiedemann for document preservation.</p>
+    </custodhist>
+    <processinfo id="aspace_4e0cbc18a2942f0e49a2fc6bc264f85e">
+      <head>Processing Information</head>
+      <p>Originally processed by Sandra Sudak in 1990. Additional descriptions by Jessica Steytler
+        in 2002 and 2006. Fully reprocessed and redescribed by Zachary Bodnar, March 2019, using
+        DACS Second Edition.</p>
+    </processinfo>
+    <bioghist id="aspace_01d86d636564ab8d841d29a2b760ecf3">
+      <head>Historical Note</head>
+      <p>The First Parish Congregational Church in Brockton was originally founded as the Fourth
+        Parish Church in Bridgewater in March, 1737, with the construction of the first meeting
+        house for the community that had formed in Bridgewater's North. In 1738, the community sent
+        a petition to the General Court of Massachusetts to designate the area as a unique parish
+        within Bridgewater. The request was granted in December, 1739 with the formation of the
+        North Precinct of Bridgewater. John Porter, a 1736 graduate of Harvard, was ordained as the
+        first minister of the Fourth Parish Church in October, 1740 at the same time that the church
+        was formally gathered.</p>
+      <p>Membership within the church grew significantly under Rev. Porter, mimicking the expansion
+        of the community. The expansion of the parish community resulted in the need for a new
+        meeting house; the dedication of the second meeting house, which was twice as large as the
+        first building, was held in December, 1763. Rev. Porter was interested in education and
+        readily helped prepare talented youth for higher education during his ministry. During the
+        American Revolution, Rev. Porter supported the Continental Army by organizing an effort
+        which resulted in the shipment of 5580 pounds of beef to the army. He served as the minister
+        of the church until his death in 1802.</p>
+      <p>The first parish Sunday school was organized in 1818 with an initial enrolment of 185
+        students. In 1823 the North Precinct of Bridgewater as incorporated as the town of North
+        Bridgewater. At this time, the name of the church was changed to the First Parish
+        Congregational Church. By the 1820s the second meeting house was beginning to require
+        extensive fixes and renovations to meet the needs of the community. Instead of embarking on
+        those costly renovations, the community found the funds to build the third meeting house,
+        which was dedicated in November, 1827. In 1836 a significant portion of the parish withdrew
+        from the church due to the formation of the South Congregational Church in Plain Village
+        (now Campello) North Bridgewater.</p>
+      <p>The ordination of Rev. Paul Couch in 1835 resulted in a liberalization of the First
+        Parish's teachings during his 24 years of ministry. This ultimately resulted in another
+        significant portion of the church separating in 1850 to form the Porter Evangelical
+        Congregational Church. Rev. Couch also oversaw construction of the fourth meeting house,
+        also known as the Old Brown Church. This building was dedicated in July, 1854. In 1874 the
+        name of the town of North Bridgewater was changed to Brockton.</p>
+      <p>During 1897 the fifth meeting house was constructed. This stone building was dedicated in
+        December, 1897 and Rev. Alan Hudson was installed as the minister the same day. The fifth
+        meeting house was largely destroyed in an early morning fire on February 19, 1965. The sixth
+        and final meeting house was constructed in 1967 with the dedication taking place in June. In
+        1980 the First Parish Congregational Church, South Congregational Church, Porter
+        Congregational Church, and Waldo Congregational Church merged to form the Christ
+        Congregational Church. The Christ Congregational Church in Brockton continues to serve the
+        local community today. The sixth meeting house is now the house of warship for the Mt.
+        Moriah Baptist Church.</p>
+    </bioghist>
+    <scopecontent id="aspace_b5c186e73b052f18ae825ad1ff7d2c92">
+      <head>Scope and Contents</head>
+      <p>This collection contains the administrative, legal, fiscal, and vital records of the First
+        Parish Congregational Church in Brockton, Massachusetts. The collection includes the meeting
+        minutes of the church and parish, membership records, vital statistics for church members,
+        including baptismal and marriage records, ministerial records, building records, financial
+        records, pew deeds, assessment results, and important legal documents.</p>
+    </scopecontent>
+    <arrangement id="aspace_011af1eb1db9db0a1d4127672814cec2">
+      <head>Arrangement</head>
+      <p>Materials have been arranged into the two series listed below. Within each series,
+        materials have been arranged in chronological order, by start date, primarily, and by topic
+        secondarily.</p>
+      <p><emph render="bold">Series 1:</emph> Church and Parish records, 1738-1980</p>
+      <p><emph render="bold">Series 2:</emph> Financial and legal records, 1764-1965</p>
+    </arrangement>
+    <phystech id="aspace_958ba090f29770861e975c6a9cb535b1">
+      <head>Physical Access</head>
+      <p>Some materials within the collection have been damaged by exposure to fire. There may be
+        special handling instructions for these materials and/or limited access provided to certain
+        damaged items.</p>
+    </phystech>
+    <phystech id="aspace_b970c75db82a0676bf9875d02294c5f0">
+      <head>Technical Requirements</head>
+      <p>A microfilm reader is required in order to access microform materials. One microfilm reader
+        is available to the public upon request.</p>
+      <p>To access digital user's copies via online-interface, a java-enabled web browser is
+        required. Internet Explorer 8.x and later, Firefox 5.x and later, Opera 12 and later, Safari
+        5.x and later, or any version of Google Chrome are recommended.</p>
+    </phystech>
+    <relatedmaterial id="aspace_9bd7ddcfb16baf1108651ef375407aaf">
+      <head>Related Materials</head>
+      <p>In 1980, the First Parish Congregational, South Congregational, Porter Congregational, and
+        Waldo Congregational Churchs merged into a single entity, the Christ Congregational Church.
+        The records of all four churches are held at the Congregational Library &amp; Archives:</p>
+      <p>Brockton, Mass. South Congregational Church records, 1835-1979.</p>
+      <p>Brockton, Mass. Porter Congregational Church, 1800-1979.</p>
+      <p>Brockton, Mass. Waldo Congregational Church, 1896-1980.</p>
+    </relatedmaterial>
+    <bibliography id="aspace_0cb22dfb665225b6000e621b1339bc81">
+      <head>Bibliography</head>
+      <p><emph render="italic">Two Hundred and Twenty-Fifth Anniversary Booklet</emph>. Brockton:
+        First Parish Congregational Church, 1962. 17.11.1 B78.33 CHrCC</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025597" source="lcsh">
+        <part>Church discipline.</part>
+      </subject>
+      <subject identifier="sh85025606" source="lcsh">
+        <part>Church finance.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85066724" source="lcsh">
+        <part>Installation (clergy).</part>
+      </subject>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <subject source="local">
+        <part>New England's Hidden Histories.</part>
+      </subject>
+      <subject identifier="sh85100506" source="lcsh">
+        <part>Pews and pew rights.</part>
+      </subject>
+      <subject identifier="sh2008111551" source="lcsh">
+        <part>Sermons, American -- Early works to 1800.</part>
+      </subject>
+      <subject identifier="sh85130529" source="lcsh">
+        <part>Sunday schools -- Records.</part>
+      </subject>
+      <corpname identifier="n92093244" source="lcnaf">
+        <part>Bridgewater (Mass.) -- Church history.</part>
+      </corpname>
+      <corpname identifier="n80113521" source="lcnaf">
+        <part>Brockton (Mass.) -- Church history.</part>
+      </corpname>
+      <corpname identifier="n95089843" source="lcnaf">
+        <part>Christ Congregational Church (Brockton, Mass.)</part>
+      </corpname>
+      <corpname identifier="n95089805" source="lcnaf">
+        <part>First Parish Congregational Church (Brockton, Mass.)</part>
+      </corpname>
+      <corpname identifier="n95089790" source="lcnaf">
+        <part>Fourth Parish Church (Bridgewater, Mass.)</part>
+      </corpname>
+      <corpname identifier="n80113522" source="lcnaf">
+        <part>North Bridgewater (Mass.) -- Church history.</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_567992ecd618a6aa2bf3e18694672296" level="series">
+        <did>
+          <unittitle>Church and parish records</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>28</quantity>
+            <unittype>Files</unittype>
+          </physdescstructured>
+          <physdesc localtype="container_summary">(10 volumes, 17 folders, 1 reel)</physdesc>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1738">1738</fromdate>
+              <todate standarddate="1980">1980</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1738-1980</unitdate>
+        </did>
+        <scopecontent id="aspace_2b33246cd27095557dc62c501d619f90">
+          <head>Scope and Contents</head>
+          <p>This series contains records related to the administration of the church and parish,
+            vital records, and well as records related to the religious operations of the church.
+            Included in the series are church and parish record books, membership records,
+            ministerial records, Sunday school materials, and historical sketches.</p>
+        </scopecontent>
+        <c02 id="aspace_1ff02c4755917a0306093b32a3d1a21d" level="item">
+          <did>
+            <unittitle>Parish records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1738">1738</fromdate>
+                <todate standarddate="1852">1852</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1738-1852</unitdate>
+            <container id="aspace_1546fbba1b6bf9400c7390d43c65768b" label="Mixed Materials"
+              localtype="box">2</container>
+          </did>
+          <altformavail id="aspace_35a5c12f47295be5750953ad671e43d0">
+            <head>Digital Copies</head>
+            <p>These church records were digitized as part of the New England's Hidden Histories
+              project. Digital reproductions are <ref actuate="onrequest"
+                href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Brockton/viewer/Parish20records2C2017381852/1"
+                linktitle="available to view online" show="new">available to view online</ref>.</p>
+          </altformavail>
+          <scopecontent id="aspace_baa3b359086898f6b65203429173af3e">
+            <head>Scope and Contents</head>
+            <p>This volume contains the records of the parish community. Included within the records
+              is a copy of the petition sent to the General Court that resulted in the formation of
+              the North Precinct in Bridgewater. Also included are meeting minutes, notifications of
+              tax deadlines, discussion of meeting house maintenance and improvements, the
+              installation of Rev. John Porter, financial records, and records related to the
+              incorporation of the North Precinct into North Bridgewater.</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_92bc03d9fe80503176752011deb278cb" level="item">
+          <did>
+            <unittitle>Parish records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1852">1852</fromdate>
+                <todate standarddate="1893">1893</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1852-1893</unitdate>
+            <container id="aspace_dbc7eae959a3b8c9c9254890ce67d6bd" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_59f5395b079bb918836560e14117650c" localtype="volume"
+              parent="aspace_dbc7eae959a3b8c9c9254890ce67d6bd">1</container>
+          </did>
+        </c02>
+        <c02 id="aspace_2feb1c8ecec4a984617c52d903b03968" level="item">
+          <did>
+            <unittitle>Parish records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1894">1894</fromdate>
+                <todate standarddate="1916">1916</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1894-1916</unitdate>
+            <container id="aspace_dd738776dd947cb1119c1b0db24446c5" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_efcb73d8c83675eb9e468193a95331b1" localtype="volume"
+              parent="aspace_dd738776dd947cb1119c1b0db24446c5">2</container>
+          </did>
+        </c02>
+        <c02 id="aspace_bc5fba2f76e47b77dc57ee023e30555c" level="item">
+          <did>
+            <unittitle>A Church Book</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1740">1740</fromdate>
+                <todate standarddate="1805">1805</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1740-1805</unitdate>
+            <container id="aspace_78833799cd8c4768700ca7c8d2b3b220" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_948c8ebbd4927faae1d2e24ea3d89902" localtype="volume"
+              parent="aspace_78833799cd8c4768700ca7c8d2b3b220">3</container>
+          </did>
+          <altformavail id="aspace_199fbfc74a89162a768e8e018d2a0f54">
+            <head>Digital Copies</head>
+            <p>These church records were digitized as part of the New England's Hidden Histories
+              project. Digital reproductions are <ref actuate="onrequest"
+                href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Brockton/viewer/Church20records2C2017401805/1"
+                linktitle="available to view online" show="new">available to view online</ref>.</p>
+          </altformavail>
+          <scopecontent id="aspace_b8984d48fedb0534fa1623fcdab3e190">
+            <head>Scope and Contents</head>
+            <p>This volume contains the administrative records of the church and valuable membership
+              records. Included in the volume are meeting minutes, a copy of the church covenant,
+              baptismal records, membership records, records of admission, communion records,
+              disciplinary records, and marriage records.</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_083794c94b1c6a0d1b89629351ec28de" level="item">
+          <did>
+            <unittitle>Church records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1812">1812</fromdate>
+                <todate standarddate="1874">1874</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1812-1874</unitdate>
+            <container id="aspace_23587cb78b3b78acc1c63c3bed703505" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_64f98831d9de26f46e019080b0f6b6a3" localtype="volume"
+              parent="aspace_23587cb78b3b78acc1c63c3bed703505">4</container>
+          </did>
+        </c02>
+        <c02 id="aspace_f44bd9e4a5a8e02984a9f429cbf1639a" level="item">
+          <did>
+            <unittitle>Church records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1874">1874</fromdate>
+                <todate standarddate="1894">1894</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1874-1894</unitdate>
+            <container id="aspace_dfed423167fe409818946e7ff522ddb4" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_fbf6c85c639283fd6d3e564ac02f32ad" localtype="volume"
+              parent="aspace_dfed423167fe409818946e7ff522ddb4">5</container>
+          </did>
+        </c02>
+        <c02 id="aspace_dae8fa42f07ba0ab4d2e4f347d223d62" level="item">
+          <did>
+            <unittitle>Church records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1894">1894</fromdate>
+                <todate standarddate="1914">1914</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1894-1914</unitdate>
+            <container id="aspace_cb56e05f1635f43e2a70592a855bcb75" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_71d0887ddd02519eea0b169aa24a96c8" localtype="volume"
+              parent="aspace_cb56e05f1635f43e2a70592a855bcb75">6</container>
+          </did>
+        </c02>
+        <c02 id="aspace_e273f6a84205113c83eb26705351976e" level="item">
+          <did>
+            <unittitle>Church and parish records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1914">1914</fromdate>
+                <todate standarddate="1922">1922</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1914-1922</unitdate>
+            <container id="aspace_713d36552744d8a3bb85a5cb7a8a4cf1" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_e440b3f9b4d19f3ec261e26eb67eb148" localtype="volume"
+              parent="aspace_713d36552744d8a3bb85a5cb7a8a4cf1">7</container>
+          </did>
+        </c02>
+        <c02 id="aspace_016dd6917944f81836002ba3922bb2ad" level="file">
+          <did>
+            <unittitle>Sermon: Isaiah 60:22 </unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1774">1774</datesingle>
+            </unitdatestructured>
+            <container id="aspace_f23f64e9d635aaef5aa13b9b347410dd" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_4e08472b25aa3d192fa698fcff927d1f" localtype="folder"
+              parent="aspace_f23f64e9d635aaef5aa13b9b347410dd">1</container>
+          </did>
+        </c02>
+        <c02 id="aspace_c51d7d0bc400a86bcdf9ab6c6ef77ce5" level="file">
+          <did>
+            <unittitle>Ecclesiastical council records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1811">1811</fromdate>
+                <todate standarddate="1915">1915</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1811, 1915</unitdate>
+            <container id="aspace_d2c65d761a975461be6f4dacee542975" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_229a6c5b7ae940f6daaded33540da685" localtype="folder"
+              parent="aspace_d2c65d761a975461be6f4dacee542975">2</container>
+          </did>
+        </c02>
+        <c02 id="aspace_fc5eb978756e53376711a9af9a41ffd7" level="file">
+          <did>
+            <unittitle>Membership records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1817">1817</fromdate>
+                <todate standarddate="1962">1962</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1817-1962, undated</unitdate>
+            <container id="aspace_86aaedf3e22c69c6540e7c97ec336f15" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_4e1531b9bd2ff021c636e5ebc48f6a33" localtype="folder"
+              parent="aspace_86aaedf3e22c69c6540e7c97ec336f15">3</container>
+          </did>
+        </c02>
+        <c02 id="aspace_139c66a9f3aee4e09a7c2c86f5113dd6" level="item">
+          <did>
+            <unittitle>Historical sketch and sermon</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1820">1820</fromdate>
+                <todate standarddate="1890">1890</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1820, 1890</unitdate>
+            <container id="aspace_ff64f7bed6deb146b68335aff89f348d" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_2bc440560adbc69f306ed0e5e97181db" localtype="volume"
+              parent="aspace_ff64f7bed6deb146b68335aff89f348d">8</container>
+          </did>
+        </c02>
+        <c02 id="aspace_5d56e8572d55495c7bfe0cec47a3fc24" level="file">
+          <did>
+            <unittitle>Sunday school records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1826">1826</fromdate>
+                <todate standarddate="1860">1860</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1826-1860</unitdate>
+            <container id="aspace_f38b671754a0e1b14a26eb3b1aed343f" label="Mixed Materials"
+              localtype="box">4</container>
+            <container id="aspace_52ba8286246ed88abda920801ba0d057" localtype="folder"
+              parent="aspace_f38b671754a0e1b14a26eb3b1aed343f">1</container>
+          </did>
+        </c02>
+        <c02 id="aspace_73c783058c588b6ec57fcf2ded847f20" level="file">
+          <did>
+            <unittitle>Installation services</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1835">1835</fromdate>
+                <todate standarddate="1922">1922</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1835-1922</unitdate>
+            <container id="aspace_122ee4f19e97e5b9040698856940e68d" label="Mixed Materials"
+              localtype="box">4</container>
+            <container id="aspace_142e83786b7ff46cc4c1bee4b76a4462" localtype="folder"
+              parent="aspace_122ee4f19e97e5b9040698856940e68d">2</container>
+          </did>
+        </c02>
+        <c02 id="aspace_3903055c71b1c1812153a56e3ccb6264" level="file">
+          <did>
+            <unittitle>Historical sketch manuscript</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1847">1847</fromdate>
+                <todate standarddate="1932">1932</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1847, 1932</unitdate>
+            <container id="aspace_dc84adbe947591ae8ca9c5e21347676d" label="Mixed Materials"
+              localtype="box">4</container>
+            <container id="aspace_70b0fba39d8ad80dc51fe4b4ccdf2b34" localtype="folder"
+              parent="aspace_dc84adbe947591ae8ca9c5e21347676d">3</container>
+          </did>
+        </c02>
+        <c02 id="aspace_2763a03a6d6496b40e57e6d5f4c7ebf8" level="file">
+          <did>
+            <unittitle>Building dedication services</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1853">1853</fromdate>
+                <todate standarddate="1967">1967</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1853-1967</unitdate>
+            <container id="aspace_05498857a699ac1f3164c6535eaaebbc" label="Mixed Materials"
+              localtype="box">4</container>
+            <container id="aspace_68e708510aa5e9185b6501c2b75179e1" localtype="folder"
+              parent="aspace_05498857a699ac1f3164c6535eaaebbc">4</container>
+          </did>
+        </c02>
+        <c02 id="aspace_9665e47c33453eeb73f86aedbb57aa4a" level="file">
+          <did>
+            <unittitle>Extracts of church records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1860">1860</datesingle>
+            </unitdatestructured>
+            <container id="aspace_c481fe9ceaa44bf3af9d868fbab5f30f" label="Mixed Materials"
+              localtype="box">4</container>
+            <container id="aspace_19fd6f32cf26ec682ba7425fe30a5ad9" localtype="folder"
+              parent="aspace_c481fe9ceaa44bf3af9d868fbab5f30f">5</container>
+          </did>
+        </c02>
+        <c02 id="aspace_bcc3270d3859b3423b99a5ddf4f7a48b" level="file">
+          <did>
+            <unittitle>Anniversary and memorial services</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1877">1877</fromdate>
+                <todate standarddate="1962">1962</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1877-1962</unitdate>
+            <container id="aspace_1285b1b8bf9c39c162a7bc664423de68" label="Mixed Materials"
+              localtype="box">4</container>
+            <container id="aspace_d3f590df286919842e3e44e137a75bb3" localtype="folder"
+              parent="aspace_1285b1b8bf9c39c162a7bc664423de68">6</container>
+          </did>
+        </c02>
+        <c02 id="aspace_1cd4510e7e3406b7026b53e449ce3cb5" level="file">
+          <did>
+            <unittitle>Rev. Douglas Carlile resignation letter</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1884">1884</datesingle>
+            </unitdatestructured>
+            <container id="aspace_8f1fc5542d93dbd9c7627c6fa79956b9" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_83e006564c2399afcd4900cbaaa86580" localtype="folder"
+              parent="aspace_8f1fc5542d93dbd9c7627c6fa79956b9">4</container>
+          </did>
+          <separatedmaterial id="aspace_7677bc9bb9c29d4198a3dbffb9adbb71">
+            <head>Separated Materials</head>
+            <p>This letter, and related clipping, was removed from the Parish Records,
+              1852-1893.</p>
+          </separatedmaterial>
+        </c02>
+        <c02 id="aspace_a9891775a81b4798e7c569aa538c7acb" level="file">
+          <did>
+            <unittitle>Society and committee reports</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1898">1898</fromdate>
+                <todate standarddate="1912">1912</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1898-1912</unitdate>
+            <container id="aspace_a0a6bc2c4c10bda9daceabad3bef2e59" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_4e06ac63217d75142424244b4cfeb1c0" localtype="folder"
+              parent="aspace_a0a6bc2c4c10bda9daceabad3bef2e59">5</container>
+          </did>
+        </c02>
+        <c02 id="aspace_de27c773e17f835dbe825d3628757f81" level="file">
+          <did>
+            <unittitle>Sunday school reports</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1898">1898</fromdate>
+                <todate standarddate="1912">1912</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1898-1912</unitdate>
+            <container id="aspace_cea0b851d15420daeede423292e9afce" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_ccb735bed381dda4b2ea707f0c86194d" localtype="folder"
+              parent="aspace_cea0b851d15420daeede423292e9afce">6</container>
+          </did>
+        </c02>
+        <c02 id="aspace_ba7402d4c9d9b496f0c4abf87216b3f0" level="file">
+          <did>
+            <unittitle>Historical poem</unittitle>
+            <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+              <quantity>17</quantity>
+              <unittype>Files</unittype>
+            </physdescstructured>
+            <physdesc localtype="container_summary">(9 volumes, 7 folders, 1 reel)</physdesc>
+            <unitdatestructured calendar="gregorian" certainty="inferred" unitdatetype="inclusive">
+              <datesingle standarddate="1905">circa 1905</datesingle>
+            </unitdatestructured>
+            <container id="aspace_e188f9f4493b3c0cc7973992aad24f2c" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_a77055e44c66c0cf06dfaeef98e19f6f" localtype="folder"
+              parent="aspace_e188f9f4493b3c0cc7973992aad24f2c">7</container>
+          </did>
+        </c02>
+        <c02 id="aspace_e9be81c114c3683ef5c5597c2e16f44e" level="file">
+          <did>
+            <unittitle>Alan Hudson manuscript and sermons</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1907">1907</fromdate>
+                <todate standarddate="1914">1914</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1907-1914, undated</unitdate>
+            <container id="aspace_f1860de2e23b53f6790a6dd635ac2ffc" label="Mixed Materials"
+              localtype="box">4</container>
+            <container id="aspace_a081baa6e5054b571aa5ad6ac08a8c2b" localtype="folder"
+              parent="aspace_f1860de2e23b53f6790a6dd635ac2ffc">7</container>
+          </did>
+        </c02>
+        <c02 id="aspace_e6dfd0db8771caca735c181bef343a1b" level="file">
+          <did>
+            <unittitle>Asa Meech research materials</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1941">1941</datesingle>
+            </unitdatestructured>
+            <container id="aspace_03d782693f937565b7b2497d0f33f2b7" label="Mixed Materials"
+              localtype="box">4</container>
+            <container id="aspace_cb28f89a6e492683516daf142bb89bc7" localtype="folder"
+              parent="aspace_03d782693f937565b7b2497d0f33f2b7">8</container>
+          </did>
+        </c02>
+        <c02 id="aspace_3415b733da0821e37b2d5058aaaef196" level="item">
+          <did>
+            <unittitle>Microfilm records: Negative</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1965">1965</datesingle>
+            </unitdatestructured>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1738">1738</fromdate>
+                <todate standarddate="1890">1890</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1738-1890</unitdate>
+            <container id="aspace_a5e87a7dafa75d85df57139e7bcd51a1" label="Microform"
+              localtype="reel">1</container>
+          </did>
+          <originalsloc id="aspace_3434364de19aee225a1a46c670b1e035">
+            <head>Location of Originals</head>
+            <p>This microfilm is a negative copy of records originally held by the First Parish
+              Congregational Church. The physical records on this microfilm are currently held by
+              the Congregational Library &amp; Archives and are a part of this collection.</p>
+          </originalsloc>
+          <scopecontent id="aspace_bce36bd18c9957b31c32d34a55435c6a">
+            <head>Scope and Contents</head>
+            <p>This microfilm contains copies of several record books and documents, all dating from
+              the earliest periods of the church's history. Below is an index of the records
+              included on the reel.</p>
+            <list listtype="ordered" numeration="decimal">
+              <head>Index of Microfilmed Records</head>
+              <item>Church records, 1740-1832</item>
+              <item>Historical sketch and sermon, 1820, 1890</item>
+              <item>Quitclaim deed, 1763</item>
+              <item>Parish records, 1738-1852</item>
+              <item>South Congregational Society records, 1836-1845</item>
+              <item>Plan to award certificates, 1827-1836</item>
+              <item>Names of those who left the society, 1840-1853</item>
+              <item>Names of those who left the parish, 1849-1852</item>
+              <item>Salary receipts of John Porter, 1746-1754</item>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_76284d510a821f76f1536b2f0bcb9fa1" level="item">
+          <did>
+            <unittitle>A Coppying Out</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1980">1980</datesingle>
+            </unitdatestructured>
+            <container id="aspace_13a994429c70c2b35de4444a54bb8815" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_f548008ff3349e56fce18093f4e648e3" localtype="volume"
+              parent="aspace_13a994429c70c2b35de4444a54bb8815">9</container>
+          </did>
+        </c02>
+        <c02 id="aspace_1f71ad9acc2a1b62590168cf34d093ef" level="file">
+          <did>
+            <unittitle>Poems and photographs</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_fef194db6c991c394460e74949eb7bd6" label="Mixed Materials"
+              localtype="box">4</container>
+            <container id="aspace_62b397f3c12f614ee7f95a7e045aa1e5" localtype="folder"
+              parent="aspace_fef194db6c991c394460e74949eb7bd6">9</container>
+          </did>
+          <scopecontent id="aspace_9d82c2844b4e7806e5833c8175f8fedd">
+            <head>Scope and Contents</head>
+            <p>This folder contains a collection of poems and photographs bound together in a sort
+              of scrapbook. The majority of the poems are related to an adjacent photograph. The
+              photographs are all of a single manor and people who either visited or lived there.
+              Unfortunately, the exact location of the manor is unknown as are the identities of the
+              people pictured.</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_3db14d2f4550534217346c1acc4f1c6e" level="file">
+          <did>
+            <unittitle>Sunday school rewards of merit</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_5d44b976e12587f5e20180ae515a6d67" label="Mixed Materials"
+              localtype="box">4</container>
+            <container id="aspace_9b9bf4519b12266cc6c37ad891be883b" localtype="folder"
+              parent="aspace_5d44b976e12587f5e20180ae515a6d67">10</container>
+          </did>
+        </c02>
+      </c01>
+      <c01 id="aspace_0c5ddd6a732191c290a081ee24a72d2a" level="series">
+        <did>
+          <unittitle>Financial and legal records</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>20</quantity>
+            <unittype>Files</unittype>
+          </physdescstructured>
+          <physdesc localtype="container_summary">(4 volumes, 16 folders)</physdesc>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1764">1764</fromdate>
+              <todate standarddate="1965">1965</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1764-1965</unitdate>
+        </did>
+        <scopecontent id="aspace_31e7b5ad778d9e3b98a3dff65c7b2cba">
+          <head>Scope and Contents</head>
+          <p>This series contains the financial and legal records of the church. Included in the
+            materials are financial ledgers, building-specific financial records, pew deeds,
+            assessment and survey results, and legal documents.</p>
+        </scopecontent>
+        <c02 id="aspace_7fb13fe5ef55614810d1b45f60562bea" level="file">
+          <did>
+            <unittitle>Land deeds and lease</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1764">1764</fromdate>
+                <todate standarddate="1854">1854</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1764-1854</unitdate>
+            <container id="aspace_5855cbcf8c4c56e06ecdde6f0aeb461d" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_750c621801bcab1ec72cc78bc9389a18" localtype="folder"
+              parent="aspace_5855cbcf8c4c56e06ecdde6f0aeb461d">1</container>
+          </did>
+        </c02>
+        <c02 id="aspace_c1c32e10ece1523011d6d1d6cdb1e629" level="item">
+          <did>
+            <unittitle>Account book</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1786-">1786-</fromdate>
+                <todate standarddate="1862">1862</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1786-1862</unitdate>
+            <container id="aspace_678649607d5249202d91752265d19251" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_6a978ab571b775464011a708f2b4247d" localtype="volume"
+              parent="aspace_678649607d5249202d91752265d19251">1</container>
+          </did>
+        </c02>
+        <c02 id="aspace_0676c8f47bd56db743b811132d5e7b3d" level="file">
+          <did>
+            <unittitle>Committee payment</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <datesingle standarddate="1817">1817</datesingle>
+            </unitdatestructured>
+            <container id="aspace_cdd491e952405ee417b32eea2db1e937" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_0c6757670efe138cb3602ea3fde8c9d6" localtype="folder"
+              parent="aspace_cdd491e952405ee417b32eea2db1e937">2</container>
+          </did>
+        </c02>
+        <c02 id="aspace_a8f1064cd6a6798d2e4b5cfefafbf8dc" level="file">
+          <did>
+            <unittitle>Incorporation of North Bridgewater</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1818">1818</fromdate>
+                <todate standarddate="1821">1821</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1818-1821</unitdate>
+            <container id="aspace_7d1538813cc76a8917480f1f1ad4b05b" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_054ce8f6312fb838135f49a88178549c" localtype="folder"
+              parent="aspace_7d1538813cc76a8917480f1f1ad4b05b">3</container>
+          </did>
+        </c02>
+        <c02 id="aspace_8186c0545cf015723a396309fd28e8ed" level="file">
+          <did>
+            <unittitle>Pew deeds and sales</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1827">1827</fromdate>
+                <todate standarddate="1942">1942</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1827-1942</unitdate>
+            <container id="aspace_fe9fdee76f7d6e6c938c26b41d285a07" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_caa9958be94c4644947bab791cc6f37b" localtype="folder"
+              parent="aspace_fe9fdee76f7d6e6c938c26b41d285a07">4</container>
+          </did>
+          <separatedmaterial id="aspace_2ca28d4e5b8256209eb44b76f74550b4">
+            <head>Separated Materials</head>
+            <p>Some of the materials present in this folder were removed from the Treasurer's book,
+              1857-1865.</p>
+          </separatedmaterial>
+        </c02>
+        <c02 id="aspace_b1e999b9c6adf7aa0cddc917b37997d8" level="item">
+          <did>
+            <unittitle>Treasurer's book</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1857">1857</fromdate>
+                <todate standarddate="1865">1865</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1857-1865</unitdate>
+            <container id="aspace_a2004f7a4ef96c00717b83422bb13c2d" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_7c7529c11233d4df608f27b77d89fd5c" localtype="volume"
+              parent="aspace_a2004f7a4ef96c00717b83422bb13c2d">2</container>
+          </did>
+        </c02>
+        <c02 id="aspace_7d1e3a35df319fea24bf86cb26e4150d" level="item">
+          <did>
+            <unittitle>Assessor's book</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1860">1860</fromdate>
+                <todate standarddate="1865">1865</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1860-1865</unitdate>
+            <container id="aspace_b1de706d8e8ddd3d3ef923757b8c65ba" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_c739b5d0eef0b525c3a20f4f42afde93" localtype="volume"
+              parent="aspace_b1de706d8e8ddd3d3ef923757b8c65ba">3</container>
+          </did>
+        </c02>
+        <c02 id="aspace_3514165e1730ef00e3a85a1fbe16bdcb" level="file">
+          <did>
+            <unittitle>Building assessment</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <datesingle standarddate="1863">1863</datesingle>
+            </unitdatestructured>
+            <container id="aspace_0da76e5738f45512c5d1b83d3f97ecdb" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_792f8e3b81d177993dbf3aaaa1d3e0d8" localtype="folder"
+              parent="aspace_0da76e5738f45512c5d1b83d3f97ecdb">5</container>
+          </did>
+        </c02>
+        <c02 id="aspace_e1f5836ce81be986a0c02597ebb8b6c1" level="file">
+          <did>
+            <unittitle>Bill payments</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1864">1864</fromdate>
+                <todate standarddate="1865">1865</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1864-1865</unitdate>
+            <container id="aspace_7de8a4ad421b1cd1330668701b3bb784" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_2f29d856d08a52de7a227f16d14e6337" localtype="folder"
+              parent="aspace_7de8a4ad421b1cd1330668701b3bb784">6</container>
+          </did>
+        </c02>
+        <c02 id="aspace_213326f8b1444ee417b6580831e9c39b" level="file">
+          <did>
+            <unittitle>Final wills and testaments</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1871">1871</fromdate>
+                <todate standarddate="1897">1897</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1871-1897</unitdate>
+            <container id="aspace_258fc7bccd5ff45f6e43923accc5cf44" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_a68c8049045bc3453081fbe587b99fef" localtype="folder"
+              parent="aspace_258fc7bccd5ff45f6e43923accc5cf44">7</container>
+          </did>
+        </c02>
+        <c02 id="aspace_771b64853b6d66d7a5129ec07696e74a" level="file">
+          <did>
+            <unittitle>Building contract addendum</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <datesingle standarddate="1895">1895</datesingle>
+            </unitdatestructured>
+            <container id="aspace_40c370552ca92f53978fb29073dee802" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_8bd3acced8258e4d68df867970511bdc" localtype="folder"
+              parent="aspace_40c370552ca92f53978fb29073dee802">8</container>
+          </did>
+        </c02>
+        <c02 id="aspace_aefad9d9bcc59ac0536ebe616e2aade3" level="file">
+          <did>
+            <unittitle>Treasurer's reports</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1898">1898</fromdate>
+                <todate standarddate="1947">1947</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1898-1947</unitdate>
+            <container id="aspace_ad94ec4b488a56908ea61fab56db95fd" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_d9782c7ebe32195a53b28110d8c4f4f5" localtype="folder"
+              parent="aspace_ad94ec4b488a56908ea61fab56db95fd">9</container>
+          </did>
+        </c02>
+        <c02 id="aspace_e4297f9a351e403b3b308faafdbded13" level="file">
+          <did>
+            <unittitle>Deeds and leases</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1904">1904</fromdate>
+                <todate standarddate="1926">1926</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1904-1926</unitdate>
+            <container id="aspace_0887c964a4fa8382d65938cf36303a18" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_508704af4db0b0934fc459a414acef50" localtype="folder"
+              parent="aspace_0887c964a4fa8382d65938cf36303a18">10</container>
+          </did>
+        </c02>
+        <c02 id="aspace_22a79e4292aed3175a800277897cb98d" level="item">
+          <did>
+            <unittitle>Cash book of the Women's Group</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1904">1904</fromdate>
+                <todate standarddate="1933">1933</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1904-1933</unitdate>
+            <container id="aspace_9bb7de6bf2b14cea434899287e75e0d5" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_8be2d57f3c43077263ae6d748529d182" localtype="volume"
+              parent="aspace_9bb7de6bf2b14cea434899287e75e0d5">4</container>
+          </did>
+        </c02>
+        <c02 id="aspace_6bd14ae4ab512a63ec94609f4b6196e4" level="file">
+          <did>
+            <unittitle>Documents of incorporation</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1906">1906</fromdate>
+                <todate standarddate="1914">1914</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1906, 1914</unitdate>
+            <container id="aspace_dd23c1fda4599b6a22da8b103df7285d" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_c80a681c4d5dc1314706b1c9c5e6ecb0" localtype="folder"
+              parent="aspace_dd23c1fda4599b6a22da8b103df7285d">11</container>
+          </did>
+        </c02>
+        <c02 id="aspace_4e4207ca313c290375a57ea9bd859e7e" level="file">
+          <did>
+            <unittitle>James A. Roarty lawsuit documents</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1914">1914</fromdate>
+                <todate standarddate="1917">1917</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1914-1917</unitdate>
+            <container id="aspace_8c6804f3563bb427c90a2f5bb6092b43" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_2409a72d9d95d3346eab73cdfe8a3372" localtype="folder"
+              parent="aspace_8c6804f3563bb427c90a2f5bb6092b43">12</container>
+          </did>
+        </c02>
+        <c02 id="aspace_65eb166649cb1921333be1f91908452f" level="file">
+          <did>
+            <unittitle>Insurance letter</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <datesingle standarddate="1918">1918</datesingle>
+            </unitdatestructured>
+            <container id="aspace_cac20f24e38de15a1d1382f719515dcd" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_4e41ed18b4cfe29df497446077f5615b" localtype="folder"
+              parent="aspace_cac20f24e38de15a1d1382f719515dcd">13</container>
+          </did>
+        </c02>
+        <c02 id="aspace_61f1723690f3fd12c8d38988a8f95f87" level="file">
+          <did>
+            <unittitle>Agreement with F. C. Wiedemann</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <datesingle standarddate="1965">1965</datesingle>
+            </unitdatestructured>
+            <container id="aspace_f05c9eb2c01dc816a108dc269a0ff4c7" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_88e9bb112320991acc596ce703914645" localtype="folder"
+              parent="aspace_f05c9eb2c01dc816a108dc269a0ff4c7">14</container>
+          </did>
+        </c02>
+        <c02 id="aspace_988f33a0711d459ff0022a636b5bd326" level="file">
+          <did>
+            <unittitle>Estate assessment</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_5b593819501866aead2f5768e6167151" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_cd9cb8a61ef98d73b5092f9b9ff547fe" localtype="folder"
+              parent="aspace_5b593819501866aead2f5768e6167151">15</container>
+          </did>
+        </c02>
+        <c02 id="aspace_2086effcc6cc413b48cf5f37f12eef36" level="file">
+          <did>
+            <unittitle>Land surveys</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_aeb887c1a02a26f144eb7ddc87cf0bc2" label="Mixed Materials"
+              localtype="box">4</container>
+            <container id="aspace_98a3c7e3b99026a8f926385219202df0" localtype="folder"
+              parent="aspace_aeb887c1a02a26f144eb7ddc87cf0bc2">11</container>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
