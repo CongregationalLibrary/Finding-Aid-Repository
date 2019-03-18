@@ -1,0 +1,1296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid instanceurl="">BrocktonMAPorter-5395</recordid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Brockton, Mass. Porter Congregational Church, 1800-1979. </titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2019-03-18</date>
+        <num>RG5395</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS2 - 2013</abbr>
+      <citation>Describing Archives: A Content Standard, Second Edition</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2019-03-18T18:45:37+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Monday March 18, 2019
+          at 18:45</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Brockton, Mass. Porter Congregational Church, 1800-1979.</unittitle>
+      <unitid>RG5395</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>2.01</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(4 boxes)</physdesc>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1800">1800</fromdate>
+          <todate standarddate="1979">1979</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" unitdatetype="inclusive">1800-1979</unitdate>
+      <abstract id="aspace_0f27e96eee05d416b109ac7245e054b2">The Porter Evangelical Church in North
+        Bridgewater, later the Porter Congregational Church in Brockton, was established in 1850 by
+        members who left the First Parish Congregational Church over ecclesiastical differences. The
+        church purchased a building just north of the First Parish Congregational Church in 1851 and
+        the building was further renovated in 1883, 1925, and 1950. The Wendell Avenue Church and
+        Waldo Congregational Church were both formed out of area missions administered by the Porter
+        Church. In 1980, the Porter Congregational Church merged with the First Parish
+        Congregational Church, South Congregational Church, and Waldo Congregational Church to form
+        the Christ Congregational Church in Brockton. This collection contains the administrative,
+        financial, historical, and ministerial records of the Porter Congregational Church, as well
+        as the records of many church groups. Included in the collection are vital membership
+        records, church and society records, committee and group records, and
+        correspondence.</abstract>
+      <origination label="creator">
+        <corpname identifier="n95089828" source="lcnaf">
+          <part>Porter Congregational Church (Montello, Brockton, Mass.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_dadd9ed18f1cdb75691357b61f012462">
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_628835cb07dfa83081d37f75ae98c3d5">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite id="aspace_66e7cd0206fc3cec92fa798958ce240a">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Brockton, Mass. Porter Congregational Church, 1800-1979,
+        RG5395. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_4ddd6daa9ffdabeaf045cbe4738c41eb">
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by the Porter
+        Congregational Church in 1980. Materials were sepparated out of RG0037 in March, 2019;
+        Accession 2019-04.</p>
+    </acqinfo>
+    <processinfo id="aspace_5be588eed94e99b0022ba6bd084ea3be">
+      <head>Processing Information</head>
+      <p>Originally processed by Sandra Sudak in 1990. Additional descriptions by Jessica Steytler
+        in 2002 and 2006. Fully reprocessed and redescribed by Zachary Bodnar, March 2019, using
+        DACS Second Edition.</p>
+    </processinfo>
+    <bioghist id="aspace_843f08c44f72c925d52610daf5b2e18b">
+      <head>Historical Note</head>
+      <p>During the 1840s, Rev. Paul Couch, minister at the First Parish Congregational Church in
+        North Bridgewater, began to liberalize some of the more traditional teachings and traditions
+        of the church. In response, some members of the church called for Rev. Couch to resign. Over
+        the course of two years between 1948 and 1950, members of the liberal and orthodox wings of
+        the church debated over Rev. Couche's position. Ultimately Rev. Couch did not resign and his
+        continued service was maintained by the church. In response, approximately 70 names of
+        persons interested in forming a new church were collected on February 12, 1850. An
+        ecclesiastical council was called for March 6 and from that meeting the Porter Evangelical
+        Church was formally gathered. John F. Norton was installed as the first minister of the
+        church and stayed for a year. In 1852, Charles L. Mills was installed as pastor.</p>
+      <p>The newly formed congregation initially met at Tyler Cobb's Hall; their first meeting was
+        held on March 10, 1850. In order to purchase land for a church, the Porter Society was
+        formed on March 20, 1850. In 1851 the society purchased and renovated an old building on
+        Main Street just north of the First Parish Congregational Church. In 1869 the top of the
+        church spire was destroyed during a wind storm. The steeple was repaired in 1883 while the
+        church itself underwent a major renovation and expansion project.</p>
+      <p>The Church Work Committee was formed in 1885. Its initial function was to assist the pastor
+        and provide help to the Porter Church's parishioners. However that mission quickly expanded
+        to include the management of Brockton area missions to provide sanctuary spaces for poor and
+        disenfranchised citizens in the north-east of Brockton. Out of that mission both the Wendell
+        Avenue Church, which began as the Wendell Avenue Chapel, and the Waldo Congregational
+        Church, which began as the Montello Mission, were established in the mid-1890s.</p>
+      <p>At some point in the mid-1910s, the church name changed to The Porter Congregational
+        Church. The church building was again renovated in 1925 as part of planned anniversary
+        activities. The renovation also included the construction of a new steeple. The renovations
+        also included the construction of a multi-purpose recreational building behind the church.
+        There were further renovations completed in 1950 as part of the centennial celebrations. In
+        1980, the Porter Congregational Church merged with the First Parish Congregational Church,
+        South Congregational Church, and Waldo Congregational Church to form the Christ
+        Congregational Church in Brockton. The Porter Congregational Church building is now the
+        headquarters for the Keys of The Kingdom Tabernacle of Prayer For All People,
+        International.</p>
+    </bioghist>
+    <scopecontent id="aspace_c1aad85dedfda1ac4d2a418ed963d88c">
+      <head>Scope and Contents</head>
+      <p>This collection contains the administrative, financial, historical, and ministerial records
+        of the Porter Congregational Church, as well as the records of many church groups. The
+        records also provide valuable context for the creation of the church out of a doctrinal
+        dispute with the First Parish Congregational Church. Included in the records are record
+        books of the church and parish, vital member records, financial records, records relating to
+        the construction of the church, records of various church groups and the Sunday school,
+        orders of worship, and ministerial correspondence.</p>
+    </scopecontent>
+    <arrangement id="aspace_1221448be2093b888ca50704ae7d6aab">
+      <head>Arrangement</head>
+      <p>This collection has been arranged into the four series listed below. Within each series,
+        materials have been arranged, primarily, in chronological order by start date, and
+        secondarily, by topic.</p>
+      <p><emph render="bold">Series 1:</emph> Church and society records, 1847-1979</p>
+      <p><emph render="bold">Series 2:</emph> Financial and building records, 1800-1960</p>
+      <p><emph render="bold">Series 3:</emph> Church committee and group records, 1850-1923</p>
+      <p><emph render="bold">Series 4:</emph> Ministerial records and church services, 1800-1950</p>
+    </arrangement>
+    <relatedmaterial id="aspace_7b0e2d1c3f88b077fc7523387ac4b6ac">
+      <head>Related Materials</head>
+      <p>In 1980, the First Parish Congregational, South Congregational, Porter Congregational, and
+        Waldo Congregational Churchs merged into a single entity, the Christ Congregational Church.
+        The records of all four churches are held at the Congregational Library &amp; Archives:</p>
+      <p>Brockton, Mass. First Parish Congregational Church records, 1738-1980.</p>
+      <p>Brockton, Mass. South Congregational Church, 1835-1979.</p>
+      <p>Brockton, Mass. Waldo Congregational Church, 1896-1980.</p>
+    </relatedmaterial>
+    <bibliography id="aspace_3a56966ec65a8649cf2a6027fe7aff33">
+      <head>Bibliography</head>
+      <p><emph>The book of the Chronicles of the Porter Congregational Church on the occasion of the
+          One-Hundredth Anniversary 1950</emph>. Brockton: 1950. 17.11.1 B78.33 ChrCC</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh89000863" source="lcsh">
+        <part>Church bells.</part>
+      </subject>
+      <subject identifier="sh85025606" source="lcsh">
+        <part>Church finance.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Church group work.</part>
+      </subject>
+      <subject identifier="sh85076552" source="lcsh">
+        <part>Church libraries.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85066724" source="lcsh">
+        <part>Installation (clergy).</part>
+      </subject>
+      <subject identifier="sh85100506" source="lcsh">
+        <part>Pews and pew rights.</part>
+      </subject>
+      <subject identifier="sh2004003837" source="lcsh">
+        <part>Sunday school music.</part>
+      </subject>
+      <subject identifier="sh85130529" source="lcsh">
+        <part>Sunday schools -- Records.</part>
+      </subject>
+      <subject identifier="sh85147343" source="lcsh">
+        <part>Women -- Societies and clubs.</part>
+      </subject>
+      <corpname identifier="n80113521" source="lcnaf">
+        <part>Brockton (Mass.) -- Church history.</part>
+      </corpname>
+      <corpname identifier="n95089828" source="lcnaf">
+        <part>Porter Congregational Church (Montello, Brockton, Mass.)</part>
+      </corpname>
+      <corpname identifier="n95089783" source="lcnaf">
+        <part>Montello (Brockton, Mass.) -- Church history.</part>
+      </corpname>
+      <corpname identifier="n80113522" source="lcnaf">
+        <part>North Bridgewater (Mass.) -- Church history.</part>
+      </corpname>
+      <corpname identifier="n95089834" source="lcnaf">
+        <part>Waldo Congregational Church (Brockton, Mass.)</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>Wendell Avenue Congregational Church (Brockton, Mass.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_2309be0b2405eb78e3ec157b17720da2" level="series">
+        <did>
+          <unittitle>Church and society records</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>21</quantity>
+            <unittype>Files</unittype>
+          </physdescstructured>
+          <physdesc localtype="container_summary">(8 volumes, 13 folders)</physdesc>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1847">1847</fromdate>
+              <todate standarddate="1979">1979</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1847-1979</unitdate>
+        </did>
+        <scopecontent id="aspace_f8f57a036dfb1f7bc6bd1291cf8a0692">
+          <head>Scope and Contents</head>
+          <p>This series contains the administrative records of both the church and parish, as well
+            as vital membership records. Included in the series are record books for the church and
+            parish that contain meeting minutes, records of votes, and membership records. Also
+            included in the series are the records of the standing committee, annual reports,
+            historical sketches, clippings, and records related to the genesis of the Porter
+            Congregational Church.</p>
+        </scopecontent>
+        <c02 id="aspace_de42802d80b10ec6bbbed56aa151699b" level="file">
+          <did>
+            <unittitle>Sepparation documents</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1847">1847</fromdate>
+                <todate standarddate="1848">1848</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1847-1848</unitdate>
+            <container id="aspace_3004f42a4dc54a60fa2b1c6a7210c81f" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_1973739e38682a035461dc59535b0bf3" localtype="folder"
+              parent="aspace_3004f42a4dc54a60fa2b1c6a7210c81f">1</container>
+          </did>
+        </c02>
+        <c02 id="aspace_3a64e39675f9683ad5ee9bf3893c7158" level="file">
+          <did>
+            <unittitle>Church and parish records</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1850">1850</fromdate>
+                <todate standarddate="1860">1860</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1850-1860</unitdate>
+            <container id="aspace_4bb83db100362cb77491065388e17e2c" label="Mixed Materials"
+              localtype="box">4</container>
+            <container id="aspace_28930927baad904103eb522089b02aa4" localtype="folder"
+              parent="aspace_4bb83db100362cb77491065388e17e2c">1</container>
+          </did>
+        </c02>
+        <c02 id="aspace_8828ce56d9bd4e3d696c5212a1ecb15e" level="file">
+          <did>
+            <unittitle>Photostat church records</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1850">1850</fromdate>
+                <todate standarddate="1861">1861</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1850-1861</unitdate>
+            <container id="aspace_716b805f6bec852bbe0d5e7bf118ba10" label="Mixed Materials"
+              localtype="box">4</container>
+            <container id="aspace_78d9c78c88fc9cf41a373732b1f4a547" localtype="folder"
+              parent="aspace_716b805f6bec852bbe0d5e7bf118ba10">2</container>
+          </did>
+        </c02>
+        <c02 id="aspace_a162f095d08b1d91c03e9e0debf1607d" level="item">
+          <did>
+            <unittitle>Church records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1850">1850</fromdate>
+                <todate standarddate="1886">1886</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1850-1886</unitdate>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1850">1850</fromdate>
+                <todate standarddate="1929">1929</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1850-1929</unitdate>
+            <container id="aspace_c665d1bdd9947a14e11d8c0adc7560e1" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_4e08eec750f7fcdc93d7aa26278c1ba5" localtype="volume"
+              parent="aspace_c665d1bdd9947a14e11d8c0adc7560e1">1</container>
+          </did>
+        </c02>
+        <c02 id="aspace_5b3c6252e26b9dea41d02a6954450c99" level="item">
+          <did>
+            <unittitle>Church records</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1886">1886</fromdate>
+                <todate standarddate="1906">1906</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1886-1906</unitdate>
+            <container id="aspace_88d1f7456228232ccb72a73d27dcd203" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_cf8df7a9c586e748f2a0c8b6808cba88" localtype="volume"
+              parent="aspace_88d1f7456228232ccb72a73d27dcd203">2</container>
+          </did>
+        </c02>
+        <c02 id="aspace_c7a6976e89464e7336ddea921a00dbca" level="item">
+          <did>
+            <unittitle>Society records</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1850">1850</fromdate>
+                <todate standarddate="1875">1875</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1850-1875</unitdate>
+            <container id="aspace_bb2f791081e042eae1cf43011ddd66cc" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_c3e7686a06e53ee7c9bd9d1ed2c735ee" localtype="volume"
+              parent="aspace_bb2f791081e042eae1cf43011ddd66cc">3</container>
+          </did>
+        </c02>
+        <c02 id="aspace_a6f9983bb7f98e24acd86ff0eb1624d6" level="file">
+          <did>
+            <unittitle>Correspondence</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1850">1850</fromdate>
+                <todate standarddate="1939">1939</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1850-1939</unitdate>
+            <container id="aspace_b246bbf1765fe0cc0438fb2098e02be5" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_f4248f6dd4a925ddd3ab18afeff39af4" localtype="folder"
+              parent="aspace_b246bbf1765fe0cc0438fb2098e02be5">2</container>
+          </did>
+        </c02>
+        <c02 id="aspace_4feda2997ecc23f7b7ea0f30fafd0cd3" level="file">
+          <did>
+            <unittitle>Doctrinal pamphlets</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1856">1856</fromdate>
+                <todate standarddate="1872">1872</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1856-1872</unitdate>
+            <container id="aspace_c04a745f97c962218d8e947dcaabc42e" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_e05673c3f4a5f7e3ae9cff3ef262ac3b" localtype="folder"
+              parent="aspace_c04a745f97c962218d8e947dcaabc42e">3</container>
+          </did>
+        </c02>
+        <c02 id="aspace_1174143c124109f7d6ec1e69093c7749" level="file">
+          <did>
+            <unittitle>Clippings</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1876">1876</fromdate>
+                <todate standarddate="1971">1971</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1876-1971</unitdate>
+            <container id="aspace_cdf4b4e2870f2716d1ee7dfeef35a662" label="Mixed Materials"
+              localtype="box">4</container>
+            <container id="aspace_8dc341a4455f83276aa292846c43c195" localtype="folder"
+              parent="aspace_cdf4b4e2870f2716d1ee7dfeef35a662">3</container>
+          </did>
+        </c02>
+        <c02 id="aspace_fdb3a3967257ca36d485971316a6f1db" level="item">
+          <did>
+            <unittitle>Standing Committee records</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1887">1887</fromdate>
+                <todate standarddate="1901">1901</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1887-1901</unitdate>
+            <container id="aspace_54a4741ee47c70971229c2a8d2fba025" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_97b5f5d1ee2deeeed020d5ba271f3399" localtype="volume"
+              parent="aspace_54a4741ee47c70971229c2a8d2fba025">5</container>
+          </did>
+        </c02>
+        <c02 id="aspace_1ad419a04ac665131e4a52da7e061509" level="item">
+          <did>
+            <unittitle>Standing Committee records</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1901">1901</fromdate>
+                <todate standarddate="1910">1910</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1901-1910</unitdate>
+            <container id="aspace_90b9313eafa351fe443b5d5e12e18b46" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_41cff99d387902721d92b4d7cc56b47a" localtype="volume"
+              parent="aspace_90b9313eafa351fe443b5d5e12e18b46">6</container>
+          </did>
+        </c02>
+        <c02 id="aspace_8bc62173d955948d66802ae54cc135dc" level="item">
+          <did>
+            <unittitle>Standing Committee records</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1911">1911</fromdate>
+                <todate standarddate="1923">1923</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1911-1923</unitdate>
+            <container id="aspace_597f26b0818233ad85ff5498ab94b954" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_57728d0dac683e2e3554ed661f72b285" localtype="volume"
+              parent="aspace_597f26b0818233ad85ff5498ab94b954">7</container>
+          </did>
+        </c02>
+        <c02 id="aspace_72066c4b1acc13658e958c18fa3c2ff1" level="item">
+          <did>
+            <unittitle>Standing Committee records</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1923">1923</fromdate>
+                <todate standarddate="1930">1930</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1923-1930</unitdate>
+            <container id="aspace_bfb1ffbf83ca981efa38684b2aeb9eac" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_9091d552a17c2ccac281d4f8fd910b91" localtype="volume"
+              parent="aspace_bfb1ffbf83ca981efa38684b2aeb9eac">8</container>
+          </did>
+        </c02>
+        <c02 id="aspace_1b47888a03b7a0fcdbd467950b4f365d" level="item">
+          <did>
+            <unittitle>Register of members</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1887">1887</fromdate>
+                <todate standarddate="1929">1929</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1887-1929</unitdate>
+            <container id="aspace_5d94a83aa6e2e157c3338d02cfa57bde" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_fe00eafddfc4984f5175dedc257aa920" localtype="volume"
+              parent="aspace_5d94a83aa6e2e157c3338d02cfa57bde">9</container>
+          </did>
+        </c02>
+        <c02 id="aspace_67ae6ffb5f9f80c74735e607d2042308" level="file">
+          <did>
+            <unittitle>Annual reports</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <datesingle standarddate="1892">1892</datesingle>
+            </unitdatestructured>
+            <container id="aspace_785875af4a98d654ea4ebfd3936910ab" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_753f75592a36b736f0b4988ae75e32c1" localtype="folder"
+              parent="aspace_785875af4a98d654ea4ebfd3936910ab">4</container>
+          </did>
+        </c02>
+        <c02 id="aspace_d1f69b4a768b771fb66d229368670bd0" level="file">
+          <did>
+            <unittitle>75th anniversary time capsul signatures</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <datesingle standarddate="1925">1925</datesingle>
+            </unitdatestructured>
+            <container id="aspace_87430aa66464edcaf3ff555aed83a539" label="Mixed Materials"
+              localtype="box">4</container>
+            <container id="aspace_f934a7cbc8d26575374b18ea27d28ddf" localtype="folder"
+              parent="aspace_87430aa66464edcaf3ff555aed83a539">4</container>
+          </did>
+        </c02>
+        <c02 id="aspace_8c3e7ec9b1d2c7f5e25771b7c15cfceb" level="file">
+          <did>
+            <unittitle>Historical sketches</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1925">1925</fromdate>
+                <todate standarddate="1975">1975</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1925, 1975</unitdate>
+            <container id="aspace_e19e5f16b690fa4ed36bb33677c13d21" label="Mixed Materials"
+              localtype="box">4</container>
+            <container id="aspace_47dd5ad752e082de7c659d5835581af5" localtype="folder"
+              parent="aspace_e19e5f16b690fa4ed36bb33677c13d21">5</container>
+          </did>
+        </c02>
+        <c02 id="aspace_bd23458b09168a852a14223f452ea433" level="file">
+          <did>
+            <unittitle>Annual reports</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1969">1969</fromdate>
+                <todate standarddate="1974">1974</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1969-1974</unitdate>
+            <container id="aspace_74add8b8f1489d68b9c1484660d16221" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_e0966f8386d46a495a41612571da47d7" localtype="folder"
+              parent="aspace_74add8b8f1489d68b9c1484660d16221">5</container>
+          </did>
+        </c02>
+        <c02 id="aspace_30592eac276babb6532922dc61231039" level="file">
+          <did>
+            <unittitle>Annual reports</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1975">1975</fromdate>
+                <todate standarddate="1979">1979</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1975-1979</unitdate>
+            <container id="aspace_3a78332852b19bc7be537d8f70779009" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_83d736437fe844ae7e9e3730db89d67b" localtype="folder"
+              parent="aspace_3a78332852b19bc7be537d8f70779009">6</container>
+          </did>
+        </c02>
+        <c02 id="aspace_6b0a48f284d56154b1853e2b52db55b1" level="file">
+          <did>
+            <unittitle>Membership lists</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_385142bb265a72906cd70dfa5a333870" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_e4f614edb0ca820ee3ed4ecc7a98a443" localtype="folder"
+              parent="aspace_385142bb265a72906cd70dfa5a333870">7</container>
+          </did>
+        </c02>
+        <c02 id="aspace_fae4e59072baba0059a2c3e603ff9b3d" level="file">
+          <did>
+            <unittitle>Constitution and by-laws</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_062d1f669fab83015cd86d6c69f3be35" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_9cab56b1893fc8f2ef4d659ea5b90674" localtype="folder"
+              parent="aspace_062d1f669fab83015cd86d6c69f3be35">8</container>
+          </did>
+        </c02>
+      </c01>
+      <c01 id="aspace_64247fa89d445a0f66f405fb38a15509" level="series">
+        <did>
+          <unittitle>Financial and building records</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>11</quantity>
+            <unittype>Files</unittype>
+          </physdescstructured>
+          <physdesc localtype="container_summary">(1 volume, 10 folders)</physdesc>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1800">1800</fromdate>
+              <todate standarddate="1960">1960</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1800-1960</unitdate>
+        </did>
+        <scopecontent id="aspace_c6fefbc07d20df14490d1a868119e0da">
+          <head>Scope and Contents</head>
+          <p>This series contains records relating to the finances of the church as well as the
+            records relating to construction and maintenance of the church building. Included in the
+            series are financial ledgers, pew records, architectural drawings, and in-depth accounts
+            of the money spent and collected to build the church building.</p>
+        </scopecontent>
+        <c02 id="aspace_98b92ee180129719dd115029a41a5016" level="file">
+          <did>
+            <unittitle>Memorial gifts</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1800">1800</fromdate>
+                <todate standarddate="1950">1950</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1800-1950</unitdate>
+            <container id="aspace_ce2079c25937873bb611608a8233cbce" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_ae7b233c08ef2e612887baac6b70a0f6" localtype="folder"
+              parent="aspace_ce2079c25937873bb611608a8233cbce">1</container>
+          </did>
+        </c02>
+        <c02 id="aspace_8ab80116df9c4224d2dc0282ff22d900" level="file">
+          <did>
+            <unittitle>Pew deeds</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1827">1827</fromdate>
+                <todate standarddate="1851">1851</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1827-1851</unitdate>
+            <container id="aspace_49a1c1280fca9b1902a6dac58708a069" label="Mixed Materials"
+              localtype="box">4</container>
+            <container id="aspace_35406cae259efae41409d4423eb7a242" localtype="folder"
+              parent="aspace_49a1c1280fca9b1902a6dac58708a069">6</container>
+          </did>
+        </c02>
+        <c02 id="aspace_0b30303c8698046ec4645f85bbfada53" level="item">
+          <did>
+            <unittitle>Treasurer's book</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1850">1850</fromdate>
+                <todate standarddate="1877">1877</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1850-1877</unitdate>
+            <container id="aspace_df3a62eb109bed9472ac27b681eb1159" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_27ed3d21e497068238c902c3ea501228" localtype="volume"
+              parent="aspace_df3a62eb109bed9472ac27b681eb1159">4</container>
+          </did>
+        </c02>
+        <c02 id="aspace_eab908da07f363b359190adae0094243" level="file">
+          <did>
+            <unittitle>Building committee records</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1850">1850</fromdate>
+                <todate standarddate="1852">1852</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1850-1852</unitdate>
+            <container id="aspace_67896e1be39069b1be9e7d8aecc0c990" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_b1259be31131398c217e63dc69eacfe4" localtype="folder"
+              parent="aspace_67896e1be39069b1be9e7d8aecc0c990">2</container>
+          </did>
+        </c02>
+        <c02 id="aspace_243a2382569569d427e165b8bbc53783" level="file">
+          <did>
+            <unittitle>Construction account book</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <datesingle standarddate="1850">1850</datesingle>
+            </unitdatestructured>
+            <container id="aspace_475e789a5d748b74e2b2eb1900c4d16f" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_8d5bb6aacc8fcbf4b8eb369d810bea1e" localtype="folder"
+              parent="aspace_475e789a5d748b74e2b2eb1900c4d16f">3</container>
+          </did>
+        </c02>
+        <c02 id="aspace_66ebc6ebc0c6a595c574e7dec51089d3" level="file">
+          <did>
+            <unittitle>Construction bills and receipts</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1850">1850</fromdate>
+                <todate standarddate="1851">1851</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1850-1851</unitdate>
+            <container id="aspace_6636d15b3998e8d322376aa31204b1a8" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_0b9b3859ea1117132f6f0167e3c1e2f1" localtype="folder"
+              parent="aspace_6636d15b3998e8d322376aa31204b1a8">4</container>
+          </did>
+        </c02>
+        <c02 id="aspace_57543964641659f360128534adb2aa1c" level="file">
+          <did>
+            <unittitle>Account of contributions</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1850">1850</fromdate>
+                <todate standarddate="1852">1852</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1850-1852</unitdate>
+            <container id="aspace_767332e22b5bcef2467bd2ea23a3cdcc" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_8b1efb5e68b1424b30239af9d81251dc" localtype="folder"
+              parent="aspace_767332e22b5bcef2467bd2ea23a3cdcc">5</container>
+          </did>
+        </c02>
+        <c02 id="aspace_3359a30716621b5de462e8a4e6704c7b" level="file">
+          <did>
+            <unittitle>Purchase of bell</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1850">1850</fromdate>
+                <todate standarddate="1854">1854</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1850-1854</unitdate>
+            <container id="aspace_596b720c8ef0194f16c7801eeff5b476" label="Mixed Materials"
+              localtype="box">4</container>
+            <container id="aspace_356d80d83ebd2b9497dc266752a896e2" localtype="folder"
+              parent="aspace_596b720c8ef0194f16c7801eeff5b476">7</container>
+          </did>
+        </c02>
+        <c02 id="aspace_6dda9e53af3fb758eae58fdc2bb6614e" level="file">
+          <did>
+            <unittitle>Pew plan</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <datesingle standarddate="1851">1851</datesingle>
+            </unitdatestructured>
+            <container id="aspace_b5b99f2b224105e7e70ec19aa9b0faa0" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_cebb1473adb79293761b8c7d0819442a" localtype="folder"
+              parent="aspace_b5b99f2b224105e7e70ec19aa9b0faa0">6</container>
+          </did>
+        </c02>
+        <c02 id="aspace_bb2ad3f2f0ab82b0a9adcf4a4e1175d9" level="file">
+          <did>
+            <unittitle>Financial records</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1857">1857</fromdate>
+                <todate standarddate="1960">1960</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1857-1960</unitdate>
+            <container id="aspace_c2706d9ca89c0ec6bdb5e8b4d36b688d" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_da7804762095ac16a6b6452d8768f734" localtype="folder"
+              parent="aspace_c2706d9ca89c0ec6bdb5e8b4d36b688d">7</container>
+          </did>
+        </c02>
+        <c02 id="aspace_d350695326069124ed059f48f478f735" level="file">
+          <did>
+            <unittitle>Porter tower drawings</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_1f5292968d2b6dace41990a08abfc2a5" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_0efa4f763805231cd312996205539474" localtype="folder"
+              parent="aspace_1f5292968d2b6dace41990a08abfc2a5">8</container>
+          </did>
+        </c02>
+      </c01>
+      <c01 id="aspace_66c6982dd96c1a0aac18f10040cf11a4" level="series">
+        <did>
+          <unittitle>Church committee and group records</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>20</quantity>
+            <unittype>Files</unittype>
+          </physdescstructured>
+          <physdesc localtype="container_summary">(13 volumes, 7 folders)</physdesc>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1850">1850</fromdate>
+              <todate standarddate="1923">1923</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1850-1923</unitdate>
+        </did>
+        <scopecontent id="aspace_aa466800c6c4551b9a8e1ed387133e31">
+          <head>Scope and Contents</head>
+          <p>This series contains the operational records of church groups and non-governing church
+            committees. Also included in the series are records relating to the church's Sunday
+            school.</p>
+        </scopecontent>
+        <c02 id="aspace_93e1ef48d63b5b01a049552b64024758" level="file">
+          <did>
+            <unittitle>Society for Parish Affairs and Business</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <datesingle standarddate="1850">1850</datesingle>
+            </unitdatestructured>
+            <container id="aspace_e47740d14d5d1fe38cab6f80dfae00eb" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_26d890b6d96f928919659ef3e731091d" localtype="folder"
+              parent="aspace_e47740d14d5d1fe38cab6f80dfae00eb">9 </container>
+          </did>
+        </c02>
+        <c02 id="aspace_d51fcce61362433be8baff8337fb375f" level="item">
+          <did>
+            <unittitle>Porter Female Association records</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1850">1850</fromdate>
+                <todate standarddate="1885">1885</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1850-1885</unitdate>
+            <container id="aspace_d0d4be7366800f591b0bb1a7648ef679" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_dbf28cbc47d8b96064efbd6ce81d256b" localtype="volume"
+              parent="aspace_d0d4be7366800f591b0bb1a7648ef679">10</container>
+          </did>
+        </c02>
+        <c02 id="aspace_600a6b0d1b5d485282207c284341e051" level="item">
+          <did>
+            <unittitle>Ladies Benevolent Society records</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1886">1886</fromdate>
+                <todate standarddate="1900">1900</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1886-1900</unitdate>
+            <container id="aspace_41de8de5b47fdd55138091fa2bfbda60" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_4217962271fa145034b8f6d5337ed134" localtype="volume"
+              parent="aspace_41de8de5b47fdd55138091fa2bfbda60">11</container>
+          </did>
+        </c02>
+        <c02 id="aspace_7a6a7a37ae64df6c033729af2c5fb4ca" level="item">
+          <did>
+            <unittitle>Woman's Missionary Society records</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1874">1874</fromdate>
+                <todate standarddate="1880">1880</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1874-1880</unitdate>
+            <container id="aspace_e165ad9cf3b76006bf993e22cbf33649" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_a1fb69f32054f96f6c4f8a7638aeae5a" localtype="volume"
+              parent="aspace_e165ad9cf3b76006bf993e22cbf33649">18</container>
+          </did>
+        </c02>
+        <c02 id="aspace_c1058cce6fcbbdcdc96bbd59fcf24344" level="item">
+          <did>
+            <unittitle>Woman's Missionary Society records</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1880">1880</fromdate>
+                <todate standarddate="1887">1887</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1880-1887</unitdate>
+            <container id="aspace_a70f8be7bdc136e70a420d079fc306c0" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_dc4aa8eda2398d134beb5f606b4c4a83" localtype="volume"
+              parent="aspace_a70f8be7bdc136e70a420d079fc306c0">19</container>
+          </did>
+        </c02>
+        <c02 id="aspace_569de4f635ab4c9da3217748d5791337" level="item">
+          <did>
+            <unittitle>Woman's Missionary Society records</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1887">1887</fromdate>
+                <todate standarddate="1891">1891</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1887-1891</unitdate>
+            <container id="aspace_2c09f00f1982de3c917d2c47e873d6c7" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_9cfd2f3e1ce52be7afc986e9fe801bbc" localtype="volume"
+              parent="aspace_2c09f00f1982de3c917d2c47e873d6c7">1</container>
+          </did>
+        </c02>
+        <c02 id="aspace_f7d07ea054e28720534ad355b910e7e2" level="item">
+          <did>
+            <unittitle>Woman's Missionary Society records</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1891">1891</fromdate>
+                <todate standarddate="1899">1899</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1891-1899</unitdate>
+            <container id="aspace_e65dc739cefd078c5f5b6cb5c45a5d4c" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_fe58261d41a052702fa519fb789d8b03" localtype="volume"
+              parent="aspace_e65dc739cefd078c5f5b6cb5c45a5d4c">2</container>
+          </did>
+        </c02>
+        <c02 id="aspace_767605acbdd04126a434b996cc5de126" level="item">
+          <did>
+            <unittitle>Woman's Missionary Society records</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1894">1894</fromdate>
+                <todate standarddate="1904">1904</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1894-1904</unitdate>
+            <container id="aspace_c84b810b8fde15ce22d2f9e462c65aca" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_98938aae30c1a334e822d9b8085990a0" localtype="volume"
+              parent="aspace_c84b810b8fde15ce22d2f9e462c65aca">3</container>
+          </did>
+        </c02>
+        <c02 id="aspace_316c5cbd2668eb318522ce4910cd8f6a" level="file">
+          <did>
+            <unittitle>Constitution and by-laws of the sunday school</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1877">1877</datesingle>
+            </unitdatestructured>
+            <container id="aspace_752c9dc6e50fba7738198fd0da93398a" label="Mixed Materials"
+              localtype="box">4</container>
+            <container id="aspace_e75b5d28833b07598f5c3eb00a66ef97" localtype="folder"
+              parent="aspace_752c9dc6e50fba7738198fd0da93398a">8</container>
+          </did>
+        </c02>
+        <c02 id="aspace_d79410faa8a5d88f3a56c71bf901ac52" level="item">
+          <did>
+            <unittitle>Young People's Society record book</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1878">1878</fromdate>
+                <todate standarddate="1884">1884</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1878-1884</unitdate>
+            <container id="aspace_b9d7ae71bf6bdf40e5e9f6746c3320f4" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_59ed7928b0eacdc460f6a17b665a38ee" localtype="volume"
+              parent="aspace_b9d7ae71bf6bdf40e5e9f6746c3320f4">12</container>
+          </did>
+        </c02>
+        <c02 id="aspace_42e88c6b8bc7d85249ca5b3e58eea7b6" level="file">
+          <did>
+            <unittitle>Young People's Society</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1882">1882</fromdate>
+                <todate standarddate="1891">1891</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1882-1891</unitdate>
+            <container id="aspace_f2548456458c807443f1f5b492eda39e" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_54e79f2fcb13fb84be1add0880851383" localtype="folder"
+              parent="aspace_f2548456458c807443f1f5b492eda39e">10</container>
+          </did>
+        </c02>
+        <c02 id="aspace_31568d2b62c1005539bd8a3c81b3a4c9" level="file">
+          <did>
+            <unittitle>Adult Department certificate</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <datesingle standarddate="1884">1884</datesingle>
+            </unitdatestructured>
+            <container id="aspace_1b706cc4d8fcf06b44f248885a975038" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_bc087cd0eac99ad53ad8fe4c5db1ce27" localtype="folder"
+              parent="aspace_1b706cc4d8fcf06b44f248885a975038">11</container>
+          </did>
+        </c02>
+        <c02 id="aspace_82adca784d39936ada17e9208f4341de" level="item">
+          <did>
+            <unittitle>Church Work Committee financial records</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1887">1887</fromdate>
+                <todate standarddate="1892">1892</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1887-1892</unitdate>
+            <container id="aspace_c9416bfb952a2ef0d5f7891daaec4808" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_6d067a4c67fac30c7af49582593586f4" localtype="volume"
+              parent="aspace_c9416bfb952a2ef0d5f7891daaec4808">13</container>
+          </did>
+        </c02>
+        <c02 id="aspace_56fb12d9c8aeace64383dc07666af21f" level="item">
+          <did>
+            <unittitle>Church Work Committee financial records</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1893">1893</fromdate>
+                <todate standarddate="1915">1915</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1893-1915</unitdate>
+            <container id="aspace_8c66646be27e2aebed82f810ab5e6772" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_e6043527a7b31d418bbd97c2ac684088" localtype="volume"
+              parent="aspace_8c66646be27e2aebed82f810ab5e6772">14</container>
+          </did>
+        </c02>
+        <c02 id="aspace_7deb4c3a4019d768cfb79ee30789d890" level="file">
+          <did>
+            <unittitle>Church work committee reports and reciepts</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1893">1893</fromdate>
+                <todate standarddate="1918">1918</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1893-1918</unitdate>
+            <container id="aspace_916e9ab8c98a36e32b0513260523a911" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_b6778ae0d7045107bd1d1ff991056452" localtype="folder"
+              parent="aspace_916e9ab8c98a36e32b0513260523a911">12</container>
+          </did>
+        </c02>
+        <c02 id="aspace_e2d83308c225ad92258229421106bce6" level="item">
+          <did>
+            <unittitle>Records of the Church Work Committee</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1893">1893</fromdate>
+                <todate standarddate="1904">1904</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1893-1904</unitdate>
+            <container id="aspace_db886f30c47dda7f181b08017abf3c19" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_60ffb00bc9692afe1f9c67862bc570f4" localtype="volume"
+              parent="aspace_db886f30c47dda7f181b08017abf3c19">15</container>
+          </did>
+        </c02>
+        <c02 id="aspace_379873aae2282fd780e733fcf321576e" level="item">
+          <did>
+            <unittitle>Records of the Church Work Committee</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1904">1904</fromdate>
+                <todate standarddate="1914">1914</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1904-1914</unitdate>
+            <container id="aspace_48b24a9059a58eb818ed3b29212c179e" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_0d33446e1357602d2a702a5a204cb229" localtype="volume"
+              parent="aspace_48b24a9059a58eb818ed3b29212c179e">16</container>
+          </did>
+        </c02>
+        <c02 id="aspace_73618a489074b3932f704a4cd1831972" level="item">
+          <did>
+            <unittitle>Records of the Church Work Committee</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1914">1914</fromdate>
+                <todate standarddate="1923">1923</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1914-1923</unitdate>
+            <container id="aspace_1fd50a36d7495edd35aa5e97fd543213" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_493e56a0b97d396502c3a34b91af31f5" localtype="volume"
+              parent="aspace_1fd50a36d7495edd35aa5e97fd543213">17</container>
+          </did>
+        </c02>
+        <c02 id="aspace_24751d11e7b03224aa075a58ee2c4ef7" level="file">
+          <did>
+            <unittitle>Sunday school library catalogue</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_fa1f1b96f2262be13537f2d40a0c7b34" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_b6db385eb0f009e8f1121dfd05b6240d" localtype="folder"
+              parent="aspace_fa1f1b96f2262be13537f2d40a0c7b34">13</container>
+          </did>
+        </c02>
+        <c02 id="aspace_66ffc28c49d337efdf2a178a5e0151f3" level="file">
+          <did>
+            <unittitle>Lessons in Sacred Music for Sabbath Schools</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_32fd9164b424274095f8a9507c19a48a" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_49a1446860e20fb381ab9cfd28b5b38c" localtype="folder"
+              parent="aspace_32fd9164b424274095f8a9507c19a48a">14</container>
+          </did>
+        </c02>
+      </c01>
+      <c01 id="aspace_68008ad381b77453cf5bfdcaa19ad7d3" level="series">
+        <did>
+          <unittitle>Ministerial records and church services</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>11</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1800">1800</fromdate>
+              <todate standarddate="1950">1950</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1800-1950</unitdate>
+        </did>
+        <scopecontent id="aspace_1a743457740f1ec8ae401fcbb768e470">
+          <head>Scope and Contents</head>
+          <p>This series contains records relating to ministers, the installation of ministers, and
+            special church services. Included in the series are orders of worship for special
+            anniversaries, dedications, and installations, correspondence with potential interim
+            pastors, obituary poems, and a hymn manuscript.</p>
+        </scopecontent>
+        <c02 id="aspace_25ff3647b47cdfb08ddf35e47805089f" level="file">
+          <did>
+            <unittitle>Leach family papers and photographs</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1800">1800</fromdate>
+                <todate standarddate="1804">1804</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1800, 1804</unitdate>
+            <container id="aspace_a9d5c3edf6f455f9737e9e9e0d4ab2f2" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_bcd406f36ba5283c09e96ba5a9139ad1" localtype="folder"
+              parent="aspace_a9d5c3edf6f455f9737e9e9e0d4ab2f2">15</container>
+          </did>
+        </c02>
+        <c02 id="aspace_9a8b8c4a884e9cbab060e69ad6892cb9" level="file">
+          <did>
+            <unittitle>Obituary poems</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1831">1831</fromdate>
+                <todate standarddate="1855">1855</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1831-1834, 1855</unitdate>
+            <container id="aspace_3d271ab2b1f35acec2d61b7eca2a5c79" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_2f22812f626b3beeb28e6a14c66ad015" localtype="folder"
+              parent="aspace_3d271ab2b1f35acec2d61b7eca2a5c79">16</container>
+          </did>
+        </c02>
+        <c02 id="aspace_9c5fa3b1b34f291fa1d34e12b6a651ee" level="file">
+          <did>
+            <unittitle>Packard family legal and financial records</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1838">1838</fromdate>
+                <todate standarddate="1842">1842</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1838-1842</unitdate>
+            <container id="aspace_90138523bb8f8865f9a3f8270ce01772" label="Mixed Materials"
+              localtype="box">4</container>
+            <container id="aspace_14a1800e94fd22d7cdf041581e2143b8" localtype="folder"
+              parent="aspace_90138523bb8f8865f9a3f8270ce01772">9</container>
+          </did>
+        </c02>
+        <c02 id="aspace_099a20df099f530314f2b0b154f2dfc0" level="file">
+          <did>
+            <unittitle>Ministerial correspondence</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1850">1850</fromdate>
+                <todate standarddate="1852">1852</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1850-1852</unitdate>
+            <container id="aspace_d7496ac727d82ffd1c1213f2cab45e37" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_97343c2e1aab32592577ebc4d6cb0f80" localtype="folder"
+              parent="aspace_d7496ac727d82ffd1c1213f2cab45e37">17</container>
+          </did>
+        </c02>
+        <c02 id="aspace_a963a1df982aed2acb120ad97d47b3ac" level="file">
+          <did>
+            <unittitle>Pulpit supply</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1850">1850</fromdate>
+                <todate standarddate="1869">1869</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1850-1854, 1868-1869</unitdate>
+            <container id="aspace_a2a4b049b762563671bfd42784775efa" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_b61832f69a9bc53a9de5227155b57c75" localtype="folder"
+              parent="aspace_a2a4b049b762563671bfd42784775efa">18</container>
+          </did>
+        </c02>
+        <c02 id="aspace_eea700ae9c90245e9e9b3de85cd6cd0d" level="file">
+          <did>
+            <unittitle>Dedication services</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1851">1851</fromdate>
+                <todate standarddate="1924">1924</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1851-1924</unitdate>
+            <container id="aspace_7dd8dd060f34feb6f14c9ebf81248731" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_77beb2f622d92451320eda20f314523c" localtype="folder"
+              parent="aspace_7dd8dd060f34feb6f14c9ebf81248731">19</container>
+          </did>
+        </c02>
+        <c02 id="aspace_b3696416ad6ab184645dca0859ffdf03" level="file">
+          <did>
+            <unittitle>Installation services</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1852">1852</fromdate>
+                <todate standarddate="1948">1948</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1852-1948</unitdate>
+            <container id="aspace_6d7e2383c69a26001d8472011aabcbf4" label="Mixed Materials"
+              localtype="box">4</container>
+            <container id="aspace_93d071f28474874322d07e26c238343a" localtype="folder"
+              parent="aspace_6d7e2383c69a26001d8472011aabcbf4">10</container>
+          </did>
+        </c02>
+        <c02 id="aspace_d381229123f28f28b0eb3a025d7b960d" level="file">
+          <did>
+            <unittitle>David Howard correspondence</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1871">1871</fromdate>
+                <todate standarddate="1872">1872</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1871-1872</unitdate>
+            <container id="aspace_2fc92c491cf7ff58836559edd9b0bc4a" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_753c2473ef28e0bbc43dd8fcc52de66e" localtype="folder"
+              parent="aspace_2fc92c491cf7ff58836559edd9b0bc4a">20</container>
+          </did>
+        </c02>
+        <c02 id="aspace_de24397dc40aa44e44fa1bd3ad82d13c" level="file">
+          <did>
+            <unittitle>Orders of worship</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1874">1874</fromdate>
+                <todate standarddate="1950">1950</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1874-1950</unitdate>
+            <container id="aspace_a69d2fb8c94ef47a714a6e803ed523d5" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_f665b57c74c5f94071655ef7a7bd9d9a" localtype="folder"
+              parent="aspace_a69d2fb8c94ef47a714a6e803ed523d5">21</container>
+          </did>
+        </c02>
+        <c02 id="aspace_2519e7f73a75b5269676b0199f1fc3ac" level="file">
+          <did>
+            <unittitle>Rev. Z. T. Sullivan photograph</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <datesingle standarddate="1880">1880</datesingle>
+            </unitdatestructured>
+            <container id="aspace_74494959c6e64f760b95b32cbba2a8e3" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_4e8bd1b4b296219a6ba0e0e258439d26" localtype="folder"
+              parent="aspace_74494959c6e64f760b95b32cbba2a8e3">22</container>
+          </did>
+        </c02>
+        <c02 id="aspace_a33be55d18a62595a47aab3f18851943" level="file">
+          <did>
+            <unittitle>Hymn composed by Dan Huntington</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_e65c144a8b91e83475f5f015670d1e5d" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_9db39cdebaa853f116ab795da51313db" localtype="folder"
+              parent="aspace_e65c144a8b91e83475f5f015670d1e5d">23</container>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
