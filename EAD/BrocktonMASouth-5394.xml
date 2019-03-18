@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid instanceurl="">BrocktonMASouth-5394</recordid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Brockton, Mass. South Congregational Church records, 1835-1979. </titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2019-03-11</date>
+        <num>RG5394</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS2 - 2013</abbr>
+      <citation>Describing Archives: A Content Standard, Second Edition</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2019-03-15T13:06:29+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Friday March 15, 2019
+          at 13:06</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Brockton, Mass. South Congregational Church records, 1835-1979.</unittitle>
+      <unitid>RG5394</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>1.79</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(3 boxes)</physdesc>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1835">1835</fromdate>
+          <todate standarddate="1979">1979</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" unitdatetype="inclusive">1835-1979</unitdate>
+      <abstract id="aspace_e01610887be318ff4c8afa0faf991902">In 1836 a significant portion of the
+        members of the First Parish Congregational Church withdrew their membership to form the
+        South Congregational Church in Plain Village, now Campello, Brockton. The first meeting
+        house was constructed in 1836 and The South Congregational Church of North Bridgewater was
+        formally gathered on January 3, 1837 with Rev. John Dwight as the first minister. On May 23,
+        1853, the first meeting house was destroyed by fire; the second meeting house was
+        constructed a year later. The South Congregational Church in Brockton merged with the First
+        Parish Congregational Church, Porter Congregational Church, and Waldo Congregational Church
+        to form the Christ Congregational Church in 1980. This collection contains the records of
+        the South Congregational Church in Brockton and includes the surviving administrative,
+        fiscal, legal, and vital membership records of the church.</abstract>
+      <origination label="creator">
+        <corpname identifier="n2004074335" source="lcnaf">
+          <part>Hope Chapel (Brockton, Mass.)</part>
+        </corpname>
+      </origination>
+      <origination label="creator">
+        <corpname identifier="n95089820" source="lcnaf">
+          <part>South Congregational Church (Campello, Brockton, Mass.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_f3e04d251e5481ba35ce6408c89cbc9c">
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_ccc2923df3675bd429fa243b83499f91">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite id="aspace_0e023806581ee7dcb3a506c9b96d6f90">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Brockton, Mass. South Congregational Church records,
+        1835-1979, RG5394. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_bfc0ac651d0c811bfcb727f02a7d9192">
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by the South
+        Congregational Church in 1980. Materials were sepparated out of RG0037 in March, 2019;
+        Accession 2019-03.</p>
+    </acqinfo>
+    <processinfo id="aspace_e60fc17fdf8623470d22b8b7cee0407f">
+      <head>Processing Information</head>
+      <p>Originally processed by Sandra Sudak in 1990. Additional descriptions by Jessica Steytler
+        in 2002 and 2006. Fully reprocessed and redescribed by Zachary Bodnar, March 2019, using
+        DACS Second Edition.</p>
+    </processinfo>
+    <bioghist id="aspace_1f870baa5ceab0f726ae8e4af3407cb9">
+      <head>Historical Note</head>
+      <p>In the early 1830s the area of North Bridgewater, now Brockton, called Plain Village, now
+        Campello, was growing rapidly. The inhabitants of Plain Village had to travel about a mile
+        and a half to attend service at the First Parish Congregational Church. In response to this
+        long travel distance, it was decided that Plain Village should support a new church. In 1836
+        a significant portion of the members of the First Parish Congregational Church withdrew
+        their membership to form the South Congregational Church. Construction on the first meeting
+        house was begun on July 4, 1836 and the building was dedicated on December 29, 1836. The
+        South Congregational Church of North Bridgewater was formally gathered on January 3, 1837.
+        The Rev. John Dwight became the first minister of the church in 1837.</p>
+      <p>On May 23, 1853, the first meeting house was destroyed in a major fire which consumed a
+        total of 11 buildings. A new building was erected the following year and the dedication of
+        the second meeting house took place on September 21, 1854. The spire, which originally stood
+        at 185 feet, was blown over in a wind storm in 1857. The spire was replaced and reduced so
+        that it only stood at 135 feet. In 1892 the Hope Chapel was constructed and dedicated about
+        a mile from South Church. The chapel remained active until 1906 and was then sold. In 1896
+        Memorial Hall was constructed and attached to the church; the Sunday school and many of the
+        church groups met regularly in the hall. Memorial Hall was refurbished and rededicated in
+        1936 as part of the centennial celebrations of the church. The church was incorporated under
+        Massachusetts law in 1901.</p>
+      <p>The South Congregational Church in Brockton served the Campello community until 1980 when
+        it merged with the First Parish Congregational Church, Porter Congregational Church, and
+        Waldo Congregational Church to form the Christ Congregational Church. The second meeting,
+        which stood at the corner of Main and South Street, no longer stands.</p>
+    </bioghist>
+    <scopecontent id="aspace_1a6a1ebced7adb38549531daa335ac33">
+      <head>Scope and Contents</head>
+      <p>This collection contains the records of the South Congregational Church in Brockton. The
+        collection contains the administrative, fiscal, and legal records of the church. Included
+        within the collection are the records of the church and parish, vital membership records,
+        financial records, building and pew records, and various legal documents.</p>
+    </scopecontent>
+    <arrangement id="aspace_366f3aaa8a03f6b8f78587bde2f8db9f">
+      <head>Arrangement</head>
+      <p>Materials have been arranged into the two series listed below. Within each series,
+        materials have been arranged in chronological order, by start date, primarily, and by topic
+        secondarily.</p>
+      <p><emph render="bold">Series 1:</emph> Church and Parish records, 1836-1979</p>
+      <p><emph render="bold">Series 2:</emph> Financial and legal records, 1835-1941</p>
+    </arrangement>
+    <relatedmaterial id="aspace_a14ea6f8fb61c016f1c8e17bce5ee8f8">
+      <head>Related Materials</head>
+      <p>In 1980, the First Parish Congregational, South Congregational, Porter Congregational, and
+        Waldo Congregational Churchs merged into a single entity, the Christ Congregational Church.
+        The records of all four churches are held at the Congregational Library &amp; Archives:</p>
+      <p>Brockton, Mass. First Parish Congregational Church records, 1738-1980.</p>
+      <p>Brockton, Mass. Porter Congregational Church, 1800-1979.</p>
+      <p>Brockton, Mass. Waldo Congregational Church, 1896-1980.</p>
+    </relatedmaterial>
+    <bibliography id="aspace_2a062d973a53fa138b2512e17cc53f25">
+      <head>Bibliography</head>
+      <p><emph render="italic">100th Anniversary of the Building of the Present Edifice</emph>.
+        Brockton: South Congregational Church, 1954. 17.11.1 B78.33 ChrCC</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh89000863" source="lcsh">
+        <part>Church bells.</part>
+      </subject>
+      <subject identifier="sh85025606" source="lcsh">
+        <part>Church finance.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <subject identifier="sh85100506" source="lcsh">
+        <part>Pews and pew rights.</part>
+      </subject>
+      <corpname identifier="n80113521" source="lcnaf">
+        <part>Brockton (Mass.) -- Church history.</part>
+      </corpname>
+      <corpname source="lcnaf">
+        <part>Campello (Brockton, Mass.) -- Church history.</part>
+      </corpname>
+      <corpname identifier="n2004074335" source="lcnaf">
+        <part>Hope Chapel (Brockton, Mass.)</part>
+      </corpname>
+      <corpname identifier="n80113522" source="lcnaf">
+        <part>North Bridgewater (Mass.) -- Church history.</part>
+      </corpname>
+      <corpname identifier="no90027271" source="lcnaf">
+        <part>Plain Village (Mass.) -- Church history.</part>
+      </corpname>
+      <corpname identifier="n95089820" source="lcnaf">
+        <part>South Congregational Church (Campello, Brockton, Mass.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_abea0088b2f75538cd7074e24a001d8e" level="series">
+        <did>
+          <unittitle>Church and parish records</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>20</quantity>
+            <unittype>Files</unittype>
+          </physdescstructured>
+          <physdesc localtype="container_summary">(10 volumes, 10 folders)</physdesc>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1836">1836</fromdate>
+              <todate standarddate="1979">1979</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1836-1979</unitdate>
+        </did>
+        <scopecontent id="aspace_ce5015f66a644baf4be1a789523361e1">
+          <head>Scope and Contents</head>
+          <p>This series contains records related to the administration of the church and parish
+            society, as well as the vital records of church members and church services of order.
+            Also included in this series are the records of the Hope Chapel, a short lived outreach
+            church.</p>
+        </scopecontent>
+        <c02 id="aspace_58bf7802a034fb9b50c068ea54820f0f" level="item">
+          <did>
+            <unittitle>Parish records</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1836">1836</fromdate>
+                <todate standarddate="1906">1906</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1836-1906</unitdate>
+            <container id="aspace_654575c0b244c0f722b31b94e3ca31ed" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_5320fd00c465248f286576d49f3b2bd1" localtype="volume"
+              parent="aspace_654575c0b244c0f722b31b94e3ca31ed">1</container>
+          </did>
+        </c02>
+        <c02 id="aspace_90f287901643e3cdcbb0a9976b67944c" level="item">
+          <did>
+            <unittitle>Parish records</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1906">1906</fromdate>
+                <todate standarddate="1917">1917</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1906-1917</unitdate>
+            <container id="aspace_29ae96c677ea4389ea84d412e03ab2d5" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_752d79a01df26cf711b80e56ec58264c" localtype="volume"
+              parent="aspace_29ae96c677ea4389ea84d412e03ab2d5">2</container>
+          </did>
+        </c02>
+        <c02 id="aspace_5c84df7cc5251037de1219d4456332b4" level="file">
+          <did>
+            <unittitle>Church communications</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1836">1836</fromdate>
+                <todate standarddate="1838">1838</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1836-1838</unitdate>
+            <container id="aspace_a7cb81979845fa13a2fbe0187cd11aa4" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_bab319dbd7bdd7d1fee78f889f59b013" localtype="folder"
+              parent="aspace_a7cb81979845fa13a2fbe0187cd11aa4">1</container>
+          </did>
+        </c02>
+        <c02 id="aspace_7dfc455b9d932e688a75dd99ed4114fd" level="file">
+          <did>
+            <unittitle>Clippings</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1836">1836</fromdate>
+                <todate standarddate="1914">1914</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1836-1914</unitdate>
+            <container id="aspace_c8912cea5df1b7d911294979be1400e1" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_fb5e7a57790d1f6bd55c54af33eb936c" localtype="folder"
+              parent="aspace_c8912cea5df1b7d911294979be1400e1">2</container>
+          </did>
+        </c02>
+        <c02 id="aspace_377f440298839ff0aa4176bc77d7b5c6" level="file">
+          <did>
+            <unittitle>Dedications and anniversary programs</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1836">1836</fromdate>
+                <todate standarddate="1954">1954</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1836-1954</unitdate>
+            <container id="aspace_bf13c5a3119920047828cee95b22242b" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_6471571565f0e0ab5052501e8f4374bb" localtype="folder"
+              parent="aspace_bf13c5a3119920047828cee95b22242b">1</container>
+          </did>
+        </c02>
+        <c02 id="aspace_19a28316a119d2cff206db9371935eec" level="item">
+          <did>
+            <unittitle>Church records</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1837">1837</fromdate>
+                <todate standarddate="1889">1889</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1837-1889</unitdate>
+            <container id="aspace_d7c4d28a52b7519d5e9817447fbd4af6" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_8450f6e1e74a0a6ce73bb179ee8a7b2b" localtype="volume"
+              parent="aspace_d7c4d28a52b7519d5e9817447fbd4af6">3</container>
+          </did>
+        </c02>
+        <c02 id="aspace_4532ae3f48f8d72f931fecb6ba396460" level="item">
+          <did>
+            <unittitle>Church records</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1837">1837</fromdate>
+                <todate standarddate="1918">1918</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1837-1918</unitdate>
+            <container id="aspace_67de9af7dfa7790bb8e7a04f68a89ec3" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_ec77bd2485b85b1c9277f1309050bc0e" localtype="volume"
+              parent="aspace_67de9af7dfa7790bb8e7a04f68a89ec3">4</container>
+          </did>
+        </c02>
+        <c02 id="aspace_c56ae0133cbc42f5eef380f403e4c9f7" level="item">
+          <did>
+            <unittitle>Church records</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1890">1890</fromdate>
+                <todate standarddate="1901">1901</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1890-1901</unitdate>
+            <container id="aspace_c6833a5594bd3ec0c9d8aa38f6d3af99" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_456fb6b2ddce4f77a94414bd7306421c" localtype="volume"
+              parent="aspace_c6833a5594bd3ec0c9d8aa38f6d3af99">5</container>
+          </did>
+        </c02>
+        <c02 id="aspace_96ddd4b05c411a9dbd078f2d08c9d1c9" level="item">
+          <did>
+            <unittitle>Church records</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1914">1914</fromdate>
+                <todate standarddate="1937">1937</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1914-1937</unitdate>
+            <container id="aspace_102527d611a001e137ee44f86f80ae88" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_41a9aff12691ae0676eca9822668a1e3" localtype="volume"
+              parent="aspace_102527d611a001e137ee44f86f80ae88">6</container>
+          </did>
+        </c02>
+        <c02 id="aspace_bf8ddef095704c5c50f3e3fd5ff78f88" level="file">
+          <did>
+            <unittitle>Catalogue of members</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1837">1837</fromdate>
+                <todate standarddate="1897">1897</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1837-1897</unitdate>
+            <container id="aspace_75eb4b66ae9d1d128ffb68e8284d6049" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_60a7f184b7a6df1f70f06ae38b059488" localtype="volume"
+              parent="aspace_75eb4b66ae9d1d128ffb68e8284d6049">1</container>
+          </did>
+        </c02>
+        <c02 id="aspace_76fd270b19690d99132e96f780f1f72d" level="file">
+          <did>
+            <unittitle>Catalogue of members</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1837">1837</fromdate>
+                <todate standarddate="1897">1897</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1837-1897</unitdate>
+            <container id="aspace_07324d1e98c5eed43f644f215bc62058" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_7775a17a43169dd697053129b489a036" localtype="volume"
+              parent="aspace_07324d1e98c5eed43f644f215bc62058">2</container>
+          </did>
+        </c02>
+        <c02 id="aspace_97edffb171750723095c040b223c8751" level="file">
+          <did>
+            <unittitle>Membership list</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1842">1842</fromdate>
+                <todate standarddate="1917">1917</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1842-1917</unitdate>
+            <container id="aspace_69fea4ebec86855e03ae12bc7347f10e" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_69338618b6b8d36dff93df675d2da129" localtype="volume"
+              parent="aspace_69fea4ebec86855e03ae12bc7347f10e">3</container>
+          </did>
+        </c02>
+        <c02 id="aspace_1c37cdbd58bce8d2505aa4e7a42cde11" level="file">
+          <did>
+            <unittitle>Membership lists</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1866">1866</fromdate>
+                <todate standarddate="1906">1906</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1866-1906</unitdate>
+            <container id="aspace_354b549c715a211acf9f955c8891f616" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_1833c477b88375eaba1bebc455768e5b" localtype="folder"
+              parent="aspace_354b549c715a211acf9f955c8891f616">2</container>
+          </did>
+        </c02>
+        <c02 id="aspace_a273c1c02c239448dd4e62650e33782f" level="file">
+          <did>
+            <unittitle>Miscelaneous events and church memorabilia</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1887">1887</fromdate>
+                <todate standarddate="1894">1894</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1887-1894, undated</unitdate>
+            <container id="aspace_f69324f21e36bc8f4a18df160beaf76c" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_71ad3fdfc7566d2384affb919e09510e" localtype="folder"
+              parent="aspace_f69324f21e36bc8f4a18df160beaf76c">3</container>
+          </did>
+        </c02>
+        <c02 id="aspace_1070a20dc3938f775577fda281f73654" level="item">
+          <did>
+            <unittitle>Hope Chapel records</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1902">1902</fromdate>
+                <todate standarddate="1904">1904</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1902-1904</unitdate>
+            <container id="aspace_85c711938870178675834e3b32e3cde6" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_e3dd6f59e054f629e6fce2050d4e7a01" localtype="volume"
+              parent="aspace_85c711938870178675834e3b32e3cde6">7</container>
+          </did>
+        </c02>
+        <c02 id="aspace_cb7587b3a0107d3ff1af95d1af34c500" level="file">
+          <did>
+            <unittitle>Annual reports</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1907">1907</fromdate>
+                <todate standarddate="1965">1965</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1907, 1962-1965</unitdate>
+            <container id="aspace_448c485ca70229e8c9aac7e7baddc688" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_4284e0a02fa00ffe93e188580bd99f35" localtype="folder"
+              parent="aspace_448c485ca70229e8c9aac7e7baddc688">4</container>
+          </did>
+        </c02>
+        <c02 id="aspace_173e68ebd653a96818224b575b5c73ca" level="file">
+          <did>
+            <unittitle>Historical sketches and research</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1936">1936</fromdate>
+                <todate standarddate="1941">1941</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">circa 1936-1941</unitdate>
+            <container id="aspace_c4de60f6b1989c0eeada77344b4ed046" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_1209a2675dfd1505137e4a1bb5f9e31b" localtype="folder"
+              parent="aspace_c4de60f6b1989c0eeada77344b4ed046">3</container>
+          </did>
+        </c02>
+        <c02 id="aspace_92c0d47f49ea220929c525c2697994bc" level="file">
+          <did>
+            <unittitle>Annual reports</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1966">1966</fromdate>
+                <todate standarddate="1971">1971</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1966-1971</unitdate>
+            <container id="aspace_0687c7534025d38e188a21938272c588" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_2d41c25a2874cc7377e9a3324996d4ce" localtype="folder"
+              parent="aspace_0687c7534025d38e188a21938272c588">5</container>
+          </did>
+        </c02>
+        <c02 id="aspace_29df734057fad16e160dd1de3dfedfcf" level="file">
+          <did>
+            <unittitle>Annual reports</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1972">1972</fromdate>
+                <todate standarddate="1979">1979</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1972-1979</unitdate>
+            <container id="aspace_f9d60db599ed4ad5857963d9425d4f2b" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_5b7fa183712719f939f52a45df494670" localtype="folder"
+              parent="aspace_f9d60db599ed4ad5857963d9425d4f2b">6</container>
+          </did>
+        </c02>
+        <c02 id="aspace_d4cb5f78c1a4615d901a853d573640ef" level="file">
+          <did>
+            <unittitle>Self-study report</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <datesingle standarddate="1971">1971</datesingle>
+            </unitdatestructured>
+            <container id="aspace_af15ab7ceaaae65468a8de2b7df19b3c" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_7ffd05ecacaac0f7855b1522e061f8d5" localtype="folder"
+              parent="aspace_af15ab7ceaaae65468a8de2b7df19b3c">7</container>
+          </did>
+        </c02>
+      </c01>
+      <c01 id="aspace_44564d1c89e403cabc5aa771f5714138" level="series">
+        <did>
+          <unittitle>Financial and legal records</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>13</quantity>
+            <unittype>Files</unittype>
+          </physdescstructured>
+          <physdesc localtype="container_summary">(7 volumes, 6 folders)</physdesc>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1835">1835</fromdate>
+              <todate standarddate="1941">1941</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1835-1941</unitdate>
+        </did>
+        <scopecontent id="aspace_d878af61e0b86d145d4d952e15116ded">
+          <head>Scope and Contents</head>
+          <p>This series contains records relating to the fiscal and legal operation of the South
+            Congregational Church. This series contains treasurer's reports, pew deeds and
+            subscriptions, insurance policies, and building related purchases.</p>
+        </scopecontent>
+        <c02 id="aspace_e815a0941c70675ff1faf2ce74a8f340" level="item">
+          <did>
+            <unittitle>Pew subscriptions and account book</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1835">1835</fromdate>
+                <todate standarddate="1869">1869</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1835-1869</unitdate>
+            <container id="aspace_4bde5da7575ba059d614defa457016d2" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_94b1014248126b9e8fa27821b3192f50" localtype="volume"
+              parent="aspace_4bde5da7575ba059d614defa457016d2">1</container>
+          </did>
+        </c02>
+        <c02 id="aspace_fc73a658060dd5a7e076692dc3358856" level="file">
+          <did>
+            <unittitle>Deeds</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1836">1836</fromdate>
+                <todate standarddate="1918">1918</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1836, 1874-1918</unitdate>
+            <container id="aspace_9702f95174bd764b9298f6861c595608" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_b8feb9c20025d8344c6e0e2c6b09218a" localtype="folder"
+              parent="aspace_9702f95174bd764b9298f6861c595608">3</container>
+          </did>
+        </c02>
+        <c02 id="aspace_d0a544de1bc97cc6ed08486c8378f551" level="item">
+          <did>
+            <unittitle>Treasurer's book</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1837">1837</fromdate>
+                <todate standarddate="1904">1904</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1837-1904</unitdate>
+            <container id="aspace_a39d12bd61b03a57c8a400aedacd09ee" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_97c7e2b601f95d4bb9a52b15c24e6e41" localtype="volume"
+              parent="aspace_a39d12bd61b03a57c8a400aedacd09ee">2</container>
+          </did>
+        </c02>
+        <c02 id="aspace_bd2856930110bb6221fc8f321ef0369c" level="item">
+          <did>
+            <unittitle>Treasurer's book</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1905">1905</fromdate>
+                <todate standarddate="1915">1915</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1905-1915</unitdate>
+            <container id="aspace_dc65dd0f38cfe459c4c8da66ff92f443" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_bc04691c3421427bf1b10b548dad27fe" localtype="volume"
+              parent="aspace_dc65dd0f38cfe459c4c8da66ff92f443">3</container>
+          </did>
+        </c02>
+        <c02 id="aspace_3480139890c3bd8f037f9544d90460fc" level="item">
+          <did>
+            <unittitle>Treasurer's reports</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1910">1910</fromdate>
+                <todate standarddate="1917">1917</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1910-1917</unitdate>
+            <container id="aspace_f288d341c6ff707759f14d0e33ccf494" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_c89ecf8ab48cd1c6f8d57220dcfbe0c5" localtype="volume"
+              parent="aspace_f288d341c6ff707759f14d0e33ccf494">8</container>
+          </did>
+        </c02>
+        <c02 id="aspace_c7036107baf4b5fe82962e6db832ecf7" level="file">
+          <did>
+            <unittitle>Purchase of bell</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <datesingle standarddate="1853">1853</datesingle>
+            </unitdatestructured>
+            <container id="aspace_9d84134748a6c11b725704fab4cec7bb" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_fb659a10f7088ed3ba7716461b65736b" localtype="folder"
+              parent="aspace_9d84134748a6c11b725704fab4cec7bb">1</container>
+          </did>
+        </c02>
+        <c02 id="aspace_940193f0c167ad25c0b6ec8330b7ae68" level="file">
+          <did>
+            <unittitle>Insurance policies</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1853">1853</fromdate>
+                <todate standarddate="1854">1854</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1853-1854</unitdate>
+            <container id="aspace_46fa6431e14e6cdd5f3fb2f46a2fb46c" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_3f9a3d70d4f270173edb38e74215b0a6" localtype="folder"
+              parent="aspace_46fa6431e14e6cdd5f3fb2f46a2fb46c">4</container>
+          </did>
+        </c02>
+        <c02 id="aspace_c9eddee8830285ee24b1295d6aff4d55" level="item">
+          <did>
+            <unittitle>Pew subscriptions</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1854">1854</fromdate>
+                <todate standarddate="1867">1867</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1854-1867</unitdate>
+            <container id="aspace_f59d2485a828fa682e7647a9af4c98e4" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_d3050c03226b42f6c1dd57d217d8aaff" localtype="volume"
+              parent="aspace_f59d2485a828fa682e7647a9af4c98e4">4</container>
+          </did>
+        </c02>
+        <c02 id="aspace_315ed99f34cabaefa2a48b5d3576c684" level="item">
+          <did>
+            <unittitle>Parish collections</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1877">1877</fromdate>
+                <todate standarddate="1878">1878</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1877-1878</unitdate>
+            <container id="aspace_b123f06eaab6e7de788e65f87531c67b" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_3037f657f572058a9ea623b521e9d6ce" localtype="volume"
+              parent="aspace_b123f06eaab6e7de788e65f87531c67b">5</container>
+          </did>
+        </c02>
+        <c02 id="aspace_8f2571e11303284cea4f4252ec1db465" level="file">
+          <did>
+            <unittitle>Certificates of incorporation</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1901">1901</fromdate>
+                <todate standarddate="1918">1918</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1901-1918</unitdate>
+            <container id="aspace_4ce197109bd1be1ac094f31655eaa3fa" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_f2f0ec642200fd12404a33f24c78cbc9" localtype="folder"
+              parent="aspace_4ce197109bd1be1ac094f31655eaa3fa">2</container>
+          </did>
+        </c02>
+        <c02 id="aspace_2892b52d779c8852108b869461230647" level="item">
+          <did>
+            <unittitle>Organ fund</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_cd68c97277b36dea9a980d706df05a62" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_f63b0ffef2b4e13c1815189662245592" localtype="volume"
+              parent="aspace_cd68c97277b36dea9a980d706df05a62">6</container>
+          </did>
+        </c02>
+        <c02 id="aspace_0d5db5677ab6fd1a4c82b71fcb0d5584" level="file">
+          <did>
+            <unittitle>List of treasures</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_4e34f409a421ba30b98fd4d58fd50797" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_6734f9c4de44815b35c827689df98e91" localtype="folder"
+              parent="aspace_4e34f409a421ba30b98fd4d58fd50797">4</container>
+          </did>
+        </c02>
+        <c02 id="aspace_2b6b877ef9f274b6e7dd9fa811a331fe" level="file">
+          <did>
+            <unittitle>Pew payments</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_0f57a3929772653af2045dbaf277a1c0" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_15e09d9cdefb662fd65b94111c3220f5" localtype="folder"
+              parent="aspace_0f57a3929772653af2045dbaf277a1c0">5</container>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
