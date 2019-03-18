@@ -4,7 +4,10 @@
 <ead xmlns="http://ead3.archivists.org/schema/">
   <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
     relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
-    <recordid instanceurl="">BrocktonMAPorter-5395</recordid>
+    <recordid
+      instanceurl="https://github.com/CongregationalLibrary/Finding-Aid-Repository/blob/master/EAD/BrocktonMAPorter-5395.xml"
+      >BrocktonMAPorter-5395</recordid>
+    <representation localtype="pdf" href="http://www.congregationallibrary.org/sites/all/files/BrocktonMAPorter-5395.pdf"/>
     <filedesc>
       <titlestmt>
         <titleproper>Brockton, Mass. Porter Congregational Church, 1800-1979. </titleproper>
