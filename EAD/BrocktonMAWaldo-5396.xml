@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/BrocktonMAWaldo-5396.xml"
+      >BrocktonMAWaldo-5396</recordid>
+    <representation localtype="pdf"
+      href="http://www.congregationallibrary.org/sites/all/files/BrocktonMAWaldo-5396.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Brockton, Mass. Waldo Congregational Church, 1896-1980. </titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2019-03-19</date>
+        <num>RG5396</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS2 - 2013</abbr>
+      <citation>translation missing: en.enumerations.resource_finding_aid_description_rules.DACS2 -
+        2013</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2019-03-19T19:03:19+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Tuesday March 19,
+          2019 at 19:03</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Brockton, Mass. Waldo Congregational Church, 1896-1980.</unittitle>
+      <unitid>RG5396</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>0.7</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(2 boxes)</physdesc>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1896">1896</fromdate>
+          <todate standarddate="1980">1980</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" unitdatetype="inclusive">1896-1980</unitdate>
+      <abstract id="aspace_65d75cec04e9c3e73aa0ab8d251bb63d">The Waldo Congregational Church was
+        gathered in 1896 two years after being founded as the Montello Mission. In 1980 the Waldo
+        Congregational Church, First Parish Congregational Church, South Congregational Church, and
+        Porter Congregational Church merged to form the Christ Congregational Church. This
+        collection contains the administrative and membership records of the church and includes
+        record books, financial records, and vital member records.</abstract>
+      <origination label="creator">
+        <corpname identifier="n95089834" source="lcnaf">
+          <part>Waldo Congregational Church (Brockton, Mass.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_164ebe13a4869e18fb46d98702f7268a">
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_9dc475333e17ebd527d10646686ba226">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite id="aspace_4b6a48f9a7db1524252bfd25247c3ba4">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Brockton, Mass. Waldo Congregational Church, 1896-1980,
+        RG5396. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_6ff0f0a82393c8332d4cfe5c22b32d0e">
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by the Waldo
+        Congregational Church in 1980. Materials were sepparated out of RG0037 in March, 2019;
+        Accession 2019-05.</p>
+    </acqinfo>
+    <processinfo id="aspace_9fd3cbbd79c3e7b4cfce31964fbf96ca">
+      <head>Processing Information</head>
+      <p>Originally processed by Sandra Sudak in 1990. Additional descriptions by Jessica Steytler
+        in 2002 and 2006. Fully reprocessed and redescribed by Zachary Bodnar, March 2019, using
+        DACS Second Edition.</p>
+    </processinfo>
+    <bioghist id="aspace_3948a4f2eb3dad9b7dadfd183871b45b">
+      <head>Historical Note</head>
+      <p>The Waldo Congregational Church in Brockton was started in 1894 as the Montello Mission.
+        The Montello Mission was administered by the Church Work Committee of the Porter Evangelical
+        Church until 1896 when the mission was officially gathered as the Waldo Congregational
+        Church. The parish met in the north of Brockton at the corner of North Main Street and
+        Willow Street. In 1980 the Waldo Congregational Church, First Parish Congregational Church,
+        South Congregational Church, and Porter Congregational Church merged to form the Christ
+        Congregational Church. The old church building no longer exists.</p>
+    </bioghist>
+    <scopecontent id="aspace_f8d503d96667b950b2c9d05edf9ea50d">
+      <head>Scope and Contents</head>
+      <p>This collection contains the administrative and membership records of the Waldo
+        Congregational Church in Brockton, Massachusetts. The collection includes church record
+        books, member registries, financial records, annual reports, special orders of worship, and
+        the financial records of the church's Sunday school.</p>
+    </scopecontent>
+    <arrangement id="aspace_037b9e6ad0b82fef0465f09867b63010">
+      <head>Arrangement</head>
+      <p>This collection has been arranged, primarily, in chronological order, and, secondarily, by
+        topic.</p>
+    </arrangement>
+    <relatedmaterial id="aspace_f7ccbb2b8225859f6607503848334c1c">
+      <head>Related Materials</head>
+      <p>In 1980, the First Parish Congregational, South Congregational, Porter Congregational, and
+        Waldo Congregational Churchs merged into a single entity, the Christ Congregational Church.
+        The records of all four churches are held at the Congregational Library &amp; Archives:</p>
+      <p>Brockton, Mass. First Parish Congregational Church records, 1738-1980.</p>
+      <p>Brockton, Mass. South Congregational Church, 1835-1979.</p>
+      <p>Brockton, Mass. Porter Congregational Church, 1800-1979.</p>
+    </relatedmaterial>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025606" source="lcsh">
+        <part>Church finance.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85130524" source="lcsh">
+        <part>Sunday schools.</part>
+      </subject>
+      <corpname identifier="n80113521" source="lcnaf">
+        <part>Brockton (Mass.) -- Church history.</part>
+      </corpname>
+      <corpname identifier="n95089834" source="lcnaf">
+        <part>Waldo Congregational Church (Brockton, Mass.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_e6c4f4b77eeb17fb0b1f8ad16e37bca4" level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1896">1896</fromdate>
+              <todate standarddate="1923">1923</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate unitdatetype="inclusive">1896-1923</unitdate>
+          <container id="aspace_30bf550fce6b7ec1438772cdf6d655ef" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_8bb4894e308c732633793d899fb6813f" localtype="volume"
+            parent="aspace_30bf550fce6b7ec1438772cdf6d655ef">1</container>
+        </did>
+      </c01>
+      <c01 id="aspace_c91e29f17dc8b247f4a937410de04667" level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1923">1923</fromdate>
+              <todate standarddate="1980">1980</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate unitdatetype="inclusive">1923-1980</unitdate>
+          <container id="aspace_3ea9ff1b184cc29ee7fe1419a7a0b583" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_de48da555bb8f1e60ec66aea04629492" localtype="volume"
+            parent="aspace_3ea9ff1b184cc29ee7fe1419a7a0b583">2</container>
+        </did>
+      </c01>
+      <c01 id="aspace_0f0ea2132345cfb86bae872336a8057d" level="item">
+        <did>
+          <unittitle>Church register</unittitle>
+          <unitdatestructured unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1896">1896</fromdate>
+              <todate standarddate="1931">1931</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate unitdatetype="inclusive">1896-1931</unitdate>
+          <container id="aspace_0946667f211f31e89d30e2e38811454e" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_2184cfbda5c3bee0782377799114e56e" localtype="volume"
+            parent="aspace_0946667f211f31e89d30e2e38811454e">3</container>
+        </did>
+      </c01>
+      <c01 id="aspace_96a68c996ae8f2a080362d5a770ae653" level="item">
+        <did>
+          <unittitle>Church register</unittitle>
+          <unitdatestructured unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1932">1932</fromdate>
+              <todate standarddate="1980">1980</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate unitdatetype="inclusive">1932-1980</unitdate>
+          <container id="aspace_404cc3a556addf82012bc43a737f4fd4" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_31b4e84af05a1b07696c7221614e0573" localtype="volume"
+            parent="aspace_404cc3a556addf82012bc43a737f4fd4">4</container>
+        </did>
+      </c01>
+      <c01 id="aspace_49f49efa8e27ab47e0018f2473831de2" level="item">
+        <did>
+          <unittitle>Treasurer's book</unittitle>
+          <unitdatestructured unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1896">1896</fromdate>
+              <todate standarddate="1912">1912</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate unitdatetype="inclusive">1896-1912</unitdate>
+          <container id="aspace_4964e091e5e137323c4fe8cd9e7f79e4" label="Mixed Materials"
+            localtype="box">2</container>
+          <container id="aspace_cec3f1e15c12836f7dc8c29585654508" localtype="volume"
+            parent="aspace_4964e091e5e137323c4fe8cd9e7f79e4">1</container>
+        </did>
+      </c01>
+      <c01 id="aspace_6589bc534e779442ee55b71572046095" level="file">
+        <did>
+          <unittitle>By-laws</unittitle>
+          <unitdatestructured unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1896">1896</fromdate>
+              <todate standarddate="1960">1960</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate unitdatetype="inclusive">1896-1960</unitdate>
+          <container id="aspace_1cb2bbf6d024fb45dde24015613e3a0f" label="Mixed Materials"
+            localtype="box">2</container>
+          <container id="aspace_40f6b8b21c2c329f9e3e57217c88b448" localtype="folder"
+            parent="aspace_1cb2bbf6d024fb45dde24015613e3a0f">1</container>
+        </did>
+      </c01>
+      <c01 id="aspace_c9a421c1650639456ac7b4b3dbe0d885" level="item">
+        <did>
+          <unittitle>Church history</unittitle>
+          <unitdatestructured unitdatetype="inclusive">
+            <datesingle standarddate="1917">1917</datesingle>
+          </unitdatestructured>
+          <container id="aspace_3385da043febe497e458fc8d2a12a921" label="Mixed Materials"
+            localtype="box">2</container>
+          <container id="aspace_70b9834e94318657a02474c8fbc194dc" localtype="volume"
+            parent="aspace_3385da043febe497e458fc8d2a12a921">2</container>
+        </did>
+      </c01>
+      <c01 id="aspace_8ab391af2a13f218d595759f9497deac" level="file">
+        <did>
+          <unittitle>Rededication services</unittitle>
+          <unitdatestructured unitdatetype="inclusive">
+            <datesingle standarddate="1928">1928</datesingle>
+          </unitdatestructured>
+          <container id="aspace_d18c0f898fc0ec8a8e990759f558f2ef" label="Mixed Materials"
+            localtype="box">2</container>
+          <container id="aspace_8164a8bca8a110d6f80949aebdd437f5" localtype="folder"
+            parent="aspace_d18c0f898fc0ec8a8e990759f558f2ef">2</container>
+        </did>
+      </c01>
+      <c01 id="aspace_98feabc9fd53d49284e91647bfe12a42" level="file">
+        <did>
+          <unittitle>Annual reports</unittitle>
+          <unitdatestructured unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1928">1928</fromdate>
+              <todate standarddate="1931">1931</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate unitdatetype="inclusive">1928-1931</unitdate>
+          <container id="aspace_fb94c8e55dd240b4d5d13031db1dac76" label="Mixed Materials"
+            localtype="box">2</container>
+          <container id="aspace_a6fa118bbe3362106460815f9631d6fc" localtype="folder"
+            parent="aspace_fb94c8e55dd240b4d5d13031db1dac76">3</container>
+        </did>
+      </c01>
+      <c01 id="aspace_94eef76490597d96f7cf8f65e08e1ddb" level="file">
+        <did>
+          <unittitle>Annual reports</unittitle>
+          <unitdatestructured unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1932">1932</fromdate>
+              <todate standarddate="1935">1935</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate unitdatetype="inclusive">1932-1935</unitdate>
+          <container id="aspace_00cc0d1563200615b6087c22d6c65a0b" label="Mixed Materials"
+            localtype="box">2</container>
+          <container id="aspace_c78cf444a54499e480f0b3671db4c38a" localtype="folder"
+            parent="aspace_00cc0d1563200615b6087c22d6c65a0b">4</container>
+        </did>
+      </c01>
+      <c01 id="aspace_776d40b542e6e3ee723afa6579512a18" level="file">
+        <did>
+          <unittitle>Annual reports</unittitle>
+          <unitdatestructured unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1936">1936</fromdate>
+              <todate standarddate="1939">1939</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate unitdatetype="inclusive">1936-1939</unitdate>
+          <container id="aspace_c0f753dfeb82c3fca4f66af15f9b9f04" label="Mixed Materials"
+            localtype="box">2</container>
+          <container id="aspace_c924b27c5c9a6df00fb7286e5d2651b2" localtype="folder"
+            parent="aspace_c0f753dfeb82c3fca4f66af15f9b9f04">5</container>
+        </did>
+      </c01>
+      <c01 id="aspace_e2f824206df45290fcd136027dcaad15" level="file">
+        <did>
+          <unittitle>Annual reports</unittitle>
+          <unitdatestructured unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1940">1940</fromdate>
+              <todate standarddate="1944">1944</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate unitdatetype="inclusive">1940-1944</unitdate>
+          <container id="aspace_a9d13f20e18960906d40badd20c60e99" label="Mixed Materials"
+            localtype="box">2</container>
+          <container id="aspace_f68e69fee943e0397dab198532bc2e45" localtype="folder"
+            parent="aspace_a9d13f20e18960906d40badd20c60e99">6</container>
+        </did>
+      </c01>
+      <c01 id="aspace_5be11884b80a146f8da1854393438429" level="file">
+        <did>
+          <unittitle>Annual reports</unittitle>
+          <unitdatestructured unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1945">1945</fromdate>
+              <todate standarddate="1950">1950</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate unitdatetype="inclusive">1945-1950</unitdate>
+          <container id="aspace_04b0175a597280e519d7b205a49d63da" label="Mixed Materials"
+            localtype="box">2</container>
+          <container id="aspace_5b8ccdcb89d6953fd69ea9629ebb47a8" localtype="folder"
+            parent="aspace_04b0175a597280e519d7b205a49d63da">7</container>
+        </did>
+      </c01>
+      <c01 id="aspace_bab57f3758bf10eb19af4d262351ffa9" level="item">
+        <did>
+          <unittitle>Waldo Church School account book</unittitle>
+          <unitdatestructured unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1947">1947</fromdate>
+              <todate standarddate="1958">1958</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate unitdatetype="inclusive">1947-1958</unitdate>
+          <container id="aspace_5d77ebe5dc45b54f8197f99d8b6cd268" label="Mixed Materials"
+            localtype="box">2</container>
+          <container id="aspace_e39b29af1c512758572ec933a4836b91" localtype="volume"
+            parent="aspace_5d77ebe5dc45b54f8197f99d8b6cd268">3</container>
+        </did>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
