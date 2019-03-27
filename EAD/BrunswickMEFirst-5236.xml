@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/BrunswickMEFirst-5236.xml"
+      >BrunswickMEFirst-5236</recordid>
+    <representation localtype="pdf"
+      href="http://www.congregationallibrary.org/sites/all/files/BrunswickMEFirst-5236.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Brunswick, Me. First Parish Church records, 1735-1829. </titleproper>
+        <author>Sari Mauro, Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2019-03-27</date>
+        <num>RG5236</num>
+      </publicationstmt>
+      <seriesstmt>
+        <p>This collection is part of New England's Hidden Histories. Digital historical
+          representations of the collection can be viewed online.</p>
+      </seriesstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS2 - 2013</abbr>
+      <citation>Describing Archives: A Content Standard, Second Edition</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2019-03-27T19:04:23+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday March 27,
+          2019 at 19:04</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Brunswick, Me. First Parish Church records, 1735-1829.</unittitle>
+      <unitid>RG5236</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>1.09</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(1 box)</physdesc>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1735">1735</fromdate>
+          <todate standarddate="1829">1829</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" unitdatetype="inclusive">1735-1829</unitdate>
+      <abstract id="aspace_132ecbcd75c36e461b2ec3d782b95d6b">The township of Brunswick was
+        incorporated on May 3, 1717. Until 1747 the town was served by temporary missionary
+        ministers. In 1747 the First Parish Church was actually split into two buildings, one
+        following Congregational polity and the other following Presbyterian polity. In 1772 both
+        groups agreed to follow Congregational polity and in 1808 both groups physically merged into
+        a single meeting house. The church had close relations to Bowdoin College and Harriet
+        Beecher Stowe found inspiration for Uncle Tom's Cabin while attending the church. The
+        Church, now a member of the UCC, continues to serve the community. The collection includes
+        the early administrative and vital membership records of the church including church and
+        parish meeting minutes, vital statistics of members, and ministerial records for Asa
+        Mead.</abstract>
+      <origination label="creator">
+        <corpname identifier="n97031328" source="lcnaf">
+          <part>First Parish Church (Brunswick, Me.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_90e21596fd09febadd08f50a2de6edb2">
+      <head> Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_79c93ea2cb6c7ea5a013d8839a03f12a">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+      <p>Digital Reproductions are protected by copyright and/or related rights. You are free to use
+        the Digital Reproductions in any way that is permitted by the copyright and related rights
+        legislation that applies to your use. In addition, no permission is required from the
+        Congregational Library &amp; Archives for educational uses. For other uses, you need to
+        obtain permission from the Congregational Library &amp; Archives. For additional information
+        regarding copyright, please consult the Congregational Library &amp; Archives' <ref
+          actuate="onrequest" href="http://www.congregationallibrary.org/about/digital-copyright"
+          linktitle="Digital Collections Copyright &amp; Use" show="new">Digital Collections
+          Copyright &amp; Use</ref> policy.</p>
+    </userestrict>
+    <prefercite id="aspace_8cd27b200ac87832b541ab3a0332ab6d">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Brunswick, Me. First Parish Church records, 1735-1829,
+        RG5236. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_ace64ef38419d77db2a39be2eb4d128f">
+      <head>Acquisition Information</head>
+      <p>Loaned to the Congregational Library &amp; Archives, for digitization, by the First Parish
+        Church in Brunswick, Maine, October 2014; 1014-83.</p>
+    </acqinfo>
+    <originalsloc id="aspace_fad63607ca19a2692ba36768460fde70">
+      <head>Location of Originals</head>
+      <p>The physical records are held and maintained by the First Parish Church in Brunswick,
+        Maine.</p>
+    </originalsloc>
+    <accruals id="aspace_e1955d4be0d278e2a28fb250e40099fd">
+      <head>Accruals</head>
+      <p>Additional accruals are expected for this collection in the form of full-text
+        transcription. There is no anticipated date for this accrual.</p>
+    </accruals>
+    <processinfo id="aspace_da5869098aa05915a179704a99f3f5bf">
+      <head>Processing Information</head>
+      <p>Originally processed by Sari Mauro, January 2015. Redescribed by Zachary Bodnar, March
+        2019, using DACS Second Edition.</p>
+    </processinfo>
+    <bioghist id="aspace_628a33783bcb46b259028e65aa2af9ca">
+      <head>Historical Note</head>
+      <p>The township of Brunswick was incorporated on May 3, 1717. The Massachusetts General Court
+        voted to allocate funds for the dispatching of missionaries to the Native Americans still
+        settled in Brunswick, an act which established the First Parish Church in Brunswick. The
+        first missionary to visit was Rev. Joseph Baxter. He was followed by Rev. James Woodslide, a
+        Brunswick local, who was deemed not puritanical enough to continue preaching. The first
+        permanently settled minister of the First Parish Church was Rev. Robert Dunlap, a
+        Presbyterian, who served as the pastor of the church from 1747-1760.</p>
+      <p>Funding for the first meeting house was first authorized on January 9, 1717, but the
+        building was not completed until 1735. This meeting house, in the western part of the town,
+        was largely Presbyterian. A second meeting house was constructed in the eastern part of the
+        town in 1756 and was largely Congregational. The minister of the First Parish served as
+        pastor of both churches. In 1772, the two church populations agreed to officially follow
+        Congregational polity. In 1790 some parishioners withdrew from the church in order to form a
+        Baptist Society, in part because they did not wish to pay taxes to the town to support the
+        Congregational minister.</p>
+      <p>Construction on the third meeting house began in 1806 and was completed in 1808. At that
+        point, the two church communities largely combined and met jointly in the third meeting
+        house. The first meeting house became property of Brunswick until it was destroyed by fire
+        in 1834. The second meeting house was largely abandoned after 1808 and was demolished by
+        1835. The fourth, and final, meeting house, designed by Richard Upjohn, was dedicated on
+        March 18, 1846. Harriet Beecher Stowe sat in pew 23 in this building in 1851 when she was
+        inspired to write "Uncle Tom's Cabin."</p>
+      <p>The First Parish Church had a close relationship with Bowdoin College during the 19th and
+        20th century. The college provided some of the funds needed for the construction of the
+        third and fourth meeting houses and Baccalaureate Services and Commencement Exercises were
+        held annually at the church building until 1966.</p>
+      <p>In 1960, the First Parish Church in Brunswick voted to join the United Church of Christ.
+        The church continues to serve the community today.</p>
+    </bioghist>
+    <scopecontent id="aspace_79bdef4adf5edf1f24453231fcac2f8f">
+      <head>Scope and Contents</head>
+      <p>This collection contains the early administrative and vital membership records of the First
+        Parish Church in Brunswick, Maine. Included in the collection are the minutes of church and
+        parish meetings, baptismal records, marriage records, records of deaths, historical
+        sketches, and the ministerial records of Asa Mead.</p>
+    </scopecontent>
+    <arrangement id="aspace_e31f2b57690e9e177d931294782c56d0">
+      <head>Arrangement</head>
+      <p>This collection has been arranged in chronological order by start date.</p>
+    </arrangement>
+    <phystech id="aspace_21405ca4947793416d3cadeadf818dc1">
+      <head>Technical Requirements</head>
+      <p>To access digital user's copies via online-interface, a java-enabled web browser is
+        required. Internet Explorer 8.x and later, Firefox 5.x and later, Opera 12 and later, Safari
+        5.x and later, or any version of Google Chrome are recommended.</p>
+    </phystech>
+    <bibliography id="aspace_4809d850cd3ad38b0c3fd958d23cccaf">
+      <head>Bibliography</head>
+      <p><emph render="italic">The First Parish and the First Parish Church (United Church of
+          Christ) Brunswick, Maine</emph>. Brunswick: 1967. 17.11.1 B83.63 FIRP</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85066724" source="lcsh">
+        <part>Installation (clergy).</part>
+      </subject>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <subject identifier="sh85090572" source="lcsh">
+        <part>Necrologies.</part>
+      </subject>
+      <subject source="local">
+        <part>New England's Hidden Histories.</part>
+      </subject>
+      <corpname identifier="n81089766" source="lcnaf">
+        <part>Brunswick (Me.) -- Church history.</part>
+      </corpname>
+      <corpname identifier="n2004078151" source="lcnaf">
+        <part>First Baptist Church (Brunswick, Me.)</part>
+      </corpname>
+      <corpname identifier="n97031328" source="lcnaf">
+        <part>First Parish Church (Brunswick, Me.)</part>
+      </corpname>
+      <persname identifier="nr93031306" source="lcnaf">
+        <part>Mead, Asa, 1792-1831</part>
+      </persname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_9350d372495971784e9a662af871dbf6" level="item">
+        <did>
+          <unittitle>Parish records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1735">1735</fromdate>
+              <todate standarddate="1822">1822</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1735-1822</unitdate>
+        </did>
+        <altformavail id="aspace_632ebe1e989f62d3a94e67f463335b1e">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/BrunswickME/viewer/Records2C2017351822/1"
+              linktitle="available to view online" show="new">available to view online</ref>.
+            Transcriptions for this volume are also available and may be viewed alongside the
+            digital images.</p>
+        </altformavail>
+        <scopecontent id="aspace_cba8fcbe5f57ea721c3fac1ad61ff3db">
+          <head>Scope and Contents</head>
+          <p>This volume contains the early administrative records of the parish. These records are
+            copies of originals which were collected and expanded upon at a later unknown date. The
+            volume also contains historical information about the early church.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_cb56c76ba30b642a3d685356572d0517" level="file">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1760">1760</fromdate>
+              <todate standarddate="1794">1794</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1760-1794</unitdate>
+        </did>
+        <altformavail id="aspace_d1c00ebd07e93993c8b9908978b5deb1">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/BrunswickME/viewer/Church20book2020loose20materials2C2017621794/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_620603589672433ff9938f44a0f830d8">
+          <head>Scope and Contents</head>
+          <p>This folder contains church records including baptismal records, records of admissions,
+            records of deaths, a letter of reconcilliation, and a historical sketch.</p>
+        </scopecontent>
+        <separatedmaterial id="aspace_f07bce3b3856a69c46a9fbd92a3313a2">
+          <head>Separated Materials</head>
+          <p>These materials were separated from the Church book, 1762-1794 for preservation
+            purposes.</p>
+        </separatedmaterial>
+      </c01>
+      <c01 id="aspace_d8e4e9c9908034eda240a6760c9294bd" level="item">
+        <did>
+          <unittitle>Church book</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1762">1762</fromdate>
+              <todate standarddate="1794">1794</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1762-1794</unitdate>
+        </did>
+        <altformavail id="aspace_67acdf7cca9cc7a1f013f7332d92a7c0">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/BrunswickME/viewer/Church20book2C2017621792/1"
+              linktitle="available to view online" show="new">available to view online</ref>.
+            Transcriptions for this volume are also available and may be viewed alongside the
+            digital images.</p>
+        </altformavail>
+        <scopecontent id="aspace_482a5cc66f55a41c7c1501876ae2b73f">
+          <head>Scope and Contents</head>
+          <p>This volume contains administrative records and valuable membership records. Within the
+            volume are meeting minutes, records of votes, and membership lists.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_e3b65d88fd75af2c19fd7c416a873568" level="file">
+        <did>
+          <unittitle>Constitution change</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1770">circa 1770</datesingle>
+          </unitdatestructured>
+        </did>
+        <altformavail id="aspace_9c92efb625fe6f78935e6095a6c130b3">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/BrunswickME/viewer/Constitution20change2C20circa201770/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_11a45b7e932a29da3fad1ed850dbf748">
+          <head>Scope and Contents</head>
+          <p>This folder contains a record related to the 1770 decision that resulted in the
+            Presbyterian branch of the First Parish Church to conform to Congregational polity.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_cea4f5c764ba6efbc6fe7251613e3261" level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1793">1793</fromdate>
+              <todate standarddate="1822">1822</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1793, 1810-1822</unitdate>
+        </did>
+        <altformavail id="aspace_8418ccf26091d1c6aa8b45fa2e6170a1">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/BrunswickME/viewer/Church20records2C2017931822/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_9ea745b84373b95a5aeb39f8a9652591">
+          <head>Scope and Contents</head>
+          <p>This volume contains the administrative records of the church and the vital records of
+            members. The volume includes meeting minutes, copies of the church covenant, baptismal
+            records, marriages records, membership lists, and records of deaths.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_64fdccc73c239306092aa5ab0d8567ec" level="file">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1806">1806</fromdate>
+              <todate standarddate="1829">1829</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1806-1829</unitdate>
+        </did>
+        <altformavail id="aspace_ce4f858399ba89973062d1c106c2135c">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/BrunswickME/viewer/Church20records2028loose292C2018061829/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_a540e8055c9e6b84b85e5ab38d341252">
+          <head>Scope and Contents</head>
+          <p>This folder contains records related to the operation of church programs, membership
+            records, and ministerial records. The folder contains a letter of dismission,
+            ministerial correspondence, disciplinary testimony, records of the establishment of a
+            Sunday school and church library, the relation of Joshua Edwards, and an address
+            delivered by Jesse Appleton, the second president of Bowdoin College.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_40d4da5a08613ec7c75b7a7f2bfddbbb" level="file">
+        <did>
+          <unittitle>Baptist Society formation</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1810">1810</datesingle>
+          </unitdatestructured>
+        </did>
+        <altformavail id="aspace_ea0892c37209ac036a5eac2f815b4fd7">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/BrunswickME/viewer/Baptist20Society20formed2C201799/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_7573b83416a6c82bcaa75ad4442d06b3">
+          <head>Scope and Contents</head>
+          <p>This folder contains a record which documents the early history of the formation of the
+            Baptist Society in Brunswick and the gathering of the First Baptist Church.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_cf227cf0b5b131e7b20f890833e733eb" level="file">
+        <did>
+          <unittitle>Historical summaries</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1810">1810</fromdate>
+              <todate standarddate="1814">1814</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1810-1814</unitdate>
+        </did>
+        <altformavail id="aspace_02eb8e321d83677338195456cf322001">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/BrunswickME/viewer/Historical20summaries2C2018102C201814/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_b04a419ce8861d67bc513ca514a291ff">
+          <head>Scope and Contents</head>
+          <p>This folder contains some historical sketches which relate to the early history of the
+            First Parish Church and the formation of the Maquoit Baptist Church.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_ad8e55ceae3768fd8bb0563b8bb2aeaa" level="file">
+        <did>
+          <unittitle>Asa Mead records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1822">1822</fromdate>
+              <todate standarddate="1827">1827</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1822-1827</unitdate>
+        </did>
+        <altformavail id="aspace_faaf79f235474143c333c6ac48c1d165">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/BrunswickME/viewer/Rev20Asa20Mead20documents2C2018221827/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_7b5acccc66d10a60bb5afe75e14d90f1">
+          <head>Scope and Contents</head>
+          <p>This folder contains documents related to the call, ordination, and pastorate of Asa
+            Mead. Included in the records are salary receipts, correspondence, and transfer
+            letters.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
