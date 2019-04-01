@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/BarnstableMAWest-5285.xml"
+      >BarnstableMAWest-5285</recordid>
+    <representation localtype="pdf"
+      href="http://www.congregationallibrary.org/sites/all/files/BarnstableMAWest-5285.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Barnstable, Mass. West Parish Church records, 1639-1853. </titleproper>
+        <author>Sari Mauro, Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2019-04-01</date>
+        <num>RG5285</num>
+      </publicationstmt>
+      <seriesstmt>
+        <p>Portions of this collection are part of New England's Hidden Histories. Digital
+          historical representations of these portions of the collection can be viewed online.</p>
+      </seriesstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS2 - 2013</abbr>
+      <citation>Describing Archives: A Content Standard, Second Edition</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2019-04-01T19:57:02+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Monday April 1, 2019
+          at 19:57</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Barnstable, Mass. West Parish Church records, 1639-1853.</unittitle>
+      <unitid>RG5285</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>0.22</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(1 box)</physdesc>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1639">1639</fromdate>
+          <todate standarddate="1853">1853</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" unitdatetype="inclusive">1639-1853</unitdate>
+      <abstract id="aspace_e23e0aa4815b1fd0380d7019f59bf09d">The history of the West Parish Church
+        in Barnstable, Massachusetts, dates back to 1616 with the formation of the non-conformist
+        Southwick Church. In 1634 the leader of the church and many of its members traveled to
+        Boston and in 1639 settled in the newly incorporated Barnstable where they formed the first
+        church in Barnstable. In 1717 the town of Barnstable was split into a West and East Parish;
+        the West Parish Church was the successor church to the earlier Barnstable church.
+        Construction of the West Parish meeting house was started in 1717 and completed in 1719. It
+        was renovated in 1852. It was completely restored to its original form between 1953 and
+        1958. The West Parish Church continues to serve the local community today. This collection
+        contains the earliest record book of the West Parish Church and some supplementary
+        materials. These records include meeting minutes, ecclesiastical council results, vital
+        records, and records of church discipline and controversies.</abstract>
+      <origination label="creator">
+        <corpname identifier="no96004569" source="lcnaf">
+          <part>West Parish Church (West Barnstable, Mass.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_8fb49f80820e8b05a56c4aaf352271d7">
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_9739d6f6531cb4772470bcf0edee64c2">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+      <p>Digital Reproductions are protected by copyright and/or related rights. You are free to use
+        the Digital Reproductions in any way that is permitted by the copyright and related rights
+        legislation that applies to your use. In addition, no permission is required from the
+        Congregational Library &amp; Archives for educational uses. For other uses, you need to
+        obtain permission from the Congregational Library &amp; Archives. For additional information
+        regarding copyright, please consult the Congregational Library &amp; Archives' <ref
+          actuate="onrequest" href="http://www.congregationallibrary.org/about/digital-copyright"
+          linktitle="Digital Collections Copyright &amp; Use" show="new">Digital Collections
+          Copyright &amp; Use</ref> policy.</p>
+    </userestrict>
+    <prefercite id="aspace_d2822a4bbfbc1e55870214a6fba13575">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Barnstable, Mass. West Parish Church records, 1639-1853,
+        RG5285. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_72f1d23ad2197b6215944e49af086412">
+      <head>Acquisition Information</head>
+      <p>Materials were loaned to the Congregational Library &amp; Archives by the West Parish
+        Church in Barnstable, Massachusetts, in June 2015; 2015-08.</p>
+    </acqinfo>
+    <custodhist id="aspace_d15361d47c9c84e8bbfa80896bbc5d8b">
+      <head>Custodial History</head>
+      <p>Materials were loaned to the Massachusetts Historical Society before they were loaned to
+        the Congregational Library &amp; Archives.</p>
+      <p>The Church record book underwent extensive preservation work prior to its arrival at the
+        Congregational Library &amp; Archives. Neither the date nor the vendor for this preservation
+        work is known.</p>
+    </custodhist>
+    <processinfo id="aspace_b1ef838981ec671d80644578ecd12c78">
+      <head>Processing Information</head>
+      <p>Processed by Sari Mauro, July 2015, using DACS Second Edition. Reprocessed and redescribed
+        by Zachary Bodnar, April 2019, using DACS Second Edition.</p>
+    </processinfo>
+    <bioghist id="aspace_2f087a9c1bb3fa11f6f919a48c3bd028">
+      <head>Historical Note</head>
+      <p>The history of the West Parish Congregational church begins with the gathering of a small
+        non-conformist church in Southwark, London, 1616. At the gathering of that church Henry
+        Jacob was appointed as pastor. Henry Jacob resigned from the church in 1622 in order to
+        travel to Jamestown, Virginia, where he died in 1624. Henry Jacob's successor was Rev. John
+        Lothrop, a young Oxford graduate and strong proponent of the separation of church and state.
+        In 1632, while gathered for worship in a private home, Lothrop and the members of the church
+        present, were arrested for their non-conformist beliefs. During their imprisonment, Rev.
+        Lothrop's wife died from medical complications. In the summer of 1634, Lothrop was released
+        from prison on the condition of his banishment; by September of 1634 Lothrop and
+        approximately 30 members of the Southwark Church arrived in Boston.</p>
+      <p>The members of the Southwark church initially settled in Scituate, a small settlement in
+        the Plymouth Colony. Discord between the members of the Southwark Church and the other
+        Plymouth Colony settlers quickly developed over the distribution of land and the issue of
+        baptism. Lothrop petitioned the General Court for resettlement and in June of 1638 the Court
+        offered Lothrop and his church land in the recently settled Mattakeese, now Barnstable. They
+        arrived in October of 1639, a month after the town of Barnstable was officially
+        incorporated.</p>
+      <p>Barnstable had initially been settled by another puritan minister, Rev. Joseph Hull. The
+        early settlement could not support two congregations and the Southwark Church outnumbered
+        Hull's. Further, some of the members of Hull's congregation switched and joined the
+        Southwark Church. The result was that shortly after Lothrop's settlement in Barnstable, Hull
+        moved to Yarmouth and left the religious administration of the new settlement to Lothrop.
+        This marked the official gathering of the Parish Church in Barnstable. Within three years of
+        their settlement construction on the first meeting house began; construction was completed
+        in 1644. This building continues to stand today and is a part of the Sturgis Library in
+        Barnstable.</p>
+      <p>Rev. Lothrop died in 1653. Discord within the church lasted until 1663 when Thomas Walley
+        was settled as the second minister. He served as pastor until 1673 when he died. Another ten
+        year period of discord followed until the settlement of Johnathan Russell in 1683. He was
+        succeeded by his son, Johnathan Russell II in 1712. By 1712 Barnstable had grown
+        significantly and some members of the parish began to push for a division of Barnstable into
+        an East and West Parish. Johnathan Russell II attempted to thwart this decision but in 1715
+        the town voted for the division and an Ecclesiastical Council made permanent the town vote.
+        The Parish Church in Barnstable became the West Parish Church in 1717 while the East Parish
+        Church officially was gathered as a new church in 1723. Construction on the second meeting
+        house began in 1717 and was completed in 1719.</p>
+      <p>The meeting house was enlarged in 1723. During the enlargement, a new bell tower was added
+        to the building as well as a gilded cock weathervane that had been ordered from England. In
+        the early 1760s, the newly installed minister, Rev. Oakes Shaw purchased a home which later
+        became the parsonage. By 1852 the meeting house had fallen into disrepair. However, the
+        church was poor, largely due to the decreased prosperity of Barnstable and the greater
+        number of churches present in the town, so instead of building a new meeting house, the
+        church voted to completely renovate the meeting house. During the ministry of Rev. Henry A.
+        Goodhue (1863-1883), Goodhue maintained a small school in the vestry of the meeting
+        house.</p>
+      <p>The economic situation of the church continued to deteriorate into the twentieth-century.
+        In 1920 the church voted to work with the South Congregational Church in Centerville to
+        share a single minister between the two churches. Both churches were struggling financially
+        and had been constant beneficiaries of home mission aid. This relationship stood unchanged
+        until 1957. By 1950 the church building had once again falling into significant disrepair.
+        Largely due to the efforts of Elizabeth Jenkins, a member of the church, the West Parish
+        Memorial Foundation was incorporated in 1950 with the mission of raising $100,000 to fully
+        restore the church to its 1719 form. In 1953 work on the restoration began and continued
+        until 1958 with the installation of an organ. During the 1950s the church joined the United
+        Church of Christ. In 1962 the West Parish Church merged with the West Barnstable Finnish
+        Congregational Church.</p>
+      <p>The West Parish Church, UCC, in Barnstable continues to serve the local community today.
+        The church continues to meet in the 1719 meeting house making it the oldest in-use meeting
+        house in the world.</p>
+    </bioghist>
+    <scopecontent id="aspace_a4b88aa3f9edd4618a7106d45959f004">
+      <head>Scope and Contents</head>
+      <p>This collection contains the earliest record book of the West Parish Church in Barnstable
+        and materials supplementary to that record book. The collection includes administrative
+        meeting minutes, results of ecclesiastical councils, records of disciplinary cases, vital
+        membership records, baptismal records, marriage intentions and documents related to a
+        controversy over music and singing during church services.</p>
+    </scopecontent>
+    <arrangement id="aspace_1bb9195b395368020fa330ee3c9dafdb">
+      <head>Arrangement</head>
+      <p>Materials have been arranged in chronological order by start date.</p>
+    </arrangement>
+    <phystech id="aspace_17a881b2a187df4780027432c5191e26">
+      <head>Technical Requirements</head>
+      <p>To access digital user's copies via online-interface, a java-enabled web browser is
+        required. Internet Explorer 8.x and later, Firefox 5.x and later, Opera 12 and later, Safari
+        5.x and later, or any version of Google Chrome are recommended.</p>
+    </phystech>
+    <relatedmaterial id="aspace_28bccb95aa85f5366acc73aa68e352af">
+      <head>Related Materials</head>
+      <p>The early history of the West Parish Church in Barnstable is intrinsically linked to the
+        history of the East Parish Church in Barnstable which is now the Unitarian Church in
+        Barnstable. Digital representations of the earliest records of the East Parish Church are
+        available through the Congregational Library &amp; Archives <ref actuate="onrequest"
+          href="http://www.congregationallibrary.org/nehh/series1/BarnstableMAWest5285"
+          linktitle="View the East Parish Church of Barnstable records online" show="new">to view
+          online</ref>. The physical records of the East Parish Church, and the Unitarian Church it
+        became, are available through the <ref actuate="onrequest"
+          href="http://www.sturgislibrary.org" linktitle="Visit the Sturgis Library website"
+          show="new">Sturgis Library</ref> in Barnstable.</p>
+    </relatedmaterial>
+    <bibliography id="aspace_115d7af47b85947d84a3bb720c1ddda0">
+      <head>Bibliography</head>
+      <p>Goehring, Walter R. <emph render="italic">The West Parish Church of Barnstable: An
+          Historical Sketch</emph>. The West Parish Memorial Foundation: West Barnstable, 1959.
+        17.11.1 W52.2 WesPC</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025590" source="lcsh">
+        <part>Church controversies.</part>
+      </subject>
+      <subject identifier="sh85025597" source="lcsh">
+        <part>Church discipline.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85066724" source="lcsh">
+        <part>Installation (clergy).</part>
+      </subject>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <subject source="local">
+        <part>New England's Hidden Histories.</part>
+      </subject>
+      <corpname identifier="n79103943" source="lcnaf">
+        <part>Barnstable (Mass.) -- Church history.</part>
+      </corpname>
+      <corpname identifier="n91002162" source="lcnaf">
+        <part>West Barnstable (Mass.) -- Church history.</part>
+      </corpname>
+      <corpname identifier="no96004569" source="lcnaf">
+        <part>West Parish Church (West Barnstable, Mass.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_54a57d08c22b39e79aa1c38eb92e0f57" level="item">
+        <did>
+          <unittitle>Church record book</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1639">1639</fromdate>
+              <todate standarddate="1853">1853</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1639-1853</unitdate>
+          <container id="aspace_87675089f560a37dbedc8363df5dd681" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_2e7121017b7bfb832dfab727a651913d" localtype="volume"
+            parent="aspace_87675089f560a37dbedc8363df5dd681">1</container>
+        </did>
+        <altformavail id="aspace_38be32d31138a625ca9d6707cf620635">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/BarnstableWest/viewer/Church20records2C2016681807/1"
+              linktitle="available to view online" show="new">available to view online</ref>.
+            Transcriptions for this volume are also available and may be viewed alongside the
+            digital images.</p>
+        </altformavail>
+        <scopecontent id="aspace_8d304f91335f2e2fa4452c05858aaac1">
+          <head>Scope and Contents</head>
+          <p>This volume contains the earliest administrative, ecclesiastical, and vital membership
+            records of the West Parish Church. Included within the records are meeting minutes,
+            ecclesiastical council reports, disciplinary records including written confessions,
+            baptismal records, and records of admissions and dismissions. The volume also includes
+            records related to a controversy over music and singing during church services.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_d508d31ff4b01072c86f3dac9c5aa836" level="file">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1835">1835</fromdate>
+              <todate standarddate="1853">1853</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">circa 1835-1853</unitdate>
+          <container id="aspace_a7a5db356f6ed7a394f5ab9200c3a369" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_4f9aea69cee4b71ccbecd1aeb14567f4" localtype="folder"
+            parent="aspace_a7a5db356f6ed7a394f5ab9200c3a369">1</container>
+        </did>
+        <scopecontent id="aspace_c46662ee72e7939b4fd5be9bfc92635e">
+          <head>Scope and Contents</head>
+          <p>This folder contains assorted records related to the operation of the West Parish
+            Church. Included within the records are an index of the Church record book, sermon
+            notes, marriage intentions, baptismal records, and the minutes of a pulpit supply
+            meeting.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
