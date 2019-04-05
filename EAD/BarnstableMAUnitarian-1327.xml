@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/BarnstableMAUnitarian-1327.xml"
+      >BarnstableMAUnitarian-1327</recordid>
+    <representation localtype="pdf"
+      href="http://www.congregationallibrary.org/sites/all/files/BarnstableMAUnitarian-1327.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Barnstable, Mass. Unitarian Church records, 1717-1930. </titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2019-04-04</date>
+        <num>RG1327</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS2 - 2013</abbr>
+      <citation>Describing Archives: A Content Standard, Second Edition</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2019-04-05T15:14:47+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Friday April 5, 2019
+          at 15:14</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Barnstable, Mass. Unitarian Church records, 1717-1930.</unittitle>
+      <unitid>RG1327</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>.02</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(1 reel)</physdesc>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1717">1717</fromdate>
+          <todate standarddate="1930">1930</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" unitdatetype="inclusive">1717-1930</unitdate>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <datesingle standarddate="1967">1967</datesingle>
+      </unitdatestructured>
+      <abstract id="aspace_36411dff916c517caa9681ee95521d50">The East Parish Church in Barnstable
+        was officially gathered in 1723 after the town of Barnstable was split into East and West
+        Parishes in 1717. In 1836 the original meeting house was replaced by a new structure. This
+        meeting house was destroyed by fire in 1905; construction on the third and final meeting
+        house was completed in 1907. During the nineteenth-century the church joined the Unitarian
+        movement and became the Barnstable Unitarian Church. The church continues to serve the local
+        community today. This collection contains the earliest records of East Parish Church in
+        Barnstable, as well as the early records of the Barnstable Unitarian Church, and includes
+        meeting minutes, vital records, ecclesiastical council results, and records of church
+        discipline.</abstract>
+      <origination label="creator">
+        <corpname identifier="n97103351" source="lcnaf">
+          <part>Barnstable Unitarian Church (Barnstable, Mass.)</part>
+        </corpname>
+      </origination>
+      <origination label="creator">
+        <corpname identifier="n97103344" source="lcnaf">
+          <part>East Parish Congregational Church (Barnstable, Mass.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_828bb49006677b5565d5b07f5094f38e">
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_65e14bcdc2e24fdb4cf4ad867418fec5">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite id="aspace_cfd405cb4dfe760cfc415754b52006aa">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Barnstable, Mass. Unitarian Church records, 1717-1930,
+        RG1327. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_aefa4c0a14d517da842e75a710fde087">
+      <head>Acquisition Information</head>
+      <p>Microfilm was deposited at the Congregational Library &amp; Archives, likely by the
+        Barnstable Unitarian Church, circa 1967; no accession number.</p>
+    </acqinfo>
+    <originalsloc id="aspace_041ce290682ef703d016cdd8cbed8272">
+      <head>Location of Originals</head>
+      <p>The records of the Barnstable Unitarian Church are held by the Sturgis Library in
+        Barnstable, Massachusetts.</p>
+    </originalsloc>
+    <altformavail id="aspace_c295d2bdf3880783e8bf5ac997f4f8d8">
+      <head>Digital Copies</head>
+      <p>Some materials that appear on the microfilm reel have been digitized through the New
+        England's Hidden Histories Project. Digital reproductions are <ref actuate="onrequest"
+          href="http://www.congregationallibrary.org/nehh/series1/BarnstableMAEast5158"
+          linktitle="available to view online" show="new">available to view online</ref>.</p>
+    </altformavail>
+    <custodhist id="aspace_11d0c624c63f60a75cf12e5756461f17">
+      <head>Custodial History</head>
+      <p>Microfilm was produced by Graphic Microfilm of New England, Waltham, Massachusetts, in
+        1967.</p>
+    </custodhist>
+    <processinfo id="aspace_547b6dd12c9a68376a51032e29ccdee0">
+      <head>Processing Information</head>
+      <p>Processed by Zachary Bodnar, April 2019, using DACS Second Edition.</p>
+    </processinfo>
+    <bioghist id="aspace_07a7e4ad06b7b56accf7ca228cb46891">
+      <head>Historical Note</head>
+      <p>In 1717 the town of Barnstable voted to split the town into two parishes each served by
+        their own church. The West Parish became the successor of the original church in Barnstable
+        whose history traced back to London in 1616. The East Parish was officially gathered in 1723
+        as a new church. The first meeting house of the East Parish Church was built on Cobb Hill.
+        In 1836 the meeting house was removed and that same year construction on the second meeting
+        house was completed. At some point in the nineteenth-century, probably 1845, the East Parish
+        Church became Unitarian and was renamed as the Barnstable Unitarian Church.</p>
+      <p>In 1905 the second meeting house was destroyed in a fire. Construction on the third, and
+        final, meeting house was completed in 1907. In 1960, the Parish Hall, a major extension of
+        the church, was completed. Another addition to the building was constructed in 1979.</p>
+      <p>The Unitarian Church of Barnstable, now affiliated with the Unitarian Universalist
+        Association, continues to serve the local community today.</p>
+    </bioghist>
+    <scopecontent id="aspace_055def86e4b36c7c81af99ea52c96676">
+      <head>Scope and Contents</head>
+      <p>This collection contains the earliest records of East Parish Church in Barnstable,
+        Massachusetts, and the early records of the Barnstable Unitarian Church. Records include
+        church meeting minutes, parish records, membership records, records of baptism,
+        ecclesiastical council results, and records of church discipline.</p>
+    </scopecontent>
+    <phystech id="aspace_00e8af8615a684b36772135f17dedad2">
+      <head>Technical Requirements</head>
+      <p>A microfilm reader is required in order to access microform materials. One microfilm reader
+        is available to the public upon request.</p>
+    </phystech>
+    <relatedmaterial id="aspace_d8c407fc954088a74a58008611b43085">
+      <head>Related Materials</head>
+      <p>The early history of the Barnstable Unitarian Church is intrinsically linked to the history
+        of the West Parish Church in Barnstable. Digital representations of the earliest records of
+        the West Parish Church are available through the Congregational Library &amp; Archives <ref
+          actuate="onrequest"
+          href="http://www.congregationallibrary.org/nehh/series1/BarnstableMAWest5285"
+          linktitle="View the West Parish Church of Barnstable records online" show="new">to view
+          online</ref>.</p>
+    </relatedmaterial>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025597" source="lcsh">
+        <part>Church discipline.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85088919" source="lcsh">
+        <part>Music in churches.</part>
+      </subject>
+      <subject identifier="sh85090572" source="lcsh">
+        <part>Necrologies.</part>
+      </subject>
+      <subject identifier="sh85095385" source="lcsh">
+        <part>Ordination.</part>
+      </subject>
+      <corpname identifier="n79103943" source="lcnaf">
+        <part>Barnstable (Mass.) -- Church history.</part>
+      </corpname>
+      <corpname identifier="n97103351" source="lcnaf">
+        <part>Barnstable Unitarian Church (Barnstable, Mass.)</part>
+      </corpname>
+      <corpname identifier="n97103344" source="lcnaf">
+        <part>East Parish Congregational Church (Barnstable, Mass.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_e422684d0694e9e869ea8e8ce3157e60" level="item">
+        <did>
+          <unittitle>Church and society records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1717">1717</fromdate>
+              <todate standarddate="1930">1930</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1717-1930</unitdate>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1967">1967</datesingle>
+          </unitdatestructured>
+          <container id="aspace_b976980734394d58eb754364170f8c9a" label="Microform" localtype="reel"
+            >1</container>
+        </did>
+        <scopecontent id="aspace_3d23ef0bfb043b4a9714aa6d39d2f02f">
+          <head>Scope and Contents</head>
+          <p>This microfilm reel contains images of the earliest record books of the East Parish in
+            Barnstable, and later, the Barnstable Unitarian Church.</p>
+          <list listtype="ordered" numeration="decimal">
+            <head>Index</head>
+            <item>Parish records, 1717-1801</item>
+            <item>parish records, 1847-1930</item>
+            <item>Society records, 1801-1847</item>
+            <item>Church records, 1725-1816</item>
+          </list>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
