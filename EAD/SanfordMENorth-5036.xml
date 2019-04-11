@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/SanfordMENorth-5036.xml"
+      >SanfordMENorth-5036</recordid>
+    <representation localtype="pdf" href="http://www.congregationallibrary.org/sites/all/files/SanfordMENorth-5036.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Sanford, Me. North Congregational Church records, 1786-1905. </titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2019-04-11</date>
+        <num>RG5036</num>
+      </publicationstmt>
+      <seriesstmt>
+        <p>Portions of this collection are part of New England's Hidden Histories. Digital
+          historical representations of these portions of the collection can be viewed online.</p>
+      </seriesstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS2 - 2013</abbr>
+      <citation>Describing Archives: A Content Standard, Second Edition</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2019-04-11T16:42:41+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Thursday April 11,
+          2019 at 16:42</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Sanford, Me. North Congregational Church records, 1786-1905.</unittitle>
+      <unitid>RG5036</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>0.22</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(1 box)</physdesc>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1786">1786</fromdate>
+          <todate standarddate="1905">1905</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" unitdatetype="inclusive">1786-1905</unitdate>
+      <abstract id="aspace_75da50e538662785285e78581a25fc4f">The town of Sanford, originally in
+        Massachusetts, was incorporated in 1768 and the Congregational Church in Sanford was
+        gathered on March 28, 1786. Construction on the first meeting house was completed in 1792.
+        The second meeting house was constructed in the northern half of Sanford in 1831. The
+        Congregational Church became the North Congregational Church in 1847 after 14 members left
+        to form the South Congregational Church. The second meeting house was destroyed in a fire in
+        1878 and replaced the following year. In 1911 the church and parish society were
+        incorporated as one entity called the North Parish Congregational Church. In 1960 the church
+        joined the United Church of Christ and it continues to serve the community today. The
+        collection includes the administrative records of the early church and parish society as
+        well as vital membership records. </abstract>
+      <origination label="creator">
+        <corpname identifier="n2007160924" source="lcnaf">
+          <part>Congregational Church (Sanford, Me.)</part>
+        </corpname>
+      </origination>
+      <origination label="creator">
+        <corpname rules="rda" source="local">
+          <part>North Congregational Church (Sanford, Me.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_c54e2afe2da07b25b3ac9c0ab9cbcc58">
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_1dd80cd2d223ab60fae018a0f38e2616">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+      <p>Digital Reproductions are protected by copyright and/or related rights. You are free to use
+        the Digital Reproductions in any way that is permitted by the copyright and related rights
+        legislation that applies to your use. In addition, no permission is required from the
+        Congregational Library &amp; Archives for educational uses. For other uses, you need to
+        obtain permission from the Congregational Library &amp; Archives. For additional information
+        regarding copyright, please consult the Congregational Library &amp; Archives' <ref
+          actuate="onrequest" href="http://www.congregationallibrary.org/about/digital-copyright"
+          linktitle="Digital Collections Copyright &amp; Use" show="new">Digital Collections
+          Copyright &amp; Use</ref> policy.</p>
+    </userestrict>
+    <prefercite id="aspace_35c7270131d635ac0341e18427d8c1b9">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Sanford, Me. North Congregational Church records,
+        1786-1905, RG5360. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_6c8c7ef3be73f3c37683fe7658ebe074">
+      <head>Acquisition Information</head>
+      <p>Loaned to the Congregational Library &amp; Archives, November 2011, by the North Parish
+        Congregational Church; 2011-66.</p>
+    </acqinfo>
+    <accruals id="aspace_6085c77f25bd69ca294e0d163c5d0741">
+      <head>Accruals</head>
+      <p>Additional accruals are expected for this collection in the form of full-text
+        transcription. There is no anticipated date for this accrual.</p>
+    </accruals>
+    <processinfo id="aspace_6274c8366b79843aa07436b199bb3e32">
+      <head>Processing Information</head>
+      <p>Processed by Zachary Bodnar, April 2019, using DACS Second Edition.</p>
+    </processinfo>
+    <bioghist id="aspace_cd76a3541ef21e7f536797ae4aaed8ff">
+      <head>Historical Note</head>
+      <p>The town of Sanford, originally in Massachusetts, was incorporated in 1768. Between then
+        and 1786 the town, at various points, voted to raise money to both hire a minister and build
+        a meeting house, but apparently that did ever result in the formation of a church. On March
+        28, 1786, the Congregational Church of Sanford was formally gathered with Moses Sweat as the
+        minister. Construction on the first meeting house was completed in 1792. Rev. Sweat served
+        as minister for 36 years but the church membership remained small during his pastorate.</p>
+      <p>By the 1830s the population of Sanford had begun to migrate northward. In 1831 the second
+        meeting house was constructed in the new northern population center. Also in 1831 the church
+        adopted the articles of faith and covenant of the Cumberland Conference of Churches. The
+        move northwards caused some conflict within the church among those who still lived in the
+        southern portion of Sanford during the 1830s and 1840s. In 1847 a group of 14 members broke
+        away from the church after a period of increased antagonism. Those members, by order of an
+        Ecclesiastical Council, gathered the South Congregational Church on November 18, 1847. At
+        that time the Congregational Church changed its name to the North Congregational Church. The
+        South Church, later called the Second Congregational Church, was dissolved in 1903. On July
+        1, 1878, the second meeting house was destroyed by a fire that destroyed a total of 14
+        buildings. In 1879 construction on the third and final meeting house was completed.</p>
+      <p>During the latter half of the nineteenth-century and into the early twentieth-century, the
+        church began to suffer financially and lose members. Demographics in Sanford again changed
+        in the early twentieth-century with increased industrialization. The result of this was an
+        influx of members and money after 1910. In 1911 the church and parish organizations were
+        combined and incorporated and the name of the church changed to the North Parish
+        Congregational Church. In 1912 plans were put together to renovate the meeting house. While
+        plans were considered to construct a new meeting house they were thought to be
+        cost-prohibitive and so the plan was to build, behind the church, a parish house.
+        Construction on the parish house began in 1914 and was completed in 1915.</p>
+      <p>In October, 1960, the North Parish Congregational Church joined the United Church of
+        Christ. The church continues to serve the community of Sanford Maine today.</p>
+    </bioghist>
+    <scopecontent id="aspace_1e8d0a5357ccbdeb4586c24288bd6965">
+      <head>Scope and Contents</head>
+      <p>This collection contains the earliest records of the church organization and the parish
+        society. Included within the records are the meeting minutes of the church and society,
+        financial records, membership lists, marriage records, baptismal records, and records of
+        deaths.</p>
+    </scopecontent>
+    <arrangement id="aspace_3481936128bdb23fe1c9b66b39831881">
+      <head>Arrangement</head>
+      <p>Materials have been arranged in chronological order by start date.</p>
+    </arrangement>
+    <phystech id="aspace_b342aafed53e74bf5b0cad7eb0c2fb0a">
+      <head>Technical Requirements</head>
+      <p>To access digital user's copies via online-interface, a java-enabled web browser is
+        required. Internet Explorer 8.x and later, Firefox 5.x and later, Opera 12 and later, Safari
+        5.x and later, or any version of Google Chrome are recommended.</p>
+    </phystech>
+    <bibliography id="aspace_2cd5c6f094e5e1fbc714589bd5c155d7">
+      <head>Bibliography</head>
+      <p>Prosser, Albert L. <emph render="italic">A History of the North Parish Congregational
+          Church of Sanford Maine: 1786-1961</emph>. Sanford: 1961. 17.11.1 S28.2 NorPCC</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025597" source="lcsh">
+        <part>Church discipline.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <subject identifier="sh85090572" source="lcsh">
+        <part>Necrologies.</part>
+      </subject>
+      <subject source="local">
+        <part>New England's Hidden Histories.</part>
+      </subject>
+      <subject identifier="sh85095385" source="lcsh">
+        <part>Ordination.</part>
+      </subject>
+      <corpname identifier="n2007160924" source="lcnaf">
+        <part>Congregational Church (Sanford, Me.)</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>North Congregational Church (Sanford, Me.)</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>North Parish Congregational Church (Sanford, Me.)</part>
+      </corpname>
+      <corpname identifier="n85149561" source="lcnaf">
+        <part>Sanford (Me.) -- Church history.</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_e3e24d3a1b3baaee69948a7039224792" level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1786">1786</fromdate>
+              <todate standarddate="1823">1823</todate>
+            </daterange>
+          </unitdatestructured>
+          <container id="aspace_d56fc7575bdb1af0ef5ef97789550388" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_ba92fe341ecb1d55fe857b0d841d964b" localtype="volume"
+            parent="aspace_d56fc7575bdb1af0ef5ef97789550388">1</container>
+        </did>
+        <altformavail id="aspace_9f1a903259208a5894eafa1ebf9407f7">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/SanfordME/viewer/Church20records2C2017861823/1"
+              linktitle="available to view online" show="new">available to view online</ref>.
+            Transcriptions for this volume are also available and may be viewed alongside the
+            digital images.</p>
+        </altformavail>
+        <scopecontent id="aspace_5be6e6776fefd67101593bc72efc774d">
+          <head>Scope and Contents</head>
+          <p>This volume contains valuable administrative and membership information dating to the
+            founding of the church. Included within the volume are meeting minutes, records of
+            voted, baptismal records, marriage records, and records of deaths.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_4ddab7a2da05b07e2c49ff9044acd9c7" level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1843">1843</fromdate>
+              <todate standarddate="1888">1888</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1843-1888</unitdate>
+          <container id="aspace_5e1ad474eae16e85fc70c914bbecd853" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_bc78c8d4afd21e21a35abb4c5fbe05b9" localtype="volume"
+            parent="aspace_5e1ad474eae16e85fc70c914bbecd853">2</container>
+        </did>
+        <scopecontent id="aspace_75a7c117ddd1e686237b71c2f2ae0b79">
+          <head>Scope and Contents</head>
+          <p>This volume of records contains the administrative meeting minutes of the church as
+            well as a list of members in the church.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_049aa0611a3e9b0e4940c9eec892a874" level="item">
+        <did>
+          <unittitle>Parish records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1885">1885</fromdate>
+              <todate standarddate="1905">1905</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1885-1905</unitdate>
+          <container id="aspace_4ea1ce5c728cdd736732b55acd23d33e" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_6854df1bf0f027932b05cedfd4343c75" localtype="volume"
+            parent="aspace_4ea1ce5c728cdd736732b55acd23d33e">3</container>
+        </did>
+        <scopecontent id="aspace_612e46a3b06a9b1036a4525a370e8d4a">
+          <head>Scope and Contents</head>
+          <p>This volume contains the records of the Parish Society. Included within the volume are
+            meeting minutes, financial reports, committee reports, and a manuscript copy of the
+            parish constitution.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
