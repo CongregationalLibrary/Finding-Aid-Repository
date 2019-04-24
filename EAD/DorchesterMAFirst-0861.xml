@@ -43,8 +43,7 @@
     </languagedeclaration>
     <conventiondeclaration>
       <abbr>DACS2 - 2013</abbr>
-      <citation>translation missing: en.enumerations.resource_finding_aid_description_rules.DACS2 -
-        2013</citation>
+      <citation>Describing Archives: A Content Standard, Second Edition</citation>
     </conventiondeclaration>
     <localcontrol localtype="findaidstatus">
       <term>completed</term>
@@ -238,7 +237,7 @@
           <container id="aspace_10dd4673afb7f90e8c770f80db0b77cc" label="Mixed Materials"
             localtype="box">NEHH-Small 1</container>
           <container id="aspace_1b6a04c74593106cab21ae5d21db00e9" localtype="folder"
-            parent="aspace_10dd4673afb7f90e8c770f80db0b77cc">4</container>
+            parent="aspace_10dd4673afb7f90e8c770f80db0b77cc">6</container>
         </did>
         <altformavail id="aspace_0f3b84c487b9cf0b649529af854ba223">
           <head>Digital Copies</head>
@@ -269,7 +268,7 @@
           <container id="aspace_bdd9169d14927f047dfee77e210b149e" label="Mixed Materials"
             localtype="box">NEHH-Small 1</container>
           <container id="aspace_42effa361868cd65123f316e68f067b4" localtype="folder"
-            parent="aspace_bdd9169d14927f047dfee77e210b149e">5</container>
+            parent="aspace_bdd9169d14927f047dfee77e210b149e">7</container>
         </did>
         <altformavail id="aspace_f1d5801a6fa4111d22e9257365e9a311">
           <head>Digital Copies</head>
@@ -297,7 +296,7 @@
           <container id="aspace_ebb51b01e06bb236079b09c6af52048f" label="Mixed Materials"
             localtype="box">NEHH-Small 1</container>
           <container id="aspace_d1a0bf764507085121570b073772b1a9" localtype="folder"
-            parent="aspace_ebb51b01e06bb236079b09c6af52048f">6</container>
+            parent="aspace_ebb51b01e06bb236079b09c6af52048f">8</container>
         </did>
         <altformavail id="aspace_ce1aef73236f387ea243bdb31b857c24">
           <head>Digital Copies</head>
