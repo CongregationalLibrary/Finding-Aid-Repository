@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/DorchesterMAFirst-0861.xml"
+      >DorchesterMAFirst-0861</recordid>
+    <representation localtype="pdf"
+      href="http://www.congregationallibrary.org/sites/all/files/DorchesterMAFirst-0861.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Dorchester, Boston, Mass. First Church records, 1727-1784. </titleproper>
+        <author>Zachary Bodnar, Sari Mauro</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2019-04-22</date>
+        <num>RG0861</num>
+      </publicationstmt>
+      <seriesstmt>
+        <p>This collection is part of New England's Hidden Histories. Digital historical
+          representations of the collection can be viewed online.</p>
+      </seriesstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS2 - 2013</abbr>
+      <citation>Describing Archives: A Content Standard, Second Edition</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2019-04-22T18:36:46+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Monday April 22, 2019
+          at 18:36</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Dorchester, Boston, Mass. First Church records, 1727-1784.</unittitle>
+      <unitid>RG0861</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>3</quantity>
+        <unittype>Folders</unittype>
+      </physdescstructured>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1727">1727</fromdate>
+          <todate standarddate="1784">1784</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" unitdatetype="inclusive">1727-1784</unitdate>
+      <abstract id="aspace_f6609a38a96ce43b89810853303338d5">In 1631, a log cabin was built to serve
+        as the first meeting house of the recently settled Dorchester Plantation. For its first five
+        years of existence, the parish had two ministers, John Warham and John Maverick. They were
+        followed by Rev. Richard Mather, who served from 1636-1669. The church evolved from a
+        Trinitarian Congregational church, during the pastorate of Thaddeus Mason Harris
+        (1793-1836), to the Unitarian denomination. The First Parish Dorchester Church, now a member
+        of the Unitarian-Universalist denomination, continues to serve the local community. The
+        collection contains notes on sermons, membership lists, and weekly records of church
+        services.</abstract>
+      <origination label="creator">
+        <corpname identifier="n86018458" source="lcnaf">
+          <part>First Church (Dorchester, Boston, Mass.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_2b9eb5da10774a22f2599f0d1cbf0017">
+      <head>Restrictions on Use</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_17da08ec8d2d9d9392415d97e112995d">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+      <p>Digital Reproductions are protected by copyright and/or related rights. You are free to use
+        the Digital Reproductions in any way that is permitted by the copyright and related rights
+        legislation that applies to your use. In addition, no permission is required from the
+        Congregational Library &amp; Archives for educational uses. For other uses, you need to
+        obtain permission from the Congregational Library &amp; Archives. For additional information
+        regarding copyright, please consult the Congregational Library &amp; Archives' <ref
+          actuate="onrequest" href="http://www.congregationallibrary.org/about/digital-copyright"
+          linktitle="Digital Collections Copyright &amp; Use" show="new">Digital Collections
+          Copyright &amp; Use</ref> policy.</p>
+    </userestrict>
+    <prefercite id="aspace_21547b8d52312615602de121d31bd874">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Dorchester, Boston, Mass. First Church records, 1727-1784,
+        RG0861. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_09492d26d8d84bfb416d0a16985ce53e">
+      <head>Aquisition Information</head>
+      <p>No acquisition information is available for this collection.</p>
+    </acqinfo>
+    <accruals id="aspace_97d0cb9cbf9c97211458d343353afdd1">
+      <head>Accruals</head>
+      <p>Additional accruals are expected for this collection in the form of full-text
+        transcription. There is no anticipated date for this accrual.</p>
+    </accruals>
+    <processinfo id="aspace_52e45538da049413689c9afc1e9d79d7">
+      <head>Processing Information</head>
+      <p>Originally processed by Sari Mauro, October 2013, using DACS Second Edition. Reprocessed
+        and redescribed by Zachary Bodnar, April 2019, using DACS Second Edition.</p>
+    </processinfo>
+    <bioghist id="aspace_36e6fc0727e6c2630db415c2b86416e8">
+      <head>Historical Note</head>
+      <p>In 1630, the Rev. John White and a group of 140 individuals formed a church in England,
+        calling themselves Puritans. Soon after their formation, the members of the Puritans decided
+        to travel to North America. They set sail in the 400-ton ship Mary and John and landed first
+        at Hull, and later at a place called <emph render="italic">Mattapan</emph> by the Neponsett
+        tribe. The Puritans named their new home Dorchester Plantation in honor of Rev. White who
+        came from Dorchester, Dorset.</p>
+      <p>In 1631, a log cabin was built to serve as the first meeting house. The building also
+        served as a fort, storehouse, schoolhouse, and town hall. The second church, originally
+        built on the same site, was moved to Meeting House Hill in 1670. Four additional meeting
+        houses would be built on that same hill during the course of the church's history. The third
+        meeting house was constructed in 1678. The fourth was built in 1743 and the fifth was built
+        in 1816. On February 3, 1896, a fire destroyed the fifth meeting house. The sixth meeting
+        house was built on the remaining foundation of the fifth meeting house and was dedicated on
+        May 6, 1897. For its first five years of existence, the parish had two ministers, John
+        Warham and John Maverick. John Warham and a group of followers left the church and moved to
+        Windsor, Connecticut. They were followed by Rev. Richard Mather, who served from 1636-1669.
+        Under Mather's pastorate, the church founded the first publically supported elementary
+        school.</p>
+      <p>Other ministers of long-standing tenures included Revs. John Danforth, who served from
+        1682-1730; Jonathan Bowman, 1729-1773; Thaddeus Mason Harris, 1793-1836; and Nathaniel Hall,
+        1835-1875. During Harris' tenure, the church evolved from a Trinitarian Congregational
+        church to the Unitarian denomination, although Harris himself never believed in
+        denominational titles.</p>
+      <p>The First Parish Dorchester Church, now a member of the Unitarian-Universalist
+        denomination, continues to serve the local community.</p>
+    </bioghist>
+    <scopecontent id="aspace_a558377368d0d7013df4af1254495515">
+      <head>Scope and Contents</head>
+      <p>This collection contains early records of the First Church in Dorchester that illuminate
+        much about the religious life of early members. The collection contains notes on sermons,
+        membership lists, and weekly records of church services.</p>
+    </scopecontent>
+    <arrangement id="aspace_04465e66a1e2071c52a8d80f27965d2a">
+      <head>Arrangement</head>
+      <p>Materials have been arranged in chronological order by start date.</p>
+    </arrangement>
+    <phystech id="aspace_5dcc7f52a84bd79596e46db23e3dc884">
+      <head>Technical Requirements</head>
+      <p>To access digital user's copies via online-interface, a java-enabled web browser is
+        required. Internet Explorer 8.x and later, Firefox 5.x and later, Opera 12 and later, Safari
+        5.x and later, or any version of Google Chrome are recommended.</p>
+    </phystech>
+    <relatedmaterial id="aspace_d6042277400fd3f8cc5701f0e3ed34a5">
+      <head>Related Materials</head>
+      <p>The majority of the records of the First Church in Dorchester are housed, and available, at
+        the Massachusetts Historical Society: <ref actuate="onrequest"
+          href="http://www.masshist.org/collection-guides/view/fa0041"
+          linktitle="View the finding aid." show="new">First Parish Church in Dorchester Records,
+          1636-1981</ref>.</p>
+    </relatedmaterial>
+    <bibliography id="aspace_f96a924bcdf1d7f5f080a51ab18e1b97">
+      <head>Bibliography</head>
+      <p>Portions of the historical sketch are pulled from the finding aid produced by the
+        Massachusetts Historical Society.</p>
+      <p><emph render="italic">325th Anniversary Program: First Parish Church in Dorchester,
+          Massachusetts 1630-1955</emph>. Dochester: 1955. 17.11.1 B65.5 FirCD</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Fast-day sermons.</part>
+      </subject>
+      <subject source="local">
+        <part>New England's Hidden Histories.</part>
+      </subject>
+      <subject identifier="sh2008111551" source="lcsh">
+        <part>Sermons, American -- Early works to 1800.</part>
+      </subject>
+      <persname identifier="nr2005017501" source="lcnaf">
+        <part>Clap, Thomas, 1705-1774</part>
+      </persname>
+      <persname identifier="n85007263" source="lcnaf">
+        <part>Danforth, John, 1660-1730</part>
+      </persname>
+      <corpname identifier="n81022185" source="lcnaf">
+        <part>Dorchester (Boston, Mass.) -- Church history.</part>
+      </corpname>
+      <corpname identifier="n86018458" source="lcnaf">
+        <part>First Church (Dorchester, Boston, Mass.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_fc9d49ff9b9a6066b38622d067ee3b94" level="file">
+        <did>
+          <unittitle>Sermon notes</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1727">1727</datesingle>
+          </unitdatestructured>
+          <container id="aspace_10dd4673afb7f90e8c770f80db0b77cc" label="Mixed Materials"
+            localtype="box">NEHH-Small 1</container>
+          <container id="aspace_1b6a04c74593106cab21ae5d21db00e9" localtype="folder"
+            parent="aspace_10dd4673afb7f90e8c770f80db0b77cc">6</container>
+        </did>
+        <altformavail id="aspace_0f3b84c487b9cf0b649529af854ba223">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Dorchester/viewer/Sermon20notes2C201727/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_b882e2dc08dd036173422e45aaf6d5b1">
+          <head>Scope and Contents</head>
+          <p>This volume contains records of sermons preached at the First Church in Dorchester in
+            1727. The notes include records for boht the forenoon and afternoon sermons. The notes
+            include the relevant scripture passages and name of the preacher. Preachers noted within
+            the volume include John Danforth, Increase Sumner of Roxbury, Samuel Mather, and Thomas
+            Clap.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_6f7da33764d7edba1985131c030126d2" level="file">
+        <did>
+          <unittitle>Membership records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1757">1757</fromdate>
+              <todate standarddate="1781">1781</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1757-1781</unitdate>
+          <container id="aspace_bdd9169d14927f047dfee77e210b149e" label="Mixed Materials"
+            localtype="box">NEHH-Small 1</container>
+          <container id="aspace_42effa361868cd65123f316e68f067b4" localtype="folder"
+            parent="aspace_bdd9169d14927f047dfee77e210b149e">7</container>
+        </did>
+        <altformavail id="aspace_f1d5801a6fa4111d22e9257365e9a311">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Dorchester/viewer/Membership20records2C2017571781/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_5abb65f65f8e79e116273e34eaedd7c8">
+          <head>Scope and Contents</head>
+          <p>This small pamphlet lists the names and dates of those who were entered into the
+            membership roll of the Frist Church.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_e35061278ede6764647f290d9f83ec0e" level="file">
+        <did>
+          <unittitle>Church service records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1773">1773</fromdate>
+              <todate standarddate="1784">1784</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1773-1784</unitdate>
+          <container id="aspace_ebb51b01e06bb236079b09c6af52048f" label="Mixed Materials"
+            localtype="box">NEHH-Small 1</container>
+          <container id="aspace_d1a0bf764507085121570b073772b1a9" localtype="folder"
+            parent="aspace_ebb51b01e06bb236079b09c6af52048f">8</container>
+        </did>
+        <altformavail id="aspace_ce1aef73236f387ea243bdb31b857c24">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Dorchester/viewer/Church20records2C2017731784/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_4674c87676e034d46f42605c36d3611a">
+          <head>Scope and Contents</head>
+          <p>This notebook contains near weekly records of church services. For each week, the
+            author noted the name of the preacher and the bible passaged used during their sermon
+            for both the morning and afternoon services. The author also notes baptisms that
+            occurred, what days were sacrament days, and other general notes about special events or
+            changes to the usual service.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
