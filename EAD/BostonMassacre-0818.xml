@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/BostonMassacre-0818.xml"
+      >BostonMassacre-0818</recordid>
+    <representation localtype="pdf"
+      href="http://www.congregationallibrary.org/sites/all/files/BostonMassacre-0818.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Boston Massacre sermon, circa 1770. </titleproper>
+        <author>Zachary Bodnar, Sari Mauro</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2019-04-25</date>
+        <num>MS0818</num>
+      </publicationstmt>
+      <seriesstmt>
+        <p>This collection is part of New England's Hidden Histories. Digital historical
+          representations of the collection can be viewed online.</p>
+      </seriesstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS2 - 2013</abbr>
+      <citation>Describing Archives: A Content Standard, Second Edition</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2019-04-25T18:52:39+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Thursday April 25,
+          2019 at 18:52</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Boston Massacre sermon, circa 1770.</unittitle>
+      <unitid>MS0818</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>1</quantity>
+        <unittype>Folder</unittype>
+      </physdescstructured>
+      <unitdatestructured calendar="gregorian" certainty="inferred" unitdatetype="inclusive">
+        <datesingle standarddate="1770">1770</datesingle>
+      </unitdatestructured>
+      <abstract id="aspace_5e43bb1ccc7c1c38a6e6c4cd2fd5f8c9">The author of the manuscript sermon in
+        this collection is unknown and there is no provenance information associated with the
+        collection. The instigating incident behind the writing of the sermon was the Boston
+        Massacre, also known as the Incident on King Street, which occurred on March 5, 1770. The
+        event was widely reported on and further increased tensions between the Thirteen Colonies
+        and Great Britain. This collection consists of a single manuscript sermon written and
+        includes a historical account of the Massachusetts Bay Colony as well as a discussion on the
+        cause of colonial strife.</abstract>
+    </did>
+    <accessrestrict id="aspace_b35cd3600c2de3d770dba2e787480467">
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_9b602d5b664114b69f664812ad42823a">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+      <p>Digital Reproductions are protected by copyright and/or related rights. You are free to use
+        the Digital Reproductions in any way that is permitted by the copyright and related rights
+        legislation that applies to your use. In addition, no permission is required from the
+        Congregational Library &amp; Archives for educational uses. For other uses, you need to
+        obtain permission from the Congregational Library &amp; Archives. For additional information
+        regarding copyright, please consult the Congregational Library &amp; Archives' <ref
+          actuate="onrequest" href="http://www.congregationallibrary.org/about/digital-copyright"
+          linktitle="Digital Collections Copyright &amp; Use" show="new">Digital Collections
+          Copyright &amp; Use</ref> policy.</p>
+    </userestrict>
+    <prefercite id="aspace_30944b894c470d5244cacb89a032501e">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Boston Massacre sermon, circa 1770, MS0818. The
+        Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_aed9b13ba0e413db76f0fad6c5279fcd">
+      <head>Acquisition Information</head>
+      <p>No acquisition information is available for this collection.</p>
+    </acqinfo>
+    <accruals id="aspace_bf2787c2a80c67fd0c55ce0502ce901f">
+      <head>Accruals</head>
+      <p>Additional accruals are expected for this collection in the form of full-text
+        transcription. There is no anticipated date for this accrual.</p>
+    </accruals>
+    <processinfo id="aspace_7c7f8b157ed8669e7d44e00f8413d070">
+      <head>Processing Information</head>
+      <p>Originally processed by Sari Mauro, September 2014, using DACS Second Edition. Reprocessed
+        and redescribed by Zachary Bodnar, April 2019, using DACS Second Edition.</p>
+    </processinfo>
+    <bioghist id="aspace_9d70b7db5816e7d40c322071afac6197">
+      <head>Historical Note</head>
+      <p>The author of the manuscript sermon in this collection is unknown and there is no
+        provenance information associated with the collection. The instigating incident behind the
+        writing of the sermon was the Boston Massacre, also known as the Incident on King Street,
+        which occurred on March 5, 1770. Prior to the event, tensions between civilians and British
+        soldiers in the city of Boston, Massachusetts, had grown significantly. On the evening of
+        March 5, 1770, a mob formed around a lone British sentry and verbally accosted him.
+        Eventually the sentry was backed up by eight additional soldiers. Accounts of what exactly
+        occurred differ greatly, but it is almost certain that the mob tossed snowballs, stones, and
+        possibly clubs, at the soldiers who, in retaliation and/or self-defense, fired upon the
+        crowd. Three civilians were announced dead at the scene and an additional two died later
+        from wounds sustained at the scene. Eight soldiers and an officer were later arrested on
+        charges of murder; they were represented by John Adams and most were acquitted of all
+        charges while two were convicted of manslaughter with a reduced sentence. The "Boston
+        Massacre," as it had been dubbed, was widely reported on, much of it in the form of
+        propaganda, and further increased tensions between the Thirteen Colonies and Great
+        Britain.</p>
+    </bioghist>
+    <scopecontent id="aspace_995d52d3d518fccbf652ac332b48bb83">
+      <head>Scope and Contents</head>
+      <p>This collection consists of a single manuscript sermon written by an unknown author. A note
+        found on the back of the booklet, in a separate hand, notes that the sermon was "prepared
+        soon after the Boston Massacre, March, 5, 1770." The sermon cites Psalms 85:6. The sermon
+        contains the author's account of the history of Massachusetts Bay Colony leading up to the
+        massacre. The sermon further includes discussions about the causes of colonial strife,
+        namely the younger generation, and advice for how to better the situation, namely a
+        restoration of the ways of the past.</p>
+    </scopecontent>
+    <phystech id="aspace_39964f6498ac8a224efcccadc0bcdb97">
+      <head>Technical Requirements</head>
+      <p>To access digital user's copies via online-interface, a java-enabled web browser is
+        required. Internet Explorer 8.x and later, Firefox 5.x and later, Opera 12 and later, Safari
+        5.x and later, or any version of Google Chrome are recommended.</p>
+    </phystech>
+    <controlaccess>
+      <subject identifier="sh85015948" source="lcsh">
+        <part>Boston Massacre, 1770.</part>
+      </subject>
+      <subject source="local">
+        <part>New England's Hidden Histories.</part>
+      </subject>
+      <subject identifier="sh2008111551" source="lcsh">
+        <part>Sermons, American -- Early works to 1800.</part>
+      </subject>
+      <corpname identifier="n93006865" source="lcnaf">
+        <part>Great Britain. Stamp Act (1765)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 audience="internal" id="aspace_0d6b1b8fa16aba0a730d11e9a6c6718e" level="item">
+        <did>
+          <unittitle>Sermon</unittitle>
+          <unitdatestructured calendar="gregorian" certainty="inferred" unitdatetype="inclusive">
+            <datesingle standarddate="1770">circa 1770</datesingle>
+          </unitdatestructured>
+          <container id="aspace_017e3f9a8eb06adcffab80c29ca8a5b0" label="Mixed Materials"
+            localtype="box">NEHH-Small 1</container>
+          <container id="aspace_1bd481eeb55498fd3cbbeb3772ee58d1" localtype="folder"
+            parent="aspace_017e3f9a8eb06adcffab80c29ca8a5b0">4</container>
+        </did>
+        <altformavail id="aspace_9b6a87a42a57504698ff064c96f5c634">
+          <head>Digital Copies</head>
+          <p>This sermon was digitized as part of the New England's Hidden Histories project.
+            Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/UnknownMassacreSermon/viewer/Sermon/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
