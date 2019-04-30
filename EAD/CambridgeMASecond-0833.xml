@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/CambridgeMASecond-0833.xml"
+      >CambridgeMASecond-0833</recordid>
+    <representation localtype="pdf"
+      href="http://www.congregationallibrary.org/sites/all/files/CambridgeMASecond-0833.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Cambridge, Mass. Second Church covenant, 1739.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2019-04-30</date>
+        <num>RG0833</num>
+      </publicationstmt>
+      <seriesstmt>
+        <p>This collection is part of New England's Hidden Histories. Digital historical
+          representations of the collection can be viewed online.</p>
+      </seriesstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS2 - 2013</abbr>
+      <citation>Describing Archives: A Content Standard, Second Edition</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2019-04-30T19:17:20+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Tuesday April 30,
+          2019 at 19:17</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Cambridge, Mass. Second Church covenant, 1739.</unittitle>
+      <unitid>RG0833</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>1</quantity>
+        <unittype>Folder</unittype>
+      </physdescstructured>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <datesingle standarddate="1739">1739</datesingle>
+      </unitdatestructured>
+      <abstract id="aspace_7889ce3b1c753d0048498e8b8d63aee6">In 1725, citing the long distance
+        required to attend worship services, a group of parishioners from the First Church of Christ
+        in Cambridge requested that a precinct be formed in Menotomy village, now Arlington. This
+        request was granted in 1732 and the Second Church of Cambridge was formaly gathered in 1739.
+        This collection contains the original covenant of the Second Church in Cambridge. which was
+        created during the formation of the church.</abstract>
+      <origination label="creator">
+        <corpname identifier="n97093202" source="lcnaf">
+          <part>Second Church (Cambridge, Mass.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_375b3cc9e6620b7a7adceb81fe8f2881">
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_e59f5c3ead810d9ee6cf70acb54ca4bc">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+      <p>Digital Reproductions are protected by copyright and/or related rights. You are free to use
+        the Digital Reproductions in any way that is permitted by the copyright and related rights
+        legislation that applies to your use. In addition, no permission is required from the
+        Congregational Library &amp; Archives for educational uses. For other uses, you need to
+        obtain permission from the Congregational Library &amp; Archives. For additional information
+        regarding copyright, please consult the Congregational Library &amp; Archives' <ref
+          actuate="onrequest" href="http://www.congregationallibrary.org/about/digital-copyright"
+          linktitle="Digital Collections Copyright &amp; Use" show="new">Digital Collections
+          Copyright &amp; Use</ref> policy.</p>
+    </userestrict>
+    <prefercite id="aspace_ca41a610663e78179f6e8b731f7e0b5f">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Cambridge, Mass. Second Church covenant, 1739, RG0833. The
+        Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_3e7817353fa31236e26f445bef51c06b">
+      <head>Acquisition Information</head>
+      <p>No acquisition information is available for this collection.</p>
+    </acqinfo>
+    <accruals id="aspace_e96b5820fed335c5ed30b31d519cf7c3">
+      <head>Accruals</head>
+      <p>Additional accruals are expected for this collection in the form of full-text
+        transcription. There is no anticipated date for this accrual.</p>
+    </accruals>
+    <processinfo id="aspace_8b7067fe36cba0c9713eb3dcef03e51d">
+      <head>Processing Information</head>
+      <p>Processed by Zachary Bodnar, April 2019, using DACS Second Edition.</p>
+    </processinfo>
+    <bioghist id="aspace_33fe52dbf9ac115057d8be6963f47ed3">
+      <head>Historical Note</head>
+      <p>The town of Arlington, Massachusetts, was originally a village within the boundaries of
+        Cambridge named <emph render="italic">Menotomy</emph>, an Algonquin word meaning "swift
+        running water." In 1725, citing the long distance required to attend worship services, a
+        group of parishioners from the First Church of Christ in Cambridge requested that a precinct
+        be formed in Menotomy so that a new church could be gathered. This initial request was
+        denied. Subsequent requests were brought to the General Court and in 1732 they ruled that
+        Menotomy would become the Norwest Precinct of Cambridge. Construction on the first
+        meetinghouse was completed in 1734. In 1735 the search for a permanent minister was begun;
+        the search did not end until 1739 when Rev. Samuel Cook agreed to become the first minister.
+        With Rev. Cook installed, the church was formally gathered on September 9, 1739.</p>
+      <p>In 1805 the second meeting house was constructed. Two years later, in 1805, Manotomy
+        village was incorporated as the independent town of West Cambridge. In 1829 the church
+        called Rev. Frederick Hodge, a Unitarian. In the wake of Hodge's installation, some members
+        left the parish on order to form the Pleasant Street Congregational Church. In 1833 there
+        was a parish meeting where a resolution to designate the church as Universalist was
+        introduced and passed. The following week, another meeting took place and the previous
+        resolution was overturned. The split in the parish led to those advocating a conversion to
+        Universalism leaving the parish to form their own church. The third meeting house was
+        constructed in 1840. That meeting house was destroyed in a fire on January 1, 1855.
+        Construction on the fourth meeting house was completed that same year. The meeting house
+        drew on Victorian architectural design and included a steeple; the town paid for the steeple
+        to include, in its design, a clock with four faces.</p>
+      <p>In 1867 the town of West Cambridge was renamed to Arlington; at that time the name of the
+        church was changed to First Congregational Church in Arlington. Throughout the latter half
+        of the nineteenth-century, and well into the twentieth century, the parish community was
+        largely split between conservative and progressive factions; this resulted in the short
+        ministerial services of a number of pastors during this time. In 1961 the Unitarian and
+        Universalist denominations merged. As a result, First Church and the Universalist church,
+        which had split from First in 1833, began to talk of reuniting the churches. That merge
+        happened in 1965 and the church was renamed to the First Parish Unitarian Universalist
+        Church. In 1975 the fourth meeting house was destroyed in a fire. The fifth, and final,
+        meeting house, was constructed shortly thereafter.</p>
+      <p>The First Parish Unitarian Universalist Church in Arlington continues to serve the local
+        community today.</p>
+    </bioghist>
+    <scopecontent id="aspace_b5ddfbb59f19c85982588e6e42d224e1">
+      <head>Scope and Contents</head>
+      <p>This collection contains the original covenant of the Second Church in Cambridge. The
+        covenant was created during the formation of the church in 1739 and includes the tenants
+        that would be upheld by members of the church and a list of names of the original
+        members.</p>
+    </scopecontent>
+    <phystech id="aspace_36c5895c762fa7e26eb7096e08ddfe7c">
+      <head>Technical Requirements</head>
+      <p>To access digital user's copies via online-interface, a java-enabled web browser is
+        required. Internet Explorer 8.x and later, Firefox 5.x and later, Opera 12 and later, Safari
+        5.x and later, or any version of Google Chrome are recommended.</p>
+    </phystech>
+    <bibliography id="aspace_5a4ec9285bcca2e59e5ad5178cc0c0eb">
+      <head>Bibliography</head>
+      <p>Shriver, Diane Taraz. "On This Corner." Sermon presented at the First Parish Unitarian
+        Universalist Church, Arlington, MA, February 7, 2016. <ref actuate="onrequest"
+          href="http://www.firstparish.info/PDFDownloads/history/on_this_corner_sermon.pdf"
+          linktitle="On This Corner" show="new"
+          >http://www.firstparish.info/PDFDownloads/history/on_this_corner_sermon.pdf</ref>.</p>
+      <p>Shriver, Diane Taraz. "Opening the Doors." Sermon presented at the First Parish Unitarian
+        Universalist Church, Arlington, MA, May 7, 2017. <ref actuate="onrequest"
+          href="http://www.firstparish.info/PDFDownloads/history/opening_the_doors_sermon.pdf"
+          linktitle="Opening the Doors" show="new"
+          >http://www.firstparish.info/PDFDownloads/history/opening_the_doors_sermon.pdf</ref>.</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <corpname identifier="n82018575" source="lcnaf">
+        <part>Arlington (Mass.) -- Church history.</part>
+      </corpname>
+      <corpname identifier="n79061258" source="lcnaf">
+        <part>Cambridge (Mass.) -- Church history.</part>
+      </corpname>
+      <corpname identifier="n97093202" source="lcnaf">
+        <part>Second Church (Cambridge, Mass.)</part>
+      </corpname>
+      <corpname identifier="nr93041638" source="lcnaf">
+        <part>West Cambridge (Mass.) -- Church history.</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_2dd3905ef9fb2c4f497da5584ab30949" level="file">
+        <did>
+          <unittitle>Covenant</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1739">1739</datesingle>
+          </unitdatestructured>
+          <container id="aspace_13d5a84da4f2d46a538a1326eb7b309c" label="Mixed Materials"
+            localtype="box">NEHH-Small 1</container>
+          <container id="aspace_c1f801c62ab639e25142b4afa6891115" localtype="folder"
+            parent="aspace_13d5a84da4f2d46a538a1326eb7b309c">5</container>
+        </did>
+        <altformavail id="aspace_e833195cf00792abf187b2ac7a12b31a">
+          <head>Digital Copies</head>
+          <p>This church record was digitized as part of the New England's Hidden Histories project.
+            Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/CambridgeSecond/viewer/ChurchCovenant1739/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
