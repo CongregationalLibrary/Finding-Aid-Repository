@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/LitchfieldCTSouth-0912.xml"
+      >LitchfieldCTSouth-0912</recordid>
+    <representation localtype="pdf"
+      href="http://congregationallibrary.org/sites/all/files/LitchfieldCTSouth-0912.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Litchfield, Conn. South Farms Church disciplinary records, 1781. </titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2019-05-06</date>
+        <num>RG0912</num>
+      </publicationstmt>
+      <seriesstmt>
+        <p>This collection is part of New England's Hidden Histories. Digital historical
+          representations of the collection can be viewed online.</p>
+      </seriesstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS2 - 2013</abbr>
+      <citation>Describing Archives: A Content Standard, Second Edition</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2019-05-06T20:18:58+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Monday May 6, 2019 at
+          20:18</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Litchfield, Conn. South Farms Church disciplinary records, 1781.</unittitle>
+      <unitid>RG0912</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>1</quantity>
+        <unittype>Folders</unittype>
+      </physdescstructured>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <datesingle standarddate="1781">1781</datesingle>
+      </unitdatestructured>
+      <abstract id="aspace_14252d31d37e7c1f5b03a54bf75ed922">In 1768 the South Farms Church was
+        gathered in the recently designated South Farms Parish of Litchfield, Connecticut. In 1772
+        George Beckwith Jr. was installed as the first minister of the church. He was removed in
+        1781 after an ecclesiastical council found him guilty of adultery. The South Farms Church,
+        now Morris Congregational Church, continues to serve the local community today. This
+        collection contains the records of the ecclesiastical council which removed Beckwith from
+        his ministerial duties at the South Farms Church.</abstract>
+      <origination label="creator">
+        <corpname identifier="n97019448" source="lcnaf">
+          <part>South Farms Church (Litchfield, Conn.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_6d126bb5574353869b980e7a514a8f04">
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_b373c4abaed58346f12cdc4f50f0f8de">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+      <p>Digital Reproductions are protected by copyright and/or related rights. You are free to use
+        the Digital Reproductions in any way that is permitted by the copyright and related rights
+        legislation that applies to your use. In addition, no permission is required from the
+        Congregational Library &amp; Archives for educational uses. For other uses, you need to
+        obtain permission from the Congregational Library &amp; Archives. For additional information
+        regarding copyright, please consult the Congregational Library &amp; Archives' <ref
+          actuate="onrequest" href="http://www.congregationallibrary.org/about/digital-copyright"
+          linktitle="Digital Collections Copyright &amp; Use" show="new">Digital Collections
+          Copyright &amp; Use</ref> policy.</p>
+    </userestrict>
+    <prefercite id="aspace_20778cffc52bf42b452eb4c886a88727">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Litchfield, Conn. South Farms Church disciplinary records,
+        1781, RG0912. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_78fe16bc3f4415d1c2fbd594d18a4ede">
+      <head>Immediate Source of Acquisition</head>
+      <p>No acquisition information is available for this collection.</p>
+    </acqinfo>
+    <accruals id="aspace_6ef3519225161040bbe642ca55462720">
+      <head>Accruals</head>
+      <p>Additional accruals are expected for this collection in the form of full-text
+        transcription. There is no anticipated date for this accrual.</p>
+    </accruals>
+    <processinfo id="aspace_f6ff4d527e74ee29d2c2d2e05cb98cd5">
+      <head>Processing Information</head>
+      <p>Processed by Zachary Bodnar, May 2019, using DACS Second Edition.</p>
+    </processinfo>
+    <bioghist id="aspace_bdeb0239ddef6cfab0ab9026166965a8">
+      <head>Historical Note</head>
+      <p>In 1767 the South Farms parish of Litchfield, Connecticut, was established, allowing for
+        the residents, nearly all farmers, to establish their own church. That year the South Farms
+        Parish Society was formed and in 1768 the South Farms Church was officially gathered. The
+        church remained without a minister until 1772 when George Beckwith Jr. was ordained as the
+        first minister.</p>
+      <p>George Beckwith Jr. was the son of the congregational minister George Beckwith Sr. Beckwith
+        Sr. was the minister at the Second Parish Church in Lyme, Connecticut, from 1730 until 1785.
+        He was also a trustee of Yale. Beckwith Jr. graduated from Yale in 1766 and served as the
+        minister of the South Farms Church from 1772 until 1781. Beckwith was removed as the
+        minister of the South Farms Church by an ecclesiastical council called by the parish
+        society. The ecclesiastical council found him guilty of breaking the seventh commandment; in
+        other words, Beckwith was found guilty of adultery.</p>
+      <p>In 1859 the South Farms parish was incorporated as the town of Morris, Connecticut. The
+        name of the church was changed to Morris Congregational Church at that time. The Morris
+        Congregational Church, now a member of the United Church of Christ, is still active in the
+        local community today.</p>
+    </bioghist>
+    <scopecontent id="aspace_b5674e1a4226a6ad707d82e430534cb6">
+      <head>Scope and Contents</head>
+      <p>This collection contains records related to the dismissal of Rev. George Beckwith Jr. from
+        the South Farms Church in Litchfield, Connecticut. The records include the initial call for
+        an ecclesiastical council by the parish society which enumerates both specific and general
+        complaints against Rev. Beckwith. Of particular note is a complaint that he was
+        "lasciviously attempting female chastity". Also included in the records is an invitation to
+        the ecclesiastical council and the results of the ecclesiastical council. While the council
+        could not corroborate all of the complaints against Rev. Beckwith, they did find him guilty
+        of adultery; Rev. Beckwith was required to write a confession regarding his adultery which
+        is also included in the records. The records also include a document officially removing
+        Rev. Beckwith as minister of the church.</p>
+    </scopecontent>
+    <phystech id="aspace_ea7ed609dc17060e1834d09892092ad2">
+      <head>Technical Requirements</head>
+      <p>To access digital user's copies via online-interface, a java-enabled web browser is
+        required. Internet Explorer 8.x and later, Firefox 5.x and later, Opera 12 and later, Safari
+        5.x and later, or any version of Google Chrome are recommended.</p>
+    </phystech>
+    <controlaccess>
+      <subject identifier="sh85025597" source="lcsh">
+        <part>Church discipline.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh95004711" source="lcsh">
+        <part>Sexual misconduct by clergy.</part>
+      </subject>
+      <corpname identifier="n83052384" source="lcnaf">
+        <part>Litchfield (Conn.) -- Church history.</part>
+      </corpname>
+      <corpname identifier="n92001143" source="lcnaf">
+        <part>Morris (Conn.) -- Church history.</part>
+      </corpname>
+      <corpname identifier="n97019448" source="lcnaf">
+        <part>South Farms Church (Litchfield, Conn.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_a316da99bf6265cd394042c90c3919f0" level="file">
+        <did>
+          <unittitle>Disciplinary records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1781">1781</datesingle>
+          </unitdatestructured>
+          <container id="aspace_5302a9220ce119d9525c6cd8986d45e1" label="Mixed Materials"
+            localtype="box">NEHH-Small 1</container>
+          <container id="aspace_926d768706ba2f48632dec741148068a" localtype="folder"
+            parent="aspace_5302a9220ce119d9525c6cd8986d45e1">9</container>
+        </did>
+        <altformavail id="aspace_8e496a8a884419ffcbbc5a6369d2ae0e">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/LitchfieldCT/viewer/ChurchDiscipline1781/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
