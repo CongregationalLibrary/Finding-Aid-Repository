@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/NewburyMAFirst-0937.xml"
+      >NewburyMAFirst-0937</recordid>
+    <representation localtype="pdf"
+      href="http://www.congregationallibrary.org/sites/all/files/NewburyMAFirst-0937.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Newbury, Mass. First Church ecclesiastical council meeting minutes, 1670.
+        </titleproper>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2019-05-08</date>
+        <num> RG0937</num>
+      </publicationstmt>
+      <seriesstmt>
+        <p>This collection is part of New England's Hidden Histories. Digital historical
+          representations of the collection can be viewed online.</p>
+      </seriesstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS2 - 2013</abbr>
+      <citation>Describing Archives: A Content Standard, Second Edition</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2019-05-14T19:19:36+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Tuesday May 14, 2019
+          at 19:19</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Newbury, Mass. First Church ecclesiastical council meeting minutes,
+        1670.</unittitle>
+      <unitid> RG0937</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>1</quantity>
+        <unittype>Folder</unittype>
+      </physdescstructured>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <datesingle standarddate="1670">1670.</datesingle>
+      </unitdatestructured>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <datesingle standarddate="1853">1853</datesingle>
+      </unitdatestructured>
+      <abstract id="aspace_43cbf18c2d3e02bcc540ac0c4d3e0d4b">The town of Newbury, Massachusetts, was
+        first settled in 1635. The First Church was gathered in 1635 and construction on the first
+        meeting house was completed the same year. In 1743 a group of parishioners left to form the
+        First Episcopal Church. Between 1635 and 1806 five meeting houses were constructed. The
+        fifth was destroyed in fire in 1868. The sixth, and final, meeting house was constructed in
+        1869. The First Church joined the United Church of Christ in 1961 and in 1967 the church was
+        renamed to the First Parish Church in Newbury; this church continues to serve the Newbury
+        community today. This collection contains a manuscript reproduction, created by Joshua
+        Coffin in 1853, of an ecclesiastical council determination called in 1669 and 1670 to advise
+        the parish church on questions of governance.</abstract>
+      <origination label="creator">
+        <corpname identifier="n91028812" source="lcnaf">
+          <part>First Church of Newbury (Newbury, Mass.)</part>
+        </corpname>
+      </origination>
+      <origination label="creator">
+        <persname identifier="n96020966" source="lcnaf">
+          <part>Woodbridge, John, 1613-1695</part>
+        </persname>
+      </origination>
+      <origination label="source">
+        <persname identifier="nr96008996" relator="trc" source="lcnaf">
+          <part>Coffin, Joshua, 1792-1864</part>
+        </persname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_8dcd24fb40baec6191415092368f72ff">
+      <head> Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_ca0d10698d947d061687c4da5e2cd1e3">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+      <p>Digital Reproductions are protected by copyright and/or related rights. You are free to use
+        the Digital Reproductions in any way that is permitted by the copyright and related rights
+        legislation that applies to your use. In addition, no permission is required from the
+        Congregational Library &amp; Archives for educational uses. For other uses, you need to
+        obtain permission from the Congregational Library &amp; Archives. For additional information
+        regarding copyright, please consult the Congregational Library &amp; Archives' <ref
+          actuate="onrequest" href="http://www.congregationallibrary.org/about/digital-copyright"
+          linktitle="Digital Collections Copyright &amp; Use" show="new">Digital Collections
+          Copyright &amp; Use</ref> policy.</p>
+    </userestrict>
+    <prefercite id="aspace_f13664b9ff1c0e043a05ed7f70ce538c">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Newbury, Mass. First Church ecclesiastical council meeting
+        minutes, 1670, RG0937. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_53874ad87f226ae7f32077f262af2d79">
+      <head>Acquisition Information</head>
+      <p>Presented to the Congregational Library &amp; Archives, August 1853, by Joshua Coffin; no
+        accession number.</p>
+    </acqinfo>
+    <accruals id="aspace_1d5d24949d0a06c028eb6a5dca4a11c9">
+      <head>Accruals</head>
+      <p>Additional accruals are expected for this collection in the form of full-text
+        transcription. There is no anticipated date for this accrual.</p>
+    </accruals>
+    <processinfo id="aspace_16e696dab4ad8797595187b293037206">
+      <head>Processing Information</head>
+      <p>Originally described by Anderson Boone, September 2014, using DACS Second Edition.
+        Reprocessed and redescribed by Zachary Bodnar, May 2019, using DACS Second Edition.</p>
+    </processinfo>
+    <bioghist id="aspace_3ea7e00f7ad45879b5928d7b617f209a">
+      <head>Historical Note</head>
+      <p>The town of Newbury, Massachusetts, was first settled in 1635. The early European colonists
+        settled along the Wessacuçon River, also transcribed as Quascacunquen; the river is now
+        known as the Parker River. The First Church in Newbury was formally gathered in 1635 and was
+        the twelfth church to be established in the Massachusetts Bay Colony. The first meeting
+        house was also constructed in 1635. As the Newbury settlement began to expand north towards
+        the Merrimac River the Parish decided to build a more central church. This second meeting
+        house was constructed in 1647. In 1661 the third meeting house was constructed across from
+        the second to accommodate a larger parish. The fourth meeting house was erected in 1699.</p>
+      <p>Three distinct population centers formed in Newbury during the late seventeenth-century. In
+        1694 the western portion of Newbury was partitioned into the West Parish and the Second
+        Church in Newbury was formed. Another partition took place in 1722 with the creation of the
+        Newburyport Parish and gathering of the Third Church in Newbury. Both parishes were
+        eventually incorporated as the towns of West Newbury and Newburyport.</p>
+      <p>In 1743 a group of parishioners, unhappy with Rev. Christopher Toppan and eager to more
+        closely follow the teachings of George Whitefield, withdrew from the First Church. They
+        later formed the First Episcopal Church along with a group of parishioners who had also
+        withdrawn from the Third Church to better follow George Whitefield's teachings.</p>
+      <p>The fifth meeting house was constructed in 1806 and dedicated on September 17, 1806. During
+        the nineteenth-century the parish community participated in numerous reform movements. In
+        1818 a Sunday school was opened. The following year the Female Reading Society was formed.
+        The fifth meeting house was destroyed in a fire on January 26, 1868. Construction on the
+        sixth, and final, meeting house was completed in 1869.</p>
+      <p>In 1961 the church voted to join the United Church of Christ. In 1967 the parish and church
+        organizations were merged and the name of the church was changed to First Parish Church of
+        Newbury. The First Parish Church continues to serve the Newbury community today.</p>
+    </bioghist>
+    <scopecontent id="aspace_c0d58e63d344d61fae900bcaa97ee759">
+      <head>Scope and Contents</head>
+      <p>This collection contains a manuscript reproduction of an ecclesiastical council declaration
+        called in 1669 and 1670. The original was made in the hand of Rev. John Woodbridge and the
+        copy was produced by Joshua Coffin in 1853. The council was called to advise the Newbury
+        church on a proposal to change their church governance from a Council of Elders to a more
+        democratic system. The response of the council was overwhelmingly negative; they claimed
+        that such a process was against the Congregational way and promoted popery. Despite this, by
+        1683, Newbury First had no ruling elders.</p>
+    </scopecontent>
+    <phystech id="aspace_e99d5b7a8c510c5f77cff1e11cfa46ad">
+      <head>Technical Requirements</head>
+      <p>To access digital user's copies via online-interface, a java-enabled web browser is
+        required. Internet Explorer 8.x and later, Firefox 5.x and later, Opera 12 and later, Safari
+        5.x and later, or any version of Google Chrome are recommended.</p>
+    </phystech>
+    <relatedmaterial id="aspace_cdffe5bf68a10e8c94aa51b8ada21070">
+      <head>Related Materials</head>
+      <p>The records of the First Parish Church in Newbury, Massachusetts, are housed at the The
+        Phillips Library at the Peabody Essex Museum and are open and available for research use. In
+        addition, some of these records have been digitized as part of the New England's Hidden
+        Histories project and digital reproductions are <ref actuate="onrequest"
+          href="http://www.congregationallibrary.org/nehh/series1/NewburyMAFirst0937"
+          linktitle="available to view online" show="new">available to view online</ref>.</p>
+    </relatedmaterial>
+    <bibliography id="aspace_4fa64dfe45c9fef6e0118aa558ad026b">
+      <head>Bibliography</head>
+      <p>The 350th Committee. <emph render="italic">First Parish Church: 350th Anniversary
+          All-Church Banquet, June 23, 1985</emph>. Newbury: 1985. 17.11.1 N45.2 FirCN</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh85025590" source="lcsh">
+        <part>Church controversies.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject source="local">
+        <part>New England's Hidden Histories.</part>
+      </subject>
+      <persname identifier="nr96008996" relator="trc" source="lcnaf">
+        <part>Coffin, Joshua, 1792-1864</part>
+      </persname>
+      <corpname identifier="n91028812" source="lcnaf">
+        <part>First Church of Newbury (Newbury, Mass.)</part>
+      </corpname>
+      <corpname identifier="n81117689" source="lcnaf">
+        <part>Newbury (Mass.) -- Church history.</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_0e5488935b7664ae80dd56d76ab245aa" level="file">
+        <did>
+          <unittitle>Council minutes</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1670">1670</datesingle>
+          </unitdatestructured>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1853">1853</datesingle>
+          </unitdatestructured>
+          <container id="aspace_2c4878c77420182ba97c308051b30b2b" label="Mixed Materials"
+            localtype="box">NEHH-Small 1</container>
+          <container id="aspace_966698940731b663271d6e12079503fa" localtype="folder"
+            parent="aspace_2c4878c77420182ba97c308051b30b2b">10</container>
+        </did>
+        <altformavail id="aspace_da3b978f22da9a4755569ac535719df3">
+          <head>Digital Copies</head>
+          <p>These ecclesiastical council meeting records were digitized as part of the New
+            England's Hidden Histories project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Newbury/viewer/Ecclesiastical20council20meeting20minutes2C2016691670/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
