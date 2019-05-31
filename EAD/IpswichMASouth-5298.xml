@@ -60,7 +60,7 @@
       <maintenanceevent>
         <eventtype value="revised"/>
         <eventdatetime>2019-05-30</eventdatetime>
-        <agenttype value="unknown"/>
+        <agenttype value="human"/>
         <agent/>
         <eventdescription>Zachary Bodnar: Revised finding aid instances, notes, agents, title
           fields, and subjects using the current implementation of the processing

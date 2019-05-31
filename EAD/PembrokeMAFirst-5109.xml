@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/PembrokeMAFirst-5109.xml"
+      >PembrokeMAFirst-5109</recordid>
+    <representation localtype="pdf"
+      href="http://www.congregationallibrary.org/sites/all/files/PembrokeMAFirst-5109.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Pembroke, Mass. First Church records, 1712-1953. </titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2017-09-15</date>
+        <num>RG5109</num>
+      </publicationstmt>
+      <seriesstmt>
+        <p>Portions of this collection are part of New England's Hidden Histories. Digital
+          historical representations of these portions of the collection can be viewed online.</p>
+      </seriesstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS2 - 2013</abbr>
+      <citation>Describing Archives: A Content Standard, Second Edition</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2019-05-31T20:02:02+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Friday May 31, 2019
+          at 20:02</eventdescription>
+      </maintenanceevent>
+      <maintenanceevent>
+        <eventtype value="revised"/>
+        <eventdatetime>2019-05-31</eventdatetime>
+        <agenttype value="human"/>
+        <agent/>
+        <eventdescription>Zachary Bodnar: Revised finding aid notes, agents, title fields, and
+          subjects using the current implementation of the processing manual.</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Pembroke, Mass. First Church records, 1712-1953.</unittitle>
+      <unitid>RG5109</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>1.09</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(1 box)</physdesc>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1712">1712</fromdate>
+          <todate standarddate="1953">1953</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" unitdatetype="inclusive">1712-1953</unitdate>
+      <abstract id="aspace_18dba7a997c9d4443e570dfef9c35bcc">The First Church in Pembroke was
+        organized October 22, 1712 and its first minister, Daniel Lewis, was ordained December 3,
+        1712. Under Lewis the parish flourished and in 1727 a larger, meeting house was built. The
+        third meeting house was erected by the end of 1837. In 1841 the church became Unitarian and
+        in 1964 the church rejoined the Congregational denomination. The First Church in Pembroke
+        continues to serve the community today. This collection documents the history and life of
+        the church and includes membership lists, administrative records, financial records, and
+        church correspondence.</abstract>
+      <origination label="creator">
+        <corpname rules="rda" source="local">
+          <part>First Church (Pembroke, Mass.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_d8055337d850e02b9f47ad97a1e1059a">
+      <head> Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_cc58919e72fb59a7373dd1d9ba627204">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+      <p>Digital Reproductions are protected by copyright and/or related rights. You are free to use
+        the Digital Reproductions in any way that is permitted by the copyright and related rights
+        legislation that applies to your use. In addition, no permission is required from the
+        Congregational Library &amp; Archives for educational uses. For other uses, you need to
+        obtain permission from the Congregational Library &amp; Archives. For additional information
+        regarding copyright, please consult the Congregational Library &amp; Archives' <ref
+          actuate="onrequest" href="http://www.congregationallibrary.org/about/digital-copyright"
+          linktitle="Digital Collections Copyright &amp; Use" show="new">Digital Collections
+          Copyright &amp; Use</ref> policy.</p>
+    </userestrict>
+    <prefercite id="aspace_77461a2e1111e8c6276f29c1b742b665">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Pembroke, Mass. First Church records, 1712-1953, RG5109.
+        The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_bf8e993ceac84704367c402541030535">
+      <head>Acquisition Information</head>
+      <p>Materials permanently loaned to the Congregational Library &amp; Archives in 2013 by the
+        First Church in Pembroke, Massachusetts; no accession number.</p>
+    </acqinfo>
+    <accruals id="aspace_249ea0387e227f2d53eb1debb3793edb">
+      <head>Accruals</head>
+      <p>Additional accruals are expected for this collection in the form of full-text
+        transcription. There is no anticipated date for this accrual.</p>
+    </accruals>
+    <custodhist id="aspace_c0839d31f141163d9bd8ace9ddfdbda2">
+      <head>Custodial History</head>
+      <p>Some materials in the collection, namely the two lists of communicants, have had
+        preservation and restoration work done to them by the Northeast Document Conservation Center
+        at an unknown date.</p>
+    </custodhist>
+    <processinfo id="aspace_3a217f8daf9aa454475e1f473504e50d">
+      <head>Processing Information</head>
+      <p>Processed by Zachary Bodnar, September 2017, using DACS Second Edition.</p>
+    </processinfo>
+    <bioghist id="aspace_3d11b4f2f13840a7a3c7f027e2e6e6ea">
+      <head>Historical Note</head>
+      <p>For the settlers of an area of Duxbury known as <emph render="italic">Mattakeesett</emph>,
+        a Massachusett word meaning "Place of much fish," worship was difficult as the nearest
+        meeting houses were 20 miles away. Public worship began in an old Huguenot orchard, earning
+        it the name "Sabbaday Orchard, " and the first meeting house was likely erected there around
+        1708, though there are two competing accounts regarding the specifics of this earliest
+        meeting house. On March 21, 1712, the town of Pembroke, which encompassed the whole of <emph
+          render="italic">Mattakeesett</emph>, was incorporated. As a part of that act, the new town
+        agreed to "procure and settle an orthodox, learned minister of good conversation." The First
+        Church in Pembroke was organized October 22, 1712 and its first minister, Daniel Lewis, was
+        ordained December 3, 1712. Sometime before 1717, the congregation moved to the Common and in
+        1717 this meeting house was enlarged to accommodate members of the Massachusett tribe. Under
+        Lewis, a Calvinist, the parish flourished and again in 1727 a larger, meeting house was
+        built. Pembroke was split into an East and West Parish in 1748; the Second Church was
+        gathered that same year in the West Parish. Lewis's ministry ended with his death on June
+        29, 1753.</p>
+      <p>The First Church continued to flourish under the ministry of Thomas Smith who was ordained
+        December 4, 1754. Unlike his predecessor, Smith was a relative religious liberal. Under his
+        ministry, the parish swelled so that finding a place to sit was often impossible and in 1763
+        the meeting house was again expanded. On December 28, 1772, at a meeting of the whole town
+        held in the second meeting house, the Pembroke Resolves were penned and approved by vote,
+        representing "the first public declaration contemplating political independence of Europe by
+        an American assembly." Late in Smith's ministry, a separation occurred within the parish due
+        to disagreements over Smith's liberalization of church music. 1787 was the final year of
+        Smith's ministry; due to the loss of his sight he was assisted by Kilborn Whitman who would
+        succeed Smith and was ordained in December of 1787. Smith passed away on July 7 1788.</p>
+      <p>In 1820 the West Parish in Pembroke was incorporated as the town of Hanson and the Second
+        Church was renamed at that times. The First Parish remained largely unchanged until December
+        of 1836, during the ministry of Morrill Allen, when the second meeting house was condemned
+        and ordered to be taken down. The meeting house was torn down and the third, and final,
+        meeting house was constructed and dedicated on the same lot by the end of 1837. As part of
+        this construction, a bell and clock were installed in the belfry. The clock was a gift to
+        the Town of Pembroke by Rev. Allen. The bell cracked in 1839 while ringing for a fire
+        marshal and a new one was installed that same year. Allen, famed for his frequent
+        agricultural writings, was the longest serving minister of the First Church, having served
+        nearly 41 years before he departed in 1841 to run for office as a Massachusetts state
+        senator. After Rev. Allen's departure, the First Church joined the Unitarian denomination.
+        In 1868, another separation occurred within the parish, this time over the installation of
+        an organ from the Organ Fund Society. On April 8, 1893, lighting struck the belfry, causing
+        extensive damage to the church. These damages were repaired by the fall when the church was
+        rededicated.</p>
+      <p>In large part due to declining membership and other financial difficulties, only
+        exasperated by United States entering World War II, the third meeting house fell into
+        disrepair during the first half of the twentieth-century. Ten women formed the Church
+        Restoration Committee and borrowed $1,000 (approximately the equivalent of $17,000 in 2017)
+        to begin a major restoration project in 1947. Less than a year later, the debt was paid off.
+        In 1958, a house was purchased by the First Church to be used as a parsonage. Once again,
+        lightning struck the First Church in 1985; this time the damages were repaired with the help
+        of the Town of Pembroke as part of its efforts to refurbish the clock. In 1964 the First
+        Church rejoined the Congregational denomination and in 1986 the First Church voted to join
+        with the United Church of Christ. In 1989 the ladies of the First Parish Sewing Circle
+        donated their building to the First Church to be used for Sunday-school classes. The First
+        Church in Pembroke continues to serve the local community today.</p>
+      <chronlist>
+        <head>Ministers</head>
+        <chronitem>
+          <datesingle>Daniel Lewis</datesingle>
+          <chronitemset>
+            <event>1712-1753</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Thomas Smith</datesingle>
+          <chronitemset>
+            <event>1754-1787</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Kilborn Whitman</datesingle>
+          <chronitemset>
+            <event>1787-1796</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>James Hawley</datesingle>
+          <chronitemset>
+            <event>1798-1800</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Morrill Allen</datesingle>
+          <chronitemset>
+            <event>1801-1841</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Joshua Chandler</datesingle>
+          <chronitemset>
+            <event>1842-1844</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Preserved Smith</datesingle>
+          <chronitemset>
+            <event>1845-1849</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>William L. Stearns</datesingle>
+          <chronitemset>
+            <event>1849-1856</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>William Bicknell</datesingle>
+          <chronitemset>
+            <event>1857-1861</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Theophilus Doggett</datesingle>
+          <chronitemset>
+            <event>1861-1874</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Jesse Temple</datesingle>
+          <chronitemset>
+            <event>1874-1877</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>James H. Collins</datesingle>
+          <chronitemset>
+            <event>1877-1879</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>John M. W. Pratt</datesingle>
+          <chronitemset>
+            <event>1881-1884</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Henry Dana Dix</datesingle>
+          <chronitemset>
+            <event>1885-1887</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Charles Gardner</datesingle>
+          <chronitemset>
+            <event>1888</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>William H. Fish</datesingle>
+          <chronitemset>
+            <event>1888-1889</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>John B. Barnhill</datesingle>
+          <chronitemset>
+            <event>1889-1890</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Charles E. Perkins</datesingle>
+          <chronitemset>
+            <event>1890</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Thomas Thompson</datesingle>
+          <chronitemset>
+            <event>1890-1891</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>William Brunton</datesingle>
+          <chronitemset>
+            <event>1891-1892</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Stanley M. Hunter</datesingle>
+          <chronitemset>
+            <event>1893-1894</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Martha Aitkin</datesingle>
+          <chronitemset>
+            <event>1894-1895</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Edward C. Guild</datesingle>
+          <chronitemset>
+            <event>1895-1896</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>John W. Barker</datesingle>
+          <chronitemset>
+            <event>1900-1901</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Henry Westfall</datesingle>
+          <chronitemset>
+            <event>1902-1906</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Palfrey Perkins</datesingle>
+          <chronitemset>
+            <event>1906-1908</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Paul H. Drake</datesingle>
+          <chronitemset>
+            <event>1908</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Lyman V. Rutledge</datesingle>
+          <chronitemset>
+            <event>1909-1910</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>John Malick</datesingle>
+          <chronitemset>
+            <event>1910-1911</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Charles H. Lyttle</datesingle>
+          <chronitemset>
+            <event>1912-1914</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Leonard Cushman</datesingle>
+          <chronitemset>
+            <event>1914</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>William Milsesel</datesingle>
+          <chronitemset>
+            <event>1915-1916</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Arthur H. Sargent</datesingle>
+          <chronitemset>
+            <event>1917-1918</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Howard Charles Gale</datesingle>
+          <chronitemset>
+            <event>1918</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Alfred Wilson</datesingle>
+          <chronitemset>
+            <event>1921</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Reid</datesingle>
+          <chronitemset>
+            <event>1925</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>George Rex Mursell</datesingle>
+          <chronitemset>
+            <event>1926</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Bryant</datesingle>
+          <chronitemset>
+            <event>1927</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Edward McGlennon Jr.</datesingle>
+          <chronitemset>
+            <event>1928</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Harvey Loy</datesingle>
+          <chronitemset>
+            <event>1929</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Elizabeth Marquand</datesingle>
+          <chronitemset>
+            <event>1929-1930</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Gerald Fitzpatrick</datesingle>
+          <chronitemset>
+            <event>1931</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Arthur H. Coar</datesingle>
+          <chronitemset>
+            <event>1933-1947</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Charles Fletcher</datesingle>
+          <chronitemset>
+            <event>1947-1948</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Lawrence Jaffa</datesingle>
+          <chronitemset>
+            <event>1949-1953</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Bertrand H. Steeves</datesingle>
+          <chronitemset>
+            <event>1953-1956</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Quentin R. Leisher</datesingle>
+          <chronitemset>
+            <event>1956-1961</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Malcolm Brummitt</datesingle>
+          <chronitemset>
+            <event>1962-1966</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>W. Chester Jostrom</datesingle>
+          <chronitemset>
+            <event>1967-1969</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Robert G. Morris</datesingle>
+          <chronitemset>
+            <event>1969-1982</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Donald Orcutt</datesingle>
+          <chronitemset>
+            <event>1982-1991</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>David L. Clarke</datesingle>
+          <chronitemset>
+            <event>1992-2000</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Richard Z. Giragosian</datesingle>
+          <chronitemset>
+            <event>2002-2016</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>M. E. Jackson</datesingle>
+          <chronitemset>
+            <event>2016-2018</event>
+          </chronitemset>
+        </chronitem>
+      </chronlist>
+    </bioghist>
+    <scopecontent id="aspace_7c6014b12434f2f61f5452af2aa6ceed">
+      <head>Scope and Contents</head>
+      <p>This collection includes the documentary history of the First Church in Pembroke. Included
+        within the collection are membership lists, church correspondence, newspaper clippings,
+        administrative records, financial records, meeting minutes, committee reports, and a small
+        printed bible which belonged to Daniel Lewis, the first minister of the church.</p>
+    </scopecontent>
+    <arrangement id="aspace_e2638749a05c207a04c1e224439ecc02">
+      <head>Arrangement</head>
+      <p>This collection is primarily arranged in chronological order, by start date, and by
+        topic.</p>
+    </arrangement>
+    <phystech id="aspace_5d0b6df9b805e498e8a6bcc8f9b49f1e">
+      <head>Technical Requirements</head>
+      <p>To access digital user's copies via online-interface, a java-enabled web browser is
+        required. Internet Explorer 8.x and later, Firefox 5.x and later, Opera 12 and later, Safari
+        5.x and later, or any version of Google Chrome are recommended.</p>
+    </phystech>
+    <bibliography id="aspace_608772fc5203e4df93c5c9d9a0c132d2">
+      <head>Bibliography</head>
+      <p>Cross, Karen. <emph render="italic">In the Beginning... The First Three Hundred Years of
+          the First Church in Pembroke, Massachusetts</emph>. Pembroke: Silver Lake Press, 2011.
+        17.11.1 P36.64 FIRCH</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025606" source="lcsh">
+        <part>Church finance.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <subject identifier="sh85090572" source="lcsh">
+        <part>Necrologies.</part>
+      </subject>
+      <subject source="local">
+        <part>New England's Hidden Histories.</part>
+      </subject>
+      <persname identifier="n85387417" source="lcnaf">
+        <part>Lewis, Daniel, 1685-1753</part>
+      </persname>
+      <corpname rules="rda" source="local">
+        <part>First Church (Pembroke, Mass.)</part>
+      </corpname>
+      <corpname identifier="n92121851" source="lcnaf">
+        <part>Pembroke (Mass.) -- Church history.</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_9e5ef243cbd0d6f7e36c2d1d5cc2faea" level="item">
+        <did>
+          <unittitle>Daniel Lewis's bible</unittitle>
+          <unitdatestructured calendar="gregorian" certainty="approximate" unitdatetype="inclusive">
+            <datesingle standarddate="1712">circa 1712</datesingle>
+          </unitdatestructured>
+          <container id="aspace_8b0e4e801403e0a43a71819e86143042" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_81886556027d318da77e82aee7c4a4bc" localtype="volume"
+            parent="aspace_8b0e4e801403e0a43a71819e86143042">1</container>
+        </did>
+      </c01>
+      <c01 id="aspace_1e2b89c97499fd56f2552b59b0eda0d0" level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1711">1711</fromdate>
+              <todate standarddate="1887">1887</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1711-1887</unitdate>
+          <container id="aspace_17df809ef99e2b734fd1f68c139eba1c" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_b3405b10e5b609bf38cb505c35219610" localtype="volume"
+            parent="aspace_17df809ef99e2b734fd1f68c139eba1c">2</container>
+        </did>
+        <altformavail id="aspace_c0c185c24b16e9d6f83acbb309ea0641">
+          <head>Digital Copies</head>
+          <p>This volume was digitized as part of the New England's Hidden Histories project.
+            Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Pembroke/viewer/Church20records2C2017111887/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_d17deb53e1d5343415dc9d02ab4495cb">
+          <head>Scope and Contents</head>
+          <p>This volume includes 109 pages of church records dating from 1711-1887. Included within
+            the church records are a list of ministers, a dedication for the church written by
+            Daniel Lewis, lists of votes, lists of deacons, captains, and members, minutes of church
+            meetings, records of dismission, records of baptism, records of admission, records of
+            marriage, records of death, historical information on the church and town of Pembroke,
+            ecclesiastical council meeting minutes, church covenants, church communications, and
+            ministerial records, as well as loose documents.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_a728a737ae6b4ecc7a7667a1b28102ab" level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1764">1764</fromdate>
+              <todate standarddate="1805">1805</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1764-1805</unitdate>
+          <container id="aspace_a6edc202b40d6a2c083f7bc70c3e7184" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_1725ee75cf627902c3e72a42380ee9cf" localtype="volume"
+            parent="aspace_a6edc202b40d6a2c083f7bc70c3e7184">3</container>
+        </did>
+        <altformavail id="aspace_cd037d4473fa3ebe89a13245210eecf7">
+          <head>Digital Copies</head>
+          <p>This volume was digitized as part of the New England's Hidden Histories project.
+            Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Pembroke/viewer/Church20records2C2017641805/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_d2df8d7624da665a9f4365ff696a0844">
+          <head>Scope and Contents</head>
+          <p>This volume includes 88 pages of church records dating from 1764-1805. Included within
+            the church records are a list of ministers, lists of votes, minutes of church meetings,
+            minutes of precinct meetings, and financial recipts, as well as loose documents.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_6edb21249cd1b5dad3b10623606a5b38" level="item">
+        <did>
+          <unittitle>List of communicants</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1714">1714</fromdate>
+              <todate standarddate="1796">1796</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1714-1796</unitdate>
+          <container id="aspace_4924bf60c469b0d1f09c8839a8083eaa" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_bbe7b0e986f8d07a368f3fad5d3689be" localtype="volume"
+            parent="aspace_4924bf60c469b0d1f09c8839a8083eaa">6</container>
+        </did>
+        <altformavail id="aspace_30f6edf093fd1bb36528e67e29aded48">
+          <head>Digital Copies</head>
+          <p>This volume was digitized as part of the New England's Hidden Histories project.
+            Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Pembroke/viewer/Communicants2C2017141796/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_7a930b6781db91b2e8fc3a8e408e56f1">
+          <head>Scope and Contents</head>
+          <p>This volume includes 24 pages of annual lists of communicants dating from 1714-1796.
+            Also included are church and precinct meeting minutes.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_789c230c1756473a71ec5bf63585cd8c" level="item">
+        <did>
+          <unittitle>List of communicants</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1736">1736</fromdate>
+              <todate standarddate="1742">1742</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1736-1742</unitdate>
+          <container id="aspace_1e40bb4794d8260f4c9879a6e200e044" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_38c80414a2f62271d62c5189b38bd602" localtype="volume"
+            parent="aspace_1e40bb4794d8260f4c9879a6e200e044">7</container>
+        </did>
+        <altformavail id="aspace_0a45c44b1a0a0e81ad6ac01eaf843b4a">
+          <head>Digital Copies</head>
+          <p>This volume was digitized as part of the New England's Hidden Histories project.
+            Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Pembroke/viewer/Communicants2C2017361742/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_4cd2bba7365bd4b23c26b6a503728bf4">
+          <head>Scope and Contents</head>
+          <p>This volume includes 16 pages of annual lists of communicants dating from
+            1736-1742.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_20c88fcf62773de95e4581ba97a6f6ef" level="file">
+        <did>
+          <unittitle>Church correspondence</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1764">1764</fromdate>
+              <todate standarddate="1949">1949</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1764-1949</unitdate>
+          <container id="aspace_508f6cfcee4f530318d7afa21203f98b" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_2cda88b62e33d1ef03e9e10abea46b39" localtype="folder"
+            parent="aspace_508f6cfcee4f530318d7afa21203f98b">3</container>
+        </did>
+      </c01>
+      <c01 id="aspace_f31bd961ad23bb40991ea00b7ba55ac0" level="item">
+        <did>
+          <unittitle>Treasurer's ledger</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1811">1811</fromdate>
+              <todate standarddate="1887">1887</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1811-1887</unitdate>
+          <container id="aspace_ab34ef5fff0561dc41185bd69aeb21c6" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_772c0597d3e51860bde69bf4e541a659" localtype="volume"
+            parent="aspace_ab34ef5fff0561dc41185bd69aeb21c6">8</container>
+        </did>
+      </c01>
+      <c01 id="aspace_2f3bc4f82b55ce66be95a860e0607a28" level="item">
+        <did>
+          <unittitle>Ministerial fund</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1812">1812</fromdate>
+              <todate standarddate="1947">1947</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1812-1947</unitdate>
+          <container id="aspace_fb7cf740beb1125e300e76089c89b78d" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_3400a323bae6a3b49a54a188dc9944a4" localtype="volume"
+            parent="aspace_fb7cf740beb1125e300e76089c89b78d">9</container>
+        </did>
+      </c01>
+      <c01 id="aspace_2fe38731d531fea3108bceec62bbb498" level="item">
+        <did>
+          <unittitle>Ministerial fund</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1885">1885</fromdate>
+              <todate standarddate="1943">1943</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1885-1943</unitdate>
+          <container id="aspace_8c6744130253c7a6c8996916cfe28b4e" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_b1981db46a54c647223ff5f6033cade9" localtype="volume"
+            parent="aspace_8c6744130253c7a6c8996916cfe28b4e">10</container>
+        </did>
+      </c01>
+      <c01 id="aspace_bdd8b931b4a8418473caa27ba417996f" level="file">
+        <did>
+          <unittitle>Church certificates</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1815">1815</fromdate>
+              <todate standarddate="1856">1856</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1815-1856</unitdate>
+          <container id="aspace_c779b3c22818e16b443f14077dd84430" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_cc234a15819e3324451938fca067d1c3" localtype="folder"
+            parent="aspace_c779b3c22818e16b443f14077dd84430">1</container>
+        </did>
+      </c01>
+      <c01 id="aspace_47fefdcd34909e7dd67b148ee9968e3f" level="file">
+        <did>
+          <unittitle>Members leaving</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1820">1820</fromdate>
+              <todate standarddate="1851">1851</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1820-1851</unitdate>
+          <container id="aspace_fde4f53b9d48cad4027a3da145ce9ee4" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_7f48220e57aa8973ee5ff3f9f108869b" localtype="folder"
+            parent="aspace_fde4f53b9d48cad4027a3da145ce9ee4">2</container>
+        </did>
+      </c01>
+      <c01 id="aspace_61369b7860e64320d9460b62c72ab63a" level="item">
+        <did>
+          <unittitle>First Parish membership book</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1858">1858</fromdate>
+              <todate standarddate="1920">1920</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1858-1920</unitdate>
+          <container id="aspace_be1dadcad71196d010db45c840db3c37" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_2effff75bf94ce09b48d4a6739a94729" localtype="volume"
+            parent="aspace_be1dadcad71196d010db45c840db3c37">11</container>
+        </did>
+      </c01>
+      <c01 id="aspace_d776907cbf1b7695e7e8b8aff7f89f9d" level="file">
+        <did>
+          <unittitle>Clippings</unittitle>
+          <unitdatestructured unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1877">1877</fromdate>
+              <todate standarddate="1932">1932</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate unitdatetype="inclusive">1877-1932</unitdate>
+          <container id="aspace_9e699d7e7de77776f8f13523724521e9" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_2c9b91dc061b968aeafde2dc3eab9d6d" localtype="folder"
+            parent="aspace_9e699d7e7de77776f8f13523724521e9">5</container>
+        </did>
+      </c01>
+      <c01 id="aspace_4094dd85daceff66d9aa8593be713caa" level="item">
+        <did>
+          <unittitle>First Parish monthly meetings</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1887">1887</fromdate>
+              <todate standarddate="1912">1912</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1887-1912</unitdate>
+          <container id="aspace_2534b600aeb102e0012651ab08b57e44" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_aa527c68a10067c72fcc11f1603472fe" localtype="volume"
+            parent="aspace_2534b600aeb102e0012651ab08b57e44">4</container>
+        </did>
+      </c01>
+      <c01 id="aspace_09a27b6e8f1c11d3290113ad72c9e9bd" level="item">
+        <did>
+          <unittitle>First Parish monthly meetings</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1912">1912</fromdate>
+              <todate standarddate="1953">1953</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1912-1953</unitdate>
+          <container id="aspace_78f134e99f721c1a9d271e6a7ba0a62e" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_d9c4b25beead0081d60c38295626f81f" localtype="volume"
+            parent="aspace_78f134e99f721c1a9d271e6a7ba0a62e">5</container>
+        </did>
+      </c01>
+      <c01 id="aspace_416a4f0dcf3fd4a33d7a29a257d1d793" level="file">
+        <did>
+          <unittitle>Printed materials</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1894">1894</fromdate>
+              <todate standarddate="1949">1949</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1894-1949</unitdate>
+          <container id="aspace_de3ad9f8fd028edb4cd87cc712a430f5" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_20714acfde7c9cae6144cd03c818ddcb" localtype="folder"
+            parent="aspace_de3ad9f8fd028edb4cd87cc712a430f5">4</container>
+        </did>
+        <scopecontent id="aspace_ddfc020f7ff10b1f043588cc3294f122">
+          <head>Scope and Contents</head>
+          <p>This folder contains print materials created by the First Church such as orders of
+            worship.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
