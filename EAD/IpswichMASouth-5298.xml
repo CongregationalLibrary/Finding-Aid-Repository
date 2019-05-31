@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/IpswichMASouth-5298.xml"
+      >IpswichMASouth-5298</recordid>
+    <representation localtype="pdf"
+      href="http://www.congregationallibrary.org/sites/all/files/IpswichMASouth-5298.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Ipswich, Mass. South Church records, 1747-1868. </titleproper>
+        <author>Zachary Bodnar, Marya Shotkoski</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2017-11-06</date>
+        <num>RG5298</num>
+      </publicationstmt>
+      <seriesstmt>
+        <p>This collection is part of New England's Hidden Histories. Digital historical
+          representations of the collection can be viewed online.</p>
+      </seriesstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English </language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS2 - 2013</abbr>
+      <citation>Describing Archives: A Content Standard, Second Edition</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2019-05-31T13:19:11+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Friday May 31, 2019
+          at 13:19</eventdescription>
+      </maintenanceevent>
+      <maintenanceevent>
+        <eventtype value="revised"/>
+        <eventdatetime>2019-05-30</eventdatetime>
+        <agenttype value="unknown"/>
+        <agent/>
+        <eventdescription>Zachary Bodnar: Revised finding aid instances, notes, agents, title
+          fields, and subjects using the current implementation of the processing
+          manual.</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Ipswich, Mass. South Church records, 1747-1868.</unittitle>
+      <unitid>RG5298</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="materialtype">
+        <quantity>2</quantity>
+        <unittype>Volumes</unittype>
+      </physdescstructured>
+      <unitdatestructured calendar="gregorian" certainty="approximate" unitdatetype="bulk">
+        <daterange>
+          <fromdate standarddate="1747">1747</fromdate>
+          <todate standarddate="1868">1868</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" certainty="approximate" unitdatetype="bulk"
+        >1747-1868</unitdate>
+      <abstract id="aspace_a014a19d857f8ee01d479f61f94a2fca">The South Church in Ipswich,
+        Massachusetts, was formally gathered in 1747 following ministerial angst between Ipswich's
+        two ministers and a petition by parishioners in southern Ipswich who felt traveling to the
+        First Church was too difficult. The first meeting house was completed in 1748 and
+        construction on the second meeting house was completed in 1838. In 1922 the South Church
+        rejoined the First Church to become the First and South Congregational Church. The South
+        Church records document the history of the church through collected vital member records,
+        church and parish meeting minutes, committee reports, and financial records.</abstract>
+      <origination label="creator">
+        <corpname identifier="no98062004" source="lcnaf">
+          <part>South Church (Ipswich, Mass.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_92b52c32ff4cae736ca9ca38782c0292">
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_57b709ada3909ba6fa2f8d6232a3e166">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+      <p>Digital Reproductions are protected by copyright and/or related rights. You are free to use
+        the Digital Reproductions in any way that is permitted by the copyright and related rights
+        legislation that applies to your use. In addition, no permission is required from the
+        Congregational Library &amp; Archives for educational uses. For other uses, you need to
+        obtain permission from the Congregational Library &amp; Archives. For additional information
+        regarding copyright, please consult the Congregational Library &amp; Archives' <ref
+          actuate="onrequest" href="http://www.congregationallibrary.org/about/digital-copyright"
+          linktitle="Digital Collections Copyright &amp; Use" show="new">Digital Collections
+          Copyright &amp; Use</ref> policy.</p>
+    </userestrict>
+    <prefercite id="aspace_269dd2977cb0523264f7957fad111346">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Ipswich, Mass. South Church records, 1747-1868. RG5298.
+        The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_c791eb89b2477e8c622044bc38ed85d5">
+      <head>Acquisition Information</head>
+      <p>Materials were temporarily loaned to the Congregational Library &amp; Archives from
+        2015-2017 by the First Church in Ipswich, MA, UCC. Digital surrogates were created from
+        these materials in 2016.</p>
+    </acqinfo>
+    <originalsloc id="aspace_291dee2ba02da8a0c006443fd730a751">
+      <head>Location of Originals</head>
+      <p>The original volumes are currently held by the First Church in Ipswich, Massachusetts,
+        UCC.</p>
+    </originalsloc>
+    <accruals id="aspace_d83ed87f760106ea1dbad574900c8018">
+      <head>Accruals</head>
+      <p>Additional accruals are expected for this collection in the form of full-text
+        transcription. There is no anticipated date for this accrual.</p>
+    </accruals>
+    <processinfo id="aspace_e0854fad62f4ab33c7c998d4685efccd">
+      <head>Processing Information</head>
+      <p>Processed by Marya Shotkoski, October 2015, using DACS Second Edition. Additional
+        processing and description by Zachary Bodnar, November 2017, using DACS Second Edition.</p>
+    </processinfo>
+    <bioghist id="aspace_305dc2197157574a1e8c6e39beb236d2">
+      <head>Historical Note</head>
+      <p>The initial plan to create a new church "South side of the river" in Ipswich,
+        Massachusetts, dates to a petition presented to the First Church in Ipswich in 1725. The
+        primary reason cited in the petition for the creation of a south meeting house was the long
+        and difficult travel parishioners in southern Ipswich had to overcome in order to attend the
+        First Church. The Parish voted to allow for construction of a south meeting house; however,
+        this did not come to pass, apparently, in part, because one of the two employed ministers,
+        Rev. John Rogers, was quite popular.</p>
+      <p>Calls for separation did not resume until 1746, shortly after the death of John Rogers in
+        December, 1745. In 1746 a new petition for the creation of a south meeting house was
+        presented to the First Parish. The new petition, beyond citing the geographic distance
+        between communities, cited the fact that by 1746 the First Church meetinghouse was
+        physically too small to comfortably accommodate the whole parish. Initially this petition
+        was voted down. In 1746, Rev. John Walley was invited to become the second minister of the
+        First Church to replace John Rogers. The first minister, Rev. Nathaniel Rogers and Rev.
+        Walley did not get along well. When the disagreements between the two ministers became
+        public, the First Parish voted to allow for the formation of a south meeting house and
+        parish in large part to deescalate the feud between the two ministers. In 1747 the South
+        Church was formally gathered and Rev. John Walley was installed as the first minister of the
+        new church. Construction on the South Meeting House began in 1747 and was completed in the
+        spring of 1748.</p>
+      <p>In 1838, the second meeting house of the South Church was constructed. Rev. Thomas F.
+        Waters, minister of the South Church from 1879-1919, organized the Ipswich Historical
+        Society. In 1899 the church steeple was struck by lightning; while the church building
+        survived the subsequent fire, the original bell did not. A new bell was secured by Elizabeth
+        M. Brown in honor of her late husband, William G. Brown.</p>
+      <p>In 1922 the South Church, whose membership had waned significantly in the
+        twentieth-century, reformed with the First Church to form the First and South Congregational
+        Church of Ipswich, Massachusetts. The South Church Meeting House was repurposed as the
+        Parish House and served as that function until it was destroyed by fire in 1977. Only the
+        bell survived the fire. The church lot was converted into a small park and the bell was
+        repurposed into a memorial within the park. The First and South Congregational Church, now
+        simply First Church, still serves the Ipswich community today.</p>
+    </bioghist>
+    <scopecontent id="aspace_12d13799aad5f71465812146ba931a89">
+      <head>Scope and Contents</head>
+      <p>The South Church records document the history church and parish through collected member
+        records, meeting minutes, committee reports, and financial records. Included in the
+        collection are marriage records, baptismal records, records of deaths, membership lists,
+        records detailing relations with the First Church, burial grounds records, and records
+        related to music during church services.</p>
+    </scopecontent>
+    <arrangement id="aspace_e97ade7b66324ecabd7b159a53e0f58b">
+      <head>Arrangement</head>
+      <p>This collection is arranged chronologically by end date.</p>
+    </arrangement>
+    <phystech id="aspace_c5e7fbe0a379fbb1cf6528c1358a2dd8">
+      <head>Technical Requirements</head>
+      <p>To access digital user's copies via online-interface a java-enabled web browser is
+        required. Internet Explorer 8.x and later, Firefox 5.x and alter, Opera 12 and later, Safari
+        5.x and later, or any version of Google Chrome are recommended.</p>
+    </phystech>
+    <relatedmaterial id="aspace_4bbc61d0b849d643618efe354d44768d">
+      <head>Related Materials</head>
+      <p>The Congregational Library &amp; Archives has digitized materials from the First Church in
+        Ipswich and made <ref actuate="onrequest"
+          href="http://www.congregationallibrary.org/nehh/series1/IpswichMAFirst5288"
+          linktitle="available to view online" show="new">them available to view online</ref>.</p>
+    </relatedmaterial>
+    <bibliography id="aspace_b22a3be1e5e89b82c9ebab915093426e">
+      <head>Bibliography</head>
+      <p>Water, Thomas Franklin. <emph render="italic">An Historical Address delivered on the 140th
+          Anniversary of the Organization of the South Church, Ipswich, Sunday, July 31,
+        1887</emph>. Ipswich: South Church, 1887. 17.11.1 I68.7 FrC</p>
+      <p>Harris, Gordon. "South Congregational Church: Only the Bell Remains." Last modified
+        February 6, 2019. <ref actuate="onrequest"
+          href="https://historicipswich.org/2019/02/06/south-church/" linktitle="link to article"
+          show="new">https://historicipswich.org/2019/02/06/south-church/</ref>.</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85066724" source="lcsh">
+        <part>Installation (clergy).</part>
+      </subject>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <subject identifier="sh85088919" source="lcsh">
+        <part>Music in churches.</part>
+      </subject>
+      <subject identifier="sh85090572" source="lcsh">
+        <part>Necrologies.</part>
+      </subject>
+      <subject source="local">
+        <part>New England's Hidden Histories.</part>
+      </subject>
+      <subject identifier="sh85100506" source="lcsh">
+        <part>Pews and pew rights.</part>
+      </subject>
+      <corpname identifier="n82058914" source="lcnaf">
+        <part>Ipswich (Mass.) -- Church history.</part>
+      </corpname>
+      <corpname identifier="no98062004" source="lcnaf">
+        <part>South Church (Ipswich, Mass.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_621714d6319fbe2489f8d28a1436dd7e" level="item">
+        <did>
+          <unittitle>South Parish Book of Records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1747">1747</fromdate>
+              <todate standarddate="1851">1851</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1747-1851</unitdate>
+        </did>
+        <altformavail id="aspace_46d007df18aa064ee3072a146813ffb3">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/IpswichSouth/viewer/Parish20records2C2017471851/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_954ba24a0dcfc97d76faff07db7f4a68">
+          <head>Scope and Contents</head>
+          <p>This volume contains the church history of the South Parish from 1747 to 1851 and
+            includes the minutes of parish meetings and records of votes. Included within the
+            records are pew deeds and pew chart, the development of the meeting house, payments to
+            church officials and minister salaries, church appointments, their relationship with the
+            First Church, committee records, parish affairs, burial grounds records, taxes
+            collections, and the question of music in the church.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_da7ff22184c2375ed1fc9cd1fc7a331d" level="item">
+        <did>
+          <unittitle>South Parish record book</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1747">1747</fromdate>
+              <todate standarddate="1868">1868</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1747-1868</unitdate>
+        </did>
+        <altformavail id="aspace_3a59535ed4e35e99855ed221e0382e3f">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/IpswichSouth/viewer/Parish20records2C2017471868/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_f5bafd8ece401016801ba533a8a49565">
+          <head>Scope and Contents</head>
+          <p>This volume is largely a church history of the South Parish from 1747 to 1868 and
+            includes the South Parish covenant from 1747 as well as other founding documents.
+            Additional records include parish meeting minutes, vital statistics such as births,
+            baptisms, admissions, and marriages along with deaths, arranged by year, and membership
+            lists by gender.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
