@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/LancasterMAFirst-5329.xml"
+      >LancasterMAFirst-5329</recordid>
+    <representation localtype="pdf"
+      href="http://www.congregationallibrary.org/sites/all/files/LancasterMAFirst-5329.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Lancaster, Mass. First Congregational Church records, 1708-1846. </titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2019-02-12</date>
+        <num>RG5329</num>
+      </publicationstmt>
+      <seriesstmt>
+        <p>This collection is part of New England's Hidden Histories. Digital historical
+          representations of the collection can be viewed online.</p>
+      </seriesstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS2 - 2013</abbr>
+      <citation>Describing Archives: A Content Standard, Second Edition</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2019-06-03T19:55:32+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Monday June 3, 2019
+          at 19:55</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Lancaster, Mass. First Congregational Church records, 1708-1846.</unittitle>
+      <unitid>RG5329</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>0.44</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(1 box)</physdesc>
+      <unitdatestructured calendar="gregorian" era="ce" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1708">1708</fromdate>
+          <todate standarddate="1846">1846</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" era="ce" unitdatetype="inclusive">1708-1846</unitdate>
+      <abstract id="aspace_88ffff676c0247c107f91375ac0b1624">The town of Lancaster and the First
+        Congregational Church in Lancaster were established on November 28, 1653. The first and
+        second meeting houses both were destroyed during Native American raids as part of larger
+        geopolitical movements. The third meeting house was constructed in 1706 and the fourth in
+        1743. During Rev. Timothy Thayer time as minister, the church adopted Unitarian tenants and
+        the fifth meeting house, designed by Charles Bulfinch, was constructed. In 1970 the church
+        joined the Unitarian Universalist Christian Fellowship. The First Church of Christ,
+        Unitarian, in Lancaster continues to serve the local community. This collection contains the
+        earliest extant records of the church and includes administrative records, vital records,
+        financial records, pew records, and church covenants.</abstract>
+      <origination label="creator">
+        <corpname identifier="n92106522" source="lcnaf">
+          <part>First Church of Christ (Lancaster, Mass.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_2c510fc6b484bacc8d203378d8b02124">
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_b3bcccd8d4eea45965357b831b80507b">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+      <p>Digital Reproductions are protected by copyright and/or related rights. You are free to use
+        the Digital Reproductions in any way that is permitted by the copyright and related rights
+        legislation that applies to your use. In addition, no permission is required from the
+        Congregational Library &amp; Archives for educational uses. For other uses, you need to
+        obtain permission from the Congregational Library &amp; Archives. For additional information
+        regarding copyright, please consult the Congregational Library &amp; Archives' <ref
+          actuate="onrequest" href="http://www.congregationallibrary.org/about/digital-copyright"
+          linktitle="Digital Collections Copyright &amp; Use" show="new">Digital Collections
+          Copyright &amp; Use</ref> policy.</p>
+    </userestrict>
+    <prefercite id="aspace_5fc4612108590e04640993076a0e4790">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Lancaster, Mass. First Congregational Church records,
+        1708-1846, RG5329. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_f4f9bcc623ad400d3ad7b022fe824a37">
+      <head>Acquisition Information</head>
+      <p>Materials were loaned to the Congregational Library by the First Church of Christ Unitarian
+        in Lancaster, Mass. in April 2017; Accession 2017-05.</p>
+    </acqinfo>
+    <originalsloc id="aspace_2c311d140d1238b81730a58d4a869135">
+      <head>Location of Originals</head>
+      <p>The original volumes are held by the First Church of Christ, Unitarian, in Lancaster,
+        Massachusetts.</p>
+    </originalsloc>
+    <accruals id="aspace_24eb2a13a7ef18e57ffb0512c48414d8">
+      <head>Accruals</head>
+      <p>Additional accruals are expected for this collection in the form of full-text
+        transcription. There is no anticipated date for this accrual.</p>
+    </accruals>
+    <processinfo id="aspace_d1f089858f2bbabf9390311b9e265e2b">
+      <head>Processing Information</head>
+      <p>Processed by Zachary Bodnar, February 2019, using DACS Second Edition.</p>
+    </processinfo>
+    <bioghist id="aspace_6d0d793cbce0b53a1af8727377174752">
+      <head>Historical Note</head>
+      <p>The town of Lancaster and the First Congregational Church in Lancaster were established on
+        November 28, 1653, with the signing of a civil covenant by the town's first settlers. In
+        1654, the town called Joseph Rowlandson, a recent graduate of Harvard, to be the first
+        minister. He married Mary White, the daughter of a wealthy settler, in 1656 and was
+        officially ordained in 1660. The first meeting house and parsonage were also quickly
+        constructed following the installation of Rowlandson. In 1676, as part of King Phillip's
+        War, Native Americans attacked the Lancaster garrison. During the attack 12 were killed and
+        12 more captured, including Mary Rowlandson, and a number of buildings were burned including
+        the meeting house. After 11 weeks, Mary Rowlandson was ransomed back to her family and an
+        account of her captivity was published in 1682.</p>
+      <p>The second meeting house was constructed in 1684 on the same location as the first. It did
+        not survive long as it too was razed during an attack carried out by Native Americans in
+        1704 as part of ongoing hostilities between France and England. A third meeting house was
+        constructed in 1706 and the first minister to preach in the new building was Rev. John
+        Prentice who was installed in 1708. During the First Great Awakening, Rev. Prentice kept the
+        Lancaster Church aligned more closely with the traditionalist "Old Lights" than with the
+        revivalist "New Lights." The third meeting house was torn down in 1743 and swiftly replaced
+        by the fourth meeting house that same year. Rev. Timothy Harrington was the minister of the
+        Lancaster church during the American Revolution. In 1777 he was accused of being a Loyalist
+        in part because "he was in charity with a professed Roman Catholick." The chargers were
+        dropped after Harrington gave an impassioned defense in which he pointed to the principals
+        of religious freedom.</p>
+      <p>Due to the advanced age and failing health of Rev. Harrington, the town voted to settle a
+        junior minister in 1792. In 1793 the town voted to accept Timothy Thayer as the new minister
+        and he was ordained in the summer of that year. Rev. Thayer was a member of the Unitarian
+        movement and almost immediately began to liberalize the church and make membership into the
+        church significantly easier. Due to the move towards Unitarianism, some members of the
+        church withdrew and formed the Evangelical Congregational Church of Lancaster in 1839. The
+        fifth, and final, meeting house was built in 1816 on the Lancaster green and on January 1,
+        1817 a dedication ceremony was held. The meeting house was designed by Charles Bulfinch, one
+        of the earliest American-born professional architects, and was entered into the National
+        Register of Historic Places and designated a National Historic Landmark in 1970.</p>
+      <p>The First Congregational Church and Society were legally incorporated into a single legal
+        entity, the First Church of Christ, around 1908. Beginning in 1918, the First Church of
+        Christ and Evangelical Church held three union services annually, though the practice was
+        discontinued in 1976 at the behest of the Evangelical Church. In 1952, the Rev. Dr.
+        Alexander St. Ivanyi was ordained as the minister of the First Church of Christ. Before
+        joining the church, Ivanyi had been part of the Hungarian anti-Nazi resistance during World
+        War II, was a member of the Hungarian Parliament after the war, as well as the bishop-vicar
+        of the Hungarian Unitarian Church. He was forced to leave flee Hungary after the communist
+        takeover of the state. In 1970, during Rev. Ivanyi's tenure, the First Church of Christ
+        voted to join the Unitarian Universalist Christian Fellowship. Rev. Tom Wintle, who served
+        as minister from 1975-1995, also helped create the Lancaster Historical Society. The First
+        Church of Christ, Unitarian, in Lancaster continues to serve the local community today.</p>
+    </bioghist>
+    <scopecontent id="aspace_19bbc353181e3171813a23641887526c">
+      <head>Scope and Contents</head>
+      <p>This collection contains the earliest extant records of the First Church of Christ in
+        Lancaster. All earlier records were lost when both the first and second meeting house were
+        razed during wars between English colonists and Native Americans. The volumes contain
+        valuable records related both to the administration of the church and society as well as the
+        vital records of the members of the church. The records include meeting minutes, committee
+        reports, financial records, baptismal records, marriage records, necrologies, a pew plan,
+        and the various covenants and statements of faith adopted by the church during the
+        eighteenth and early nineteenth-centuries.</p>
+    </scopecontent>
+    <arrangement id="aspace_7fb529cb3894e1b7d8d39d9432efe07f">
+      <head>Arrangement</head>
+      <p>This collection has been arranged in chronological order by start date.</p>
+    </arrangement>
+    <phystech id="aspace_37437577ab2d1dbc5da0f81c11820257">
+      <head>Technical Requirements</head>
+      <p>To access digital user's copies via online-interface, a java-enabled web browser is
+        required. Internet Explorer 8.x and later, Firefox 5.x and later, Opera 12 and later, Safari
+        5.x and later, or any version of Google Chrome are recommended.</p>
+    </phystech>
+    <bibliography id="aspace_fd3c4d6cf7d149de2b670b17f35d23a8">
+      <head>Bibliography</head>
+      <p>Wintle, Thomas D. <emph render="italic">A New England Village: The First Church in
+          Lancaster</emph>. Lancaster: First Church of Christ in Lancaster, 1985. 17.11.1 L22.72
+        FirCC NW 1985</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85066724" source="lcsh">
+        <part>Installation (clergy).</part>
+      </subject>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <subject identifier="sh85090572" source="lcsh">
+        <part>Necrologies.</part>
+      </subject>
+      <subject source="local">
+        <part>New England's Hidden Histories.</part>
+      </subject>
+      <subject identifier="sh85100506" source="lcsh">
+        <part>Pews and pew rights.</part>
+      </subject>
+      <subject identifier="sh85112383" source="lcsh">
+        <part>Registers of births, etc. </part>
+      </subject>
+      <subject identifier="sh94007643" source="lcsh">
+        <part>Unitarian controversy.</part>
+      </subject>
+      <corpname identifier="n92106522" source="lcnaf">
+        <part>First Church of Christ (Lancaster, Mass.)</part>
+      </corpname>
+      <corpname identifier="n82152210" source="lcnaf">
+        <part>Lancaster (Mass.) -- Chrch history.</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_2aac21f4426cb0d193beb84f3e0f06af" level="item">
+        <did>
+          <unittitle>Baptisms</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1708">1708</fromdate>
+              <todate standarddate="1734">1734</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1708-1734</unitdate>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1730">1730</fromdate>
+              <todate standarddate="1734">1734</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1730-1734</unitdate>
+        </did>
+        <altformavail id="aspace_b7102985815d663ca1e2bdeb575f7b6b">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Lancaster/viewer/Baptisms2C2017081734/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_423bc53256c5b786a0408fee7976cf21">
+          <head>Scope and Contents</head>
+          <p>This volume, initially created in 1730, is a record of all baptisms performed by Rev.
+            John Prentice while minister at the church.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_07077889686c68ecbd7c4b14e43481e0" level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1708">1708</fromdate>
+              <todate standarddate="1793">1793</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1708-1793</unitdate>
+        </did>
+        <altformavail id="aspace_704312850e3ab04abd44bf96e327954c">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Lancaster/viewer/Church20records2C2017081793/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <custodhist id="aspace_74135585e3a072c91ff0d7dee909e898">
+          <head>Custodial History</head>
+          <p>This volume was rebound and interleaved during the 20th century. A note within the
+            volume indicates this work was completed in 1848 however the techniques and materials
+            used are more consistent with the conservation work of the mid-20th century.</p>
+        </custodhist>
+        <scopecontent id="aspace_18451fbf4eaf0331595f7b8a95837b49">
+          <head>Scope and Contents</head>
+          <p>This volume contains the administrative records of the church as well as the vital
+            records of the church's members. The volume contains meeting minutes, records of
+            important votes, marriage records, baptismal records, necrologies, lists of admitted
+            members and founding documents such as the church covenant. Also included with the
+            volume is a bound manuscript pamphlet of the articles of agreement from 1782.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_ce73ee2f1f1e7367b11e3133a3affe49" level="item">
+        <did>
+          <unittitle>Parish records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1742">1742</fromdate>
+              <todate standarddate="1794">1794</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1742-1794</unitdate>
+        </did>
+        <altformavail id="aspace_3671aea501d76b69f25ef0c7154bc5ce">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Lancaster/viewer/Parish20records2C2017421794/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <custodhist id="aspace_e0f2c11188d83900e8c72b6fb06ca9a7">
+          <head>Custodial History</head>
+          <p>This volume was rebound and underwent major preservation work, likely during the 20th
+            century. It appears that a company based in Taunton, Mass. may have done the
+            preservation work, though there is no indication what the name of this company may have
+            been or when the preservation work was completed.</p>
+        </custodhist>
+        <scopecontent id="aspace_3a3b4e6e3f3e2dbc4a3e1c77c063d5f6">
+          <head>Scope and Contents</head>
+          <p>This volume contains the records of the Lancaster parish and precinct. Included within
+            the volume are pew plans, meeting minutes, financial records, and records of votes.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_48c6b114fe9c31eb8f6e8c9ef2a32126" level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1793">1793</fromdate>
+              <todate standarddate="1846">1846</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1793-1846</unitdate>
+        </did>
+        <altformavail id="aspace_3255a8604a7900c303e0a2d504d6c0cc">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Lancaster/viewer/Church20records2C2017931846/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_3ea1d03585b355e7bc8ee73ae43a48d2">
+          <head>Scope and Contents</head>
+          <p>This volume contains the administrative records of the church as well as extensive
+            records pertaining to the members of the church. Included within the volume are meeting
+            minutes, records of votes, membership lists, deacon lists, marriage records, baptismal
+            records, ordination records, council and committee reports, and disciplinary
+            records.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
