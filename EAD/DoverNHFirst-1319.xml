@@ -1,0 +1,949 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/DoverNHFirst-1319.xml"
+      >DoverNHFirst-1319</recordid>
+    <representation localtype="pdf"
+      href="http://www.congregationallibrary.org/sites/all/files/DoverNHFirst-1319.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Dover, N.H. First Parish Church records, 1614-1862. </titleproper>
+        <author>Susan Stanley, Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2018-03-06</date>
+        <num>RG1319</num>
+      </publicationstmt>
+      <seriesstmt>
+        <p>Portions of this collection are part of New England's Hidden Histories. Digital
+          historical representations of these portions of the collection can be viewed online.</p>
+      </seriesstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS2 - 2013</abbr>
+      <citation>Describing Archives: A Content Standard, Second Edition</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2019-06-03T18:39:13+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Monday June 3, 2019
+          at 18:39</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Dover, N.H. First Parish Church records, 1614-1862.</unittitle>
+      <unitid>RG1319</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>.83</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(2 boxes, 2 reels)</physdesc>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1614">1614</fromdate>
+          <todate standarddate="1967">1967</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" unitdatetype="inclusive">1614-1862, 1967</unitdate>
+      <abstract id="aspace_89e18362147cb4db2e88356f91886f99">Church gathered in 1638; Mass. town
+        from 1642-1679. Extant as Dover First Parish Congregational UCC in 1996. Collection consists
+        of Parish records, 1614-1917; Jeremy Belknap (1744-1798) letters and miscellaneous
+        papers.</abstract>
+      <origination label="creator">
+        <persname identifier="n50006494" source="lcnaf">
+          <part>Belknap, Jeremy, 1744-1798</part>
+        </persname>
+      </origination>
+      <origination label="creator">
+        <corpname identifier="n88674737" source="lcnaf">
+          <part>First Parish Church (Dover, N.H.)</part>
+        </corpname>
+      </origination>
+      <origination label="creator">
+        <persname identifier="n88240977" source="lcnaf">
+          <part>Tufts, Asa Alford, 1798-1884</part>
+        </persname>
+      </origination>
+      <origination label="creator">
+        <persname identifier="n86047992" source="lcnaf">
+          <part>Winslow, Hubbard, 1799-1864</part>
+        </persname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_032284ddd5e2068b7944df9ca93f14dd">
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_9d57abd8f88310f8d91a3376fd8f7999">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+      <p>Digital Reproductions are protected by copyright and/or related rights. You are free to use
+        the Digital Reproductions in any way that is permitted by the copyright and related rights
+        legislation that applies to your use. In addition, no permission is required from the
+        Congregational Library &amp; Archives for educational uses. For other uses, you need to
+        obtain permission from the Congregational Library &amp; Archives. For additional information
+        regarding copyright, please consult the Congregational Library &amp; Archives' <ref
+          actuate="onrequest" href="http://www.congregationallibrary.org/about/digital-copyright"
+          linktitle="Digital Collections Copyright &amp; Use" show="new">Digital Collections
+          Copyright &amp; Use</ref> policy.</p>
+    </userestrict>
+    <prefercite id="aspace_6c0aac5d08ef6dc7f4b44c4bdc2ddda6">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Dover, N.H. First Parish Church records, 1614-1862,
+        RG1319. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_374a29ad88060f8cd594546b6970ab91">
+      <head>Acquisition Information</head>
+      <p>Materials were received at two different dates. Microform materials (RG1319) were received
+        at an unknown date. The remaining materials (originally RG5360) were loaned to the
+        Congregational Library &amp; Archives from the First Parish Congregational Church (Dover,
+        N.H.); Accession 2017-17.</p>
+    </acqinfo>
+    <originalsloc id="aspace_5a8a8cc5fec4e9622e9d5e225b792049">
+      <head>Location of Originals</head>
+      <p>The physical materials in this collection are held by the First Parish Church in Dover, New
+        Hampshire. The Congregational Library &amp; Archives maintains digital and microfilm
+        surrogates for much of the colection.</p>
+    </originalsloc>
+    <accruals id="aspace_13767f01f3819b976bff244cd878b57b">
+      <head>Accruals</head>
+      <p>Additional accruals are expected for this collection in the form of full-text
+        transcription. There is no anticipated date for this accrual.</p>
+    </accruals>
+    <custodhist id="aspace_d46f779b3786e0e3bb3d531e2dcc6d44">
+      <head>Custodial History</head>
+      <p>Microfilm copies were created by the Genealogical Society, Salt Lak City, Utah, in
+        1967.</p>
+    </custodhist>
+    <processinfo id="aspace_bba751b9c80821d954cd162296a0bf1e">
+      <head>Processing Information</head>
+      <p>Processed by Susan Stanley, March 2018, using DACS Ssecond Edition. Additional description
+        by Zachary Bodnar, February 2019.</p>
+    </processinfo>
+    <bioghist id="aspace_a2c1fac145ba2e7777f9c11c31d2cb1f">
+      <head>Historical note</head>
+      <p>Gathered in 1633, the First Parish Church in Dover is the oldest church in New Hampshire.
+        The first permanent settlement in New Hampshire, the lands that would eventually become
+        Dover were initially settled by a pair of fishmongers from London. In 1633, the land was
+        bought by a group of English Puritans. Over the next 150 years, with the arrival of mills
+        and other infrastructure, the small settlement grew in population, size and prosperity.</p>
+      <p>The settlement's first church services were held on the last Sunday of October 1633 by Rev.
+        Leverich at Dover Point; a year later the first meeting house was built on the same
+        location. Little is known about the first meeting house except that it was made of mud and
+        logs with a thatched roof and that it served the community's purposes until 1658 when a new
+        meeting house was erected on Dover Neck. The third meeting house was located on Pine Hill
+        from 1710-1759. In 1758 the fourth meeting house, built out of wood, was constructed in
+        Tuttle Square. Construction on the fifth, and final, meeting house, a new brick church
+        building, was concluded with its dedication on December 31, 1829.</p>
+      <p>Rev. William Leverich was the first minister to hold church services in Dover in 1633 and
+        is considered the founder of Mission and Action in Dover. Rev. Hanserd Knollys organized the
+        First Parish Church as a religious organization in 1638. Rev. Jeremy Belknap, who wrote the
+        three volume "History of New Hampshire" and founded the Massachusetts Historical Society in
+        1791, was the minister at the First Parish from 1769-1786. Rev. David Root was well-known
+        for his opposition to slavery and his anti-slavery sermons, as was his successor Rev.
+        Jeremiah S. Young, who on October 28, 1841 passed a resolution against slavery.</p>
+      <p>The First Parish Church joined the United Church of Christ in 1961 and in 1996 the name
+        changed to First Parish Congregational Church in 1996. It is a member of the New Hampshire
+        Conference, UCC and of the Carroll-Strafford Association. The First Parish Congregational
+        Church continues to serve the community of Dover, New Hampshire, today.</p>
+      <chronlist>
+        <head>Ministers</head>
+        <chronitem>
+          <datesingle>William Leverich</datesingle>
+          <chronitemset>
+            <event>1633-1635</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>George Burdet</datesingle>
+          <chronitemset>
+            <event>1637-1638</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Hanserd Knollys</datesingle>
+          <chronitemset>
+            <event>1638-1640</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Thomas Larkham</datesingle>
+          <chronitemset>
+            <event>1640-1642</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Daniel Maud</datesingle>
+          <chronitemset>
+            <event>1642-1655</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>John Reyner</datesingle>
+          <chronitemset>
+            <event>1655-1669</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>John Reyner, Jr.</datesingle>
+          <chronitemset>
+            <event>1669-1676</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>John Pike</datesingle>
+          <chronitemset>
+            <event>1678-1710</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Nicholas Sever</datesingle>
+          <chronitemset>
+            <event>1711-1715</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Jonathan Cushing</datesingle>
+          <chronitemset>
+            <event>1717-1769</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Jeremy Belknap</datesingle>
+          <chronitemset>
+            <event>1769-1786</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Robert Gray</datesingle>
+          <chronitemset>
+            <event>1787-1805</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Caleb H. Shearman</datesingle>
+          <chronitemset>
+            <event>1807-1812</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Joseph W. Clary</datesingle>
+          <chronitemset>
+            <event>1812-1828</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Hubbard Winslow</datesingle>
+          <chronitemset>
+            <event>1828-1831</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>David Root</datesingle>
+          <chronitemset>
+            <event>1833-1839</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Jeremiah S. Young</datesingle>
+          <chronitemset>
+            <event>1839-1843</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Homer Barrows</datesingle>
+          <chronitemset>
+            <event>1845-1852</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Benjamin F. Parsons</datesingle>
+          <chronitemset>
+            <event>1853-1856</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Elias H. Richardson</datesingle>
+          <chronitemset>
+            <event>1856-1863</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Avery S. Walker</datesingle>
+          <chronitemset>
+            <event>1864-1868</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>George B. Spalding</datesingle>
+          <chronitemset>
+            <event>1869-1883</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>George E. Hall</datesingle>
+          <chronitemset>
+            <event>1884-1908</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Evarts W. Pond</datesingle>
+          <chronitemset>
+            <event>1909-1912</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Walter A. Morgan</datesingle>
+          <chronitemset>
+            <event>1913-1917</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Robert W. Coe</datesingle>
+          <chronitemset>
+            <event>1918-1921</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Lewis E. Purdum</datesingle>
+          <chronitemset>
+            <event>1921-1929</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>David P. Hatch</datesingle>
+          <chronitemset>
+            <event>1929-1938</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Ralph S. Huffer</datesingle>
+          <chronitemset>
+            <event>1939-1965</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>William W. Tucker</datesingle>
+          <chronitemset>
+            <event>1965-1971</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>L. Arthur Domingue</datesingle>
+          <chronitemset>
+            <event>1972-1978</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>William U. Conway</datesingle>
+          <chronitemset>
+            <event>1978-1986</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>J. E. Lane</datesingle>
+          <chronitemset>
+            <event>1985-1987</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>David L. Slater</datesingle>
+          <chronitemset>
+            <event>1988-2009</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>R. E. Staley</datesingle>
+          <chronitemset>
+            <event>1988-1992</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>J. G. Pirie</datesingle>
+          <chronitemset>
+            <event>1993-1994</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>R. L. Hirtle</datesingle>
+          <chronitemset>
+            <event>1993-1994</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>G. L. Crouch, Jr.</datesingle>
+          <chronitemset>
+            <event>1994-1998</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>K. Geuther</datesingle>
+          <chronitemset>
+            <event>1998-2004</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>J. G. Pirie</datesingle>
+          <chronitemset>
+            <event>2000-2001</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>A. Campbell</datesingle>
+          <chronitemset>
+            <event>2001-2004</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>N. M. Talbott</datesingle>
+          <chronitemset>
+            <event>2004-2009</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>J. Mcardle</datesingle>
+          <chronitemset>
+            <event>2009-2010</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>N. B. Bendroth</datesingle>
+          <chronitemset>
+            <event>2009-2010</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>J. W. Lynes</datesingle>
+          <chronitemset>
+            <event>2011-2012</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>M. S. Bennet</datesingle>
+          <chronitemset>
+            <event>2012-2017</event>
+          </chronitemset>
+        </chronitem>
+      </chronlist>
+    </bioghist>
+    <scopecontent id="aspace_ab2461429399e680473bc14a7fb1d56a">
+      <head>Scope and Contents</head>
+      <p>The Dover, N.H. First Parish Church records consist of administrative church records and
+        correspondence from 1614-1862. The scope includes records of births, marriages, deaths,
+        meeting minutes, financial records, and pew plans; letters by appointed clergymen, including
+        Jeremy Belknap, Hubbard Winslow, and Asa A. Tufts, between congregations, and from
+        parishioners wishing to leave the congregation. Microfilm materials duplicate some of the
+        physical material but additional correspondence not present in the physical material are
+        present on the microfilm.</p>
+    </scopecontent>
+    <arrangement id="aspace_8c53c213d099369466fe79cf3df724ae">
+      <head>Arrangement</head>
+      <p>The collection is divided into three series. Records in each series have been arranged
+        chronologically, by start date, and by topic.</p>
+      <p><emph render="bold">Series 1:</emph> Correspondence, 1639-1855</p>
+      <p><emph render="bold">Series 2:</emph> Church Records, 1717-1857</p>
+      <p><emph render="bold">Series 3:</emph> Microfilm, 1614-1862</p>
+    </arrangement>
+    <phystech id="aspace_ff00e9871587002572121bba48d493d9">
+      <head>Technical Requirements</head>
+      <p>A microfilm reader is required in order to access microform materials. One microfilm reader
+        is available to the public upon request.</p>
+      <p>To access digital user's copies via online-interface, a java-enabled web browser is
+        required. Internet Explorer 8.x and later, Firefox 5.x and later, Opera 12 and later, Safari
+        5.x and later, or any version of Google Chrome are recommended.</p>
+    </phystech>
+    <bibliography id="aspace_888c7c6d79bcdaeb8f6f80eca2bd5cf3">
+      <head>Bibliography</head>
+      <p>Bryant, Donald R. <emph render="italic">History of the First Parish Church Founded
+          1633</emph>. Dover: First Parish Church, 2002.</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh 85123315" source="lcsh">
+        <part>Antislavery movements.</part>
+      </subject>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85031108" source="lcsh">
+        <part>Congregational churches.</part>
+      </subject>
+      <subject identifier="sh85066724" source="lcsh">
+        <part>Installation (clergy).</part>
+      </subject>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <subject source="local">
+        <part>New England's Hidden Histories.</part>
+      </subject>
+      <subject identifier="sh85100506" source="lcsh">
+        <part>Pews and pew rights.</part>
+      </subject>
+      <persname identifier="n50006494" source="lcnaf">
+        <part>Belknap, Jeremy, 1744-1798</part>
+      </persname>
+      <corpname identifier="n88674737" source="lcnaf">
+        <part>First Parish Church (Dover, N.H.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_95e52c08eb53ed787f3324d018f1dc5d" level="series">
+        <did>
+          <unittitle>Correspondence</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>11</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1639">1639</fromdate>
+              <todate standarddate="1855">1855</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1639-1855</unitdate>
+        </did>
+        <scopecontent id="aspace_1e77f70ddc811ab998e855b3990063fc">
+          <head>Scope and Contents</head>
+          <p>Correspondence contains letters by appointed clergymen, including Jeremy Belknap,
+            Hubbard Winslow, David Root, Asa A. Tufts, Homer Barrows, and Jeremiah Young. There are
+            correspondences between congregations and letters written on paper with the anti-slavery
+            letterhead from parishioners wishing to leave the congregation.</p>
+        </scopecontent>
+        <c02 id="aspace_e761d38c1751f22b5af2ac0725ffe85d" level="file">
+          <did>
+            <unittitle>Letter of public assurance</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1639">1639</datesingle>
+            </unitdatestructured>
+          </did>
+          <altformavail id="aspace_d9bf6c10aea1ef94ea0fc564566a2bb8">
+            <head>Digital Copies</head>
+            <p>This document was digitized as part of the New England's Hidden Histories project.
+              Digital reproductions are <ref actuate="onrequest"
+                href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/DoverNH/viewer/Letter20of20public20assurance2C201639/1"
+                linktitle="available to view online" show="new">available to view online</ref>.</p>
+          </altformavail>
+          <scopecontent id="aspace_b158e723ee6f6a41068c07ce22a39dc4">
+            <head>Scope and Contents</head>
+            <p>This single-page document consists of a "letter of public assurance" addressed "to
+              all public officers and others in this jurisdiction whom this may concern". The
+              content relates to the case of Separatist minister "Mr. Hansard Knollys" (Rev. Hanserd
+              Knollys, 1599–1691) who was subject to prosecution on charges brought against him by
+              the high commission court in England. In the letter, the unsigned authors grant legal
+              assurance of safe passage for Rev. Knollys during his trial.</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_d438418992731544a60a20732c3be4e2" level="file">
+          <did>
+            <unittitle>Belknap</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1786">1786</datesingle>
+            </unitdatestructured>
+          </did>
+          <altformavail id="aspace_abcf0a911a2ff2c1c8687fc6c71a1e1a">
+            <head>Digital Copies</head>
+            <p>These church records were digitized as part of the New England's Hidden Histories
+              project. Digital reproductions are <ref actuate="onrequest"
+                href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/DoverNH/viewer/Jeremy20Belknap20correspondence2C201786/1"
+                linktitle="available to view online" show="new">available to view online</ref>.</p>
+          </altformavail>
+        </c02>
+        <c02 id="aspace_0ab73e57389fbd2237ef77493ac6afc2" level="file">
+          <did>
+            <unittitle>Correspondence</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1828">1828</fromdate>
+                <todate standarddate="1842">1842</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1828-1842</unitdate>
+          </did>
+        </c02>
+        <c02 id="aspace_8fe580bb186345f28ea9a12094d468b6" level="file">
+          <did>
+            <unittitle>Winslow</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1831">1831</datesingle>
+            </unitdatestructured>
+          </did>
+        </c02>
+        <c02 id="aspace_8143215f0fd8bae561e0f154edfdac2e" level="file">
+          <did>
+            <unittitle>Backus</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1831">1831</fromdate>
+                <todate standarddate="1835">1835</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1831-1835</unitdate>
+          </did>
+        </c02>
+        <c02 id="aspace_3ba86badd811b2fc982e7427548441a6" level="file">
+          <did>
+            <unittitle>Root</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1833">1833</fromdate>
+                <todate standarddate="1839">1839</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1833-1839</unitdate>
+          </did>
+        </c02>
+        <c02 id="aspace_fa82188c2d9ca72218987c20892e3357" level="file">
+          <did>
+            <unittitle>Norris</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1834">1834</fromdate>
+                <todate standarddate="1839">1839</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1834-1839</unitdate>
+          </did>
+        </c02>
+        <c02 id="aspace_27b84943cad1f091aaf8e57338d9ffe5" level="file">
+          <did>
+            <unittitle>Correspondence</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1839">1839</fromdate>
+                <todate standarddate="1842">1842</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1839-1842</unitdate>
+          </did>
+        </c02>
+        <c02 id="aspace_48ecbe7ee7d8e20f22e8bd14f0bb5a23" level="file">
+          <did>
+            <unittitle>A. Folsom and Others</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1842">1842</datesingle>
+            </unitdatestructured>
+          </did>
+        </c02>
+        <c02 id="aspace_8a781c9177162120ca8e172fe9cb2989" level="file">
+          <did>
+            <unittitle>Correspondence</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1845">1845</fromdate>
+                <todate standarddate="1849">1849</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1845-1849</unitdate>
+          </did>
+        </c02>
+        <c02 id="aspace_8b1cd5db574f146c241096c58dc80f09" level="file">
+          <did>
+            <unittitle>Congregations</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1853">1853</fromdate>
+                <todate standarddate="1855">1855</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1853-1855</unitdate>
+          </did>
+        </c02>
+      </c01>
+      <c01 id="aspace_16883b91eef31bb05ebab00dd4901c63" level="series">
+        <did>
+          <unittitle>Church records</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>9</quantity>
+            <unittype>Items</unittype>
+          </physdescstructured>
+          <physdesc localtype="container_summary">(5 folder, 4 volumes)</physdesc>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1717">1717</fromdate>
+              <todate standarddate="1857">1857</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1717-1857</unitdate>
+        </did>
+        <scopecontent id="aspace_fb1c350e525fd000bf3adf52bc841785">
+          <head>Scope and Contents</head>
+          <p>Church Records include records of births, marriages, deaths, meeting minutes and
+            financial outlines of the pews. There are documents regarding the instalment of Rev.
+            Benjamin F. Parsons, lists of congregation members, documents regarding the situation of
+            A. Farnsworth, and tax documents.</p>
+        </scopecontent>
+        <c02 id="aspace_0ac82c4dcd41290ca0882347a0eb1d9c" level="item">
+          <did>
+            <unittitle>Church record of marriages, baptisms and deaths</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1717">1717</fromdate>
+                <todate standarddate="1829">1829</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1717-1829</unitdate>
+          </did>
+          <altformavail id="aspace_21787bd5b5d273b1b61809d95626d0ab">
+            <head>Digital Copies</head>
+            <p>These church records were digitized as part of the New England's Hidden Histories
+              project. Digital reproductions are <ref actuate="onrequest"
+                href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/DoverNH/viewer/Baptisms2C20marriages2C20and20deaths2C2017171829/1"
+                linktitle="available to view online" show="new">available to view online</ref>.</p>
+          </altformavail>
+          <scopecontent id="aspace_66b4e4f90600b72bd462aa2fb1a3802d">
+            <head>Scope and Contents</head>
+            <p>The Church Record of Marriages, Baptisms, and Deaths is a volume containing records
+              of Marriages: May 1767 - Jan. 1829; and Baptisms and deaths: Oct. 1717 - Dec. 1786. It
+              is signed by Jeremy Belknap.</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_873a06a5861ce4286eba1a3437920401" level="item">
+          <did>
+            <unittitle>Church record book</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1762">1762</fromdate>
+                <todate standarddate="1862">1862</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1762-1862</unitdate>
+          </did>
+          <altformavail id="aspace_3a29deff0ff24b883751790edfe8e88d">
+            <head>Digital Copies</head>
+            <p>These church records were digitized as part of the New England's Hidden Histories
+              project. Digital reproductions are <ref actuate="onrequest"
+                href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/DoverNH/viewer/Church20records2C2017621862/1"
+                linktitle="available to view online" show="new">available to view online</ref>.</p>
+          </altformavail>
+          <scopecontent id="aspace_2d437ace1810ff63167af226c8d5b2ed">
+            <head>Scope and Contents</head>
+            <p>This record book consists of committee reports, meeting minutes, correspondence
+              drafts and copies, as well as financial records.</p>
+          </scopecontent>
+          <separatedmaterial id="aspace_afd9c3fd5c3d8babf75ac298824e76e8">
+            <head>Separated Materials</head>
+            <p>Between pages 122-123, three loose documents were found in and placed in their own
+              folder: Tax Documents 1781-1784.</p>
+          </separatedmaterial>
+        </c02>
+        <c02 id="aspace_baf54c0649a01be3f9f23e463a931346" level="item">
+          <did>
+            <unittitle>Church record book vol. 1</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1766">1766</fromdate>
+                <todate standarddate="1829">1829</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1766-1829</unitdate>
+          </did>
+          <altformavail id="aspace_9c902d7d7d94b50c345878709568c3ad">
+            <head>Digital Copies</head>
+            <p>These church records were digitized as part of the New England's Hidden Histories
+              project. Digital reproductions are <ref actuate="onrequest"
+                href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/DoverNH/viewer/Church20records2C2017661829/1"
+                linktitle="available to view online" show="new">available to view online</ref>.</p>
+          </altformavail>
+          <scopecontent id="aspace_379678017d4d2d5e056de92feed45c68">
+            <head>Scope and Contents</head>
+            <p>The Curch record book vol. 1 contains Jeremy Belknap's historical notes on the town
+              and church of Dover until October 1789. The volume also contains records of marriages
+              and baptisms, lists of members admitted to the church, a list of the childrne of Rev.
+              Jonathan Cushing, and notes written by other clergymen.</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_16a3c75b19c965812ca7d857aba203ba" level="item">
+          <did>
+            <unittitle>Church record book vol. 2</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1831">1831</fromdate>
+                <todate standarddate="1857">1857</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1831-1857</unitdate>
+          </did>
+          <altformavail id="aspace_8f04450717b7372d84778b72997912ae">
+            <head>Digital Copies</head>
+            <p>These church records were digitized as part of the New England's Hidden Histories
+              project. Digital reproductions are <ref actuate="onrequest"
+                href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/DoverNH/viewer/Church20records2C2018311857/1"
+                linktitle="available to view online" show="new">available to view online</ref>.</p>
+          </altformavail>
+          <scopecontent id="aspace_c2c6de035260bf62faf97330fc9924c0">
+            <head>Scope and Contents</head>
+            <p>The Church record book vol. 2 contains names of church members, records of deaths and
+              baptisms, notices of ministers, and prints of Rev. Hubbard Winslow, Rev. David Root,
+              and Hanserd Knollys There are printed church manual clippings as well as a photograph
+              of Dea. Lane. The title leaf is signed by Asa A. Tufts in 1831.</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_3924ba8fb66346da8bbc56b6184c669a" level="file">
+          <did>
+            <unittitle>Tax documents</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1781">1781</fromdate>
+                <todate standarddate="1784">1784</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1781-1784</unitdate>
+          </did>
+          <altformavail id="aspace_8d3d8a2eb8f7f40ad7dd183cf680a494">
+            <head>Digital Copies</head>
+            <p>These church records were digitized as part of the New England's Hidden Histories
+              project. Digital reproductions are <ref actuate="onrequest"
+                href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/DoverNH/viewer/Tax20documents2C2017811784/1"
+                linktitle="available to view online" show="new">available to view online</ref>.</p>
+          </altformavail>
+        </c02>
+        <c02 id="aspace_7e502b28187052bea97fa31eb718ae2a" level="file">
+          <did>
+            <unittitle>Church records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1825">1825</fromdate>
+                <todate standarddate="1834">1834</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1825-1834</unitdate>
+          </did>
+        </c02>
+        <c02 id="aspace_ebbdc38fd9650555caa9dae65fbbba59" level="file">
+          <did>
+            <unittitle>Documents regarding A. Farnsworth</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1840">1840</fromdate>
+                <todate standarddate="1841">1841</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1840-1841</unitdate>
+          </did>
+        </c02>
+        <c02 id="aspace_250316ff80bf4c0a7285eace57a57c2b" level="file">
+          <did>
+            <unittitle>Church records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1845">1845</fromdate>
+                <todate standarddate="1855">1855</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1845-1855</unitdate>
+          </did>
+        </c02>
+        <c02 id="aspace_49fb0e5e269d5e32520b1e0a7fe7eaa3" level="file">
+          <did>
+            <unittitle>Documents regarding Rev. Parsons</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1852">1852</fromdate>
+                <todate standarddate="1853">1853</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1852-1853</unitdate>
+          </did>
+        </c02>
+      </c01>
+      <c01 id="aspace_3c3b709b611f901be11e99107ba8b7ed" level="series">
+        <did>
+          <unittitle>Microfilm</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1967">1614-1862</datesingle>
+          </unitdatestructured>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1967">1967</datesingle>
+          </unitdatestructured>
+        </did>
+        <scopecontent id="aspace_34e6c302a12c85fc98617d6d050f9a4f">
+          <head>Scope and Contents</head>
+          <p>The microfilms contain death, marriage, and baptismal records, calendar notes, and
+            meeting minutes. Also containing letters from Jeremy Belknap and other documents, these
+            microfilms contain much of the material from Series 1 and 2.</p>
+        </scopecontent>
+        <c02 id="aspace_ed5b5494df66cc65d591c908302c768d" level="item">
+          <did>
+            <unittitle>Dover, NH, First Parish Church records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1614">1614</fromdate>
+                <todate standarddate="1862">1862</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1614-1862</unitdate>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1967">1967</datesingle>
+            </unitdatestructured>
+            <container id="aspace_4bea4da757fcac2d201f93e0bce1965a" label="Microform"
+              localtype="reel">1</container>
+          </did>
+        </c02>
+        <c02 id="aspace_83d52f48fc060668d0ae9f6b31f4a742" level="item">
+          <did>
+            <unittitle>Dover, NH, First Parish Church records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1614">1614</fromdate>
+                <todate standarddate="1862">1862</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1614-1862</unitdate>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1967">1967</datesingle>
+            </unitdatestructured>
+            <container id="aspace_26f31650885a075df7d7d328eba6bd18" label="Microform"
+              localtype="reel">2</container>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
