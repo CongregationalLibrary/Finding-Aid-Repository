@@ -51,11 +51,11 @@
     <maintenancehistory>
       <maintenanceevent>
         <eventtype value="derived"/>
-        <eventdatetime>2019-06-03T19:55:32+00:00</eventdatetime>
+        <eventdatetime>2019-06-03T20:24:10+00:00</eventdatetime>
         <agenttype value="machine"/>
         <agent>ArchivesSpace v2.5.0</agent>
         <eventdescription>This finding aid was produced using ArchivesSpace on Monday June 3, 2019
-          at 19:55</eventdescription>
+          at 20:24</eventdescription>
       </maintenanceevent>
     </maintenancehistory>
   </control>
@@ -71,11 +71,10 @@
       <langmaterial>
         <language langcode="eng">English</language>
       </langmaterial>
-      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
-        <quantity>0.44</quantity>
-        <unittype>Cubic Feet</unittype>
+      <physdescstructured coverage="whole" physdescstructuredtype="materialtype">
+        <quantity>4</quantity>
+        <unittype>Volumes</unittype>
       </physdescstructured>
-      <physdesc localtype="container_summary">(1 box)</physdesc>
       <unitdatestructured calendar="gregorian" era="ce" unitdatetype="inclusive">
         <daterange>
           <fromdate standarddate="1708">1708</fromdate>
@@ -126,8 +125,8 @@
     </prefercite>
     <acqinfo id="aspace_f4f9bcc623ad400d3ad7b022fe824a37">
       <head>Acquisition Information</head>
-      <p>Materials were loaned to the Congregational Library by the First Church of Christ Unitarian
-        in Lancaster, Mass. in April 2017; Accession 2017-05.</p>
+      <p>Materials were loaned to the Congregational Library by the First Church of Christ,
+        Unitarian, in Lancaster, Massachusetts, in April 2017; Accession 2017-05.</p>
     </acqinfo>
     <originalsloc id="aspace_2c311d140d1238b81730a58d4a869135">
       <head>Location of Originals</head>
