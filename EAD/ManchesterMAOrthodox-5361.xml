@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/ManchesterMAOrthodox-5361.xml"
+      >ManchesterMAOrthodox-5361</recordid>
+    <representation localtype="pdf"
+      href="http://www.congregationallibrary.org/sites/all/files/ManchesterMAOrthodox-5361.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Manchester, Mass. Orthodox Congregational Church records, 1717-1917. </titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2019-06-05</date>
+        <num>RG5361</num>
+      </publicationstmt>
+      <seriesstmt>
+        <p>Portions of this collection are part of New England's Hidden Histories. Digital
+          historical representations of these portions of the collection can be viewed online.</p>
+      </seriesstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS2 - 2013</abbr>
+      <citation>Describing Archives: A Content Standard, Second Edition</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2019-06-05T16:02:11+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday June 5,
+          2019 at 16:02</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Manchester, Mass. Orthodox Congregational Church records, 1717-1917.</unittitle>
+      <unitid>RG5361</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>0.79</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(2 boxes)</physdesc>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1717">1717</fromdate>
+          <todate standarddate="1917">1917</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" unitdatetype="inclusive">1717-1917</unitdate>
+      <abstract id="aspace_1bda97de9106c010ac200af45bbc4b42">The First Congregational Church in
+        Manchester-by the-Sea, Massachusetts, was formed on November 7, 1716 with 21 members. The
+        first meeting house was constructed in 1656, the second in 1695, and the third in 1719. The
+        fourth and final meeting house was constructed in 1809. The church name was changed to
+        Orthodox Congregational Church in 1843. The church split in 1857 due to ecclesiastical
+        differences and was reformed in 1869. The church, now known as the First Parish
+        Congregational Church in Manchester-by-the-Sea continues to serve the community today. The
+        collection includes the earliest extant records of the church. Included within the records
+        are administrative records, vital records, financial records and records relating to the
+        1957 ecclesiastical council that led to the church splitting.</abstract>
+      <origination label="creator">
+        <corpname identifier="nr2004011616" source="lcnaf">
+          <part>Congregational Church (Manchester, Mass.)</part>
+        </corpname>
+      </origination>
+      <origination label="creator">
+        <corpname identifier="nr96009276" source="lcnaf">
+          <part>Orthodox Congregational Church (Manchester, Mass.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_aafa9bad2091e69a3267de09758c9230">
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_e66a0efa4334145a3c38574f2df0a049">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+      <p>Digital Reproductions are protected by copyright and/or related rights. You are free to use
+        the Digital Reproductions in any way that is permitted by the copyright and related rights
+        legislation that applies to your use. In addition, no permission is required from the
+        Congregational Library &amp; Archives for educational uses. For other uses, you need to
+        obtain permission from the Congregational Library &amp; Archives. For additional information
+        regarding copyright, please consult the Congregational Library &amp; Archives' <ref
+          actuate="onrequest" href="http://www.congregationallibrary.org/about/digital-copyright"
+          linktitle="Digital Collections Copyright &amp; Use" show="new">Digital Collections
+          Copyright &amp; Use</ref> policy.</p>
+    </userestrict>
+    <prefercite id="aspace_5d220f12a4b4faa5b0a97343f6abef4c">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Manchester, Mass. Orthodox Congregational Church records,
+        1717-1917, RG5361. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_d37a9cf16e3bfa72f8b9c7bf12324a9e">
+      <head>Acquisition Information</head>
+      <p>Materials were permanently loaned to the Congregational Library and Archives, December
+        2017, by the First Parish Church Congregational; Accession 2017-18.</p>
+    </acqinfo>
+    <accruals id="aspace_d121b91ec7407115fa5601e120b3a9f2">
+      <head>Accruals</head>
+      <p>Additional accruals are expected for this collection in the form of full-text
+        transcription. There is no anticipated date for this accrual.</p>
+    </accruals>
+    <processinfo id="aspace_46be936333a6a820a63f9415acc6a994">
+      <head>Processing Information</head>
+      <p>Processed by Zachary Bodnar, February 2019, using DACS Second Edition.</p>
+    </processinfo>
+    <bioghist id="aspace_19f7f5fddeec2200da61a03160d26190">
+      <head>Historical Note</head>
+      <p>The First Congregational Church in Manchester-by the-Sea, Massachusetts, was formed on
+        November 7, 1716 with 21 members, 71 years after the incorporation of the town of
+        Manchester. The first minister of the newly formed church was Rev. Ames Cheever. Prior to
+        the formation of the church, the inhabitants of Manchester worshipped first at Salem and
+        then at Beverly. However, the town of Manchester still had a meeting house, with the first
+        constructed in 1656 and the second constructed in 1695. A third meeting house was
+        constructed shortly after the formation of the First Church in 1719.</p>
+      <p>The fourth and final meeting house was built in 1809 and was co-owned by both the town of
+        Manchester and the church proprietors. The church's Sunday school was founded in June of
+        1810. In 1843 the name of the church was changed to the Orthodox Congregational Church. In
+        1844 the church proprietors bought out the town and therefore fully controlled the meeting
+        house thereafter. The building underwent further renovations in 1846. In 1857, an
+        ecclesiastical dispute resulted in about two-thirds of the parish separating from the church
+        and forming a new church with Rev. F. V. Fenny as the minister. The two churches were
+        reunited in 1869.</p>
+      <p>In 1902 the church was officially incorporated under Massachusetts law and a new covenant
+        and revised by-laws were adopted. In 1979 the church adopted the name First Parish Church
+        Congregational. A member of the United Church of Christ, the First Parish Church
+        Congregational continues to serve the community of Manchester-by-the-Sea.</p>
+    </bioghist>
+    <scopecontent id="aspace_79910fb2ea73e51953f899eeb9bb7b5d">
+      <head>Scope and Contents</head>
+      <p>This collection contains the earliest extant record books of the first congregational
+        church in Manchester, Massachusetts, later called the Orthodox Congregational Church. Within
+        the collection are records related to the administration of the church, including the
+        financial records of the church and meeting house, and vital member records, which include
+        baptismal records, marriage records, necrologies, lists of active members, and disciplinary
+        records.</p>
+    </scopecontent>
+    <arrangement id="aspace_2a95f2117dec9a57bb328e4830c43142">
+      <head>Arrangement</head>
+      <p>This collection is arranged primarily in chronological order, by start date, and
+        secondarily by topic.</p>
+    </arrangement>
+    <phystech id="aspace_a9f2a2217fe0f1b5d43dd45ddf38677d">
+      <head>Technical Requirements</head>
+      <p>To access digital user's copies via online-interface, a java-enabled web browser is
+        required. Internet Explorer 8.x and later, Firefox 5.x and later, Opera 12 and later, Safari
+        5.x and later, or any version of Google Chrome are recommended.</p>
+    </phystech>
+    <bibliography id="aspace_f35f3089d57843c6f7c3afe7dd6a15c4">
+      <head>Bibliography</head>
+      <p><emph render="italic">Manual and List of Members of the Orthodox Congregational Church of
+          Manchester, Massachusetts</emph>. Salem: Newcomb &amp; Gauss, 1904. 17.11.1 M31.57
+        FirPCC</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025584" source="lcsh">
+        <part>Church charities.</part>
+      </subject>
+      <subject identifier="sh85025597" source="lcsh">
+        <part>Church discipline.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85066724" source="lcsh">
+        <part>Installation (clergy).</part>
+      </subject>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <subject identifier="sh85090572" source="lcsh">
+        <part>Necrologies.</part>
+      </subject>
+      <subject source="local">
+        <part>New England's Hidden Histories.</part>
+      </subject>
+      <corpname identifier="nr2004011616" source="lcnaf">
+        <part>Congregational Church (Manchester, Mass.)</part>
+      </corpname>
+      <corpname identifier="nr2004011622" source="lcnaf">
+        <part>First Parish Church Congregational (Manchester, Mass.)</part>
+      </corpname>
+      <corpname identifier="n82041075" source="lcnaf">
+        <part>Manchester (Mass.) -- Church history.</part>
+      </corpname>
+      <corpname identifier="nr96009276" source="lcnaf">
+        <part>Orthodox Congregational Church (Manchester, Mass.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_831ef3b896b28f8c180469cc5570b0af" level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1717">1717</fromdate>
+              <todate standarddate="1743">1743</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1717-1743</unitdate>
+          <container id="aspace_51a3bf762511852947c3819de48ff235" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_4e7c29db1be4ffda82f2de3b67987d93" localtype="volume"
+            parent="aspace_51a3bf762511852947c3819de48ff235">1</container>
+        </did>
+        <altformavail id="aspace_690160b2f07f3d89b88bec96a2a2e1a7">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Manchester/viewer/Church20records2C2017171743/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_3ac530afe478db2a03e2487f54563351">
+          <head>Scope and Contents</head>
+          <p>This volume, representing the earliest extant records of the church, primarily contains
+            records related to the church's early members. The volume contains membership lists,
+            records of admitted members, baptismal records, marriage records, statistics, by year,
+            of both births and deaths in the parish, and communion records. Also included are some
+            administrative records, including collection records and lists of church expenses by
+            year.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_27d90e4bc87f25a6dfd88a8fa0d7300e" level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1743">1743</fromdate>
+              <todate standarddate="1827">1827</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1743-1827</unitdate>
+          <container id="aspace_bbfe3fb26f733487d20ade9f05d74236" label="Mixed Materials"
+            localtype="box">2</container>
+          <container id="aspace_382ba4c2134b2bade3907d490eec9d76" localtype="volume"
+            parent="aspace_bbfe3fb26f733487d20ade9f05d74236">1</container>
+        </did>
+        <altformavail id="aspace_3de8edf698c02f17761651c03ff16699">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Manchester/viewer/Church20records2C2017431827/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_33d850bf61a594d1d8fffaf535e70661">
+          <head>Scope and Contents</head>
+          <p>This volume of church records contains both administrative information and the records
+            of the church's members. Included in the volume are meeting minutes and records of
+            votes, installation records, records of deaths, baptismal records, marriage records, and
+            church membership lists. The volume also contains some information related to the
+            construction of the 1809 meeting house and the first Sunday worship within the new
+            building.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_933d89024db417c488cb3f6c9b0e9a57" level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1825">1825</fromdate>
+              <todate standarddate="1875">1875</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1825-1875</unitdate>
+          <container id="aspace_b5c8e5b105d175b5c1a56063d39fd8c3" label="Mixed Materials"
+            localtype="box">2</container>
+          <container id="aspace_1202a6a73fab78f29ac1f8ddb19f53e0" localtype="volume"
+            parent="aspace_b5c8e5b105d175b5c1a56063d39fd8c3">2</container>
+        </did>
+        <scopecontent id="aspace_8a7d45f06a882707601a77f51bf5ab64">
+          <head>Scope and Contents</head>
+          <p>This volume contains both the administrative records of the church as well as vital
+            membership records. Within the administrative records are meeting minutes, records of
+            votes, and some financial records. Also included are extensive records on a 1957
+            ecclesiastical council meeting and disciplinary records recording the excommunications
+            and suspensions given to some members. The vital records include marriage records,
+            baptismal records, necrologies, and membership lists. The volume also contains the 1851
+            revision of the articles of faith and covenant.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_8f5040acafa78b2fef795c7ea1d9cd41" level="item">
+        <did>
+          <unittitle>Church membership</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1771">1771</fromdate>
+              <todate standarddate="1881">1881</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1771-1881</unitdate>
+          <container id="aspace_0a765063f9c643c2b3c119807a916d8a" label="Mixed Materials"
+            localtype="box">2</container>
+          <container id="aspace_db68f7a9f32c44f58c5fb3741effe933" localtype="volume"
+            parent="aspace_0a765063f9c643c2b3c119807a916d8a">3</container>
+        </did>
+        <altformavail id="aspace_1ac3c5a8b908f5adb0f6d8a0dc8b1410">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Manchester/viewer/Membership20records2C2017711881/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_b5680b4c2fea8d157cb461f790e13923">
+          <head>Scope and Contents</head>
+          <p>This volume of membership records includes lists of members at the church, lists of
+            deacons who served the church, short genealogies of the families of pastors, and a list
+            of church members who lived past the age of 80.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_ba9ccd768e713fcb7e666ad9181292bd" level="item">
+        <did>
+          <unittitle>Proprietor's book</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1809">1809</fromdate>
+              <todate standarddate="1845">1845</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1809-1845</unitdate>
+          <container id="aspace_cf8cdb72b7c7b3d6bacabc141e7c9b9b" label="Mixed Materials"
+            localtype="box">2</container>
+          <container id="aspace_19d6e6aebfdaa810d8d4522349dd89b6" localtype="volume"
+            parent="aspace_cf8cdb72b7c7b3d6bacabc141e7c9b9b">4</container>
+        </did>
+        <scopecontent id="aspace_ccd5409aeb7ff7fcc5c4fc3c9fb85117">
+          <head>Scope and Contents</head>
+          <p>This volume, kept by the church proprietors, includes the financial records of the
+            fourth meeting house from its construction in 1809 to the aftermath of the church
+            purchasing the portion of the meeting house that was owned by the town in 1844.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_6b31d9ef71bed175b5bd4effcaf5e922" level="item">
+        <did>
+          <unittitle>Parish records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1836">1836</fromdate>
+              <todate standarddate="1875">1875</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1836-1875</unitdate>
+          <container id="aspace_3a0a1b712f87ae3fd3fb4fadb72c6463" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_057810af1cb1bc452b1c614a099f7045" localtype="volume"
+            parent="aspace_3a0a1b712f87ae3fd3fb4fadb72c6463">2</container>
+        </did>
+        <scopecontent id="aspace_cdc2a24351da347e9eb2083f76b9f45c">
+          <head>Scope and Contents</head>
+          <p>This volume contains the records of the "first religious Society in Manchester." The
+            volume contains the parish's meeting minutes, records of votes, and committee reports.
+            Also included is the 1969 By-Laws of the parish and a 1969 list of members. Pasted on
+            the final page of the volume is the "Order of Exercises" for the reopening of the
+            Orthodox Congregational Church in 1846.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_e74e9c490a61db23af80d8a89ee8240b" level="item">
+        <did>
+          <unittitle>Treasurer's book</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1837">1837</fromdate>
+              <todate standarddate="1917">1917</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1837-1917</unitdate>
+          <container id="aspace_4f1e8e66ed56bb3d501fdd4422dff65b" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_ee838b5c6dee3058b3e9f52235860385" localtype="volume"
+            parent="aspace_4f1e8e66ed56bb3d501fdd4422dff65b">3</container>
+        </did>
+        <scopecontent id="aspace_5d256d02658b8a1b4bc5d2030c515d2a">
+          <head>Scope and Contents</head>
+          <p>This "day book" contains the financial records of the church and parish. Included in
+            the volume are detailed lists of expenditures and income by year and period.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_0d84b3eb6cc4131d41bc88d4cee2fac5" level="item">
+        <did>
+          <unittitle>Treasurer's book</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1857">1857</fromdate>
+              <todate standarddate="1864">1864</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1857-1864</unitdate>
+          <container id="aspace_4f520351d11644ebd599a5b155d499e9" label="Mixed Materials"
+            localtype="box">2</container>
+          <container id="aspace_854c25126b7898f6552be5045d695c57" localtype="volume"
+            parent="aspace_4f520351d11644ebd599a5b155d499e9">5</container>
+        </did>
+        <scopecontent id="aspace_a00713a7f7ba8cf675ef040906618705">
+          <head>Scope and Contents</head>
+          <p>This volume of financial records includes reports from the Chapel Association, the
+            pastoral account, and the contributions collected for other church groups, such as
+            mission groups, the Poor Fund, the Sabbath School, the Bible Society, and the New York
+            and Boston tract societies.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
