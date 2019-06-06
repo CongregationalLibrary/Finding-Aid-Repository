@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/UnknownLegacy-0909.xml"
+      >UnknownLegacy-0909</recordid>
+    <representation localtype="pdf"
+      href="http://www.congregationallibrary.org/sites/all/files/UnknownLegacy-0909.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Legacy of a dying father bequeathed to his beloved children: or sundry
+          directions in order unto a well regulated conversation, 1693-1694. </titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2019-06-05</date>
+        <num>MS0909</num>
+      </publicationstmt>
+      <seriesstmt>
+        <p>This collection is part of New England's Hidden Histories. Digital historical
+          representations of the collection can be viewed online.</p>
+      </seriesstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS2 - 2013</abbr>
+      <citation>Describing Archives: A Content Standard, Second Edition</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2019-06-06T13:24:20+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Thursday June 6, 2019
+          at 13:24</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Legacy of a dying father bequeathed to his beloved children: or sundry directions
+        in order unto a well regulated conversation, 1693-1694.</unittitle>
+      <unitid>MS0909</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>1</quantity>
+        <unittype>Volume</unittype>
+      </physdescstructured>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1693">1693</fromdate>
+          <todate standarddate="1694">1694</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" unitdatetype="inclusive">1693-1694</unitdate>
+      <abstract id="aspace_af570a59bfc698660f8fe0774af6d609">This document, dated 1694, was written
+        by an unknown author and inserted into a repurposed manuscript volume. Addressed to his
+        surviving sons, the manuscript consists of religious, moral, and general life
+        advice.</abstract>
+    </did>
+    <accessrestrict id="aspace_2ce20aa55bba21ed15b4aa61b2cdde25">
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_63d0879980de1c66efd9c85bb9236450">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+      <p>Digital Reproductions are protected by copyright and/or related rights. You are free to use
+        the Digital Reproductions in any way that is permitted by the copyright and related rights
+        legislation that applies to your use. In addition, no permission is required from the
+        Congregational Library &amp; Archives for educational uses. For other uses, you need to
+        obtain permission from the Congregational Library &amp; Archives. For additional information
+        regarding copyright, please consult the Congregational Library &amp; Archives' <ref
+          actuate="onrequest" href="http://www.congregationallibrary.org/about/digital-copyright"
+          linktitle="Digital Collections Copyright &amp; Use" show="new">Digital Collections
+          Copyright &amp; Use</ref> policy.</p>
+    </userestrict>
+    <prefercite id="aspace_74732fdf9b6fd2244fe7c344771db3b9">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Legacy of a dying father bequeathed to his beloved
+        children: or sundry directions in order unto a well regulated conversation, 1693-1694,
+        MS0909. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_f51956aadd097cb3abf5eca9d5f649fa">
+      <head>Acquisition Information</head>
+      <p>No acquisition information is available for this collection.</p>
+    </acqinfo>
+    <accruals id="aspace_cde02c31b114c3fd21f48eaa9e8dabe9">
+      <head>Accruals</head>
+      <p>Additional accruals are expected for this collection in the form of full-text
+        transcription. There is no anticipated date for this accrual.</p>
+    </accruals>
+    <processinfo id="aspace_921b3654812c71264b5660b597400ad3">
+      <head>Processing Information</head>
+      <p>Reprocessed for ArchivesSpace by Zachary Bodnar, June 2019, using DACS Second Edition.</p>
+    </processinfo>
+    <bioghist id="aspace_37cca070db566b172e4c892a883b377e">
+      <head>Biographical Note</head>
+      <p>This volume was written by an unknown author and contains a long-form manuscript addressed
+        to the author's sons. The manuscript consists of religious, moral, and general life advice
+        which was presumably meant to outlast the author himself. No other information is available
+        regarding the history of this item.</p>
+    </bioghist>
+    <scopecontent id="aspace_1c3052f9f25144d44727e3be2d8abc46">
+      <head>Scope and Contents</head>
+      <p>This manuscript, dated 1694, was inserted into in a repurposed manuscript volume, as
+        evidenced by the crossed-out pages of note preceding the title page. The manuscript, written
+        to the author's surviving sons, consists of the principle manuscript on the right-hand
+        pages, with additions, insertions, and corrections made on the left-hand pages.</p>
+    </scopecontent>
+    <phystech id="aspace_78a8eaf781357a5c2a8bee987c7f0647">
+      <head>Technical Requirements</head>
+      <p>To access digital user's copies via online-interface, a java-enabled web browser is
+        required. Internet Explorer 8.x and later, Firefox 5.x and later, Opera 12 and later, Safari
+        5.x and later, or any version of Google Chrome are recommended.</p>
+    </phystech>
+    <controlaccess>
+      <subject identifier="sh85076845" source="lcsh">
+        <part>Life skills -- Handbooks, manuals, etc.</part>
+      </subject>
+      <geogname identifier="sh85091279" source="lcsh">
+        <part>New England -- Social life and customs -- To 1775.</part>
+      </geogname>
+      <subject identifier="sh2010109185" source="lcsh">
+        <part>Puritans -- New England -- Intellectual life.</part>
+      </subject>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_4f97adff36a80bbe061b43b005c2ad10" level="item">
+        <did>
+          <unittitle>Legacy of a dying father</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1693">1693</fromdate>
+              <todate standarddate="1694">1694</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1693-1694</unitdate>
+          <container id="aspace_1d9b92e1aadd5826e44abb0f9d299971" label="Mixed Materials"
+            localtype="box">NEHH-Small 1</container>
+          <container id="aspace_cf25bd0dd2cc35534436e5bb9b20ecd7" localtype="folder"
+            parent="aspace_1d9b92e1aadd5826e44abb0f9d299971">9</container>
+        </did>
+        <altformavail id="aspace_87fd114b3308f5a7e8bfb37940485984">
+          <head>Digital Copies</head>
+          <p>This manuscript was digitized as part of the New England's Hidden Histories project.
+            Digital reproductions are <ref actuate="onrequest"
+              href="http://www.congregationallibrary.org/nehh/series2/UnknownLegacy0909"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
