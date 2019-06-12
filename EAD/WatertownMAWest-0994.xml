@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/WatertownMAWest-0994.xml"
+      >WatertownMAWest-0994</recordid>
+    <representation localtype="pdf"
+      href="http://www.congregationallibrary.org/sites/all/files/WatertownMAWest-0994.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Watertown, Mass. West Precinct Church covenant, 1709. </titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2019-06-12</date>
+        <num>RG0994</num>
+      </publicationstmt>
+      <seriesstmt>
+        <p>This collection is part of New England's Hidden Histories. Digital historical
+          representations of the collection can be viewed online.</p>
+      </seriesstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS2 - 2013</abbr>
+      <citation>Describing Archives: A Content Standard, Second Edition</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2019-06-12T17:55:56+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday June 12,
+          2019 at 17:55</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Watertown, Mass. West Precinct Church covenant, 1709.</unittitle>
+      <unitid>RG0994</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>1</quantity>
+        <unittype>Folder</unittype>
+      </physdescstructured>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <datesingle standarddate="1709">1709</datesingle>
+      </unitdatestructured>
+      <abstract id="aspace_cebe0ecd1d2893f7a51619f3dd887c79">In 1696 the residents of the town of
+        Watertown, Massachusetts, voted to support two meeting houses; the West Precinct Church, was
+        established in 1696 to serve the western section of the town. The first meeting house, a
+        repurposed building from Newton, was assembled in 1722. In 1738 the town of Waltham was
+        incorporated from the West Precinct of Watertown and the church was renamed to the First
+        Parish in Waltham. In 1838 the First Parish merged with the Second Religious Society. In
+        1958 the First Parish merged with the First Unitarian Church to form the First Parish Church
+        in Waltham, Universalist-Unitarian. This collection contains a manuscript copy of the 1709
+        version of the covenant of the West Precinct Church.</abstract>
+      <origination label="creator">
+        <corpname rules="rda" source="local">
+          <part>West Precinct Church (Watertown, Mass.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_8423ae03bce00b4c39a8dc32dbf4697f">
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_63f43ccc1210e003ce5a5e173721e7d9">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+      <p>Digital Reproductions are protected by copyright and/or related rights. You are free to use
+        the Digital Reproductions in any way that is permitted by the copyright and related rights
+        legislation that applies to your use. In addition, no permission is required from the
+        Congregational Library &amp; Archives for educational uses. For other uses, you need to
+        obtain permission from the Congregational Library &amp; Archives. For additional information
+        regarding copyright, please consult the Congregational Library &amp; Archives' <ref
+          actuate="onrequest" href="http://www.congregationallibrary.org/about/digital-copyright"
+          linktitle="Digital Collections Copyright &amp; Use" show="new">Digital Collections
+          Copyright &amp; Use</ref> policy.</p>
+    </userestrict>
+    <prefercite id="aspace_8bb0d3284a56cb09195c7114521ec59d">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Watertown, Mass. West Precinct Church covenant, 1709,
+        RG0994. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_5129efeeef715278d13daaa2031db251">
+      <head>Acquisition Information</head>
+      <p>No acquisition information is available for this collection.</p>
+    </acqinfo>
+    <accruals id="aspace_11cadd28739b07e34fa59d6124064035">
+      <head>Accruals</head>
+      <p>Additional accruals are expected for this collection in the form of full-text
+        transcription. There is no anticipated date for this accrual.</p>
+    </accruals>
+    <processinfo id="aspace_436cabefe3b51388202d0ae4ac42cef7">
+      <head>Processing Information</head>
+      <p>Processed by Zachary Bodnar, June 2019, using DACS Second Edition.</p>
+    </processinfo>
+    <bioghist id="aspace_5b26bc35872c18ad43ba857117fcaf4e">
+      <head>Historical Note</head>
+      <p>In 1696 the residents of the town of Watertown, Massachusetts, voted to support two meeting
+        houses. The First Church, which was established in 1630, became the church in the East
+        Precinct. A new church, the West Precinct Church, was established in 1696 to serve the
+        western section of the town, which was largely a farming community. The first physical
+        structure to hold the parish was built in 1696. By 1722 the first church building had become
+        unsuitable for the congregation; that year a disused building from Newton was purchased,
+        disassembled, and reassembled in Waltham to become the first meeting house. In 1738 the town
+        of Waltham was incorporated from the West Precinct of Watertown and the West Precinct Church
+        became the First Parish in Waltham. By 1767 the congregation had once again outgrown the
+        meeting house and before the end of 1768 the second meeting house was constructed and in
+        use.</p>
+      <p>By 1813 the First Parish in Waltham was either fully Unitarian or heavily moving towards
+        Unitarianism. The Second Religious Society in Waltham formed in 1813, likely in response to
+        the ecclesiastical direction of the First Parish. In 1820 this society split again with one
+        half forming the First Congregational Church, also known as the Third Trinitarian Society,
+        and the other half retained the name, Second Religious Society, but adopted Unitarianism. In
+        1838 the Second Congregational Society merged with the First Parish to become the only
+        Unitarian congregation in Waltham. At that time the newly merged congregation built the
+        third meeting house.</p>
+      <p>In 1933 the third meeting house was destroyed by a fire. The fourth meeting house, designed
+        by Allen &amp; Collens from Boston, was built on the foundation of the third meeting house.
+        The fourth meeting house, a Classic Revival structure, was listed on the National Register
+        of Historic Places in 1989. In 1958 the First Parish merged with the First Universalist
+        Society of Waltham to become the First Parish Church in Waltham, Universalist-Unitarian.
+        This church continues to serve the local community today.</p>
+    </bioghist>
+    <scopecontent id="aspace_317f634c723655e91d2c20dfb4aaf523">
+      <head>Scope and Contents</head>
+      <p>This collection contains a manuscript copy of the 1709 version of the covenant of the West
+        Precinct Church in Watertown, Massachusetts.</p>
+    </scopecontent>
+    <phystech id="aspace_f99119396759b0eab54b2cbcb3bf3cb6">
+      <head>Technical Requirements</head>
+      <p>To access digital user's copies via online-interface, a java-enabled web browser is
+        required. Internet Explorer 8.x and later, Firefox 5.x and later, Opera 12 and later, Safari
+        5.x and later, or any version of Google Chrome are recommended.</p>
+    </phystech>
+    <bibliography id="aspace_cf2c7f03170d88cf6a57d723753f35fe">
+      <head>Bibliography</head>
+      <p>"History." First Parish in Waltham. Accessed June 12, 2019. <ref actuate="onrequest"
+          href="http://www.walthamuu.org/history" linktitle="History" show="new"
+          >http://www.walthamuu.org/history</ref>.</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85033612" source="lcsh">
+        <part>Covenants (Church polity).</part>
+      </subject>
+      <subject source="local">
+        <part>New England's Hidden Histories.</part>
+      </subject>
+      <corpname source="lcnaf">
+        <part>First Parish in Waltham (Waltham, Mass.)</part>
+      </corpname>
+      <corpname identifier="n80025792" source="lcnaf">
+        <part>Waltham (Mass.) -- Church history.</part>
+      </corpname>
+      <corpname identifier="n80037693" source="lcnaf">
+        <part>Watertown (Mass.) -- Church history.</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_a84b1a693c2b2ae6cbb937b466fb0f50" level="file">
+        <did>
+          <unittitle>Covenant</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1709">1709</datesingle>
+          </unitdatestructured>
+          <container id="aspace_a2d2ca946f585a3d1a08c5a8d87f2ad6" label="Mixed Materials"
+            localtype="box">NEHH-Small 1</container>
+          <container id="aspace_9d454551d450242e565bd60a45f60e5c" localtype="folder"
+            parent="aspace_a2d2ca946f585a3d1a08c5a8d87f2ad6">15</container>
+        </did>
+        <altformavail id="aspace_91970e791befe503c486f3bd6f3b82c4">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Watertown/viewer/Covenant/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
