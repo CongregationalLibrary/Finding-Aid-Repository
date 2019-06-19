@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/BerkleyMACongregational-1061.xml"
+      >BerkleyMACongregational-1061</recordid>
+    <representation localtype="pdf"
+      href="http://www.congregationallibrary.org/sites/all/files/BerkleyMACongregational-1061.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Berkley, Mass. Congregational Church records, 1737-1949. </titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2017-10-26</date>
+        <num>RG1061</num>
+      </publicationstmt>
+      <seriesstmt>
+        <p>Portions of this collection are part of New England's Hidden Histories. Digital
+          historical representations of these portions of the collection can be viewed online.</p>
+      </seriesstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS2 - 2013</abbr>
+      <citation>Describing Archives: A Content Standard, Second Edition</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2019-06-19T16:01:25+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday June 19,
+          2019 at 16:01</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Berkley, Mass. Congregational Church records, 1737-1949.</unittitle>
+      <unitid>RG1061</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>.22</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(1 box)</physdesc>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1737">1737</fromdate>
+          <todate standarddate="1949">1949</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" unitdatetype="inclusive">1737-1949</unitdate>
+      <abstract id="aspace_fbde537d2a8114fb3afde70f0f7389a1">The First Church of Christ was first
+        gathered in 1737 in the newly incorporated town of Berkley, Massachusetts. In 1737, the town
+        agreed to settle Samuel Tobey, a young graduate of Cambridge. In 1788, Thomas Andros, a
+        self-taught veteran of the American Revolutionary War, was settled in Berkley. The Berkley,
+        Mass. Congregational Church records document the early history, administration, and life of
+        the church and its members. The collection includes financial records, church and parish
+        records, vital statistics, and the records of the Trinitarian Congregational Church which
+        split from the Congregational Church in Berkley.</abstract>
+      <origination label="creator">
+        <persname identifier="n83179175" source="lcnaf">
+          <part>Andros, Thomas, 1759-1845</part>
+        </persname>
+      </origination>
+      <origination label="creator">
+        <corpname identifier="n97043850" source="lcnaf">
+          <part>Congregational Church (Berkley, Mass.)</part>
+        </corpname>
+      </origination>
+      <origination label="creator">
+        <corpname identifier="n97043903" source="lcnaf">
+          <part>First Church (Berkley, Mass.)</part>
+        </corpname>
+      </origination>
+      <origination label="creator">
+        <corpname identifier="n97043867" source="lcnaf">
+          <part>Free Church (Berkley, Mass.)</part>
+        </corpname>
+      </origination>
+      <origination label="creator">
+        <corpname rules="rda" source="local">
+          <part>Trinitarian Congregational Church (Berkley, Mass.)</part>
+        </corpname>
+      </origination>
+      <origination label="creator">
+        <persname identifier="nr2002003876" source="lcnaf">
+          <part>Tobey, Samuel, 1715-1781</part>
+        </persname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_3538b58ecffb843bf5fd1bf19c5b8976">
+      <head> Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_66af521cdcc45e37ac3363a651243a1d">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+      <p>Digital Reproductions are protected by copyright and/or related rights. You are free to use
+        the Digital Reproductions in any way that is permitted by the copyright and related rights
+        legislation that applies to your use. In addition, no permission is required from the
+        Congregational Library &amp; Archives for educational uses. For other uses, you need to
+        obtain permission from the Congregational Library &amp; Archives. For additional information
+        regarding copyright, please consult the Congregational Library &amp; Archives' <ref
+          actuate="onrequest" href="http://www.congregationallibrary.org/about/digital-copyright"
+          linktitle="Digital Collections Copyright &amp; Use" show="new">Digital Collections
+          Copyright &amp; Use</ref> policy.</p>
+    </userestrict>
+    <prefercite id="aspace_3c967b9a3da63cff4837348fa294f3ab">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Berkley, Mass. Congregational Church records, 1737-1949,
+        RG1061. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_63bdf705bf659d884ad92b7efadc35ee">
+      <head>Acquisition Information</head>
+      <p>The volume, "Formation of the Trinitarian Society records," was gifted to the
+        Congregational Library &amp; Archives in 1912 by the Rev. Lucius R. Eastman; no accession
+        number.</p>
+      <p>Discipline Cases removed from RG4769 and placed here. No acquisition information available
+        regarding that collection.</p>
+      <p>All other materials were temporary loaned to the Congregational Library &amp; Archives,
+        November 2015, by the Congregational Church, Berkley, Massachusetts. Collection initially
+        given identifier RG5300; Accession 2015-21.</p>
+    </acqinfo>
+    <originalsloc id="aspace_630cc48af12f7431f5832af3ed696c9e">
+      <head>Location of Originals</head>
+      <p>Original records for digital objects are located at the Berkley Congregational Church,
+        U.C.C., Berkley, MA.</p>
+    </originalsloc>
+    <accruals id="aspace_f9b9f996ade74bbc651294dca304c4b9">
+      <head>Accruals</head>
+      <p>Additional accruals are expected for this collection in the form of full-text
+        transcription. There is no anticipated date for this accrual.</p>
+    </accruals>
+    <processinfo id="aspace_1753be42c08f96625e26c9d42cd0bf7c">
+      <head>Processing Information</head>
+      <p>Processed by Zachary Bodnar, October 2017, using DACS Second Edition.</p>
+    </processinfo>
+    <bioghist id="aspace_6fc543600371f6e64f002727ee01aa72">
+      <head>Historical Note</head>
+      <p>The First Church of Christ, in Berkley, Massachusetts, was gathered in 1737. The town of
+        Berkley was incorporated in 1735 from an area of land that had belonged to the neighboring
+        towns of Dighton and Taunton. The request to create a new town apparently came about in part
+        due to dissatisfaction with the new pastor at the church in Taunton. Part of the conditions
+        for the formation of the new town was that a new minister needed to be settled in the town
+        within a two year period. In 1737, the town agreed to settle Samuel Tobey, a young graduate
+        of Cambridge. His was a successful pastorate and he continued to serve the Congregational
+        Church in Berkley until his death in 1781.</p>
+      <p>For nearly seven years, a new minister to replace Tobey could not be found. Then, in 1788,
+        Thomas Andros was settled in Berkley. Andros was largely a self-taught minister from
+        Connecticut who had also fought in the American Revolutionary War and spent time as a
+        prisoner of war in 1781. Under Andros, the name of the church changed to the Free Christian
+        Church in 1814. Andros also had a long pastorate and served the church until his resignation
+        in 1834 and he continued to be active in church life until his death in 1845.</p>
+      <p>In part due to conflicts regarding the salary of the minister among other complaints, a
+        group of church members separated from the Congregational Church in Berkley and formed the
+        Trinitarian Congregational Church, also known as the Second Congregational Church in 1847.
+        The first minister of this church was Rev. Mr. Eastman and he was followed by Rev. Mr.
+        Roberts. In 1873, this church reformed as the Methodist Episcopal Church of Berkley.</p>
+      <p>After the formation on the United Church of Christ in 1957, the Congregational Church in
+        Berkley reorganized as the Berkley Congregational Church, UCC which continues to serve the
+        local community today.</p>
+    </bioghist>
+    <scopecontent id="aspace_eaa26c14d4f4648925ac1f36a49469e5">
+      <head>Scope and Contents</head>
+      <p>The Berkley, Mass. Congregational Church records document the early history,
+        administration, and life of the church and its members, as well as a major split that
+        occured within the community. The collection includes financial records, church and parish
+        records, including meeting minutes, committee reports, records of votes, sermons, and
+        certificates of membership, disciplinary cases, and vital statistics, such as marriage and
+        baptismal records. Also present in the collection are record books which relate to the
+        Trinitarian Congregational Society, which split from the Congregational Society in 1848, and
+        include narratives for why they split from the church as well as foundational documents for
+        their new church society.</p>
+    </scopecontent>
+    <arrangement id="aspace_52f3093e8f40594d4522bfdc454a9e81">
+      <head>Arrangement</head>
+      <p>The records are arranged chronologically by start date.</p>
+    </arrangement>
+    <phystech id="aspace_2781f1fff3201b14491073b14bcad0a6">
+      <head>Technical Requirements</head>
+      <p>To access digital user's copies via online-interface, a java-enabled web browser is
+        required. Internet Explorer 8.x and later, Firefox 5.x and later, Opera 12 and later, Safari
+        5.x and later, or any version of Google Chrome are recommended.</p>
+    </phystech>
+    <bibliography id="aspace_9a7ed0acfd48b24d413c6227f91fd444">
+      <head>Bibliography</head>
+      <p>Hopkins, S. <emph render="italic">The Observance of the One Hundred and Fiftieth
+          Anniversary of the Organization of the Congregational Church in Berkley, Mass., November
+          2, 1887</emph>. Taunton: Charles H. Buffington, 1888. 17.11.1 B45.72 CONC</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025597" source="lcsh">
+        <part>Church discipline.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject source="local">
+        <part>New England's Hidden Histories.</part>
+      </subject>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <subject identifier="sh2008111551" source="lcsh">
+        <part>Sermons, American -- Early works to 1800.</part>
+      </subject>
+      <corpname identifier="n91087169" source="lcnaf">
+        <part>Berkley (Mass.) -- Church history.</part>
+      </corpname>
+      <corpname identifier="n97043850" source="lcnaf">
+        <part>Congregational Church (Berkley, Mass.)</part>
+      </corpname>
+      <corpname identifier="n97043903" source="lcnaf">
+        <part>First Church (Berkley, Mass.)</part>
+      </corpname>
+      <corpname identifier="n97043867" source="lcnaf">
+        <part>Free Church (Berkley, Mass.)</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>Trinitarian Congregational Church (Berkley, Mass.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_0be6e28a827ee56a464c92f8df2f3651" level="item">
+        <did>
+          <unittitle>First Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1737">1737</fromdate>
+              <todate standarddate="1778">1778</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1737-1778</unitdate>
+        </did>
+        <altformavail id="aspace_f799395ad2b10960792de1326679735f">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Berkley/viewer/Old20Church20records2C2017371778/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_3de42388e559d033327a11ffec35f28a">
+          <head>Scope and Contents</head>
+          <p>The Records of the Old Church is a softbound volume which contains the earliest written
+            records of the Congregational church in Berkley, Massachusetts, dating back to the
+            gathering of the church through the whole of Samuel Tobey's ministry. The volume
+            contains administrative records such as records related to the gathering of the church,
+            meeting minutes, records of votes, and officer appointments. The record book also
+            contains vital records such as a list of original members, baptismal records, marriage
+            records, and sacramental records.</p>
+        </scopecontent>
+        <separatedmaterial id="aspace_9767c300f22a1171b45c67407febbc2f">
+          <head>Separated Materials</head>
+          <p>Three sermons were removed from this volume and its envelope and placed together in a
+            separate folder.</p>
+        </separatedmaterial>
+      </c01>
+      <c01 id="aspace_90179d5f0cd3d7285a5dd91e9d1f547a" level="file">
+        <did>
+          <unittitle>Sermons</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1737">1737</fromdate>
+              <todate standarddate="1796">1796</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1737, 1790-1796</unitdate>
+        </did>
+        <altformavail id="aspace_b407fbf339aa982441f46454493bd7ef">
+          <head>Digital Copies</head>
+          <p>These sermons were digitized as part of the New England's Hidden Histories project.
+            Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Berkley/viewer/Sermons2C2017372C2017901796/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_4fc6ad1f5173788a0dda674e532a2081">
+          <head>Scope and Contents</head>
+          <p>This folder contains three handwritten sermon pamphlets. The first, written and
+            preached in 1737 by Reverend Samuel Tobey, is based on 1 John 3:8 and speaks of sin and
+            the devil. The other two sermons were written in the 1790s and were preached by Reverend
+            Thomas Andros. The first is based on Genesis 42:21-22 and the second is based on Psalm
+            78:25.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_9242d978c1598755244642c6f0f80f98" level="file">
+        <did>
+          <unittitle>Disciplinary cases</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1799">1799</fromdate>
+              <todate standarddate="1814">1814</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1799-1814</unitdate>
+          <container id="aspace_7feaca26e4c1e35369a2d97520cf8d73" label="Mixed Materials"
+            localtype="box">NEHH-Small 1</container>
+          <container id="aspace_91d82d3ee704a18035d94543c27effcd" localtype="folder"
+            parent="aspace_7feaca26e4c1e35369a2d97520cf8d73">17</container>
+        </did>
+        <altformavail id="aspace_95db2cef3c03cbebd9f5d1a0018e5b51">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Berkley/viewer/Discipline20cases2C2017991814/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_64fdb075e7d2ee922b9d470759b38a47">
+          <head>Scope and Contents</head>
+          <p>There are two cases of church discipline, the first dating from May 4, 1799 and the
+            second dating from April 6, 1814. The first is a letter written to Israel French, from
+            Thomas Andros, suspending him from the church for stealing apples. The second is a
+            deposition from the employer of Isaac Sanford in defense of his conduct while at work in
+            Taunton.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_8136ac2d6b63eb641f78449c8653237b" level="item">
+        <did>
+          <unittitle>Ministerial Fund reports</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1813">1813</fromdate>
+              <todate standarddate="1949">1949</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1813-1949</unitdate>
+        </did>
+        <scopecontent id="aspace_b3b87578be7e0e11eab36c09596ae0d1">
+          <head>Scope and Contents</head>
+          <p>The Ministerial Fund reports include the financial and administrative records for the
+            ministerial fund from the incorporation of the fund in 1813 through 1949. The ledger
+            includes financial documents such as expenditure reports and sources of income. Also
+            included are materials related to the incorporation of the ministerial fund, committee
+            meeting minutes, trustee appointments, and records of votes.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_f6072c6cf85bf241fe5e60570e26810d" level="item">
+        <did>
+          <unittitle>Proceedings and meetings of the Congregational Society</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1824">1824</fromdate>
+              <todate standarddate="1851">1851</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1824-1851</unitdate>
+        </did>
+        <scopecontent id="aspace_ae3d2c2053c3d7b89e8e725fff40215f">
+          <head>Scope and Contents</head>
+          <p>The Proceedings and Minutes of the Congregational Society is a hardbound volume
+            containing administrative documents covering the period of time between 1824 and 1851.
+            The types of materials present within the volume include calls for town and society
+            meetings, committee reports, appointments to committees and officers, membership
+            certificates, meeting minutes, the church by-laws, treasurer reports, and records of
+            votes.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_4eb0e49066c3608d021b570914947606" level="item">
+        <did>
+          <unittitle>Trinitarian Congregational Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1847">1847</fromdate>
+              <todate standarddate="1860">1860</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1847-1860</unitdate>
+        </did>
+        <scopecontent id="aspace_cff63538a729091e61bbb2f8751e94a0">
+          <head>Scope and Contents</head>
+          <p>The Records of the Trinitarian Congregational Church is a hardbound volume which
+            largely describes the formation of the church society. The majority of the volume
+            records the meetings, correspondence, and reasons for the formation of the society and
+            also include founding documents such as the Church Covenant and the church Rules. Also
+            included in the records are a list of the founding members, officer election results,
+            and a list of members chosen to be delegates to councils and conventions.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_3a9aca6f9db3aa316a5891d56329d517" level="item">
+        <did>
+          <unittitle>Trinitarian Society formation records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1847">1847</fromdate>
+              <todate standarddate="1873">1873</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1847-1873</unitdate>
+          <container id="aspace_e467c7f362c83a8c580a08742ba8d95b" label="Mixed Materials"
+            localtype="box">NEHH-Small 1</container>
+          <container id="aspace_5f1b1ade7b6274fc42de12d474b85988" localtype="folder"
+            parent="aspace_e467c7f362c83a8c580a08742ba8d95b">18</container>
+        </did>
+      </c01>
+      <c01 id="aspace_cea95f64b5445b1a4e7cea7b7f2bc478" level="item">
+        <did>
+          <unittitle>Chapel Proprietor's and Trinitarian Society records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1847">1847</fromdate>
+              <todate standarddate="1874">1874</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1847-1874</unitdate>
+        </did>
+        <scopecontent id="aspace_71bcf5af330bd34c5e14ecbc8a5c8b01">
+          <head>Scope and Contents</head>
+          <p>The Chapel Proprietor's and Trinitarian Society records is a hardbound volume which
+            contains the administrative documents for the Trinitarian Society in Berkley
+            Massachusetts and documents related to the building and running of a chapel for the
+            society. The types of materials present in the volume include an opening letter
+            describing the reasons for splitting with the Congregational Society, meeting minutes,
+            committee reports, the church by-laws and covenant, committee and officer appointments,
+            a committee report documenting the history of the formation of the church society, and a
+            list of subscribers to the church constitution.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
