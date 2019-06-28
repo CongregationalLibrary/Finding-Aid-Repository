@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/BidwellAdonijah-5153.xml"
+      >BidwellAdonijah-5153</recordid>
+    <representation localtype="pdf"
+      href="http://www.congregationallibrary.org/sites/all/files/BidwellAdonijah-5153.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Adonijah Bidwell sermons, circa 1754-1781. </titleproper>
+        <author>Sari Mauro, Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2018-07-30</date>
+        <num>MS5153</num>
+      </publicationstmt>
+      <seriesstmt>
+        <p>This collection is part of New England's Hidden Histories. Digital historical
+          representations of the collection can be viewed online.</p>
+      </seriesstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS2 - 2013</abbr>
+      <citation>Describing Archives: A Content Standard, Second Edition</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2019-06-28T18:39:42+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Friday June 28, 2019
+          at 18:39</eventdescription>
+      </maintenanceevent>
+      <maintenanceevent>
+        <eventtype value="revised"/>
+        <eventdatetime>2019-06-28</eventdatetime>
+        <agenttype value="human"/>
+        <agent/>
+        <eventdescription>Zachary Bodnar: Revised collection title and containers among other minor
+          edits.</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Adonijah Bidwell sermons, circa 1754-1781.</unittitle>
+      <unitid>MS5153</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>1</quantity>
+        <unittype>Folder</unittype>
+      </physdescstructured>
+      <unitdatestructured calendar="gregorian" certainty="approximate" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1754">1754</fromdate>
+          <todate standarddate="1781">1781</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" certainty="approximate" unitdatetype="inclusive">circa
+        1754-1781</unitdate>
+      <abstract id="aspace_bd809ac1e61bd5a713061ee1e156eba7">Adonijah Bidwell (1716-1784) was born
+        in Hartford, Connecticut in 1716 to Thomas and Prudence Bidwell. He attended Yale,
+        graduating in 1740. In 1750 he settled in Tyringham (now Monterey), Massachusetts, as the
+        first pastor. Adonijah Bidwell died in 1784. The collection contains sermon notes and
+        scriptural references for sermons preached by Bidwell at Tyringham.</abstract>
+      <origination label="creator">
+        <persname rules="rda" source="local">
+          <part>Bidwell, Adonijah, 1716-1784</part>
+        </persname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_6016ca8929a37b0c5ab189b1c0a72bae">
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_7670cd40f7068ab877de5481eebf41d3">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+      <p>Digital Reproductions are protected by copyright and/or related rights. You are free to use
+        the Digital Reproductions in any way that is permitted by the copyright and related rights
+        legislation that applies to your use. In addition, no permission is required from the
+        Congregational Library &amp; Archives for educational uses. For other uses, you need to
+        obtain permission from the Congregational Library &amp; Archives. For additional information
+        regarding copyright, please consult the Congregational Library &amp; Archives' <ref
+          actuate="onrequest" href="http://www.congregationallibrary.org/about/digital-copyright"
+          linktitle="Digital Collections Copyright &amp; Use" show="new">Digital Collections
+          Copyright &amp; Use</ref> policy.</p>
+    </userestrict>
+    <prefercite id="aspace_682eff5ad8d5733d4284397d2f5d053f">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Adonijah Bidwell sermons, circa 1754-1781, MS5153. The
+        Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_70175ae7bd103d69a2afea616bfec3a8">
+      <head>Acquisition Information</head>
+      <p>Materials were transfered internally from the library to the archives, 2014; Accession:
+        2014-7.</p>
+    </acqinfo>
+    <accruals id="aspace_1b0dc0304521651e646b9c270bccf029">
+      <head>Accruals</head>
+      <p>Additional accruals are expected for this collection in the form of full-text
+        transcription. There is no anticipated date for this accrual.</p>
+    </accruals>
+    <processinfo id="aspace_1d7ae676eef5da3e0d45b39a87a22a74">
+      <head>Processing Information</head>
+      <p>Originally processed by Sari Mauro, January 2014. Additional description by Zachary Bodnar,
+        July 2018, using DACS Second Edition.</p>
+    </processinfo>
+    <bioghist id="aspace_4fd17fa978995a89ec1ca517aa1abe21">
+      <head>Biographical Note</head>
+      <p>Adonijah Bidwell (1716-1784) was born in Hartford, Connecticut in 1716 to Thomas and
+        Prudence Bidwell. He attended Yale and graduated in 1740. In April of 1745 Bidwell joined
+        the Connecticut Fleet during the early part of King George's War. He served as the chaplain
+        aboard the sloop-of-war "The Colony" and participated in the capture of Cape Brenton. After
+        the war, Bidwell returned to Hartford, Connecticut, and in 1750 settled in Tyringham (now
+        Monterey), Massachusetts, as the first settled pastor. In 1752, Bidwell married Theodosia
+        Colton, daughter of his Yale tutor Rev. Benjamin Coulton. Theodosia died in 1759. In 1760,
+        Bidwell married Theodosia's first cousin, Jemima Devotion, with whom he had four children.
+        She died in 1770. Bidwell married Ruth Kent in 1772. Bidwell supported independence from
+        Britain and used the pulpit to surreptitiously advocate for this position prior the American
+        War for Independence. Adonijah Bidwell died in 1784.</p>
+    </bioghist>
+    <scopecontent id="aspace_1d0950570778a09ca8f9f7a6a25bbf1f">
+      <head>Scope and Contents</head>
+      <p>This collection contains two booklets of sermon notes and scriptural references for sermons
+        preached by Bidwell at Tyringham, Massachusetts. Sermons are dated with multiple years, most
+        likely indicating that many sermons were preached multiple times. In some cases, it is
+        difficult to infer the original date of creation versus a date of re-use. The booklets
+        contain notes on their covers with dates and locational information, though it is difficult
+        to determine if this is original or added at a later date by an unknown author.</p>
+    </scopecontent>
+    <phystech id="aspace_8142ca1b7fb50e13df84db5a603e21f1">
+      <head>Technical Requirements</head>
+      <p>To access digital user's copies via online-interface, a java-enabled web browser is
+        required. Internet Explorer 8.x and later, Firefox 5.x and later, Opera 12 and later, Safari
+        5.x and later, or any version of Google Chrome are recommended.</p>
+    </phystech>
+    <controlaccess>
+      <subject source="local">
+        <part>New England's Hidden Histories.</part>
+      </subject>
+      <subject identifier="sh2008111551" source="lcsh">
+        <part>Sermons, American -- Early works to 1800.</part>
+      </subject>
+      <corpname identifier="n90725333" source="lcnaf">
+        <part>Tyringham (Mass.) -- Church history.</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_42cb14532f07938dbba1f0d28fe39fce" level="file">
+        <did>
+          <unittitle>Sermons</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>2</quantity>
+            <unittype>Items</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" certainty="approximate" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1754">1754</fromdate>
+              <todate standarddate="1768">1768</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" certainty="approximate" unitdatetype="inclusive">circa
+            1754-1781</unitdate>
+          <container id="aspace_92c909db15bdc2d3a6140da7e86e0027" label="Mixed Materials"
+            localtype="box">NEHH-Small 1</container>
+          <container id="aspace_5600d6c667eba76e086e2bf7a3276568" localtype="folder"
+            parent="aspace_92c909db15bdc2d3a6140da7e86e0027">25</container>
+        </did>
+        <altformavail id="aspace_84e867b0f3fcd4f75b215f885285a54b">
+          <head>Digital Copies</head>
+          <p>These sermon booklets were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions of the <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/BidwellAdonijah/viewer/Sermon20Notes2C20c17541769/1"
+              linktitle="first showermon booklet" show="new">first sermon booklet</ref> and the <ref
+              actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/BidwellAdonijah/viewer/Sermon20Notes2C20c17571781/1"
+              linktitle="second showermon booklet" show="new">second sermon booklet</ref> are
+            available to view online.</p>
+        </altformavail>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
