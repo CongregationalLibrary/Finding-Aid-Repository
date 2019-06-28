@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/AveryDavid-4869.xml"
+      >AveryDavid-4869</recordid>
+    <representation localtype="pdf"
+      href="http://www.congregationallibrary.org/sites/all/files/AveryDavid-4869.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>David Avery papers, 1794.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2019-06-25</date>
+        <num>MS4869</num>
+      </publicationstmt>
+      <seriesstmt>
+        <p>This collection is part of New England's Hidden Histories. Digital historical
+          representations of the collection can be viewed online.</p>
+      </seriesstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS2 - 2013</abbr>
+      <citation>Describing Archives: A Content Standard, Second Edition</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2019-06-25T19:49:41+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Tuesday June 25, 2019
+          at 19:49</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>David Avery papers, 1794.</unittitle>
+      <unitid>MS4869</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>1</quantity>
+        <unittype>Volume</unittype>
+      </physdescstructured>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <datesingle standarddate="1794">1794</datesingle>
+      </unitdatestructured>
+      <abstract id="aspace_926f61f51812f03517244a0768dfdcee">Rev. David Avery was born in Franklin,
+        Connecticut, in 1746. He graduated from Yale in 1769, studied theology at Dartmouth College,
+        and was ordained as a missionary to the Native Americans in 1771. In 1783 he became the
+        minister of the First Church in Wrentham. Due to theological differences over church
+        discipline, he was dismissed in 1794. He died in 1817. This collection contains a manuscript
+        volume prepared by Rev. David Avery about the strife that had grown between Avery and his
+        congregation.</abstract>
+      <origination label="creator">
+        <persname identifier="n83179219" source="lcnaf">
+          <part>Avery, David, 1746-1818</part>
+        </persname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_edd278c3db163f1093b28bbb70984182">
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_c9580da348ec30d0c529d757d4f1a57b">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+      <p>Digital Reproductions are protected by copyright and/or related rights. You are free to use
+        the Digital Reproductions in any way that is permitted by the copyright and related rights
+        legislation that applies to your use. In addition, no permission is required from the
+        Congregational Library &amp; Archives for educational uses. For other uses, you need to
+        obtain permission from the Congregational Library &amp; Archives. For additional information
+        regarding copyright, please consult the Congregational Library &amp; Archives' <ref
+          actuate="onrequest" href="http://www.congregationallibrary.org/about/digital-copyright"
+          linktitle="Digital Collections Copyright &amp; Use" show="new">Digital Collections
+          Copyright &amp; Use</ref> policy.</p>
+    </userestrict>
+    <prefercite id="aspace_33dca4ba5ab6a6a1124b8baae3959c30">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the David Avery papers, 1794, MS4869. The Congregational
+        Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_f7db5c39b1cc00373801f2fbd2b87206">
+      <head>Acquisition Information</head>
+      <p>Deposited by Lyman E. Ware on November 30, 1917, to the Congregational Library &amp;
+        Archives; no accession number.</p>
+    </acqinfo>
+    <accruals id="aspace_d67771727f21c82f275ba30c7ac357a3">
+      <head>Accruals</head>
+      <p>Additional accruals are expected for this collection in the form of full-text
+        transcription. There is no anticipated date for this accrual.</p>
+    </accruals>
+    <processinfo id="aspace_bf9d129972004b63a8361933e96da546">
+      <head>Processing Information</head>
+      <p>Processed by Zachary Bodnar, June 2019, using DACS Second Edition.</p>
+    </processinfo>
+    <bioghist id="aspace_70691704aa42196aea93477bae824b72">
+      <head>Biographical Note</head>
+      <p>Rev. David Avery (1746-1817) was born in Franklin, Connecticut. He graduated from Yale in
+        1769, studied theology at Dartmouth College, and was ordained as a missionary to the Native
+        Americans in 1771. After serving as an army chaplain during the Revolutionary War, he was
+        installed as the pastor in Bennington, Vermont in 1780. He moved to Wrentham, Massachusetts
+        in 1783 to replace the minister of the First Church in Wrentham, who had died in office.
+        While at Wrentham, Rev. Avery had an increasing number of difficulties with his
+        parishioners, largely over his strict adherence to disciplinary rules, and he was eventually
+        dismissed from his service in Wrentham in 1794. From there he moved back to Connecticut and
+        served the church in Union for a few years before resuming his missionary work. He died of
+        typhus fever at age 71.</p>
+    </bioghist>
+    <scopecontent id="aspace_7eea2700e0568761a7350c570b0b4e4c">
+      <head>Scope and Contents</head>
+      <p>This collection contains a manuscript volume prepared by Rev. David Avery, and sent to
+        David Howell, Esq. "for his judgment &amp; advice," about the strife that had grown between
+        Avery and his congregation. The base of the disagreement was how matters of church
+        discipline should be addressed; While Avery adhered strictly to the procedure set out in the
+        book of Matthew, a group of members wanted a more flexible system. In this manuscript, Avery
+        details a series of conversations and interventions that the led to his eventual break with
+        the church.</p>
+    </scopecontent>
+    <phystech id="aspace_28b1b60a80e97a9166fccc5d30b300f6">
+      <head>Technical Requirements</head>
+      <p>To access digital user's copies via online-interface, a java-enabled web browser is
+        required. Internet Explorer 8.x and later, Firefox 5.x and later, Opera 12 and later, Safari
+        5.x and later, or any version of Google Chrome are recommended.</p>
+    </phystech>
+    <controlaccess>
+      <subject identifier="sh85025597" source="lcsh">
+        <part>Church discipline.</part>
+      </subject>
+      <subject source="local">
+        <part>New England's Hidden Histories.</part>
+      </subject>
+      <corpname identifier="no2014028031" source="lcnaf">
+        <part>Original Congregational Church (Wrentham, Mass.)</part>
+      </corpname>
+      <corpname identifier="n92096455" source="lcnaf">
+        <part>Wrentham (Mass.) -- Church history.</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_a0b8defee4fd9b062ed95fba0d414625" level="item">
+        <did>
+          <unittitle>The Case of the Pastor in Wrentham</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1794">1794</datesingle>
+          </unitdatestructured>
+          <container id="aspace_1a10efd063fcef2d1b073f3b80a9768c" label="Mixed Materials"
+            localtype="box">NEHH-Small 1</container>
+          <container id="aspace_3dbbae592d05d1c87471c614c7a07b59" localtype="folder"
+            parent="aspace_1a10efd063fcef2d1b073f3b80a9768c">22</container>
+        </did>
+        <altformavail id="aspace_a21e7c6a2d91f002f7be4100640d3700">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/AveryDavid/viewer/Manuscript2C201794/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

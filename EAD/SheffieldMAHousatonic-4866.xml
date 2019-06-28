@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/SheffieldMAHousatonic-4866.xml"
+      >SheffieldMAHousatonic-4866</recordid>
+    <representation localtype="pdf"
+      href="http://www.congregationallibrary.org/sites/all/files/SheffieldMAHousatonic-4866.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Sheffield, Mass. Second North Housatonic Parish of Sheffield covenant and
+          confession of faith, 1743. </titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2019-06-24</date>
+        <num>RG4866</num>
+      </publicationstmt>
+      <seriesstmt>
+        <p>This collection is part of New England's Hidden Histories. Digital historical
+          representations of the collection can be viewed online.</p>
+      </seriesstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS2 - 2013</abbr>
+      <citation>Describing Archives: A Content Standard, Second Edition</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2019-06-24T20:19:21+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Monday June 24, 2019
+          at 20:19</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Sheffield, Mass. Second North Housatonic Parish of Sheffield covenant and
+        confession of faith, 1743.</unittitle>
+      <unitid>RG4866</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>1</quantity>
+        <unittype>Folder</unittype>
+      </physdescstructured>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <datesingle standarddate="1743">1743</datesingle>
+      </unitdatestructured>
+      <abstract id="aspace_def7b26f77cc5758212270d80958c724">In 1743 the Second North Housatonic
+        Parish of Sheffield was gathered with Rev. Samuel Hopkins as the first minister. The first
+        meeting house was completed by 1743. In 1761 the North Parish of Sheffield was incorporated
+        as the town of Great Barrington and the church was renamed to the First Congregational
+        Church of Great Barrington. In 1769 Rev. Hopkins was dismissed after both financial and
+        religious difficulties between him and the parish community. The second meeting house was
+        constructed in 1813 and the third in 1860. In 1882 the church was destroyed by fire and the
+        fourth, and final, meeting house was constructed on the third's foundation. In 1955 the
+        church joined the United Church of Christ. The First Congregational Church continues to
+        serve the Great Barrington community today. This collection contains the original manuscript
+        covenant and confession of faith.</abstract>
+      <origination label="creator">
+        <persname identifier="n85024934" source="lcnaf">
+          <part>Hopkins, Samuel, 1721-1803</part>
+        </persname>
+      </origination>
+      <origination label="creator">
+        <corpname rules="rda" source="local">
+          <part>Second North Housatonic Parish of Sheffield (Sheffield, Mass.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_5fa739f6238adcf2b10fa6f413e96ee9">
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_f3e6f6d979646a535e4250716af529ec">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+      <p>Digital Reproductions are protected by copyright and/or related rights. You are free to use
+        the Digital Reproductions in any way that is permitted by the copyright and related rights
+        legislation that applies to your use. In addition, no permission is required from the
+        Congregational Library &amp; Archives for educational uses. For other uses, you need to
+        obtain permission from the Congregational Library &amp; Archives. For additional information
+        regarding copyright, please consult the Congregational Library &amp; Archives' <ref
+          actuate="onrequest" href="http://www.congregationallibrary.org/about/digital-copyright"
+          linktitle="Digital Collections Copyright &amp; Use" show="new">Digital Collections
+          Copyright &amp; Use</ref> policy.</p>
+    </userestrict>
+    <prefercite id="aspace_8c6de2b63dfd073031b182e279ccc332">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Sheffield, Mass. Second North Housatonic Parish of
+        Sheffield covenant and confession of faith, 1743, RG4866. The Congregational Library &amp;
+        Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_808170c87433b7de9f238608af3271e2">
+      <head>Acquisition Information</head>
+      <p>Gifted to the Congregational Library &amp; Archives, 1960, by the First Congregational
+        Church in Great Barrington, Massachusetts; no accession number.</p>
+    </acqinfo>
+    <accruals id="aspace_5864077bc1aa2e5f968c9ac5368d2244">
+      <head>Accruals</head>
+      <p>Additional accruals are expected for this collection in the form of full-text
+        transcription. There is no anticipated date for this accrual.</p>
+    </accruals>
+    <processinfo id="aspace_e0a1e01bbe990fa24d89526d654b672f">
+      <head>Processing Information</head>
+      <p>Processed by Zachary Bodnar, June 2019, using DACS Second Edition.</p>
+    </processinfo>
+    <bioghist id="aspace_e1aa124fe803b9bb4079042e13db0cfc">
+      <head>Historical Note</head>
+      <p>In 1742 the pioneer inhabitants of the northern part of Sheffield, Massachusetts,
+        petitioned the General Assembly for incorporation. While this request was denied by the
+        General Assembly, the Housatonic Village was recognized as the North Parish of Sheffield.
+        Construction on the first meeting house began in the spring of 1742 and was completed by
+        1743. Samuel Hopkins, a recent graduate of Yale and protégé of Rev. Johnathan Edwards, was
+        called to become the first settled minister for the Housatonic Village. Hopkins evidently
+        had some reservations about the call due to his scholarly nature, but ultimately accepted.
+        He was ordained on December 28, 1743 and the church was officially gathered as the Second
+        North Housatonic Parish of Sheffield; at the time only five others were given full
+        membership into the church. In 1761 the North Parish was incorporated as the town of Great
+        Barrington and the church was renamed to the First Congregational Church of Great
+        Barrington.</p>
+      <p>Rev. Samuel Hopkins' pastorate was largely defined by both financial and religious
+        difficulties. The parish had difficulty meeting Rev. Hopkins' already low salary and it
+        seems that he was often underpaid during the whole of his pastorate. Some of his financial
+        difficulties were exacerbated by his strict theological beliefs and rejection of the
+        Half-Way Covenant which allowed the children of baptized non-members to have their children
+        baptized in the church. The Housatonic Village included a sizable population of settlers
+        with Dutch backgrounds who largely did not agree with strict Congregational polity. Around
+        1760, a number of Dutch inhabitants were confined in public stocks for their failure to
+        attend public worship. At around the same time upwards of 60 children had been refused the
+        rite of baptism since their parents were not full members of the church. These two events
+        caused significant tension between Rev. Hopkins and the parish community. In 1763 an
+        Episcopal church was gathered and its members no longer paid the town tax which supported
+        Rev. Hopkins. By 1769, the parish refused to appropriate funds for Rev. Hopkins' continued
+        ministry and he was subsequently dismissed as the minister by an Ecclesiastical Council.</p>
+      <p>The First Congregational Church did not have another settled minister until May 4, 1787
+        when Rev. Isaac Foster was settled as the second minister of the church. He was dismissed in
+        1790 after the town could not, once again, raise the funds necessary to cover his salary. In
+        1791 the town was legally divided into two religious societies, one Congregational and the
+        other Episcopal; practically, this legislative change simply formalized the system of ones
+        taxes only going to support the minister at the church they belonged to. The church again
+        remained without a settled minister until September 24, 1806, when Elijah Wheeler was
+        ordained; at the time there were only 21 church members.</p>
+      <p>Rev. Wheeler did much to expand church membership during his tenure, even at times going
+        against Congregational precepts to welcome new members, especially the infirm. He also
+        oversaw the construction of the second meeting house; the first meeting house was apparently
+        in serious neglect by the time he was installed as the minister. On December 28, 1813 the
+        second meeting house, designed by Captain John Ford, was dedicated. Rev. Wheeler served
+        until 1823 when he was replaced by Rev. Sylvester Burt on account of Wheeler's declining
+        health. In 1826 the church joined the Massachusetts Sunday School Union and appropriated
+        funds to create a Sabbath School library. The church also participated in a number of other
+        social initiatives during the first half of the nineteenth-century such as providing
+        financial support to the American Board of Foreign Missions and passing a temperance
+        resolution in 1840.</p>
+      <p>In 1859 construction on the third meetinghouse was begun with the removal of the second
+        meetinghouse's steeple to be reused in the new building. The third meeting house, which was
+        Romanesque in design, was completed in 1860. In 1879 a chapel was adjoined to the church
+        building. Both were destroyed to a fire on March 4, 1882. The lower walls and foundation of
+        the third meeting house were reused in the construction of the fourth, and final, meeting
+        house. This structure, designed by William C. Brocklesby, was entered into the National
+        Register of Historic Places in 1992.</p>
+      <p>In 1955 the First Congregational Church of Great Barrington joined the United Church of
+        Christ. The church remains active today and continues to serve the Great Barrington
+        community.</p>
+    </bioghist>
+    <scopecontent id="aspace_83fb3fd5d3b555a472c26ed008f0c25d">
+      <head>Scope and Contents</head>
+      <p>This collection contains the original manuscript covenant and confession of faith for the
+        Second North Housatonic Parish of Sheffield. Both are written and signed by Samuel
+        Hopkins.</p>
+    </scopecontent>
+    <phystech id="aspace_b31b57161b95994f045bc13fcadd7bb8">
+      <head>Technical Requirements</head>
+      <p>To access digital user's copies via online-interface, a java-enabled web browser is
+        required. Internet Explorer 8.x and later, Firefox 5.x and later, Opera 12 and later, Safari
+        5.x and later, or any version of Google Chrome are recommended.</p>
+    </phystech>
+    <bibliography id="aspace_cfa9812ab2818969fe6ae5754e68f665">
+      <head>Bibliography</head>
+      <p>Conn, Howard J. <emph render="italic">The First Congregational Church of Great Barrington
+          1743-1943: A History</emph>. Great Barrington: The Anniversary Year Committee, 1943.
+        17.11.1 G79.73 FirCC FC 1943c.1</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject source="local">
+        <part>New England's Hidden Histories.</part>
+      </subject>
+      <corpname identifier="no2016039445" source="lcnaf">
+        <part>First Congregational Church (Great Barrington, Mass.)</part>
+      </corpname>
+      <corpname identifier="n82017881" source="lcnaf">
+        <part>Great Barrington (Mass.) -- Church history.</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>Second North Housatonic Parish of Sheffield (Sheffield, Mass.)</part>
+      </corpname>
+      <corpname identifier="n91055096" source="lcnaf">
+        <part>Sheffield (Mass.) -- Church history.</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_6bb1a09e5321d5bc6b2df66b7805eb59" level="file">
+        <did>
+          <unittitle>Covenant and confession of faith</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1743">1743</datesingle>
+          </unitdatestructured>
+          <container id="aspace_25f578da196cc3a557cb80986192aa26" label="Mixed Materials"
+            localtype="box">NEHH-Small 1</container>
+          <container id="aspace_7d5cea5c6586f534c84898392144ccba" localtype="folder"
+            parent="aspace_25f578da196cc3a557cb80986192aa26">21</container>
+        </did>
+        <altformavail id="aspace_a70b097b1ea7ff263ddd7fc1e3402cc3">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Sheffield/viewer/ChurchCovenant1743/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
