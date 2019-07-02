@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/IpswichMAFirst-5288.xml"
+      >IpswichMAFirst-5288</recordid>
+    <representation localtype="pdf"
+      href="http://www.congregationallibrary.org/sites/all/files/IpswichMAFirst-5288.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Ipswich, Mass. First Church records, 1724-1898. </titleproper>
+        <author>Zachary Bodnar, Marya Shotkoski</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2019-07-02</date>
+        <num>RG5288</num>
+      </publicationstmt>
+      <seriesstmt>
+        <p>Portions of this collection are part of New England's Hidden Histories. Digital
+          historical representations of these portions of the collection can be viewed online.</p>
+      </seriesstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English </language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS2 - 2013</abbr>
+      <citation>Describing Archives: A Content Standard, Second Edition</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2019-07-02T19:48:02+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Tuesday July 2, 2019
+          at 19:48</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Ipswich, Mass. First Church records, 1724-1898.</unittitle>
+      <unitid>RG5288</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>7</quantity>
+        <unittype>Files</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(4 folders, 3 volumes)</physdesc>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1724">1724</fromdate>
+          <todate standarddate="1898">1898</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" unitdatetype="inclusive">1724-1898</unitdate>
+      <abstract id="aspace_769d6546b34a5468a2ba4d45622fa320">Ipswich, Massachusetts, first known as
+          <emph render="italic">Agawam</emph>, was settled by John Winthrop in 1633 and was
+        incorporated the following year. The First Church in Ipswich was gathered on August 5, 1634,
+        and the first meeting house was constructed the same year. Construction on the second
+        meeting house was completed in 1647. In 1699 the third meeting house of the First Church was
+        built on the north green. Members left to form new churches in 1681, 1714, 1747, and 1749.
+        In 1749 the fourth meeting house was constructed. David T. Kimball was ordained as the
+        fourteenth minister of the First Church in Ipswich on October 3, 1806. Construction on the
+        fifth meeting house was completed by 1847. The South Church in Ipswich voted to reunite with
+        the First Church in Ipswich in 1922. In 1965 the fifth meeting house was destroyed by a fire
+        and the sixth meeting house was completed in 1971. Now a member of the United Church of
+        Christ, the First Church in Ipswich continues to serve the local community today. This
+        collection contains the early church and parish records of the First Church in Ipswich and
+        includes meeting minutes, financial records, and vital membership records. This collection
+        also contains records and correspondence kept by Rev. David T. Kimball.</abstract>
+      <origination label="creator">
+        <corpname identifier="no2014085949" source="lcnaf">
+          <part>First Church (Ipswich, Mass.)</part>
+        </corpname>
+      </origination>
+      <origination label="creator">
+        <persname identifier="n85818236" source="lcnaf">
+          <part>Kimball, David T. (David Tenney), 1782-1860</part>
+        </persname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_232cd2318814301ebbf0e3f2215cd7a4">
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_fdde7f5cc8ac6c14ad0eda144af3dcbb">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+      <p>Digital Reproductions are protected by copyright and/or related rights. You are free to use
+        the Digital Reproductions in any way that is permitted by the copyright and related rights
+        legislation that applies to your use. In addition, no permission is required from the
+        Congregational Library &amp; Archives for educational uses. For other uses, you need to
+        obtain permission from the Congregational Library &amp; Archives. For additional information
+        regarding copyright, please consult the Congregational Library &amp; Archives' <ref
+          actuate="onrequest" href="http://www.congregationallibrary.org/about/digital-copyright"
+          linktitle="Digital Collections Copyright &amp; Use" show="new">Digital Collections
+          Copyright &amp; Use</ref> policy.</p>
+    </userestrict>
+    <prefercite id="aspace_8b2f4e40833354cfa5444dbc66fdb14c">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Ipswich, Mass. First Church records, 1724-1898. RG5288.
+        The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_1568d7030ec748e7fdde480815e72113">
+      <head>Acquisition Information</head>
+      <p>The David T. Kimball papers were donated to the Congregational Library &amp; Archives,
+        October 2014, by Michael Moran; accession 2014-79. Originally given identifier RG5232.</p>
+      <p>The record books were temporarily loaned to the Congregational Library &amp; Archives,
+        2015, by the First Church in Ipswich, Massachusetts, UCC; accession 2015-19.</p>
+    </acqinfo>
+    <originalsloc id="aspace_cf1111c9b97677094df49e8f97604e3f">
+      <head>Location of Originals</head>
+      <p>The physical record books are currently held by the First Church in Ipswich, Massachusetts,
+        UCC.</p>
+    </originalsloc>
+    <accruals id="aspace_71ec0c17ea3df59a43409953aed625f3">
+      <head>Accruals</head>
+      <p>Additional accruals are expected for this collection in the form of full-text
+        transcription. There is no anticipated date for this accrual.</p>
+    </accruals>
+    <processinfo id="aspace_83e4ba28342d6280e5ed8199a04c7885">
+      <head>Processing Information</head>
+      <p>Processed by Marya Shotkoski, October 2015, using DACS Second Edition. Additional
+        processing and finding aid work by Zachary Bodnar, November 2017. Merged with Ipswich, Mass.
+        First Church records, 1808-1863, RG5232, and redescribed by Zachary Bodnar, July 2019, using
+        DACS Second Edition.</p>
+    </processinfo>
+    <bioghist id="aspace_7d18a6ebcf887fc353ad4034ae820525">
+      <head>Historical Note</head>
+      <p>Ipswich, Massachusetts, first known as <emph render="italic">Agawam</emph>, was settled by
+        John Winthrop, and twelve companions, in 1633. The town was incorporated in 1634. The town
+        name, Ipswich, was chosen to honor the merchants of Ipswich, England, who were financial
+        supporters of the Massachusetts Bay Company. The First Church in Ipswich was gathered on
+        August 5, 1634, and the first meeting house was constructed the same year. Newly arrived
+        from England, Nathaniel Ward and Thomas Parker were both settled as the first ministers,
+        though Rev. Parker was dismissed after a year in Ipswich to become the pastor in Newbury. In
+        1646 the first meeting house was sold and construction on the second meeting house was
+        completed in 1647. 1681 a group of parishioners left to form the Second Church in Ipswich,
+        also known as the Chebacco Parish, which is now the Congregational Church of Essex.</p>
+      <p>In 1699 the third meeting house of the First Church was built on the north green. In 1702,
+        a clock was added to the building; this construction was partially funded by the public sale
+        of the stone remains of an old fort. In 1714 a group of parishioners left the church to form
+        the Third Church in Ipswich, now First Congregational Church in Hamilton. In 1747 a group of
+        parishioners left to the South Church in Ipswich after strong disagreements between the two
+        settled pastors, Rev. Nathaniel Rogers and Rev. Walley, spilled into the public. In 1749
+        another group of parishioners left to form the West Farms Parish, now the Linebrook Church.
+        In 1749 the fourth meeting house was constructed to replace the third which was too large
+        for the parish following the 1747 and 1749 dismissals. A gilded weathercock was placed atop
+        the spire of the fourth meeting house. In 1762 a tower clock was purchased and installed
+        into the building. In 1773 the First and South Parishes jointly purchased a burial ground on
+        the south side of town</p>
+      <p>David T. Kimball was ordained as the fourteenth minister of the First Church in Ipswich on
+        October 3, 1806. He had graduated from Harvard in 1803 and studied theology under Rev.
+        French in Andover following a year as an instructor at the Phillips' Academy. In 1816, Rev.
+        Kimball helped to establish the first Sabbath School of the First Church. He served as the
+        minister until he died of pneumonia on February 3, 1860. Construction on the fifth meeting
+        house began in 1846 and the new building was dedicated in 1847. The building was one of only
+        a few gothic churches constructed out of wood. The weathercock and tower clock of the fourth
+        meeting house were incorporated into the fifth.</p>
+      <p>After years of declining membership, the South Church voted to reunite with the First
+        Church in Ipswich in 1922. Following the merger the new church organization was called the
+        First and South Congregational Church. Members from the Linebrook Church rejoined the First
+        and South Congregational Church in 1958, though the Linebrook Church continues to exist
+        today as an independent church. In 1965 the fifth meeting house was struck by lightning and
+        was destroyed in the ensuing fire. The tower clock, thought to be the oldest in-use tower
+        clock in the United States in 1965, was destroyed, but the weathercock survived.
+        Construction on the sixth meeting house was begun in 1970 and completed in 1971; the weather
+        clock was once again incorporated into the new building. At some point between 1961 and 1984
+        the First and South Congregational Church reverted to its original name, First Church in
+        Ipswich. Now a member of the United Church of Christ, the First Church in Ipswich continues
+        to serve the local community today.</p>
+    </bioghist>
+    <scopecontent id="aspace_31fbe7593d3edcbe32fe6d2c692a4f29">
+      <head>Scope and Contents</head>
+      <p>This collection contains the church and parish records of the First Church in Ipswich. The
+        collection documents the history and parish life of the church through meeting minutes,
+        reports, financial documents, and vital statistics. In addition, topics such as ministry
+        work, pew rights, land discussions, hymns in church, and lists of the sacraments that
+        occurred at the different parishes are included within the records. The vital records
+        include birth and baptismal records, marriage records, and death records. The collection
+        also contains records kept by Rev. David T. Kimball. His papers include both church and
+        personal correspondence, manuscript sermons, personal writings, church records, and
+        committee reports.</p>
+    </scopecontent>
+    <arrangement id="aspace_c021d0786a873135bf5068abfb6c28d4">
+      <head>Arrangement</head>
+      <p>This collection is arranged chronologically by start date.</p>
+    </arrangement>
+    <phystech id="aspace_ecb558fcd678cb1ac5832747ba49a6e4">
+      <head>Technical Requirements</head>
+      <p>To access digital user's copies via online-interface a java-enabled web browser is
+        required. Internet Explorer 8.x and later, Firefox 5.x and alter, Opera 12 and later, Safari
+        5.x and later, or any version of Google Chrome are recommended.</p>
+    </phystech>
+    <relatedmaterial id="aspace_15065bcd2a7deb76742ee1407ba87e4f">
+      <head>Related Materials</head>
+      <p>The Congregational Library &amp; Archives has digitized materials from the South Church in
+        Ipswich and made <ref actuate="onrequest"
+          href="http://www.congregationallibrary.org/nehh/series1/IpswichMASouth5298"
+          linktitle="them available to view online" show="new">them available to view
+        online</ref>.</p>
+    </relatedmaterial>
+    <bibliography id="aspace_e4ece15c8098d89b0421e28f481b53e9">
+      <head>Bibliography</head>
+      <p><emph render="italic">In Gratitude to Almighty God for Three hundred and Fifty Years of
+          Service and Witness</emph>. Ipswich: 1984. 17.11.1 I68.7 FirC</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Church correspondence.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85066724" source="lcsh">
+        <part>Installation (clergy).</part>
+      </subject>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <subject identifier="sh85088919" source="lcsh">
+        <part>Music in churches.</part>
+      </subject>
+      <subject identifier="sh85090572" source="lcsh">
+        <part>Necrologies.</part>
+      </subject>
+      <subject source="local">
+        <part>New England's Hidden Histories.</part>
+      </subject>
+      <subject identifier="sh85100506" source="lcsh">
+        <part>Pews and pew rights.</part>
+      </subject>
+      <corpname identifier="no2014085949" source="lcnaf">
+        <part>First Church (Ipswich, Mass.)</part>
+      </corpname>
+      <corpname identifier="n82058914" source="lcnaf">
+        <part>Ipswich (Mass.) -- Church history.</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_f824c420dc88030687db2bd1f5e314c2" level="item">
+        <did>
+          <unittitle>Parish and town records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1724">1724</fromdate>
+              <todate standarddate="1756">1756</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1724-1756</unitdate>
+        </did>
+        <altformavail id="aspace_b93635c1e5d7999b7cfa7bd2591f4f99">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/IpswichFirst/viewer/Parish20records2C2017241756/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_fada3d64ec1f97bebc622d14832b58d0">
+          <head>Scope and Contents</head>
+          <p>This volume contains the minutes of the First Parish dating from 1724 to 1755, and also
+            contains the minutes of Ipswich town meetings. The minutes document church and town
+            happenings and record the votes that took place. The volume chronicles the history and
+            development of the town and First Parish of Ipswich. The topics covered include
+            salaries, ministry work and assistance, discussions of building a meeting house on the
+            South side of the river and its development, and the governance of the parish. The
+            volume includes a list of members divided by geographical locations.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_1496b6210f02d8b2182840fbf4f4f567" level="item">
+        <did>
+          <unittitle>Church record book</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1709">1709</fromdate>
+              <todate standarddate="1805">1805</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1739-1806</unitdate>
+        </did>
+        <altformavail id="aspace_fe7931a473b0501256a3489ad0d1284b">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/IpswichFirst/viewer/Church20records2C2017391806/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_d7c2d2018f4a7dea340c7920587df2f8">
+          <head>Scope and Contents</head>
+          <p>This volume largely contains lists of vital statistics including the birth, baptismal,
+            marriage, admission, dismission, and death records of the church from 1739 to 1806. The
+            volume also contains hand copied excerpts from other sources pertaining to the founding
+            and history of the church.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_daef64a36678ceea67cbaa5b43b3484a" level="item">
+        <did>
+          <unittitle>Parish record book</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1757">1757</fromdate>
+              <todate standarddate="1830">1830</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1757-1830</unitdate>
+        </did>
+        <altformavail id="aspace_6e2497dcff76f7da24b906ad5b0b22e1">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/IpswichFirst/viewer/Parish20records2C2017571830/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_8200dd70b5278cad0294a01b5aba9c58">
+          <head>Scope and Contents</head>
+          <p>This volume contains the warrants and meeting summaries of the First Parish in Ipswich
+            from 1757 to 1830. The meeting summaries cover both the development and governance of
+            the First Parish and of the town of Ipswich. Principal topics include payments to
+            pastors, records of votes, the burial grounds of the parish, and the role of song in
+            church service. Other topics include the pew allocations, including a diagram, division
+            of land, and the digging of graves.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_407b495bc7342bcf356232aee09b6e4a" level="file">
+        <did>
+          <unittitle>Church and committee records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1807">1807</fromdate>
+              <todate standarddate="1856">1856</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1807-1856, undated</unitdate>
+          <container id="aspace_972e7f83c9631fbdda8693558132a2b9" label="Mixed Materials"
+            localtype="box">NEHH-Small 1</container>
+          <container id="aspace_cbf5af8bbd8b701fdea0f75cd2e74bdb" localtype="folder"
+            parent="aspace_972e7f83c9631fbdda8693558132a2b9">26</container>
+        </did>
+      </c01>
+      <c01 id="aspace_d4e86fb7bdaf4de1bae60712064eb808" level="file">
+        <did>
+          <unittitle>Kimball's church correspondence</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1813">1813</fromdate>
+              <todate standarddate="1898">1898</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1813-1898, undated</unitdate>
+          <container id="aspace_c3187fbc391ad7dcfa80602197599719" label="Mixed Materials"
+            localtype="box">NEHH-Small 1</container>
+          <container id="aspace_2e111a3f82e12d2a345688778b1a5098" localtype="folder"
+            parent="aspace_c3187fbc391ad7dcfa80602197599719">27</container>
+        </did>
+      </c01>
+      <c01 id="aspace_acb863f9346a02724d8b8911a0eb6ab7" level="file">
+        <did>
+          <unittitle>Kimball's personal correspondence</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1829">1829</fromdate>
+              <todate standarddate="1863">1863</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1829-1863, undated</unitdate>
+          <container id="aspace_b5a38c723008cf632eabae5a18ef26ae" label="Mixed Materials"
+            localtype="box">NEHH-Small 1</container>
+          <container id="aspace_5415ee9151e1d195817bf88b4ea095ed" localtype="folder"
+            parent="aspace_b5a38c723008cf632eabae5a18ef26ae">28</container>
+        </did>
+      </c01>
+      <c01 id="aspace_81a8e51056a251dbc8e554a1ab5427bd" level="file">
+        <did>
+          <unittitle>Kimball's papers and sermons</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1850">1850, undated</datesingle>
+          </unitdatestructured>
+          <container id="aspace_be14fc58769862aba5bdcf7b85ba9acf" label="Mixed Materials"
+            localtype="box">NEHH-Small 1</container>
+          <container id="aspace_49766b7605f05cddf267767cc3b3e662" localtype="folder"
+            parent="aspace_be14fc58769862aba5bdcf7b85ba9acf">29</container>
+        </did>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
