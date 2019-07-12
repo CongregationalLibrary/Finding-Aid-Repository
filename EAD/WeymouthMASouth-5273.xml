@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/WeymouthMASouth-5273.xml"
+      >WeymouthMASouth-5273</recordid>
+    <representation localtype="pdf"
+      href="http://www.congregationallibrary.org/sites/all/files/WeymouthMASouth-5273.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Weymouth, Mass. Old South Church records, 1723-1905. </titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2018-09-05</date>
+        <num>RG5273</num>
+      </publicationstmt>
+      <seriesstmt>
+        <p>This collection is part of New England's Hidden Histories. Digital historical
+          representations of the collection can be viewed online.</p>
+      </seriesstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS2 - 2013</abbr>
+      <citation>Describing Archives: A Content Standard, Second Edition</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2019-07-12T20:25:17+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Friday July 12, 2019
+          at 20:25</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Weymouth, Mass. Old South Church records, 1723-1905.</unittitle>
+      <unitid>RG5273</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>0.72</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(3 boxes)</physdesc>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1723">1723</fromdate>
+          <todate standarddate="1905">1905</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" unitdatetype="inclusive">1723-1905</unitdate>
+      <abstract id="aspace_2f4f1de0d31b04717c47acb5f6022009">The Second Church in Weymouth, also
+        known as the South Church, was gathered in 1723 with James Bayley ordained as the first
+        minister. The first meeting house was constructed in 1722 and the second in 1785. The
+        ordination of a Universalist minister in 1834 resulted in a rift in the church membership
+        with the orthodox members eventually forming the Union Church in 1842. The third meeting
+        house was constructed in 1854. In 1892 the Second Church was incorporated as the Old South
+        Church in Weymouth. In 1918, the Old South Church and Union Church merged to form the Old
+        South Union Church. This collection includes meeting minutes, committee reports, vital
+        records, financial records, and ministerial records.</abstract>
+      <origination label="creator">
+        <corpname rules="rda" source="local">
+          <part>Old South Union Church (Weymouth, Mass.)</part>
+        </corpname>
+      </origination>
+      <origination label="creator">
+        <corpname rules="rda" source="lcnaf">
+          <part>Second Church (Weymouth, Mass.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_bab05a99e9c78cf461144747e492c10d">
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_516ccc8625190ef9eee3210861e4341f">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+      <p>Digital Reproductions are protected by copyright and/or related rights. You are free to use
+        the Digital Reproductions in any way that is permitted by the copyright and related rights
+        legislation that applies to your use. In addition, no permission is required from the
+        Congregational Library &amp; Archives for educational uses. For other uses, you need to
+        obtain permission from the Congregational Library &amp; Archives. For additional information
+        regarding copyright, please consult the Congregational Library &amp; Archives' <ref
+          actuate="onrequest" href="http://www.congregationallibrary.org/about/digital-copyright"
+          linktitle="Digital Collections Copyright &amp; Use" show="new">Digital Collections
+          Copyright &amp; Use</ref> policy.</p>
+    </userestrict>
+    <prefercite id="aspace_0df10c67f392c4c87ff5b036a758b0bc">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Weymouth, Mass. Old South Church records, 1723-1905,
+        RG5273. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_467dfa1a9ec04095c84b379c1d616fab">
+      <head>Acquisition Information</head>
+      <p>Permananetly loaned to the Congregational Library &amp; Archives, 2014 and 2015, by the Old
+        South Union Church in Weymouth; recieved in two batches: accessions 2014-120 and 2015-2.</p>
+    </acqinfo>
+    <accruals id="aspace_577b2cd695b3c9b44a66ea9c6bc67718">
+      <head>Accruals</head>
+      <p>Additional accruals are expected for this collection in the form of full-text
+        transcription. There is no anticipated date for this accrual.</p>
+    </accruals>
+    <custodhist id="aspace_993b3f2f96abd32b458068dde0dd72b0">
+      <head>Custodial History</head>
+      <p>The Church records, 1723-1818, the Parish records, 1723-1811, and the Parish records,
+        1812-1868 were rebound and repaired by the Northeast Document Conservation Center in
+        1977.</p>
+    </custodhist>
+    <processinfo id="aspace_fcbe9f87dfbc7e0a9605ba4e23272520">
+      <head>Processing Information</head>
+      <p>Processed by Zachary Bodnar, September 2018, using DACS Second Edition.</p>
+    </processinfo>
+    <bioghist id="aspace_64dcd5a23aaf9d8876efacc257f83b91">
+      <head>Historical Note</head>
+      <p>With the resignation of Rev. Peter Thatcher, pastor of the First Church in Weymouth, in
+        1718, the residents of South Weymouth decided to create a new church closer to their
+        community as the travel to North Weymouth was difficult to impossible depending on the
+        season. In 1722, the South Weymouth community built the first meeting house and in 1723 the
+        Second Church, also known as the South Church, was gathered following a successful petition
+        to the General Court of Massachusetts. Reverend James Bayley was ordained as the first
+        minister of the Second Church. The second meeting house was constructed in 1785 and in 1788
+        a silver bell for the church was procured and placed in the belfry. In 1819, a Sunday school
+        was organized in part by the efforts of Rev. William Tyler.</p>
+      <p>Following the dismissal of Rev. Charles Warren in 1834, a parish committee was formed to
+        search for a new minister. This committee chose Rev. Sylvanus Cobb, a Universalist minister,
+        and the result was an almost immediate split in the church, with the orthodox majority
+        leaving. In 1838, Rev. Wales Lewis was ordained as a compromise minister; however there was
+        no major reconciliation between the two parts of the parish. In 1842 the orthodox members
+        formed as the Union Church, making the split permanent.</p>
+      <p>In 1854 the third and final meeting house was constructed. A Holbrook organ was installed
+        into the church in 1858. This was later replaced by a Hastings organ in 1903. In 1865, as
+        the story goes, the silver bell cracked while being tolled for the death of Abraham Lincoln.
+        The ball was recast as a new bell shortly there-after. Between 1871 and 1872, the Union
+        Church built a new church building almost directly across the street from the Second Church.
+        In 1873 a vestry was added to the church building. On May 2, 1892, the Second Church was
+        incorporated as the Old South Church of Weymouth.</p>
+      <p>After years of efforts from members of both churches, the Old South Church and Union Church
+        merged and became the Old South Union Church on November 18, 1918. The Union Church building
+        became the Parish House. The building was torn down in 1963 and the space converted into a
+        parking lot. In 1948, the Old South Union Church voted to become a member of the United
+        Church of Christ, and has remained a part of that denomination since. In 1957, the third
+        meeting house underwent extensive renovations which greatly expanded the space available
+        within the church. The church building was rededicated in 1963.</p>
+      <p>The Old South Union Church in Weymouth continues to serve the South Weymouth community
+        today.</p>
+    </bioghist>
+    <scopecontent id="aspace_6a1f192c68051378e3509d923cd81798">
+      <head>Scope and Contents</head>
+      <p>The records within this collection document the administrative history of the church and
+        the vital records of its members. This collection includes meeting minutes, committee
+        reports, baptismal records, marriage records, membership lists, financial records, and
+        ministerial records.</p>
+    </scopecontent>
+    <arrangement id="aspace_02f1bd1bfb57dc10225155ad6cd0b15e">
+      <head>Arrangement</head>
+      <p>This collection has been arranged by topic, first, and then by chronological order by the
+        first date.</p>
+    </arrangement>
+    <phystech id="aspace_a28e96924141b70458d7dc93e4d27311">
+      <head>Technical Requirements</head>
+      <p>To access digital user's copies via online-interface, a java-enabled web browser is
+        required. Internet Explorer 8.x and later, Firefox 5.x and later, Opera 12 and later, Safari
+        5.x and later, or any version of Google Chrome are recommended.</p>
+    </phystech>
+    <bibliography id="aspace_d970178bde06b2c646bf89e058729e2f">
+      <head>Bibliography</head>
+      <p><emph render="italic">Old South Union Congregational Church: 1723-1948</emph>. Old South
+        Union Church: Weymouth, 1948. 17.11.1 W54.78 OldSUC</p>
+      <p>Robinson, Myrtle E. &amp; Kevitt, Chester B. Ed. <emph render="italic">Two-Hundred-Fiftieth
+          Anniversary: Old South Union Church</emph>. Old South Union Church: Weymouth, 1973.
+        17.11.1 W54.78 OldSUC</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025597" source="lcsh">
+        <part>Church discipline.</part>
+      </subject>
+      <subject identifier="sh85025606" source="lcsh">
+        <part>Church finance.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Church records and registers -- Massachusetts -- Waymouth.</part>
+      </subject>
+      <subject identifier="sh85036023" source="lcsh">
+        <part>Deacons -- Congregational churches.</part>
+      </subject>
+      <subject identifier="sh85066724" source="lcsh">
+        <part>Installation (clergy).</part>
+      </subject>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <subject source="local">
+        <part>New England's Hidden Histories.</part>
+      </subject>
+      <subject identifier="sh85095385" source="lcsh">
+        <part>Ordination.</part>
+      </subject>
+      <subject identifier="sh85100506" source="lcsh">
+        <part>Pews and pew rights.</part>
+      </subject>
+      <corpname rules="rda" source="local">
+        <part>Old South Church (Weymouth, Mass.)</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>Old South Union Church (Weymouth, Mass.)</part>
+      </corpname>
+      <corpname rules="rda" source="lcnaf">
+        <part>Second Church (Weymouth, Mass.)</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>Union Church (Weymouth, Mass.)</part>
+      </corpname>
+      <corpname identifier="n81022020" source="lcnaf">
+        <part>Weymouth (Mass.) -- Church history.</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_912397f49e241a1832a377c308d0a769" level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1723">1723</fromdate>
+              <todate standarddate="1818">1818</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1723-1818</unitdate>
+          <container id="aspace_583279835559576a5ed211e95a170624" label="Mixed Materials"
+            localtype="box">2</container>
+          <container id="aspace_48033894a9f53fd8c7b5741c6b116082" localtype="volume"
+            parent="aspace_583279835559576a5ed211e95a170624">1</container>
+        </did>
+        <altformavail id="aspace_d933444364d69560e650f7dc47e9db31">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/WeymouthSouth/viewer/Church20records2C2017231818/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_86dec0cfaa6be25a687fa671584878d9">
+          <head>Scope and Contents</head>
+          <p>This volume of church records includes the original covenant and first signers, records
+            of choices for deacon, baptismal records, communion records, marriage records,
+            membership lists, records of dismission, meeting minutes, and records of votes.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_bed43ce6645c4ef457d4a9f9b68cb438" level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1818">1818</fromdate>
+              <todate standarddate="1886">1886</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1818-1886</unitdate>
+          <container id="aspace_c9939e50314297570fd7b3878e76e2fd" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_b32667300efc4b99f9896ec68cbf1161" localtype="volume"
+            parent="aspace_c9939e50314297570fd7b3878e76e2fd">2</container>
+        </did>
+        <altformavail id="aspace_55f17e06cae4a60d0d995d627d70e329">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/WeymouthSouth/viewer/Church20records2C2018181886/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_09a852b63af191f3e4bd36c1a9383221">
+          <head>Scope and Contents</head>
+          <p>This volume of church records includes a membership list from 1819, records of the
+            ordination of Rev. William Tyler, records of admittance and dismission, baptismal
+            records, meeting minutes, records of censure, records relating to the choice of deacons,
+            ordination records, and council minutes.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_ab30bb92a4490d2bdee190e7c0b3ba9b" level="item">
+        <did>
+          <unittitle>Parish records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1723">1723</fromdate>
+              <todate standarddate="1811">1811</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1723-1811</unitdate>
+          <container id="aspace_ff1fd004d455c162ff9424b176b6fa00" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_78f8d9c42a6992592800b47a56d2dcb9" localtype="volume"
+            parent="aspace_ff1fd004d455c162ff9424b176b6fa00">3</container>
+        </did>
+        <altformavail id="aspace_378b8bbca5ff3477ad87f16ae96a3a8f">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/WeymouthSouth/viewer/Parish20records2C2017231811/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_23c49813015e424bb6e03bf3896425c3">
+          <head>Scope and Contents</head>
+          <p>This volume of parish records includes meeting minutes, including records related to
+            ministerial pay, and committee reports.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_1771bb7da8affb1198fb408c7e47cf66" level="item">
+        <did>
+          <unittitle>Parish records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1812">1812</fromdate>
+              <todate standarddate="1868">1868</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1812-1868</unitdate>
+          <container id="aspace_ed54113b6aba24f0d2c9e753c3929007" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_333fdc748c2b82cd847f8fdfe5bba717" localtype="volume"
+            parent="aspace_ed54113b6aba24f0d2c9e753c3929007">4</container>
+        </did>
+        <altformavail id="aspace_3f9c799eecff0eaa3e99aa0465660bde">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/WeymouthSouth/viewer/Parish20records2C2018121868/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_4c395c761d36b46ebf6ac73d35b507b3">
+          <head>Scope and Contents</head>
+          <p>This volume of parish records contains warrants for meetings, meeting minutes,
+            committee reports, including a report of the building committee, pew rental charges and
+            records of pew sales, membership certificates, and membership lists.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_4d639ac2d2ef35891dedac9e3d97350e" level="file">
+        <did>
+          <unittitle>Committee report</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1773">1773</datesingle>
+          </unitdatestructured>
+          <container id="aspace_eed1e38dca62fff2f99bfdd1bed2bbbc" label="Mixed Materials"
+            localtype="box">2</container>
+          <container id="aspace_b213b08046eb034f73d9f76bf1aa7333" localtype="folder"
+            parent="aspace_eed1e38dca62fff2f99bfdd1bed2bbbc">1</container>
+        </did>
+        <altformavail id="aspace_749a68eade346e64062746fd9e958c50">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/WeymouthSouth/viewer/Committee20report2C201773/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_04be954585b3a1de641a06147baa12d9">
+          <head>Scope and Contents</head>
+          <p>This is a report of a committee regarding the building of a school house.</p>
+        </scopecontent>
+        <separatedmaterial id="aspace_6189c50b3d7e89a84355b11ab7bf0089">
+          <head>Separated Materials</head>
+          <p>This report was separated from the Parish records, 1723-1811.</p>
+        </separatedmaterial>
+      </c01>
+      <c01 id="aspace_5b35230751040d17726b9f54061c8f83" level="file">
+        <did>
+          <unittitle>Judge's report</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1905">1905</datesingle>
+          </unitdatestructured>
+          <container id="aspace_5daf303aea0c832dbb28286044d43cb9" label="Mixed Materials"
+            localtype="box">2</container>
+          <container id="aspace_a960235d395799edb89f957fb8d55a65" localtype="folder"
+            parent="aspace_5daf303aea0c832dbb28286044d43cb9">2</container>
+        </did>
+        <scopecontent id="aspace_a6caa44455c75824ab65eef9c1da6402">
+          <head>Scope and Contents</head>
+          <p>This report from a judge indicates that the signature of James Beal on a deed was
+            authentic.</p>
+        </scopecontent>
+        <separatedmaterial id="aspace_6b0ec1f8864b548a1b9595d39f5ca989">
+          <head>Separated Materials</head>
+          <p>This report was separated from the Parish records, 1723-1811.</p>
+        </separatedmaterial>
+      </c01>
+      <c01 id="aspace_88807414ae3eb4396a8a68a991d4f7e5" level="file">
+        <did>
+          <unittitle>Minister's history</unittitle>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+          <container id="aspace_f0bb82987eea9ef0f6c71870341ff4f2" label="Mixed Materials"
+            localtype="box">2</container>
+          <container id="aspace_a08549a8de288222f2d60cf63378a34d" localtype="folder"
+            parent="aspace_f0bb82987eea9ef0f6c71870341ff4f2">3</container>
+        </did>
+        <separatedmaterial id="aspace_fc307b99018168f85a5d30a14af4e6d9">
+          <head>Separated Materials</head>
+          <p>This note was removed from the Parish records, 1723-1811.</p>
+        </separatedmaterial>
+      </c01>
+      <c01 id="aspace_f0d8e83b5716aa835a0508f7bf84d799" level="item">
+        <did>
+          <unittitle>Financial records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1774">1774</fromdate>
+              <todate standarddate="1826">1826</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1774-1826</unitdate>
+          <container id="aspace_c82347e0e9bb0e9612cf6ba06e911dd4" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_95202088ea8c5f5a26676e2db2ff936e" localtype="volume"
+            parent="aspace_c82347e0e9bb0e9612cf6ba06e911dd4">1</container>
+        </did>
+        <altformavail id="aspace_1c0aafb0144bf37ef306a794c9072d20">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/WeymouthSouth/viewer/Financial20records2C2017741826/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_6f8cfd6c3657d7d6b92bc6bb5e8c9d79">
+          <head>Scope and Contents</head>
+          <p>This account book contains extensive records on the expenditures and income of the
+            church.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_dc4c59aa9551f2039b4eaf566fbf34da" level="item">
+        <did>
+          <unittitle>Financial records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1826">1826</fromdate>
+              <todate standarddate="1873">1873</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1826-1873</unitdate>
+          <container id="aspace_90f09abd66044e54506d5eb9d67c3884" label="Mixed Materials"
+            localtype="box">3</container>
+        </did>
+        <altformavail id="aspace_baa433e33481c547a4a8e3bb95bdef5c">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/WeymouthSouth/viewer/Financial20records2C2018261873/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_7fe9b811848a145fcfd8c97f5f7cc909">
+          <head>Scope and Contents</head>
+          <p>This account book contains detailed financial records related to the expenditures of
+            the church and its various sources of income. The account book provides great details on
+            who was paid and for what services. The book provides further details related to
+            donations and various subscription drives.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_8f01e17b7fb9fe2a38da96b951293861" level="file">
+        <did>
+          <unittitle>Financial fragment</unittitle>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+          <container id="aspace_1e52797b5b588c0015ad6a07a3e33406" label="Mixed Materials"
+            localtype="box">2</container>
+          <container id="aspace_48c08f6e8512c7e7b5bdd858b5effdec" localtype="folder"
+            parent="aspace_1e52797b5b588c0015ad6a07a3e33406">4</container>
+        </did>
+        <separatedmaterial id="aspace_2bf022f41dabd75429900a9365b7a6d4">
+          <head>Separated Materials</head>
+          <p>This fragment was removed from the Parish records, 1812-1868.</p>
+        </separatedmaterial>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
