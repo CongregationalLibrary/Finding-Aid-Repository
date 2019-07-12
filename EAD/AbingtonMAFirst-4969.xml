@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/AbingtonMAFirst-4969.xml"
+      >AbingtonMAFirst-4969</recordid>
+    <representation localtype="pdf"
+      href="http://www.congregationallibrary.org/sites/all/files/AbingtonMAFirst-4969.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Abington, Mass. First Church records 1714-1949.</titleproper>
+        <author>Delali Davies, Zachary Bodnar, Sari Mauro</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2018-12-18</date>
+        <num>RG4969</num>
+      </publicationstmt>
+      <seriesstmt>
+        <p>Portions of this collection are part of New England's Hidden Histories. Digital
+          historical representations of these portions of the collection can be viewed online.</p>
+      </seriesstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS2 - 2013</abbr>
+      <citation>Describing Archives: A Content Standard, Second Edition</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2019-07-12T20:43:28+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Friday July 12, 2019
+          at 20:43</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Abington, Mass. First Church records 1714-1949.</unittitle>
+      <unitid>RG4969</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>0.57</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(2 boxes)</physdesc>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1714">1714</fromdate>
+          <todate standarddate="1949">1949</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" unitdatetype="inclusive">1714-1949</unitdate>
+      <abstract id="aspace_8a8430eda8b4bc803ac6344e0af0d693">The First Congregational Church of
+        Abington, MA was established in 1711 and in addition to the 1st Church there were three
+        additional churches founded in the same town: 2nd church of south Abington, now Whitman, 3rd
+        church of east Abington, now Rockland, and 4th church at North Abington. The First Church in
+        Abington also housed a Sunday school that was established in 1818 and is thought to be one
+        of the oldest Sunday schools in the country. The motto of the church is "None too old to
+        study the word of God!" In 1968, the First Congregational and the North Congregational
+        Churches on Abington merged and reformed as the Church of Christ in Abington. The records
+        for First Church Abington are primarily made up of vital records recording baptisms,
+        marriages, and deaths along with Church records detailing meeting minutes, Church changes
+        and bills. The collection specifically includes a book from a Christian Convention in New
+        York and also houses the church records of the infamous "Singing Controversy" and the effect
+        that it had on the members of the church and town.</abstract>
+      <origination label="creator">
+        <persname rules="rda" source="local">
+          <part>Dodge, Ezekiel, 1722-1770</part>
+        </persname>
+      </origination>
+      <origination label="creator">
+        <corpname identifier="nr2003026708" source="lcnaf">
+          <part>First Congregational Church (Abington, Mass.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_e7c36b55413bd36aa3d420c9bebf7ad4">
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_b70c25ac1319f993a4e65bca5ccbc3b0">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+      <p>Digital Reproductions are protected by copyright and/or related rights. You are free to use
+        the Digital Reproductions in any way that is permitted by the copyright and related rights
+        legislation that applies to your use. In addition, no permission is required from the
+        Congregational Library &amp; Archives for educational uses. For other uses, you need to
+        obtain permission from the Congregational Library &amp; Archives. For additional information
+        regarding copyright, please consult the Congregational Library &amp; Archives' <ref
+          actuate="onrequest" href="http://www.congregationallibrary.org/about/digital-copyright"
+          linktitle="Digital Collections Copyright &amp; Use" show="new">Digital Collections
+          Copyright &amp; Use</ref> policy.</p>
+    </userestrict>
+    <prefercite id="aspace_95b6fd84264c2e2ea63eeab25a515f06">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Abington, Mass. First Church records 1714-1949, RG4969.
+        The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_da1af05491238cd56870c23fca6610ee">
+      <head>Acquisition Information</head>
+      <p>Materials were loaned to the Congregational Library &amp; Archives by the First Church of
+        Abington, Massachusetts in 2017 and given RG5330. However, there is record of an earlier
+        donation from the church given RG4969. Various Abington accruals were collected into a
+        single collection; Accession number 2017-06.</p>
+    </acqinfo>
+    <accruals id="aspace_67c254b02df7108e4e4386477af3b95a">
+      <head>Accruals</head>
+      <p>Additional accruals are expected for this collection in the form of full-text
+        transcription. There is no anticipated date for this accrual.</p>
+    </accruals>
+    <processinfo id="aspace_145c71b8c1bd550604d59041174082fb">
+      <head>Processing Information</head>
+      <p>Processed and described by Delali Davies, November 2018, using DACS Second edition.
+        Additional processing by Zachary Bodnar, December 2018. Legacy processing by Sari Mauro,
+        2012.</p>
+    </processinfo>
+    <bioghist id="aspace_053c34c6f17b9596f7a21d34d375fd11">
+      <head>Historical Note</head>
+      <p>The First Congregational Church of Abington, MA was established in 1711 and in addition to
+        the 1st Church there were three additional churches founded in the same town: 2nd church of
+        south Abington, now Whitman, 3rd church of east Abington, now Rockland, and 4th church at
+        North Abington. The First Church in Abington also housed a Sunday school that was
+        established in 1818 and is thought to be one of the oldest Sunday schools in the country.
+        The motto of the church is "None too old to study the word of God!"</p>
+      <p>The First church was located in front of an old burial ground described as a "small meeting
+        house" that was "without steeple, bells, or pews, only benches being used for seats." It was
+        demolished in 1751 so that a larger building could be built near the same location. The
+        third building was erected in 1819 and was known as "Masonic Hall" which was later enlarged
+        and remodeled in 1871. Along with its repairs and remodeling it was outfitted with a new
+        organ, gifted by W.S. O'Brian and family in 1911. Part of the repairs that were done were to
+        the church's steeple, which had been blown off in the famous gale of 1869, were completed
+        over a century later.</p>
+      <p>The Abington church was also home to multiple societies and organizations throughout the
+        centuries, including the Woman's Guild, Men's group, Woman's Missionary Society, Christian
+        Endeavors Society, and Boy's Work Org. In 1968, the First Congregational and the North
+        Congregational Churches on Abington merged and reformed as the Church of Christ in Abington.
+        This church is still active today and continues to serve the Abington community today.</p>
+      <chronlist>
+        <head>Ministers</head>
+        <chronitem>
+          <datesingle>S. Brown</datesingle>
+          <chronitemset>
+            <event>1711-1749</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>E. Dodge</datesingle>
+          <chronitemset>
+            <event>1750-1770</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>S. Niles</datesingle>
+          <chronitemset>
+            <event>1771-1814</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>H. Weeks</datesingle>
+          <chronitemset>
+            <event>1815-1820</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>S. Spring, D. D.</datesingle>
+          <chronitemset>
+            <event>1822-1826</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>W. Shedd</datesingle>
+          <chronitemset>
+            <event>1829-1830</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>M. G. Wheeler</datesingle>
+          <chronitemset>
+            <event>1831-1833</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>J. W. Ward</datesingle>
+          <chronitemset>
+            <event>1834-1856</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>F. R. Abbe</datesingle>
+          <chronitemset>
+            <event>1857-1870</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>G. E. Freeman</datesingle>
+          <chronitemset>
+            <event>1871-1880</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>R. W. Haskins</datesingle>
+          <chronitemset>
+            <event>1881-1893</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>W. S. Fritch, Ph.D</datesingle>
+          <chronitemset>
+            <event>1896-1899</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>D. Goodyear</datesingle>
+          <chronitemset>
+            <event>1900-1906</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>T. J. Lewis</datesingle>
+          <chronitemset>
+            <event>1907-1911</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>A. S. Hawkes, S. T. M.</datesingle>
+          <chronitemset>
+            <event>1912-1914</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>W. Wordsworth</datesingle>
+          <chronitemset>
+            <event>1916-1920</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>A. Sloan</datesingle>
+          <chronitemset>
+            <event>1921-1922</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>J. C. Millian</datesingle>
+          <chronitemset>
+            <event>1923-1925</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>R. J. Black</datesingle>
+          <chronitemset>
+            <event>1925-1928</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>C. S. Knott</datesingle>
+          <chronitemset>
+            <event>1929-1948</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>H. L. Carnes</datesingle>
+          <chronitemset>
+            <event>1948-1951</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>T. H. Campbell</datesingle>
+          <chronitemset>
+            <event>1951-1962</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>M. M. Morse</datesingle>
+          <chronitemset>
+            <event>1963-1967</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>W. G. Sewell</datesingle>
+          <chronitemset>
+            <event>1967-1968</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>C. B. Adams</datesingle>
+          <chronitemset>
+            <event>1967-1974</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>A. M. F. Coad</datesingle>
+          <chronitemset>
+            <event>1969-1974</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>T. A. Hunt</datesingle>
+          <chronitemset>
+            <event>1972-1974</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>A. H. Blake </datesingle>
+          <chronitemset>
+            <event>1974-1984</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>O. Clarke</datesingle>
+          <chronitemset>
+            <event>1983-1984</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>M. E. Mahl</datesingle>
+          <chronitemset>
+            <event>1985-1986</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>D. E. Mehl</datesingle>
+          <chronitemset>
+            <event>1985-1986</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>L. Delaplain</datesingle>
+          <chronitemset>
+            <event>1986-1991</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>H. L. Greer</datesingle>
+          <chronitemset>
+            <event>1991-1992</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>R. D. Colby</datesingle>
+          <chronitemset>
+            <event>1992-1995</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>S. G. Duncan</datesingle>
+          <chronitemset>
+            <event>1995-2008</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>S. J. Mederios</datesingle>
+          <chronitemset>
+            <event>2001-2010</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>E. E. Alger</datesingle>
+          <chronitemset>
+            <event>2008-2010</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>K. L. Coburn, P</datesingle>
+          <chronitemset>
+            <event>2011-Present</event>
+          </chronitemset>
+        </chronitem>
+      </chronlist>
+    </bioghist>
+    <scopecontent id="aspace_e548ca06b4c077747e9f4909b28d82c6">
+      <head>Scope and Contents</head>
+      <p>The records for First Church Abington are primarily made up of vital records recording
+        baptisms, marriages, and deaths along with Church records detailing meeting minutes, tax
+        books, the Church Manual, the changing of pastors and repairs to the church building. This
+        collection also contains a Church Ledger with the summary of payments made for repair work
+        on the church. One in particular church record details the infamous "Singing Controversy"
+        and the effect that it had on the members of the church and town. There are also small
+        pamphlets to celebrate the church's centennial and bi-centennial along with an official
+        souvenir program book from one of the Christian conventions they were a part of in NYC.</p>
+    </scopecontent>
+    <arrangement id="aspace_b668414993fe8c7a97eb3de24fc3dbe0">
+      <head>Arrangement</head>
+      <p>The materials in this collection have been arranged in chronological order by start
+        date.</p>
+    </arrangement>
+    <phystech id="aspace_a2b4d3ee47bca101504c18268117283a">
+      <head>Technical Requirements</head>
+      <p>To access digital user's copies via online-interface, a java-enabled web browser is
+        required. Internet Explorer 8.x and later, Firefox 5.x and later, Opera 12 and later, Safari
+        5.x and later, or any version of Google Chrome are recommended.</p>
+    </phystech>
+    <bibliography id="aspace_b00f81d07eb309fa8faf14836bc4d7c3">
+      <head>Bibliography</head>
+      <p>First Parish Congregational Church. <emph render="italic">250th Anniversary
+          1711-1961</emph>. Abington, 1961. 17.11.1 AB55.37 CalCC</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025590" source="lcsh">
+        <part>Church controversies.</part>
+      </subject>
+      <subject identifier="sh85025597" source="lcsh">
+        <part>Church discipline.</part>
+      </subject>
+      <subject identifier="sh85025606" source="lcsh">
+        <part>Church finance.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Congregational churches -- Handbooks, manuals, etc.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Congregational churches -- Massachusetts -- Abington.</part>
+      </subject>
+      <subject identifier="sh85046255" source="lcsh">
+        <part>Excommunication.</part>
+      </subject>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <subject identifier="sh85090572" source="lcsh">
+        <part>Necrologies.</part>
+      </subject>
+      <subject source="local">
+        <part>New England's Hidden Histories.</part>
+      </subject>
+      <subject identifier="sh85108866" source="lcsh">
+        <part>Public worship.</part>
+      </subject>
+      <corpname identifier="n2006166636" source="lcnaf">
+        <part>Abington (Mass.) -- Church history.</part>
+      </corpname>
+      <corpname identifier="nr2003026708" source="lcnaf">
+        <part>First Congregational Church (Abington, Mass.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_c71391a2cf9151623872f3104847a4fe" level="item">
+        <did>
+          <unittitle>Abington Church Book</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1714">1714</fromdate>
+              <todate standarddate="1749">1749</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1714 â 1749 </unitdate>
+          <container id="aspace_bf1a530f38b49bfc14e3d4c33dc0bb33" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_c37e16141da5a135b7e8fb8aefab54e9" localtype="volume"
+            parent="aspace_bf1a530f38b49bfc14e3d4c33dc0bb33">1</container>
+        </did>
+        <altformavail id="aspace_09d9f12a797f6cb2c4be9eba6c1d6054">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Abington/viewer/Church20records2C2017141749/1"
+              linktitle="available to view online" show="new">available to view online</ref>.
+            Transcriptions for this volume are also available and may be viewed alongside the
+            digital images.</p>
+        </altformavail>
+        <scopecontent id="aspace_b2421a01ef6f67cf9502c185b66514d1">
+          <head>Scope and Contents</head>
+          <p>This volume contains the earliest administrative and membership records of the church.
+            Included in the volume is the original covenant, meeting minutes, baptismal records, and
+            disciplinary. Of particular note are records relating to accusations of premarital
+            sexual relations. Also included are records related to the acceptance and dismission of
+            deacons.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_02cfc0c2d045f31beb14f3b85e5451cd" level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1750">1750</fromdate>
+              <todate standarddate="1774">1774</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1750 â 1774 </unitdate>
+          <container id="aspace_42af425286254e7dc7f1a66da1a056b5" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_9a44600b79b10178b3f1e94d118daab4" localtype="volume"
+            parent="aspace_42af425286254e7dc7f1a66da1a056b5">2</container>
+        </did>
+        <altformavail id="aspace_af1ca3ed7888f584fef6709427b903cf">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Abington/viewer/Church20records2C2017501774/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_de64818bba8bb585c5bb17c1e78d314e">
+          <head>Scope and Contents</head>
+          <p>This volume contains both the administrative and membership records of the church
+            during the pastorate of Rev. Ezekiel Dodge. Included within the volume is the covenant,
+            meeting minutes, council minutes, and miscellaneous membership records.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_da1c1b5b69a71ae233f2a464da2f0d00" level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1779">1779</fromdate>
+              <todate standarddate="1785">1785</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1779 â 1785</unitdate>
+          <container id="aspace_b78cf2c04a7d9886ded0b45092979a0e" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_7fd6472481d9e40a04c878c429dadbf5" localtype="volume"
+            parent="aspace_b78cf2c04a7d9886ded0b45092979a0e">3</container>
+        </did>
+        <altformavail id="aspace_75c3bb876274154908406d9ff43e8c50">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Abington/viewer/Church20records2C2017791785/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_e8be04ecd1e13366fe2644581efd4f04">
+          <head>Scope and Contents</head>
+          <p>This volume contains the minutes of meetings held by the church. These records largely
+            pertain to members and include questions concerning church membership and disciplinary
+            cases. Of note is testimony related to a case of public drunkenness.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_37af4fe45c936beef2da2f2cac9136c6" level="item">
+        <did>
+          <unittitle>Church records about the "singing controversy"</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1804">1804</fromdate>
+              <todate standarddate="1807">1807</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1804 â 1807</unitdate>
+          <container id="aspace_7e21e1c4d625454225550192522b11bb" label="Mixed Materials"
+            localtype="box">2</container>
+          <container id="aspace_020175b2b578860a36c45ec874eabb35" localtype="volume"
+            parent="aspace_7e21e1c4d625454225550192522b11bb">1</container>
+        </did>
+        <altformavail id="aspace_612bf114e0ec2ec1c4b6f87feefe42d4">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Abington/viewer/Singing20controversy2C2018041807/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_683c8e1ed43235914f7869587f80aef3">
+          <head>Scope and Contents</head>
+          <p>This volume contains the records of a debate which followed an incident where two
+            choirs, one hired by the church and a second hired by the town, both claimed the right
+            to lead the singing. The result was that, at mass, each choir sang the hymn to different
+            tunes at the same time. Debate continued for three years following the incident.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_2e3cb2ba99bf2ca718435445840b29cb" level="item">
+        <did>
+          <unittitle>Parish records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1808">1808</fromdate>
+              <todate standarddate="1852">1852</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1808 â 1852</unitdate>
+          <container id="aspace_7c630fa7713683dc6b27a7bb73c5ee80" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_74f6d2ed48b1c97bf1e4151316535d4f" localtype="volume"
+            parent="aspace_7c630fa7713683dc6b27a7bb73c5ee80">4</container>
+        </did>
+        <altformavail id="aspace_f39af51e8ef30bf4622475f758931a18">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Abington/viewer/Parish20records2C2018081852/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_39c884bfb29e973fc0b0014423c9c992">
+          <head>Scope and Contents</head>
+          <p>This volume contains the records of the Parish. Included in the volume are the minutes
+            of largely routine meetings which cover topics such as furnishings, the parsonage, and
+            ministerial salary.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_cba10cd9106adbcc5b78d63a3e8ef73d" level="item">
+        <did>
+          <unittitle>Treasurer's book</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1808">1808</fromdate>
+              <todate standarddate="1877">1877</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1808 â 1877</unitdate>
+          <container id="aspace_3e37f74306b4e3f8c646441497b24756" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_2c2261267fa34f8e6814473dd6c2ef9a" localtype="volume"
+            parent="aspace_3e37f74306b4e3f8c646441497b24756">5</container>
+        </did>
+        <altformavail id="aspace_7a55bd2d03f1ea7e8f7748983e65a3d9">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Abington/viewer/Financial20records2C2018081877/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_e3b82ab18a7c503d85d301265f9b9bc5">
+          <head>Scope and Contents</head>
+          <p>This volume contains the financial records for the church. Included in the volume are
+            meticulous records of both payments received and payments paid. Most of the financial
+            transactions indicate the person involved in the payment and the specifics of services
+            rendered.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_e89fb5a329a25bdc9d7c77d9355d76ce" level="item">
+        <did>
+          <unittitle>Parish records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1812">1812</fromdate>
+              <todate standarddate="1821">1821</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1812-1821</unitdate>
+          <container id="aspace_08d4e7bae84a57810b4b87b6b78e0e37" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_82a0d88af918a1923b238fc59c105953" localtype="volume"
+            parent="aspace_08d4e7bae84a57810b4b87b6b78e0e37">6</container>
+        </did>
+        <altformavail id="aspace_e4483d1eda735a7aa6c2c736f909a126">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Abington/viewer/Parish20records2C2018121820/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_18df63f040feb8251a0817612f1695f9">
+          <head>Scope and Contents</head>
+          <p>This volume of parish records contains parish meeting minutes and lists of admitted
+            members. Of particular note are the records related to a motion to excommunicate Rev.
+            Holland Weeks who held Swedenborgian views.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_ac50271d80a744810f444b8239290f5a" level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1820">1820</fromdate>
+              <todate standarddate="1822">1822</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1820 â 1822</unitdate>
+          <container id="aspace_2bce580efd1e9addfa0bb1e9395f24d5" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_1102ff25ee94da53eaafd095ce838dd4" localtype="volume"
+            parent="aspace_2bce580efd1e9addfa0bb1e9395f24d5">7</container>
+        </did>
+        <altformavail id="aspace_122cf17344ab9949f70b11e91bb884df">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Abington/viewer/Church20records2C2018201822/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_be0d977fbb512ef2a7bd4bcf84b75678">
+          <head>Scope and Contents</head>
+          <p>This volume contains the administrative records of the church. Of particular note are
+            the minutes of meetings relating to Rev. Holland Weeks's Swedenborgian views and his
+            subsequent departure from the church. The volume also contains records related to the
+            ordination of Samuel Springs as pastor of the church.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_e1c1b926c62296396aaeb7d28a10009c" level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1822">1822</fromdate>
+              <todate standarddate="1831">1831</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1822 â 1831</unitdate>
+          <container id="aspace_eba0190e110224881e70128f2283f6fb" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_69706738cae202bc5eaaa2925c787d66" localtype="volume"
+            parent="aspace_eba0190e110224881e70128f2283f6fb">8</container>
+        </did>
+        <altformavail id="aspace_33e4a5cb5ce339ba3bd36d57d014c137">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Abington/viewer/Church20records2C2018221831/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_d7fdee8e72cbd9b4a9b4077c0b872f09">
+          <head>Scope and Contents</head>
+          <p>This volume primarily contains the administrative records of the church. Of note are
+            meeting minutes related to temperance in the church and the failing health of the Rev.
+            Shedd. Also included in the volume are baptismal records, an 1829 record of female
+            members, and copies of church correspondence.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_b1efa9a54d7c4330949558eba4497a03" level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1831">1831</fromdate>
+              <todate standarddate="1897">1897</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1831 â 1897</unitdate>
+          <container id="aspace_be0b1c614a420a05ef639e8050c2819b" label="Mixed Materials"
+            localtype="box">2</container>
+          <container id="aspace_44046958fb87beb512ceec137a44c165" localtype="volume"
+            parent="aspace_be0b1c614a420a05ef639e8050c2819b">2</container>
+        </did>
+        <scopecontent id="aspace_35a1c7478f10ab5b96ab25d929022572">
+          <head>Scope and Contents</head>
+          <p>This volume contains the administrative records of the church, as well as vital records
+            for the members of the church. Included in the volume are a copy of the church covenant,
+            meeting minutes, committee reports, baptismal records, records of deaths, and marriage
+            records.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_8ff0c01d0e92f4b676bc383a7b551776" level="item">
+        <did>
+          <unittitle>Church tax records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1867">1867</datesingle>
+          </unitdatestructured>
+          <container id="aspace_87974ad1190c694ecf61cbcf50276502" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_9d9f4be1a628d5fef116ac3d7b77420d" localtype="volume"
+            parent="aspace_87974ad1190c694ecf61cbcf50276502">9</container>
+        </did>
+      </c01>
+      <c01 id="aspace_c7bcb01dfe7a5fde2148a974bf034f0b" level="item">
+        <did>
+          <unittitle>Church ledger</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1869">1869</datesingle>
+          </unitdatestructured>
+          <container id="aspace_5bfd1c75f5a66955114cafd7df279154" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_27362a35bdf357a934d6ece6c605b688" localtype="volume"
+            parent="aspace_5bfd1c75f5a66955114cafd7df279154">10</container>
+        </did>
+      </c01>
+      <c01 id="aspace_48cecca79780584e45c96d9281d32b79" level="item">
+        <did>
+          <unittitle>Church manual</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1874">1874</datesingle>
+          </unitdatestructured>
+          <container id="aspace_423aa06219bdc9dbea2a5716809b28c7" label="Mixed Materials"
+            localtype="box">2</container>
+          <container id="aspace_a2a1b24d80fdaa68aae73c9202fc1961" localtype="volume"
+            parent="aspace_423aa06219bdc9dbea2a5716809b28c7">3</container>
+        </did>
+      </c01>
+      <c01 id="aspace_9110fb693b243c2a7a855d17e2053ac1" level="item">
+        <did>
+          <unittitle>Young People's Society convention program</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1892">1892</datesingle>
+          </unitdatestructured>
+          <container id="aspace_65358163e63ded4086f8cdf2b3463fc3" label="Mixed Materials"
+            localtype="box">2</container>
+          <container id="aspace_45d0f94ee668fbe8dbec8bd89e4f0df5" localtype="volume"
+            parent="aspace_65358163e63ded4086f8cdf2b3463fc3">4</container>
+        </did>
+      </c01>
+      <c01 id="aspace_f18306837b388f2ec3f67ba5281db247" level="file">
+        <did>
+          <unittitle>Centennial celebration order of service</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1949">1949</datesingle>
+          </unitdatestructured>
+          <container id="aspace_8a854986ccdb848261a36580f8d8aa08" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_6b7925993f1263e386e10118e0302fd9" localtype="folder"
+            parent="aspace_8a854986ccdb848261a36580f8d8aa08">1</container>
+        </did>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
