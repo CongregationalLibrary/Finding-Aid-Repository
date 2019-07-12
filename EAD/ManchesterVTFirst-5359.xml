@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/ManchesterVTFirst-5359.xml"
+      >ManchesterVTFirst-5359</recordid>
+    <representation localtype="pdf"
+      href="http://www.congregationallibrary.org/sites/all/files/ManchesterVTFirst-5359.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Manchester, Vt. First Congregational Church records, 1804-1867. </titleproper>
+        <author>Susan Stanley, Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2019-02-13</date>
+        <num>RG5359</num>
+      </publicationstmt>
+      <seriesstmt>
+        <p>This collection is a part of New England's Hidden Histories. Digital historical
+          representations of the collection can be viewed online.</p>
+      </seriesstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS2 - 2013</abbr>
+      <citation>Describing Archives: A Content Standard, Second Edition</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2019-07-12T18:29:13+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Friday July 12, 2019
+          at 18:29</eventdescription>
+      </maintenanceevent>
+      <maintenanceevent>
+        <eventtype value="revised"/>
+        <eventdatetime standarddatetime="2018-09-11">September 11, 2018</eventdatetime>
+        <agenttype value="human"/>
+        <agent/>
+        <eventdescription>Additional description added, additional subject and agent links added,
+          minor textual revisions incorporated.</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Manchester, Vt. First Congregational Church records, 1804-1867.</unittitle>
+      <unitid>RG5359</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="materialtype">
+        <quantity>2</quantity>
+        <unittype>Volumes</unittype>
+      </physdescstructured>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1804">1804</fromdate>
+          <todate standarddate="1867">1867</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" unitdatetype="inclusive">1804-1867</unitdate>
+      <abstract id="aspace_9c2176dfc73529acf6160a732444cd10">The First Congregational Church in
+        Manchester Vermont was first organized in 1784 with Rev. Job Swift as the first minister.
+        Three meeting houses have been constructed by the church, the first in 1779, the second in
+        1829, and the third in 1862. This collection contains the early administrative records of
+        the church which include meeting minutes, vital records, and church governance
+        records.</abstract>
+      <origination label="creator">
+        <corpname rules="rda" source="local">
+          <part>First Congregational Church (Manchester, Vt.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_3536b58115a9b0e7bc68f93bc9ae7c3c">
+      <head>Restrictions on Access</head>
+      <p>Access to this digital collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_0c47d06211905eaabbe6e9bb47e254d0">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+      <p>Digital Reproductions are protected by copyright and/or related rights. You are free to use
+        the Digital Reproductions in any way that is permitted by the copyright and related rights
+        legislation that applies to your use. In addition, no permission is required from the
+        Congregational Library &amp; Archives for educational uses. For other uses, you need to
+        obtain permission from the Congregational Library &amp; Archives. For additional information
+        regarding copyright, please consult the Congregational Library &amp; Archives' <ref
+          actuate="onrequest" href="http://www.congregationallibrary.org/about/digital-copyright"
+          linktitle="Digital Collections Copyright &amp; Use" show="new">Digital Collections
+          Copyright &amp; Use</ref> policy.</p>
+    </userestrict>
+    <prefercite id="aspace_c1e89da294ac84c91c9721257bb991f2">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Manchester, Vt. First Congregational Church records,
+        1804-1867, RG5359. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_428bcb1174b78e38163e20212c428d20">
+      <head>Acquisition Information</head>
+      <p>Materials were temporarily loaned to the Congregational Library and Archives, November
+        2017, by Anne Ehret of the First Congregational Church in Manchester, Vt for the purpose of
+        digitization. Materials were returned following digitization; Accession 2017-16.</p>
+    </acqinfo>
+    <originalsloc id="aspace_0fa1c95b7b20d69c5cac18e29beeebc8">
+      <head>Location of Originals</head>
+      <p>The physical volumes are currently held by the First Congregational Church in Manchester
+        Vermont.</p>
+    </originalsloc>
+    <accruals id="aspace_cd8bd0fcc17970725fb2a27ae2825ab9">
+      <head>Accruals</head>
+      <p>Additional accruals are expected for this collection in the form of full-text
+        transcription. There is no anticipated date for this accrual.</p>
+    </accruals>
+    <processinfo id="aspace_f3850148d7808bc274739ff620dbae01">
+      <head>Processing Information</head>
+      <p>Processed by Susan Stanley, April 2018, using DACS Second Edition. Additional description
+        by Zachary Bodnar, September 2018.</p>
+    </processinfo>
+    <bioghist id="aspace_386f6881b250cc9912c8165f67c8dfea">
+      <head>Historical Note</head>
+      <p>The First Congregational Church in Manchester Vermont was first organized in 1784 with
+        seven founding members. Rev. Job Swift was ordained the first minister and in 1779 the first
+        meeting house was constructed. In 1818, the Rev. Lemual Haynes, who was of African descent,
+        was ordained the seventh minister of the church. The first meeting house was razed in 1829
+        and the second constructed by the Fall of that year. A parsonage was built in 1862. The
+        third, and last, meeting house was constructed 1871. In 1925 the church interior was
+        renovated and in 1929 an organ was installed along with choir pews. In 1960 a new
+        three-manual organ was installed. The First Congregational Church continues to serve the
+        Manchester community today.</p>
+      <chronlist>
+        <head>Ministers</head>
+        <chronitem>
+          <datesingle>Job Swift</datesingle>
+          <chronitemset>
+            <event>1783-1785</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Bogue</datesingle>
+          <chronitemset>
+            <event>1797-1798</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Wetmore</datesingle>
+          <chronitemset>
+            <event>1803-1804</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>James Davis</datesingle>
+          <chronitemset>
+            <event>1804-1805</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Abel Farley</datesingle>
+          <chronitemset>
+            <event>1805-1812</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Amos Pettibone</datesingle>
+          <chronitemset>
+            <event>1813-1816</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Lemuel Haynes</datesingle>
+          <chronitemset>
+            <event>1818-1822</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>E. W. Rossiter</datesingle>
+          <chronitemset>
+            <event>1822-1823</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>H. A. Parsons</datesingle>
+          <chronitemset>
+            <event>1824-1826</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Johnson</datesingle>
+          <chronitemset>
+            <event>circa 1827</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>L. L. Tilden</datesingle>
+          <chronitemset>
+            <event>circa 1828</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>James Anderson</datesingle>
+          <chronitemset>
+            <event>1829-1858</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>N. L. Upham</datesingle>
+          <chronitemset>
+            <event>1859-1861</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>R. S. Cushman</datesingle>
+          <chronitemset>
+            <event>1862-1877</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Albert C. Reed</datesingle>
+          <chronitemset>
+            <event>1878-1884</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Allen Clark</datesingle>
+          <chronitemset>
+            <event>1885-1886</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>E. P. Wild</datesingle>
+          <chronitemset>
+            <event>1886-1890</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>J. D. Adam</datesingle>
+          <chronitemset>
+            <event>1892-1893</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>George Smart</datesingle>
+          <chronitemset>
+            <event>1894-1902</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>John Barstow</datesingle>
+          <chronitemset>
+            <event>1902-1906</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Vincent Ravi (Booth)</datesingle>
+          <chronitemset>
+            <event>1907-1909</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Sidney K. Perkins</datesingle>
+          <chronitemset>
+            <event>1910-1921</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>John E. TenDyke</datesingle>
+          <chronitemset>
+            <event>1922-1925</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>D. Cunningham Graham</datesingle>
+          <chronitemset>
+            <event>1925-1931</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Eric Allen</datesingle>
+          <chronitemset>
+            <event>1931-1939</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Walker T. Hawley</datesingle>
+          <chronitemset>
+            <event>1939-1947</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Lawrence W. Fairchild</datesingle>
+          <chronitemset>
+            <event>1948-1951</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Raymond Putnam</datesingle>
+          <chronitemset>
+            <event>1952-1955</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>E. H. Nickerson</datesingle>
+          <chronitemset>
+            <event>1955-1964</event>
+          </chronitemset>
+        </chronitem>
+      </chronlist>
+    </bioghist>
+    <scopecontent id="aspace_9f15b5cae99913d766166e6cf0987bef">
+      <head>Scope and Contents</head>
+      <p>This collection contains two volumes of church records dating from 1804-1867. The
+        collection includes meeting minutes, records of votes, baptismal records, membership lists,
+        records of deaths, annual reports, and church governance records.</p>
+    </scopecontent>
+    <arrangement id="aspace_0a09102da91a121fbde2f616fe5e168d">
+      <head>Arrangement</head>
+      <p>Records have been arranged chronologically by start date.</p>
+    </arrangement>
+    <phystech id="aspace_f8d1a9b59a8b4da24797d3b74fe20ca8">
+      <head>Technical Requirements</head>
+      <p>To access digital user's copies via online-interface, a java-enabled web browser is
+        required. Internet Explorer 8.x and later, Firefox 5.x and later, Opera 12 and later, Safari
+        5.x and later, or any version of Google Chrome are recommended.</p>
+    </phystech>
+    <bibliography id="aspace_f93c28986f1d17a86f0dc915fe88b3be">
+      <head>Bibliography</head>
+      <p><emph render="italic">History of the First Congregational Church of Manchester, Vermont
+          1784-1959</emph>. Manchester, Vt, 1959. (CLA call number: 17.11.1 M 31.59C h)</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025597" source="lcsh">
+        <part>Church discipline.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Church records and registers -- Vermont -- Manchester.</part>
+      </subject>
+      <subject identifier="sh85090572" source="lcsh">
+        <part>Necrologies.</part>
+      </subject>
+      <subject source="local">
+        <part>New England's Hidden Histories.</part>
+      </subject>
+      <corpname rules="rda" source="local">
+        <part>First Congregational Church (Manchester, Vt.)</part>
+      </corpname>
+      <corpname identifier="n83030295" source="lcnaf">
+        <part>Manchester (Vt.) -- Church history.</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_a733f5a641d76779dfd7fe8c285734f5" level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1804">1804</fromdate>
+              <todate standarddate="1828">1828</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1804-1828</unitdate>
+        </did>
+        <altformavail id="aspace_7c1250e03ac5408352b18a53696d70ea">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/ManchesterVT/viewer/Church20records2C2018041828/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_bd257257a447c80a33d03f4433d1f917">
+          <head>Scope and Contents</head>
+          <p>This volume of church records contains the church covenant and confession of faith,
+            lists of members, baptismal records, records of deaths, meeting minutes, and records of
+            votes.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_8f2cec7b27db8a9b7b87072307949837" level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1829">1829</fromdate>
+              <todate standarddate="1867">1867</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1829-1867</unitdate>
+        </did>
+        <altformavail id="aspace_a26e94962b7e8caed2d81f91033501f3">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/ManchesterVT/viewer/Church20records2C2018291867/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_91486cadeba8a2246626044dd21ba2f8">
+          <head>Scope and Contents</head>
+          <p>This volume of church records contains meeting minutes, annual reports, records of
+            votes, notices of baptism, dismission, and admission, as well as a list of members with
+            dates of admission, death, dismissal, and excommunication. The volume also contains a
+            copy of the church covenant, confession of faith, and by-laws.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
