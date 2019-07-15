@@ -1,0 +1,2628 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/ArlingtonMAPleasant-4962.xml"
+      >ArlingtonMAPleasant-4962</recordid>
+    <representation localtype="pdf"
+      href="http://www.congregationallibrary.org/sites/all/files/ArlingtonMAPleasant-4962.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Arlington, Mass. Pleasant Street Congregational Church records, 1842-2010.</titleproper>
+        <author>William McCarthy, Stefanie Maclin, Abraham Miller</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2019-01-14</date>
+        <num>RG4962</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS2 - 2013</abbr>
+      <citation>Describing Archives: A Content Standard, Second Edition</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2019-07-15T16:54:34+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Monday July 15, 2019
+          at 16:54</eventdescription>
+      </maintenanceevent>
+      <maintenanceevent>
+        <eventtype value="revised"/>
+        <eventdatetime standarddatetime="2019-07-15">July 15, 2019</eventdatetime>
+        <agenttype value="human"/>
+        <agent/>
+        <eventdescription>Zachary Bodnar: minor revisions to the titles and dates of many records,
+          addition of new subject headings, minor descriptive edits.</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Arlington, Mass. Pleasant Street Congregational Church records,
+        1842-2010.</unittitle>
+      <unitid>RG4962 </unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>4.71</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(5 boxes)</physdesc>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1842">1842</fromdate>
+          <todate standarddate="2010">2010</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" unitdatetype="inclusive">1842-2010</unitdate>
+      <abstract id="aspace_7d4404c337bb490d57d432527b9ec8e5">Pleasant Street Congregational Church
+        was organized in December 1842, as the Orthodox Congregational Church of West Cambridge.
+        Many of the original members of the Orthodox Congregational Church had been members of the
+        First Congregational Church in Arlington but left when the church turned Unitarian in 1828.
+        Between 1940 and 1953, Orthodox Congregational Church was renamed Pleasant Street
+        Congregational Church. The church would officially close its doors in early 2011. This
+        collection contains numerous records from Pleasant Street Congregational church, including
+        as vital statistics, committee records and meetings, minister information, auxiliary
+        information and events, printed materials and annual reports, church finances, church
+        building information and a variety of photographs.</abstract>
+      <origination label="creator">
+        <persname rules="rda" source="local">
+          <part>Bradshaw, Anna, 1785-1869</part>
+        </persname>
+      </origination>
+      <origination label="creator">
+        <persname identifier="n88648991" source="lcnaf">
+          <part>Bushnell, Samuel Clarke, 1852-1930</part>
+        </persname>
+      </origination>
+      <origination label="creator">
+        <corpname rules="rda" source="local">
+          <part>Orthodox Congregational Church (Arlington, Mass.)</part>
+        </corpname>
+      </origination>
+      <origination label="creator">
+        <corpname rules="rda" source="local">
+          <part>Pleasant Street Congregational Church (Arlington, Mass.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_5d97583e4fedd6bff0a0ab8b978cfcfc">
+      <head> Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_0dd3c7fc5a74bd6300bec39156d28a9d">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite id="aspace_5c50896a9dc854dbbffffee8a85edfb6">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Arlington, Mass. Pleasant Street Congregational Church
+        records, 1842-2010, RG4962. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_bf3e7644cf325788a6292ce17bdde360">
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by the Pleasant Street
+        Congregational Church of Arlington, Massachusetts in May 2011; 2014-23.</p>
+    </acqinfo>
+    <processinfo id="aspace_38bbef5eb541aa9be51472d4a0884f58">
+      <head>Processing Information</head>
+      <p>Originlly processed by Stefanie Maclin and Abraham Miller in 2011, using DACs second
+        edition. Updated by William McCarthy in September 2017 and January 2019.</p>
+    </processinfo>
+    <bioghist id="aspace_f664663d4c9e2377f6c65f5a2be7dfdd">
+      <head>Historical Note</head>
+      <p>Pleasant Street Congregational Church was organized in December 1842, as the Orthodox
+        Congregational Church of West Cambridge. Many of the original members of the Orthodox
+        Congregational Church had been members of the First Congregational Church in Arlington but
+        left when the church turned Unitarian in 1828. Anna Bradshaw (1785-1869) played an important
+        role in founding this church by holding the early prayer meetings on her homestead. The
+        parcel of land on which the church was erected was donated by Anna Bradshaw. The church
+        steeple was destroyed by a tornado in 1871 and it was again damaged during a hurricane in
+        1938. Between 1940 and 1953, Orthodox Congregational Church was renamed Pleasant Street
+        Congregational Church. By 1963, Pleasant Street Congregational Church had joined the United
+        Church of Christ. In April, 2010, a Merger Action Team was formed to explore a merger with
+        the Congregational Church of West Medford, UCC. Within the next year, the church would
+        officially close.</p>
+    </bioghist>
+    <scopecontent id="aspace_b846da2815ef42b3e32f7909b59f237a">
+      <head>Scope and Contents</head>
+      <p>This collection contains numerous records from Pleasant Street Congregational church,
+        including as vital statistics, committee records and meetings, minister information,
+        auxiliary information and events, printed materials and annual reports, church finances,
+        church building information and a variety of photographs.</p>
+    </scopecontent>
+    <arrangement id="aspace_a18d17c1af499687d017d41fdce1fa58">
+      <head>Arrangement</head>
+      <p>The Pleasant Street Congregational Church records are arranged into three series and seven
+        subseries. Furthermore, each series and subseries is arranged by date.</p>
+      <p><emph render="bold">Series 1:</emph> Church records, 1842-2010</p>
+      <p><emph render="italic">Subseries 1:</emph> Vital records, 1842-1960</p>
+      <p><emph render="italic">Subseries 2:</emph> Committee records and meetings, 1842-2009</p>
+      <p><emph render="italic">Subseries 3:</emph> Ministers, 1878-1989</p>
+      <p><emph render="italic">Subseries 4:</emph> Auxiliary Organizations and events, 1899,
+        1937-2010</p>
+      <p><emph render="italic">Subseries 5:</emph> Historical information, 1901-2004</p>
+      <p><emph render="italic">Subseries 6:</emph> Printed materials, 1901-2007</p>
+      <p><emph render="italic">Subseries 7:</emph> Annual reports, 1932-2010</p>
+      <p><emph render="bold">Series 2:</emph> Financial records, 1855-1998</p>
+      <p><emph render="bold">Series 3:</emph> Photographs, 1871-1999</p>
+    </arrangement>
+    <relatedmaterial id="aspace_10d7fa35e5a3644083e018809268f49d">
+      <head>Related Materials</head>
+      <p>Additional materials related to Arlington, Mass Congregational Church can be found at the
+        Arlington Historical Society and the Arlington Public Library.</p>
+    </relatedmaterial>
+    <controlaccess>
+      <subject identifier="sh85025569" source="lcsh">
+        <part>Church architecture -- Designs and plans.</part>
+      </subject>
+      <subject identifier="sh89000863" source="lcsh">
+        <part>Church bells.</part>
+      </subject>
+      <subject identifier="sh85025606" source="lcsh">
+        <part>Church finance.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85066724" source="lcsh">
+        <part>Installation (clergy).</part>
+      </subject>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Obituaries.</part>
+      </subject>
+      <subject identifier="sh85118923" source="lcsh">
+        <part>Scrapbooks.</part>
+      </subject>
+      <corpname identifier="n82018575" source="lcnaf">
+        <part>Arlington (Mass.) -- Buildings, structures, etc. -- Photographs.</part>
+      </corpname>
+      <corpname identifier="n82018575" source="lcnaf">
+        <part>Arlington (Mass.) -- Church history.</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>Orthodox Congregational Church (Arlington, Mass.)</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>Pleasant Street Congregational Church (Arlington, Mass.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_a8aed8077cf0a55dcc5eb260b5198c72" level="series">
+        <did>
+          <unittitle>Church records</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>101</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1842">1842</fromdate>
+              <todate standarddate="2010">2010</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1842-2010</unitdate>
+        </did>
+        <scopecontent id="aspace_c2ff31ba43648a26c1bda4c4fd551678">
+          <head>Scope and Contents</head>
+          <p>This series contains church records such as vital statistics, committee records and
+            meetings, minister information, auxiliary information and events, printed materials and
+            annual reports.</p>
+        </scopecontent>
+        <c02 id="aspace_adde5c738fee8e1cfc0ca78a5504b236" level="subseries">
+          <did>
+            <unittitle>Vital records</unittitle>
+            <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+              <quantity>4</quantity>
+              <unittype>Folders</unittype>
+            </physdescstructured>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1842">1842</fromdate>
+                <todate standarddate="1960">1960</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1842-1960</unitdate>
+          </did>
+          <scopecontent id="aspace_87e56c4a080d7ef1e331e9b854c4cf67">
+            <head>Scope and Contents</head>
+            <p>The Membership series includes records related to church vital statistics including
+              members register,letters of dismission, marriage certificates and newspaper articles
+              on marriages and deaths.</p>
+          </scopecontent>
+          <c03 id="aspace_cbf7ce5fe2ed7182c3421b296320e408" level="file">
+            <did>
+              <unittitle>Orthodox Congregational Church register of members</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1842">1842</fromdate>
+                  <todate standarddate="1939">1939</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1842-1939</unitdate>
+              <container id="aspace_ae9c1b814882025e0bb5f5cc94c5f3aa" label="Mixed Materials"
+                localtype="box">1</container>
+              <container id="aspace_f868c2b8290edfaaedf892410f4626eb" localtype="folder"
+                parent="aspace_ae9c1b814882025e0bb5f5cc94c5f3aa">1</container>
+            </did>
+          </c03>
+          <c03 id="aspace_fa86104c2057ebb1a5fbff073fc78dcf" level="file">
+            <did>
+              <unittitle>Letters of dismission</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1939">1939</fromdate>
+                  <todate standarddate="1947">1947</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1939-1947</unitdate>
+              <container id="aspace_f4f1a3f3cd761f3622cd023a5f012371" label="Mixed Materials"
+                localtype="box">1</container>
+              <container id="aspace_0f5e8cedac4341fb705253048d6aece8" localtype="folder"
+                parent="aspace_f4f1a3f3cd761f3622cd023a5f012371">2</container>
+            </did>
+          </c03>
+          <c03 id="aspace_c10f67333a37f7c1a0f6b0e241b87043" level="file">
+            <did>
+              <unittitle>Marriage announcements and obituaries</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1947">1947</fromdate>
+                  <todate standarddate="1949">1949</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1947-1949</unitdate>
+              <container id="aspace_513d1667a61473644d4742082f38f53f" label="Mixed Materials"
+                localtype="box">1</container>
+              <container id="aspace_c39b840216285725bd9f89bd49faa2e9" localtype="folder"
+                parent="aspace_513d1667a61473644d4742082f38f53f">3</container>
+            </did>
+          </c03>
+          <c03 id="aspace_9ea20853ecd093afea15909597a4787b" level="file">
+            <did>
+              <unittitle>Marriage certificates</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1952">1952</fromdate>
+                  <todate standarddate="1960">1960</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1952-1960</unitdate>
+              <container id="aspace_4eb1e135d66694b4742407f2c9c16a7b" label="Mixed Materials"
+                localtype="box">1</container>
+              <container id="aspace_ff20e755989c67871022ea0764cdf620" localtype="folder"
+                parent="aspace_4eb1e135d66694b4742407f2c9c16a7b">4</container>
+            </did>
+          </c03>
+        </c02>
+        <c02 id="aspace_4c1db614ca5eebafee268f49487b3d59" level="subseries">
+          <did>
+            <unittitle>Committee records and meetings</unittitle>
+            <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+              <quantity>22</quantity>
+              <unittype>Folders</unittype>
+            </physdescstructured>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1842">1842</fromdate>
+                <todate standarddate="2009">2009</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1842-2009</unitdate>
+          </did>
+          <scopecontent id="aspace_2b669b4527b07d3fa2b766216f8ef87e">
+            <head>Scope and Contents</head>
+            <p>This sub-series contains committee records, by-laws and society meeting reports.</p>
+          </scopecontent>
+          <c03 id="aspace_e7bf055a31c32e9db69ceb16a070d4af" level="file">
+            <did>
+              <unittitle>Committee records and society meeting minutes</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1842">1842</fromdate>
+                  <todate standarddate="1883">1883</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1842-1883</unitdate>
+              <container id="aspace_ec2fadc9331b572cb657289d9c583d4e" label="Mixed Materials"
+                localtype="box">1</container>
+              <container id="aspace_f3acf9cad314dbb0e0393a53d114b8b9" localtype="folder"
+                parent="aspace_ec2fadc9331b572cb657289d9c583d4e">18</container>
+            </did>
+          </c03>
+          <c03 id="aspace_908c30fdaa3bcec27485c2acc21cb7fc" level="file">
+            <did>
+              <unittitle>Society meeting minutes</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1844">1844</fromdate>
+                  <todate standarddate="1855">1855</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1844-1855</unitdate>
+              <container id="aspace_04e70fa55335e7eba91325b795e73ba2" label="Mixed Materials"
+                localtype="box">1</container>
+              <container id="aspace_cdbdf43b5ef7133bacddc9ce08698105" localtype="folder"
+                parent="aspace_04e70fa55335e7eba91325b795e73ba2">19</container>
+            </did>
+          </c03>
+          <c03 id="aspace_45ef1ca19f46263cf61b72fbd3a70111" level="file">
+            <did>
+              <unittitle>Society meeting minutes and correspondences</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1856">1856</fromdate>
+                  <todate standarddate="1946">1946</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1856-1946</unitdate>
+              <container id="aspace_8a813abc3c5c78665a5ef7087467328d" label="Mixed Materials"
+                localtype="box">1</container>
+              <container id="aspace_d1dcc8782daed63efb820fc510899160" localtype="folder"
+                parent="aspace_8a813abc3c5c78665a5ef7087467328d">20</container>
+            </did>
+          </c03>
+          <c03 id="aspace_f430c5f2236f3829a7899dabfaa306b8" level="file">
+            <did>
+              <unittitle>Committee records and annual meeting minutes</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1921">1921</fromdate>
+                  <todate standarddate="1927">1927</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1921-1927</unitdate>
+              <container id="aspace_39304ffe5e9908ca5c8f4e5543240300" label="Mixed Materials"
+                localtype="box">1</container>
+              <container id="aspace_951b19e843b56ece3cdcaa0345a407c3" localtype="folder"
+                parent="aspace_39304ffe5e9908ca5c8f4e5543240300">21</container>
+            </did>
+          </c03>
+          <c03 id="aspace_83f2c9972f0db80a71eb1eda49070d54" level="file">
+            <did>
+              <unittitle>Committee records and annual meeting minutes</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1927">1927</fromdate>
+                  <todate standarddate="1931">1931</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1927-1931</unitdate>
+              <container id="aspace_7ed13d2f81ef88c393cd68b281094ede" label="Mixed Materials"
+                localtype="box">1</container>
+              <container id="aspace_fa894d2d28e1f717b8b8e745760daff1" localtype="folder"
+                parent="aspace_7ed13d2f81ef88c393cd68b281094ede">22</container>
+            </did>
+          </c03>
+          <c03 id="aspace_e9da8ae8bd889f888ae552b60202e325" level="file">
+            <did>
+              <unittitle>Church planning committee</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1947">1947</fromdate>
+                  <todate standarddate="1954">1954</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1947-1954</unitdate>
+              <container id="aspace_10b92eee27d939497af01ecc0a8e547c" label="Mixed Materials"
+                localtype="box">1</container>
+              <container id="aspace_542e9145a979b2b3a29dd99d8f096e23" localtype="folder"
+                parent="aspace_10b92eee27d939497af01ecc0a8e547c">23</container>
+            </did>
+          </c03>
+          <c03 id="aspace_071b93dfb853bea75c93ba597f4b7d44" level="file">
+            <did>
+              <unittitle>Committee records</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1950">1950</fromdate>
+                  <todate standarddate="1953">1953</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1950-1953</unitdate>
+              <container id="aspace_0d3c62eff2a9c767ccad388cc549d968" label="Mixed Materials"
+                localtype="box">1</container>
+              <container id="aspace_b6fb945b06bae8e26226a0d32bc90a53" localtype="folder"
+                parent="aspace_0d3c62eff2a9c767ccad388cc549d968">24</container>
+            </did>
+          </c03>
+          <c03 id="aspace_0b0271210b0ae64bfcc6e5cf45f8b5b5" level="file">
+            <did>
+              <unittitle>Canvas committee</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1953">1953</fromdate>
+                  <todate standarddate="1958">1958</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1953-1958</unitdate>
+              <container id="aspace_0cda644fccbb49d6d787eceb680526a6" label="Mixed Materials"
+                localtype="box">1</container>
+              <container id="aspace_11c0f4bf50b13b82e29915aeb4a4c8b2" localtype="folder"
+                parent="aspace_0cda644fccbb49d6d787eceb680526a6">25</container>
+            </did>
+          </c03>
+          <c03 id="aspace_859bf607db41e667d8f5bb3f6500b92d" level="file">
+            <did>
+              <unittitle>Committee records</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1954">1954</fromdate>
+                  <todate standarddate="1955">1955</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1954-1955</unitdate>
+              <container id="aspace_6d9efca6b944e4b03cdd4214760d62fb" label="Mixed Materials"
+                localtype="box">1</container>
+              <container id="aspace_188e72a1fb7feac290a181d6c416e19d" localtype="folder"
+                parent="aspace_6d9efca6b944e4b03cdd4214760d62fb">26</container>
+            </did>
+          </c03>
+          <c03 id="aspace_046efbb5805a0e260d71b10dec775efa" level="file">
+            <did>
+              <unittitle>Committee records</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <datesingle standarddate="1956">1956</datesingle>
+              </unitdatestructured>
+              <container id="aspace_39705702b9bdb4fc1bb6f4cdfce9f275" label="Mixed Materials"
+                localtype="box">1</container>
+              <container id="aspace_51206bd05f7d9ce08f017c61117198cb" localtype="folder"
+                parent="aspace_39705702b9bdb4fc1bb6f4cdfce9f275">27</container>
+            </did>
+          </c03>
+          <c03 id="aspace_86716767d56232dd7f77368f1b50383c" level="file">
+            <did>
+              <unittitle>Committee records</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <datesingle standarddate="1957">1957</datesingle>
+              </unitdatestructured>
+              <container id="aspace_46a444409df1b524609ec5317f661a0c" label="Mixed Materials"
+                localtype="box">1</container>
+              <container id="aspace_f6be8b1b0bd0e7f5980b7d2d452ec8a7" localtype="folder"
+                parent="aspace_46a444409df1b524609ec5317f661a0c">28</container>
+            </did>
+          </c03>
+          <c03 id="aspace_2322f785918236bc34a278c0add747d7" level="file">
+            <did>
+              <unittitle>Correspondence</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1957">1957</fromdate>
+                  <todate standarddate="1978">1978</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1957-1978</unitdate>
+              <container id="aspace_7c6e41f507e7cec69d3082a421d4273d" label="Mixed Materials"
+                localtype="box">1</container>
+              <container id="aspace_04637d73b08b5055065f4ae126a54013" localtype="folder"
+                parent="aspace_7c6e41f507e7cec69d3082a421d4273d">29</container>
+            </did>
+          </c03>
+          <c03 id="aspace_b4d0b2546a0058491378f7a9206077c3" level="file">
+            <did>
+              <unittitle>Board of deacons</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1961">1961</fromdate>
+                  <todate standarddate="1962">1962</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1961-1962</unitdate>
+              <container id="aspace_f6f9f169e2a93aa89c53eb5994192290" label="Mixed Materials"
+                localtype="box">1</container>
+              <container id="aspace_5a090c950612f106422d44b2d900f85e" localtype="folder"
+                parent="aspace_f6f9f169e2a93aa89c53eb5994192290">30</container>
+            </did>
+          </c03>
+          <c03 id="aspace_38036c91ba9ee598586888edd7f0d4ae" level="file">
+            <did>
+              <unittitle>Committee records</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1962">1962</fromdate>
+                  <todate standarddate="1965">1965</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1962-1965</unitdate>
+              <container id="aspace_31bd4521878fa50e890be438a3d1877f" label="Mixed Materials"
+                localtype="box">1</container>
+              <container id="aspace_b899a25171bfedf11ffa36b5709dfca0" localtype="folder"
+                parent="aspace_31bd4521878fa50e890be438a3d1877f">31</container>
+            </did>
+          </c03>
+          <c03 id="aspace_eb97f7f212452d2d44f8740d7a26b3d4" level="file">
+            <did>
+              <unittitle>By-Laws</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1970">1970</fromdate>
+                  <todate standarddate="2009">2009</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1970, 1991, 1998,
+                2009</unitdate>
+              <container id="aspace_2117b6d94a67ed0888eb6ea48434cd4f" label="Mixed Materials"
+                localtype="box">1</container>
+              <container id="aspace_26cdd0f37824921b126997f5cc26df6d" localtype="folder"
+                parent="aspace_2117b6d94a67ed0888eb6ea48434cd4f">32</container>
+            </did>
+          </c03>
+          <c03 id="aspace_8e927aec7e883ba879e7fbe95f93f956" level="file">
+            <did>
+              <unittitle>Committee records</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1968">1968</fromdate>
+                  <todate standarddate="1970">1970</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1968-1970</unitdate>
+              <container id="aspace_5c29dd319180e26c5a1881c6811fc04c" label="Mixed Materials"
+                localtype="box">1</container>
+              <container id="aspace_8828120bce50dcfd877e5f44437dc1f0" localtype="folder"
+                parent="aspace_5c29dd319180e26c5a1881c6811fc04c">33</container>
+            </did>
+          </c03>
+          <c03 id="aspace_15c73eac36fe5365f9564da2c791ea0a" level="file">
+            <did>
+              <unittitle>Committee records</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1978">1978</fromdate>
+                  <todate standarddate="1983">1983</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1971</unitdate>
+              <container id="aspace_a7444bad2414b7561bc42a42482639a1" label="Mixed Materials"
+                localtype="box">1</container>
+              <container id="aspace_5b52490056b01328726ba65bbbce402c" localtype="folder"
+                parent="aspace_a7444bad2414b7561bc42a42482639a1">34</container>
+            </did>
+          </c03>
+          <c03 id="aspace_c67c66a3a5110ef7054dd3ad3d9b5b72" level="file">
+            <did>
+              <unittitle>Committee records</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <datesingle standarddate="1972">1972</datesingle>
+              </unitdatestructured>
+              <container id="aspace_c327e49a4e4cc1c31f2b45a53cec5e98" label="Mixed Materials"
+                localtype="box">1</container>
+              <container id="aspace_28a39b9eff544891c97b37ea5d04572c" localtype="folder"
+                parent="aspace_c327e49a4e4cc1c31f2b45a53cec5e98">35</container>
+            </did>
+          </c03>
+          <c03 id="aspace_4206664929b3da164c2e7f418e411447" level="file">
+            <did>
+              <unittitle>Committee records</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1973">1973</fromdate>
+                  <todate standarddate="1974">1974</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1973-1974</unitdate>
+              <container id="aspace_bb29d0f450c1472bc2d93b4150289acb" label="Mixed Materials"
+                localtype="box">1</container>
+              <container id="aspace_e7a8607f506b323e76e6e25ffe79b8fa" localtype="folder"
+                parent="aspace_bb29d0f450c1472bc2d93b4150289acb">36</container>
+            </did>
+          </c03>
+          <c03 id="aspace_894802f927186686019d8acaad3fe9da" level="file">
+            <did>
+              <unittitle>Committee records</unittitle>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1975-1978</unitdate>
+              <container id="aspace_9f5c059f610854e68ddd7e50eeeff562" label="Mixed Materials"
+                localtype="box">2</container>
+              <container id="aspace_767a19f3dc45596b776ca8c39ea0af6c" localtype="folder"
+                parent="aspace_9f5c059f610854e68ddd7e50eeeff562">1</container>
+            </did>
+          </c03>
+          <c03 id="aspace_60c57b70e064e83e49b6a3c96bfd455a" level="file">
+            <did>
+              <unittitle>Committee records</unittitle>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1979-1980</unitdate>
+              <container id="aspace_1de689bfa18e0c5ab60244f47b9f82b6" label="Mixed Materials"
+                localtype="box">2</container>
+              <container id="aspace_872b042454df31e70ee5a12ec19becc0" localtype="folder"
+                parent="aspace_1de689bfa18e0c5ab60244f47b9f82b6">2</container>
+            </did>
+          </c03>
+          <c03 id="aspace_e1ce68ee9293fe2703f39c25bfa4a02a" level="file">
+            <did>
+              <unittitle>Committee records</unittitle>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1981-1982</unitdate>
+              <container id="aspace_069303f26ec690ebb40d99941ea49df5" label="Mixed Materials"
+                localtype="box">2</container>
+              <container id="aspace_a2341ab93700ce59e01cb3d97d4ade0a" localtype="folder"
+                parent="aspace_069303f26ec690ebb40d99941ea49df5">3</container>
+            </did>
+          </c03>
+        </c02>
+        <c02 id="aspace_9c4a806714c9beb25c5d22a7a17d46f0" level="subseries">
+          <did>
+            <unittitle>Ministers</unittitle>
+            <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+              <quantity>7</quantity>
+              <unittype>Folders</unittype>
+            </physdescstructured>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1878">1878</fromdate>
+                <todate standarddate="1989">1989</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1878-1989</unitdate>
+          </did>
+          <scopecontent id="aspace_7aaf553f5dd8076ca0077a8c8388c602">
+            <head>Scope and Contents</head>
+            <p>This series includes pastoral search committee records, installation information and
+              records of Samuel C. Bushnell and Edward A. Morris.</p>
+          </scopecontent>
+          <c03 id="aspace_e518898bc6a179d341876485a925edb0" level="file">
+            <did>
+              <unittitle>Installations</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1878">1878</fromdate>
+                  <todate standarddate="1900">1900</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1878-1900</unitdate>
+              <container id="aspace_567cf0334741ac49ef4680249f0ae451" label="Mixed Materials"
+                localtype="box">2</container>
+              <container id="aspace_78119f105ac933d2614e1c7fa6d3c037" localtype="folder"
+                parent="aspace_567cf0334741ac49ef4680249f0ae451">4</container>
+            </did>
+          </c03>
+          <c03 id="aspace_531454245efc694cb50b550f1112e81b" level="file">
+            <did>
+              <unittitle>Minister Samuel C. Bushnell's scrapbook</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1890">1890</fromdate>
+                  <todate standarddate="1920">1920</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1890-1920</unitdate>
+              <container id="aspace_40ddef4c815d774074cd193545368424" label="Mixed Materials"
+                localtype="box">2</container>
+              <container id="aspace_21fabc3ed9f286e60f793b2234ac7733" localtype="folder"
+                parent="aspace_40ddef4c815d774074cd193545368424">5</container>
+            </did>
+          </c03>
+          <c03 id="aspace_47aecfa9d93830d669f3b743d2c2f748" level="file">
+            <did>
+              <unittitle>Ministers</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1889">1889</fromdate>
+                  <todate standarddate="1940">1940</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1889-1890, 1940</unitdate>
+              <container id="aspace_cc8f9d0dbd09e72381b187345f0c0303" label="Mixed Materials"
+                localtype="box">2</container>
+              <container id="aspace_057dd73e717006df20271395f15d3ee7" localtype="folder"
+                parent="aspace_cc8f9d0dbd09e72381b187345f0c0303">6</container>
+            </did>
+          </c03>
+          <c03 id="aspace_09e256401e6799d79e8b767f7fc88000" level="file">
+            <did>
+              <unittitle>Installations</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1915">1915</fromdate>
+                  <todate standarddate="1989">1989</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1915-1989</unitdate>
+              <container id="aspace_4e52de6e8eafba876ddcf822d03155b7" label="Mixed Materials"
+                localtype="box">2</container>
+              <container id="aspace_8ab41ca8d4c69f7ca9a355d2495021e4" localtype="folder"
+                parent="aspace_4e52de6e8eafba876ddcf822d03155b7">7</container>
+            </did>
+          </c03>
+          <c03 id="aspace_840d93e32e3f37d0333173716c519e77" level="file">
+            <did>
+              <unittitle> Minister Samuel C. Bushnell's scrapbook</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1916">1916</fromdate>
+                  <todate standarddate="1946">1946</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1916-1946</unitdate>
+              <container id="aspace_4a227210bcef91396ac41dabae093b3e" label="Mixed Materials"
+                localtype="box">2</container>
+              <container id="aspace_6e59adebb583bfb7a17e4290d7f7dae3" localtype="folder"
+                parent="aspace_4a227210bcef91396ac41dabae093b3e">8</container>
+            </did>
+          </c03>
+          <c03 id="aspace_242d7d867f6b8d2890603b1b503e4d0f" level="file">
+            <did>
+              <unittitle>Pastoral Search Committee</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1968">1968</fromdate>
+                  <todate standarddate="1976">1976</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1968-1976</unitdate>
+              <container id="aspace_7d05ba07f981b7a086aa99cb2083c33e" label="Mixed Materials"
+                localtype="box">2</container>
+              <container id="aspace_f3a041d7b37c414094bdf8d39d08791b" localtype="folder"
+                parent="aspace_7d05ba07f981b7a086aa99cb2083c33e">9</container>
+            </did>
+          </c03>
+          <c03 id="aspace_d9ea528abc944148627606884bcd8dd4" level="file">
+            <did>
+              <unittitle>Minister Edward A. Morris</unittitle>
+              <unitdatestructured unitdatetype="inclusive">
+                <datesingle standarddate="1980">1980</datesingle>
+              </unitdatestructured>
+              <container id="aspace_0ddbdffd3166d2c6f52d8c40658d2122" label="Mixed Materials"
+                localtype="box">2</container>
+              <container id="aspace_02c6715d2fa68ec4a40219dc003354d0" localtype="folder"
+                parent="aspace_0ddbdffd3166d2c6f52d8c40658d2122">10</container>
+            </did>
+          </c03>
+        </c02>
+        <c02 id="aspace_65cf81ba84b86366580c797adfa279b1" level="subseries">
+          <did>
+            <unittitle>Auxiliary organizations and events</unittitle>
+            <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+              <quantity>11</quantity>
+              <unittype>Folders</unittype>
+            </physdescstructured>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1899">1899</fromdate>
+                <todate standarddate="2010">2010</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1899, 1937-2010</unitdate>
+          </did>
+          <scopecontent id="aspace_800bd133ed6c28443ded9ee49b4602e7">
+            <head>Scope and Contents</head>
+            <p>This series includes the records for church organizations and events, such as the
+              annual Craigville retreat, Homecoming Sunday, Sunday School, musical events and the
+              Pageant of the Brides.</p>
+          </scopecontent>
+          <c03 id="aspace_cbdf6e43e20c6e9f40659c3c664a7d1a" level="file">
+            <did>
+              <unittitle>Choir, organ and musical events</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1899">1899</fromdate>
+                  <todate standarddate="2010">2010</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1899, 1973-2010</unitdate>
+              <container id="aspace_d47000cf2cbb93da6a2844d858b74f81" label="Mixed Materials"
+                localtype="box">2</container>
+              <container id="aspace_ceefddb225b057d34508d5656cd33cee" localtype="folder"
+                parent="aspace_d47000cf2cbb93da6a2844d858b74f81">11</container>
+            </did>
+          </c03>
+          <c03 id="aspace_3acfa9302d17a4c87105745f40093da7" level="file">
+            <did>
+              <unittitle>Pageant of the Brides</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1937">1937</fromdate>
+                  <todate standarddate="1950">1950</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1937-1950</unitdate>
+              <container id="aspace_0d29f388b6fd39bcef5c7ab9df8d9a6d" label="Mixed Materials"
+                localtype="box">2</container>
+              <container id="aspace_08fc21b435eda29c57ac7a82f1b6b233" localtype="folder"
+                parent="aspace_0d29f388b6fd39bcef5c7ab9df8d9a6d">12</container>
+            </did>
+          </c03>
+          <c03 id="aspace_bbdcb5286afcc0709a57f937e21636df" level="file">
+            <did>
+              <unittitle>Education and Sunday School</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1956">1956</fromdate>
+                  <todate standarddate="1970">1970</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1956-1970</unitdate>
+              <container id="aspace_05dde8aff0c8c8756c8001693958edf1" label="Mixed Materials"
+                localtype="box">2</container>
+              <container id="aspace_daff6a7dd41f223495b3f8d66156985c" localtype="folder"
+                parent="aspace_05dde8aff0c8c8756c8001693958edf1">13</container>
+            </did>
+          </c03>
+          <c03 id="aspace_19f7ef955a044ddce640fd350f1ce7fa" level="file">
+            <did>
+              <unittitle>Events</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1956">1956</fromdate>
+                  <todate standarddate="1979">1979</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1956-1979</unitdate>
+              <container id="aspace_ac4ab04c7407001f619132ec617d3d65" label="Mixed Materials"
+                localtype="box">2</container>
+              <container id="aspace_aa59e996ca482e35999165e61a3373e3" localtype="folder"
+                parent="aspace_ac4ab04c7407001f619132ec617d3d65">14</container>
+            </did>
+          </c03>
+          <c03 id="aspace_82e6949ef954d863d24ab0e22c5691b7" level="file">
+            <did>
+              <unittitle>Church World Service Day and Cuban refugees</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <datesingle standarddate="1963">1963</datesingle>
+              </unitdatestructured>
+              <container id="aspace_3ad15101f6be069454fcbcb56f45c7dd" label="Mixed Materials"
+                localtype="box">2</container>
+              <container id="aspace_85f2821327273875d481df53d2dc4eed" localtype="folder"
+                parent="aspace_3ad15101f6be069454fcbcb56f45c7dd">15</container>
+            </did>
+          </c03>
+          <c03 id="aspace_41eb34535ff1d4f9f565c5dfe5f4cd64" level="file">
+            <did>
+              <unittitle>Homecoming Sunday</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <datesingle standarddate="1973">1973</datesingle>
+              </unitdatestructured>
+              <container id="aspace_26e8ee2c384054806caa88b3e72d5f6f" label="Mixed Materials"
+                localtype="box">2</container>
+              <container id="aspace_a4a1958449ec12a45f4068d90958457b" localtype="folder"
+                parent="aspace_26e8ee2c384054806caa88b3e72d5f6f">16</container>
+            </did>
+          </c03>
+          <c03 id="aspace_1c7a36d65f251526a27bb0d1c8886b58" level="file">
+            <did>
+              <unittitle>Craigville retreat</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1973">1973</fromdate>
+                  <todate standarddate="1978">1978</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1973-1978</unitdate>
+              <container id="aspace_c74735dc49672ea428698d78ceb27938" label="Mixed Materials"
+                localtype="box">2</container>
+              <container id="aspace_b358384a88bebf756e8f0c363e21068d" localtype="folder"
+                parent="aspace_c74735dc49672ea428698d78ceb27938">17</container>
+            </did>
+          </c03>
+          <c03 id="aspace_1b563c7e1a53ff5005c223cfae2f84a9" level="file">
+            <did>
+              <unittitle>Craigville retreat</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1979">1979</fromdate>
+                  <todate standarddate="1980">1980</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1979-1980</unitdate>
+              <container id="aspace_26a25a4571a4237095e110e1a5d421de" label="Mixed Materials"
+                localtype="box">2</container>
+              <container id="aspace_97be88b2d3f3a8d4e35716f588199979" localtype="folder"
+                parent="aspace_26a25a4571a4237095e110e1a5d421de">18</container>
+            </did>
+          </c03>
+          <c03 id="aspace_07b5ae77a32d64df3f37684135bb21bb" level="file">
+            <did>
+              <unittitle>Craigville retreat</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <datesingle standarddate="1981">1981</datesingle>
+              </unitdatestructured>
+              <container id="aspace_16e001ff59bc26938709ade48ec76114" label="Mixed Materials"
+                localtype="box">2</container>
+              <container id="aspace_d331ff1ea046ad2ccb4a525b85eb6024" localtype="folder"
+                parent="aspace_16e001ff59bc26938709ade48ec76114">19</container>
+            </did>
+          </c03>
+          <c03 id="aspace_c9543fe6633576ecf57853d8eb85738c" level="file">
+            <did>
+              <unittitle>Craigville retreat</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1982">1982</fromdate>
+                  <todate standarddate="1984">1984</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1982-1984</unitdate>
+              <container id="aspace_6dad878848f879d3aa0e3a4cb3a38553" label="Mixed Materials"
+                localtype="box">2</container>
+              <container id="aspace_349d532dc11b764477bd2644552ad724" localtype="folder"
+                parent="aspace_6dad878848f879d3aa0e3a4cb3a38553">20</container>
+            </did>
+          </c03>
+          <c03 id="aspace_d0aceb590ec09b17074b70b265b4cfcf" level="file">
+            <did>
+              <unittitle>Craigville evaluations and registrations</unittitle>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_c41a2eac47442b03dfa19e4776c967ce" label="Mixed Materials"
+                localtype="box">2</container>
+              <container id="aspace_544c2008ac49c2c89c447c94b13d8a53" localtype="folder"
+                parent="aspace_c41a2eac47442b03dfa19e4776c967ce">21</container>
+            </did>
+          </c03>
+        </c02>
+        <c02 id="aspace_ce28b57f84173ba323935792039462d1" level="subseries">
+          <did>
+            <unittitle>Historical Information</unittitle>
+            <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+              <quantity>13</quantity>
+              <unittype>Folders</unittype>
+            </physdescstructured>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1901">1901</fromdate>
+                <todate standarddate="2004">2004</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1901-2004</unitdate>
+          </did>
+          <scopecontent id="aspace_2e18c278ea80af8afb2f10e4bc0f1ec0">
+            <head>Scope and Contents</head>
+            <p>This series includes historical information such as church scrapbooks, newspaper
+              clippings and anniversary material.</p>
+          </scopecontent>
+          <c03 id="aspace_462bf7558c98e55a633b8c548a4e03d0" level="file">
+            <did>
+              <unittitle>Newspaper clippings</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1901">1901</fromdate>
+                  <todate standarddate="2004">2004</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1901-2004</unitdate>
+              <container id="aspace_f641147878467d32848fc06134d46282" label="Mixed Materials"
+                localtype="box">1</container>
+              <container id="aspace_4eb18d5e02567d5fe18c303c7c905b03" localtype="folder"
+                parent="aspace_f641147878467d32848fc06134d46282">5</container>
+            </did>
+          </c03>
+          <c03 id="aspace_5d70a31d81d626ae5c409e7c9f87f3d8" level="file">
+            <did>
+              <unittitle>Church scrapbook</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1937">1937</fromdate>
+                  <todate standarddate="1952">1952</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1937-1952</unitdate>
+              <container id="aspace_e7030eb4afdd3a104d8e047d2be32858" label="Mixed Materials"
+                localtype="box">1</container>
+              <container id="aspace_132c16ebec044633025ed4237007a717" localtype="folder"
+                parent="aspace_e7030eb4afdd3a104d8e047d2be32858">6</container>
+            </did>
+          </c03>
+          <c03 id="aspace_cd3b7ab9b3b1d2e4c58d4ee5a2ed5fc0" level="file">
+            <did>
+              <unittitle>Church scrapbook</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1953">1953</fromdate>
+                  <todate standarddate="1954">1954</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1953-1954</unitdate>
+              <container id="aspace_b431dcfa65811bba61e5abb5a8b21a66" label="Mixed Materials"
+                localtype="box">1</container>
+              <container id="aspace_89eb22ea3a21b4c8dc8d8c8ec61544e6" localtype="folder"
+                parent="aspace_b431dcfa65811bba61e5abb5a8b21a66">7</container>
+            </did>
+          </c03>
+          <c03 id="aspace_56bd5c32879791df6ab4bc79cd15ca98" level="file">
+            <did>
+              <unittitle>Church scrapbook</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1954">1954</fromdate>
+                  <todate standarddate="1955">1955</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1954-1955</unitdate>
+              <container id="aspace_4b15c4443db1ecc955109a8c6fb8f93f" label="Mixed Materials"
+                localtype="box">1</container>
+              <container id="aspace_5412dbcf01eaea835d4134d95bc97b87" localtype="folder"
+                parent="aspace_4b15c4443db1ecc955109a8c6fb8f93f">8</container>
+            </did>
+          </c03>
+          <c03 id="aspace_b1e1a83e162edf7eba128d1ba89b116e" level="file">
+            <did>
+              <unittitle>Church scrapbook</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1962">1962</fromdate>
+                  <todate standarddate="1974">1974</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1962-1974</unitdate>
+              <container id="aspace_549a30ae78c4c11262ce73f781192242" label="Mixed Materials"
+                localtype="box">1</container>
+              <container id="aspace_22040d87ed485ae392c1d964a4d86900" localtype="folder"
+                parent="aspace_549a30ae78c4c11262ce73f781192242">9</container>
+            </did>
+          </c03>
+          <c03 id="aspace_8e922711a3b593eaa31ea14950142d76" level="file">
+            <did>
+              <unittitle>Church scrapbook</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1974">1974</fromdate>
+                  <todate standarddate="1978">1978</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1974-1978</unitdate>
+              <container id="aspace_c6fe414beb294af322e3c428cf5483dd" label="Mixed Materials"
+                localtype="box">1</container>
+              <container id="aspace_e71bde706870a2208e4ed3775d3449ae" localtype="folder"
+                parent="aspace_c6fe414beb294af322e3c428cf5483dd">10</container>
+            </did>
+          </c03>
+          <c03 id="aspace_16cc67eb28ac3b57559c4f6020ed4e3e" level="file">
+            <did>
+              <unittitle>125th anniversary</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <datesingle standarddate="1967">1967</datesingle>
+              </unitdatestructured>
+              <container id="aspace_f38e44970907d03e113abda4ee74422d" label="Mixed Materials"
+                localtype="box">1</container>
+              <container id="aspace_226e336a1d9a59c82ef6e6bf437941cc" localtype="folder"
+                parent="aspace_f38e44970907d03e113abda4ee74422d">11</container>
+            </did>
+          </c03>
+          <c03 id="aspace_a063c6bc366e41ef51159ee4d8944e69" level="file">
+            <did>
+              <unittitle>Dedications for stained glass windows</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <datesingle standarddate="1974">1974</datesingle>
+              </unitdatestructured>
+              <container id="aspace_f6036b4526f93f393036d35d62c8224e" label="Mixed Materials"
+                localtype="box">1</container>
+              <container id="aspace_0e18b567f32fd65315c1d8e072651d1e" localtype="folder"
+                parent="aspace_f6036b4526f93f393036d35d62c8224e">12</container>
+            </did>
+          </c03>
+          <c03 id="aspace_3ca27fe05610cbc390d595fe8a67444a" level="file">
+            <did>
+              <unittitle>Silver appraisal</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <datesingle standarddate="1976">1976</datesingle>
+              </unitdatestructured>
+              <container id="aspace_7e659bbc88d726606aaa60700e435683" label="Mixed Materials"
+                localtype="box">1</container>
+              <container id="aspace_f8bd806e7fdc32ed5c489d80928f1fd3" localtype="folder"
+                parent="aspace_7e659bbc88d726606aaa60700e435683">13</container>
+            </did>
+          </c03>
+          <c03 id="aspace_6fb9a65debb35e3a11619fb1cb0acca1" level="file">
+            <did>
+              <unittitle>Church scrapbook</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1986">1986</fromdate>
+                  <todate standarddate="1987">1987</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1986-1987</unitdate>
+              <container id="aspace_5b42c8046d55e50b2821376c7bf4495f" label="Mixed Materials"
+                localtype="box">1</container>
+              <container id="aspace_d33338068ae890e67e416d8cce98cb56" localtype="folder"
+                parent="aspace_5b42c8046d55e50b2821376c7bf4495f">14</container>
+            </did>
+          </c03>
+          <c03 id="aspace_f61e94b0fab8b7fcc0d8608302417b45" level="file">
+            <did>
+              <unittitle>Church scrapbook</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1987">1987</fromdate>
+                  <todate standarddate="1988">1988</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1987-1988</unitdate>
+              <container id="aspace_0ebbe1eef14675a3cfd0151b91693f3f" label="Mixed Materials"
+                localtype="box">1</container>
+              <container id="aspace_264ca79d16ec7aa9b2cb1738390ca0db" localtype="folder"
+                parent="aspace_0ebbe1eef14675a3cfd0151b91693f3f">15</container>
+            </did>
+          </c03>
+          <c03 id="aspace_89d35e7b223fb732ffa1c0ab77c85a3a" level="file">
+            <did>
+              <unittitle>Church scrapbook</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1988">1988</fromdate>
+                  <todate standarddate="1989">1989</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1988-1989</unitdate>
+              <container id="aspace_d3841d9789e7f60af8f1367ac517bbc6" label="Mixed Materials"
+                localtype="box">1</container>
+              <container id="aspace_9d94aa191fa6efd245dbc6b67169eef3" localtype="folder"
+                parent="aspace_d3841d9789e7f60af8f1367ac517bbc6">16</container>
+            </did>
+          </c03>
+          <c03 id="aspace_54827679ac1c4887271582f3beb36c50" level="file">
+            <did>
+              <unittitle>150th anniversary</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1992">1992</fromdate>
+                  <todate standarddate="1993">1993</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1992-1993</unitdate>
+              <container id="aspace_d05cd44805fce33e68010687adf62166" label="Mixed Materials"
+                localtype="box">1</container>
+              <container id="aspace_fc63f66b790336b447b05c012bf3fc6e" localtype="folder"
+                parent="aspace_d05cd44805fce33e68010687adf62166">17</container>
+            </did>
+          </c03>
+        </c02>
+        <c02 id="aspace_6e741feea4b5250195a88e82a122f779" level="subseries">
+          <did>
+            <unittitle>Printed materials</unittitle>
+            <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+              <quantity>27</quantity>
+              <unittype>Folders</unittype>
+            </physdescstructured>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1901">1901</fromdate>
+                <todate standarddate="2007">2007</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1901-2007</unitdate>
+          </did>
+          <scopecontent id="aspace_f2b0f94a9ae1510b3585eff68c7eda62">
+            <head>Scope and Contents</head>
+            <p>This series contains printed materials, including church services, the newsletter
+              "The Banner" and some older newsletters from before the start of "The Banner".</p>
+          </scopecontent>
+          <c03 id="aspace_287985e0a12354c502622da2c9c19e93" level="file">
+            <did>
+              <unittitle>Church services</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1901">1901</fromdate>
+                  <todate standarddate="1934">1934</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1901-1934</unitdate>
+              <container id="aspace_4ff370133b46e32c2d52ccddb617a911" label="Mixed Materials"
+                localtype="box">2</container>
+              <container id="aspace_5d15a5140c5b43fd296ae407959da0cd" localtype="folder"
+                parent="aspace_4ff370133b46e32c2d52ccddb617a911">22</container>
+            </did>
+          </c03>
+          <c03 id="aspace_c3a21b665c1930058c45eaaee1dbf5db" level="file">
+            <did>
+              <unittitle>Church services</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1936">1936</fromdate>
+                  <todate standarddate="1942">1942</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1936-1942</unitdate>
+              <container id="aspace_ecc6cbbaa90837cfa5ebd7d1bfe22eb5" label="Mixed Materials"
+                localtype="box">2</container>
+              <container id="aspace_1a0605e8fee242835bd083600654cad4" localtype="folder"
+                parent="aspace_ecc6cbbaa90837cfa5ebd7d1bfe22eb5">23</container>
+            </did>
+          </c03>
+          <c03 id="aspace_3d85032d11b70849fb76aa7e9d6aea53" level="file">
+            <did>
+              <unittitle>Church services</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1942">1942</fromdate>
+                  <todate standarddate="1948">1948</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1942-1948</unitdate>
+              <container id="aspace_362d1de5743a3e5dee89d609fd016340" label="Mixed Materials"
+                localtype="box">2</container>
+              <container id="aspace_076706d24fa629697005841b724757a2" localtype="folder"
+                parent="aspace_362d1de5743a3e5dee89d609fd016340">24</container>
+            </did>
+          </c03>
+          <c03 id="aspace_479ea2873dd7a7cd30347c881f19e089" level="file">
+            <did>
+              <unittitle>Church services</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1949">1949</fromdate>
+                  <todate standarddate="1954">1954</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1949-1954</unitdate>
+              <container id="aspace_7f4d5ca42c25edef4c1b97723157b3f9" label="Mixed Materials"
+                localtype="box">2</container>
+              <container id="aspace_c0fe59b2ba946b203034643fed1f1771" localtype="folder"
+                parent="aspace_7f4d5ca42c25edef4c1b97723157b3f9">25</container>
+            </did>
+          </c03>
+          <c03 id="aspace_6e17dc3e2f183cc3a10853d681a0fd05" level="file">
+            <did>
+              <unittitle>Church services</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <datesingle standarddate="1955">1955</datesingle>
+              </unitdatestructured>
+              <container id="aspace_17230cd2536cf4e8e79c6769eedf3284" label="Mixed Materials"
+                localtype="box">2</container>
+              <container id="aspace_79d8b1ca62f7bbda893276cad085b6d8" localtype="folder"
+                parent="aspace_17230cd2536cf4e8e79c6769eedf3284">26</container>
+            </did>
+          </c03>
+          <c03 id="aspace_191b412ede0614844eaa3771360d845e" level="file">
+            <did>
+              <unittitle>Church services</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1956">1956</fromdate>
+                  <todate standarddate="1957">1957</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1956-1957</unitdate>
+              <container id="aspace_5e6f7b6fd5fb3709235211e9531e36f6" label="Mixed Materials"
+                localtype="box">2</container>
+              <container id="aspace_61f47ed507a1447ca1a13e24bf0a081e" localtype="folder"
+                parent="aspace_5e6f7b6fd5fb3709235211e9531e36f6">27</container>
+            </did>
+          </c03>
+          <c03 id="aspace_43fd927efc8e9df6e58f903f37f32fe3" level="file">
+            <did>
+              <unittitle>Church services</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1957">1957</fromdate>
+                  <todate standarddate="1960">1960</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1957-1960</unitdate>
+              <container id="aspace_0783f1f307467e1a6bfc1bfa36b165e6" label="Mixed Materials"
+                localtype="box">2</container>
+              <container id="aspace_b6cca3a8d45fcd942e07f827f27b2973" localtype="folder"
+                parent="aspace_0783f1f307467e1a6bfc1bfa36b165e6">28</container>
+            </did>
+          </c03>
+          <c03 id="aspace_1a90937676dd4d842379b3cbef43602b" level="file">
+            <did>
+              <unittitle>Church services</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1961">1961</fromdate>
+                  <todate standarddate="1963">1963</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1961-1963</unitdate>
+              <container id="aspace_3186f22c6f8b64f09c292dad8a09a863" label="Mixed Materials"
+                localtype="box">2</container>
+              <container id="aspace_63a9c4feb4dc4836c64fbeb1ff4a98fe" localtype="folder"
+                parent="aspace_3186f22c6f8b64f09c292dad8a09a863">29</container>
+            </did>
+          </c03>
+          <c03 id="aspace_6c3e2769df76861befa16d1f71e0abf3" level="file">
+            <did>
+              <unittitle>Church services</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1973">1973</fromdate>
+                  <todate standarddate="1981">1981</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1973-1981</unitdate>
+              <container id="aspace_7cbcacd2514f98433d95b983e5e68826" label="Mixed Materials"
+                localtype="box">2</container>
+              <container id="aspace_8f92a8ee6643021ba190cac0eab7603d" localtype="folder"
+                parent="aspace_7cbcacd2514f98433d95b983e5e68826">30</container>
+            </did>
+          </c03>
+          <c03 id="aspace_0f3110d31280d1ea85cc22b683f88d7d" level="file">
+            <did>
+              <unittitle>Church newsletters</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1948">1948</fromdate>
+                  <todate standarddate="1950">1950</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1948-1950</unitdate>
+              <container id="aspace_31275806df228ddcbba92a2796e4b6b1" label="Mixed Materials"
+                localtype="box">2</container>
+              <container id="aspace_a8250c3d9d1bdfa3da9df95408b4b516" localtype="folder"
+                parent="aspace_31275806df228ddcbba92a2796e4b6b1">31</container>
+            </did>
+          </c03>
+          <c03 id="aspace_ca7dd940a3622a31c89cbb24040abdc1" level="file">
+            <did>
+              <unittitle>The Banner</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1967">1967</fromdate>
+                  <todate standarddate="1970">1970</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1967-1970</unitdate>
+              <container id="aspace_1393dbde9fd00147fd10cb4dd3fde486" label="Mixed Materials"
+                localtype="box">2</container>
+              <container id="aspace_cf9582d321a510534ae69cfbd30f1d6e" localtype="folder"
+                parent="aspace_1393dbde9fd00147fd10cb4dd3fde486">32</container>
+            </did>
+          </c03>
+          <c03 id="aspace_80a7da6881912f4907feeb1b819001c7" level="file">
+            <did>
+              <unittitle>The Banner</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1970">1970</fromdate>
+                  <todate standarddate="1972">1972</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1970-1972</unitdate>
+              <container id="aspace_1825a2ff76cde67c189546ad8a587a09" label="Mixed Materials"
+                localtype="box">2</container>
+              <container id="aspace_ad07c875e907690585485b2a034b7383" localtype="folder"
+                parent="aspace_1825a2ff76cde67c189546ad8a587a09">33</container>
+            </did>
+          </c03>
+          <c03 id="aspace_149803ce871c6acb87378b373c8708b0" level="file">
+            <did>
+              <unittitle>The Banner</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1972">1972</fromdate>
+                  <todate standarddate="1975">1975</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1972-1975</unitdate>
+              <container id="aspace_e5ccd14f837fe3fa1ca4d0bacdadeb32" label="Mixed Materials"
+                localtype="box">2</container>
+              <container id="aspace_830e36f60c5cc31fdca3efd2ba8e9a22" localtype="folder"
+                parent="aspace_e5ccd14f837fe3fa1ca4d0bacdadeb32">34</container>
+            </did>
+          </c03>
+          <c03 id="aspace_f62291a3726458c1007fa7e15d88ac09" level="file">
+            <did>
+              <unittitle>The Banner</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1975">1975</fromdate>
+                  <todate standarddate="1977">1977</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1975-1977</unitdate>
+              <container id="aspace_531c05a1a3be6072b00b27bc502b15c9" label="Mixed Materials"
+                localtype="box">2</container>
+              <container id="aspace_61672b9126f1530a1ce1c5fe5c949e1a" localtype="folder"
+                parent="aspace_531c05a1a3be6072b00b27bc502b15c9">35</container>
+            </did>
+          </c03>
+          <c03 id="aspace_a4dbee6790d39dbaf8402b9122e4f236" level="file">
+            <did>
+              <unittitle>The Banner</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1978">1978</fromdate>
+                  <todate standarddate="1980">1980</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1978-1980</unitdate>
+              <container id="aspace_c248562e683f05f01e77c4ef53caae55" label="Mixed Materials"
+                localtype="box">2</container>
+              <container id="aspace_3c4d309e432cdaea5e5d45db1315237a" localtype="folder"
+                parent="aspace_c248562e683f05f01e77c4ef53caae55">36</container>
+            </did>
+          </c03>
+          <c03 id="aspace_131403db70198db35e0bbdb375ffa000" level="file">
+            <did>
+              <unittitle>The Banner</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1981">1981</fromdate>
+                  <todate standarddate="1983">1983</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1981-1983</unitdate>
+              <container id="aspace_7e2e5652f9cc7c11913012ef8034b0a7" label="Mixed Materials"
+                localtype="box">2</container>
+              <container id="aspace_73e885c18446749398b1395e27ea21f3" localtype="folder"
+                parent="aspace_7e2e5652f9cc7c11913012ef8034b0a7">37</container>
+            </did>
+          </c03>
+          <c03 id="aspace_4538a5e5c17af8cde151f578803be135" level="file">
+            <did>
+              <unittitle>The Banner</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1984">1984</fromdate>
+                  <todate standarddate="1986">1986</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1984-1986</unitdate>
+              <container id="aspace_189365b245ad1d484fe9362010a040d5" label="Mixed Materials"
+                localtype="box">2</container>
+              <container id="aspace_909814f4fac1481fd8cdac8079bf86ea" localtype="folder"
+                parent="aspace_189365b245ad1d484fe9362010a040d5">38</container>
+            </did>
+          </c03>
+          <c03 id="aspace_9a09085ff5137c407a5c9485e2da2014" level="file">
+            <did>
+              <unittitle>The Banner</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1987">1987</fromdate>
+                  <todate standarddate="1989">1989</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1987-1989</unitdate>
+              <container id="aspace_f3c0d84e40e3b4141b1825d64020ffb0" label="Mixed Materials"
+                localtype="box">2</container>
+              <container id="aspace_36609bca4f89c1e240186297409b71be" localtype="folder"
+                parent="aspace_f3c0d84e40e3b4141b1825d64020ffb0">39</container>
+            </did>
+          </c03>
+          <c03 id="aspace_adcdfbf860b2d90bad5e9cd36905ef3a" level="file">
+            <did>
+              <unittitle>The Banner</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1989">1989</fromdate>
+                  <todate standarddate="1992">1992</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1989-1992</unitdate>
+              <container id="aspace_f92bcdbfb561c7f5ab2df6cdefd8e678" label="Mixed Materials"
+                localtype="box">2</container>
+              <container id="aspace_919dcdb484dcaef714ef67b7b374fdb5" localtype="folder"
+                parent="aspace_f92bcdbfb561c7f5ab2df6cdefd8e678">40</container>
+            </did>
+          </c03>
+          <c03 id="aspace_0be598009b9c6fb2cb8dc8737c0be20e" level="file">
+            <did>
+              <unittitle>The Banner</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1992">1992</fromdate>
+                  <todate standarddate="1995">1995</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1992-1995</unitdate>
+              <container id="aspace_8303ddc30e2e7e425791780730234cff" label="Mixed Materials"
+                localtype="box">3</container>
+              <container id="aspace_f609f4894415d7f8f158bd79bd0a9b79" localtype="folder"
+                parent="aspace_8303ddc30e2e7e425791780730234cff">1</container>
+            </did>
+          </c03>
+          <c03 id="aspace_bd29090544eafeab9c57e4d589e51bba" level="file">
+            <did>
+              <unittitle>The Banner</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1995">1995</fromdate>
+                  <todate standarddate="1998">1998</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1995-1998</unitdate>
+              <container id="aspace_bcbcd8b38eba9c3f5a7f57aa614b01cf" label="Mixed Materials"
+                localtype="box">3</container>
+              <container id="aspace_1367786f63a9b25e448e662c07c8663d" localtype="folder"
+                parent="aspace_bcbcd8b38eba9c3f5a7f57aa614b01cf">2</container>
+            </did>
+          </c03>
+          <c03 id="aspace_b23190ac650fcb83b3db0b4a38e2a374" level="file">
+            <did>
+              <unittitle>The Banner</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1998">1998</fromdate>
+                  <todate standarddate="2000">2000</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1998-2000</unitdate>
+              <container id="aspace_3d5496e841c0244a19e37124e770732b" label="Mixed Materials"
+                localtype="box">3</container>
+              <container id="aspace_1b344ddba1464ca2f96305eb1a085176" localtype="folder"
+                parent="aspace_3d5496e841c0244a19e37124e770732b">3</container>
+            </did>
+          </c03>
+          <c03 id="aspace_15974dfe97e1f47f58d6f6a095151e64" level="file">
+            <did>
+              <unittitle>The Banner</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <datesingle standarddate="2002"> 2002</datesingle>
+              </unitdatestructured>
+              <container id="aspace_a9699b926e7dbfe20956676349f15833" label="Mixed Materials"
+                localtype="box">3</container>
+              <container id="aspace_6ecddc252c4d37b78ef51f8ce001b310" localtype="folder"
+                parent="aspace_a9699b926e7dbfe20956676349f15833">4</container>
+            </did>
+          </c03>
+          <c03 id="aspace_4bfa41d8ada7e2f5b6f2cabd40c98dbc" level="file">
+            <did>
+              <unittitle>The Banner</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="2003">2003</fromdate>
+                  <todate standarddate="2005">2005</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">2003-2005</unitdate>
+              <container id="aspace_f4e6c56d63697b4e329cf37a948c1aaf" label="Mixed Materials"
+                localtype="box">3</container>
+              <container id="aspace_54b1d53ea63397be9b7a63bd5226796a" localtype="folder"
+                parent="aspace_f4e6c56d63697b4e329cf37a948c1aaf">5</container>
+            </did>
+          </c03>
+          <c03 id="aspace_46f68c1a707d8497c5bdfe6c8eb0fd2d" level="file">
+            <did>
+              <unittitle>The Banner</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="2005">2005</fromdate>
+                  <todate standarddate="2006">2006</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">2005-2006</unitdate>
+              <container id="aspace_cf8427fb9babb4674e7fa384f6abd353" label="Mixed Materials"
+                localtype="box">3</container>
+              <container id="aspace_93dade79a0597fdd1a62c47ae5d68a35" localtype="folder"
+                parent="aspace_cf8427fb9babb4674e7fa384f6abd353">6</container>
+            </did>
+          </c03>
+          <c03 id="aspace_6de918c23885e42547d194c1b6d102d8" level="file">
+            <did>
+              <unittitle>The Banner</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <datesingle standarddate="2007">2007</datesingle>
+              </unitdatestructured>
+              <container id="aspace_b8a305b42d397d264c699bd858b59dcc" label="Mixed Materials"
+                localtype="box">3</container>
+              <container id="aspace_6bb30521dc38978b491c3cda78bced7a" localtype="folder"
+                parent="aspace_b8a305b42d397d264c699bd858b59dcc">7</container>
+            </did>
+          </c03>
+          <c03 id="aspace_8f38ea0092415722206175591f5f17ec" level="file">
+            <did>
+              <unittitle>Church services for children</unittitle>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_a76932be0881b97506b9b75549acd30e" label="Mixed Materials"
+                localtype="box">3</container>
+              <container id="aspace_6cfde734462e3077617508da04ad6db3" localtype="folder"
+                parent="aspace_a76932be0881b97506b9b75549acd30e">8</container>
+            </did>
+          </c03>
+        </c02>
+        <c02 id="aspace_b8c8c450a0c8fb849707c6a3a520607f" level="subseries">
+          <did>
+            <unittitle>Annual reports</unittitle>
+            <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+              <quantity>17</quantity>
+              <unittype>Folders</unittype>
+            </physdescstructured>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1932">1932</fromdate>
+                <todate standarddate="2010">2010</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1932-2010</unitdate>
+          </did>
+          <scopecontent id="aspace_9d9ddbdc114b78c5a9b0d42de709174b">
+            <head>Scope and Contents</head>
+            <p>This sub-series contains the annual reports from Pleasant Street Congregational
+              Church.</p>
+          </scopecontent>
+          <c03 id="aspace_2a7635cb6d4d817043bbd0a7429e8b43" level="file">
+            <did>
+              <unittitle>Annual reports</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <datesingle standarddate="1932">1932-1933</datesingle>
+              </unitdatestructured>
+              <container id="aspace_d73c3debf47f83d0f25470177e469284" label="Mixed Materials"
+                localtype="box">3</container>
+              <container id="aspace_2a402867e65b4b17b540a051174a789c" localtype="folder"
+                parent="aspace_d73c3debf47f83d0f25470177e469284">9</container>
+            </did>
+          </c03>
+          <c03 id="aspace_929e3f13337797913332e430c19e7a4a" level="file">
+            <did>
+              <unittitle>Annual reports</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1934">1934</fromdate>
+                  <todate standarddate="1940">1940</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1934-1940</unitdate>
+              <container id="aspace_20b0dfd938b4833a9b11ca33e9297746" label="Mixed Materials"
+                localtype="box">3</container>
+              <container id="aspace_3b1544f3126956c48461a95f5bb3ad25" localtype="folder"
+                parent="aspace_20b0dfd938b4833a9b11ca33e9297746">10</container>
+            </did>
+          </c03>
+          <c03 id="aspace_c01a9cf0bce3e6674c57d45e06e6d37c" level="file">
+            <did>
+              <unittitle>Annual reports</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1953">1953</fromdate>
+                  <todate standarddate="1956">1956</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1953-1956</unitdate>
+              <container id="aspace_16306b1f470c9187125275a7fd90e1ec" label="Mixed Materials"
+                localtype="box">3</container>
+              <container id="aspace_35e7084258a7a18ec577ee604d19b821" localtype="folder"
+                parent="aspace_16306b1f470c9187125275a7fd90e1ec">11</container>
+            </did>
+          </c03>
+          <c03 id="aspace_5d59a485f863567ba73fd06f435b9e7e" level="file">
+            <did>
+              <unittitle>Annual reports</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1957">1957</fromdate>
+                  <todate standarddate="1959">1959</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1957-1959</unitdate>
+              <container id="aspace_bab85bda835d2314801e9a3f87f454dd" label="Mixed Materials"
+                localtype="box">3</container>
+              <container id="aspace_9ef2cf54067830e21631de6868c126d1" localtype="folder"
+                parent="aspace_bab85bda835d2314801e9a3f87f454dd">12</container>
+            </did>
+          </c03>
+          <c03 id="aspace_aad5048a41e608bc2a4b7d57de42cc09" level="file">
+            <did>
+              <unittitle>Annual reports</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1960">1960</fromdate>
+                  <todate standarddate="1962">1962</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1960-1962</unitdate>
+              <container id="aspace_0afdcdfb9bb49e496a267b7af3349576" label="Mixed Materials"
+                localtype="box">3</container>
+              <container id="aspace_4f20bdd48dee5a7ae6413a2141e2f8dd" localtype="folder"
+                parent="aspace_0afdcdfb9bb49e496a267b7af3349576">13</container>
+            </did>
+          </c03>
+          <c03 id="aspace_f7efd0f84c808603cde256954354be73" level="file">
+            <did>
+              <unittitle>Annual reports</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1963">1963</fromdate>
+                  <todate standarddate="1964">1964</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1963-1964</unitdate>
+              <container id="aspace_c7126b8c36b156f9968ad18a18679f64" label="Mixed Materials"
+                localtype="box">3</container>
+              <container id="aspace_d79f089a7b2d89df28d7b5a3c21a5a83" localtype="folder"
+                parent="aspace_c7126b8c36b156f9968ad18a18679f64">14</container>
+            </did>
+          </c03>
+          <c03 id="aspace_62db36b9fcec7a131210630dacaf3388" level="file">
+            <did>
+              <unittitle>Annual reports</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1966">1966</fromdate>
+                  <todate standarddate="1969">1969</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1966-1969</unitdate>
+              <container id="aspace_a881d9b926a373e410cf61e1d7db8785" label="Mixed Materials"
+                localtype="box">3</container>
+              <container id="aspace_b13aef25ee05c0ddd9b01099fde864ba" localtype="folder"
+                parent="aspace_a881d9b926a373e410cf61e1d7db8785">15</container>
+            </did>
+          </c03>
+          <c03 id="aspace_399d259fb4bd6d327f0c501b62a20837" level="file">
+            <did>
+              <unittitle>Annual reports</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1970">1970</fromdate>
+                  <todate standarddate="1972">1972</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1970-1972</unitdate>
+              <container id="aspace_f5a4ae71fad54b5b0cb8269a1fcc6498" label="Mixed Materials"
+                localtype="box">3</container>
+              <container id="aspace_6d4e7a38e686d0289d715f6b0676b981" localtype="folder"
+                parent="aspace_f5a4ae71fad54b5b0cb8269a1fcc6498">16</container>
+            </did>
+          </c03>
+          <c03 id="aspace_1c30533d65e2f797e54ddd87b35a574a" level="file">
+            <did>
+              <unittitle>Annual reports</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1973">1973</fromdate>
+                  <todate standarddate="1975">1975</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1973-1975</unitdate>
+              <container id="aspace_60cb5661a0be6ba7d4eb69e3ea8e314a" label="Mixed Materials"
+                localtype="box">3</container>
+              <container id="aspace_f8af8e5bf098c6868031fece609175cc" localtype="folder"
+                parent="aspace_60cb5661a0be6ba7d4eb69e3ea8e314a">17</container>
+            </did>
+          </c03>
+          <c03 id="aspace_f17ef353e5cf5e767ab98cf0ab085348" level="file">
+            <did>
+              <unittitle>Annual reports</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1976">1976</fromdate>
+                  <todate standarddate="1977">1977</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1976-1977</unitdate>
+              <container id="aspace_eea709e362b2e6d0e619af58e5108a0d" label="Mixed Materials"
+                localtype="box">3</container>
+              <container id="aspace_9d365924eaab6d34ce11d3e40250bc41" localtype="folder"
+                parent="aspace_eea709e362b2e6d0e619af58e5108a0d">18</container>
+            </did>
+          </c03>
+          <c03 id="aspace_6500a8b607cf2afbc037b4173c1fe2c5" level="file">
+            <did>
+              <unittitle>Annual reports</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1978">1978</fromdate>
+                  <todate standarddate="1980">1980</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1978-1980</unitdate>
+              <container id="aspace_c0be110698e8ae6375406029ad1e2822" label="Mixed Materials"
+                localtype="box">3</container>
+              <container id="aspace_8b959f09bb58834cf847743440dc5d4b" localtype="folder"
+                parent="aspace_c0be110698e8ae6375406029ad1e2822">19</container>
+            </did>
+          </c03>
+          <c03 id="aspace_99a8e971f1802ae27a478cb60dd6dda8" level="file">
+            <did>
+              <unittitle>Annual reports</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1982">1982</fromdate>
+                  <todate standarddate="1984">1984</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1982-1984</unitdate>
+              <container id="aspace_003257bd21e0540d3c423d6ea89e9fef" label="Mixed Materials"
+                localtype="box">3</container>
+              <container id="aspace_d2d1ccd73e7ea1ecad8315dd17c21aab" localtype="folder"
+                parent="aspace_003257bd21e0540d3c423d6ea89e9fef">20</container>
+            </did>
+          </c03>
+          <c03 id="aspace_3a573c69e5cc2ae855f0000dd68941eb" level="file">
+            <did>
+              <unittitle>Annual reports</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1985">1985</fromdate>
+                  <todate standarddate="1989">1989</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1985-1989</unitdate>
+              <container id="aspace_a2b9b1a0a2ca4ac25121d0d541d441dd" label="Mixed Materials"
+                localtype="box">3</container>
+              <container id="aspace_06cabbc9571987c0a06f1d2a06f2320b" localtype="folder"
+                parent="aspace_a2b9b1a0a2ca4ac25121d0d541d441dd">21</container>
+            </did>
+          </c03>
+          <c03 id="aspace_d67864e2ee69138fede5d623d61e2fcb" level="file">
+            <did>
+              <unittitle>Annual reports</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1990">1990</fromdate>
+                  <todate standarddate="1994">1994</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1990-1994</unitdate>
+              <container id="aspace_044d209ed393663844e40a48f74ff672" label="Mixed Materials"
+                localtype="box">3</container>
+              <container id="aspace_a0b2462a7fa52c943effaface66664a8" localtype="folder"
+                parent="aspace_044d209ed393663844e40a48f74ff672">22</container>
+            </did>
+          </c03>
+          <c03 id="aspace_5288708efaa0b650da050ca966411fef" level="file">
+            <did>
+              <unittitle>Annual reports</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1995">1995</fromdate>
+                  <todate standarddate="1997">1997</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1995-1997</unitdate>
+              <container id="aspace_09e127914ead2fddf7e122d47d5c940f" label="Mixed Materials"
+                localtype="box">3</container>
+              <container id="aspace_61b4a1d3247925abf67386acecc54ad2" localtype="folder"
+                parent="aspace_09e127914ead2fddf7e122d47d5c940f">23</container>
+            </did>
+          </c03>
+          <c03 id="aspace_d2fe4c5024c96b736cf972ee20ef54c8" level="file">
+            <did>
+              <unittitle>Annual reports</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1998">1998</fromdate>
+                  <todate standarddate="2004">2004</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">1998-2004</unitdate>
+              <container id="aspace_14e4b3d73dd6f70bedaac79e43dcd87b" label="Mixed Materials"
+                localtype="box">3</container>
+              <container id="aspace_619f03fd3e871f73baa941c30a9f1fd6" localtype="folder"
+                parent="aspace_14e4b3d73dd6f70bedaac79e43dcd87b">24</container>
+            </did>
+          </c03>
+          <c03 id="aspace_db4e08574b6f1bd153bdc3540b53e2db" level="file">
+            <did>
+              <unittitle>Annual reports</unittitle>
+              <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="2005">2005</fromdate>
+                  <todate standarddate="2010">2010</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" unitdatetype="inclusive">2005-2010</unitdate>
+              <container id="aspace_4d1ed39f18229ea75c03a8a69afbf803" label="Mixed Materials"
+                localtype="box">3</container>
+              <container id="aspace_9a15ea79b7403a3276e3c8dac3205419" localtype="folder"
+                parent="aspace_4d1ed39f18229ea75c03a8a69afbf803">25</container>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 id="aspace_f2272a6acbb82677cd5960d08b6aff48" level="series">
+        <did>
+          <unittitle>Financial records</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>31</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1855">1855</fromdate>
+              <todate standarddate="1998">1998</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1855-1998</unitdate>
+        </did>
+        <scopecontent id="aspace_0a493e1b0cfa8ac457ab4211c22e416b">
+          <head>Scope and Contents</head>
+          <p>This series contains information on church finances and the church building. This
+            includes treasurer's reports, committee records, insurance information, property
+            records, building purchases, building repairs and renovations.</p>
+        </scopecontent>
+        <c02 id="aspace_d328574433f77e87cbaf225ff46b0903" level="file">
+          <did>
+            <unittitle>Account book</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1855">1855</fromdate>
+                <todate standarddate="1920">1920</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1855-1920</unitdate>
+            <container id="aspace_6ba332eb0713da4109c7eda940bae65b" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_049139b29bbe3b53397be6bbea0c5c1f" localtype="folder"
+              parent="aspace_6ba332eb0713da4109c7eda940bae65b">26</container>
+          </did>
+        </c02>
+        <c02 id="aspace_4a5dd1ecdf100b4a68f797c715cfe61c" level="file">
+          <did>
+            <unittitle>Financial records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1882">1882</fromdate>
+                <todate standarddate="1883">1883</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1882-1883</unitdate>
+            <container id="aspace_07fe200656e57977497471ad488e502d" label="Mixed Materials"
+              localtype="box">4</container>
+            <container id="aspace_f8f05f97df7803871194bd3fd64e8446" localtype="folder"
+              parent="aspace_07fe200656e57977497471ad488e502d">1</container>
+          </did>
+        </c02>
+        <c02 id="aspace_117ad15c565c931bab6cb97f15563dad" level="file">
+          <did>
+            <unittitle>Financial records</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1923">1923</fromdate>
+                <todate standarddate="1937">1937</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1923-1929, 1937</unitdate>
+            <container id="aspace_f43cf9e15648f0bbd12a6ab24f706074" label="Mixed Materials"
+              localtype="box">4</container>
+            <container id="aspace_4e830a2c22172c2642979f30e8b4ea81" localtype="folder"
+              parent="aspace_f43cf9e15648f0bbd12a6ab24f706074">2</container>
+          </did>
+        </c02>
+        <c02 id="aspace_fa2cbebc6ccbce868103c9d3739eaf37" level="file">
+          <did>
+            <unittitle>Architectural plans</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1947">1947</fromdate>
+                <todate standarddate="1952">1952</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1947, 1952</unitdate>
+            <container id="aspace_3d0377a945dc198a16289a97913bd28b" label="Mixed Materials"
+              localtype="box">4</container>
+            <container id="aspace_678c264a558524b9d62d918ee02b2820" localtype="folder"
+              parent="aspace_3d0377a945dc198a16289a97913bd28b">3</container>
+          </did>
+        </c02>
+        <c02 id="aspace_ef830656c6e8632e39e975fc15fccc90" level="file">
+          <did>
+            <unittitle>Ruling on Mary A. Hill's will</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1921">1921</datesingle>
+            </unitdatestructured>
+            <container id="aspace_c7db11f61b336bf4318f6a80db6811b4" label="Mixed Materials"
+              localtype="box">5</container>
+            <container id="aspace_08f72d7e6930cf315c858a7342f2ed27" localtype="folder"
+              parent="aspace_c7db11f61b336bf4318f6a80db6811b4">10</container>
+          </did>
+        </c02>
+        <c02 id="aspace_aaffd56ed1935c2fc184d887eba683fa" level="file">
+          <did>
+            <unittitle>Property deeds and mortgages</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1921">1921</datesingle>
+            </unitdatestructured>
+            <container id="aspace_ee41acb39bc0c26ed71ddb438bcec6c7" label="Mixed Materials"
+              localtype="box">5</container>
+            <container id="aspace_f6f15f115a1ede8b3af3b54c19150cca" localtype="folder"
+              parent="aspace_ee41acb39bc0c26ed71ddb438bcec6c7">11</container>
+          </did>
+        </c02>
+        <c02 id="aspace_7c499681ad8265cfa23fd3795a86a7c5" level="file">
+          <did>
+            <unittitle>Property deeds and mortgages</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1929">1929</fromdate>
+                <todate standarddate="1938">1938</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1928, 1938</unitdate>
+            <container id="aspace_f18d9a4f1b27ff0f23c1170458d63247" label="Mixed Materials"
+              localtype="box">5</container>
+            <container id="aspace_82d3c0a70d5b9d45b57fe65f4004bc0d" localtype="folder"
+              parent="aspace_f18d9a4f1b27ff0f23c1170458d63247">12</container>
+          </did>
+        </c02>
+        <c02 id="aspace_943b8c34df0a856163c7388ab878c68a" level="file">
+          <did>
+            <unittitle>Bequests and wills</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1941">1941</fromdate>
+                <todate standarddate="1956">1956</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1941, 1950-1956</unitdate>
+            <container id="aspace_b68543fafc6aebdf39fa0ed811dc4321" label="Mixed Materials"
+              localtype="box">5</container>
+            <container id="aspace_7cd08d7e8d6a9b4d1558559604a82706" localtype="folder"
+              parent="aspace_b68543fafc6aebdf39fa0ed811dc4321">13</container>
+          </did>
+        </c02>
+        <c02 id="aspace_ecfea84a9f1cc7412f1189c1517ee74a" level="file">
+          <did>
+            <unittitle>Church bells</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1948">1948</fromdate>
+                <todate standarddate="1950-03">1950-03</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1948-1950</unitdate>
+            <container id="aspace_d0707831c90e2e3410f386f096e6fc79" label="Mixed Materials"
+              localtype="box">4</container>
+            <container id="aspace_17a186ec4ca5bebc07acf129aa85e29e" localtype="folder"
+              parent="aspace_d0707831c90e2e3410f386f096e6fc79">4</container>
+          </did>
+        </c02>
+        <c02 id="aspace_2420b55cf538fc9f53cb33e46bb5fb25" level="file">
+          <did>
+            <unittitle>Property deeds and mortgages</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1949">1949</fromdate>
+                <todate standarddate="1987">1987</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1949-1955, 1987</unitdate>
+            <container id="aspace_cb0868f92888c499ae5526c1541a3eaa" label="Mixed Materials"
+              localtype="box">5</container>
+            <container id="aspace_3d94abd14d0e052fae8db148b7254bb8" localtype="folder"
+              parent="aspace_cb0868f92888c499ae5526c1541a3eaa">14</container>
+          </did>
+        </c02>
+        <c02 id="aspace_6b2dd3e7d64869b68afc588a9475ec07" level="file">
+          <did>
+            <unittitle>Loans</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1950">1950</fromdate>
+                <todate standarddate="1961">1961</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1950, 1961</unitdate>
+            <container id="aspace_f32e03b049d6c5deacbb3d8b03ebf938" label="Mixed Materials"
+              localtype="box">5</container>
+            <container id="aspace_cc5c551916f9e40cb361ad3113fbf009" localtype="folder"
+              parent="aspace_f32e03b049d6c5deacbb3d8b03ebf938">15</container>
+          </did>
+        </c02>
+        <c02 id="aspace_e6769371a950e9fbef883f1f6611d3b5" level="file">
+          <did>
+            <unittitle>Church bells</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1950-04">1950-04</fromdate>
+                <todate standarddate="1950-12">1950-12</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1950-1950</unitdate>
+            <container id="aspace_ffb491d15585b17a41c68d27b5a77525" label="Mixed Materials"
+              localtype="box">4</container>
+            <container id="aspace_d7f6209612a470714df8667bb492ba16" localtype="folder"
+              parent="aspace_ffb491d15585b17a41c68d27b5a77525">5</container>
+          </did>
+        </c02>
+        <c02 id="aspace_1dd0e84c70f10d852bd7dab8c37333e1" level="file">
+          <did>
+            <unittitle>Selling of land</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1950">1950-1954</datesingle>
+            </unitdatestructured>
+            <container id="aspace_9206d331daef698337e482fa3d60af35" label="Mixed Materials"
+              localtype="box">4</container>
+            <container id="aspace_474e4cb1961b81f2785386f6fdcab53e" localtype="folder"
+              parent="aspace_9206d331daef698337e482fa3d60af35">6</container>
+          </did>
+        </c02>
+        <c02 id="aspace_82471be684fcc65341ab061fe2abe792" level="file">
+          <did>
+            <unittitle>Church bells</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1951">1951</fromdate>
+                <todate standarddate="1962">1962</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1951-1962</unitdate>
+            <container id="aspace_873801683a5783049ac8f7b48985cf12" label="Mixed Materials"
+              localtype="box">4</container>
+            <container id="aspace_7075963ede3b302a8962388814fbf7ee" localtype="folder"
+              parent="aspace_873801683a5783049ac8f7b48985cf12">7</container>
+          </did>
+        </c02>
+        <c02 id="aspace_1670af5a6c3422aede4cbf624057e8ce" level="file">
+          <did>
+            <unittitle>Correspondences regarding construction project</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1953">1953</fromdate>
+                <todate standarddate="1954">1954</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1953-1954</unitdate>
+            <container id="aspace_39d3cab4a0c7a3d9d19d8657db359f7d" label="Mixed Materials"
+              localtype="box">4</container>
+            <container id="aspace_1ccbdc4dd35b83ca98c44d85bea46a0a" localtype="folder"
+              parent="aspace_39d3cab4a0c7a3d9d19d8657db359f7d">8</container>
+          </did>
+        </c02>
+        <c02 id="aspace_fc748408172cd545283f7d6e550c1ea4" level="file">
+          <did>
+            <unittitle>Parish house furnishing committee records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1953">1953</fromdate>
+                <todate standarddate="1955">1955</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1953-1955</unitdate>
+            <container id="aspace_4b24446406680c00d0cfdc6e1e42364c" label="Mixed Materials"
+              localtype="box">4</container>
+            <container id="aspace_a61258ad08c08409664f50bc4f618ba8" localtype="folder"
+              parent="aspace_4b24446406680c00d0cfdc6e1e42364c">9</container>
+          </did>
+        </c02>
+        <c02 id="aspace_bde0ace3562af74fd9ab0619bb136eef" level="file">
+          <did>
+            <unittitle>Loans</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <datesingle standarddate="1954">1954</datesingle>
+            </unitdatestructured>
+            <container id="aspace_b5d0401a3177070d88777e43b1ddcf47" label="Mixed Materials"
+              localtype="box">5</container>
+            <container id="aspace_c2e7ad1a42d3e332c9581e7bb6b9e304" localtype="folder"
+              parent="aspace_b5d0401a3177070d88777e43b1ddcf47">16</container>
+          </did>
+        </c02>
+        <c02 id="aspace_bdc41edd4998cd187dd1e6e71ee36c88" level="file">
+          <did>
+            <unittitle>Church treasurer reports</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1954">1954</fromdate>
+                <todate standarddate="1960">1960</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1954-1960</unitdate>
+            <container id="aspace_fac2ef36cf21847533702180414c73dc" label="Mixed Materials"
+              localtype="box">4</container>
+            <container id="aspace_e52eb9672b3fdb160bf2ee410e4281f1" localtype="folder"
+              parent="aspace_fac2ef36cf21847533702180414c73dc">10</container>
+          </did>
+        </c02>
+        <c02 id="aspace_9afa29f9f14a81a7101206db494feed4" level="file">
+          <did>
+            <unittitle>Building repairs</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1955">1955</fromdate>
+                <todate standarddate="1972">1972</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1955, 1972</unitdate>
+            <container id="aspace_dabb3b2a2eb25af5646abd0bba81f4b9" label="Mixed Materials"
+              localtype="box">4</container>
+            <container id="aspace_5837e2aa8bb9be166cbe5d03d1f72ca9" localtype="folder"
+              parent="aspace_dabb3b2a2eb25af5646abd0bba81f4b9">11</container>
+          </did>
+        </c02>
+        <c02 id="aspace_b7ebdc465db71484edcc451bd0b09291" level="file">
+          <did>
+            <unittitle>Parish house furnishing committee records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1955">1955</fromdate>
+                <todate standarddate="1956">1956</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1955-1956</unitdate>
+            <container id="aspace_b0eff4edc34b52c610dfe95bd4610238" label="Mixed Materials"
+              localtype="box">4</container>
+            <container id="aspace_e72863ef36d206a95f1ba343522a5da9" localtype="folder"
+              parent="aspace_b0eff4edc34b52c610dfe95bd4610238">12</container>
+          </did>
+        </c02>
+        <c02 id="aspace_13968c00d19a4af7751799f4af5ebc09" level="file">
+          <did>
+            <unittitle>Financial records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1955">1955</fromdate>
+                <todate standarddate="1958">1958</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1955-1958</unitdate>
+            <container id="aspace_096813b8cb8e2e96e92cf12e1de3b43d" label="Mixed Materials"
+              localtype="box">4</container>
+            <container id="aspace_571125152f443314a70f5a2ea936d5d7" localtype="folder"
+              parent="aspace_096813b8cb8e2e96e92cf12e1de3b43d">13</container>
+          </did>
+        </c02>
+        <c02 id="aspace_f7a7496085976a1de02fb02630feb5bf" level="file">
+          <did>
+            <unittitle>Insurance Information</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1957">1957</fromdate>
+                <todate standarddate="1958">1958</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1957-1958</unitdate>
+            <container id="aspace_c87e3c64fcd489faa55d72c6317013ba" label="Mixed Materials"
+              localtype="box">5</container>
+            <container id="aspace_d7a12e77791d0a265a1aa9a5f353c9e0" localtype="folder"
+              parent="aspace_c87e3c64fcd489faa55d72c6317013ba">17</container>
+          </did>
+        </c02>
+        <c02 id="aspace_c112cf70ba236b752bd06564685ec3ab" level="file">
+          <did>
+            <unittitle>Dr. Ralph B. Lancaster Memorial Fund</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1960">1960</datesingle>
+            </unitdatestructured>
+            <container id="aspace_4967001e753221b504ed988421e55e83" label="Mixed Materials"
+              localtype="box">4</container>
+            <container id="aspace_106d2fc0b7e9a9ac9d926c442b81c106" localtype="folder"
+              parent="aspace_4967001e753221b504ed988421e55e83">14</container>
+          </did>
+        </c02>
+        <c02 id="aspace_e9beb516d15c336e964d83d08f59ef1f" level="file">
+          <did>
+            <unittitle>Loans</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1961">1961</fromdate>
+                <todate standarddate="1979">1979</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1961, 1979</unitdate>
+            <container id="aspace_75a42b6ec2b2571af5e5f57cda50f8d5" label="Mixed Materials"
+              localtype="box">5</container>
+            <container id="aspace_bae171fea61ac7e9b4730c4ebeb8ef44" localtype="folder"
+              parent="aspace_75a42b6ec2b2571af5e5f57cda50f8d5">18</container>
+          </did>
+        </c02>
+        <c02 id="aspace_a2541a26d4f06e529b777d3c7411d521" level="file">
+          <did>
+            <unittitle>Steeple renovation</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1962">1962-1966</datesingle>
+            </unitdatestructured>
+            <container id="aspace_4674866f9e1105d134991b9a1270a87c" label="Mixed Materials"
+              localtype="box">4</container>
+            <container id="aspace_7565c207bcfa8e657c37d8d7dae5baab" localtype="folder"
+              parent="aspace_4674866f9e1105d134991b9a1270a87c">15</container>
+          </did>
+        </c02>
+        <c02 id="aspace_20874da1e4c510614cbd1c29d2a3ac54" level="file">
+          <did>
+            <unittitle>Schedule of rates for use of facilities</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1965">1965</datesingle>
+            </unitdatestructured>
+            <container id="aspace_bb83b45afb3327836f10d23af94aa96e" label="Mixed Materials"
+              localtype="box">4</container>
+            <container id="aspace_0d4355323ccc08eda49be262f6200407" localtype="folder"
+              parent="aspace_bb83b45afb3327836f10d23af94aa96e">16</container>
+          </did>
+        </c02>
+        <c02 id="aspace_3179912359f2755dd7d8bdf7b66c572d" level="file">
+          <did>
+            <unittitle>Town of Arlington zoning and by-laws</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1970">1970, 1973</datesingle>
+            </unitdatestructured>
+            <container id="aspace_93d3e278abddfa489349d241780f48bd" label="Mixed Materials"
+              localtype="box">4</container>
+            <container id="aspace_be548492930ed2e3a8bbdc83f60ef3f8" localtype="folder"
+              parent="aspace_93d3e278abddfa489349d241780f48bd">17</container>
+          </did>
+        </c02>
+        <c02 id="aspace_fb65c2578a97df54a568c955850f67c5" level="file">
+          <did>
+            <unittitle>Financial records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1970">1970</fromdate>
+                <todate standarddate="1993">1993</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1970-1974, 1993</unitdate>
+            <container id="aspace_14c96f9619da179ebd3499717e065865" label="Mixed Materials"
+              localtype="box">4</container>
+            <container id="aspace_7e910b72d6b8ced4a857eb934a7ac177" localtype="folder"
+              parent="aspace_14c96f9619da179ebd3499717e065865">18</container>
+          </did>
+        </c02>
+        <c02 id="aspace_56bb1ef07c20458700f64958985a3948" level="file">
+          <did>
+            <unittitle>Inventory lists</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1984">1984</datesingle>
+            </unitdatestructured>
+            <container id="aspace_3797e63fbb91f11c4fcf8fee496a5269" label="Mixed Materials"
+              localtype="box">4</container>
+            <container id="aspace_8fa1c6402e6f9dddd6452fcfa512f3f6" localtype="folder"
+              parent="aspace_3797e63fbb91f11c4fcf8fee496a5269">19</container>
+          </did>
+        </c02>
+        <c02 id="aspace_142833818edda35c3749e6a227348113" level="file">
+          <did>
+            <unittitle>Existing conditions report</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1996">1996</fromdate>
+                <todate standarddate="1998">1998</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1996-1998</unitdate>
+            <container id="aspace_b36983313c20afa00d73b11fe06ea50f" label="Mixed Materials"
+              localtype="box">4</container>
+            <container id="aspace_bc83bc2f88da875a29ecf0310d8d6fa0" localtype="folder"
+              parent="aspace_b36983313c20afa00d73b11fe06ea50f">20</container>
+          </did>
+        </c02>
+        <c02 id="aspace_fa0caa5e5874b6765160fc330309761d" level="file">
+          <did>
+            <unittitle>Church bells</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_0dce784010d5d6fab4f12047a3c5fe1f" label="Mixed Materials"
+              localtype="box">4</container>
+            <container id="aspace_38e2c8cffa0b2d3190f458f8f78cb14a" localtype="folder"
+              parent="aspace_0dce784010d5d6fab4f12047a3c5fe1f">21</container>
+          </did>
+        </c02>
+      </c01>
+      <c01 id="aspace_11fde9e7c07fa7a8458a05e79e871137" level="series">
+        <did>
+          <unittitle>Photographs</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>14</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1871">1871</fromdate>
+              <todate standarddate="1999">1999</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1871-1999</unitdate>
+        </did>
+        <scopecontent id="aspace_223b637eae2e7f87777b60ca7a337489">
+          <head>Scope and Contents</head>
+          <p>This series includes photographic prints and 35mm color negatives of church events,
+            portraits, including ministers, and images of the church structure.</p>
+        </scopecontent>
+        <c02 id="aspace_021cc67c92fde9032a6de3c9e39f016a" level="file">
+          <did>
+            <unittitle>Church building</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1871">1871</fromdate>
+                <todate standarddate="1959">1959</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1871-1959</unitdate>
+            <container id="aspace_b4d7d00ae6b7152b2b0dfb1ee96b768f" label="Graphic Materials"
+              localtype="box">4</container>
+            <container id="aspace_289fcec4aead8eaac9f03b066defa5d5" localtype="folder"
+              parent="aspace_b4d7d00ae6b7152b2b0dfb1ee96b768f">22</container>
+          </did>
+        </c02>
+        <c02 id="aspace_36af485d09615ebad80cd10bd910f448" level="file">
+          <did>
+            <unittitle>Edith M. Fox</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1900">1900</fromdate>
+                <todate standarddate="1980">1980</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1900, 1955, 1980</unitdate>
+            <container id="aspace_5a7d39f5a03693309832f0154b6f63de" label="Graphic Materials"
+              localtype="box">4</container>
+            <container id="aspace_4f8c8d62745d8356bd0e95c9c3832648" localtype="folder"
+              parent="aspace_5a7d39f5a03693309832f0154b6f63de">23</container>
+          </did>
+        </c02>
+        <c02 id="aspace_e4a99cada4dec7c6d8382997a8e1600f" level="file">
+          <did>
+            <unittitle>Events</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1924">1924</fromdate>
+                <todate standarddate="1961">1961</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1924, 1947-1961</unitdate>
+            <container id="aspace_dae068ba5b7ccbf47427c98cf1a7224b" label="Graphic Materials"
+              localtype="box">4</container>
+            <container id="aspace_7dd0a3f7ade8ecb2f6c85f21474310ff" localtype="folder"
+              parent="aspace_dae068ba5b7ccbf47427c98cf1a7224b">24</container>
+          </did>
+        </c02>
+        <c02 id="aspace_5cc5cdd0338102497532412ca63aab23" level="file">
+          <did>
+            <unittitle>Damage from Hurricane</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1938">1938</datesingle>
+            </unitdatestructured>
+            <container id="aspace_c86170bda3a999a2789f2460390f44ed" label="Graphic Materials"
+              localtype="box">4</container>
+            <container id="aspace_d38b888d14a4256b2865813f6a06a3e0" localtype="folder"
+              parent="aspace_c86170bda3a999a2789f2460390f44ed">25</container>
+          </did>
+        </c02>
+        <c02 id="aspace_9b98e866e01d190342a417fd9e7dfe71" level="file">
+          <did>
+            <unittitle>Pageant of the Brides</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1950">1950</datesingle>
+            </unitdatestructured>
+            <container id="aspace_ab3182b25019ce756c32341329e39569" label="Graphic Materials"
+              localtype="box">4</container>
+            <container id="aspace_c2a09f97372c4b2ac9610faddf7a9b8c" localtype="folder"
+              parent="aspace_ab3182b25019ce756c32341329e39569">26</container>
+          </did>
+        </c02>
+        <c02 id="aspace_b01caee15211bb274e302c1304afab0e" level="file">
+          <did>
+            <unittitle>Portraits</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1950">1950</fromdate>
+                <todate standarddate="1973">1973</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1950-1973</unitdate>
+            <container id="aspace_bf3412e641f2cd36840a1e258bd4a46f" label="Graphic Materials"
+              localtype="box">5</container>
+            <container id="aspace_6707d47345c3aab93081f1a6a0413a75" localtype="folder"
+              parent="aspace_bf3412e641f2cd36840a1e258bd4a46f">1</container>
+          </did>
+        </c02>
+        <c02 id="aspace_ea3ade51bf92309a126f4241f44cdc29" level="file">
+          <did>
+            <unittitle>Men's club minstrel show</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1954">1954</datesingle>
+            </unitdatestructured>
+            <container id="aspace_7554c403fb4d13f7d56f82c538801036" label="Graphic Materials"
+              localtype="box">5</container>
+            <container id="aspace_2ef31c78559fdfca9f3bb8d42b9bd471" localtype="folder"
+              parent="aspace_7554c403fb4d13f7d56f82c538801036">2</container>
+          </did>
+          <scopecontent id="aspace_90e0927ddb3d61f47b10f8767c92d9b1">
+            <head>Content Warning</head>
+            <p>Please note that this folder contains historical images depicting white people in
+              blackface. The Congregational Library &amp; Archives does not condone these racist
+              depictions but makes them available to give an accurate and holistic portrayal of the
+              historical record.</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_1e08f844283a9dd8ead8d42d14e2ecb8" level="file">
+          <did>
+            <unittitle>Parish house</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1954">1954</fromdate>
+                <todate standarddate="1955">1955</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1954-1955</unitdate>
+            <container id="aspace_69089145aed9847fa68472ad07818dd7" label="Graphic Materials"
+              localtype="box">5</container>
+            <container id="aspace_f1e6cf0988fb63296fe712f321d6ebc9" localtype="folder"
+              parent="aspace_69089145aed9847fa68472ad07818dd7">3</container>
+          </did>
+        </c02>
+        <c02 id="aspace_fa212830118a3f5b7c7515973d8b9c9f" level="file">
+          <did>
+            <unittitle>Friendship fair</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1975">1975</datesingle>
+            </unitdatestructured>
+            <container id="aspace_e2afba1d4853fa7ac503a0e7e71dc9ba" label="Graphic Materials"
+              localtype="box">5</container>
+            <container id="aspace_3039dd08094573f41fed44ac20d48eb7" localtype="folder"
+              parent="aspace_e2afba1d4853fa7ac503a0e7e71dc9ba">4</container>
+          </did>
+        </c02>
+        <c02 id="aspace_30f7619a0dd56e7bd1d2ba94ea3386f2" level="file">
+          <did>
+            <unittitle>Communion silverware from 1807 at bicentennial service</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1976">1976</datesingle>
+            </unitdatestructured>
+            <container id="aspace_89e5269ed9e5805bb61ee2ad3397657a" label="Graphic Materials"
+              localtype="box">5</container>
+            <container id="aspace_713279d0c30b4363a60044bccf51db40" localtype="folder"
+              parent="aspace_89e5269ed9e5805bb61ee2ad3397657a">5</container>
+          </did>
+        </c02>
+        <c02 id="aspace_e1fd23b5b299867abace5170ded7b2fb" level="file">
+          <did>
+            <unittitle>Arlington Town Day</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1985">1985</datesingle>
+            </unitdatestructured>
+            <container id="aspace_92d72409e8a2fb45cb175364c6880baf" label="Graphic Materials"
+              localtype="box">5</container>
+            <container id="aspace_9362a73a310690bf3d1388067c4954ba" localtype="folder"
+              parent="aspace_92d72409e8a2fb45cb175364c6880baf">6</container>
+          </did>
+        </c02>
+        <c02 id="aspace_afae0392a75929d4def091fa382becc8" level="file">
+          <did>
+            <unittitle>Craigsville Weekend</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1987">1987</fromdate>
+              </daterange>
+            </unitdatestructured>
+            <container id="aspace_3931df45b71fe1b883f9166de3db4ab9" label="Graphic Materials"
+              localtype="box">5</container>
+            <container id="aspace_fcf7fe8288d7ed88e466255cc4a56ed8" localtype="folder"
+              parent="aspace_3931df45b71fe1b883f9166de3db4ab9">7</container>
+          </did>
+        </c02>
+        <c02 id="aspace_832b7a8916801299de378cdd123e9bef" level="file">
+          <did>
+            <unittitle>Myron and Elizabeth Taylor</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1998">1998, undated</datesingle>
+            </unitdatestructured>
+            <container id="aspace_ac3b2f5819782c2dd14623eeb95ca745" label="Graphic Materials"
+              localtype="box">5</container>
+            <container id="aspace_48dc2d065355793ab82c80627879aca3" localtype="folder"
+              parent="aspace_ac3b2f5819782c2dd14623eeb95ca745">8</container>
+          </did>
+        </c02>
+        <c02 id="aspace_b5948fca6f38f2d77ab907ff1530a131" level="file">
+          <did>
+            <unittitle>Organist Heinrich Christensen</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1999</unitdate>
+            <container id="aspace_93a1c12db68d94f101da8c9a76075fa5" label="Graphic Materials"
+              localtype="box">5</container>
+            <container id="aspace_9327f24537e25f922ecc9c090799870a" localtype="folder"
+              parent="aspace_93a1c12db68d94f101da8c9a76075fa5">9</container>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
