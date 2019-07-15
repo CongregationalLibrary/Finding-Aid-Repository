@@ -59,8 +59,8 @@
       </maintenanceevent>
       <maintenanceevent>
         <eventtype value="revised"/>
-        <eventdatetime>July 15, 2019</eventdatetime>
-        <agenttype value="unknown"/>
+        <eventdatetime standarddatetime="2019-07-15">July 15, 2019</eventdatetime>
+        <agenttype value="human"/>
         <agent/>
         <eventdescription>Zachary Bodnar: Minor revision to the collection arrangement, minor
           revision to the description of the microfilm records, adjusted date range in
