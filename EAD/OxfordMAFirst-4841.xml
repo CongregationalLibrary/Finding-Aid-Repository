@@ -4,13 +4,14 @@
 <ead xmlns="http://ead3.archivists.org/schema/">
   <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
     relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
-    <recordid instanceurl="http://www.congregationallibrary.org/finding-aids/OxfordMA4841"
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/OxfordMAFirst-4841.xml"
       >OxfordMAFirst-4841</recordid>
     <representation localtype="pdf"
       href="http://www.congregationallibrary.org/sites/all/files/OxfordMAFirst-4841.pdf"/>
     <filedesc>
       <titlestmt>
-        <titleproper>Oxford, Mass. First Congregational Church records, 1721-1850. </titleproper>
+        <titleproper>Oxford, Mass. First Congregational Church records, 1721-1850.</titleproper>
         <author>Zachary Bodnar, Sari Mauro</author>
       </titlestmt>
       <publicationstmt>
