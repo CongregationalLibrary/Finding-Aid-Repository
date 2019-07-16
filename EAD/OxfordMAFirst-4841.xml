@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid instanceurl="http://www.congregationallibrary.org/finding-aids/OxfordMA4841"
+      >OxfordMAFirst-4841</recordid>
+    <representation localtype="pdf"
+      href="http://www.congregationallibrary.org/sites/all/files/OxfordMAFirst-4841.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Oxford, Mass. First Congregational Church records, 1721-1850. </titleproper>
+        <author>Zachary Bodnar, Sari Mauro</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2019-01-03</date>
+        <num>RG4841</num>
+      </publicationstmt>
+      <seriesstmt>
+        <p>Portions of this collection are part of New England's Hidden Histories. Digital
+          historical representations of these portions of the collection can be viewed online.</p>
+      </seriesstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS2 - 2013</abbr>
+      <citation>Describing Archives: A Content Standard, Second Edition</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2019-07-16T15:54:27+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Tuesday July 16, 2019
+          at 15:54</eventdescription>
+      </maintenanceevent>
+      <maintenanceevent>
+        <eventtype value="revised"/>
+        <eventdatetime standarddatetime="2019-07-16">July 16, 2019</eventdatetime>
+        <agenttype value="human"/>
+        <agent/>
+        <eventdescription>Zachary Bodnar: Revised the collection's date range, revised the
+          rescription of microfilm materials.</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Oxford, Mass. First Congregational Church records, 1721-1850.</unittitle>
+      <unitid>RG4841</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>0.24</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(1 box, 1 folder, 3 reels)</physdesc>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1721">1721</fromdate>
+          <todate standarddate="1850">1850</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" unitdatetype="inclusive">1721-1850</unitdate>
+      <abstract id="aspace_8de923cbd061d5873f2746300005f8dc">The First Congregational Church of
+        Oxford (MA) was established in the house of Rev. John Campbell on January 18, 1721 and
+        construction of the first meetinghouse followed. The second meetinghouse was completed in
+        1748. The church split in 1813 with some members forming a Universalist church in the South
+        Meetinghouse. The Third and final meetinghouse was constructed in 1829. The church joined
+        the United Church of Christ in 1961 and continues to serve the local community today. This
+        collection contains the earliest extant records of the church and includes vital records,
+        administrative records, records of the church library, and financial records related to
+        unpaid ministerial salary.</abstract>
+      <origination label="creator">
+        <corpname identifier="nr00032203" source="lcnaf">
+          <part>First Congregational Church of Oxford (Oxford, Mass.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_a917bbf6d904523eb56d29c836f8f565">
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_145eb3553c2925c844477e36444d8648">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+      <p>Digital Reproductions are protected by copyright and/or related rights. You are free to use
+        the Digital Reproductions in any way that is permitted by the copyright and related rights
+        legislation that applies to your use. In addition, no permission is required from the
+        Congregational Library &amp; Archives for educational uses. For other uses, you need to
+        obtain permission from the Congregational Library &amp; Archives. For additional information
+        regarding copyright, please consult the Congregational Library &amp; Archives' <ref
+          actuate="onrequest" href="http://www.congregationallibrary.org/about/digital-copyright"
+          linktitle="Digital Collections Copyright &amp; Use" show="new">Digital Collections
+          Copyright &amp; Use</ref> policy.</p>
+    </userestrict>
+    <prefercite id="aspace_334c63db00b1387e88a1965dd8075e71">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Oxford, Mass. First Congregational Church records,
+        1721-1850, RG4841. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_22f22bd3fee2162658700f91d6bba1b5">
+      <head>Acquisition Information</head>
+      <p>Materials were placed on permanent loan to the Congregational Library &amp; Archives by the
+        First Congregational Church of Oxford in July 2017; no accession number.</p>
+    </acqinfo>
+    <accruals id="aspace_ec43dbe5ef15906f96eae86c692374de">
+      <head>Accruals</head>
+      <p>Additional accruals are expected for this collection in the form of full-text
+        transcription. There is no anticipated date for this accrual.</p>
+    </accruals>
+    <processinfo id="aspace_6454b83cb245601dc543302aa08180cd">
+      <head>Processing Information</head>
+      <p>Collection underwent preservation work at NEDCC in 2008 which resulted in the disbinding of
+        the church record book. Collection re-described by Sari Mauro, September 2013, using DACS
+        Second Edition. Portions of description written by Robin Duckworth. Collection was
+        reprocessed and re-described by Zachary Bodnar, January 2019, using DACS Second Edition.</p>
+    </processinfo>
+    <bioghist id="aspace_4f1c01609e617f71de80d0232245b743">
+      <head>Historical Note</head>
+      <p>The town of Oxford was incorporated in 1713. Following incorporation, town selectmen began
+        searching for a minister. Over the next seven years, a string of short term ministers came
+        to preach while the town figured out how to procure money to build a meetinghouse and
+        provide the minister with salary. In July of 1720, Rev. John Campbell was called and in
+        September of that year plans for the first meeting house were made. The First Congregational
+        Church in Oxford (MA) was established in the house of John Campbell on January 18, 1721. He
+        was ordained as the minister a few months later on March 1. The first meetinghouse was also
+        likely completed in either 1721 or 1722. In 1744, it was voted to replace the simple first
+        meetinghouse. Construction on this new meetinghouse was completed by July of 1748.</p>
+      <p>Following the death of Campbell in 1764, Rev. Joseph Bowman was called and installed as
+        minister. He continued to serve as minister during the American Revolutionary War. During
+        the way, the town was unable to provide Bowman with a salary. This led to some conflict
+        between Bowman in the town which culminated in a 1784 suit and his request for dismission,
+        which was initially rejected. As a result of the town failing to respond to the suit, the
+        town of Oxford had to levy a special tax to pay Bowman's unpaid salary. The first church
+        library was founded under Rev. Elias Dudley in 1791. This library collection later became a
+        part of the town's public library.</p>
+      <p>The church split in 1813, following some members' dissatisfaction with Rev. Josiah Moulton.
+        The First Congregational Society, also known as the First Religious Society, was formed as a
+        result of this split. They established a Universalist Church with services held at the
+        "South Meetinghouse." The second meetinghouse, also sometimes called the "North Church," was
+        replaced with the third, and final, meetinghouse, in 1829. In 1853, the meetinghouse edifice
+        was moved to its present location on the town common. In 1860, the meetinghouse underwent a
+        complete remodel and an organ was added in 1885.</p>
+      <p>On February 19, 1905, the church caught fire from an overheated stovepipe in the basement.
+        The building's slate room was cited as the principal reason the whole building was not
+        destroyed. The building was repaired and rededicated on September 24, 1905. On January 11,
+        1961, the church adopted the constitution of the United Church of Christ. The First
+        Congregational Church in Oxford (MA) continues to serve the local community today.</p>
+    </bioghist>
+    <scopecontent id="aspace_25135e8e828185b0fad5c0b96228efaa">
+      <head>Scope of Collection</head>
+      <p>This collection contains the earliest extant records of the church. Included in the
+        collection are records of baptisms, marriages, church meetings and votes, the church
+        covenant, church library, church communications, and ministerial installations. Also of note
+        are records pertaining to the tax collected to pay Rev. Bowman's back wages.</p>
+    </scopecontent>
+    <arrangement id="aspace_5ae46cab67b524803cb3a36294f462ca">
+      <head>Arrangement</head>
+      <p>This collection has been arranged in chronological order by start date.</p>
+    </arrangement>
+    <phystech id="aspace_2199d859e4564a9283e41d349d467514">
+      <head>Technical Requirements</head>
+      <p>A microfilm reader is required In order to access microfilmed materials. One microfilm
+        reader is available to the public upon request.</p>
+      <p>To access digital user's copies via online-interface, a java-enabled web browser is
+        required. Internet Explorer 8.x and later, Firefox 5.x and later, Opera 12 and later, Safari
+        5.x and later, or any version of Google Chrome are recommended.</p>
+    </phystech>
+    <bibliography id="aspace_74176b62db5e2263036c3024120f979d">
+      <head>Bibliography</head>
+      <p>Moore, Harlan P., Olney, Helen G., and White, Raymond E. <emph render="italic">250th
+          Anniversary First Congregational Church in Oxford, Massachusetts</emph>. 1975. 17.11.1
+        O94.8 FirCC</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025606" source="lcsh">
+        <part>Church finance.</part>
+      </subject>
+      <subject identifier="sh85076552" source="lcsh">
+        <part>Church libraries.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85033885" source="lcsh">
+        <part>Creeds.</part>
+      </subject>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <subject identifier="sh85090572" source="lcsh">
+        <part>Necrologies.</part>
+      </subject>
+      <subject source="local">
+        <part>New England's Hidden Histories.</part>
+      </subject>
+      <subject identifier="sh85095385" source="lcsh">
+        <part>Ordination.</part>
+      </subject>
+      <corpname identifier="nr00032203" source="lcnaf">
+        <part>First Congregational Church of Oxford (Oxford, Mass.)</part>
+      </corpname>
+      <corpname identifier="n82018414" source="lcnaf">
+        <part>Oxford (Mass.) -- Church history.</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_8ccc1ec54f0a9270cd28abe6605a6f38" level="file">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1721">1721</fromdate>
+              <todate standarddate="1850">1850</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1721-1850</unitdate>
+          <container id="aspace_55d933991152e81de29015fa80c3ec51" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_59675230905bd560ce7c2afa32cfd8dd" localtype="folder"
+            parent="aspace_55d933991152e81de29015fa80c3ec51">1</container>
+        </did>
+        <altformavail id="aspace_486a04881c7bc52c670565fd23c9f7d7">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Oxford/viewer/Church20records2C2017211847/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <altformavail id="aspace_2debcefa0944486a38c557f99a89152e">
+          <head>Location of Copies</head>
+          <p>Three microfilmed preservation copies of this recordbook exist. Only the service copy
+            is available for public use.</p>
+        </altformavail>
+        <scopecontent id="aspace_299ec281ca805aee3c8530e0b1ec6795">
+          <head>Scope and Contents</head>
+          <p>This ledger contains records pertaining to the formation of the church, proceedings of
+            church meetings, membership rolls, and foundational documents such as covenants and
+            articles of association. Also included within the volume are records of correspondence,
+            baptismal records, marriage records, records of the church's library, and financial
+            records.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_0cbc690e98f4a39db65fa5e427e47a2c" level="item">
+        <did>
+          <unittitle>Microfilm records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1721">1721</fromdate>
+              <todate standarddate="1850">1850</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1721-1850</unitdate>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="2008">2008</datesingle>
+          </unitdatestructured>
+          <container id="aspace_45955208de8967eb0b658220cde61968" label="Microform" localtype="reel"
+            >Service Copy</container>
+          <container id="aspace_95b993ceaf3c8f3eff29ea19bbdfbf97" label="Microform" localtype="reel"
+            >Archival Master</container>
+          <container id="aspace_3a4c0b0a4f67986691c70b2114e0da51" label="Microform" localtype="reel"
+            >Print Master</container>
+        </did>
+        <accessrestrict id="aspace_ce9a560b1e390598a6e739f03b85c957">
+          <head>Restrictions on Access</head>
+          <p>Only the service copy is available for library use. The archival master and print
+            master copies are restricted for preservation purposes.</p>
+        </accessrestrict>
+        <originalsloc id="aspace_4580a725bb9767a1e43a229c7c86affc">
+          <head>Location of Originals</head>
+          <p>This item is a microfilmed copy of the Church records, 1721-1850, which is housed, as
+            part of this collection, at the CLA.</p>
+        </originalsloc>
+      </c01>
+      <c01 id="aspace_523ea73c0e990496af1df16bcea3417f" level="file">
+        <did>
+          <unittitle>List of board members</unittitle>
+          <unitdatestructured calendar="gregorian" certainty="inferred" unitdatetype="inclusive">
+            <datesingle standarddate="1784">circa 1784</datesingle>
+          </unitdatestructured>
+          <container id="aspace_ea1e56a02a2b9234e15868582e362a09" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_59807ee93c4590aeea79036776858c5b" localtype="folder"
+            parent="aspace_ea1e56a02a2b9234e15868582e362a09">2</container>
+        </did>
+        <altformavail id="aspace_d2a8ee7d8d03f32dc8b4ff797ca78bd7">
+          <head>Digital Copies</head>
+          <p>This record was digitized as part of the New England's Hidden Histories project.
+            Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Oxford/viewer/Bowman20tax/13"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+      </c01>
+      <c01 id="aspace_384cf9f75607a237a1dccd2d9f07828c" level="file">
+        <did>
+          <unittitle>Taxes paid by residents</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1784">1784</datesingle>
+          </unitdatestructured>
+          <container id="aspace_dad6d30d96dd1d50513f1154303e3c82" label="Mixed Materials"
+            localtype="folder">7</container>
+        </did>
+        <altformavail id="aspace_f3acc496842babdeeaec4830a5178091">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Oxford/viewer/Bowman20tax/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_b56a1276da033d98b21ce8be5207a438">
+          <head>Scope and Contents</head>
+          <p>This folder contains records of special taxes collected from the residents of Oxford to
+            cover the salary of Rev. Joseph Bowman who was unpaid during the American Revolutionary
+            War.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_0f568e09528818221a271c223a8dc81e" level="file">
+        <did>
+          <unittitle>Correspondence</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1784">1784</fromdate>
+              <todate standarddate="1787">1787</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1784, 1787</unitdate>
+          <container id="aspace_2eefd5fb13e22d9d299bb5c275629f00" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_b40f99753cb7285f820e637b2f64223a" localtype="folder"
+            parent="aspace_2eefd5fb13e22d9d299bb5c275629f00">3</container>
+        </did>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
