@@ -1,0 +1,962 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/BerkshireColumbia-4696.xml"
+      >BerkshireColumbia-4696</recordid>
+    <representation localtype="pdf"
+      href="http://www.congregationallibrary.org/sites/all/files/BerkshireColumbia-4696.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Berkshire and Columbia Missionary Society records, 1798-2002.</titleproper>
+        <author>William McCarthy</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2018-10-17</date>
+        <num>RG4696</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS2 - 2013</abbr>
+      <citation>Describing Archives: A Content Standard, Second Edition</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2019-07-16T17:04:58+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Tuesday July 16, 2019
+          at 17:04</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Berkshire and Columbia Missionary Society records, 1798-2002.</unittitle>
+      <unitid>RG4696</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>.97</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(3 boxes)</physdesc>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1798">1798</fromdate>
+          <todate standarddate="2002">2002</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" unitdatetype="inclusive">1798-2002</unitdate>
+      <abstract id="aspace_1499271fbdcb9ae86746ea90f1de4220">The Berkshire and Columbia Missionary
+        Foundation was a missionary society that was officially founded in February 1798. It is
+        considered to be the oldest missionary society in the US, predating the "Haystack Movement"
+        by eight years. The year prior, members met at the Green River in Hillsdale, N.Y. where it
+        was suggested that a group form to send out missionaries both far and near. The locations
+        that they decided upon included parts of Vermont, Ohio, Pennsylvania, Massachusetts and New
+        Hampshire. By 1810, the movement has ten missionaries who gave out tracts and bibles to help
+        the areas determined to be "destitute settlements". In the two centuries that followed, the
+        foundation donated funds to over 100 different organizations and individuals. The
+        organizations officially closed its doors in 2002. This collection contains meeting and
+        secretary notes, financial information, newspaper clippings, histories, correspondences and
+        programs.</abstract>
+      <origination label="creator">
+        <persname rules="rda" source="local">
+          <part>Beckwith, Kenneth Daggett, 1896-</part>
+        </persname>
+      </origination>
+      <origination label="creator">
+        <corpname identifier="n2004072518" source="lcnaf">
+          <part>Berkshire and Columbia Missionary Society</part>
+        </corpname>
+      </origination>
+      <origination label="creator">
+        <persname rules="rda" source="local">
+          <part>Boynton, Nehemiah</part>
+        </persname>
+      </origination>
+      <origination label="creator">
+        <persname rules="rda" source="local">
+          <part>Nettleton, Albert</part>
+        </persname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_604bd3304741a563f3f94cba9cc40ddd">
+      <head> Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_83706edc3dbc64479b275546b2fe46f5">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite id="aspace_b7dbb19906acd458ebdf0519888ea33e">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Berkshire and Columbia Missionary Society records,
+        1798-2002, RG4696. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_1f0820f4b5a546393d3a54b2a1c22793">
+      <head>Acquisition Information</head>
+      <p>Received in 2003; 2003-12.</p>
+    </acqinfo>
+    <processinfo id="aspace_db8b54bd8b51879707a79b20aabef320">
+      <head>Processing Information</head>
+      <p>Accessioned and processed by Jessica Steytler in December 2012. Re-processed by William
+        McCarthy in October 2018.</p>
+    </processinfo>
+    <bioghist id="aspace_01525d19f2dae6151968be45d60cc96a">
+      <head>Historical Information</head>
+      <p>The Berkshire and Columbia Missionary Foundation was a missionary society that was
+        officially founded in February 1798. It is considered to be the oldest missionary society in
+        the US, predating the "Haystack Movement" by eight years. The year prior, members met at the
+        Green River in Hillsdale, N.Y. where it was suggested that a group form to send out
+        missionaries both far and near. The locations that they decided upon included parts of
+        Vermont, Ohio, Pennsylvania, Massachusetts and New Hampshire. By 1810, the movement has ten
+        missionaries who gave out tracts and bibles to help the areas determined to be "destitute
+        settlements". In the two centuries that followed, the foundation donated funds to over 100
+        different organizations and individuals. The organizations officially closed its doors in
+        2002.</p>
+    </bioghist>
+    <scopecontent id="aspace_f429f76d2de0ea8f852cb2e0194f7d41">
+      <head>Scope and Contents</head>
+      <p>This collection contains meeting and secretary notes, financial information, newspaper
+        clippings, histories, correspondences and programs.</p>
+    </scopecontent>
+    <arrangement id="aspace_cd539e78d7643be0902e1d265fa87c90">
+      <head>Arrangement</head>
+      <p>This collection is arranged into 5 series and each one is further arranged
+        chronologically.</p>
+      <p><emph render="bold">Series 1:</emph> Meeting Minutes and Records, 1798-1998.</p>
+      <p><emph render="bold">Series 2:</emph> Finances, 1798-2002.</p>
+      <p><emph render="bold">Series 3:</emph> History, 1831-1982.</p>
+      <p><emph render="bold">Series 4:</emph> Correspondences, 1853-2002.</p>
+      <p><emph render="bold">Series 5:</emph> Programs, 1962-1963, undated.</p>
+    </arrangement>
+    <bibliography id="aspace_e2c2f182dab0b170e5a3d37ab8503790">
+      <head>Bibliography</head>
+      <p>Berkshire and Columbia Missionary Society. Oldest Missionary Society in the United States.
+        Massachusetts, n.d.</p>
+    </bibliography>
+    <controlaccess>
+      <subject source="lcsh">
+        <part>Missionary societies.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Missionaries -- Correspondence, reminiscences, etc.</part>
+      </subject>
+      <subject identifier="sh85025606" source="lcsh">
+        <part>Church finance.</part>
+      </subject>
+      <persname rules="rda" source="local">
+        <part>Beckwith, Kenneth Daggett, 1896-</part>
+      </persname>
+      <corpname identifier="n2004072518" source="lcnaf">
+        <part>Berkshire and Columbia Missionary Society</part>
+      </corpname>
+      <persname rules="rda" source="local">
+        <part>Boynton, Nehemiah</part>
+      </persname>
+      <persname rules="rda" source="local">
+        <part>Nettleton, Albert</part>
+      </persname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_90610c0e8af0773a60d865eb85c9fbc4" level="series">
+        <did>
+          <unittitle>Meeting minutes and records</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>9</quantity>
+            <unittype>Items</unittype>
+          </physdescstructured>
+          <physdesc localtype="container_summary">(7 folders, 2 volumes)</physdesc>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1798">1798</fromdate>
+              <todate standarddate="1998">1998</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1798-1998</unitdate>
+        </did>
+        <scopecontent id="aspace_96ebf7c1e24c564a43d63784301aa794">
+          <head>Scope and Contents</head>
+          <p>This series contains meeting minutes, secretary notes, member lists and the
+            constitution for the Berkshire and Columbia Missionary Society.</p>
+        </scopecontent>
+        <c02 id="aspace_cbc61ed34b028e372416800fb12650eb" level="file">
+          <did>
+            <unittitle>Meeting records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1798">1798</fromdate>
+                <todate standarddate="1817">1817</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1798-1917</unitdate>
+            <container id="aspace_dcbd6e08fb924f6bc5ef0dcda1d01935" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_db49724bb2482aa93737f907180d21d5" localtype="folder"
+              parent="aspace_dcbd6e08fb924f6bc5ef0dcda1d01935">1</container>
+          </did>
+        </c02>
+        <c02 id="aspace_b9045dcd382535a3afb531bcc73036c9" level="file">
+          <did>
+            <unittitle>Constitution with copies</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1798">1798</fromdate>
+                <todate standarddate="1961">1961</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1798, 1961</unitdate>
+            <container id="aspace_46a5e48be712194c16db965a6438e77e" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_7fd04020ed68b2ffcf5fd8687d1748f7" localtype="folder"
+              parent="aspace_46a5e48be712194c16db965a6438e77e">2</container>
+          </did>
+        </c02>
+        <c02 id="aspace_ac52317928eaa3614f6ea9cf2f13d0e6" level="file">
+          <did>
+            <unittitle>Meeting records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1819">1819</fromdate>
+                <todate standarddate="1853">1853</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1819-1853</unitdate>
+            <container id="aspace_e8646a9db2de2b4a2cdb404b101310e3" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_094de3d7529f825d55aac7d28a0f5595" localtype="volume"
+              parent="aspace_e8646a9db2de2b4a2cdb404b101310e3">3</container>
+          </did>
+        </c02>
+        <c02 id="aspace_b0ebf463ea2062225636c267c9a7363a" level="file">
+          <did>
+            <unittitle>Meeting records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1827">1827</fromdate>
+                <todate standarddate="1853">1853</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1827-1853</unitdate>
+            <container id="aspace_06506bbffb7d307e0c0916cf7da1b938" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_8348c548fe855a6331fed536d7c776f3" localtype="folder"
+              parent="aspace_06506bbffb7d307e0c0916cf7da1b938">3</container>
+          </did>
+        </c02>
+        <c02 id="aspace_7577053b28f00c6403cdaccdda44ee5a" level="file">
+          <did>
+            <unittitle>Secretary records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1858">1858</fromdate>
+                <todate standarddate="1928">1928</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1858-1928</unitdate>
+            <container id="aspace_38b51e7fabc91b3b6444a9606bf5cb31" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_c00d85ea0e1d32c00345bd5155adbe93" localtype="volume"
+              parent="aspace_38b51e7fabc91b3b6444a9606bf5cb31">4</container>
+          </did>
+        </c02>
+        <c02 id="aspace_fa93d54836aaddf4bcfd58567d023461" level="file">
+          <did>
+            <unittitle>Meeting records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1947">1947</fromdate>
+                <todate standarddate="1983">1983</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1947, 1963-1983</unitdate>
+            <container id="aspace_074be3956ce4e706726e6e43a848c49f" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_c8c3f962f9a02595f621339e7aace3fe" localtype="folder"
+              parent="aspace_074be3956ce4e706726e6e43a848c49f">4</container>
+          </did>
+        </c02>
+        <c02 id="aspace_b7fcf22560878b5279b8292275b4018e" level="file">
+          <did>
+            <unittitle>Meeting records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1948">1948</fromdate>
+                <todate standarddate="1951">1951</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1948-1951</unitdate>
+            <container id="aspace_203ed342dcad8fa9728510127855698a" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_36ee56789306b34a72aabc99ed4d79c0" localtype="folder"
+              parent="aspace_203ed342dcad8fa9728510127855698a">5</container>
+          </did>
+        </c02>
+        <c02 id="aspace_f4083bcf081c2fc5531abef31d9a7b7e" level="file">
+          <did>
+            <unittitle>Meeting records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1984">1984</fromdate>
+                <todate standarddate="2002">2002</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1984-2002</unitdate>
+            <container id="aspace_131f81bb4d82692c37bf13fe95ca4dbf" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_de7e7a438deb13521b631905d3f85d57" localtype="folder"
+              parent="aspace_131f81bb4d82692c37bf13fe95ca4dbf">6</container>
+          </did>
+        </c02>
+        <c02 id="aspace_735d8eb7391274a49958a4d7bf6f3105" level="file">
+          <did>
+            <unittitle>Membership lists</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1990">1990</fromdate>
+                <todate standarddate="1998">1998</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1990, 1996-1998</unitdate>
+            <container id="aspace_bb7b290633db06a41593e0388492df75" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_00c2f66977ea87337b789ec8190bc77c" localtype="folder"
+              parent="aspace_bb7b290633db06a41593e0388492df75">7</container>
+          </did>
+        </c02>
+      </c01>
+      <c01 id="aspace_61afc2f74fe0e3341f69c2f098c953c7" level="series">
+        <did>
+          <unittitle>Finances</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>15</quantity>
+            <unittype>Cubic Feet</unittype>
+          </physdescstructured>
+          <physdesc localtype="container_summary">(13 folders, 2 volumes)</physdesc>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1798">1798</fromdate>
+              <todate standarddate="2002">2002</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1798-2002</unitdate>
+        </did>
+        <scopecontent id="aspace_89d9c662676591d8c1142ed5a3fdf677">
+          <head>Scope and Contents</head>
+          <p>This series contains financial information for the Berkshire and Columbia Missionary
+            Society, including treasury records, contributions, transfer of stewardship, tax and
+            bank information and canceled bankbooks.</p>
+        </scopecontent>
+        <c02 id="aspace_a200f051b231ead3dcc927686577e79f" level="file">
+          <did>
+            <unittitle>Financial records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1798">1798</fromdate>
+                <todate standarddate="1835">1835</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1798-1835</unitdate>
+            <container id="aspace_ecdb23f72ac2e067d1d9485245d98385" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_b500ee51c24eef543e63d71f1b597e6b" localtype="volume"
+              parent="aspace_ecdb23f72ac2e067d1d9485245d98385">1</container>
+          </did>
+        </c02>
+        <c02 id="aspace_51d6b6365c6c40b56be4c0b6b39a2673" level="file">
+          <did>
+            <unittitle>Treasury records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1825">1825</fromdate>
+                <todate standarddate="1948">1948</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1825-1948</unitdate>
+            <container id="aspace_acafe168357c02ccf1c35db670f1bb35" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_0c7a8164a27c201c65f94bd6883afe40" localtype="volume"
+              parent="aspace_acafe168357c02ccf1c35db670f1bb35">2</container>
+          </did>
+        </c02>
+        <c02 id="aspace_59785e4773c830ae13a111043f82e1f7" level="file">
+          <did>
+            <unittitle>Financial information</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1834">1834</fromdate>
+                <todate standarddate="1852">1852</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1834, 1852</unitdate>
+            <container id="aspace_da5c86359e5ef8f77224e7959a952966" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_8f9048cdb48049eaf0c8dbc91fe743d5" localtype="folder"
+              parent="aspace_da5c86359e5ef8f77224e7959a952966">1</container>
+          </did>
+        </c02>
+        <c02 id="aspace_a9b273d65cce56b15b0b61148312b629" level="file">
+          <did>
+            <unittitle>Financial information</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1901">1901</fromdate>
+                <todate standarddate="1919">1919</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1901-1919</unitdate>
+            <container id="aspace_416c6521e3df0411f52bbad7bd4a0a57" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_bb40a0d4863afcaebf7b0aa1627b8f3d" localtype="folder"
+              parent="aspace_416c6521e3df0411f52bbad7bd4a0a57">2</container>
+          </did>
+        </c02>
+        <c02 id="aspace_252ab477b510120dd16228a0aa16c70c" level="file">
+          <did>
+            <unittitle>Financial information</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1912">1912</fromdate>
+                <todate standarddate="1917">1917</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1912-1917</unitdate>
+            <container id="aspace_f53dbc2d7a61f5f22f1f1f37a4ac4d60" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_a91196eb2555da1810c2de9b872f7863" localtype="folder"
+              parent="aspace_f53dbc2d7a61f5f22f1f1f37a4ac4d60">4</container>
+          </did>
+        </c02>
+        <c02 id="aspace_c6746d533bc1ce981245b98ef6c982fa" level="file">
+          <did>
+            <unittitle>Financial information</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1918">1918</fromdate>
+                <todate standarddate="1929">1929</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1918-1929</unitdate>
+            <container id="aspace_4288f3b25eaec74a3f59b13ed66226d7" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_1f12d2d0e0a9633a0e6e1021ae9434ac" localtype="folder"
+              parent="aspace_4288f3b25eaec74a3f59b13ed66226d7">5</container>
+          </did>
+        </c02>
+        <c02 id="aspace_01948f47fb0a757f4a95249c12cd75b0" level="file">
+          <did>
+            <unittitle>Financial information</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1932">1932</fromdate>
+                <todate standarddate="1939">1939</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1932-1939</unitdate>
+            <container id="aspace_aab422bf4675fda08301018c1c548454" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_caaccfa0cf714a63f7dff2082f429aec" localtype="folder"
+              parent="aspace_aab422bf4675fda08301018c1c548454">6</container>
+          </did>
+        </c02>
+        <c02 id="aspace_1ad8612270a5f283257a9336a1b49259" level="file">
+          <did>
+            <unittitle>Financial information</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1940">1940</fromdate>
+                <todate standarddate="1949">1949</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1940-1949</unitdate>
+            <container id="aspace_75a4cf0fa5cac0439dd26da6976fd1c9" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_334a0541eeb3cc261bb44dd803abcc30" localtype="folder"
+              parent="aspace_75a4cf0fa5cac0439dd26da6976fd1c9">7</container>
+          </did>
+        </c02>
+        <c02 id="aspace_197595fc4b354daa34d327e087505557" level="file">
+          <did>
+            <unittitle>Contributions and donations</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1961">1961</fromdate>
+                <todate standarddate="1993">1993</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1961-1993</unitdate>
+            <container id="aspace_9a9298ad64e15875eb09cdef6f4d945b" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_272f31cb7b53e14d643aa00a71631118" localtype="folder"
+              parent="aspace_9a9298ad64e15875eb09cdef6f4d945b">8</container>
+          </did>
+        </c02>
+        <c02 id="aspace_d4746babfe26bbf967426ff94c647bbe" level="file">
+          <did>
+            <unittitle>Financial information</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1966">1966</fromdate>
+                <todate standarddate="1972">1972</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1966-1972</unitdate>
+            <container id="aspace_5ae8a4ad19d5490ea23e9cae1ee21b38" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_ff7b4297d215f359491af9af88c4c8ef" localtype="folder"
+              parent="aspace_5ae8a4ad19d5490ea23e9cae1ee21b38">9</container>
+          </did>
+        </c02>
+        <c02 id="aspace_f15b199eb3ddac24550f4efbf3d1066f" level="file">
+          <did>
+            <unittitle>Tax and bank information</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1970">1970</fromdate>
+                <todate standarddate="1995">1995</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1970-1995</unitdate>
+            <container id="aspace_b7cee42a458ae6de78fd5e94c236b1f7" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_905ee6112909dec8ac4c6a08bf5674a9" localtype="folder"
+              parent="aspace_b7cee42a458ae6de78fd5e94c236b1f7">10</container>
+          </did>
+        </c02>
+        <c02 id="aspace_876913d5842e2b1f7c8d308657da1505" level="file">
+          <did>
+            <unittitle>Financial information</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1981">1981</fromdate>
+                <todate standarddate="1989">1989</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1981-1989</unitdate>
+            <container id="aspace_548b2a430f0cc68a0d3e294b88438d1c" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_955543ea84e9ad871ccce0b8f417a02b" localtype="folder"
+              parent="aspace_548b2a430f0cc68a0d3e294b88438d1c">11</container>
+          </did>
+        </c02>
+        <c02 id="aspace_a875f42c1979063dce0a376e4319aaea" level="file">
+          <did>
+            <unittitle>Financial information</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1990">1990</fromdate>
+                <todate standarddate="2002">2002</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1990-2002</unitdate>
+            <container id="aspace_94aef7b0b0e74346f411f4ad9acef5e8" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_88b9364e6007a4dd8d23cb2fcbdf33f8" localtype="folder"
+              parent="aspace_94aef7b0b0e74346f411f4ad9acef5e8">12</container>
+          </did>
+        </c02>
+        <c02 id="aspace_b38ad873d1e827c3578ae89adc59aa3c" level="file">
+          <did>
+            <unittitle>Transfer of stewardship</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="2001">2001</fromdate>
+                <todate standarddate="2002">2002</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">2001-2002</unitdate>
+            <container id="aspace_fbdf77eabfa3eadf63e3355a1a6ca125" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_475b12066e81dd4577d4ac287e29a4ec" localtype="folder"
+              parent="aspace_fbdf77eabfa3eadf63e3355a1a6ca125">13</container>
+          </did>
+        </c02>
+        <c02 id="aspace_f99b2ef33d0b7ed2c1390eea77529a41" level="file">
+          <did>
+            <unittitle>Canceled bankbooks</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_69d442327dedce96be117496282ecf57" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_d9385f1d7c5b292e869c3c1a12ac2716" localtype="folder"
+              parent="aspace_69d442327dedce96be117496282ecf57">14</container>
+          </did>
+        </c02>
+      </c01>
+      <c01 id="aspace_f26c9e59ad574749af3338a8a8a3ea8c" level="series">
+        <did>
+          <unittitle>History</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>10</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1831">1831</fromdate>
+              <todate standarddate="1982">1982</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1831-1982</unitdate>
+        </did>
+        <scopecontent id="aspace_44be16e4e8c6a7543377831aed6bd325">
+          <head>Scope and Contents</head>
+          <p>This series contains historical information related to the Berkshire and Columbia
+            Missionary Society, such as newspaper clippings, maps, scrapbook pieces anda history of
+            the society.</p>
+        </scopecontent>
+        <c02 id="aspace_cb003769198061bfdb72c22e5668036a" level="file">
+          <did>
+            <unittitle>Newspaper clippings</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1831">1831</fromdate>
+                <todate standarddate="1839">1839</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1831-1839</unitdate>
+            <container id="aspace_6fcfb761d3a5d64c1e2bc5eeaeb1aab9" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_683fa42172c3a17b48939a8710b1b7a1" localtype="folder"
+              parent="aspace_6fcfb761d3a5d64c1e2bc5eeaeb1aab9">3</container>
+          </did>
+        </c02>
+        <c02 id="aspace_0eb626218d46706ba67170b42f5a7655" level="file">
+          <did>
+            <unittitle>Histories</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1934">1934</fromdate>
+                <todate standarddate="1961">1961</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1934, 1961</unitdate>
+            <container id="aspace_390420827efcaf6d004672b4961d7029" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_bd104c2571a71e4b9e68f5a90820fa32" localtype="folder"
+              parent="aspace_390420827efcaf6d004672b4961d7029">16</container>
+          </did>
+        </c02>
+        <c02 id="aspace_6809f8651f38a06a762d13aa16ec87ad" level="file">
+          <did>
+            <unittitle>Scrapbook pieces</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1946">1946</fromdate>
+                <todate standarddate="1962">1962</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1946-1962</unitdate>
+            <container id="aspace_71c962e5dccffd23c27ab32e64b7e64a" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_6949f4756dbc54c03ee622357e70d867" localtype="folder"
+              parent="aspace_71c962e5dccffd23c27ab32e64b7e64a">17</container>
+          </did>
+        </c02>
+        <c02 id="aspace_073b06f7d4e907656a641d74690c2b36" level="file">
+          <did>
+            <unittitle>Scrapbook pieces</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1960">1960</datesingle>
+            </unitdatestructured>
+            <container id="aspace_9c2659f09e0f48a5b7b67fc19a3ed0d8" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_e4c1a917f6a75667e55dbba5d65ab7f2" localtype="folder"
+              parent="aspace_9c2659f09e0f48a5b7b67fc19a3ed0d8">18</container>
+          </did>
+        </c02>
+        <c02 id="aspace_5027a9eeabad4377d3b9c484c1ac9167" level="file">
+          <did>
+            <unittitle>Newspaper clippings</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1963">1963</fromdate>
+                <todate standarddate="1982">1982</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1963-1982</unitdate>
+            <container id="aspace_2778378ffc7c3d49a51b06c1fd21273c" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_ceac32db178bb44ced827804404942ab" localtype="folder"
+              parent="aspace_2778378ffc7c3d49a51b06c1fd21273c">4</container>
+          </did>
+        </c02>
+        <c02 id="aspace_23a8485465f746acfb3df6de51ff604e" level="file">
+          <did>
+            <unittitle>History of the Society, 1798-1961 (original)</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_24c50226508c542b998971d4d37faffa" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_c6d87bd81380ecac1f0dccfec446296c" localtype="folder"
+              parent="aspace_24c50226508c542b998971d4d37faffa">19</container>
+          </did>
+        </c02>
+        <c02 id="aspace_8e989f19cac4b3115556d33597610a4a" level="file">
+          <did>
+            <unittitle>History of the Society, 1798-1961 (copy)</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_afd2fc93e7df79565ef51d86f6a046a1" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_2f2963451a54194e7150671b436c4aa4" localtype="folder"
+              parent="aspace_afd2fc93e7df79565ef51d86f6a046a1">20</container>
+          </did>
+        </c02>
+        <c02 id="aspace_fee35b12f8f1501e5549c85849ef8f7c" level="file">
+          <did>
+            <unittitle>Historical maps</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_af1d285f4e779d4c94224da3be0f3eb1" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_388eb17b5880187114eb353fcf800d0c" localtype="folder"
+              parent="aspace_af1d285f4e779d4c94224da3be0f3eb1">21</container>
+          </did>
+        </c02>
+        <c02 id="aspace_99735ecdc460656794ad8ab7e617fab4" level="file">
+          <did>
+            <unittitle>History pamphlet</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_888f8a42408480958b65dafba9f76c4b" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_28eb94f4db50ad842140bbd8c7aaa215" localtype="folder"
+              parent="aspace_888f8a42408480958b65dafba9f76c4b">22</container>
+          </did>
+        </c02>
+        <c02 id="aspace_e433779aff257be9b87de66b49737875" level="file">
+          <did>
+            <unittitle>Sample of letterhead and envelope</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_b02975f0c844d8153f0c4b2f2fced8ac" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_d359f87a3c26cfffc8b06cd06a29d0e4" localtype="folder"
+              parent="aspace_b02975f0c844d8153f0c4b2f2fced8ac">1</container>
+          </did>
+        </c02>
+      </c01>
+      <c01 id="aspace_fd3b845521962889a66fe3efb8510dc7" level="series">
+        <did>
+          <unittitle>Correspondence</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>8</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1853">1853</fromdate>
+              <todate standarddate="2002">2002</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1853-2002</unitdate>
+        </did>
+        <scopecontent id="aspace_8538d53e94cb48d50b285935f8ea2c4f">
+          <head>Scope and Contents</head>
+          <p>This series contains correspondences of the Berkshire and Columbia Missionary Society,
+            including those of Albert Nettleton, Kenneth Beckwith, Nehemiah Boynton and more.</p>
+        </scopecontent>
+        <c02 id="aspace_f33d654296a44d30cd7e93d3b5eefd31" level="file">
+          <did>
+            <unittitle>Correspondence</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1853">1853, undated</datesingle>
+            </unitdatestructured>
+            <container id="aspace_72a1cb23311b4524e718e9ae9cdb6183" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_6a9c971b3e234661806f591fcece2a53" localtype="folder"
+              parent="aspace_72a1cb23311b4524e718e9ae9cdb6183">8</container>
+          </did>
+        </c02>
+        <c02 id="aspace_cd0864e245504ed9469c15162a6c1117" level="file">
+          <did>
+            <unittitle>Correspondence</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1916">1916</fromdate>
+                <todate standarddate="1919">1919</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1916-1919</unitdate>
+            <container id="aspace_f0920dc3ff8d4606be12854e39343730" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_026983f8ded94f6ebd0fab252150fac3" localtype="folder"
+              parent="aspace_f0920dc3ff8d4606be12854e39343730">9</container>
+          </did>
+        </c02>
+        <c02 id="aspace_c22b332fa4bcc585225b02b07da5b45a" level="file">
+          <did>
+            <unittitle>Correspondence with Albert Nettleton</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1951">1951</fromdate>
+                <todate standarddate="1965">1965</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1951-1965</unitdate>
+            <container id="aspace_1cd89fbfdb675ebe06ab2f5e4e4d7c1a" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_44383f06ca69d7ef8985979566997d64" localtype="folder"
+              parent="aspace_1cd89fbfdb675ebe06ab2f5e4e4d7c1a">10</container>
+          </did>
+        </c02>
+        <c02 id="aspace_fb3cbf994907e4d472e728ad930a404c" level="file">
+          <did>
+            <unittitle>Correspondence with Kenneth Beckwith</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1951">1951</fromdate>
+                <todate standarddate="1968">1968</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1951-1968</unitdate>
+            <container id="aspace_c82cf3ca35f145a566480bfd118b8f85" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_62eb5c38725ea509318aa60039a72ab4" localtype="folder"
+              parent="aspace_c82cf3ca35f145a566480bfd118b8f85">11</container>
+          </did>
+        </c02>
+        <c02 id="aspace_e75f6f4d7df76112bf8467f7998767ab" level="file">
+          <did>
+            <unittitle>Correspondence with Nehemiah Boynton</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1955">1955</fromdate>
+                <todate standarddate="1966">1966</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1955-1966</unitdate>
+            <container id="aspace_51e0d9a6628ecab8c34abef639cd15c8" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_a962f586cea538cdd5c00b5d68ce848b" localtype="folder"
+              parent="aspace_51e0d9a6628ecab8c34abef639cd15c8">12</container>
+          </did>
+        </c02>
+        <c02 id="aspace_ff3bd1d7cebbfad35e9191721f96915c" level="file">
+          <did>
+            <unittitle>Correspondence</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1960">1960</fromdate>
+                <todate standarddate="1972">1972</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1960-1972</unitdate>
+            <container id="aspace_d77fd355f5a12ba484bc285de80c1b06" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_142bc9be86ffa7f12b20d608201d3b1c" localtype="folder"
+              parent="aspace_d77fd355f5a12ba484bc285de80c1b06">13</container>
+          </did>
+        </c02>
+        <c02 id="aspace_86a269e8a53938f57e27f47ae2dc35f3" level="file">
+          <did>
+            <unittitle>Correspondence</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1980">1980</fromdate>
+                <todate standarddate="1998">1998</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1980-1998</unitdate>
+            <container id="aspace_38c1670f79f964892af5ab512e7f281b" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_2e8c2385e176bacad50fe75b08660439" localtype="folder"
+              parent="aspace_38c1670f79f964892af5ab512e7f281b">14</container>
+          </did>
+        </c02>
+        <c02 id="aspace_71887342dbf471880ab8797c63cdb81e" level="file">
+          <did>
+            <unittitle>Correspondence</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="2001">2001</fromdate>
+                <todate standarddate="2002">2002</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">2001-2002</unitdate>
+            <container id="aspace_f378d5ac8d3cb9b0a630c0bf7c0e5d6b" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_623ae16e0066967baaa8a476fb8cfefa" localtype="folder"
+              parent="aspace_f378d5ac8d3cb9b0a630c0bf7c0e5d6b">15</container>
+          </did>
+        </c02>
+      </c01>
+      <c01 id="aspace_7cf3735b3b24b8e80cd81f89d7bc3b86" level="series">
+        <did>
+          <unittitle>Programs</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>2</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1962">1962</fromdate>
+              <todate standarddate="1963">1963</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1962-1963, undated</unitdate>
+        </did>
+        <scopecontent id="aspace_ec98c92febdb074b9a268974e3c5a967">
+          <head>Scope and Contents</head>
+          <p>This series contains information on the Mission to America and Helping Migrants
+            programs.</p>
+        </scopecontent>
+        <c02 id="aspace_cf89add4149a8b90ad6e5d6144056b08" level="file">
+          <did>
+            <unittitle>Mission to America</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1962">1962</fromdate>
+                <todate standarddate="1963">1963</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1962-1963</unitdate>
+            <container id="aspace_7fedad4fd4d688ef36ee286ab29fb0c7" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_40a24de05cef0cdcc6ceb3944a79f727" localtype="folder"
+              parent="aspace_7fedad4fd4d688ef36ee286ab29fb0c7">2</container>
+          </did>
+        </c02>
+        <c02 id="aspace_be86958c9011f6ac551375d702ac468f" level="file">
+          <did>
+            <unittitle>Helping Migrants program</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_374ececbcfbb51a1213f9d35ff1e6fac" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_4c2e68bd48bf475182877453c4948bf1" localtype="folder"
+              parent="aspace_374ececbcfbb51a1213f9d35ff1e6fac">3</container>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
