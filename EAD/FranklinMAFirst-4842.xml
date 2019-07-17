@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/FranklinMAFirst-4842.xml"
+      >FranklinMAFirst-4842</recordid>
+    <representation localtype="pdf"
+      href="http://www.congregationallibrary.org/sites/all/files/FranklinMAFirst-4842.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Franklin, Mass. First Congregational Church records, 1737-1877.</titleproper>
+        <author>Sari Mauro, Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2018-08-27</date>
+        <num>RG4842</num>
+      </publicationstmt>
+      <seriesstmt>
+        <p>This collection is part of New England's Hidden Histories. Digital historical
+          representations of the collection can be viewed online.</p>
+      </seriesstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS2 - 2013</abbr>
+      <citation>Describing Archives: A Content Standard, Second Edition</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2019-07-17T17:27:14+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday July 17,
+          2019 at 17:27</eventdescription>
+      </maintenanceevent>
+      <maintenanceevent>
+        <eventtype value="revised"/>
+        <eventdatetime standarddatetime="2019-07-17">July 17, 2019</eventdatetime>
+        <agenttype value="human"/>
+        <agent/>
+        <eventdescription>Zachary Bodnar: Minor revision to the description of microfilm records,
+          minor change to the arrangement, changed the date range in the collection title, added
+          Haverhill to the collection title, minor adjustments made to notes.</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Franklin, Mass. First Congregational Church records, 1737-1877.</unittitle>
+      <unitid>RG4842</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>0.28</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(1 box, 3 reels)</physdesc>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1737">1737</fromdate>
+          <todate standarddate="1877">1877</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" unitdatetype="inclusive">1737-1877</unitdate>
+      <abstract id="aspace_bd8d1fe7f442cf1b3955bc2a7d1baa28">The Second Church of Wrentham, also
+        known as the West Parish Church, was established in 1738. When the West Precinct of Wrentham
+        separated from Wrentham and incorporated as Franklin in 1778, the West Parish Church was
+        renamed the First Congregational Church of Franklin. Included within the collection are
+        meeting minutes, committee reports, society records, and vital records.</abstract>
+      <origination label="creator">
+        <corpname identifier="n98108779" source="lcnaf">
+          <part>First Congregational Church (Franklin, Mass.)</part>
+        </corpname>
+      </origination>
+      <origination label="creator">
+        <corpname identifier="n98108775" source="lcnaf">
+          <part>West Parish Church (Wrentham, Mass.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_895913fdfe404da7225e844d7ce2200e">
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_fe4065684a2dbd4077aa2200e72e87b7">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+      <p>Digital Reproductions are protected by copyright and/or related rights. You are free to use
+        the Digital Reproductions in any way that is permitted by the copyright and related rights
+        legislation that applies to your use. In addition, no permission is required from the
+        Congregational Library &amp; Archives for educational uses. For other uses, you need to
+        obtain permission from the Congregational Library &amp; Archives. For additional information
+        regarding copyright, please consult the Congregational Library &amp; Archives' <ref
+          actuate="onrequest" href="http://www.congregationallibrary.org/about/digital-copyright"
+          linktitle="Digital Collections Copyright &amp; Use" show="new">Digital Collections
+          Copyright &amp; Use</ref> policy.</p>
+    </userestrict>
+    <prefercite id="aspace_a53353a20f6958ce2c3ff4faa655e411">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Franklin, Mass. First Congregational Church records,
+        1737-1877, RG4842. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_7f76cba5c041b3af43c73ba16467054e">
+      <head>Acquisition Information</head>
+      <p>No acquisition information for Ecclesiastical records; originally RG0177. Materials
+        permanently loaned to the Congregational Library &amp; Archives by the Franklin Federated
+        Church in 2007.</p>
+    </acqinfo>
+    <accruals id="aspace_683a5ec933bc40e391ffdfd1234a0a37">
+      <head>Accruals</head>
+      <p>Additional accruals are expected for this collection in the form of full-text
+        transcription. There is no anticipated date for this accrual.</p>
+    </accruals>
+    <processinfo id="aspace_79193af34dc73472fa9b938806cc8c59">
+      <head>Processing Information</head>
+      <p>Re-described by Sari Mauro, September 2013, using DACS Second Edition. Additional
+        description by Robin Duckworth. Re-processed by Zachary Bodnar, August 2018, using DACS
+        Second Edition.</p>
+    </processinfo>
+    <bioghist id="aspace_56fa0f6ff605c4dd181c44f84c6e10da">
+      <head>Historical Note</head>
+      <p>Against the backdrop of the First Great Awakening, twenty-four members from the Second
+        Precinct of Wrentham split from the First Church and signed the covenant which became the
+        founding document for the Second Church of Wrentham, also known as the West Parish Church,
+        in 1738. Not long after, the call went out to Rev. Elias Haven to become the first pastor of
+        the new church. He accepted and was ordained on November 8, 1738. The first meeting house
+        was constructed in the summer of 1739. It was a simple structure which included no pews
+        except for the two which had been constructed at the expense of the pew owners. By 1772 the
+        church's membership had outgrown the first meeting house and the search for a new location
+        was begun. However, disagreements within the church community, and difficulty with the town,
+        long delayed the purchase of new land and construction.</p>
+      <p>In 1778, the West Precinct of Wrentham separated from Wrentham and was incorporated as
+        Franklin in honor of Benjamin Franklin. It had been hoped that Benjamin Franklin would
+        donate a bell for a church steeple, but instead he donated 116 books which became part of
+        the Franklin Public Library's initial collection. At the same time as the town of Franklin
+        was incorporated, the West Parish Church was renamed the First Congregational Church of
+        Franklin. Construction on the second meeting house did not begin until 1787 and was
+        completed in 1789. In 1806 a belfry was constructed and the first bell was installed. In
+        1827, a formal Sunday School was founded and attached to the church. Due to the growth of
+        the town of Franklin after the Civil War, a third meeting house was found necessary and
+        construction completed on it in 1872. The fourth and final church building was constructed
+        in 1895. Throughout the nineteenth-century, the church actively participated in benevolent
+        societies and several members of the church participated in both foreign and home mission
+        societies.</p>
+      <p>Franklin was not spared from the Great New England Hurricane of 1938 and during the storm
+        the church building for the First Baptist Church of Franklin, established in 1868, was
+        destroyed. The First Congregational Church invited the Baptists to use their building for
+        worship. In 1941, the two congregations reformed together to form the Franklin Federated
+        Church.</p>
+      <p>The Franklin Federated Church, which is associated both with the United Church of Christ
+        and the American Baptist Church, continues to serve the Franklin community today.</p>
+    </bioghist>
+    <scopecontent id="aspace_ad812fde3ab0c402915674ad209220c6">
+      <head>Scope and Contents</head>
+      <p>This collection documents the early administrative history of the First Congregational
+        Church in Franklin. Included within the materials are meeting minutes, committee reports,
+        society records, baptismal records, membership records, examples of church discipline, and
+        correspondence.</p>
+    </scopecontent>
+    <arrangement id="aspace_ec8f44486937e6286ed54d36fd7a6576">
+      <head>Arrangement</head>
+      <p>This collection has been arranged in chronological order by start date.</p>
+    </arrangement>
+    <phystech id="aspace_2ea4144498607f133e88f9c5f6635573">
+      <head>Technical Requirements</head>
+      <p>A microfilm reader is required in order to access microform materials. One microfilm reader
+        is available to the public upon request.</p>
+      <p>To access digital user's copies via online-interface, a java-enabled web browser is
+        required. Internet Explorer 8.x and later, Firefox 5.x and later, Opera 12 and later, Safari
+        5.x and later, or any version of Google Chrome are recommended.</p>
+    </phystech>
+    <bibliography id="aspace_1b7ccc1a9bcf32a1a2aabc14300ca049">
+      <head>Bibliography</head>
+      <p>Committee of Arrangements. <emph render="italic">Our Retrospect: A Memorial Volume,
+          Containing the Historical Discourse, Adresses, Reminiscences, Letters, Etc., Given at the
+          Sesqui-Centennial Celebration of the First Congregational Church, Franklin, Mass</emph>.
+        Allen Print: Walpole, 1888. 17.11.1 F85.47 FraFC</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85022665" source="lcsh">
+        <part>Charities.</part>
+      </subject>
+      <subject identifier="sh85025597" source="lcsh">
+        <part>Church discipline.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Church records and registers -- Massachusetts -- Franklin.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Church records and registers -- Massachusetts -- Wrentham.</part>
+      </subject>
+      <subject identifier="sh85025766" source="lcsh">
+        <part>Church societies.</part>
+      </subject>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <subject identifier="sh85090572" source="lcsh">
+        <part>Necrologies.</part>
+      </subject>
+      <subject source="local">
+        <part>New England's Hidden Histories.</part>
+      </subject>
+      <persname identifier="n98108785" source="lcnaf">
+        <part>Barnum, Caleb, -1776</part>
+      </persname>
+      <corpname identifier="n98108779" source="lcnaf">
+        <part>First Congregational Church (Franklin, Mass.)</part>
+      </corpname>
+      <corpname identifier="n82129105" source="lcnaf">
+        <part>Franklin (Mass.) -- Church history.</part>
+      </corpname>
+      <corpname identifier="n98108775" source="lcnaf">
+        <part>West Parish Church (Wrentham, Mass.)</part>
+      </corpname>
+      <corpname identifier="n92096455" source="lcnaf">
+        <part>Wrentham (Mass.) -- Church history.</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_a2655ffb383ce5497a7f4c77cbf9dc38" level="item">
+        <did>
+          <unittitle>Records of the Second Church</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1737">1737</fromdate>
+              <todate standarddate="1781">1781</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1737-1781</unitdate>
+          <container id="aspace_d739423d38cf4206f1846dd045872d46" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_b2fe22c424794365998e017cb520ee18" localtype="volume"
+            parent="aspace_d739423d38cf4206f1846dd045872d46">1</container>
+        </did>
+        <altformavail id="aspace_b6b1773ba7a62b9d6baa7c9f9fc87a3d">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Franklin/viewer/Church20records2C2017371781/13"
+              linktitle="available to view online" show="new">available to view online</ref>. In
+            addition, transcriptions of this record book are available to view alongside the
+            corresponding page image in the above link.</p>
+        </altformavail>
+        <scopecontent id="aspace_bd39d7110582087758bb4fa2cd850d8e">
+          <head>Scope and Contents</head>
+          <p>Records included here document the church's covenant and meeting minutes. Also included
+            are records of correspondence, baptisms, and membership.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_96ed8676377d36f1c61130e5a732bd7a" level="item">
+        <did>
+          <unittitle>Microfilm records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1837">1837</fromdate>
+              <todate standarddate="1877">1877</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1737-1877</unitdate>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="2008">2008</datesingle>
+          </unitdatestructured>
+          <container id="aspace_c49dd89571711d3055f4375349ef2644" label="Microform" localtype="reel"
+            >Service Copy</container>
+          <container id="aspace_2ee3b9ea5867a7797e0908b8ac38f780" label="Microform" localtype="reel"
+            >Archival Master</container>
+          <container id="aspace_4e241f14f0899233ea252a740806b628" label="Microform" localtype="reel"
+            >Print Master</container>
+        </did>
+        <accessrestrict id="aspace_f3eb7d5cceff732c833a84c994f8e0fd">
+          <head>Restrictions on Access</head>
+          <p>Only the service copy is available for library use. The archival master and print
+            master copies are restricted for preservation purposes.</p>
+        </accessrestrict>
+        <scopecontent id="aspace_cd7cbf53049453e3fcfc25186740d72d">
+          <head>Scope and Contents</head>
+          <p>This microfilm contains photographic copies of the Records of the Second Church,
+            1737-1781 and the Records of the Church in Franklin, 1781-1877, which are both a part of
+            this collection.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_211e978ef3081c2492b759bc85fa13a0" level="file">
+        <did>
+          <unittitle>Ecclesiastical council results</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1767">1767</datesingle>
+          </unitdatestructured>
+          <container id="aspace_d927b0e9ca77824b818ed1d6c2e91d5f" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_655e04c5a291306e13a211da916a43b3" localtype="folder"
+            parent="aspace_d927b0e9ca77824b818ed1d6c2e91d5f">1</container>
+        </did>
+        <altformavail id="aspace_1a2e7998f88f78a5c28e9f1f721026f2">
+          <head>Digital Copies</head>
+          <p>These ecclesiastical council records were digitized as part of the New England's Hidden
+            Histories project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Wrentham/viewer/EcclesiasticalCouncil/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_ed78759e7c931966d5d636636f59144c">
+          <head>Scope and Contents</head>
+          <p>The ecclesiastical council recorded in this document was gathered to judge the moral
+            character of Rev. Caleb W. Barnum and contains the recommendations of the council
+            regarding his removal.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_0a9c8e257e207c5ac5dd203a372537d7" level="file">
+        <did>
+          <unittitle>Marriage records and necrologies</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1773">1773</fromdate>
+              <todate standarddate="1827">1827</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1773-1827</unitdate>
+          <container id="aspace_9a6acac0978036b9d60d776720834304" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_f6e0fbac2ac752156b3b740ee7168c7c" localtype="folder"
+            parent="aspace_9a6acac0978036b9d60d776720834304">2</container>
+        </did>
+        <altformavail id="aspace_db49e27df9dc22027d8311fee7d2ad27">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Franklin/viewer/Marriages20and20deaths2C2017731827/4"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_8ce581e4371e0283c3150234ad681700">
+          <head>Scope and Contents</head>
+          <p>This folder includes both marriage records and necrologies.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_0fb75fddd2a8dee2b9326541a35671dc" level="item">
+        <did>
+          <unittitle>Records of the Church in Franklin</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1781">1781</fromdate>
+              <todate standarddate="1877">1877</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1781-1877</unitdate>
+          <container id="aspace_028232329b5822ab63f5fc1544571e81" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_e00835be5f112e867c8f94bf7ef30f41" localtype="volume"
+            parent="aspace_028232329b5822ab63f5fc1544571e81">2</container>
+        </did>
+        <altformavail id="aspace_89408fd651c4be10b0d429e72d2bb067">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Franklin/viewer/Church20records2C2017811887/5"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_08714c58fa15b12b2e3614cf1a500da9">
+          <head>Scope and Contents</head>
+          <p>These records document the minutes of church meetings, correspondence, and religious
+            societies. The records also include lists of baptisms, membership admissions and
+            dismissions, censures, marriages, and deaths.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
