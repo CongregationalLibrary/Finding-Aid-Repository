@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/WenhamMAFirst-4929.xml"
+      >WenhamMAFirst-4929</recordid>
+    <representation localtype="pdf"
+      href="http://www.congregationallibrary.org/sites/all/files/WenhamMAFirst-4929.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Wenham, Mass. First Church in Wenham Congregational records, 1643-1847.</titleproper>
+        <author>Sari Mauro, Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2018-08-30</date>
+        <num>RG4929</num>
+      </publicationstmt>
+      <seriesstmt>
+        <p>This collection is part of New England's Hidden Histories. Digital historical
+          representations of the collection can be viewed online.</p>
+      </seriesstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS2 - 2013</abbr>
+      <citation>Describing Archives: A Content Standard, Second Edition</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2019-07-17T13:37:56+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday July 17,
+          2019 at 13:37</eventdescription>
+      </maintenanceevent>
+      <maintenanceevent>
+        <eventtype value="revised"/>
+        <eventdatetime standarddatetime="2019-07-17">July 17, 2019</eventdatetime>
+        <agenttype value="human"/>
+        <agent/>
+        <eventdescription>Zachary Bodnar: Minor revision to the description of microfilm records,
+          adjusted date range in title, minor revision to notes, minor revision to subject
+          headings.</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Wenham, Mass. First Church in Wenham Congregational records, 1643-1847.</unittitle>
+      <unitid>RG4929</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>0.28</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(1 box, 3 reels)</physdesc>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1643">1643</fromdate>
+          <todate standarddate="1847">1847</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" unitdatetype="inclusive">1643-1847</unitdate>
+      <abstract id="aspace_2fa3b1c89265d1de9165cccae5fb7894">In 1642 the first meeting house was
+        constructed in Wenham and the church was established in 1644 with the Rev. John Fiske as its
+        first minister. The Congregational Parish and Society was established in 1833 and remained
+        active until the church was incorporated in 1925. This collection includes meeting minutes,
+        vital records, ecclesiastical council results, and early town records.</abstract>
+      <origination label="creator">
+        <corpname identifier="n98083091" source="lcnaf">
+          <part>Congregational Church (Wenham, Mass.)</part>
+        </corpname>
+      </origination>
+      <origination label="creator">
+        <corpname identifier="n98083096" source="lcnaf">
+          <part>Congregational Parish and Society (Wenham, Mass.)</part>
+        </corpname>
+      </origination>
+      <origination label="creator">
+        <corpname identifier="n98083102" source="lcnaf">
+          <part>First Church in Wenham Congregational (Wenham, Mass.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_13ccba8facc9f8247e3ea3bbb610fc73">
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_f394b0e43036236e1032969b1921d39b">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+      <p>Digital Reproductions are protected by copyright and/or related rights. You are free to use
+        the Digital Reproductions in any way that is permitted by the copyright and related rights
+        legislation that applies to your use. In addition, no permission is required from the
+        Congregational Library &amp; Archives for educational uses. For other uses, you need to
+        obtain permission from the Congregational Library &amp; Archives. For additional information
+        regarding copyright, please consult the Congregational Library &amp; Archives' <ref
+          actuate="onrequest" href="http://www.congregationallibrary.org/about/digital-copyright"
+          linktitle="Digital Collections Copyright &amp; Use" show="new">Digital Collections
+          Copyright &amp; Use</ref> policy.</p>
+    </userestrict>
+    <prefercite id="aspace_0d97366543b93314bd31e8b3f9914cd6">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], Wenham, Mass. First Church in Wenham Congregational records,
+        1643-1847, RG4929. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_ced5db9330888993c0e49be5a260a87d">
+      <head>Acquisition Information</head>
+      <p>There is no acquisition information for the early town records. This collection's volumes
+        were placed on permanent loan at the Congregational Library &amp; Archived, May 2009, by the
+        First Church in Wenham Congregational; Accession: 2009-11.</p>
+    </acqinfo>
+    <acqinfo id="aspace_3d6b36916381bc3b7c4dc9a7be467fe6">
+      <head>Technical Requirements</head>
+      <p>A microfilm reader is required in order to access microform materials. One microfilm reader
+        is available to the public upon request.</p>
+      <p>To access digital user's copies via online-interface, a java-enabled web browser is
+        required. Internet Explorer 8.x and later, Firefox 5.x and later, Opera 12 and later, Safari
+        5.x and later, or any version of Google Chrome are recommended.</p>
+    </acqinfo>
+    <accruals id="aspace_b9f35dcaaee9764a0fc296b469d84984">
+      <head>Accruals</head>
+      <p>Additional accruals are expected for this collection in the form of full-text
+        transcription. There is no anticipated date for this accrual.</p>
+    </accruals>
+    <processinfo id="aspace_889fdde208816b45027f754f9776f993">
+      <head>Processing Information</head>
+      <p>Redescribed by Sari Mauro, September 2013, using DACS Second Edition. Additional
+        description by Robin Duckworth. Reprocessed by Zachary Bodnar, August 2018, using DACS
+        Second Edition.</p>
+    </processinfo>
+    <bioghist id="aspace_9fbd288e7eccf7a247d66891bf8b151c">
+      <head>Historical Note</head>
+      <p>The town of Wenham, originally a part of Salem, was first settled in 1635 though land
+        grants were not issued until around 1638. John Fiske, a wealthy minister and physician,
+        moved from Salem proper to the Wenham area around 1641. He was instrumental in the
+        establishment of a church in the community. In 1642 the first meeting house was constructed
+        and in 1643 the General Court of Massachusetts recognized Wenham as an independent town. The
+        Congregational Church in Wenham was established on October 8, 1644 after previous petitions
+        to organize had been denied. Rev. Fiske was left Wenham to settle in Chelmsford in 1654 and
+        seven other Wenham families followed him. The remaining members called Rev. Antipas Newman.
+        In 1663, the second meeting house was constructed after a year of difficult planning. Rev.
+        Joseph Garrish was called to be minister in 1673 and the town provided him with a parsonage
+        to ensure he accepted the offer. He served as the minister for 47 years until his death in
+        1720. The third meeting house was constructed in 1688.</p>
+      <p>The fourth meeting house was constructed in 1748 on the same spot as the third meeting
+        house. An informal Sunday school was established in 1815 and taught by Miss Elizabeth Shaw;
+        the church formally established a Sunday school in 1822. The Congregational Parish and
+        Society was established in 1833 following the formal separation of church and state in
+        Massachusetts. The fifth and final meeting house was constructed in 1843 and this building
+        was further enlarged a few years later in 1853. The church purchased an organ in 1851. This
+        organ was replaced in 1910 with an Esty organ with the help of a small grant from Andrew
+        Carnegie. This was also replaced in 1959 after the organ became inoperable in 1955. In 1925,
+        the Parish and Society were dissolved and the First Church in Wenham Congregational was
+        incorporated. The fifth meeting house underwent additional renovations and expansions in
+        1953 and 1986.</p>
+      <p>The First Church in Wenham Congregational, UCC, continues to serve the local community
+        today.</p>
+    </bioghist>
+    <scopecontent id="aspace_3bf8065de6d1b48c2cc0466ac85e9c99">
+      <head>Scope and Contents</head>
+      <p>This collection contains the earliest records of the First Church in Wenham and document
+        the administrative history of the church and the major life events of its members. Included
+        in the materials are meeting minutes, baptismal records, marriage records, records of death,
+        membership lists, ministerial records, ecclesiastical council results, and early town
+        records.</p>
+    </scopecontent>
+    <arrangement id="aspace_ee0a2b26e591cf576af9e191f1e455db">
+      <head>Arrangement</head>
+      <p>Materials in this collection have been arranged in chronological order by the start
+        date.</p>
+    </arrangement>
+    <bibliography id="aspace_9db53c487bf72844a9fe05872b4a221f">
+      <head>Bibliography</head>
+      <p>Harrington, Joseph, Jr. <emph render="italic">Historical Outline: First Church in
+          Wenham</emph>. 1993. 17.11.1 W48.4 FirCWC</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025597" source="lcsh">
+        <part>Church discipline.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85045932" source="lcsh">
+        <part>Evangelical Revival.</part>
+      </subject>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <subject identifier="sh85090572" source="lcsh">
+        <part>Necrologies.</part>
+      </subject>
+      <subject source="local">
+        <part>New England's Hidden Histories.</part>
+      </subject>
+      <corpname identifier="n98083091" source="lcnaf">
+        <part>Congregational Church (Wenham, Mass.)</part>
+      </corpname>
+      <corpname identifier="n98083096" source="lcnaf">
+        <part>Congregational Parish and Society (Wenham, Mass.)</part>
+      </corpname>
+      <corpname identifier="n98083102" source="lcnaf">
+        <part>First Church in Wenham Congregational (Wenham, Mass.)</part>
+      </corpname>
+      <corpname identifier="n81070789" source="lcnaf">
+        <part>Wenham (Mass.) -- Church history.</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_286ccaa1c4dfb03ba1f800ae4b48ecdf" level="file">
+        <did>
+          <unittitle>Extracts of early town records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1643">1643</fromdate>
+              <todate standarddate="1813">1813</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1643-1813</unitdate>
+          <container id="aspace_fb282adc6298e9a35f92012a08102352" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_7c7e20e0c1f32235ab06517c00121219" localtype="folder"
+            parent="aspace_fb282adc6298e9a35f92012a08102352">1</container>
+        </did>
+      </c01>
+      <c01 id="aspace_b97011331467f0668ebe7f2dcc8472b7" level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1643">1643</fromdate>
+              <todate standarddate="1805">1805</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1643-1805</unitdate>
+          <container id="aspace_73cf024b0a78beddf80f5f97920180cc" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_9a06d71ff451188edd6ee50098511edc" localtype="volume"
+            parent="aspace_73cf024b0a78beddf80f5f97920180cc">1</container>
+        </did>
+        <altformavail id="aspace_ac6f840f7b4967e993ea00b874afafed">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Wenham/viewer/Church20records2C2016431805/2"
+              linktitle="available to view online" show="new">available to view online</ref>. In
+            addition, transcriptions of this volume can be seen along side the digital images linked
+            to above.</p>
+        </altformavail>
+        <scopecontent id="aspace_6a449f7f0f3cae2b2c5f39b73287cd31">
+          <head>Scope and Contents</head>
+          <p>This volume of records contains lists of admissions, members, marriages, deaths, and
+            baptisms. Also included are records of church meetings. Also included are records
+            pertaining to the ministers who served the church during this period.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_5f9afddf08620dc607dc1844d1066b54" level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1792">1792</fromdate>
+              <todate standarddate="1847">1847</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1792-1847</unitdate>
+          <container id="aspace_f4f7aa527a607aaba83dfa4b8d5558f1" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_fd6318545b389d33a27a6e588cee6452" localtype="volume"
+            parent="aspace_f4f7aa527a607aaba83dfa4b8d5558f1">2</container>
+        </did>
+        <altformavail id="aspace_6ae33f6f0e06343a2821950d85c14b79">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Bradford/viewer/Church20records2C20168218062C201824/11"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_ff3b707e56db80e7df9a8fd7f5364ffd">
+          <head>Scope and Contents</head>
+          <p>The second volume of records contains records of deaths, marriages, baptisms, and
+            membership records. The volume also contains records of church meetings and
+            ecclesiastical councils which pertain to the call or dismisison of new ministers. Also
+            included are records of correspondence, censures, admonitions, and charitable
+            actions.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_4205283fffea3d7d4767134a431fa6b0" level="item">
+        <did>
+          <unittitle>Microfilm records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1643">1643</fromdate>
+              <todate standarddate="1847">1847</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1643-1847</unitdate>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="2009">2009</datesingle>
+          </unitdatestructured>
+          <container id="aspace_ab0af1d0112786cb91de3eb4e2a5d5f1" label="Microform" localtype="reel"
+            >Service Copy</container>
+          <container id="aspace_1e16c2c1964611470dd2c92a7b8c151e" label="Microform" localtype="reel"
+            >Archival Master</container>
+          <container id="aspace_e1d67d2b26d2a68853ffadc6c2f6089e" label="Microform" localtype="reel"
+            >Print Master</container>
+        </did>
+        <accessrestrict id="aspace_c0f3574e838c3c1eae1c4c254381bec5">
+          <head>Conditions Governing Access</head>
+          <p>Only the service copy is available for library use. The archival master and print
+            master copies are restricted for preservation purposes.</p>
+        </accessrestrict>
+        <scopecontent id="aspace_049e29dd49845d21f51dffd9088cc833">
+          <head>Scope and Contents</head>
+          <p>This microfilm contains photographic copies of the Church records, 1643-1805 and Church
+            records, 1792-1847, which are both part of this collection.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
