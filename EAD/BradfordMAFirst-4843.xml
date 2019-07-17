@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/BradfordMAFirst-4843.xml"
+      >BradfordMAFirst-4843</recordid>
+    <representation localtype="pdf"
+      href="http://www.congregationallibrary.org/sites/all/files/BradfordMAFirst-4843.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Bradford, Haverhill, Mass. First Church of Christ records,
+          1682-1915.</titleproper>
+        <author>Zachary Bodnar, Sari Mauro</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2018-08-28</date>
+        <num>RG4843</num>
+      </publicationstmt>
+      <seriesstmt>
+        <p>This collection is part of New England's Hidden Histories. Digital historical
+          representations of the collection can be viewed online.</p>
+      </seriesstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS2 - 2013</abbr>
+      <citation>Describing Archives: A Content Standard, Second Edition</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2019-07-17T15:08:48+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday July 17,
+          2019 at 15:08</eventdescription>
+      </maintenanceevent>
+      <maintenanceevent>
+        <eventtype value="revised"/>
+        <eventdatetime standarddatetime="2019-07-17">July 17, 2019</eventdatetime>
+        <agenttype value="human"/>
+        <agent/>
+        <eventdescription>Zachary Bodnar: Minor revision to the description of microfilm records,
+          minor change to the arrangement, changed the date range in the collection title, added
+          Haverhill to the collection title, minor adjustments made to notes.</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Bradford, Haverhill, Mass. First Church of Christ records, 1682-1915.</unittitle>
+      <unitid>RG4843</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>0.72</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(2 boxes, 3 reels)</physdesc>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1682">1682</fromdate>
+          <todate standarddate="1915">1915</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" unitdatetype="inclusive">1682-1915</unitdate>
+      <abstract id="aspace_6af197962d409e86bb0d7ccbdae7bfbe">The First Church of Christ was
+        established in 1682 with Rev. Zechariah Symmes Jr. as its minister. Meeting houses were
+        constructed in 1670, 1706, 1751, 1834, and 1849. In 1810 the church hosted the meeting of
+        the General Association and the American Board of Commissioners for Foreign Missions came
+        from that meeting. This collection includes records of vital statistics, financial reports,
+        church meeting minutes, and ecclesiastical council reports.</abstract>
+      <origination label="creator">
+        <corpname identifier="nr96005171" source="lcnaf">
+          <part>First Church of Christ (Bradford, Haverhill, Mass.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_055a8fb95b48660add4c6370beafe65f">
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_68912ca1bcbf8a645138aaff6218e016">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+      <p>Digital Reproductions are protected by copyright and/or related rights. You are free to use
+        the Digital Reproductions in any way that is permitted by the copyright and related rights
+        legislation that applies to your use. In addition, no permission is required from the
+        Congregational Library &amp; Archives for educational uses. For other uses, you need to
+        obtain permission from the Congregational Library &amp; Archives. For additional information
+        regarding copyright, please consult the Congregational Library &amp; Archives' <ref
+          actuate="onrequest" href="http://www.congregationallibrary.org/about/digital-copyright"
+          linktitle="Digital Collections Copyright &amp; Use" show="new">Digital Collections
+          Copyright &amp; Use</ref> policy.</p>
+    </userestrict>
+    <prefercite id="aspace_afbc9e6d909bb6867808246795737ab6">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Bradford, Haverhill, Mass. First Church of Christ records,
+        1682-1915, RG4843. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_ee1d2761f627e5217ba3d6d922583a94">
+      <head>Acquisition Information</head>
+      <p>This collection was permanently loaned to the Congregational Library &amp; Archives, 2008,
+        by the First Church of Christ in Bradford.</p>
+    </acqinfo>
+    <accruals id="aspace_4a4f9bb010b9fe27c9a8dd02864e485c">
+      <head>Accruals</head>
+      <p>Additional accruals are expected for this collection in the form of full-text
+        transcription. There is no anticipated date for this accrual.</p>
+    </accruals>
+    <processinfo id="aspace_620f773e0b433b1172ed364924380649">
+      <head>Processing Information</head>
+      <p>Redescribed by Sari Mauro, September 2013, using DACS Second Edition. Additional
+        description by Robin Duckworth. Reprocessed by Zachary Bodnar, August 2018, using DACS
+        Second Edition.</p>
+    </processinfo>
+    <bioghist id="aspace_b2f82c83d76015042d9bb76366f03779">
+      <head>Historical Note</head>
+      <p>The village of Bradford was originally a part of Rowley and often was called "Rowley on the
+        Merrimack" for its location along the Merrimack River. The name changed to Bradford when the
+        town was incorporated on January 7, 1672. The first meeting house was erected two years
+        prior to this in 1670, but because no church was officially established residents had to
+        cross the river to Haverhill in order to receive communion. The first minister was Zechariah
+        Symmes Jr. who had moved to the village for health reasons; he preached in the town for the
+        14 years prior to the establishment of the first church. The First Church of Christ was
+        established in 1682 and Symmes was immediately ordained as the first pastor. The first
+        meeting house was replaced in 1706. In 1751 a third church building was constructed on the
+        Bradford Common.</p>
+      <p>The First Church of Christ in Bradford became the host for the 1810 General Association
+        meeting. During this meeting clergy and students from the Andover Theological Seminary set
+        forth a proposal which would shortly lead to the founding of the American Board of
+        Commissioners for Foreign Missions (ABCFM). Two young women of the congregation, Ann Judson
+        and Harriet Newell, were among the first missionaries sent out by the ABCFM. The third
+        meeting house, having fallen into a state of disrepair and being too small for the
+        congregation, was torn down and replaced by a fourth building in 1834. This church was
+        replaced with the fifth, and final, meeting house in 1849. In 1850 the eastern portion of
+        Bradford separated and was incorporated as the town of Groveland. In 1896, the towns of
+        Haverhill and Bradford voted in favor of the annexation of Bradford into Haverhill, a
+        process which was completed on January 1, 1897.</p>
+      <p>The church organization was incorporated in 1901, and along with the adoption of a new
+        covenant, the parish and proprietors organizations were dissolved. In 1915, the corporation
+        was dissolved and administrative control was handed to the officers of the church. The First
+        Church of Christ in Bradford continues to serve the community today.</p>
+    </bioghist>
+    <scopecontent id="aspace_f6b17f54419a3023bb08adcaf1773554">
+      <head>Scope and Contents</head>
+      <p>This collection contains records pertaining to both the church and the parish. Included are
+        records of vital statistics, membership, covenants, financial reports, ministerial salaries,
+        church meeting minutes, ecclesiastical councils, and pew subscriptions. Also included are
+        records pertaining to the dissolution of the Parish and the shifting of administrative
+        control to Church officers in 1915.</p>
+    </scopecontent>
+    <arrangement id="aspace_5dafc40b7e3e2242ed8c76c394e62a1c">
+      <head>Arrangement</head>
+      <p>This collection has been arranged in chronological order by start date.</p>
+    </arrangement>
+    <phystech id="aspace_a30323aad5411b687063c7ff2e6ec987">
+      <head>Technical Requirements</head>
+      <p>Microfilm reels require the use of a microfilm reader to access.</p>
+      <p>To access digital user's copies via online-interface, a java-enabled web browser is
+        required. Internet Explorer 8.x and later, Firefox 5.x and later, Opera 12 and later, Safari
+        5.x and later, or any version of Google Chrome are recommended.</p>
+    </phystech>
+    <bibliography id="aspace_95d2ecc14f0c96a3e5459b205bcad171">
+      <head>Bibliography</head>
+      <p>Cary, George Emerson. <emph render="italic">First Church of Christ, Bradford,
+          Massachusetts: Its Five Buildings</emph>. 1950. 17.11.1 B72.7 FIRCC</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025597" source="lcsh">
+        <part>Church discipline.</part>
+      </subject>
+      <subject identifier="sh85025606" source="lcsh">
+        <part>Church finance.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Church records and registers -- Massachusetts -- Bradford.</part>
+      </subject>
+      <subject identifier="sh85090572" source="lcsh">
+        <part>Necrologies.</part>
+      </subject>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <subject source="local">
+        <part>New England's Hidden Histories.</part>
+      </subject>
+      <subject identifier="sh85100506" source="lcsh">
+        <part>Pews and pew rights.</part>
+      </subject>
+      <corpname identifier="n88648867" source="lcnaf">
+        <part>Bradford (Haverhill, Mass.) -- Church history.</part>
+      </corpname>
+      <corpname identifier="nr96005171" source="lcnaf">
+        <part>First Church of Christ (Bradford, Haverhill, Mass.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_20949f4cb800dbe9deb7a362c9aa6557" level="item">
+        <did>
+          <unittitle>A Church Book</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1682">1682</fromdate>
+              <todate standarddate="1824">1824</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1682-1806, 1824</unitdate>
+          <container id="aspace_bdffac2c37da4defd1a297e43156f29b" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_9496be1cf46f9b90cb9c277cc82a87cf" localtype="volume"
+            parent="aspace_bdffac2c37da4defd1a297e43156f29b">1</container>
+        </did>
+        <altformavail id="aspace_ae3390aa2ba5cf0a430ddb780aaf4642">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Bradford/viewer/Church20records2C20168218062C201824/11"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_622b4d72a96cbb9388303de9176ea270">
+          <head>Scope and Contents</head>
+          <p>The first volume primarily contains membership records and vital statistics, including
+            admissions and dismissions, marriages, and baptisms. It also has a copy of the original
+            covenant signed by the founding members and records of church business. The original
+            book was damaged by both water and fire, resulting in text that is sometimes incomplete
+            or difficult to read.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_4be89dac7e2fbdd9fb3488d3ccb3b1e2" level="item">
+        <did>
+          <unittitle>Microfilm records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1682">1682</fromdate>
+              <todate standarddate="1915">1915</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1682-1915</unitdate>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="2008">2008</datesingle>
+          </unitdatestructured>
+          <container id="aspace_04815caa311bdcac7737e2d0687a8f9f" label="Microform" localtype="reel"
+            >Service Copy</container>
+          <container id="aspace_8912d2ff0c903c09699c41597ca28429" label="Microform" localtype="reel"
+            >Archival Master</container>
+          <container id="aspace_b2b9c8275af7fa877a4fe92087db36e9" label="Microform" localtype="reel"
+            >Print Master</container>
+        </did>
+        <accessrestrict id="aspace_36069392fa8370e2001661e41c1343a2">
+          <head>Restrictions on Access</head>
+          <p>Only the service copy is available for library use. The archival master and print
+            master copies are restricted for preservation purposes.</p>
+        </accessrestrict>
+        <scopecontent id="aspace_424187d5d0d44c0275e34f9ad88132ca">
+          <head>Scope and Contents</head>
+          <p>This microfilm contains photographic copies of A Church Book, 1682-1806, 1824, the
+            Financial records, 1738-1852, A Book of Records, 1787-1866, the Records of the First
+            Church of Christ in Bradford, 1824-1904, and the Record of Meetings, 1852-1915 which are
+            all part of this collection.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_20b356962a996454920924212c88a125" level="item">
+        <did>
+          <unittitle>Financial records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1738">1738</fromdate>
+              <todate standarddate="1852">1852</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1738-1852</unitdate>
+          <container id="aspace_fd7255c65c7c9924c480a69385ab3996" label="Mixed Materials"
+            localtype="box">2</container>
+          <container id="aspace_b97b35f31b9d3ce9184ef793cf7c8559" localtype="volume"
+            parent="aspace_fd7255c65c7c9924c480a69385ab3996">1</container>
+        </did>
+        <altformavail id="aspace_050c6a651875f33fae967a6b748e9abf">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Bradford/viewer/Parish20records2C2017381852/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_ea0c006ba1c197ca35303cc66af037db">
+          <head>Scope and Contents</head>
+          <p>This volume includes treasurers' reports, ministerial salaries, pew subscriptions, and
+            balance sheets documenting the general expenses of maintaining the building and its
+            staff.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_44a99a5cbad508325d2daf98c9f2fa38" level="item">
+        <did>
+          <unittitle>A Book of Records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1787">1787</fromdate>
+              <todate standarddate="1866">1866</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1787-1866</unitdate>
+          <container id="aspace_03dc2bcf2e82f8784c876fb7594fd87a" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_020b3cd017ea30db0ca9d5ccb0103a82" localtype="volume"
+            parent="aspace_03dc2bcf2e82f8784c876fb7594fd87a">2</container>
+        </did>
+        <altformavail id="aspace_7126b268e39cce9d528e57605d9005a0">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Bradford/viewer/Parish20records2C2017871866/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_0057d609f976046eb709769cb05a59ed">
+          <head>Scope and Contents</head>
+          <p>This volume contains both parish financial records and administrative records, as well
+            as correspondence relating to the matters discussed at meetings of church committees.
+            There is also a section toward the end listing members for the early 19th century.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_3f7b6e63bbe92be07a57c1d6635a5acf" level="item">
+        <did>
+          <unittitle>Records of the First Church of Christ in Bradford</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1824">1824</fromdate>
+              <todate standarddate="1904">1904</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1824-1904</unitdate>
+          <container id="aspace_4788ea14ae3877f9274f0e87856837ff" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_a339d543385c1e83f691d7104a1e76b8" localtype="volume"
+            parent="aspace_4788ea14ae3877f9274f0e87856837ff">3</container>
+        </did>
+        <altformavail id="aspace_79febc6dab5b6d88408e7ee5f2ac0066">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Bradford/viewer/Church20records2C2018241904/4"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_423c4a8c38784af0c125490552dcf115">
+          <head>Scope and Contents</head>
+          <p>This volume mostly consists of administrative records. It includes notes about
+            missionary work, discipline of members, selection of ministers, and preparations for the
+            church's bicentennial celebration. There is also a short section at the end listing
+            membership records for most of the 19th century.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_190114a6b34221f516b00e01222a4c92" level="file">
+        <did>
+          <unittitle>Rent collections</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1840">1840</datesingle>
+          </unitdatestructured>
+          <container id="aspace_77545d5bf30b7de6c0bced14117ed3ed" label="Mixed Materials"
+            localtype="box">2</container>
+          <container id="aspace_29207c6d09e6b623480fc90e9fbdd49c" localtype="folder"
+            parent="aspace_77545d5bf30b7de6c0bced14117ed3ed">1</container>
+        </did>
+      </c01>
+      <c01 id="aspace_1a8f83c070464dcbaf9f8d035d2d0dd3" level="item">
+        <did>
+          <unittitle>Record of meetings</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1852">1852</fromdate>
+              <todate standarddate="1915">1915</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1852-1915</unitdate>
+          <container id="aspace_5a9de11601e240e6dfca9013114a04a4" label="Mixed Materials"
+            localtype="box">2</container>
+          <container id="aspace_ee5ee34fa7685381554811a93a9fbbbb" localtype="volume"
+            parent="aspace_5a9de11601e240e6dfca9013114a04a4">2</container>
+        </did>
+        <altformavail id="aspace_a40052c8fed7a85eceb9c5cb16724bc1">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Bradford/viewer/Parish20records2C2018521915/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_9c79c011d4e59992f18928f436f2813d">
+          <head>Scope and Contents</head>
+          <p>These records mostly pertain to annual meetings, including the 1915 decision to
+            dissolve the Parish as a corporation and hand over its duties to the officers of the
+            church. It also contains a list of new members for the early 20th century.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
