@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/GeorgetownMAFirst-4967.xml"
+      >GeorgetownMAFirst-4967</recordid>
+    <representation localtype="pdf"
+      href="http://www.congregationallibrary.org/sites/all/files/GeorgetownMAFirst-4967.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Georgetown, Mass. First Congregational Church records, 1731-1866.</titleproper>
+        <author>Zachary Bodnar, Cristina Prochilo, Sari Mauro</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2018-08-21</date>
+        <num>RG4967</num>
+      </publicationstmt>
+      <seriesstmt>
+        <p>This collection is part of New England's Hidden Histories. Digital historical
+          representations of the collection can be viewed online.</p>
+      </seriesstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS2 - 2013</abbr>
+      <citation>Describing Archives: A Content Standard, Second Edition</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2019-07-17T20:10:39+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday July 17,
+          2019 at 20:10</eventdescription>
+      </maintenanceevent>
+      <maintenanceevent>
+        <eventtype value="revised"/>
+        <eventdatetime standarddatetime="2019-07-19">July 17, 2019</eventdatetime>
+        <agenttype value="human"/>
+        <agent/>
+        <eventdescription>Zachary Bodnar: added digital copies notes to each individual record and
+          removed the general digital copies note from the collection level notes field, minor
+          revision of a subject heading.</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Georgetown, Mass. First Congregational Church records, 1731-1866.</unittitle>
+      <unitid>RG4967</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>0.62</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(2 boxes)</physdesc>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1731">1731</fromdate>
+          <todate standarddate="1866">1866</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" unitdatetype="inclusive">1731-1866</unitdate>
+      <abstract id="aspace_5b91620370697f3295e200334e37e38d">The First Congregational Church in
+        Georgetown was originally established in 1731 as Rowley West Parish. When the town of
+        Georgetown was incorporated in 1838, the Rowley West Parish was renamed to the First
+        Congregational Church of Georgetown. The collection includes meeting minutes, financial
+        records and valuable vital records.</abstract>
+      <origination label="creator">
+        <persname identifier="n84024158" source="lcnaf">
+          <part>Braman, Isaac, 1770-1858</part>
+        </persname>
+      </origination>
+      <origination label="creator">
+        <corpname source="lcnaf">
+          <part>First Congregational Church (Georgetown, Mass.)</part>
+        </corpname>
+      </origination>
+      <origination label="creator">
+        <corpname identifier="nr95036297" source="lcnaf">
+          <part>Second Parish (Rowley, Mass.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_bd73eb2bdfce47a169d9c10d29bb2030">
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_abcf399289a80376bbd6219bed3dffeb">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+      <p>Digital Reproductions are protected by copyright and/or related rights. You are free to use
+        the Digital Reproductions in any way that is permitted by the copyright and related rights
+        legislation that applies to your use. In addition, no permission is required from the
+        Congregational Library &amp; Archives for educational uses. For other uses, you need to
+        obtain permission from the Congregational Library &amp; Archives. For additional information
+        regarding copyright, please consult the Congregational Library &amp; Archives' <ref
+          actuate="onrequest" href="http://www.congregationallibrary.org/about/digital-copyright"
+          linktitle="Digital Collections Copyright &amp; Use" show="new">Digital Collections
+          Copyright &amp; Use</ref> policy.</p>
+    </userestrict>
+    <prefercite id="aspace_4bc64a8d6a298d5be91f659642292b85">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Georgetown, Mass. First Congregational Church records,
+        1731-1866, RG4967. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_6ea1bd63611095044b84d677249234b5">
+      <head>Acquisition Information</head>
+      <p>Loaned to the Congregational Library &amp; Archives, August 2011, by the First
+        Congregational Church in Georgetown, Mass; no accession number.</p>
+    </acqinfo>
+    <accruals id="aspace_9ae6b64c58806329947d310799fc0040">
+      <head>Accruals</head>
+      <p>Additional accruals are expected for this collection in the form of full-text
+        transcription. There is no anticipated date for this accrual.</p>
+    </accruals>
+    <processinfo id="aspace_76c46a899281e2b2773a606d824dcd3c">
+      <head>Processing Information</head>
+      <p>Originally processed by Christina Prochilo, November 2012. Additional description by Sari
+        Mauro, October 2013, using DACS Second Edition. Additional processing by Zachary Bodnar,
+        August 2018, using DACS Second Edition.</p>
+    </processinfo>
+    <bioghist id="aspace_90e2e4d95c25bbf6d71432c254c25243">
+      <head>Historical Note</head>
+      <p>The First Congregational Church in Georgetown was originally established in 1731 as the
+        Rowley West Parish, also known as the Second Parish. Prior to the church's founding,
+        parishioners had to travel a significant distance to worship in Rowley or neighboring
+        Byfield. By 1768 the parish had outgrown its original meeting house and a new building was
+        built. This meeting house, later known as Old South Church, was constructed on the corners
+        of East Main and Elm Streets in 1769.</p>
+      <p>When the town of Georgetown was incorporated in 1838, the Rowley West Parish was renamed to
+        the First Congregational Church of Georgetown. The third and final meeting house was
+        constructed in 1874 along Andover Street. In 1908, the church merged with the Orthodox
+        Memorial Church. In 1961, the church voted to become a member of the United Church of
+        Christ. The First Congregational Church in Georgetown continues to serve the community
+        today.</p>
+    </bioghist>
+    <scopecontent id="aspace_668146da7f23d5fd37b97666e08aaab0">
+      <head>Scope and Contents</head>
+      <p>The First Congregational Church records of Georgetown, Mass. document the activities and
+        history of the church organization and its members. The documents include meeting and
+        committee minutes, financial records, membership records, vital records, and sermon
+        manuscripts.</p>
+    </scopecontent>
+    <arrangement id="aspace_1e41f6cfd166d556980e3bed262906dd">
+      <head>Arrangement</head>
+      <p>This collection has been arranged in chronological order by start date.</p>
+    </arrangement>
+    <phystech id="aspace_db665c741f82fafbdafffadf60cc3be6">
+      <head>Technical Requirements</head>
+      <p>To access digital user's copies via online-interface, a java-enabled web browser is
+        required. Internet Explorer 8.x and later, Firefox 5.x and later, Opera 12 and later, Safari
+        5.x and later, or any version of Google Chrome are recommended.</p>
+    </phystech>
+    <controlaccess>
+      <subject identifier="sh85011729" source="lcsh">
+        <part>Baptism and church membership.</part>
+      </subject>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025606" source="lcsh">
+        <part>Church finance.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85052421" source="lcsh">
+        <part>Funeral sermons.</part>
+      </subject>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <subject identifier="sh85090572" source="lcsh">
+        <part>Necrologies.</part>
+      </subject>
+      <subject source="local">
+        <part>New England's Hidden Histories.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Oaths.</part>
+      </subject>
+      <subject identifier="sh85112383" source="lcsh">
+        <part>Registers of births, etc. </part>
+      </subject>
+      <subject source="lcsh">
+        <part>Sermons, American -- 19th century.</part>
+      </subject>
+      <subject identifier="sh2008111551" source="lcsh">
+        <part>Sermons, American -- Early works to 1800.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Tax remission.</part>
+      </subject>
+      <corpname rules="rda" source="local">
+        <part>First Congregational Church (Georgetown, Mass.)</part>
+      </corpname>
+      <corpname identifier="n91033906" source="lcnaf">
+        <part>Georgetown (Mass.) -- Church history.</part>
+      </corpname>
+      <corpname identifier="nr95036297" source="lcnaf">
+        <part>Second Parish (Rowley, Mass.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_ed7617d166b0bc3911dda42341abab99" level="item">
+        <did>
+          <unittitle>Parish records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1731">1731</fromdate>
+              <todate standarddate="1814">1814</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1731-1814</unitdate>
+          <container id="aspace_19e3637522d89a401ffc59fe1333c1c1" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_af286342b9fbfa59d109e02076f07501" localtype="volume"
+            parent="aspace_19e3637522d89a401ffc59fe1333c1c1">1</container>
+        </did>
+        <altformavail id="aspace_05291990d478297b5944b14bfd53f5cd">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Georgetown/viewer/Record20book2C2017311814/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_53cdfd985e836397b066d6be9b77d81a">
+          <head>Scope and Contents</head>
+          <p>This volume contains records of the officers' meetings for the West Parish in Rowley,
+            concerning the oversight of the property and finances. It includes records of parish
+            votes for the officers' and ministers' salaries, various committee assignments, pew
+            subscriptions, and upkeep of the meetinghouse.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_79dd9776a7361cbba4d40619fd4ec502" level="item">
+        <did>
+          <unittitle>Account book of births</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1731">1731</fromdate>
+              <todate standarddate="1786">1786</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1731-1786</unitdate>
+          <container id="aspace_910bc8c98dccb173af020c7baf8fd1bd" label="Mixed Materials"
+            localtype="box">2</container>
+          <container id="aspace_8eac61c76a164a375cb22f8d1b2f91d6" localtype="volume"
+            parent="aspace_910bc8c98dccb173af020c7baf8fd1bd">1</container>
+        </did>
+        <altformavail id="aspace_24f9dfdeb5073ef9b8bb238084595b7f">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Georgetown/viewer/Births2C2017311786/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_a3ddb81bd3d3601892c609215776c5f4">
+          <head>Scope and Contents</head>
+          <p>Unlike most similar records of the time, this volume records actual birth (rather than
+            baptismal) dates, along with the names of the parents and locations of baptisms.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_496b9fbef520186554a738e18a0ffee5" level="item">
+        <did>
+          <unittitle>Account book of deaths</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1731">1731</fromdate>
+              <todate standarddate="1854">1854</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1731-1854</unitdate>
+          <container id="aspace_4f9612ee0e0bd29320bcf79111a46c3a" label="Mixed Materials"
+            localtype="box">2</container>
+          <container id="aspace_85053675df5c5eda4c087742875b2d15" localtype="volume"
+            parent="aspace_4f9612ee0e0bd29320bcf79111a46c3a">2</container>
+        </did>
+        <altformavail id="aspace_56818623b3b1f1cae0e20a1adaa1fc73">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Georgetown/viewer/Deaths2C2017311786/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_7afdf2420798a484f0cb1c58a0340cc3">
+          <head>Scope and Contents</head>
+          <p>This volume contains a list of the members and children of members who passed away.
+            Each entry includes the date and approximate age, as well as parents for those who died
+            young.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_830b2a188f7162c37edbb429bb97753d" level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1732">1732</fromdate>
+              <todate standarddate="1855">1855</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1732-1855</unitdate>
+          <container id="aspace_dbc45047472176bd42df0f6f6e1353b6" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_7e110479cdee8196f4bc407cdcb53407" localtype="volume"
+            parent="aspace_dbc45047472176bd42df0f6f6e1353b6">2</container>
+        </did>
+        <altformavail id="aspace_69875463b7a4541431845ae492aff753">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Georgetown/viewer/Record20book2C2017321848/1"
+              linktitle="available to view online" show="new">available to view online</ref>.
+            Transcriptions of this record are also available and can be viewed alongside the digital
+            images.</p>
+        </altformavail>
+        <scopecontent id="aspace_4b7097b27c68f96b83849bee66b9b6cd">
+          <head>Scope and Contents</head>
+          <p>This volume primarily contains membership records for the Second Parish Church in
+            Rowley. These include admissions, dismissions, baptisms, and disciplinary cases. There
+            is also a copy of the covenant signed by the founding members.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_c196e0f0e5a4d8a6e98e8e29062c2050" level="file">
+        <did>
+          <unittitle>Church covenant</unittitle>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+          <container id="aspace_21632c5864e1b02fbe5ccc494194206d" label="Mixed Materials"
+            localtype="box">2</container>
+          <container id="aspace_06de81a1d35179be6b96ea7fbc4019ee" localtype="folder"
+            parent="aspace_21632c5864e1b02fbe5ccc494194206d">1</container>
+        </did>
+        <altformavail id="aspace_b367cac43bd8d3ebe2b1adf750b70b24">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Georgetown/viewer/Church20covenant/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_d4481b14fc0b5ac126abcdd92b0eb7e1">
+          <head>Scope and Contents</head>
+          <p>This shortened version of the original church covenant was likely used to admit new
+            members. It includes references to the "Westminster Assembly's catechism" and the
+            "sacraments of the New Testament"</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_ccfe1b8b5e6c0f059df1b86663b0649a" level="file">
+        <did>
+          <unittitle>Sermons preached by Rev. Isaac Braman at Byfield</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1759">1759</fromdate>
+              <todate standarddate="1781">1781</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1759-1781</unitdate>
+          <container id="aspace_7713429f72d8d937a6f803cd1562ba3a" label="Mixed Materials"
+            localtype="box">2</container>
+          <container id="aspace_97a6d0c6ffc2aebd620f66d180d7208f" localtype="folder"
+            parent="aspace_7713429f72d8d937a6f803cd1562ba3a">2</container>
+        </did>
+        <altformavail id="aspace_71af609625f8fa1149959f7608ae5cc7">
+          <head>Digital Copies</head>
+          <p>These sermons were digitized as part of the New England's Hidden Histories project.
+            Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Georgetown/viewer/Braman20sermons20at20Byfield2C2017591781/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_ed524e4e2fbcde326c848117ba96e332">
+          <head>Scope and Contents</head>
+          <p>This folder contains manuscript sermons written and preached by Rev. Isaac Braman.</p>
+          <list listtype="ordered" numeration="decimal">
+            <head>List of Sermons</head>
+            <item>Proverbs 30:12 â "There is a generation that are pure in their own eyes, yet is
+              not washed from their filthiness."</item>
+            <item>Proverbs 13:9 â "The light of the righteous rejoiceth: But the Lamp of the
+              wicked shall be put out."</item>
+            <item>Proverbs 1:33 â "But whoso hearkeneth unto me, shall dwell safely, shall be
+              quiet from fear of evil."</item>
+            <item>Philippians 2:9-11 â "Wherefore God hath highly exalted him, given him a name
+              which is above every name: that at the name of Jesus every knee should bowâ¦"</item>
+            <item>Proverbs 23:17-18 â "Let not thine heart envy Sinners: but be thou in the fear
+              of the Lord all the day long. For surely there is an End, thine expectation shall not
+              be cut off."</item>
+            <item>Proverbs 19:8 â "He that getteth wisdom, loveth his own Soul: he that keepeth
+              understanding shall find good."</item>
+            <item>Proverbs 17:16 â "Wherefore is there a price in the hand of a Fool to get
+              wisdom, seeing he hath no heart to it."</item>
+            <item>Philippians 3:13-14 â "Brethren, I count not my self to have apprehended: but
+              this one think I do, forgetting those things which are behind, reaching forth unto
+              those things which are before, I press toward the mark for the prize of the high
+              calling of God in Christ Jesus."</item>
+            <item>2 Peter 3:14 â "Wherefore, beloved, seeing that ye look for such things, be
+              diligent that ye may be found of him in peace, without spot, blameless."</item>
+            <item>2 Peter 1:14 â "Knowing that shortly I must put off this my Tabernacle even as
+              our Lord Jesus Christ hat shewed me."</item>
+            <item>1 Peter 4:3-4 â "For the time past of our lives may suffice us to have wrought
+              the will of the gentiles, when we walked in lasciviousness, lusts, excess of wine,
+              revellings, banquetings, abominable idolatriesâ¦"</item>
+            <item>Supplement â it is unclear which sermon this was supplemental to.</item>
+          </list>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_7da921cbe7db2545b982abf55a87611c" level="item">
+        <did>
+          <unittitle>Pulpit supply diary</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1787">1787</fromdate>
+              <todate standarddate="1819">1819</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1787-1819</unitdate>
+          <container id="aspace_b564e8fbb05ab952099423b289e09b20" label="Mixed Materials"
+            localtype="box">2</container>
+          <container id="aspace_89fc631b3c39920f7cb8f261a18c01e0" localtype="volume"
+            parent="aspace_b564e8fbb05ab952099423b289e09b20">3</container>
+        </did>
+        <altformavail id="aspace_cc386531b5f9a3d9082e6599faf69ef0">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Georgetown/viewer/Pulpit20Supply20Diary2C2017871819/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_da86f12177608c8ff328b253206751c5">
+          <head>Scope and Contents</head>
+          <p>This volume is a record of the guest preachers at both Second Parish Rowley and
+            Byfield, and the scriptures on which they preached. It also includes a section of vital
+            statistics for Second Parish from ca. 1706 to ca. 1812.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_06f46d5bc8758cb5ccf5436883b4ee23" level="file">
+        <did>
+          <unittitle>Sermons preached by Rev. Isaac Braman at Georgetown</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1794">1794</fromdate>
+              <todate standarddate="1836">1836</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1794-1836</unitdate>
+          <container id="aspace_f4226567f312e239d7135290ced7f84c" label="Mixed Materials"
+            localtype="box">2</container>
+          <container id="aspace_4e033e54ee131417fb9b9463a533a41b" localtype="folder"
+            parent="aspace_f4226567f312e239d7135290ced7f84c">3</container>
+        </did>
+        <altformavail id="aspace_7ae878c022aeab2f1c0411c5bee93e51">
+          <head>Digital Copies</head>
+          <p>These sermons were digitized as part of the New England's Hidden Histories project.
+            Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Georgetown/viewer/Braman20sermons2C2017941836/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_9a8fa61960477c97679dbf25f811cb2b">
+          <head>Scope and Contents</head>
+          <p>This folder contains manuscript sermons written and preached by Rev. Isaac Braman.</p>
+          <list listtype="ordered" numeration="decimal">
+            <head>List of Sermons</head>
+            <item>John 4:24 â "God is a Spirit, they that worship him must worship in Spirit in
+              truth."</item>
+            <item>Psalms 26:8 â "Lord, I have loved the habitation of thy house, and the place
+              where thine honor dwelleth."</item>
+            <item>Hebrews 11:4 â "By faith Abel offered to God a more excellent sacrifice than
+              Cain."</item>
+            <item>Zechariah 4:7 â "Who art thou, O great mountain? Before Zerubbabel thou shalt
+              become a plain, he shall bring forth the headstone thereof with shouting, crying,
+              Grace, grace unto it."</item>
+            <item>Job 19:21 â "Have pity upon me, have pity upon me, O ye my friends, for the hand
+              of God hath touched me."</item>
+          </list>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_067896452bd459736c3667be4c8ba73d" level="file">
+        <did>
+          <unittitle>Marriage records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1797">1797</fromdate>
+              <todate standarddate="1854">1854</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1797-1854</unitdate>
+          <container id="aspace_029047d19a0c799f418c5799bfc066fa" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_1218d0d435820e730b9d07b4f9c378f2" localtype="folder"
+            parent="aspace_029047d19a0c799f418c5799bfc066fa">1</container>
+        </did>
+        <altformavail id="aspace_57d4892eee37ec2b35b7af6afde037ce">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Georgetown/viewer/Marriages2C2017971854/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_b602d1c68a818fe1c2961e396fb0eb40">
+          <head>Scope and Contents</head>
+          <p>This brief volume contains a list of marriages performed by Rev. Isaac Braman during
+            his tenure. Most were performed at the church in Georgetown, and one or both
+            participants were members there. Braman also recorded the fees he was paid for each
+            ceremony, usually two or three dollars.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_ef22cff7d569e035d8edc606f4392c34" level="item">
+        <did>
+          <unittitle>Parish financial records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1799">1799</fromdate>
+              <todate standarddate="1866">1866</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1799-1866</unitdate>
+          <container id="aspace_e608f38d8cf30abfd5b9482e0c226857" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_36add54bb544cd281ac5e62100f46532" localtype="volume"
+            parent="aspace_e608f38d8cf30abfd5b9482e0c226857">3</container>
+        </did>
+        <altformavail id="aspace_e37c3c7b9d99794c6bb6259416efc409">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Georgetown/viewer/Record20book2C2017771866/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_1ff173cffc7ef30d72dab7d440bf2e8e">
+          <head>Scope and Contents</head>
+          <p>The treasurers' ledger records the income and expenses of the parish, including taxes
+            collected by assessors, staff salaries, fees for various services to the church, and the
+            purchase of supplies such as firewood.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_72681096f60ec05618ce09d3a8042429" level="file">
+        <did>
+          <unittitle>Funeral sermon for Amos Spofford and Abigail Palmer</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1805">1805</datesingle>
+          </unitdatestructured>
+          <container id="aspace_313198f4d880eebda5a7ab9891e921bf" label="Mixed Materials"
+            localtype="box">2</container>
+          <container id="aspace_ebd3ede8223f2b826c604065c9e23d20" localtype="folder"
+            parent="aspace_313198f4d880eebda5a7ab9891e921bf">4</container>
+        </did>
+        <altformavail id="aspace_2af3cdab96a19b890c50ab389b91bebf">
+          <head>Digital Copies</head>
+          <p>This sermon was digitized as part of the New England's Hidden Histories project.
+            Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Georgetown/viewer/SpoffordPalmer20sermon/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_a486c1fd53cdd4ece87b2826c696a4b5">
+          <head>Scope and Contents</head>
+          <p>"A sermon delivered at Rowley by the Rev. Isaac Braman, Dec. 29th 1805, occasioned by
+            the death of Dr. Amos Spofford and Miss Abigail Palmer" on 2 Samuel 11:26 and Matthew
+            9:18. Spofford was a local physician and farmer, as well as one of the original members
+            of the Massachusetts Medical Society. Abigail was the 14-year-old daughter of John and
+            Martha Palmer.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
