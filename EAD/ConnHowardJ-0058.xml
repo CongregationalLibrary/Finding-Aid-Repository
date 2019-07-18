@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/ConnHowardJ-0058.xml"
+      >ConnHowardJ-0058</recordid>
+    <representation localtype="pdf"
+      href="http://www.congregationallibrary.org/sites/all/files/ConnHowardJ-0058.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Howard Conn papers, 1944-1986.</titleproper>
+        <author>Abelard Newell, William McCarthy</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2018-08-20</date>
+        <num>MS0058</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS2 - 2013</abbr>
+      <citation>Describing Archives: A Content Standard, Second Edition</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2019-07-18T15:31:27+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 18,
+          2019 at 15:31</eventdescription>
+      </maintenanceevent>
+      <maintenanceevent>
+        <eventtype value="revised"/>
+        <eventdatetime standarddatetime="2019-07-18">July 18, 2019</eventdatetime>
+        <agenttype value="human"/>
+        <agent/>
+        <eventdescription>Zachary Bodnar: added new accrual to collection, minor edits to record
+          titles and dates, minor changes to subject headings.</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Howard Conn papers, 1944-1986.</unittitle>
+      <unitid>MS0058</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>1.09</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(1 box)</physdesc>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1944">1944</fromdate>
+          <todate standarddate="1986">1986</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" unitdatetype="inclusive">1944-1986</unitdate>
+      <abstract id="aspace_ea69ebb95f0f691db492813d3c2fbe8d">Howard James Conn was born June 19,
+        1911 in Fresno California. He attended Fresno High School, followed by Fresno State College
+        and Stanford University where he received is B.A. He studied philosophy at Harvard as a
+        graduate student and then completed his B.D. at Yale University. He served as minister to a
+        number of churches, with the majority of his time devoted to Plymouth Congregational Church
+        in Minneapolis, where he served as Senior Minister from 1944-1976. During his career he held
+        many other positions including President of the Minnesota Council of Churches (1952-1954),
+        Trustee of Carlton College (1948-1972) and Chaplain of the General Council of Congregational
+        Christian Churches (1961). His preaching called upon his background in philosophy and his
+        understanding of contemporary events. He died in the year 2000. This collection contains the
+        printed versions of Howard Conn's Sermons, speeches, and lectures. Additionally it contains
+        some books and periodicals written by Conn, as well as some material from
+        magazines.</abstract>
+      <origination label="creator">
+        <persname identifier="no2013092697" source="naf">
+          <part>Conn, Howard (Howard James), 1911-2000</part>
+        </persname>
+      </origination>
+      <origination label="creator">
+        <corpname rules="rda" source="lcnaf">
+          <part>Plymouth Congregational Church (Minneapolis, Minn.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_55b11e2f449ba9dd97c28c339faf0419">
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_c0653cf119c8d90d61bd4accd8e5c62e">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite id="aspace_07b655291424cc95d854198c17bc3a3b">
+      <head>Preferred Citation</head>
+      <p>[Identification of item] in the Howard Conn papers, 1944-1986, MS0058. The Congregational
+        Library &amp; Archives</p>
+    </prefercite>
+    <acqinfo id="aspace_f9c2ee8fdfd0e3d81220646862f07a37">
+      <head>Acquisition Information</head>
+      <p>Collection donated by Reverend Howard Conn in October 1987. No accession number given.
+        Additional Howard Conn materials added to the collection, July 2019, through an internal
+        transfer; accession 2019-16.</p>
+    </acqinfo>
+    <processinfo id="aspace_d8fc58a142aa059b4f9b60dde66c23ba">
+      <head>Processing Information</head>
+      <p>Collection was never given an accession number and was fully processed by Simmons intern
+        Abelard Newell in 2017. Re-described in August 2018 by William McCarthy.</p>
+    </processinfo>
+    <bioghist id="aspace_8a5b26e7ac3e77be445bccc330b8f41f">
+      <head>Biographical Information</head>
+      <p>Howard James Conn was born June 19, 1911 in Fresno California. He attended Fresno High
+        School, followed by Fresno State College and Stanford University where he received is B.A.
+        He studied philosophy at Harvard as a graduate student and then completed his B.D. at Yale
+        University. He served as minister to a number of churches, with the majority of his time
+        devoted to Plymouth Congregational Church in Minneapolis, where he served as Senior Minister
+        from 1944-1976. During his career he held many other positions including President of the
+        Minnesota Council of Churches (1952-1954), Trustee of Carlton College (1948-1972) and
+        Chaplain of the General Council of Congregational Christian Churches (1961). His preaching
+        called upon his background in philosophy and his understanding of contemporary events. He
+        died in the year 2000.</p>
+    </bioghist>
+    <scopecontent id="aspace_6c9fa19d4ebb535d388465348dd94d88">
+      <head>Scope and Contents</head>
+      <p>This collection contains the printed versions of Howard Conn's Sermons, speeches, and
+        lectures. Additionally it contains some books and periodicals written by Conn, as well as
+        some material from magazines.</p>
+    </scopecontent>
+    <arrangement id="aspace_661cafe6b304bcd3379545d38df5a8e4">
+      <head>Arrangement</head>
+      <p>This collection is arranged into three series with each individual series further arranged
+        chronologically. The first series contains published books and a lecture-sermon series all
+        written by Conn. The second series contains sermons written by Conn. The final series
+        contains information related to Plymouth Congregational Church in Minneapolis, where Howard
+        Conn spend a majority of his ministry.</p>
+    </arrangement>
+    <relatedmaterial id="aspace_675118a1359f97e0ee2652a22af7aceb">
+      <head>Related Materials</head>
+      <p>The Howard J. Conn personal papers are kept at the Yale Divinity School archives, under the
+        broad spectrum of "Miscellaneous Personal Papers". Additionally, some of Conn's writing can
+        be found in the Council of Social Action collection, RG0057, under the sub-series "Board of
+        Review-Opposition to CSA".</p>
+    </relatedmaterial>
+    <controlaccess>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Pastors.</part>
+      </subject>
+      <subject identifier="sh00002326" source="lcsh">
+        <part>Sermons, American -- 20th century.</part>
+      </subject>
+      <persname identifier="no2013092697" source="naf">
+        <part>Conn, Howard (Howard James), 1911-2000</part>
+      </persname>
+      <corpname rules="rda" source="lcnaf">
+        <part>Plymouth Congregational Church (Minneapolis, Minn.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_9fa93d56f1ba2cd1e579d060a4f40896" level="series">
+        <did>
+          <unittitle>Published literature and the lecture-sermon series</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>11</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1944">1944</fromdate>
+              <todate standarddate="1975">1975</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1944-1975</unitdate>
+        </did>
+        <scopecontent id="aspace_a0f5add3b39daa03f2ff4bb8226bdbf6">
+          <head>Scope and Contents</head>
+          <p>Contains published books and a few years of the Conn lecture-sermon series.</p>
+        </scopecontent>
+        <c02 id="aspace_ec691b91503cb4e6d2f70e27530aa5f0" level="file">
+          <did>
+            <unittitle>Publications</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1944">1944</fromdate>
+                <todate standarddate="1968">1968</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1944, 1968, undated</unitdate>
+            <container id="aspace_977bfa050df72f52f0de831af5b63e87" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_6bbf2ee291f51859a197124ae66a1af0" localtype="folder"
+              parent="aspace_977bfa050df72f52f0de831af5b63e87">18</container>
+          </did>
+        </c02>
+        <c02 id="aspace_93f9c06a1c4248d081871af8d28d8b65" level="file">
+          <did>
+            <unittitle>Symbolism in Stone and Glass</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1949">1949</datesingle>
+            </unitdatestructured>
+            <container id="aspace_d1e11b1922d41eb8787a17ae0d219e6c" label="Books" localtype="box"
+              >1</container>
+            <container id="aspace_2a5da52db676e1b65b57f3ca72335be2" localtype="folder"
+              parent="aspace_d1e11b1922d41eb8787a17ae0d219e6c">19</container>
+          </did>
+        </c02>
+        <c02 id="aspace_c75cec195c02098b043ced38273dc9ea" level="file">
+          <did>
+            <unittitle>The Hope that Sets Men Free</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1954">1954</datesingle>
+            </unitdatestructured>
+            <container id="aspace_71f2a03650d7280f75c581e4f6d277f8" label="Books" localtype="box"
+              >1</container>
+            <container id="aspace_4cae81033effed179e8d9724de59e81c" localtype="folder"
+              parent="aspace_71f2a03650d7280f75c581e4f6d277f8">20</container>
+          </did>
+        </c02>
+        <c02 id="aspace_137a24c5b36970d074010fb98d2779b4" level="file">
+          <did>
+            <unittitle>The Dilemma of Congregationalism</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1962">1962</datesingle>
+            </unitdatestructured>
+            <container id="aspace_95e987843ce51c00e1a15b627e92ca2a" label="Books" localtype="box"
+              >1</container>
+            <container id="aspace_1da0c2119e3b95086939c05470ea0439" localtype="folder"
+              parent="aspace_95e987843ce51c00e1a15b627e92ca2a">21</container>
+          </did>
+        </c02>
+        <c02 id="aspace_ecf7ccfed998b719c7599d284856e64b" level="file">
+          <did>
+            <unittitle>Carl Jung and Modern Man's Search for a Soul</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1966">1966</datesingle>
+            </unitdatestructured>
+            <container id="aspace_2265df533e44f5f53c140da925dcc5e3" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_4668d253e51b4c4b8f718322cbaf40a1" localtype="folder"
+              parent="aspace_2265df533e44f5f53c140da925dcc5e3">22</container>
+          </did>
+        </c02>
+        <c02 id="aspace_ff257454bfff81436200a666b29501da" level="file">
+          <did>
+            <unittitle>Teilhard de Chardin and the Phenomenon of Man</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1967">1967</datesingle>
+            </unitdatestructured>
+            <container id="aspace_a210604ecce81e02e015fdd0ad6b0365" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_b16c05e8d2d14f1107b16ba15d2b4cef" localtype="folder"
+              parent="aspace_a210604ecce81e02e015fdd0ad6b0365">23</container>
+          </did>
+        </c02>
+        <c02 id="aspace_609f571e37ccc040d4680b77d0311c20" level="file">
+          <did>
+            <unittitle>The Pilgrim Spirit in the Age of Aquarius</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1970">1970</datesingle>
+            </unitdatestructured>
+            <container id="aspace_577c6dfbd1552dcd2003e08f20893c6a" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_3198d3b359ebdbccd331be94e363cae1" localtype="folder"
+              parent="aspace_577c6dfbd1552dcd2003e08f20893c6a">24</container>
+          </did>
+        </c02>
+        <c02 id="aspace_4ffbcb6c1004570b6cb79e5ddd3c603f" level="file">
+          <did>
+            <unittitle>The Life and Thought of Nicolai Berdyaev</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1970">1970</datesingle>
+            </unitdatestructured>
+            <container id="aspace_bdae58ffad9397e1f07ff8e903c2bb1e" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_e9b8b90abcab88a14299fe345aeba815" localtype="folder"
+              parent="aspace_bdae58ffad9397e1f07ff8e903c2bb1e">25</container>
+          </did>
+        </c02>
+        <c02 id="aspace_236a01cb86055988174ef7ee00b4f2ef" level="file">
+          <did>
+            <unittitle>Paul Tillich: Our Human Predicament in its Eternal Dimension</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1972">1972</datesingle>
+            </unitdatestructured>
+            <container id="aspace_365cb3a4b3392513e69a97f5bf97ad8d" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_ff913fb1d630c70b54a4ef2d52469a7c" localtype="folder"
+              parent="aspace_365cb3a4b3392513e69a97f5bf97ad8d">26</container>
+          </did>
+        </c02>
+        <c02 id="aspace_3d74886b11d872b8e7c1c890c47699f7" level="file">
+          <did>
+            <unittitle>Abraham J. Heschel: Lyric Adventurer in Biblical Faith</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1973">1973</datesingle>
+            </unitdatestructured>
+            <container id="aspace_945d5a6b1cc3b2f4092e1c05dbcec564" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_dd3bb80c5b5321236825f17e088604c3" localtype="folder"
+              parent="aspace_945d5a6b1cc3b2f4092e1c05dbcec564">27</container>
+          </did>
+        </c02>
+        <c02 id="aspace_130c669c17cc8feb248e1535c36fcdd8" level="file">
+          <did>
+            <unittitle>Plato: The World's Most Influential Thinker</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1975">1975</datesingle>
+            </unitdatestructured>
+            <container id="aspace_8d3fe67cd7f9fe4746fa3e031224e73e" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_d1fde47b48e4975936a621207b13bbad" localtype="folder"
+              parent="aspace_8d3fe67cd7f9fe4746fa3e031224e73e">28</container>
+          </did>
+        </c02>
+      </c01>
+      <c01 id="aspace_1fac76a97c935698290515ab14c3cdf9" level="series">
+        <did>
+          <unittitle>Sermons</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>18</quantity>
+            <unittype>Items</unittype>
+          </physdescstructured>
+          <physdesc localtype="container_summary">(17 folders, 1 microfiche)</physdesc>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1944">1944</fromdate>
+              <todate standarddate="1986">1986</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1944-1986</unitdate>
+        </did>
+        <scopecontent id="aspace_64414588e3c1f0de1a855a498a5ef477">
+          <head>Scope and Contents</head>
+          <p>Contains sermons in chronological order, as well as microfiche copies.</p>
+        </scopecontent>
+        <c02 id="aspace_4ad002e17582627fc3ee5d010498dc59" level="file">
+          <did>
+            <unittitle>Sermons</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1944-1946</unitdate>
+            <container id="aspace_b345195427f81c58fd417b994e508c3b" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_7babb64520a36a381fe8a490e9c180c7" localtype="folder"
+              parent="aspace_b345195427f81c58fd417b994e508c3b">1</container>
+          </did>
+        </c02>
+        <c02 id="aspace_a472ff7b794ad96e3d8b55bc86ad5640" level="file">
+          <did>
+            <unittitle>Microfiche of Sermons</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1945">1945</fromdate>
+                <todate standarddate="1986">1986</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1945-1986</unitdate>
+            <container id="aspace_5b203f3594e47bd0176b78d609f6b604" label="Microform"
+              localtype="reel">1</container>
+          </did>
+        </c02>
+        <c02 id="aspace_1088d8fc5cb1287f416ff6eca98d2442" level="file">
+          <did>
+            <unittitle>Ten Most Important Events of the Year</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1946-1964</unitdate>
+            <container id="aspace_6593e74c6058649a58799415abf3e342" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_044fe0674a3a926309d94850e4741240" localtype="folder"
+              parent="aspace_6593e74c6058649a58799415abf3e342">2</container>
+          </did>
+        </c02>
+        <c02 id="aspace_7229731a6a6f95ac084c10b364a2ca03" level="file">
+          <did>
+            <unittitle>Sermons</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1947">1947</fromdate>
+                <todate standarddate="1949">1949</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1947-1949</unitdate>
+            <container id="aspace_bad46abbd246dcc6d1a08119c7197f8f" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_366b2eae8a440dd767bf4186a2f04d58" localtype="folder"
+              parent="aspace_bad46abbd246dcc6d1a08119c7197f8f">3</container>
+          </did>
+        </c02>
+        <c02 id="aspace_3bbe36d76370f07b31f8a78f4f31bc3f" level="file">
+          <did>
+            <unittitle>Sermons</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1950">1950</fromdate>
+                <todate standarddate="1953">1953</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1950-1953</unitdate>
+            <container id="aspace_5ba1062c9aea5a29c14c750db9982bd3" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_3ed0e490db49c94d96fd8263ee8bc741" localtype="folder"
+              parent="aspace_5ba1062c9aea5a29c14c750db9982bd3">4</container>
+          </did>
+        </c02>
+        <c02 id="aspace_8d08b6536640910e20ad87fb1386dae2" level="file">
+          <did>
+            <unittitle>Sermons</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1954">1954</fromdate>
+                <todate standarddate="1959">1959</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1954-1959</unitdate>
+            <container id="aspace_e9dcd052202524172c48ed2e003099a1" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_b174227e2144f26c237795fa7150d648" localtype="folder"
+              parent="aspace_e9dcd052202524172c48ed2e003099a1">5</container>
+          </did>
+        </c02>
+        <c02 id="aspace_d7b2259e48d4a78c96c92e67c02eb80b" level="file">
+          <did>
+            <unittitle>Sermons</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1960">1960</fromdate>
+                <todate standarddate="1962">1962</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1960-1962</unitdate>
+            <container id="aspace_3b0233ce6f45afc93dbb88c5ce1bd4f6" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_1fd377209b553413db5cf7d445b5fe5c" localtype="folder"
+              parent="aspace_3b0233ce6f45afc93dbb88c5ce1bd4f6">6</container>
+          </did>
+        </c02>
+        <c02 id="aspace_5b8c256bef6f78cd11cda161294ee391" level="file">
+          <did>
+            <unittitle>Sermons</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1963">1963</fromdate>
+                <todate standarddate="1964">1964</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1963-1964</unitdate>
+            <container id="aspace_ff86460ffb5739193465e54c0fd5cc42" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_5c542c3e80e3296e0672a3357901dbba" localtype="folder"
+              parent="aspace_ff86460ffb5739193465e54c0fd5cc42">7</container>
+          </did>
+        </c02>
+        <c02 id="aspace_ea45d5e460909f121176e08d14b2d35d" level="file">
+          <did>
+            <unittitle>Sermons</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1964">1964</fromdate>
+                <todate standarddate="1965">1965</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1964-1965</unitdate>
+            <container id="aspace_36f356ae90b8b5890cb8de1b6822060c" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_004bca58ac8fc7630d6ffc1afb8445dd" localtype="folder"
+              parent="aspace_36f356ae90b8b5890cb8de1b6822060c">8</container>
+          </did>
+        </c02>
+        <c02 id="aspace_7f1e3368a087ac3f5fe8998c072a2ebc" level="file">
+          <did>
+            <unittitle>Sermons</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1965">1965</fromdate>
+                <todate standarddate="1967">1967</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1965-1967</unitdate>
+            <container id="aspace_8208b0d0c2a14e0fafeb9e97c6905f0e" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_9a660860f0b8610c79b320630efd3d84" localtype="folder"
+              parent="aspace_8208b0d0c2a14e0fafeb9e97c6905f0e">9</container>
+          </did>
+        </c02>
+        <c02 id="aspace_e098e6f0b272379cea9ffcfcfefc9f06" level="file">
+          <did>
+            <unittitle>Ten Most Important Events of the Year</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1965">1965</fromdate>
+                <todate standarddate="1969">1969</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1965-1969</unitdate>
+            <container id="aspace_b257fbf71c053f7793cb94562cca45e7" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_6eb7a6ecdb0150c175299989b26be3e1" localtype="folder"
+              parent="aspace_b257fbf71c053f7793cb94562cca45e7">10</container>
+          </did>
+        </c02>
+        <c02 id="aspace_403b0f45283496c41fe7f219ebe867f4" level="file">
+          <did>
+            <unittitle>Sermons</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1968">1968</fromdate>
+                <todate standarddate="1969">1969</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1968-1969</unitdate>
+            <container id="aspace_3f78e778db924e7c0b3a2434e791caa9" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_296cf5ff1d11e8d15a4718924961028e" localtype="folder"
+              parent="aspace_3f78e778db924e7c0b3a2434e791caa9">11</container>
+          </did>
+        </c02>
+        <c02 id="aspace_950fbd5674fcbc861c3e8209675beb4f" level="file">
+          <did>
+            <unittitle>Sermons</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1969">1969</fromdate>
+                <todate standarddate="1971">1971</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1969-1971</unitdate>
+            <container id="aspace_70f90da5ffb35d20c66369e564b08706" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_01572e6642c67f5ea1e4d83f52f12d79" localtype="folder"
+              parent="aspace_70f90da5ffb35d20c66369e564b08706">12</container>
+          </did>
+        </c02>
+        <c02 id="aspace_ee0fd135ce6c17737cedfd6de777180c" level="file">
+          <did>
+            <unittitle>Ten Most Important Events of the Year</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1970">1970</fromdate>
+                <todate standarddate="1975">1975</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1970-1975</unitdate>
+            <container id="aspace_e00b18d26a85af3e7eb71e47968d22e0" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_e94c72b43e51ae7507107f7794f21ccd" localtype="folder"
+              parent="aspace_e00b18d26a85af3e7eb71e47968d22e0">13</container>
+          </did>
+        </c02>
+        <c02 id="aspace_fb5ff4a05eb3d38554f574223a211c6a" level="file">
+          <did>
+            <unittitle>Sermons</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1972">1972</fromdate>
+                <todate standarddate="1973">1973</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1972-1973</unitdate>
+            <container id="aspace_c28433847f626a8a41e511b04195eae1" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_54f8a1be9e3c8dd98418bd4779ae5b93" localtype="folder"
+              parent="aspace_c28433847f626a8a41e511b04195eae1">14</container>
+          </did>
+        </c02>
+        <c02 id="aspace_a401b77b0e8a5b73b0bbc427a24fd149" level="file">
+          <did>
+            <unittitle>Sermons</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1974">1974</fromdate>
+                <todate standarddate="1976">1976</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1974-1976</unitdate>
+            <container id="aspace_c034fbc3bbcfabb6cec2cc0dc25ec2aa" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_af5b9b0a5a8209f6fce74a9790a8da11" localtype="folder"
+              parent="aspace_c034fbc3bbcfabb6cec2cc0dc25ec2aa">15</container>
+          </did>
+        </c02>
+        <c02 id="aspace_d75c3d26c35ca50159974a56028fb2c6" level="file">
+          <did>
+            <unittitle>Sermons as interim minister at Bushnell Congregational Church</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1980">1980</fromdate>
+                <todate standarddate="1981">1981</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1980-1981</unitdate>
+            <container id="aspace_a4363e14920c2599dcd7ca5a299f3aae" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_2d30524c9a71a829de0827a89c7f7f28" localtype="folder"
+              parent="aspace_a4363e14920c2599dcd7ca5a299f3aae">16</container>
+          </did>
+        </c02>
+        <c02 id="aspace_ca021e04c5e9a2b79649be9788ebc75e" level="file">
+          <did>
+            <unittitle>Sermons and writings</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1982">1982</fromdate>
+                <todate standarddate="1986">1986</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1982-1986</unitdate>
+            <container id="aspace_fbc2ff585d98be48ee05cea55bd33db2" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_e2568f04eb7ae04dc653c3b5c41c1fa5" localtype="folder"
+              parent="aspace_fbc2ff585d98be48ee05cea55bd33db2">17</container>
+          </did>
+        </c02>
+      </c01>
+      <c01 id="aspace_ea80cecdba725edd0931e4d80d1162d8" level="series">
+        <did>
+          <unittitle>Plymouth Congregational Church</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>2</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1950">1950</fromdate>
+              <todate standarddate="1982">1982</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1950-1982</unitdate>
+        </did>
+        <scopecontent id="aspace_bb35a5db2b6fcc2f05401bfc196f19c1">
+          <head>Scope and Contents</head>
+          <p>This series contains records related to the Plymouth Congregational Church and Howard
+            Conn, including dedications, services and reflections.</p>
+        </scopecontent>
+        <c02 id="aspace_42905d54be7baf708fd3f607af17086c" level="file">
+          <did>
+            <unittitle>Plymouth Congregational Church in Minneapolis records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1950">1950</fromdate>
+                <todate standarddate="1971">1971</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1950-1971</unitdate>
+            <container id="aspace_421438724f6895445a794a97f3001b11" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_ac8063d1468738db5c97b1921c015253" localtype="folder"
+              parent="aspace_421438724f6895445a794a97f3001b11">29</container>
+          </did>
+        </c02>
+        <c02 id="aspace_986b4ff712c70511b24181d8811aa2f2" level="file">
+          <did>
+            <unittitle>Invitation to Howard Conn 20th anniversary observance</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1964">1964</datesingle>
+            </unitdatestructured>
+            <container id="aspace_8b1062e7f2b2d59ca98706214bac24b5" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_507a77350fdcdc8c60a600740cffc3a5" localtype="folder"
+              parent="aspace_8b1062e7f2b2d59ca98706214bac24b5">31</container>
+          </did>
+        </c02>
+        <c02 id="aspace_67b2b5c1822c38f4c87bc2aa3acd8b0c" level="file">
+          <did>
+            <unittitle>An Appreciation of Howard Conn</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1964">1964</datesingle>
+            </unitdatestructured>
+            <container id="aspace_65b4217318b8416ecc8f4f4bca7b3ddb" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_b57f22c314d286642f18029ceaba165d" localtype="folder"
+              parent="aspace_65b4217318b8416ecc8f4f4bca7b3ddb">32</container>
+          </did>
+        </c02>
+        <c02 id="aspace_6a19825aaf7bb4231c3fc4ac52c6fc84" level="file">
+          <did>
+            <unittitle>Reflections of Reverend Conn's Time at Plymouth Congregational
+              Church</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1976">1976</fromdate>
+                <todate standarddate="1982">1982</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1976-1982</unitdate>
+            <container id="aspace_2ed29d8d92a40c3e2c65b102078ad950" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_deb9e1b21970095e815667da339b6ad1" localtype="folder"
+              parent="aspace_2ed29d8d92a40c3e2c65b102078ad950">30</container>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
