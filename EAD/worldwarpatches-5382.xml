@@ -1,0 +1,1714 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/&lt;Replace with EAD ID&gt;.xml"
+      >WorldWarPatches-5382</recordid>
+    <representation localtype="pdf"
+      href="http://www.congregationallibrary.org/sites/all/files/worldwarpatches-5382.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>World War I and II patches, undated.</titleproper>
+        <author>Created by William McCarthy in July 2018.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2018-07-31</date>
+        <num>RG5382</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS2 - 2013</abbr>
+      <citation>Describing Archives: A Content Standard, Second Edition</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2019-07-18T16:09:01+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 18,
+          2019 at 16:09</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>World War I and II patches, undated.</unittitle>
+      <unitid>RG5382</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>.43</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(2 boxes)</physdesc>
+      <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+      <abstract id="aspace_4daf67cc87767bd6239faec776cef582">This collection contains patches worn
+        during World War I and II. While the first written page discusses that the scrapbook was
+        created by members of the "First Church", there is no specific information as to where this
+        first church is located. This collection includes patches from members of the marines, navy,
+        coast guard, army and also civilian corps. Additionally, there is a set of three pins, a
+        german mine ribbon and a campaign ribbons poster.</abstract>
+      <origination label="creator">
+        <corpname identifier="n80126028" source="naf">
+          <part>United States. Army Air Forces</part>
+        </corpname>
+      </origination>
+      <origination label="creator">
+        <corpname identifier="n50071172" source="naf">
+          <part>United States. Army Service Forces</part>
+        </corpname>
+      </origination>
+      <origination label="creator">
+        <corpname identifier="no2009143850" source="naf">
+          <part>United States. Army Ground Forces</part>
+        </corpname>
+      </origination>
+      <origination label="creator">
+        <corpname identifier="n2003031388" source="naf">
+          <part>United States. Department of the Navy</part>
+        </corpname>
+      </origination>
+      <origination label="creator">
+        <corpname identifier="n78095328" source="naf">
+          <part>United States. Marine Corps</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_5c0b947979ca18a30207462445df489f">
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_91053c1ea54866fd6c8c8642474b2550">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite id="aspace_1da3e1dfdd9eb549c6129b824dd25ef5">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the World War I and II patches, undated, RG5382. The
+        Congregational Library &amp; Archive, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_c5c787405e55a006f3c757b4e28088cf">
+      <head>Acquisition Information </head>
+      <p>This collection was found without any information as to where it came from or when it was
+        received. As a result, it was accessioned in 2018; Accession: 2018-25.</p>
+    </acqinfo>
+    <processinfo id="aspace_1d364a8fa71f149533a3a749329e0795">
+      <head>Processing Information</head>
+      <p>This collection was accessioned and processed by William McCarthy in July 2018.</p>
+    </processinfo>
+    <bioghist id="aspace_dd8cedbc30e6f540c5b5a1f5f30739a1">
+      <head>Historical Note</head>
+      <p>This collection contains patches worn during World War I and II. While the first written
+        page discusses that the scrapbook was created by members of the "First Church", there is no
+        specific information as to where this first church is located.</p>
+    </bioghist>
+    <scopecontent id="aspace_b2c751084ca0a328213d454aab894a68">
+      <head>Scope and Contents</head>
+      <p>This collection includes patches from members of the marines, navy, coast guard, army and
+        also civilian corps. Additionally, there is a set of three pins, a german mine ribbon and a
+        campaign ribbons poster.</p>
+    </scopecontent>
+    <arrangement id="aspace_eaec89e3ffe2c91bdd43ca6bcbd6c7e9">
+      <head>Arrangement</head>
+      <p>This collection maintains the arrangement of the scrapbook by making the five sections into
+        five individual series. Further, the Army forces are split up into three sub-series.</p>
+      <p><emph render="bold">Series 1:</emph> Army Forces, undated.</p>
+      <blockquote><emph render="bold">Subseries 1:</emph> Ground Forces, undated.</blockquote>
+      <blockquote><emph render="bold">Subseries 2:</emph> Air Forces, undated.</blockquote>
+      <blockquote><emph render="bold">Subseries 3:</emph> Service Forces, undated.</blockquote>
+      <p><emph render="bold">Series 2:</emph> Navy, undated.</p>
+      <p><emph render="bold">Series 3:</emph> Marines, undated.</p>
+      <p><emph render="bold">Series 4:</emph> Civilians, undated.</p>
+      <p><emph render="bold">Series 5:</emph> Coast Guard, undated.</p>
+    </arrangement>
+    <controlaccess>
+      <geogname identifier="sh85140650" source="lcsh">
+        <part>United States. Army--Insignia</part>
+      </geogname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_8e0c7be64936a181a14ed1d00e2fe5e4" level="series">
+        <did>
+          <unittitle>Army Forces</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>112</quantity>
+            <unittype>Objects</unittype>
+          </physdescstructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+          <container id="aspace_6a053f7e4d14c3ea1c21aa7fbf24f31e" label="Physical Object"
+            localtype="page">4</container>
+        </did>
+        <scopecontent id="aspace_784099a36dc999b5b8d387fb3d64ecc4">
+          <head>Scope and Contents</head>
+          <p>This series contains patches related to the Ground, Air and Service Forces.</p>
+        </scopecontent>
+        <c02 id="aspace_c229a989a205983e92b1f3b49cc76613" level="subseries">
+          <did>
+            <unittitle>Ground Forces</unittitle>
+            <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+              <quantity>60</quantity>
+              <unittype>Objects</unittype>
+            </physdescstructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_a9028f43167424b310b20a5b38367cfa" label="Physical Object"
+              localtype="page">5</container>
+          </did>
+          <scopecontent id="aspace_e1650ff2b8f128d69e4c83a88a93e8c4">
+            <head>Scope and Contents</head>
+            <p>This sub-series contains patches related to the Army Ground Forces.</p>
+          </scopecontent>
+          <c03 id="aspace_cc2836fb680de90be3e037adbb57d408" level="file">
+            <did>
+              <unittitle>Donald Kirkpatrick - Western Defense Command</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_0751c80dbcdfb3b74690964dadf29c79" label="Physical Object"
+                localtype="page">6</container>
+              <container id="aspace_e96d572db0ea513cc3362a656455bd75" localtype="Item"
+                parent="aspace_0751c80dbcdfb3b74690964dadf29c79">1</container>
+            </did>
+          </c03>
+          <c03 id="aspace_0232073ad49b5090fa1d48e99e595ab4" level="file">
+            <did>
+              <unittitle>Abraham P. Rockwood - Western Defense Command</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_c37f38d2aee0721faee2fe8216157232" label="Physical Object"
+                localtype="page">6</container>
+              <container id="aspace_435024a3446804617c8daf493d0c7c78" localtype="Item"
+                parent="aspace_c37f38d2aee0721faee2fe8216157232">2</container>
+            </did>
+          </c03>
+          <c03 id="aspace_bfda79d465acad3c2a6ba84334a65205" level="file">
+            <did>
+              <unittitle>Francis C. Newton, Jr. - Anti-Aircraft Command</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_b8dc70a947cddd4f75734803a79b8257" label="Physical Object"
+                localtype="page">6</container>
+              <container id="aspace_486f722fa7d6faa7ecf7d4fd9ce051bc" localtype="Item"
+                parent="aspace_b8dc70a947cddd4f75734803a79b8257">3</container>
+            </did>
+          </c03>
+          <c03 id="aspace_72e10f5ea33924951cbbe28b183afb1f" level="file">
+            <did>
+              <unittitle>Newton R. Douglas - Anti-Aircraft Command</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_e0ecffa3755c60b9904e7127d77e67d5" label="Physical Object"
+                localtype="page">6</container>
+              <container id="aspace_00ca86eaccfe59eaeb0aca5e652b7e22" localtype="Item"
+                parent="aspace_e0ecffa3755c60b9904e7127d77e67d5">4</container>
+            </did>
+          </c03>
+          <c03 id="aspace_54bfda7fbc0fa7fbdfc6ed463ec4d66f" level="file">
+            <did>
+              <unittitle>Wesley H. MacQueen - Anti-Aircraft Command</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_5d3a04e0e76991256ac8c94461096ace" label="Physical Object"
+                localtype="page">6</container>
+              <container id="aspace_4af35791cdd198ccd9cf2f899d88f6a0" localtype="Item"
+                parent="aspace_5d3a04e0e76991256ac8c94461096ace">5</container>
+            </did>
+          </c03>
+          <c03 id="aspace_cc99dc5d39b787ba1ec728975d5343e1" level="file">
+            <did>
+              <unittitle>Harrison G. Meserve - New England Frontier Defense Sector</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_79ea58d37f23bfdba5b70a935b555616" label="Physical Object"
+                localtype="page">6</container>
+              <container id="aspace_0579d09fd0e7f13e41ba51c7e01d0b29" localtype="Item"
+                parent="aspace_79ea58d37f23bfdba5b70a935b555616">6</container>
+            </did>
+          </c03>
+          <c03 id="aspace_0a526db4d9a580b0fe4bcde280ee3da5" level="file">
+            <did>
+              <unittitle>Charlotte M. Petitmermet - Port of Embarkation</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_ca6c4ece4b0f15d979a6785223e6f54d" label="Physical Object"
+                localtype="page">6</container>
+              <container id="aspace_f4781ef06506000bf7e5a1f7f87996a0" localtype="Item"
+                parent="aspace_ca6c4ece4b0f15d979a6785223e6f54d">7</container>
+            </did>
+          </c03>
+          <c03 id="aspace_5aa35734b0262a6e98abee9e754272ed" level="file">
+            <did>
+              <unittitle>Harry Bergson, Jr. - Panama Canal Department</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_139ba59c88ef5c157e6dff1cfac5f720" label="Physical Object"
+                localtype="page">6</container>
+              <container id="aspace_0f0ee344b43cb54f177a2cc6c8dd7d31" localtype="Item"
+                parent="aspace_139ba59c88ef5c157e6dff1cfac5f720">8</container>
+            </did>
+          </c03>
+          <c03 id="aspace_a6bc9bfb66f5ace21ff066543fc955ca" level="file">
+            <did>
+              <unittitle>Hugh Harwood - Replacement and School Command</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_2e3018ed773ae99fe8f6de19eaec79e3" label="Physical Object"
+                localtype="page">7</container>
+              <container id="aspace_bfb0b3d6e3467effa6c8a806e1289fa1" localtype="Item"
+                parent="aspace_2e3018ed773ae99fe8f6de19eaec79e3">1</container>
+            </did>
+          </c03>
+          <c03 id="aspace_a40d34a0f059d203face9a732b300561" level="file">
+            <did>
+              <unittitle>J. Robert Fowler - Replacement and School Command</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_c6c8a2be413cff7161d5cc717eb193ea" label="Physical Object"
+                localtype="page">7</container>
+              <container id="aspace_be2970455f6a735c52471d3de4e10a3e" localtype="Item"
+                parent="aspace_c6c8a2be413cff7161d5cc717eb193ea">2</container>
+            </did>
+          </c03>
+          <c03 id="aspace_2932217005599d1d2ac34bbe8c51e446" level="file">
+            <did>
+              <unittitle>Gardner T. Dunham - GHQ Reserves</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_502dbadc7ecbae8f380efbe8930b8716" label="Physical Object"
+                localtype="page">7</container>
+              <container id="aspace_8f711817a08acbd390e36f0e9cb30a67" localtype="Item"
+                parent="aspace_502dbadc7ecbae8f380efbe8930b8716">3</container>
+            </did>
+          </c03>
+          <c03 id="aspace_d98695a3b77c66a965ad81a5ab55016a" level="file">
+            <did>
+              <unittitle>John E. Whelden - Allied Forces Headquarters</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_cfdf2c06f03430aee459f4fd846a94ff" label="Physical Object"
+                localtype="page">7</container>
+              <container id="aspace_acf7cc0a105b6fb24b96a48e13df65b7" localtype="Item"
+                parent="aspace_cfdf2c06f03430aee459f4fd846a94ff">4</container>
+            </did>
+          </c03>
+          <c03 id="aspace_5b8cdde38802a6e442017cf9431f4658" level="file">
+            <did>
+              <unittitle>Donald Kirkpatrick - GHQ Reserves</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_230876b4965ad557a3810633cb70fb55" label="Physical Object"
+                localtype="page">7</container>
+              <container id="aspace_ad8f41dd86107a776b08ab95982f88f1" localtype="Item"
+                parent="aspace_230876b4965ad557a3810633cb70fb55">5</container>
+            </did>
+          </c03>
+          <c03 id="aspace_6a5cd284c40b5e6dbe8697f7a8e9a83a" level="file">
+            <did>
+              <unittitle>Wesley H. MacQueen - Army Ground Forces Headquarters</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_76e0320eefeace58cb2d4b1347575a84" label="Physical Object"
+                localtype="page">7</container>
+              <container id="aspace_c1c4d51aeee46f889af15cfdf57010e2" localtype="Item"
+                parent="aspace_76e0320eefeace58cb2d4b1347575a84">6</container>
+            </did>
+          </c03>
+          <c03 id="aspace_7ed29035dca684a4bdb8e5c14d897f39" level="file">
+            <did>
+              <unittitle>Roy S. Spilman - IX Corps</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_ded9827ef458132b3991bffebce9903c" label="Physical Object"
+                localtype="page">8</container>
+              <container id="aspace_ce80bb04bcb43d6b814cb6375a5e9469" localtype="Item"
+                parent="aspace_ded9827ef458132b3991bffebce9903c">1</container>
+            </did>
+          </c03>
+          <c03 id="aspace_9dadb2e6198fc73879e2464dbb34586a" level="file">
+            <did>
+              <unittitle>Francis C. Newton, Jr. - XXII Corps</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_b9e16e20b4548468c0b18c517e1c1401" label="Physical Object"
+                localtype="page">8</container>
+              <container id="aspace_e91aa79468503689b19ab3bb77ea4a2f" localtype="Item"
+                parent="aspace_b9e16e20b4548468c0b18c517e1c1401">2</container>
+            </did>
+          </c03>
+          <c03 id="aspace_917145b014c42a73d1cd8539146e3e1f" level="file">
+            <did>
+              <unittitle>R. Brooks Dietz - XV Corps</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_1b29dfef3dc079cf55668bbcfc74efae" label="Physical Object"
+                localtype="page">8</container>
+              <container id="aspace_1c36073097fc66d6f9d32b3c05ba8ba6" localtype="Item"
+                parent="aspace_1b29dfef3dc079cf55668bbcfc74efae">3</container>
+            </did>
+          </c03>
+          <c03 id="aspace_c912b381a6cf3579cbdd90b1002db8af" level="file">
+            <did>
+              <unittitle>James Whelden - XXIII Corps</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_ebf917e48a5a05607727d56b8d5a611a" label="Physical Object"
+                localtype="page">8</container>
+              <container id="aspace_caf73435805b02a78f28e7fa82105fd8" localtype="Item"
+                parent="aspace_ebf917e48a5a05607727d56b8d5a611a">4</container>
+            </did>
+          </c03>
+          <c03 id="aspace_6c76abbdc3885bd975d77242fe2723e7" level="file">
+            <did>
+              <unittitle>David O. Fletcher - XXXVI Corps</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_103c6c2cd61ecc83eecaa96dc99be898" label="Physical Object"
+                localtype="page">8</container>
+              <container id="aspace_6c6a56fc4c82f828e6a006a82ec02ec8" localtype="Item"
+                parent="aspace_103c6c2cd61ecc83eecaa96dc99be898">5</container>
+            </did>
+          </c03>
+          <c03 id="aspace_8853338e7b53228e5d3357b70409aa35" level="file">
+            <did>
+              <unittitle>Charles W. Doten - 1st Army Group</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_7c1fc29a42802bd08b6adc5c483015b4" label="Physical Object"
+                localtype="page">8</container>
+              <container id="aspace_709bec36cabc451764818b735138b8e5" localtype="Item"
+                parent="aspace_7c1fc29a42802bd08b6adc5c483015b4">6</container>
+            </did>
+          </c03>
+          <c03 id="aspace_118ae4dbd81057f60b0df978272f4f64" level="file">
+            <did>
+              <unittitle>Charles W. Doten - 12th Army Corps (Headquarters)</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_a61f51bb803b908de6fed964766cab3d" label="Physical Object"
+                localtype="page">8</container>
+              <container id="aspace_d79963bb3a7c41d198515fc3907fa5c5" localtype="Item"
+                parent="aspace_a61f51bb803b908de6fed964766cab3d">7</container>
+            </did>
+          </c03>
+          <c03 id="aspace_2ea0d6fa90170c2d0d39caa37d84d44e" level="file">
+            <did>
+              <unittitle>James Whelden - 1st United States Army</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_39f4182ca9043280c31a32c69926ad27" label="Physical Object"
+                localtype="page">9</container>
+              <container id="aspace_1e7007fab875e6012e50bc59422fdd50" localtype="Item"
+                parent="aspace_39f4182ca9043280c31a32c69926ad27">1</container>
+            </did>
+          </c03>
+          <c03 id="aspace_6388ac731e2f105a56143a96cbc8d067" level="file">
+            <did>
+              <unittitle>James Whelden - 3rd United States Army</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_f2b22d5eb26fbc4bff6293d3cbfaf59d" label="Physical Object"
+                localtype="page">9</container>
+              <container id="aspace_ff4a48771bd09ddbfa740d5a8e84f114" localtype="Item"
+                parent="aspace_f2b22d5eb26fbc4bff6293d3cbfaf59d">2</container>
+            </did>
+          </c03>
+          <c03 id="aspace_2e573cc44cee4db02d2e73af5d223c75" level="file">
+            <did>
+              <unittitle>Abraham P. Rockwood - 4th United States Army</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_4d92b78266f827b1f1fe29cc55d040a4" label="Physical Object"
+                localtype="page">9</container>
+              <container id="aspace_b7edc8457904997eeb086792199539de" localtype="Item"
+                parent="aspace_4d92b78266f827b1f1fe29cc55d040a4">3</container>
+            </did>
+          </c03>
+          <c03 id="aspace_ca7fe7569aec5a6cd7ab1bfc9395292d" level="file">
+            <did>
+              <unittitle>Edgar E. Libby - 5th United States Army</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_63c974d44f2f720e22087e6d2b35235e" label="Physical Object"
+                localtype="page">9</container>
+              <container id="aspace_f04f134a8d663ba8b12f88af1cb9e89f" localtype="Item"
+                parent="aspace_63c974d44f2f720e22087e6d2b35235e">4</container>
+            </did>
+          </c03>
+          <c03 id="aspace_0088c44473433aafe60e63576a863583" level="file">
+            <did>
+              <unittitle>W. Philip Giddings - 5th United States Army</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_7943b5a4f376fadadf83758114be4e90" label="Physical Object"
+                localtype="page">9</container>
+              <container id="aspace_4c462f913147fc78a204b84096c83386" localtype="Item"
+                parent="aspace_7943b5a4f376fadadf83758114be4e90">5</container>
+            </did>
+          </c03>
+          <c03 id="aspace_b8c3ba801a8adda6431faa9707d1f0b7" level="file">
+            <did>
+              <unittitle>Robert P. Giddings - 7th United States Army</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_fa539ef0fc5d47a53a45df9e86116f70" label="Physical Object"
+                localtype="page">9</container>
+              <container id="aspace_ca7ced9308b60c1e13a31dc7effc0715" localtype="Item"
+                parent="aspace_fa539ef0fc5d47a53a45df9e86116f70">6</container>
+            </did>
+          </c03>
+          <c03 id="aspace_9cb81f6f3a1babb3ebb15f47ff6567d1" level="file">
+            <did>
+              <unittitle>S. Walker Merrill, Jr. - 8th United States Army</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_9b33d25dce022cb9d00fbf30b11b213a" label="Physical Object"
+                localtype="page">9</container>
+              <container id="aspace_75503dfe40ea4f9aeb5b84d1ae19cf03" localtype="Item"
+                parent="aspace_9b33d25dce022cb9d00fbf30b11b213a">7</container>
+            </did>
+          </c03>
+          <c03 id="aspace_a402a27c9edc0c1cf37b07f372d7c321" level="file">
+            <did>
+              <unittitle>Thomas L. Fenn, Jr. - 1st Infantry Division</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_9f5b02814d66523b72d321aafd30d83d" label="Physical Object"
+                localtype="page">10</container>
+              <container id="aspace_91034933b32b15104f81644d25c5dd09" localtype="Item"
+                parent="aspace_9f5b02814d66523b72d321aafd30d83d">1</container>
+            </did>
+          </c03>
+          <c03 id="aspace_e8d9583c022af149070e052278ad8e98" level="file">
+            <did>
+              <unittitle>Kenneth P. MacPherson - 10th Mountain Division</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_71b25c66fd525997de67635cec61348f" label="Physical Object"
+                localtype="page">10</container>
+              <container id="aspace_d79f30ba2248894d882de1ef3703abd6" localtype="Item"
+                parent="aspace_71b25c66fd525997de67635cec61348f">2</container>
+            </did>
+          </c03>
+          <c03 id="aspace_4dcb1787db643d94b861173e1ef24e83" level="file">
+            <did>
+              <unittitle>Robert B. Spilman - 26th Infantry Division</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_165d7554872ad352a3779749536e96f0" label="Physical Object"
+                localtype="page">10</container>
+              <container id="aspace_163985efe4f533086ce3b3feb190e164" localtype="Item"
+                parent="aspace_165d7554872ad352a3779749536e96f0">3</container>
+            </did>
+          </c03>
+          <c03 id="aspace_fcd1bce4ee664095b4f16915f1b96969" level="file">
+            <did>
+              <unittitle>Gordon J. McKinley - 26th Infantry Division</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_ae05d31f5a73f52a2bb7921561c038be" label="Physical Object"
+                localtype="page">10</container>
+              <container id="aspace_34467b1624b69fce9fde147faf414596" localtype="Item"
+                parent="aspace_ae05d31f5a73f52a2bb7921561c038be">4</container>
+            </did>
+          </c03>
+          <c03 id="aspace_331a108aabf42d2c5371548423de3d3d" level="file">
+            <did>
+              <unittitle>Donald C. Van Roosen - 29th Infantry Division</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_fe9384a7f7aecd61e44c37b3fded16aa" label="Physical Object"
+                localtype="page">10</container>
+              <container id="aspace_7398763942c51b9f9ee64c2d124bbd3b" localtype="Item"
+                parent="aspace_fe9384a7f7aecd61e44c37b3fded16aa">5</container>
+            </did>
+          </c03>
+          <c03 id="aspace_e82e15e4bef5966a81e0dbec1ba30240" level="file">
+            <did>
+              <unittitle>Chester G. Holbrook - 33rd Infantry Division</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_98086337ce25fb4b80549e64b9b71ca8" label="Physical Object"
+                localtype="page">10</container>
+              <container id="aspace_27d070348c61a9154aa1c1eee4129787" localtype="Item"
+                parent="aspace_98086337ce25fb4b80549e64b9b71ca8">6</container>
+            </did>
+          </c03>
+          <c03 id="aspace_cca2e16b18c41c324bf724663e602c7a" level="file">
+            <did>
+              <unittitle>James H. Wheeler, II - 34th Infantry Division</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_946cd95a04806e414a5c60f2395d6059" label="Physical Object"
+                localtype="page">10</container>
+              <container id="aspace_75cf1917c771410fc7890b1922b46448" localtype="Item"
+                parent="aspace_946cd95a04806e414a5c60f2395d6059">7</container>
+            </did>
+          </c03>
+          <c03 id="aspace_20ee6e86950c8aca5e141fd15c92cfac" level="file">
+            <did>
+              <unittitle>Gene A. Wilson - 38th Infantry Division</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_5973588f3ad69f96fac1664122ddbd71" label="Physical Object"
+                localtype="page">11</container>
+              <container id="aspace_6397b5ced4ba27149b3ecbf251fbd6fb" localtype="Item"
+                parent="aspace_5973588f3ad69f96fac1664122ddbd71">1</container>
+            </did>
+          </c03>
+          <c03 id="aspace_355ea2da63853171b523f766501e7fc9" level="file">
+            <did>
+              <unittitle>Harold C. Bronsdon - 71st Infantry Division</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_d1dd7dcdd4e3861082923ad2e5ad8733" label="Physical Object"
+                localtype="page">11</container>
+              <container id="aspace_b242425c1bf880a75fd0d9f10f9a9073" localtype="Item"
+                parent="aspace_d1dd7dcdd4e3861082923ad2e5ad8733">2</container>
+            </did>
+          </c03>
+          <c03 id="aspace_c9ac383b181ec840ebb1e48b13262427" level="file">
+            <did>
+              <unittitle>S. Walker Merrill, Jr. - 43rd Infantry Division</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_8737a6d71d6f8c64697452166b4fe9b0" label="Physical Object"
+                localtype="page">11</container>
+              <container id="aspace_468971f3269b54f63169c6bbd39d3ce3" localtype="Item"
+                parent="aspace_8737a6d71d6f8c64697452166b4fe9b0">3</container>
+            </did>
+          </c03>
+          <c03 id="aspace_daa07d68792fa12914e8012a27d439fc" level="file">
+            <did>
+              <unittitle>Chester G. Holbrook - 79th Infantry Division</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_1ebf73e9fa492692abc31b6fd2ec1196" label="Physical Object"
+                localtype="page">11</container>
+              <container id="aspace_ac56a50d5054dc792165df32a3faaa2c" localtype="Item"
+                parent="aspace_1ebf73e9fa492692abc31b6fd2ec1196">4</container>
+            </did>
+          </c03>
+          <c03 id="aspace_1d1d84d0bd89cc0fec3bf24c1e8f3657" level="file">
+            <did>
+              <unittitle>Donald Kirkpatrick - 78th Infantry Division</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_c602000e89441d47bcbebbc125c14587" label="Physical Object"
+                localtype="page">11</container>
+              <container id="aspace_c26936be32bbfa310f2718d6a9f3d768" localtype="Item"
+                parent="aspace_c602000e89441d47bcbebbc125c14587">5</container>
+            </did>
+          </c03>
+          <c03 id="aspace_a0ed217b1ae4fbe913b1e8c03caa2268" level="file">
+            <did>
+              <unittitle>S. Walker Merrill, Jr. - 23rd Infantry Division</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_299f1f0598480ac04350f8b43d8be23a" label="Physical Object"
+                localtype="page">11</container>
+              <container id="aspace_9c9a21da0fc599a7b97f534ec0ce7b26" localtype="Item"
+                parent="aspace_299f1f0598480ac04350f8b43d8be23a">6</container>
+            </did>
+          </c03>
+          <c03 id="aspace_68fb9e4bb12fd4868fd7c85d445e8af2" level="file">
+            <did>
+              <unittitle>John M. Dietz - 94th Infantry Division</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_16a0c5e81378816aad9d3028f5e8d337" label="Physical Object"
+                localtype="page">12</container>
+              <container id="aspace_69dc23a13b24d904726929064e06b86b" localtype="Item"
+                parent="aspace_16a0c5e81378816aad9d3028f5e8d337">1</container>
+            </did>
+          </c03>
+          <c03 id="aspace_dc74594196e9391ab5f42501856cec81" level="file">
+            <did>
+              <unittitle>Frank M. Whelden - 82nd Airborne Division</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_b86c5b0528e671e2b0bd743b09a30e4b" label="Physical Object"
+                localtype="page">12</container>
+              <container id="aspace_9641184540722b7d4297f81165ab600b" localtype="Item"
+                parent="aspace_b86c5b0528e671e2b0bd743b09a30e4b">2</container>
+            </did>
+          </c03>
+          <c03 id="aspace_3a0101e5831f52c70ebbd0d215771e0c" level="file">
+            <did>
+              <unittitle>Wesley R. Sherwood - 97th Airborne Division</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_00ddcda44af35ec3120cb456d035c93b" label="Physical Object"
+                localtype="page">12</container>
+              <container id="aspace_f24a553293976552b4f5ebf65c70000d" localtype="Item"
+                parent="aspace_00ddcda44af35ec3120cb456d035c93b">3</container>
+            </did>
+          </c03>
+          <c03 id="aspace_da7dfdecb6c5f8600bd4ea3029462f62" level="file">
+            <did>
+              <unittitle>Newton R. Douglas - 100th Infantry Division</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_925f0530ef3e97fce2806b224bd4af3c" label="Physical Object"
+                localtype="page">12</container>
+              <container id="aspace_853a0017a9063769246ad9fad38c546d" localtype="Item"
+                parent="aspace_925f0530ef3e97fce2806b224bd4af3c">4</container>
+            </did>
+          </c03>
+          <c03 id="aspace_ec5ef923c38a0cc8996917594bffe268" level="file">
+            <did>
+              <unittitle>Donald T. Jordan - 101st Infantry Division</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_f80adeff180e54e782eccab9cfddbf75" label="Physical Object"
+                localtype="page">12</container>
+              <container id="aspace_ee862bbc0114cbc0122b4b6e730fa3e1" localtype="Item"
+                parent="aspace_f80adeff180e54e782eccab9cfddbf75">5</container>
+            </did>
+          </c03>
+          <c03 id="aspace_418c0b6b4696f666d3f5b1410ed92e17" level="file">
+            <did>
+              <unittitle>Rollin C. Smith - 103rd Infantry Division</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_7cfae1a59084ac178d2e6e124c2d8e01" label="Physical Object"
+                localtype="page">12</container>
+              <container id="aspace_ece8be6a98ef71dbb9903f3391f9d532" localtype="Item"
+                parent="aspace_7cfae1a59084ac178d2e6e124c2d8e01">6</container>
+            </did>
+          </c03>
+          <c03 id="aspace_d58315a368f5dd0dfad9d03b430ae65c" level="file">
+            <did>
+              <unittitle>Latimer W. MacMillan - 2nd Armored Division</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_7b387e9a9b158c2d92c9f4e47347ac58" label="Physical Object"
+                localtype="page">13</container>
+              <container id="aspace_cd26d4a557f2116af414771cf98cfa80" localtype="Item"
+                parent="aspace_7b387e9a9b158c2d92c9f4e47347ac58">1</container>
+            </did>
+          </c03>
+          <c03 id="aspace_3304d8d689e5beecc92a438dae8cbdea" level="file">
+            <did>
+              <unittitle>Robert B. Spilman - 6th Armored Division</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_029db371e2a459e72feaf5643b634388" label="Physical Object"
+                localtype="page">13</container>
+              <container id="aspace_d81a05292ce4edfabda9d5d0dc9307ed" localtype="Item"
+                parent="aspace_029db371e2a459e72feaf5643b634388">2</container>
+            </did>
+          </c03>
+          <c03 id="aspace_26e058c0f69d0cdede727f4c8006e84c" level="file">
+            <did>
+              <unittitle>Harry F. Parsons - 6th Armored Division</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_668267d48edc8027b92fdcb78a0692ce" label="Physical Object"
+                localtype="page">13</container>
+              <container id="aspace_0ad22ee7ab258334c93e0eac4aebaced" localtype="Item"
+                parent="aspace_668267d48edc8027b92fdcb78a0692ce">3</container>
+            </did>
+          </c03>
+          <c03 id="aspace_62e3e5b2d1e9a1241c695ae56f5c9bd7" level="file">
+            <did>
+              <unittitle>Robert B. Spilman - 8th Armored Division</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_c9d5551c7b8fc90ab26a900fa1c1e0a3" label="Physical Object"
+                localtype="page">13</container>
+              <container id="aspace_e3a70eb6cdc0ff06cb422bb3d34944a9" localtype="Item"
+                parent="aspace_c9d5551c7b8fc90ab26a900fa1c1e0a3">4</container>
+            </did>
+          </c03>
+          <c03 id="aspace_2ff61dc05dedae12f7b87a433b3e8f57" level="file">
+            <did>
+              <unittitle>Robert R. Guild - 8th Armored Division</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_af87894f1c98ce33b4072891eda9162c" label="Physical Object"
+                localtype="page">13</container>
+              <container id="aspace_78d02514ed6bc5d2dd19d68c68499ff1" localtype="Item"
+                parent="aspace_af87894f1c98ce33b4072891eda9162c">5</container>
+            </did>
+          </c03>
+          <c03 id="aspace_003292dfa0fc82b1238f6e0246c0cb8a" level="file">
+            <did>
+              <unittitle>Frank M. Whelden - 1st Army Allied Airborne Group</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_3901b311ad51dd5d6a6b61d39744040f" label="Physical Object"
+                localtype="page">14</container>
+              <container id="aspace_e3d9246878e2f3111e537d0ddbeba807" localtype="Item"
+                parent="aspace_3901b311ad51dd5d6a6b61d39744040f">1</container>
+            </did>
+          </c03>
+          <c03 id="aspace_f87006890a1c1b9040069c40cd6cb4ee" level="file">
+            <did>
+              <unittitle>Harold C. Bronsdon - Merrill's Marauders</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_f8b3ea8fc7e70f4aa0bc656606273cf9" label="Physical Object"
+                localtype="page">14</container>
+              <container id="aspace_710e87d0a72a7f87641c03b37be1c31b" localtype="Item"
+                parent="aspace_f8b3ea8fc7e70f4aa0bc656606273cf9">2</container>
+            </did>
+          </c03>
+          <c03 id="aspace_f33ec596bae831700eb2173367a1c41a" level="file">
+            <did>
+              <unittitle>John Metz - 99th Infantry Battalion</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_6f27b9dabc61849866c4c41eabc0f13c" label="Physical Object"
+                localtype="page">14</container>
+              <container id="aspace_d42e00b34994ba9ee3a9b519cc2cf8ab" localtype="Item"
+                parent="aspace_6f27b9dabc61849866c4c41eabc0f13c">3</container>
+            </did>
+          </c03>
+          <c03 id="aspace_2bf8bbf5bf5cc26c63d9ac5a771eb56a" level="file">
+            <did>
+              <unittitle>Charles B. Estabrook, Jr. - Middle East Forces</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_e5c3d236c3bafbed84ac19510f78e7ad" label="Physical Object"
+                localtype="page">15</container>
+              <container id="aspace_3a0038e5d595b480893a134d69c673fd" localtype="Item"
+                parent="aspace_e5c3d236c3bafbed84ac19510f78e7ad">1</container>
+            </did>
+          </c03>
+          <c03 id="aspace_c72c19c30c16411766d307009a109d1b" level="file">
+            <did>
+              <unittitle>William H. Rice, Jr. - Pacific Ocean Forces</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_67fc537f4dcc91685e4897add8430a03" label="Physical Object"
+                localtype="page">15</container>
+              <container id="aspace_5c7c75b1e7b3fe9413745ff56610ce66" localtype="Item"
+                parent="aspace_67fc537f4dcc91685e4897add8430a03">2</container>
+            </did>
+          </c03>
+          <c03 id="aspace_32b3875f3b5ce2a8e2cf72bdddcabadd" level="file">
+            <did>
+              <unittitle>Wallace A. Moyle, Jr. - China Burma and India Forces</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_ba73c5a099b83116358158b5b9f80f66" label="Physical Object"
+                localtype="page">15</container>
+              <container id="aspace_1115651b21f0f56cf198538bad9d98d1" localtype="Item"
+                parent="aspace_ba73c5a099b83116358158b5b9f80f66">3</container>
+            </did>
+          </c03>
+          <c03 id="aspace_7207b6b155c1c7aee61f1df4b6023a8f" level="file">
+            <did>
+              <unittitle>Martin Boermeester, Jr. - China Burma and India Forces</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_f0eceed4529d9f218d1798b07aa893a5" label="Physical Object"
+                localtype="page">15</container>
+              <container id="aspace_86eab1b316e0086800e9e7b561557aa6" localtype="Item"
+                parent="aspace_f0eceed4529d9f218d1798b07aa893a5">4</container>
+            </did>
+          </c03>
+          <c03 id="aspace_028d8dac8f02bb5deec828a4a768b81c" level="file">
+            <did>
+              <unittitle>W. Granville Hawes - South Atlantic Command</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_511cd18c1a680c9b7fbb37db99510920" label="Physical Object"
+                localtype="page">15</container>
+              <container id="aspace_b6c15477c82b26b640839772b769f2eb" localtype="Item"
+                parent="aspace_511cd18c1a680c9b7fbb37db99510920">5</container>
+            </did>
+          </c03>
+        </c02>
+        <c02 id="aspace_0eaff46a5c574e2a2fac5a0f2a409877" level="subseries">
+          <did>
+            <unittitle>Air Forces</unittitle>
+            <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+              <quantity>37</quantity>
+              <unittype>Objects</unittype>
+            </physdescstructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_eedcb721533c0923585cf090aaeb8246" label="Physical Object"
+              localtype="page">16</container>
+          </did>
+          <scopecontent id="aspace_8fdeaf7001db464a26a7cba0eb1995e2">
+            <head>Scope and Contents</head>
+            <p>This sub-series contains patches related to the Army Air Forces.</p>
+          </scopecontent>
+          <c03 id="aspace_1ecc5d67d00c283ff21c3768d9478095" level="file">
+            <did>
+              <unittitle>Eugene Leger - Army Air Forces</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_e6cfd5c49ac516c775a2c1e1205d8129" label="Physical Object"
+                localtype="page">17</container>
+              <container id="aspace_d0bfc829a702d1a5234b6540ed323125" localtype="Item"
+                parent="aspace_e6cfd5c49ac516c775a2c1e1205d8129">1</container>
+            </did>
+          </c03>
+          <c03 id="aspace_5a7cbfff890b6d23e750745f241ef58d" level="file">
+            <did>
+              <unittitle>William J. Kalousdian - Army Air Forces</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_f6ea46c73bb8989fa82961f3bec46c46" label="Physical Object"
+                localtype="page">17</container>
+              <container id="aspace_d1d0a5dde5361107a63b5ad7ba0af628" localtype="Item"
+                parent="aspace_f6ea46c73bb8989fa82961f3bec46c46">2</container>
+            </did>
+          </c03>
+          <c03 id="aspace_7607330dbf706feaea4c99f9413da4e3" level="file">
+            <did>
+              <unittitle>James D. Condit - Army Air Forces</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_0d4d644ff18b63e1958d1af0f1106142" label="Physical Object"
+                localtype="page">17</container>
+              <container id="aspace_29f4b9fd387016e38f962c8734150bc3" localtype="Item"
+                parent="aspace_0d4d644ff18b63e1958d1af0f1106142">3</container>
+            </did>
+          </c03>
+          <c03 id="aspace_abd94bd1297f97245b0b84c9bb011790" level="file">
+            <did>
+              <unittitle>W. Richardson Jones - Army Air Forces Cadet</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_b264c880519964fa8605d713cd6a07d7" label="Physical Object"
+                localtype="page">17</container>
+              <container id="aspace_486d0f2e95fb431b4218a7ca48f57d85" localtype="Item"
+                parent="aspace_b264c880519964fa8605d713cd6a07d7">4</container>
+            </did>
+          </c03>
+          <c03 id="aspace_bcda16b6822aceaa40042671ae56b3c2" level="file">
+            <did>
+              <unittitle>Newton R. Douglas - Army Air Forces</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_c3ab3232f5c1f796c674804545097941" label="Physical Object"
+                localtype="page">17</container>
+              <container id="aspace_6c5efeab56a8055e3f28a6823d1e6e09" localtype="Item"
+                parent="aspace_c3ab3232f5c1f796c674804545097941">5</container>
+            </did>
+          </c03>
+          <c03 id="aspace_cfbd6a4fa5aa1d33ddbed2dd151ba67a" level="file">
+            <did>
+              <unittitle>Richard E. Hodgkins - Army Air Forces</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_b11b1c441cbfca454780c2864cc82785" label="Physical Object"
+                localtype="page">17</container>
+              <container id="aspace_24db0f4043b2ef9566ba43e1649bcf66" localtype="Item"
+                parent="aspace_b11b1c441cbfca454780c2864cc82785">6</container>
+            </did>
+          </c03>
+          <c03 id="aspace_19863470694509d0fc09acd580e09f93" level="file">
+            <did>
+              <unittitle>John G. McDonald - Army Air Forces</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_9ca892c71f80c536e07c567eaf7474d7" label="Physical Object"
+                localtype="page">17</container>
+              <container id="aspace_5c53155a511dca7b5f9d8a34c20e9d26" localtype="Item"
+                parent="aspace_9ca892c71f80c536e07c567eaf7474d7">7</container>
+            </did>
+          </c03>
+          <c03 id="aspace_b6d584ac9102618bb72a795668519106" level="file">
+            <did>
+              <unittitle>Richard D. Whittemore - Army Air Forces</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_423277227f76d5c493a72bd0bfa4b19b" label="Physical Object"
+                localtype="page">17</container>
+              <container id="aspace_f7ee14b0f4c6bf73e05dc840285ac9d0" localtype="Item"
+                parent="aspace_423277227f76d5c493a72bd0bfa4b19b">8</container>
+            </did>
+          </c03>
+          <c03 id="aspace_ee747a2fa98659278662ecd96fb91d23" level="file">
+            <did>
+              <unittitle>Abraham P. Rockwood - 4th Air Forces</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_a52bf3a69d25cac8fe489ab7ae29dc7c" label="Physical Object"
+                localtype="page">18</container>
+              <container id="aspace_4615ec316d88848f9981d8e5f591ea5f" localtype="Item"
+                parent="aspace_a52bf3a69d25cac8fe489ab7ae29dc7c">1</container>
+            </did>
+          </c03>
+          <c03 id="aspace_d6f4718ffd7dcd69ccc646ed844a042a" level="file">
+            <did>
+              <unittitle>Chester L. Churchill, Jr. - 1st Air Forces</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_b414c65a4b11d5eab6275cc874f1e4a5" label="Physical Object"
+                localtype="page">18</container>
+              <container id="aspace_f0e5ae816448a26a45d27a1415f6e0bf" localtype="Item"
+                parent="aspace_b414c65a4b11d5eab6275cc874f1e4a5">2</container>
+            </did>
+          </c03>
+          <c03 id="aspace_dbba3779171f96d516906cf9c9312d2e" level="file">
+            <did>
+              <unittitle>S. Joseph Melick - 1st Air Forces</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_768bef10cd05b5ae02ca90afb065a204" label="Physical Object"
+                localtype="page">18</container>
+              <container id="aspace_3fe0352a645924fb25c9cd50cf1f6978" localtype="Item"
+                parent="aspace_768bef10cd05b5ae02ca90afb065a204">3</container>
+            </did>
+          </c03>
+          <c03 id="aspace_d63c9872e778cb88b4ed82ebc130d2d2" level="file">
+            <did>
+              <unittitle>Robert M. Whelden - 3rd Air Forces</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_d7853b5439e8ce6c7891d5ae7126dae1" label="Physical Object"
+                localtype="page">18</container>
+              <container id="aspace_039df4fe9e06e7346bfa361103b25f38" localtype="Item"
+                parent="aspace_d7853b5439e8ce6c7891d5ae7126dae1">4</container>
+            </did>
+          </c03>
+          <c03 id="aspace_b8d28a6d1fb7598b7fe46dc42ddf82f2" level="file">
+            <did>
+              <unittitle>John A. Skakle - 3rd Air Forces</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_c5cb7f1f5be02745653a0a7960dfc8eb" label="Physical Object"
+                localtype="page">18</container>
+              <container id="aspace_0a36d98e6bcd44bd33d313b1b4e9c1a4" localtype="Item"
+                parent="aspace_c5cb7f1f5be02745653a0a7960dfc8eb">5</container>
+            </did>
+          </c03>
+          <c03 id="aspace_73935e748f6f6396d1c754d278ec2698" level="file">
+            <did>
+              <unittitle>Richard E. Hodgkins - 5th Air Forces</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_9a5eb03fff92ce5eb9f14f925964163c" label="Physical Object"
+                localtype="page">18</container>
+              <container id="aspace_94d4b4a7dfea726d1d356baa7f9e3503" localtype="Item"
+                parent="aspace_9a5eb03fff92ce5eb9f14f925964163c">6</container>
+            </did>
+          </c03>
+          <c03 id="aspace_f353408267b5056601e88f92e1b47f03" level="file">
+            <did>
+              <unittitle>Leonard W. Rowley - 7th Air Forces</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_5f3995ad88eba3bc2f5728e4b53bcd32" label="Physical Object"
+                localtype="page">18</container>
+              <container id="aspace_53d799e2fac17c6009987dd90804dfd6" localtype="Item"
+                parent="aspace_5f3995ad88eba3bc2f5728e4b53bcd32">7</container>
+            </did>
+          </c03>
+          <c03 id="aspace_b3a503d235b30a7a0cc22ad29d864143" level="file">
+            <did>
+              <unittitle>John Metz - 8th Air Forces</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_7739c5c23126fb85a553ec1e114639d8" label="Physical Object"
+                localtype="page">19</container>
+              <container id="aspace_11a434e5df46e42d78f618dd763327f2" localtype="Item"
+                parent="aspace_7739c5c23126fb85a553ec1e114639d8">1</container>
+            </did>
+          </c03>
+          <c03 id="aspace_02812f33f4d2a611aafaccc08def9267" level="file">
+            <did>
+              <unittitle>Robert N. Cleverdon - 8th Air Forces</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_3b1547c7e173198ef4f15f3a0777b4f3" label="Physical Object"
+                localtype="page">19</container>
+              <container id="aspace_ed32497d17e1757db07fcac82b25c219" localtype="Item"
+                parent="aspace_3b1547c7e173198ef4f15f3a0777b4f3">2</container>
+            </did>
+          </c03>
+          <c03 id="aspace_444dc2e7efd811ce0d6dcc738a92c7d4" level="file">
+            <did>
+              <unittitle>J. Bruce Spilman - 8th Air Forces</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_53b6a07ef3354a046f79f52cd2680e09" label="Physical Object"
+                localtype="page">19</container>
+              <container id="aspace_35427aa435e4b9dfe750b3a4be88899a" localtype="Item"
+                parent="aspace_53b6a07ef3354a046f79f52cd2680e09">3</container>
+            </did>
+          </c03>
+          <c03 id="aspace_407c653559ca38ee37108607ff2f03f1" level="file">
+            <did>
+              <unittitle>Morris F. Arnold - 9th Air Forces</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_7548e96aaf8e99b5853c3707f55b5466" label="Physical Object"
+                localtype="page">19</container>
+              <container id="aspace_79a96f077ced4f8fcfe0e39b50ac1fd1" localtype="Item"
+                parent="aspace_7548e96aaf8e99b5853c3707f55b5466">4</container>
+            </did>
+          </c03>
+          <c03 id="aspace_ee639c87df214c0536390b8a75e3dde7" level="file">
+            <did>
+              <unittitle>John A. Skakle - 9th Air Forces</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_970ef296b6342949e9dfc442107f81b9" label="Physical Object"
+                localtype="page">19</container>
+              <container id="aspace_2fa155b481982edbc0d4a1351ed7810b" localtype="Item"
+                parent="aspace_970ef296b6342949e9dfc442107f81b9">5</container>
+            </did>
+          </c03>
+          <c03 id="aspace_67f001bb76002eec831a0261041fda01" level="file">
+            <did>
+              <unittitle>Stanley K. Bridge - 12th Air Forces</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_49e21a646232043e03ebad1dd4caddf2" label="Physical Object"
+                localtype="page">20</container>
+              <container id="aspace_0249f3ac823eee1f4aefaad6f3eb32c6" localtype="Item"
+                parent="aspace_49e21a646232043e03ebad1dd4caddf2">1</container>
+            </did>
+          </c03>
+          <c03 id="aspace_f28e7d8fc123dfa56941163f59db5338" level="file">
+            <did>
+              <unittitle>H. Eugene Jones, Jr. - 13th Air Forces</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_6537f0c3a9a7c9ce85c9a5b54cc01aaa" label="Physical Object"
+                localtype="page">20</container>
+              <container id="aspace_e19f640c843bac565a3f32916de3fb1d" localtype="Item"
+                parent="aspace_6537f0c3a9a7c9ce85c9a5b54cc01aaa">2</container>
+            </did>
+          </c03>
+          <c03 id="aspace_d1cf5fa05984e038016eaafb447bd2eb" level="file">
+            <did>
+              <unittitle>Paul Petitmermet - 13th Air Forces</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_9ddf1730791c0d5794260881596d8440" label="Physical Object"
+                localtype="page">20</container>
+              <container id="aspace_a5cf1f0de9c40e134548dfd209c0fa0c" localtype="Item"
+                parent="aspace_9ddf1730791c0d5794260881596d8440">3</container>
+            </did>
+          </c03>
+          <c03 id="aspace_5ecc0832f939234535d5abe7cdb8ad7a" level="file">
+            <did>
+              <unittitle>William B. Ness, Jr. - 13th Air Forces</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_833da695a6b70a5328264f719f2c1d6e" label="Physical Object"
+                localtype="page">20</container>
+              <container id="aspace_099a66245ff362c3da9db7da28826520" localtype="Item"
+                parent="aspace_833da695a6b70a5328264f719f2c1d6e">4</container>
+            </did>
+          </c03>
+          <c03 id="aspace_13fca6c9c2c3dabfec20bca866f41fa6" level="file">
+            <did>
+              <unittitle>Stanley K. Bridge - Air Force Armament Specialist</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_f7df0d5c9ca5b340e96d7549dc6cb362" label="Physical Object"
+                localtype="page">21</container>
+              <container id="aspace_9476245d9799275855ff81385d027ad8" localtype="Item"
+                parent="aspace_f7df0d5c9ca5b340e96d7549dc6cb362">1</container>
+            </did>
+          </c03>
+          <c03 id="aspace_96c8a977b99fdce810b8835b57c4c499" level="file">
+            <did>
+              <unittitle>J. Bruce Spilman - Air Force Photography Specialist</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_903cf1ec7badeb877ec1a9ddeac03e2f" label="Physical Object"
+                localtype="page">21</container>
+              <container id="aspace_4aac2f81d62d7fed43163264b66811b0" localtype="Item"
+                parent="aspace_903cf1ec7badeb877ec1a9ddeac03e2f">2</container>
+            </did>
+          </c03>
+          <c03 id="aspace_699c16600f930ea18a16678c7f62ed7c" level="file">
+            <did>
+              <unittitle>Garfield Appleyard, Jr. - Air Force Engineering Specialist</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_cf8bcd89b63d71d107727f246fed3960" label="Physical Object"
+                localtype="page">21</container>
+              <container id="aspace_eeb699db1dba6125885283fe5fd37865" localtype="Item"
+                parent="aspace_cf8bcd89b63d71d107727f246fed3960">3</container>
+            </did>
+          </c03>
+          <c03 id="aspace_dbce747c1515f6aa067b0b5ae9ec197b" level="file">
+            <did>
+              <unittitle>W. Granville Hawes - Air Force Weather Specialist</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_073526286127c2397854eee7e7d95b16" label="Physical Object"
+                localtype="page">21</container>
+              <container id="aspace_1e87d46adc9e3c4f588807708f3d2387" localtype="Item"
+                parent="aspace_073526286127c2397854eee7e7d95b16">4</container>
+            </did>
+          </c03>
+          <c03 id="aspace_39990ad5bed2e6a58f16901ab74b58ac" level="file">
+            <did>
+              <unittitle>John G. McDonald - Air Force Communication Specialist</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_f268e02f8775cbedf6b1e19e030f302c" label="Physical Object"
+                localtype="page">21</container>
+              <container id="aspace_9d27158173b6d5b492ff1a641a46a6b3" localtype="Item"
+                parent="aspace_f268e02f8775cbedf6b1e19e030f302c">5</container>
+            </did>
+          </c03>
+          <c03 id="aspace_3cc5f77de73c6ada464d2a8bf6adba9d" level="file">
+            <did>
+              <unittitle>Frank M. Whelden - Army Parachutist</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_3f428e041a428c8cde942e64d2918555" label="Physical Object"
+                localtype="page">21</container>
+              <container id="aspace_55b3707c0076524abb49640213f83328" localtype="Item"
+                parent="aspace_3f428e041a428c8cde942e64d2918555">6</container>
+            </did>
+          </c03>
+          <c03 id="aspace_6769a8306fe69c48f37ae201d5faf6d1" level="file">
+            <did>
+              <unittitle>S. Joseph Melick - Technician 5th Grade</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_2ba33557076ca5f0b0901dbaaf7b1c43" label="Physical Object"
+                localtype="page">22</container>
+              <container id="aspace_bc4a51c5d03cd66b55eb49fd64cac93c" localtype="Item"
+                parent="aspace_2ba33557076ca5f0b0901dbaaf7b1c43">1</container>
+            </did>
+          </c03>
+          <c03 id="aspace_4ff87103807ee9a710b7718bf1f32865" level="file">
+            <did>
+              <unittitle>Gene A. Wilson - Technical Sergeant</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_a39edef21aad8525223c47f4fdb649cb" label="Physical Object"
+                localtype="page">22</container>
+              <container id="aspace_c6d06e5a3240dda3a8f25e1fd62e6a25" localtype="Item"
+                parent="aspace_a39edef21aad8525223c47f4fdb649cb">2</container>
+            </did>
+          </c03>
+          <c03 id="aspace_7242a7bbcaec8f4611783e9cf169338c" level="file">
+            <did>
+              <unittitle>Abraham P. Rockwood - Master Sergeant</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_9f5cef63da7331278bdc0b5a43396dbf" label="Physical Object"
+                localtype="page">22</container>
+              <container id="aspace_45799ef36293642e4a9d4373fc4c7d5d" localtype="Item"
+                parent="aspace_9f5cef63da7331278bdc0b5a43396dbf">3</container>
+            </did>
+          </c03>
+          <c03 id="aspace_848618ec159f99946ca81bc8c4135135" level="file">
+            <did>
+              <unittitle>Stanley Chambers - Officer Candidate School</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_16ae94dcf9e7dc1b9d632c8a7284c188" label="Physical Object"
+                localtype="page">22</container>
+              <container id="aspace_1b1876bc9feef9edf10bd73a18332cc4" localtype="Item"
+                parent="aspace_16ae94dcf9e7dc1b9d632c8a7284c188">4</container>
+            </did>
+          </c03>
+          <c03 id="aspace_89824603f478a062febbbd8c4fd01470" level="file">
+            <did>
+              <unittitle>S. Joseph Melick - Eastern Flying Training Command Pin</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_2944a1458c7c3b801631404b3e172535" label="Physical Object"
+                localtype="box">2</container>
+              <container id="aspace_a8824759dae4695af7965c4293194e34" localtype="Item"
+                parent="aspace_2944a1458c7c3b801631404b3e172535">3</container>
+            </did>
+          </c03>
+          <c03 id="aspace_7a70713c5db9de227785dc29449f9900" level="file">
+            <did>
+              <unittitle>Service Stripes</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_931916cedf40119ee080083b2f876eae" label="Physical Object"
+                localtype="page">22</container>
+              <container id="aspace_beb1e5abb4dc67a8d6d6c21ad2f2b69e" localtype="Item"
+                parent="aspace_931916cedf40119ee080083b2f876eae">5</container>
+            </did>
+          </c03>
+          <c03 id="aspace_815a12c1cb965644223a7fa86071ab9d" level="file">
+            <did>
+              <unittitle>Discharge Emblem</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_29d814479e2e16a19545eedd508e9e3b" label="Physical Object"
+                localtype="page">22</container>
+              <container id="aspace_ecc67a13d621decc4deea4ce6d37b979" localtype="Item"
+                parent="aspace_29d814479e2e16a19545eedd508e9e3b">6</container>
+            </did>
+          </c03>
+        </c02>
+        <c02 id="aspace_e9a79398f217ffa237e200ce68c9dd98" level="subseries">
+          <did>
+            <unittitle>Service Forces</unittitle>
+            <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+              <quantity>15</quantity>
+              <unittype>Objects</unittype>
+            </physdescstructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_799acf1099203c21e86cb240d5b2319e" label="Physical Object"
+              localtype="page">23</container>
+          </did>
+          <scopecontent id="aspace_74d9263f25582cc34f6c9f774a88d2c3">
+            <head>Scope and Contents</head>
+            <p>This sub-series contains patches related to the Army Service Corps.</p>
+          </scopecontent>
+          <c03 id="aspace_fe41ab979502dccf676a3bc24592661a" level="file">
+            <did>
+              <unittitle>John W. Booth - 1st Service Commands</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_a524d1857af342466af87e5c86cb14ca" label="Physical Object"
+                localtype="page">24</container>
+              <container id="aspace_4cada57027eeae618039d0d9bc5bc2db" localtype="Item"
+                parent="aspace_a524d1857af342466af87e5c86cb14ca">1</container>
+            </did>
+          </c03>
+          <c03 id="aspace_5c4ab37524bfda9fbcae5942c3ed6d2b" level="file">
+            <did>
+              <unittitle>Harrison G. Meserve - 1st Service Commands</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_5110667da826bed4b83451b2069f2806" label="Physical Object"
+                localtype="page">24</container>
+              <container id="aspace_7ebd79d192f9f5d9c82368ff0f06ebd9" localtype="Item"
+                parent="aspace_5110667da826bed4b83451b2069f2806">2</container>
+            </did>
+          </c03>
+          <c03 id="aspace_cfcc24c468665964ba2ae4a57f964674" level="file">
+            <did>
+              <unittitle>Stanley W. Merrill - 2nd Service Commands</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_0f1f48567430dd9f80538fade3dd536b" label="Physical Object"
+                localtype="page">24</container>
+              <container id="aspace_42859dbc6361d4c3ce1b7350c2946074" localtype="Item"
+                parent="aspace_0f1f48567430dd9f80538fade3dd536b">3</container>
+            </did>
+          </c03>
+          <c03 id="aspace_18fe583ea8dda0a4634dd6507de4b164" level="file">
+            <did>
+              <unittitle>Gardner T. Dunham - 8th Service Commands</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_9dd6e8bc48c2eea43c82ce6e1d610025" label="Physical Object"
+                localtype="page">24</container>
+              <container id="aspace_68d997e85c5fac07c632df7b60b6a706" localtype="Item"
+                parent="aspace_9dd6e8bc48c2eea43c82ce6e1d610025">4</container>
+            </did>
+          </c03>
+          <c03 id="aspace_141b51379a47cc8edfe7aae964dd8b9f" level="file">
+            <did>
+              <unittitle>Gene A. Wilson - 4th Service Commands</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_62a71f111cba8221f82b194562fab17a" label="Physical Object"
+                localtype="page">24</container>
+              <container id="aspace_be8ed2da4bc55fde1e25b8558ddcc477" localtype="Item"
+                parent="aspace_62a71f111cba8221f82b194562fab17a">5</container>
+            </did>
+          </c03>
+          <c03 id="aspace_54fa594901802c5a49ac189fe7f70324" level="file">
+            <did>
+              <unittitle>Paul Petitmermet - 5th Service Commands</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_20522a295516525980666d4fd69980c0" label="Physical Object"
+                localtype="page">24</container>
+              <container id="aspace_f4255c0292a16ec84035392c14ba66d3" localtype="Item"
+                parent="aspace_20522a295516525980666d4fd69980c0">6</container>
+            </did>
+          </c03>
+          <c03 id="aspace_6dc5ed7d25f39226b251a5f3a60e48a0" level="file">
+            <did>
+              <unittitle>Paul Petitmermet - Malaria Control</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_d1cdf54618b36fb8765e7efe1548a633" label="Physical Object"
+                localtype="page">25</container>
+              <container id="aspace_99638fdee951562b10fb7914e5caf51a" localtype="Item"
+                parent="aspace_d1cdf54618b36fb8765e7efe1548a633">1</container>
+            </did>
+          </c03>
+          <c03 id="aspace_af51e24530f37422ab4dd214e2a8cb00" level="file">
+            <did>
+              <unittitle>C. Buford Jones - Engineering</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_174e661aef4776af0e606432d327ded8" label="Physical Object"
+                localtype="page">25</container>
+              <container id="aspace_aa109fd574dc55cbc2e0234a1c607ce9" localtype="Item"
+                parent="aspace_174e661aef4776af0e606432d327ded8">2</container>
+            </did>
+          </c03>
+          <c03 id="aspace_11865277598291994402cf71f39d0226" level="file">
+            <did>
+              <unittitle>Gene A. Wilson - Ordnance</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_4ee81bbc723d130e79a550e7408d9e37" label="Physical Object"
+                localtype="page">25</container>
+              <container id="aspace_99da748fb0fdda3ea40b2c0b163f43d9" localtype="Item"
+                parent="aspace_4ee81bbc723d130e79a550e7408d9e37">3</container>
+            </did>
+          </c03>
+          <c03 id="aspace_f3ccd3872adb10768b5509c13107eec4" level="file">
+            <did>
+              <unittitle>G. Barton Pomeroy - Intelligence</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_c5f1b3309a19d0e205c2e9d54b6ba8d8" label="Physical Object"
+                localtype="page">25</container>
+              <container id="aspace_7993ecacc9ea745de9530399eae86b3e" localtype="Item"
+                parent="aspace_c5f1b3309a19d0e205c2e9d54b6ba8d8">4</container>
+            </did>
+          </c03>
+          <c03 id="aspace_01c1c8ead5b80cc3dd6e4dec8dc1462b" level="file">
+            <did>
+              <unittitle>Gordon Kirkpatrick - Water Purification</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_479f2b798b4e456c499f9bea68fea6c1" label="Physical Object"
+                localtype="page">25</container>
+              <container id="aspace_b268a49f285d0215d28e750e9955b9bd" localtype="Item"
+                parent="aspace_479f2b798b4e456c499f9bea68fea6c1">5</container>
+            </did>
+          </c03>
+          <c03 id="aspace_2dfe4208921c1d7572f6236ce91a0831" level="file">
+            <did>
+              <unittitle>Virginia D. Randall - Physical Therapy</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_c0ede310ba88f1ef6375fe67c49439c9" label="Physical Object"
+                localtype="page">25</container>
+              <container id="aspace_a82dc6c777d3e6571b89396e7348265b" localtype="Item"
+                parent="aspace_c0ede310ba88f1ef6375fe67c49439c9">6</container>
+            </did>
+          </c03>
+          <c03 id="aspace_610b1c7394149d1230b4e646470c0df6" level="file">
+            <did>
+              <unittitle>Donald Kirkpatrick - European Theatre of Operations</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_07c70a25319c0bd1b0efcb5f6681e5bf" label="Physical Object"
+                localtype="page">26</container>
+              <container id="aspace_04eade26ca787ada11cee256e5dde1aa" localtype="Item"
+                parent="aspace_07c70a25319c0bd1b0efcb5f6681e5bf">1</container>
+            </did>
+          </c03>
+          <c03 id="aspace_83322c189f55f8349a03126b2100da94" level="file">
+            <did>
+              <unittitle>Robert H. Plimpton - European Theatre of Operations</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_18067404fea51e4a4063c5b33291138c" label="Physical Object"
+                localtype="page">26</container>
+              <container id="aspace_fbe1f7978638417355b93dffec10a25a" localtype="Item"
+                parent="aspace_18067404fea51e4a4063c5b33291138c">2</container>
+            </did>
+          </c03>
+          <c03 id="aspace_251d5d2ef5eb8ead23b50d57e4885fe9" level="file">
+            <did>
+              <unittitle>Gene A. Wilson - Army Forces West Pacific</unittitle>
+              <unitdate unitdatetype="inclusive">undated</unitdate>
+              <container id="aspace_4ef364fd10fdbe50ac98ea89e9ed5e39" label="Physical Object"
+                localtype="page">26</container>
+              <container id="aspace_a46389321b5bab6eedf8ea0e6f358177" localtype="Item"
+                parent="aspace_4ef364fd10fdbe50ac98ea89e9ed5e39">3</container>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 id="aspace_e562dd880b6746ba48e3d658d7260e21" level="series">
+        <did>
+          <unittitle>Navy</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>12</quantity>
+            <unittype>Objects</unittype>
+          </physdescstructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+          <container id="aspace_b976e11f80d97bc6c72fb8c3be07b83e" label="Physical Object"
+            localtype="page">27</container>
+        </did>
+        <scopecontent id="aspace_ad1bca29f0e5d1568849a574ac18f8ef">
+          <head>Scope and Contents</head>
+          <p>This series contains patches related to the Navy.</p>
+        </scopecontent>
+        <c02 id="aspace_62257fe87e753db42df13d60f81b9162" level="file">
+          <did>
+            <unittitle>Allan G. Whitehead - Pharmacist's Mate 3/C</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_5158e97a74c1795a9506fc6b50060b96" label="Physical Object"
+              localtype="page">28</container>
+            <container id="aspace_e253fc095de2f7e7602fd13361f51d7c" localtype="Item"
+              parent="aspace_5158e97a74c1795a9506fc6b50060b96">1</container>
+          </did>
+        </c02>
+        <c02 id="aspace_e6f300f949d01018c5f4afd7a8c4c7b4" level="file">
+          <did>
+            <unittitle>Robert A. Moriarty - Navy V-5 Cadet Insignia Patch</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_e81461d573b37132208deb7d1faa9567" label="Physical Object"
+              localtype="page">28</container>
+            <container id="aspace_fe7e22a09c2cec3dad49068552bae9ed" localtype="Item"
+              parent="aspace_e81461d573b37132208deb7d1faa9567">2</container>
+          </did>
+        </c02>
+        <c02 id="aspace_e19666ff7c86b283b45b740b6407b724" level="file">
+          <did>
+            <unittitle>J. Paul Magnuson - Storekeeper 2/C</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_b503a7763b91725e7b935bbe974a330e" label="Physical Object"
+              localtype="page">28</container>
+            <container id="aspace_0c4416b7b53d81977f1d0409f7718854" localtype="Item"
+              parent="aspace_b503a7763b91725e7b935bbe974a330e">3</container>
+          </did>
+        </c02>
+        <c02 id="aspace_93e00afc17301fffdd9051524ba22901" level="file">
+          <did>
+            <unittitle>Peter Marble - Ordnance Man</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_7e95afbc59e53173d5efae80ebc6f672" label="Physical Object"
+              localtype="page">28</container>
+            <container id="aspace_d4606f24a4c003880580cb1bf7dab848" localtype="Item"
+              parent="aspace_7e95afbc59e53173d5efae80ebc6f672">4</container>
+          </did>
+        </c02>
+        <c02 id="aspace_4c1062b6d18b0538f275b6a29190aa27" level="file">
+          <did>
+            <unittitle>Richard P. Melick - Hospital Apprentice Pharmacist's Mate</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_90771c0eb9c3d2c3665d2c6aa98b9371" label="Physical Object"
+              localtype="page">28</container>
+            <container id="aspace_1e35712345e327e057cb1562021ef033" localtype="Item"
+              parent="aspace_90771c0eb9c3d2c3665d2c6aa98b9371">5</container>
+          </did>
+        </c02>
+        <c02 id="aspace_43e5b6c3dba16eeb65d96b6e67434b37" level="file">
+          <did>
+            <unittitle>Charles H. Roth - Construction Battalion</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_9fa35e3c1df61d42f76e019cea9e524b" label="Physical Object"
+              localtype="page">28</container>
+            <container id="aspace_e743497aa5be8a94ba091c832057a5fb" localtype="Item"
+              parent="aspace_9fa35e3c1df61d42f76e019cea9e524b">6</container>
+          </did>
+        </c02>
+        <c02 id="aspace_326c3259a8bd83111b1802055d2648e2" level="file">
+          <did>
+            <unittitle>Joanne Dierdorff - Yeoman 3/C</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_0984458cb632212874ac56ff0673c1e2" label="Physical Object"
+              localtype="page">29</container>
+            <container id="aspace_88894b559c257825f84758e7c7742497" localtype="Item"
+              parent="aspace_0984458cb632212874ac56ff0673c1e2">1</container>
+          </did>
+        </c02>
+        <c02 id="aspace_31ca6a6e288ce4a7c55db5f49f03f12b" level="file">
+          <did>
+            <unittitle>Jean Merrill - Yeoman 2/C</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_a64a4aeebb5b6e4c05dbc1365104a6f1" label="Physical Object"
+              localtype="page">29</container>
+            <container id="aspace_6d9bc8213d8434cf1c197dafbb86cd2f" localtype="Item"
+              parent="aspace_a64a4aeebb5b6e4c05dbc1365104a6f1">2</container>
+          </did>
+        </c02>
+        <c02 id="aspace_9b4597e6a10d99fed68e2b0fbc5d1d6e" level="file">
+          <did>
+            <unittitle>Dorothy Rising - Yeoman 1/C</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_5911021ef297f4767a50c5e36590d378" label="Physical Object"
+              localtype="page">29</container>
+            <container id="aspace_47a31a47912b59f8b992cf621a7b860c" localtype="Item"
+              parent="aspace_5911021ef297f4767a50c5e36590d378">3</container>
+          </did>
+        </c02>
+        <c02 id="aspace_463e8b2d635eee06029b4c22a62c0c65" level="file">
+          <did>
+            <unittitle>Winifred McDonald Stagl - Yeoman 3/C</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_6c4c24c37387b0afd6427cf25ba8ac25" label="Physical Object"
+              localtype="page">29</container>
+            <container id="aspace_e711245130051f4bc5a2c4cf74a36a40" localtype="Item"
+              parent="aspace_6c4c24c37387b0afd6427cf25ba8ac25">4</container>
+          </did>
+        </c02>
+        <c02 id="aspace_a18b7bda7de96b18215a17d7097192b5" level="file">
+          <did>
+            <unittitle>Dorothy Rising - Women Accepted for Volunteer Emergency Service</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_8c30596951cac6977abfd720832545ac" label="Physical Object"
+              localtype="page">29</container>
+            <container id="aspace_fa48654a1141f3052ef19128bd65ac86" localtype="Item"
+              parent="aspace_8c30596951cac6977abfd720832545ac">5</container>
+          </did>
+        </c02>
+        <c02 id="aspace_4d3f3eff4f28cd651352f9c7eab5b340" level="file">
+          <did>
+            <unittitle>Discharge Emblem</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_0d733d0c2c888601e1a0a53de1bef973" label="Physical Object"
+              localtype="page">29</container>
+            <container id="aspace_092e719cb59557675780cb47fb06f2f8" localtype="Item"
+              parent="aspace_0d733d0c2c888601e1a0a53de1bef973">6</container>
+          </did>
+        </c02>
+      </c01>
+      <c01 id="aspace_f4e1bceb6642ace4e850c25b1c910ff9" level="series">
+        <did>
+          <unittitle>Marines</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>6</quantity>
+            <unittype>Objects</unittype>
+          </physdescstructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+          <container id="aspace_4cc02fb7f9f0307420221e47d4d404eb" label="Physical Object"
+            localtype="page">30</container>
+        </did>
+        <scopecontent id="aspace_3c7bd06c897cf12a72a28a94b181a2d0">
+          <head>Scope and Contents</head>
+          <p>This series contains patches from members of the Marines.</p>
+        </scopecontent>
+        <c02 id="aspace_c7fa39dcf02bd855908111f85a5e950b" level="file">
+          <did>
+            <unittitle>H. Schuyler Royce, Jr. - 1st Marine Division</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_ffd7874dd35c2d25dd1ba0128026b1a5" label="Physical Object"
+              localtype="page">31</container>
+            <container id="aspace_7e15ccefcf19c3699a0705236089adce" localtype="Item"
+              parent="aspace_ffd7874dd35c2d25dd1ba0128026b1a5">1</container>
+          </did>
+        </c02>
+        <c02 id="aspace_efd10464d5ef6d00044e0c8aa111443b" level="file">
+          <did>
+            <unittitle>John H. Bishop - 4th Marine Aircraft Wing</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_925bd62ebbed5d943f65e82df8c12c01" label="Physical Object"
+              localtype="page">31</container>
+            <container id="aspace_670fd65c02ad9e7acfe6c7868610e426" localtype="Item"
+              parent="aspace_925bd62ebbed5d943f65e82df8c12c01">2</container>
+          </did>
+        </c02>
+        <c02 id="aspace_9440dae5cb0124416d6f661b68fca6ed" level="file">
+          <did>
+            <unittitle>Joseph F. Benson - 1st Marine Division</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_1d19fbbb4f94533c423b2fb4f2914f0f" label="Physical Object"
+              localtype="page">31</container>
+            <container id="aspace_a7b9cbf6de63eb0d8f816d09e756d185" localtype="Item"
+              parent="aspace_1d19fbbb4f94533c423b2fb4f2914f0f">3</container>
+          </did>
+        </c02>
+        <c02 id="aspace_222a6c3c6ccac7fd0048dcccfb459ca1" level="file">
+          <did>
+            <unittitle>Gardner Dunham - 2nd Marine Division Guadalcanal</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_a927d3506728994480ec343b66b6457f" label="Physical Object"
+              localtype="page">31</container>
+            <container id="aspace_e552eb63653d9bac169881bd8e10158e" localtype="Item"
+              parent="aspace_a927d3506728994480ec343b66b6457f">4</container>
+          </did>
+        </c02>
+        <c02 id="aspace_be63d28164c6b0db038496455ad92a40" level="file">
+          <did>
+            <unittitle>Joseph F. Benson - Fleet Marine Forces Pacific</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_66eec70cf41979f287c801010c35fd20" label="Physical Object"
+              localtype="page">31</container>
+            <container id="aspace_06e911f30b9b97763bb82f12864f2db4" localtype="Item"
+              parent="aspace_66eec70cf41979f287c801010c35fd20">5</container>
+          </did>
+        </c02>
+        <c02 id="aspace_27afc5f5270d303aa60f1ca8220c6d1e" level="file">
+          <did>
+            <unittitle>Seth M. Fitchet - 5th Marine Division</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_58bd77fec23620629270cbd56f702b4d" label="Physical Object"
+              localtype="page">31</container>
+            <container id="aspace_7c85058214bb9ffdc4042fbf9fb1fdaf" localtype="Item"
+              parent="aspace_58bd77fec23620629270cbd56f702b4d">6</container>
+          </did>
+        </c02>
+      </c01>
+      <c01 id="aspace_dac24705853d536c83e7f9711eb04c74" level="series">
+        <did>
+          <unittitle>Civilians</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>9</quantity>
+            <unittype>Objects</unittype>
+          </physdescstructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+          <container id="aspace_fe52139a5288a9b559a9500361d97318" label="Physical Object"
+            localtype="page">32</container>
+        </did>
+        <scopecontent id="aspace_2b754031f71135fa7d4e792f2de0059d">
+          <head>Scope and Contents</head>
+          <p>This series contains patches and pins related to civilians participating in World War I
+            and II.</p>
+        </scopecontent>
+        <c02 id="aspace_4df6070d0945e96d7e86c7cb7ce879fb" level="file">
+          <did>
+            <unittitle>Civilian Consultant</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_c3a3547ffb81a8c6e35cb1b1116966fb" label="Physical Object"
+              localtype="page">33</container>
+            <container id="aspace_f03c856a5dd3513ad8dc7e41e3c9257e" localtype="Item"
+              parent="aspace_c3a3547ffb81a8c6e35cb1b1116966fb">1</container>
+          </did>
+        </c02>
+        <c02 id="aspace_9a48ae052a2d50c8ebcf3210767dfda2" level="file">
+          <did>
+            <unittitle>Charles H. Spilman, Jr. - War Correspondent</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_deb5ceccbe26b7cfe22b8495a015c51d" label="Physical Object"
+              localtype="page">33</container>
+            <container id="aspace_ee0c858fdf2d19d46c5df7c06f1df984" localtype="Item"
+              parent="aspace_deb5ceccbe26b7cfe22b8495a015c51d">2</container>
+          </did>
+        </c02>
+        <c02 id="aspace_93f9f25edfa2a896f2dcd548cacfd44e" level="file">
+          <did>
+            <unittitle>Martha M. Condit - Hospital Recreation</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_b2cb37d59ab44b7c1c7d68dc674e4246" label="Physical Object"
+              localtype="page">34</container>
+            <container id="aspace_57cf92eef1cc5f212678d60603bc9686" localtype="Item"
+              parent="aspace_b2cb37d59ab44b7c1c7d68dc674e4246">1</container>
+          </did>
+        </c02>
+        <c02 id="aspace_072e3a0d214b723defc99b86b11a1f29" level="file">
+          <did>
+            <unittitle>Harriet F. Dane - China Burma India Red Cross</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_b8748fc5c0be293b75634b3aebccf546" label="Physical Object"
+              localtype="page">34</container>
+            <container id="aspace_e5e49a33b81cefab48c87d79b750fb8d" localtype="Item"
+              parent="aspace_b8748fc5c0be293b75634b3aebccf546">2</container>
+          </did>
+        </c02>
+        <c02 id="aspace_5f5d3ce1c626598214ad4dbe7d325d31" level="file">
+          <did>
+            <unittitle>Patricia Dabney - Social Service</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_960eaeebd176468cf0925f123005b04b" label="Physical Object"
+              localtype="page">34</container>
+            <container id="aspace_08cc1bad942f0ce74cfb83fdacba40dd" localtype="Item"
+              parent="aspace_960eaeebd176468cf0925f123005b04b">3</container>
+          </did>
+        </c02>
+        <c02 id="aspace_47d29ef132ae55aad53867352a36658a" level="file">
+          <did>
+            <unittitle>Elizabeth Plimpton - Women's Emergency Farm Service</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_f537316d273e9a7a2e620778e5f1a113" label="Physical Object"
+              localtype="page">34</container>
+            <container id="aspace_f25ed066507d718f8acbf2d5ba25faf8" localtype="Item"
+              parent="aspace_f537316d273e9a7a2e620778e5f1a113">4</container>
+          </did>
+        </c02>
+        <c02 id="aspace_8a771dfbce7743c9c988086ba103108d" level="file">
+          <did>
+            <unittitle>Elizabeth Plimpton - Women's Land Army</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_98a66756afede8902f17b9c7086e1a9b" label="Physical Object"
+              localtype="page">34</container>
+            <container id="aspace_e8f5b54c16d2fec1cc498844423dde65" localtype="Item"
+              parent="aspace_98a66756afede8902f17b9c7086e1a9b">5</container>
+          </did>
+        </c02>
+        <c02 id="aspace_781fca2343aaa661d85b40f359f6c8eb" level="file">
+          <did>
+            <unittitle>Ann Merrill - Cadet Nurse</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_af95ffb378c4df0f43ec48f522069202" label="Physical Object"
+              localtype="page">34</container>
+            <container id="aspace_06a0e691bc116b21aa53a07e049de7c8" localtype="Item"
+              parent="aspace_af95ffb378c4df0f43ec48f522069202">6</container>
+          </did>
+        </c02>
+        <c02 id="aspace_e613088b5afb706d4b8051c6332823b1" level="file">
+          <did>
+            <unittitle>Virginia D. Randall - Army Physical Therapy Aide Pin</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_524e5eff5140c6c9dc3e14a08e3db0d8" label="Physical Object"
+              localtype="box">2</container>
+            <container id="aspace_11bd7002501c7d55dc724a5986e0089e" localtype="Item"
+              parent="aspace_524e5eff5140c6c9dc3e14a08e3db0d8">2</container>
+          </did>
+        </c02>
+      </c01>
+      <c01 id="aspace_9ccb46ef1b35ddaa470ad18e2216e5a4" level="series">
+        <did>
+          <unittitle>Coast Guard</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>1</quantity>
+            <unittype>Object</unittype>
+          </physdescstructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+        </did>
+        <scopecontent id="aspace_8fe1148ceb065946f74df8af7498cbec">
+          <head>Scope and Contents</head>
+          <p>This collection contains the Coast Guard Lieutenant's Insignia for Robert T.
+            Muldoon.</p>
+        </scopecontent>
+        <c02 id="aspace_48a71399c4ee800d71ec16be8f045ee1" level="file">
+          <did>
+            <unittitle>Robert T. Muldoon - Coast Guard Lieutenant's Insignia</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_c1da5bea44cf56549ccb590b6e9c001a" label="Physical Object"
+              localtype="box">2</container>
+            <container id="aspace_169743995b11fdba056f7143a597df27" localtype="Item"
+              parent="aspace_c1da5bea44cf56549ccb590b6e9c001a">1</container>
+          </did>
+        </c02>
+      </c01>
+      <c01 id="aspace_e965a4bc820d68d4a50cc8b967620629" level="file">
+        <did>
+          <unittitle>German Mine Ribbon</unittitle>
+          <unitdate unitdatetype="inclusive">undated</unitdate>
+          <container id="aspace_536eba4e381e8ad87d34815c6b0efbfd" label="Physical Object"
+            localtype="page">35</container>
+          <container id="aspace_a41b9f8409481d541dc358ba126c7413" localtype="Item"
+            parent="aspace_536eba4e381e8ad87d34815c6b0efbfd">1</container>
+        </did>
+      </c01>
+      <c01 id="aspace_5b882c1122671564f8250e615e7cae40" level="file">
+        <did>
+          <unittitle>Campaign Ribbons Poster</unittitle>
+          <unitdate unitdatetype="inclusive">undated</unitdate>
+          <container id="aspace_2f917ac57ff99d8a312842e8df567989" label="Physical Object"
+            localtype="page">36</container>
+          <container id="aspace_d2ce6fbdce5eb113328fc726fd96ac2b" localtype="Item"
+            parent="aspace_2f917ac57ff99d8a312842e8df567989">1</container>
+        </did>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
