@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/DaytonOHStLukes-5331.xml"
+      >DaytonOHStLukes-5331</recordid>
+    <representation localtype="pdf"
+      href="http://www.congregationallibrary.org/sites/all/files/DaytonOHStLukes-5331.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Dayton, Ohio. St. Luke's United Church of Christ records,
+          1908-2013.</titleproper>
+        <author>William McCarthy</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2018-08-09</date>
+        <num>RG5331</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS2 - 2013</abbr>
+      <citation>Describing Archives: A Content Standard, Second Edition</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2019-07-18T20:31:04+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Thursday July 18,
+          2019 at 20:31</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Dayton, Ohio. St. Luke's United Church of Christ records, 1908-2013.</unittitle>
+      <unitid>RG5331</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>.98</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(3 boxes)</physdesc>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1908">1908</fromdate>
+          <todate standarddate="2013">2013</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" unitdatetype="inclusive">1908-2013</unitdate>
+      <abstract id="aspace_8d390ee61ad5ce5642b8d71eaa261686">In 1908, a group of men and women
+        gathered together in the home of Christian Poock to form what would become St. Luke's. The
+        next year, St. Lukes officially had its first pastor, Reverand F. A. Meusch. That year they
+        also became a member of the German Evangelical Synod of North America. In 1955 the church
+        offically joined the United Church of Christ. They continued to function and provide
+        community and spirtiual outreach until it was decided that the church was no longer able to
+        function. The final service was held in 2003, on the 95th anniversary of the opening. This
+        collection contains church records and printed materials. Church records include baptism and
+        confirmation, deaths and marriages, membership lists, anniversary material and obituaries.
+        Printed material includes pamphlets, publications, photos and newspaper articles.</abstract>
+      <origination label="creator">
+        <corpname rules="rda" source="local">
+          <part>St. Luke's United Church of Christ (Dayton, Ohio)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_c0b50226932cf66fd26edad813c95ec9">
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_6b251ec4c1297e93f4f5aaa681c5b69e">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite id="aspace_cbc3158c6977f370b127c4c5fd75deab">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Dayton, Ohio. St. Luke's United Church of Christ records,
+        1908-2013, RG5331. The Congregational Library &amp; Archive, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_5d0996023cc16c42efe294d3503eef83">
+      <head>Acquisition Information</head>
+      <p>Collection was a gift by Mary Wood, daughter of Ellen Hix, former treasurer of St. Luke's
+        in 2017; Accession 2017-07.</p>
+    </acqinfo>
+    <processinfo id="aspace_f8574bb32c8b5b8c28dd72fb044e5db6">
+      <head>Processing Information</head>
+      <p>Collection was accessioned and minimally processed in 2017. Fully processed by William
+        McCarthy in August 2018.</p>
+    </processinfo>
+    <bioghist id="aspace_d8c1a1727b47966e04587dd9eae23a97">
+      <head>Historical Information</head>
+      <p>In 1908, a group of men and women gathered together in the home of Christian Poock to form
+        what would become St. Luke's. The next year, St. Lukes officially had its first pastor,
+        Reverand F. A. Meusch. That year they also became a member of the German Evangelical Synod
+        of North America. In 1955 the church offically joined the United Church of Christ. They
+        continued to function and provide community and spirtiual outreach until it was decided that
+        the church was no longer able to function. The final service was held in 2003, on the 95th
+        anniversary of the opening.</p>
+    </bioghist>
+    <scopecontent id="aspace_4d6655d6ccae109607b91a570ac96c83">
+      <head>Scope and Contents</head>
+      <p>This collection contains church records and printed materials. Church records include
+        baptism and confirmation, deaths and marriages, membership lists, anniversary material and
+        obituaries. Printed material includes pamphlets, publications, photos and newspaper
+        articles.</p>
+    </scopecontent>
+    <arrangement id="aspace_48e86b0eb1072ec4da5f20efa0894b64">
+      <head>Arrangement</head>
+      <p>This collection arranged into two series and each individual series is arranged
+        chronologically.</p>
+      <p><emph render="bold">Series 1:</emph> Church Records, 1908-2013.</p>
+      <p><emph render="bold">Series 2:</emph> Printed Material, 1911-2011.</p>
+    </arrangement>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025606" source="lcsh">
+        <part>Church finance.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <subject identifier="sh85090572" source="lcsh">
+        <part>Necrologies.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Obituaries.</part>
+      </subject>
+      <corpname identifier="n79027170" source="lcnaf">
+        <part>Dayton (Ohio) -- Church history.</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>St. Luke's United Church of Christ (Dayton, Ohio)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_fcee9266d0a3c0c1584a15c516ebe765" level="series">
+        <did>
+          <unittitle>Church records</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>14</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1908">1908</fromdate>
+              <todate standarddate="2013">2013</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1908-2013</unitdate>
+        </did>
+        <scopecontent id="aspace_bd2e8dedd62c16c12cf6c6fd5a0207cc">
+          <head>Scope and Contents</head>
+          <p>This series of church records include baptismal and confirmation records, necrologies,
+            marriage records, membership lists, financial records, anniversary materials, and
+            obituaries.</p>
+        </scopecontent>
+        <c02 id="aspace_f1789adb0a16b533f8507353c9d29807" level="file">
+          <did>
+            <unittitle>Baptism and confirmation records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1908">1908</fromdate>
+                <todate standarddate="2001">2001</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1908-2001</unitdate>
+            <container id="aspace_af123463ce7ee8ceefc1e2e82e7c6092" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_b94a3767cfd6bb722475ddefaa429a08" localtype="folder"
+              parent="aspace_af123463ce7ee8ceefc1e2e82e7c6092">1</container>
+          </did>
+        </c02>
+        <c02 id="aspace_7ed59cc1cd34a3186815bbec40da7ef3" level="file">
+          <did>
+            <unittitle>Marriage and death records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1909">1909</fromdate>
+                <todate standarddate="2003">2003</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1909-2003</unitdate>
+            <container id="aspace_661854870df4cc53896cdda7879cadc0" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_7b2597e014e3ad487fb729e73a8e952b" localtype="folder"
+              parent="aspace_661854870df4cc53896cdda7879cadc0">2</container>
+          </did>
+        </c02>
+        <c02 id="aspace_1b744bb6a531480c6caf2624c9d38e05" level="file">
+          <did>
+            <unittitle>Pastors</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1941">1941</fromdate>
+                <todate standarddate="1979">1979</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1941-1979</unitdate>
+            <container id="aspace_f4f585c77e4972cb845ad53973858278" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_839919e61eb38e777c99536cae47f199" localtype="folder"
+              parent="aspace_f4f585c77e4972cb845ad53973858278">3</container>
+          </did>
+        </c02>
+        <c02 id="aspace_3d39b79d23e53c74593b153a4b2b1cbb" level="file">
+          <did>
+            <unittitle>Membership list</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1945">1945</fromdate>
+                <todate standarddate="2003">2003</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1945-1955, 2003</unitdate>
+            <unitdatestructured calendar="gregorian" unitdatetype="bulk">
+              <daterange>
+                <fromdate standarddate="1945">1945</fromdate>
+                <todate standarddate="1955">1955</todate>
+              </daterange>
+            </unitdatestructured>
+            <container id="aspace_126f9bb33bc2e1f484a04f0bf20f7347" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_2a955961f1ffbbd25914947b42a8b283" localtype="folder"
+              parent="aspace_126f9bb33bc2e1f484a04f0bf20f7347">4</container>
+          </did>
+        </c02>
+        <c02 id="aspace_ec9bcabea14b3f56b34513a5515f801b" level="file">
+          <did>
+            <unittitle>Urban renewal</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1954">1954</fromdate>
+                <todate standarddate="1961">1961</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1954-1961</unitdate>
+            <container id="aspace_2e43b2aa14a92108199684e94295c5f6" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_8f2eee831eb8bf4897d1b52374db3b39" localtype="folder"
+              parent="aspace_2e43b2aa14a92108199684e94295c5f6">3</container>
+          </did>
+        </c02>
+        <c02 id="aspace_1c9b2f803361f3373b811cbe6895b5c0" level="file">
+          <did>
+            <unittitle>State of Ohio certificate</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1976-01-09">1976 January 9</datesingle>
+            </unitdatestructured>
+            <container id="aspace_439123255297791f1ddd56433eea1a43" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_749eeab9fd373e33aefa0ddfc821360b" localtype="folder"
+              parent="aspace_439123255297791f1ddd56433eea1a43">5</container>
+          </did>
+        </c02>
+        <c02 id="aspace_37976ae64cfdd5e699bff25f75bd87e6" level="file">
+          <did>
+            <unittitle>90th anniversary</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1998</unitdate>
+            <container id="aspace_0c53c2ce5cbb8452ed60c2615858fcf6" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_4eb9ca3332b285f52df9b216950ec75a" localtype="folder"
+              parent="aspace_0c53c2ce5cbb8452ed60c2615858fcf6">6</container>
+          </did>
+        </c02>
+        <c02 id="aspace_c38fe990679e0c5fe52b06710b191e62" level="file">
+          <did>
+            <unittitle>Historical notes</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1998, undated</unitdate>
+            <container id="aspace_d12bd1635293b3ea5fd4ea288a2e793f" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_365e608567946067e0ac19689965f2de" localtype="folder"
+              parent="aspace_d12bd1635293b3ea5fd4ea288a2e793f">7</container>
+          </did>
+        </c02>
+        <c02 id="aspace_e19e918ecc57a974a39f9b2ef644d1a3" level="file">
+          <did>
+            <unittitle>St. Luke's 95th anniversary</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">2003</unitdate>
+            <container id="aspace_27847ccbced86989129ce88099b06cdc" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_cee96afbecee3af219e44b651af2908e" localtype="folder"
+              parent="aspace_27847ccbced86989129ce88099b06cdc">8</container>
+          </did>
+        </c02>
+        <c02 id="aspace_ddfc04b1689e362ff9c9df3b6a92b99e" level="item">
+          <did>
+            <unittitle>St. Luke's UCC closing ceremony video</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="2003-10-19">2003 October 19</datesingle>
+            </unitdatestructured>
+            <container id="aspace_4467d1340a0134f29980c5962d112e84" label="Moving Images"
+              localtype="box">2</container>
+            <container id="aspace_58fc86f73733513b32c0162001fc3227" localtype="Cassette"
+              parent="aspace_4467d1340a0134f29980c5962d112e84">1</container>
+          </did>
+        </c02>
+        <c02 id="aspace_0b8a5cce5f24cc44ebd8733ee8ce1dee" level="file">
+          <did>
+            <unittitle>Treasurer's reports</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="2003">2003</fromdate>
+                <todate standarddate="2004">2004</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">2003-2004</unitdate>
+            <container id="aspace_9e78a0c17a8f1f905f3da0c454cfd9a1" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_b97d25730efc11325a522d7616b66138" localtype="folder"
+              parent="aspace_9e78a0c17a8f1f905f3da0c454cfd9a1">9</container>
+          </did>
+        </c02>
+        <c02 id="aspace_cc246442be97520a204ff68de0eeee8b" level="file">
+          <did>
+            <unittitle>Obituaries</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="2006">2006</fromdate>
+                <todate standarddate="2013">2013</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">2006-2013</unitdate>
+            <container id="aspace_62a54060eb39aae7515c505e12c53ef1" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_a0e51631d27af2176b85c3d27aafd424" localtype="folder"
+              parent="aspace_62a54060eb39aae7515c505e12c53ef1">10</container>
+          </did>
+        </c02>
+        <c02 id="aspace_2ce3a57d7e9753b53a7b0fcee53c9939" level="file">
+          <did>
+            <unittitle>St. Luke's final luncheon</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="2011-10-01">2011 October 1</datesingle>
+            </unitdatestructured>
+            <container id="aspace_afcd6a3b5e8fd987903b094f9d151ffe" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_d47ac04caf01457c087bad15d6413fa4" localtype="folder"
+              parent="aspace_afcd6a3b5e8fd987903b094f9d151ffe">11</container>
+          </did>
+        </c02>
+        <c02 id="aspace_560bb89a976b586c5b34cbb247daf8e6" level="file">
+          <did>
+            <unittitle>Confirmation reunion names</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_d37f7382898b241bb5c256ce0d998b7d" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_c8cce40f4df10fa6161a3f908f169f2e" localtype="folder"
+              parent="aspace_d37f7382898b241bb5c256ce0d998b7d">12</container>
+          </did>
+        </c02>
+        <c02 id="aspace_795e54f64980a5fdea6e64e7ebc222d3" level="file">
+          <did>
+            <unittitle>Constitution and by-laws</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_10ed4414b66b5d0556038f0dae2d1ffd" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_1a1e0c83b94c7fc11549247da86a5a70" localtype="folder"
+              parent="aspace_10ed4414b66b5d0556038f0dae2d1ffd">13</container>
+          </did>
+        </c02>
+      </c01>
+      <c01 id="aspace_fcaf238962ac526f49dc5412efe3fbad" level="series">
+        <did>
+          <unittitle>Printed material</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>10</quantity>
+            <unittype>Items</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1911">1911</fromdate>
+              <todate standarddate="2011">2011</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1911-2011</unitdate>
+        </did>
+        <scopecontent id="aspace_8d24042fb1ec7a04bb7befaad2bb15c9">
+          <head>Scope and Contents</head>
+          <p>This series of printed material includes pamphlets, publications, photos, and newspaper
+            articles.</p>
+        </scopecontent>
+        <c02 id="aspace_f4b02e7539217b9102e114d52a277906" level="file">
+          <did>
+            <unittitle>Publications</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1911">1911</fromdate>
+                <todate standarddate="1927">1927</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1911-1927</unitdate>
+            <container id="aspace_b0c1d6f67052ad33f650800e0b7422c3" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_1f1344a862f657571b3e7a28a21ec949" localtype="folder"
+              parent="aspace_b0c1d6f67052ad33f650800e0b7422c3">14</container>
+          </did>
+        </c02>
+        <c02 id="aspace_566facb9cbe1fd46d4369583c041ea7a" level="file">
+          <did>
+            <unittitle>Publications</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1937">1937</fromdate>
+                <todate standarddate="1941">1941</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1937-1941</unitdate>
+            <container id="aspace_80d2acc7eea98a856b198129ef198ed4" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_f4fca44fd33042dba2c63734b78cdab6" localtype="folder"
+              parent="aspace_80d2acc7eea98a856b198129ef198ed4">15</container>
+          </did>
+        </c02>
+        <c02 id="aspace_811101e6e281e4d3d3766d5d3e25ce45" level="file">
+          <did>
+            <unittitle>Anniversary pamphlets</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1938">1938</fromdate>
+                <todate standarddate="1973">1973</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1938-1973</unitdate>
+            <container id="aspace_9b7316ff075c4cd3de24d1519ac707dc" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_55353871f955ac1bc0edd98bea7c50b4" localtype="folder"
+              parent="aspace_9b7316ff075c4cd3de24d1519ac707dc">16</container>
+          </did>
+        </c02>
+        <c02 id="aspace_581914f761ba5e6641db13fc494c1bda" level="file">
+          <did>
+            <unittitle>Evangelical and Reformed News</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1941">1941</datesingle>
+            </unitdatestructured>
+            <container id="aspace_cafc304f63b18e67a356b0d98140a1f1" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_cc383f570c76799e964b7be12e55fc2e" localtype="folder"
+              parent="aspace_cafc304f63b18e67a356b0d98140a1f1">17</container>
+          </did>
+        </c02>
+        <c02 id="aspace_52273d620b774d79b24fbbc33af1d1d7" level="file">
+          <did>
+            <unittitle>The St. Lukan</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1943">1943</fromdate>
+                <todate standarddate="1948">1948</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1943-1948</unitdate>
+            <container id="aspace_294ce8328d1f74f9499cb781e6d740f6" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_b67fbfc0055a8b825fecacfb63460ce6" localtype="folder"
+              parent="aspace_294ce8328d1f74f9499cb781e6d740f6">18</container>
+          </did>
+        </c02>
+        <c02 id="aspace_83cf19cc2742ab6b66387d6da1c15403" level="file">
+          <did>
+            <unittitle>My First 50 Years in Dayton</unittitle>
+            <unitdate unitdatetype="inclusive">1963</unitdate>
+            <container id="aspace_9685d69dc20909a173ab8fa5c67395ca" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_6326ac128ddf17d8107adda29cd6a28e" localtype="folder"
+              parent="aspace_9685d69dc20909a173ab8fa5c67395ca">19</container>
+          </did>
+        </c02>
+        <c02 id="aspace_05a752fd025d9249cbf050c81e08b5df" level="file">
+          <did>
+            <unittitle>Newspaper articles</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1968">1968</fromdate>
+                <todate standarddate="2011">2011</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1968-2011</unitdate>
+            <container id="aspace_8a68aef7d5c940f21891e5fe41f8b509" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_1341e8f6279fc19181904574c2c877ee" localtype="folder"
+              parent="aspace_8a68aef7d5c940f21891e5fe41f8b509">4</container>
+          </did>
+        </c02>
+        <c02 id="aspace_4bc22d4dcb1135ced42ee7eb6752ca8a" level="file">
+          <did>
+            <unittitle>Anniversary pamphlets</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1978">1978</fromdate>
+                <todate standarddate="1987">1987</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1978-1987</unitdate>
+            <container id="aspace_2a11c3eb764953083a2cb33a8691197d" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_0a2f7f72950826b5759e1b37be1edeff" localtype="folder"
+              parent="aspace_2a11c3eb764953083a2cb33a8691197d">1</container>
+          </did>
+        </c02>
+        <c02 id="aspace_c51896f615d045b221d45a116eac3f4f" level="file">
+          <did>
+            <unittitle>St. Luke's wooden art piece</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1987</unitdate>
+            <container id="aspace_4cdb7bd13631b62e16bce78e0a3adc0a" label="Physical Object"
+              localtype="box">3</container>
+            <container id="aspace_f0c2844b90d6507cfcb8a7d6bc1ee7a5" localtype="object"
+              parent="aspace_4cdb7bd13631b62e16bce78e0a3adc0a">1</container>
+          </did>
+        </c02>
+        <c02 id="aspace_3a4be0b579d7bcf666e9e9b6ec3675d6" level="item">
+          <did>
+            <unittitle>St. Luke's Reunion Photos</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="2007">2007</datesingle>
+            </unitdatestructured>
+            <container id="aspace_7a7b405f7c6623cd1ab30e3121fb3113" label="Digital Storage Media"
+              localtype="box">2</container>
+            <container id="aspace_076e80b595f888c22b66f17cde45b119" localtype="Item"
+              parent="aspace_7a7b405f7c6623cd1ab30e3121fb3113">2</container>
+          </did>
+        </c02>
+        <c02 id="aspace_ddfad2a3e3c6a5d4c90ce46a06339e45" level="file">
+          <did>
+            <unittitle>Photos</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_c649f74e0eecd7be4641286774555a4d" label="Graphic Materials"
+              localtype="box">2</container>
+            <container id="aspace_e24eb1d0be864e0c9669559f47ebefdd" localtype="folder"
+              parent="aspace_c649f74e0eecd7be4641286774555a4d">2</container>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
