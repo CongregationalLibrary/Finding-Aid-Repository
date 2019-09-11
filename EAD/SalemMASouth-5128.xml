@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/SalemMASouth-5128.xml"
+      >SalemMASouth-5128</recordid>
+    <representation localtype="pdf"
+      href="http://www.congregationallibrary.org/sites/all/files/SalemMASouth-5128.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Salem, Mass. South Church records, 1774-1805.</titleproper>
+        <author>Jules Thomson</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2019-09-11</date>
+        <num>RG5128</num>
+      </publicationstmt>
+      <seriesstmt>
+        <p>This collection is part of New England's Hidden Histories. Digital historical
+          representations of the collection can be viewed online.</p>
+      </seriesstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS2 - 2013</abbr>
+      <citation>Describing Archives: A Content Standard, Second Edition</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2019-09-11T20:00:54+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday September
+          11, 2019 at 20:00</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Salem, Mass. South Church records, 1774-1805.</unittitle>
+      <unitid>RG5128</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>1</quantity>
+        <unittype>Volume</unittype>
+      </physdescstructured>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1744">1744</fromdate>
+          <todate standarddate="1805">1805</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" unitdatetype="inclusive">1744-1805</unitdate>
+      <abstract id="aspace_215318d6850d52eb763b34f53af1425e">The South Church in Salem,
+        Massachusetts, was formally founded in 1775 by parishioners separating from the Tabernacle
+        Church of Salem after a disagreement with the pastor, Rev. Nathaniel Whitaker. This society
+        was initially known as the Third Church, but changed its name to South Church in 1805. The
+        church re-merged with the Tabernacle Church in 1924. Records consist of a bound volume of
+        the earliest records of the Third Church of Salem, later known as the South Church, and
+        includes meeting minutes, votes, pew assignments, and pew tax records.</abstract>
+      <origination label="creator">
+        <persname identifier="n85387652" source="lcnaf">
+          <part>Hopkins, Daniel, 1734-1814</part>
+        </persname>
+      </origination>
+      <origination label="creator">
+        <corpname identifier="nr98035144" source="lcnaf">
+          <part>South Church (Salem, Mass.)</part>
+        </corpname>
+      </origination>
+      <origination label="creator">
+        <corpname identifier="n85313488" source="lcnaf">
+          <part>Third Church (Salem, Mass.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_085d39a0dcbce02ae3f88ddc0425ccfe">
+      <head> Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_bc425d3d938546fe2980ee04abc66943">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+      <p>Digital Reproductions are protected by copyright and/or related rights. You are free to use
+        the Digital Reproductions in any way that is permitted by the copyright and related rights
+        legislation that applies to your use. In addition, no permission is required from the
+        Congregational Library &amp; Archives for educational uses. For other uses, you need to
+        obtain permission from the Congregational Library &amp; Archives. For additional information
+        regarding copyright, please consult the Congregational Library &amp; Archives' <ref
+          actuate="onrequest" href="http://www.congregationallibrary.org/about/digital-copyright"
+          linktitle="Digital Collections Copyright &amp; Use" show="new">Digital Collections
+          Copyright &amp; Use</ref> policy.</p>
+    </userestrict>
+    <prefercite id="aspace_d49739bce99bb86b7fe2d4c9c8b51c4c">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Salem, Mass. South Church records, 1774-1805, RG5128. The
+        Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_0254184f1e2d76fa5b4d221ce104ed25">
+      <head>Acquisition Information</head>
+      <p>Materials were gifted to the Congregational Library &amp; Archives by the Tabernacle Church
+        in November 2013; 2013-25.</p>
+    </acqinfo>
+    <accruals id="aspace_ffecc6a33c5307d3935e7ac715ac2a6f">
+      <head>Accruals</head>
+      <p>Additional accruals are expected for this collection in the form of full-text
+        transcription. There is no anticipated date for this accrual.</p>
+    </accruals>
+    <processinfo id="aspace_5e048022d433ab571ac3ec9568dbab4e">
+      <head>Processing Information</head>
+      <p>Processed and described by Jules Thomson, August 2019, using DACS Second edition.</p>
+    </processinfo>
+    <bioghist id="aspace_28009c8da782c4f7685a348a945939ec">
+      <head>Historical Note</head>
+      <p>The South Church in Salem, Massachusetts, was formally founded in 1775 by parishioners
+        separating from the Tabernacle Church of Salem after a disagreement with the pastor, Rev.
+        Nathaniel Whitaker. Rev. Whitaker, an initially popular revolutionary and evangelist, was
+        increasingly guiding the Tabernacle toward Presbyterian affiliation. By the end of the year
+        1773, there was a group within the Tabernacle expressing "their earnest desire that the
+        church be allowed to return and rest upon the stable basis of pure and unmixed
+        Congregationalism." Rev. Whitaker attempted to resolve this conflict by securing the
+        signatures of twenty members to require the decision of a presbytery, which, meeting in
+        September of 1774, suggested that a joint council of both Congregational and Presbyterian
+        advisers decide the matter. The congregation of the Tabernacle church, for unknown reasons,
+        objected to this, and therefore in October of 1774 the aggrieved brethren withdrew their
+        names from enrollment and formed a new society, totaling 14 members. This society was
+        initially known as the Third Church, but changed its name to South Church in 1805 when the
+        Proprietors of the New South Meeting House received incorporation.</p>
+      <p>The church settled their first pastor, Rev. Daniel Hopkins (1734-1814), in 1775 and
+        ordained him in November of 1778. Rev. Hopkins was a native of Waterbury, Connecticut who
+        had graduated from Yale in 1758. He served as a delegate to the Third Provincial Congress of
+        Massachusetts in 1775, shortly after the outbreak of the American Revolution, and he later
+        served on the Governor's Council from 1776 to 1778. He remained with the church until his
+        death in 1814. However, he suffered from poor health and in April 1805 a second pastor was
+        appointed to assist him, Rev. Brown Emerson (1778-1872), who had graduated from Dartmouth
+        three years earlier. In 1806, Rev. Emerson married Rev. Hopkins' daughter Mary, and went on
+        to serve the church for many years after Rev. Hopkins' death. Like Hopkins, he was also
+        assisted by a younger pastor in his later years, but he remained with the church for a total
+        of nearly 70 years, until his death in 1872 at the age of 94.</p>
+      <p>For the first 30 years of its existence, the separatist congregation had met in a building
+        on Cambridge Street, but in 1804 construction began on a new meeting house at the corner of
+        Cambridge and Chestnut Streets. This Federal-style building was designed by prominent local
+        architect Samuel McIntire, and included pilasters on the front of the building, a Palladian
+        window, a pediment above the front entrance, and an ornate, multi-stage steeple that rose
+        from the top of the pediment. The first steeple was destroyed in an apparent hurricane on
+        September 11, 1804.</p>
+      <p>This building was later destroyed by a fire in 1903 and replaced with a stone, Gothic-style
+        church bearing little resemblance to its predecessor. This new building was only used by the
+        South Church for 20 years, after which it re-merged with the Tabernacle Church, in 1924. As
+        of 2019, this organization continues to serve the Salem community as the Tabernacle
+        Congregational Church, UCC.</p>
+    </bioghist>
+    <scopecontent id="aspace_15cac3087de9cab51463643c014ef094">
+      <head>Scope and Contents</head>
+      <p>These records consist of a bound volume of the earliest records of the Third Church of
+        Salem, later known as the South Church, and includes meeting minutes, votes, pew
+        assignments, and pew tax records.</p>
+    </scopecontent>
+    <phystech id="aspace_1bfc9e0dd003b8ef193c97264fd9caa2">
+      <head>Technical Requirements</head>
+      <p>To access digital user's copies via online-interface, a java-enabled web browser is
+        required. Internet Explorer 8.x and later, Firefox 5.x and later, Opera 12 and later, Safari
+        5.x and later, or any version of Google Chrome are recommended.</p>
+    </phystech>
+    <relatedmaterial id="aspace_8a81d72b01bcee2ba72e4ed0cb396060">
+      <head>Related Materials</head>
+      <p>The Congregational Library &amp; Archives has digitized materials from the South Church in
+        Salem and made <ref actuate="onrequest"
+          href="http://www.congregationallibrary.org/nehh/series1/SalemMASouth5128"
+          linktitle="them available to view online" show="new">them available to view
+        online</ref>.</p>
+    </relatedmaterial>
+    <bibliography id="aspace_ea7c652b0cdc7fbf4713591eed5b4b85">
+      <head>Bibliography</head>
+      <p>"South Church, Salem, Mass." Lost New England, February 5, 2019.
+        http://lostnewengland.com/2019/02/south-church-salem-mass/.</p>
+      <p>Piemonte, Catherine, ed., <emph render="italic">Salem's Church with the Lighted
+          Steeple</emph>. Salem, 2008. 17.11.1 S24.6 TABC P2008 C.1</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject source="local">
+        <part>New England's Hidden Histories.</part>
+      </subject>
+      <subject identifier="sh85100506" source="lcsh">
+        <part>Pews and pew rights.</part>
+      </subject>
+      <corpname identifier="nr98035144" source="lcnaf">
+        <part>South Church (Salem, Mass.)</part>
+      </corpname>
+      <corpname identifier="n85313487" source="lcnaf">
+        <part>Tabernacle Church (Salem, Mass.)</part>
+      </corpname>
+      <corpname identifier="n85313488" source="lcnaf">
+        <part>Third Church (Salem, Mass.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_68cc37721aa03c0617b30948d928cdab" level="file">
+        <did>
+          <unittitle>Church records, 1774-1805</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1774">1774</fromdate>
+              <todate standarddate="1805">1805</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1774-1805</unitdate>
+          <container id="aspace_874d25248d2b64f3aec463de3775bac5" label="Mixed Materials"
+            localtype="box">NEHH-Small 1</container>
+          <container id="aspace_ac13497a1ec35c8e0239123fe695056e" localtype="folder"
+            parent="aspace_874d25248d2b64f3aec463de3775bac5">30</container>
+        </did>
+        <scopecontent id="aspace_11f449e2e0545bb718994b97548c4923">
+          <head>Scope and Contents</head>
+          <p>This volume contains the earliest records of South Church in Salem, Massachusetts. It
+            includes records of meeting minutes and votes, pew assignments, and pew tax records.</p>
+        </scopecontent>
+        <altformavail id="aspace_3f01028a00251729e3c7b7fc333f7c12">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/SalemSouth/viewer/Church20records2C2017741805/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
