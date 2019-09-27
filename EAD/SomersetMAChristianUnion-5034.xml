@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EADSomersetMAChristianUnion-5034.xml"
+      >SomersetMAChristianUnion-5034</recordid>
+    <representation localtype="pdf"
+      href="http://www.congregationallibrary.org/sites/all/files/SomersetMAChristianUnion-5034.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Somerset, Mass. First Christian Union Church records, 1840-1912.</titleproper>
+        <author>Jules Thomson</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2019-09-27</date>
+        <num>RG5034</num>
+      </publicationstmt>
+      <seriesstmt>
+        <p>This collection is part of New England's Hidden Histories. Digital historical
+          representations of the collection can be viewed online.</p>
+      </seriesstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS2 - 2013</abbr>
+      <citation>Describing Archives: A Content Standard, Second Edition (DACS)</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2019-09-27T18:52:42+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Friday September 27,
+          2019 at 18:52</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Somerset, Mass. First Christian Union Church records, 1840-1912.</unittitle>
+      <unitid>RG5034</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>.22</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(1 box)</physdesc>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1840">1840</fromdate>
+          <todate standarddate="1912">1912</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" unitdatetype="inclusive">1840-1912</unitdate>
+      <abstract id="aspace_40a58ecfe7a3535a97d8c6bbd9c315f6">The First Christian Union Church and
+        Society were formed in the Pottersville, Somerset area as early as 1838 by a "Christian
+        Band" comprising thirty members, though the church was not officially incorporated until
+        1911. In 1939 the name was changed to the Congregational Christian Church of Somerset
+        Centre. These records consists of three bound volumes, including the earliest record books
+        of the church and society, respectively, and a book of meeting minutes and bylaws of the
+        Ladies' Industrial Association.</abstract>
+      <origination label="creator">
+        <corpname rules="rda" source="local">
+          <part>Christian Band of Somerset.</part>
+        </corpname>
+      </origination>
+      <origination label="creator">
+        <corpname rules="rda" source="local">
+          <part>First Christian Society (Somerset, Mass.)</part>
+        </corpname>
+      </origination>
+      <origination label="creator">
+        <corpname rules="rda" source="local">
+          <part>First Christian Union Church (Somerset, Mass.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_5cfd6a1d47b75af30a17a358aa6c700a">
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_a2a8b774dacc65e4444240d656dd34ac">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+      <p>Digital Reproductions are protected by copyright and/or related rights. You are free to use
+        the Digital Reproductions in any way that is permitted by the copyright and related rights
+        legislation that applies to your use. In addition, no permission is required from the
+        Congregational Library &amp; Archives for educational uses. For other uses, you need to
+        obtain permission from the Congregational Library &amp; Archives. For additional information
+        regarding copyright, please consult the Congregational Library &amp; Archives' <ref
+          actuate="onrequest" href="http://www.congregationallibrary.org/about/digital-copyright"
+          linktitle="Digital Collections Copyright &amp; Use" show="new">Digital Collections
+          Copyright &amp; Use</ref> policy.</p>
+    </userestrict>
+    <prefercite id="aspace_cfd9ddac1b8afce002b890020a660eea">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Somerset, Mass. First Christian Union Church records,
+        1840-1912, RG5034. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_99887bf7f598e2ba561c962cd55fec6f">
+      <head>Acquisition Information</head>
+      <p>Materials were loaned to the Congregational Library &amp; Archives by the Congregational
+        Christian Church of Somerset in June 2012; 2012-3.</p>
+    </acqinfo>
+    <accruals id="aspace_023ba5a20542c70a47bde4d7a86bb8bd">
+      <head>Accruals</head>
+      <p>Additional accruals are expected for this collection in the form of full-text
+        transcription. There is no anticipated date for this accrual.</p>
+    </accruals>
+    <processinfo id="aspace_9e679d1a3bb67c9c605471b330983564">
+      <head>Processing Information</head>
+      <p>Processed and described by Jules Thomson, September 2019, using DACS Second Edition.</p>
+    </processinfo>
+    <bioghist id="aspace_0670c392600b32e8c1840d19740c8a70">
+      <head>Historical Note</head>
+      <p>In 1838, a group of thirty, known as the "Christian Band", signed a covenant to organize a
+        church community in the village of Pottersville in Somerset, Massachusetts. The covenant
+        led, in November 1840, to the construction of a meetinghouse. On May 26, 1841, a ceremony
+        was held for the dedication of the new meetinghouse and its acceptance into the Christian
+        denomination. Later that year William Shurtleff was called to be the first pastor of the
+        religious society known as the First Christian Union Society in Somerset, Massachusetts.</p>
+      <p>It was not until 1911 that the First Christian Church, as it came to be known, was
+        incorporated under the laws of Massachusetts. In 1939, a vote was taken to change the name
+        to the Congregational Christian Church of Somerset Centre. The church is still active today
+        as the Congregational Christian Church of Somerset and has been a member of the United
+        Church of Christ since 1957.</p>
+    </bioghist>
+    <scopecontent id="aspace_dcbc96e4c1ad817b79ac439294c45447">
+      <head>Scope and Contents</head>
+      <p>This collection consists of three bound volumes, including the earliest record books and
+        other materials from the First Christian Union Church of Somerset, Massachusetts. The first
+        volume, in chronological order by start date, is a record book for the church and society
+        containing membership information, vital statistics such as baptisms, admissions,
+        dismissions, disciplinary cases, and deaths, as well as meeting minutes pertaining to the
+        selection of church officers and pastors, finances, and a chronicle of church events. The
+        second volume is a record book for the society, containing a copy of the church's covenant
+        and administrative records, including committee assignments and correspondence. The third
+        volume is an administrative record book kept by the Ladies' Industrial Association which
+        includes bylaws and meeting minutes.</p>
+    </scopecontent>
+    <arrangement id="aspace_05b59631bf255d41a284e34279e0053a">
+      <head>Arrangement</head>
+      <p>Materials have been arranged in chronological order by start date.</p>
+    </arrangement>
+    <phystech id="aspace_d7aa6cd8158d8277ff027af470ba601f">
+      <head>Technical Requirements</head>
+      <p>To access digital user's copies via online-interface, a java-enabled web browser is
+        required. Internet Explorer 8.x and later, Firefox 5.x and later, Opera 12 and later, Safari
+        5.x and later, or any version of Google Chrome are recommended.</p>
+    </phystech>
+    <bibliography id="aspace_c7c6880cc2b8f0018e6226009daab6ba">
+      <head>Bibliography</head>
+      <p>"Somerset, Mass. First Christian Union Church." Somerset, Mass. First Christian Union
+        Church | Congregational Library &amp; Archives, June 4, 2014.
+        http://congregationallibrary.org/nehh/series1/SomersetMAChristianUnion5034.</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025597" source="lcsh">
+        <part>Church discipline.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85025766" source="lcsh">
+        <part>Church societies.</part>
+      </subject>
+      <subject identifier="sh85033612" source="lcsh">
+        <part>Covenants (Church polity).</part>
+      </subject>
+      <subject identifier="sh85046255" source="lcsh">
+        <part>Excommunication.</part>
+      </subject>
+      <subject identifier="sh85066724" source="lcsh">
+        <part>Installation (clergy).</part>
+      </subject>
+      <subject identifier="sh85090572" source="lcsh">
+        <part>Necrologies.</part>
+      </subject>
+      <subject source="local">
+        <part>New England's Hidden Histories.</part>
+      </subject>
+      <subject identifier="sh85095385" source="lcsh">
+        <part>Ordination.</part>
+      </subject>
+      <subject identifier="sh85147343" source="lcsh">
+        <part>Women -- Societies and clubs.</part>
+      </subject>
+      <corpname rules="rda" source="local">
+        <part>Christian Band of Somerset.</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>First Christian Society (Somerset, Mass.)</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>First Christian Union Church (Somerset, Mass.)</part>
+      </corpname>
+      <corpname identifier="n84064199" source="lcnaf">
+        <part>Somerset (Mass.) -- Church history.</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_5ca35cf71eb50d9142dc24613cf91cda" level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1840">1840</fromdate>
+              <todate standarddate="1912">1912</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1840-1912</unitdate>
+          <container id="aspace_5e8d0069cd595e8191607707eefa233e" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_21baeb1d7a3bdd469df9a99979272e74" localtype="volume"
+            parent="aspace_5e8d0069cd595e8191607707eefa233e">1</container>
+        </did>
+        <altformavail id="aspace_4383c49c2fa5c18551ab3bafbcd49dd3">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Somerset/viewer/Church20records2C2018401912/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_733c96477fdf5c7f681480c379556de9">
+          <head>Scope and Contents</head>
+          <p>This volume primarily contains records of membership and vital statistics including
+            baptisms, admissions, dismissions, disciplinary cases, and deaths. It also includes
+            church meeting minutes pertaining to the selection of church officers and pastors, and
+            the related finances.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_3f970ab49d03badac7a311b840555001" level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1841">1841</fromdate>
+              <todate standarddate="1893">1893</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1841-1893</unitdate>
+          <container id="aspace_ac7febc3aed7bb4c8593898edc699f66" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_302c195fa14aacb71a8ed9017c65303b" localtype="volume"
+            parent="aspace_ac7febc3aed7bb4c8593898edc699f66">2</container>
+        </did>
+        <altformavail id="aspace_49f98fa27ec28fb76144bcac64a68351">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Somerset/viewer/Church20records2C2018411893/2"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_5d2a2eac1158456747921f61accf9780">
+          <head>Scope and Contents</head>
+          <p>This book contains a copy of the church's covenant and the administrative records
+            relating to the meetinghouse, including committee assignments and correspondence.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_6abb8a92f251fcecab75d136769c3c27" level="item">
+        <did>
+          <unittitle>Ladies Industrial Association records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1857">1857</fromdate>
+              <todate standarddate="1895">1895</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1857-1895</unitdate>
+          <container id="aspace_725930e4d3adc0fc8a101a451e70c4c2" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_a36b2b718de2f6085c03169dc49be41f" localtype="volume"
+            parent="aspace_725930e4d3adc0fc8a101a451e70c4c2">3</container>
+        </did>
+        <altformavail id="aspace_77f5c15a4323b463671f05fa4135a6fd">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Somerset/viewer/Ladies20Industrial20Association2C2018571895/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_3393c52a0cdd1a7ffea4fa495573117f">
+          <head>Scope and Contents</head>
+          <p>This volume contains the records of the Ladies Industrial Association of the First
+            Church, a group which evolved from the former Ladies Union Sewing Society. The
+            organization operated partly as a ladies' auxiliary for the church, as well as a bible
+            study group and social club. Records include a roster of membership, meetings minutes,
+            financial records, and details of sewing and knitting projects.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
