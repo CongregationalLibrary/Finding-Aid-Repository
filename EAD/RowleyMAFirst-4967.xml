@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/RowleyMAFirst-4836.xml"
+      >RowleyMAFirst-4836</recordid>
+    <representation localtype="pdf"
+      href="http://www.congregationallibrary.org/sites/all/files/SalemMASouth-5128.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Rowley, Mass. First Congregational Church records, 1664-1941.</titleproper>
+        <author>Jules Thomson</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2019-10-04</date>
+        <num>RG4836</num>
+      </publicationstmt>
+      <seriesstmt>
+        <p>Portions of this collection are part of New England's Hidden Histories. Digital
+          historical representations of these portions of the collection can be viewed online.</p>
+      </seriesstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS2 - 2013</abbr>
+      <citation>Describing Archives: A Content Standard, Second Edition (DACS)</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2019-10-04T18:36:19+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Friday October 4,
+          2019 at 18:36</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Rowley, Mass. First Congregational Church records, 1664-1941.</unittitle>
+      <unitid>RG4836</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>0.67</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(2 boxes, 7 reels)</physdesc>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1664">1664</fromdate>
+          <todate standarddate="1941">1941</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" unitdatetype="inclusive">1664-1941</unitdate>
+      <abstract id="aspace_e5785c724374166e340a7488f97b9d93">The First Church of Rowley, Mass. was
+        founded in 1639 by Rev. Ezekiel Rogers and his followers, who had departed their Anglican
+        church in Rowley, Yorkshire, UK in protest over lax Sabbath laws. Rev. Rogers was a notable
+        Puritan whose conservative zeal influenced the governance of the Massachusetts Bay Colony.
+        The church continues to serve the community today as a member of the United Church of
+        Christ. This collection contains the earliest church, parish, and financial records
+        beginning in 1664, and microfilmed versions of the records also include more recent
+        administrative records.</abstract>
+      <origination label="creator">
+        <corpname identifier="n2002037865" source="lcnaf">
+          <part>First Church (Rowley, Mass.)</part>
+        </corpname>
+      </origination>
+      <origination label="creator">
+        <persname identifier="nr2001012471" source="lcnaf">
+          <part>Phillips, Samuel, 1725-1796</part>
+        </persname>
+      </origination>
+      <origination label="creator">
+        <persname identifier="n85145346" source="lcnaf">
+          <part>Jewett, Jedidiah, 1705-1774</part>
+        </persname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_7c60e31dda4ace90e09741ea7b8638f1">
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_3882dcabf47854e59cd37eb1a63cacbc">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+      <p>Digital Reproductions are protected by copyright and/or related rights. You are free to use
+        the Digital Reproductions in any way that is permitted by the copyright and related rights
+        legislation that applies to your use. In addition, no permission is required from the
+        Congregational Library &amp; Archives for educational uses. For other uses, you need to
+        obtain permission from the Congregational Library &amp; Archives. For additional information
+        regarding copyright, please consult the Congregational Library &amp; Archives' <ref
+          actuate="onrequest" href="http://www.congregationallibrary.org/about/digital-copyright"
+          linktitle="Digital Collections Copyright &amp; Use" show="new">Digital Collections
+          Copyright &amp; Use</ref> policy.</p>
+    </userestrict>
+    <prefercite id="aspace_85402a7d5bee2b5637d3c91b2314c27a">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Rowley, Mass. First Church records, 1664-1835, RG4836. The
+        Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_64502c94dd8b7e4b9681bd18e6bbec66">
+      <head>Acquisition Information</head>
+      <p>Materials were permanently loaned to the Congregational Library &amp; Archives by the First
+        Congregational Church, Rowley (UCC) in August 2011. There is no accession number for this
+        collection.</p>
+    </acqinfo>
+    <accruals id="aspace_4c80c67119002714eab4b0737dbead7a">
+      <head>Accruals</head>
+      <p>Additional accruals are expected for this collection in the form of full-text
+        transcription. There is no anticipated date for this accrual.</p>
+    </accruals>
+    <custodhist id="aspace_afc2b60d2c3d752a7e686c91aca69c8e">
+      <head>Custodial History</head>
+      <p>The earliest volume of church records, 1664-1784 (also known as the "Phillips Diary") was
+        assumed lost by the church during the later 20th century, but was recovered in 2007 from a
+        deposit box in the Rowley branch of the First National Bank of Ipswich. The volume was
+        extensively conserved by the Northeast Document Conservation Center in 2010 and microfilmed
+        shortly afterwards.</p>
+      <p>Microfilm records, 1664-1784 were created in 2010 from the physical volume of church
+        records 1664-1748 (also known as the "Phillips Diary"). The microfilm was imaged and
+        produced by the Northeast Document Conservation Center.</p>
+      <p>Microfilm records, 1664-1941 were copied in 2007 from the original negatives loaned by the
+        church, which have no known provenance.</p>
+      <p>Microfilm records, 1730-1835 were imaged and produced in 2008 by the Northeast Document
+        Conservation Center.</p>
+    </custodhist>
+    <processinfo id="aspace_a7f5ca9ce7dc93ac9f77b74c74b3d49f">
+      <head>Processing Information</head>
+      <p>Processed and described by Jules Thomson, October 2019, using DACS Second edition.</p>
+    </processinfo>
+    <bioghist id="aspace_309e76e8145f13f93e9154768ad964be">
+      <head>Historical Note</head>
+      <p>The original founders of the church and town of Rowley, Mass. came from the town of the
+        same name in the East Riding of Yorkshire, UK. Rev. Ezekiel Rogers, the leader of the
+        settlers, was the assistant pastor at St. Peter's Church of England in Rowley, and a staunch
+        supporter of puritanical observance of the Sabbath. He found himself at odds with the
+        Anglican authorities, who issued a decree allowing the playing of sports on Sundays. He and
+        at least 21 families separated themselves in protest and left for the New World on the ship
+        John, settling in the area in 1638. The land for the settlement was purchased for 800 pounds
+        from Newbury and Ipswich, and the town was officially incorporated on September 4, 1639. The
+        settlers brought with them a high level of expertise in the manufacture of cotton, hemp and
+        flax cloth, and constructed the first fulling mill in America.</p>
+      <p>The first meeting house was erected at the intersection of Central Street (then Holmes
+        Street) and Wethersfield Street, and dedicated on December 3, 1639. This building was used
+        for Sunday services and Lecture Days (midweek services) in addition to secular town
+        business.</p>
+      <p>Rev. Rogers became a persuasive leader in the development of the puritanical government of
+        the Court of Massachusetts Bay Colony. He was one of four ministers from Essex County chosen
+        to rule on questions of church and colonial law, and the first recorded preacher at a
+        council of Congregational Churches in New England. Less puritanical members were offended by
+        his religious zeal; among his strong beliefs was that private members should not make
+        speeches in church assemblies.</p>
+      <p>Rev. Rogers was married three times; his first two wives, Joan Hartopp and Joan Nelson,
+        both died in childbirth along with the child. He married the widow Mary Barker in July of
+        1651. On the night of the marriage, Rev. Roger's home, furnishings, library, and church
+        records were destroyed by a fire, popularly believed to be arson by a woman whom Rev. Rogers
+        had refused to marry. Shortly after the fire he fell from his horse and broke his right arm,
+        which became permanently useless. He died in 1660 and was buried in the Rowley Cemetery.</p>
+      <p>The Rev. Samuel Phillips (Harvard College, 1650) was settled in June, 1651, as a teacher on
+        a salary varying from £50 to £90 per annum. When Rev. Rogers's health began to seriously
+        decline, Mr. Phillips largely took over the ministry despite his lay status, and the town
+        selectmen ordered that £5 should be paid to him for this service. This led to a protracted
+        18-year dispute with Rev. Rogers's widow, who claimed that the funds had been appropriated
+        illegally. The case was decided in her favor by the Ipswich court, but was later overruled
+        by the Massachusetts General Court in 1679.</p>
+      <p>In 1665, Samuel Shepard (Harvard College, 1658) was ordained pastor of the church, Mr.
+        Phillips still acting as teacher. After Rev. Shepard's death in 1668, Mr. Phillips was
+        finally ordained as pastor and continued in the role until his death in 1696.</p>
+      <p>In 1695 the town voted to build a new meeting house, and construction was completed in May
+        of 1697. All notified persons were required to assist with the construction or be fined
+        three shillings per day. This second building measured 50x40 feet and included a gallery and
+        glass windows transferred from the previous meeting house. It also featured benches which
+        were partitioned into men and women's seating areas.</p>
+      <p>Construction began on a third meeting house in 1747, which measured 60x42 feet with a
+        steeple on the north side and porch on the south. The interior featured a large pulpit and
+        sounding board and a broad aisle with galleries to the front and sides. In August of 1777
+        the meeting house was damaged by a lightning strike. Repairs were withheld until 1781, after
+        the end of the Revolutionary War, using funds acquired from the auctioning off of space for
+        additional pews.</p>
+      <p>In 1841 it was voted to build a fourth meeting house, and a change in location to the
+        corner of Hammond and Main Streets was proposed. The congregation became divided over the
+        issue, with parishioners on the south side of the Ox Pasture Brook favoring the move and
+        those to the north side opposed to it. A vote was held and decided by a single vote, with 24
+        members in favor of re-location and 23 against. This resulted in a number of dissatisfied
+        parishioners splitting off from the Rowley church and attending service in the neighboring
+        Byfield parish.</p>
+      <p>The First Congregational Church of Rowley received official incorporation in 1889, and
+        continues to serve the community today as a member of the United Church of Christ.</p>
+    </bioghist>
+    <scopecontent id="aspace_2ef35e6f6e832e4becd71d1b08e1a4ef">
+      <head>Scope and Contents</head>
+      <p>This collection documents the administrative history of the church and the religious life
+        of its members. It contains the earliest church, parish, and financial records beginning in
+        1664, as well as a "double" volume containing both personal notes of the Rev. Jedidiah
+        Jewett and a listing of marriages. Additionally, there are microfilmed records replicating
+        most of the physical volumes, and also including more recent administrative records dating
+        after the church's incorporation in 1889.</p>
+    </scopecontent>
+    <arrangement id="aspace_783d2a324b5f6658a2bd82beb22108ac">
+      <head>Arrangement</head>
+      <p>Materials have been arranged in chronological order by start date.</p>
+    </arrangement>
+    <phystech id="aspace_7ebdcd47af500880cb99cecc23dfd079">
+      <head>Technical Requirements</head>
+      <p>A microfilm reader is required in order to access microform materials. One microfilm reader
+        is available to the public upon request.</p>
+      <p>To access digital user's copies via online-interface, a java-enabled web browser is
+        required. Internet Explorer 8.x and later, Firefox 5.x and later, Opera 12 and later, Safari
+        5.x and later, or any version of Google Chrome are recommended.</p>
+    </phystech>
+    <bibliography id="aspace_ccb391b54cfe64f9cda3f9455326a295">
+      <head>Bibliography</head>
+      <p>"History." The Congregational Church of Rowley. Accessed October 3, 2019. <ref
+          href="http://www.firstchurchrowley.org/about/who-we-are/history-2/"
+          >http://www.firstchurchrowley.org/about/who-we-are/history-2/</ref></p>
+      <p>Wheatland, Henry. <emph render="italic">Standard History of Essex County, Massachusetts:
+          Embracing a History of the County from Its 1. Settlement to the Present Time, with a
+          History and Description of Its Towns and Cities. (By Cyrus M Tracy Henry
+          Wheatland).</emph> Boston: Jewett, 1878.</p>
+      <p>Davis, Emerson. <emph render="italic">Biographical Sketches of the Congregational Pastors
+          of New England: Volume IV</emph>, n.d.</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025597" source="lcsh">
+        <part>Church discipline.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85033612" source="lcsh">
+        <part>Covenants (Church polity).</part>
+      </subject>
+      <subject identifier="sh85066724" source="lcsh">
+        <part>Installation (clergy).</part>
+      </subject>
+      <subject identifier="sh85078354" source="lcsh">
+        <part>Lord's Supper.</part>
+      </subject>
+      <subject source="local">
+        <part>New England's Hidden Histories.</part>
+      </subject>
+      <subject identifier="sh85095385" source="lcsh">
+        <part>Ordination.</part>
+      </subject>
+      <corpname identifier="n2002037865" source="lcnaf">
+        <part>First Church (Rowley, Mass.)</part>
+      </corpname>
+      <corpname identifier="n2010063462" source="lcnaf">
+        <part>Rowley (Mass.) -- Church history.</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_9b163cb4790bd8069a44ac8deea7b2ad" level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1664">1664</fromdate>
+              <todate standarddate="1784">1784</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1664-1784</unitdate>
+          <container id="aspace_4015d392720942a18542ae23987811dd" label="Mixed Materials"
+            localtype="box">2</container>
+          <container id="aspace_0a0aa793de0390ad5fb3d8373442119b" localtype="volume"
+            parent="aspace_4015d392720942a18542ae23987811dd">1</container>
+        </did>
+        <altformavail id="aspace_45ecdbb5a9316ad58859f0e7848521af">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Rowley/viewer/Phillips20Diary2C2016641784/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_afeb6db7925774b339ba58e8b071c15a">
+          <head>Scope and Contents</head>
+          <p>This bound volume, also known as "The Phillips Diary", contains early records of both
+            the church and the community in Rowley, including meeting minutes, church covenants,
+            baptisms, marriages, and death lists recorded by Rev. Samuel Phillips. Further records
+            include disciplinary matters, ecclesiastical councils, and other details of
+            seventeenth-century life in the area.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_37d7e061bb1112d0f298a525cc96de45" level="item">
+        <did>
+          <unittitle>Microfilm records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="bulk">
+            <daterange>
+              <fromdate standarddate="1664">1664</fromdate>
+              <todate standarddate="1784">1784</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="bulk">1664-1784</unitdate>
+          <unitdate calendar="gregorian" certainty="approximate" unitdatetype="inclusive"
+            >2010</unitdate>
+          <container id="aspace_2c9aec6a1e1e4fe68bd09bf90723e4aa" label="Microform" localtype="reel"
+            >Service Copy</container>
+        </did>
+        <scopecontent id="aspace_dcc09dc70c32ae7699014645829ad1b7">
+          <head>Scope and Contents</head>
+          <p>This microfilm contains photographic copies of the Church records, 1664-1784, also
+            known as the "Phillips Diary". This document is housed, as part of this collection, at
+            the CLA.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_9198b62f65ec3cb779dfc9e1d15722d3" level="item">
+        <did>
+          <unittitle>Microfilm records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="bulk">
+            <daterange>
+              <fromdate standarddate="1664">1664</fromdate>
+              <todate standarddate="1941">1941</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="bulk">1664-1941</unitdate>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="2007">2007</datesingle>
+          </unitdatestructured>
+          <container id="aspace_7a23dab2d60a4b5ff8eed994e9a2658d" label="Microform" localtype="reel"
+            >1</container>
+          <container id="aspace_f3f8d89c80a5ef6850e64280313e14ef" label="Microform" localtype="reel"
+            >2</container>
+          <container id="aspace_e7a303b955642012a7f3d9cb0864b4b9" label="Microform" localtype="reel"
+            >3</container>
+        </did>
+        <accessrestrict id="aspace_fc6ea177265a08d8739abf46e843dc72">
+          <head>Restrictions on Access</head>
+          <p>Only the service copy is available for library use. The archival master and print
+            master copies are restricted for preservation purposes.</p>
+        </accessrestrict>
+        <scopecontent id="aspace_9ac08f4534dfd56e48af9961a14e213c">
+          <head>Scope and Contents</head>
+          <p>This microfilm contains photographic copies of church records, parish records,
+            treasurer's books, vital records, and ministerial records, some of the physical versions
+            of which are part of this collection. A detailed listing of these follows:</p>
+          <list listtype="deflist">
+            <head>Reel 1</head>
+            <defitem>
+              <label>CR I</label>
+              <item>Church Records (also known as the "Phillips Diary"), 1664-1784</item>
+            </defitem>
+            <defitem>
+              <label>CR II</label>
+              <item>Church Records, 1742-1782</item>
+            </defitem>
+            <defitem>
+              <label>CR III</label>
+              <item>Church Records, 1782-1835</item>
+            </defitem>
+          </list>
+          <list listtype="deflist">
+            <head>Reel 2</head>
+            <defitem>
+              <label>CR IV</label>
+              <item>Vital Statistics and list of ministers, 1840-1870</item>
+            </defitem>
+            <defitem>
+              <label>CR V</label>
+              <item>Meetings, 1870-1920</item>
+            </defitem>
+            <defitem>
+              <label>C Misc.</label>
+              <item>Jedidiah Jewett's Extract Book, 1730-1783</item>
+            </defitem>
+            <defitem>
+              <label>C Misc.</label>
+              <item>Church records pre-incorporation and Church Corporation Records,
+                1889-1941</item>
+            </defitem>
+          </list>
+          <list listtype="deflist">
+            <head>Reel 3</head>
+            <defitem>
+              <label>PR I</label>
+              <item>Parish Records, 1733-1782</item>
+            </defitem>
+            <defitem>
+              <label>PR II</label>
+              <item>Parish Records, 1781-1882</item>
+            </defitem>
+            <defitem>
+              <label>PR III</label>
+              <item>Parish Records, 1822-1870</item>
+            </defitem>
+            <defitem>
+              <label>PT I</label>
+              <item>Parish Treasurer, 1743-1832</item>
+            </defitem>
+            <defitem>
+              <label>PT II</label>
+              <item>Parish Treasurer, 1833-1862</item>
+            </defitem>
+            <defitem>
+              <label>PR IV</label>
+              <item>Parish Records, 1892-1903</item>
+            </defitem>
+          </list>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_f841a4f48e66b51d7a36a6b89be8e22d" level="item">
+        <did>
+          <unittitle>Church and parish records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1728">1728</fromdate>
+              <todate standarddate="1782">1782</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1728-1782</unitdate>
+          <container id="aspace_6ac539d56957faa7a4e5440e4fe80f70" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_877aa48ff89b3fb64a757871a39d34b1" localtype="volume"
+            parent="aspace_6ac539d56957faa7a4e5440e4fe80f70">1</container>
+        </did>
+        <altformavail id="aspace_f868552ea4a3e4593250cc359835acc3">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Rowley/viewer/Church20Records2C201742178220and20Parish20Records2C2017281763/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_c6fdacb62a8ab9161b8b089f7d2312cc">
+          <head>Scope and Contents</head>
+          <p>This volume largely consists of church meeting minutes concerning the selection of new
+            ministers – Jedidiah Jewett in 1728 and Jonathan Allin in 1780 – and records regarding
+            their salaries.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_0ffa35cbfa592d42e0592e73fee77b2e" level="item">
+        <did>
+          <unittitle>Jedidiah Jewett extract and marriage book</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1730">1730</fromdate>
+              <todate standarddate="1783">1783</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1730-1783</unitdate>
+          <container id="aspace_5370859f0cf383390fa799b3cce629e0" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_809893262bb940f9bc11114b5de333e2" localtype="volume"
+            parent="aspace_5370859f0cf383390fa799b3cce629e0">2</container>
+        </did>
+        <altformavail id="aspace_3d37db0db1480ed4c3dc3a2d37c0ca77">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Rowley/viewer/J20Jewett20Extract20and20Marriage20Book2C2017301783/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_e774a4e339780c87500d93ba427d87f7">
+          <head>Scope and Contents</head>
+          <p>This bound book contains two volumes, each starting at opposite covers and using the
+            righthand pages in its respective orientation. The "extract" portion contains Rev.
+            Jedidiah Jewett's transcribed excerpts from philosophical and historical texts and local
+            newspapers. The "marriage book" records marriages performed in the church.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_9f2dda4684886b8aa64d0a20e2f3794c" level="item">
+        <did>
+          <unittitle>Microfilm records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1730">1730</fromdate>
+              <todate standarddate="1835">1835</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1730-1835</unitdate>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="2008">2008</datesingle>
+          </unitdatestructured>
+          <container id="aspace_9271dac47c69ad9eb37fbf6e1dd07a85" label="Microform" localtype="reel"
+            >Service Copy</container>
+          <container id="aspace_be690c58dad6136c176f3f61c5b94fc0" label="Microform" localtype="reel"
+            >Archival Master</container>
+          <container id="aspace_af6dd2fb45827bdfaafe48c3a1445748" label="Microform" localtype="reel"
+            >Print Master</container>
+        </did>
+        <accessrestrict id="aspace_2fb8932f0620157b0e65584af9e7dab6">
+          <head>Restrictions on Access</head>
+          <p>Only the service copy is available for library use. The archival master and print
+            master copies are restricted for preservation purposes.</p>
+        </accessrestrict>
+        <scopecontent id="aspace_d1ca8dd331981ad2d350fee69afa3055">
+          <head>Scope and Contents</head>
+          <p>This microfilm contains photographic copies of Rev. Jedidiah Jewett's personal
+            notebook, parish records, church records, and a treasurer's book, all of the physical
+            versions of which are a part of this collection. A detailed listing of these
+            follows:</p>
+          <list listtype="deflist">
+            <head>Reel 1</head>
+            <defitem>
+              <label>Section 1: C Misc.</label>
+              <item>Jewett's Extract Book, 1730-1783</item>
+            </defitem>
+            <defitem>
+              <label>Section 2: PR I</label>
+              <item>Parish Records, 1733-1782</item>
+            </defitem>
+            <defitem>
+              <label>Section 3: PR II </label>
+              <item>Parish Records, 1781-1882</item>
+            </defitem>
+            <defitem>
+              <label>Section 4: CR-PR </label>
+              <item>Church Records and Parish Records, 1742-1782 and 1728-1763</item>
+            </defitem>
+            <defitem>
+              <label>Section 5: CR III </label>
+              <item>Church Records, 1782-1835</item>
+            </defitem>
+            <defitem>
+              <label>Section 6: PT I</label>
+              <item>Parish Treasurer, 1743-1832</item>
+            </defitem>
+          </list>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_3e3e0d4303ae2fe3bf51ca6dd4bc2ac5" level="item">
+        <did>
+          <unittitle>Parish records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1733">1733</fromdate>
+              <todate standarddate="1782">1782</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1733-1782</unitdate>
+          <container id="aspace_778b526911493bcac0cb5849ae5ffdd9" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_65522cc551b0525ba1a08adfd08e9c71" localtype="volume"
+            parent="aspace_778b526911493bcac0cb5849ae5ffdd9">3</container>
+        </did>
+        <altformavail id="aspace_87d1e55db2763e6058a95cceaf2e51a6">
+          <head>Existence and Location of Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Rowley/viewer/Parish20Records2C2017331782/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_268a2634b771bbad78e7f4901226cca3">
+          <head>Scope and Contents</head>
+          <p>This volume contains financial and administrative records, including church meeting
+            minutes and financial information pertaining to officers' salaries and other
+            expenditures.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_c427745c618376795e1cb3dd015150b7" level="item">
+        <did>
+          <unittitle>Financial records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1743">1743</fromdate>
+              <todate standarddate="1832">1832</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1743-1832</unitdate>
+          <container id="aspace_1b328bce9d9f320a6e9118ce11b4597f" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_988b8c83f328b57a4c83fb81c68c1f01" localtype="volume"
+            parent="aspace_1b328bce9d9f320a6e9118ce11b4597f">4</container>
+        </did>
+        <altformavail id="aspace_416d4156788209e9f9f1b068a3343443">
+          <head>Existence and Location of Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Rowley/viewer/Parish20treasurer2C2017431832/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_51c3adcc25656c3d94a25aa08711dcd2">
+          <head>Scope and Contents</head>
+          <p>This bound volume of records was kept by the church treasurers, and includes salary
+            records for ministers and other church officers, pew rents, taxes, and other incomes and
+            expenses relating to the running of the church.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_4754ef73c24e3f602f9795a196e0ed2f" level="item">
+        <did>
+          <unittitle>Parish records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1781">1781</fromdate>
+              <todate standarddate="1822">1822</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1781-1822</unitdate>
+          <container id="aspace_ee0459c18ba842f92807c03efb70ab5a" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_58e96492317af0f2c76d792387d5c3ce" localtype="volume"
+            parent="aspace_ee0459c18ba842f92807c03efb70ab5a">5</container>
+        </did>
+        <altformavail id="aspace_7da1be903c8ce72505b592355244c8e7">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Rowley/viewer/Parish20Records2C2017811822/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_608e0448b6bbdf00763c51595beb0a38">
+          <head>Scope and Contents</head>
+          <p>This volume contains financial and administrative records, including church meeting
+            minutes and financial information pertaining to officers' salaries and other
+            expenditures. It also includes the results of an ecclesiastical council convened to
+            resolve a dispute within the church.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_5f91cba3f06b778f7a9065a96a42e2b9" level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1782">1782</fromdate>
+              <todate standarddate="1835">1835</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1782-1835</unitdate>
+          <container id="aspace_10aa33f47e30bd751d07a314319db9f9" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_ec64d5b0b3d1213f886bb5652dab529a" localtype="volume"
+            parent="aspace_10aa33f47e30bd751d07a314319db9f9">6</container>
+        </did>
+        <altformavail id="aspace_817b55a6b50143194c913e5412247a5e">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Rowley/viewer/Church20Records2C2017821835/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_5ccc5d95924370652c1ad905485a12a4">
+          <head>Scope and Contents</head>
+          <p>These records are primarily vital statistics and membership records, including
+            admissions, dismissions, baptisms, marriages, and deaths. They also contain a number of
+            disciplinary cases, mostly for intemperance or poor attendance on the Sabbath.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
