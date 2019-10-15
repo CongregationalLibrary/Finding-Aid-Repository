@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/HaverhillMAWest-5067.xml"
+      >HaverhillMAWest-5067</recordid>
+    <representation localtype="pdf"
+      href="http://www.congregationallibrary.org/sites/all/files/HaverhillMAWest-5067.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Haverhill, Mass. West Congregational Church records, 1734-1900.</titleproper>
+        <author>Jules Thomson</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2019-10-15</date>
+        <num>RG5067</num>
+      </publicationstmt>
+      <seriesstmt>
+        <p>This collection is part of New England's Hidden Histories. Digital historical
+          representations of the collection can be viewed online.</p>
+      </seriesstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS2 - 2013</abbr>
+      <citation>Describing Archives: A Content Standard, Second Edition (DACS)</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2019-10-15T15:49:27+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Tuesday October 15,
+          2019 at 15:49</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Haverhill, Mass. West Congregational Church records, 1734-1900.</unittitle>
+      <unitid>RG5067</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library and Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>.44</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(1 box)</physdesc>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1734">1734</fromdate>
+          <todate standarddate="1900">1900</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" unitdatetype="inclusive">1734-1900</unitdate>
+      <abstract id="aspace_a19e3ea0ebffaeba0bbd20c68ee663a8">When the western part of Haverhill
+        became too populous for one church in 1734, the West Parish of Haverhill was established by
+        a petition to the General Court of Massachusetts, and the church, initially known as the
+        Third Church, was itself established in 1735. In the first half of the 19th century, the
+        governance of the parish was controversially distributed between multiple denominations, but
+        in 1852 it was relinquished again to the Congregationalists. This collection contains the
+        earliest records of the West Congregational Church and continuing administrative
+        documentation up until 1900.</abstract>
+      <origination label="creator">
+        <corpname rules="rda" source="local">
+          <part>Third Church (Haverhill, Mass.)</part>
+        </corpname>
+      </origination>
+      <origination label="creator">
+        <corpname rules="rda" source="naf">
+          <part>West Congregational Church (Haverhill, Mass.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_cdffadd1efcbc2b7ef365e4214818848">
+      <head> Restrictions on Access</head>
+      <p>To access digital user's copies via online-interface, a java-enabled web browser is
+        required. Internet Explorer 8.x and later, Firefox 5.x and later, Opera 12 and later, Safari
+        5.x and later, or any version of Google Chrome are recommended.</p>
+    </accessrestrict>
+    <userestrict id="aspace_b1b66f0ceaa717aaf932c84c6d8507d6">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+      <p>Digital Reproductions are protected by copyright and/or related rights. You are free to use
+        the Digital Reproductions in any way that is permitted by the copyright and related rights
+        legislation that applies to your use. In addition, no permission is required from the
+        Congregational Library &amp; Archives for educational uses. For other uses, you need to
+        obtain permission from the Congregational Library &amp; Archives. For additional information
+        regarding copyright, please consult the Congregational Library &amp; Archives' <ref
+          actuate="onrequest" href="http://www.congregationallibrary.org/about/digital-copyright"
+          linktitle="Digital Collections Copyright &amp; Use" show="new">Digital Collections
+          Copyright &amp; Use</ref> policy.</p>
+    </userestrict>
+    <prefercite id="aspace_fc67da2921c1ac6ebf0560f2c54c297f">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Haverhill, Mass. West Congregational Church records,
+        1734-1900, RG5067. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_5809798aae1be1bfaa64faa0813c3d29">
+      <head>Acquisition Information</head>
+      <p>Loaned to the Congregational Library &amp; Archives, for digitization, by the West Church
+        in Haverhill, Massachusetts, March 2011; There is no accession number for this
+        collection.</p>
+    </acqinfo>
+    <originalsloc id="aspace_14edfc55f2541fd54e7ec6827533bcaf">
+      <head>Location of Originals</head>
+      <p>The physical records are held and maintained by the West Church in Haverhill,
+        Massachusetts.</p>
+    </originalsloc>
+    <accruals id="aspace_b94f348acf63e2d29838e9fed2c0dc11">
+      <head>Accruals</head>
+      <p>Additional accruals are expected for this collection in the form of full-text
+        transcription. There is no anticipated date for this accrual.</p>
+    </accruals>
+    <processinfo id="aspace_5a0b180826cd2f27c015fdb0f5c1bf55">
+      <head>Processing Information</head>
+      <p>Processed and described by Jules Thomson, October 2019, using DACS Second Edition.</p>
+    </processinfo>
+    <bioghist id="aspace_5ecdbf2804bc41396c419887d32898af">
+      <head>Historical Note</head>
+      <p>When the western part of Haverhill became too populous for one church in 1734, the West
+        Parish of Haverhill was established by a petition to the General Court of Massachusetts. 77
+        members were dismissed from the First Parish Church and constructed a new meeting house,
+        located "on the southeasterly corner of Samuel Eatton's pasture". The building, which was
+        intended for both secular and religious use, was dedicated on Oct. 22, 1735. After two trial
+        preachers, the church successfully settled and ordained the Rev. Samuel Bachellor, a Harvard
+        graduate, in July of 1735. During his ministry 118 new members were admitted to the
+        church.</p>
+      <p>In 1738, soon after the Parish was incorporated, the committee acquired land to be used for
+        a burying-ground and roads. In 1739, the parish voted to gift Rev. Bachellor all the
+        parsonage lands belonging to the West Parish, in addition to 70 acres which he had already
+        been gifted by town proprietors. The parish committee also granted Rev. Bachellor several
+        additions to his salary over the years, in order to offset currency depreciation which was
+        endemic in mid-18th-century New England. Rev. Bachellor also owned at least one slave,
+        identified in a death record of March 24, 1785 only as "Nero, servant to ye Revd Mr
+        Bachellor." Theological differences between Rev. Bachellor and his congregation led to
+        increasing strife within the church. In 1755, a number of congregants led by Mr. Joseph
+        Haynes accused him of heresy, specifically for alleging in a sermon that Christ had declared
+        that the work of redemption was "finished" during the crucifixion. He was ultimately removed
+        in October of 1761 after ongoing disputes. After his dismissal the parish was without a
+        settled pastor for 9 years.</p>
+      <p>In 1762 the church and parish voted to adopt the Cambridge Platform of church discipline.
+        In the same year Rev. Nathaniel Noyes was called to the ministry after a trial period, but
+        ultimately declined, as did subsequent trial ministers until March, 1769, when "a great
+        majority" of the parish voted to invite Rev. Phineas Adams to the ministry. Rev. Adams was
+        eventually ordained in January of 1771. He continued in the role until his death in 1801. In
+        1751 the parish voted to build a schoolhouse, though construction did not occur until 1791.
+        In 1770, the parish voted "to continue to sing Dr. Watts' Psalms &amp; Hymns in the
+        congregation." This is the first allusion to singing in the parish records, and there is
+        also mention of a "Singers Pew" which was enlarged in 1788 and again in 1794. In 1810 the
+        parish approved 13 dollars toward the support of a singing school.</p>
+      <p>After the death of Rev. Adams in 1801, the parish was without a settled minister for 25
+        years. This was exacerbated by a substantial change in the organization of the parish in the
+        early 1800s, in which Baptist, Methodist, and Universalist residents increasingly shared
+        governance. In 1806 it was voted to divide the parish funds between the different
+        denominations based on their respective tax contributions, and in 1809 a committee composed
+        of one representative each from the Congregationalist, Methodist, and Universalist
+        denominations was appointed to oversee the division of parish funds. Discord followed in the
+        wake of these structural changes. In 1818, the Congregationalists attempted to regain
+        control of the entire parish but were unsuccessful. From 1821-1824 the parish attempted to
+        settle three different ministers, none of which were ultimately approved by the
+        Congregationalists.</p>
+      <p>Finally, in September, 1826, the church unanimously invited the Congregationalist Rev.
+        Moses Grosvenor to the ministry. The parish approved the decision, and Mr. Grosvenor
+        accepted the invitation and was ordained in December of 1826. The other denominations within
+        the parish remained unsatisfied, and petitioned in 1828 for money to hire additional
+        ministers. The parish committee ruled 50-53 against their request, but subsequently voted to
+        dismiss Rev. Grosvenor, with "three months' notice to withdraw his pastoral connection". The
+        Congregationalists then decided to withdraw and organize a new society. This division
+        created a distinct Parish (Universalist) Society and a Church (Congregationalist) Society, a
+        state of affairs which lasted from 1828-1852. The Church Society built a new brick meeting
+        house one mile west of the old parish meeting house', and in 1829 petitioned the parish to
+        settle the Rev. Abijah Cross of Salisbury, New Hampshire. The request was granted and Rev.
+        Cross accepted and was installed in 1831. In 1832, it was voted to move the old meeting
+        house 1.25 miles west to the center of the parish, which was accomplished by 1834.</p>
+      <p>In 1852, after protracted arguments between the Parish and Church societies over the
+        allocation of endowments, the parish was transferred back to the Congregationalists and the
+        Universalist society was re-organized as The First Universalist Society in the West Parish
+        of Haverhill. In 1853, Rev. Cross was dismissed from the Congregational church and society
+        at his own request, and Rev. Asa Farwell was subsequently settled as pastor. During his
+        pastorate, 86 new members were admitted, many of them during an 1863 religious revival
+        brought on by the turmoil of the Civil War. After Rev. Farwell was dismissed in 1866, Rev.
+        Ephraim Allen was settled as pastor and remained in the position until 1876. In 1874-5 the
+        meeting house was extensively remodeled at a cost of about 9,000 dollars.</p>
+      <p>The church was officially incorporated in 1921. It is now known as West Congregational
+        Church, and continues to serve the Haverhill community as a member of the Conservative
+        Congregational Christian Conference (CCCC).</p>
+    </bioghist>
+    <scopecontent id="aspace_aa95f6826b6a52908ac525860833cb0b">
+      <head>Scope and Contents</head>
+      <p>This collection contains the earliest records of the West Congregational Church, and
+        continuing administrative documentation up until 1900. including the articles of agreement
+        for the construction of the first meeting house, administrative records, membership
+        information, and financial accounting. There is also a "new building book" containing
+        records relating to the construction of the second meetinghouse in 1828.</p>
+    </scopecontent>
+    <arrangement id="aspace_80ac7873f62bef4f513c567611aece39">
+      <head>Arrangement</head>
+      <p>This collection has been arranged in chronological order by start date.</p>
+    </arrangement>
+    <phystech id="aspace_195f73083a9cee89a5fe9fc98bbde647">
+      <head>Technical Requirements</head>
+      <p>To access digital user's copies via online-interface, a java-enabled web browser is
+        required. Internet Explorer 8.x and later, Firefox 5.x and later, Opera 12 and later, Safari
+        5.x and later, or any version of Google Chrome are recommended.</p>
+    </phystech>
+    <bibliography id="aspace_88a07bf3bf4a1ecaf7a9e4aa1c1c7f52">
+      <head>Bibliography</head>
+      <p><emph>Excercises Commemorative of the One Hundred and Fiftieth Anniversary of the West
+          Congregational Church, Haverhill, Mass.</emph> Haverhill: C. C. Morse &amp; Son, 1886.
+        17.11.1 H29.45 WESCC</p>
+      <p>Chase, George Wingate. <emph>The history of Haverhill, Massachusetts, from its first
+          settlement, in 1640, to the year 1860.</emph> Haverhill: George W. Chase, 1861.</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh85000938" source="lcsh">
+        <part>Admonition.</part>
+      </subject>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025597" source="lcsh">
+        <part>Church discipline.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85033612" source="lcsh">
+        <part>Covenants (Church polity).</part>
+      </subject>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <subject identifier="sh85090572" source="lcsh">
+        <part>Necrologies.</part>
+      </subject>
+      <subject source="local">
+        <part>New England's Hidden Histories.</part>
+      </subject>
+      <subject identifier="sh85095385" source="lcsh">
+        <part>Ordination.</part>
+      </subject>
+      <corpname identifier="n82020635" source="lcnaf">
+        <part>Haverhill (Mass.) -- Church history.</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>Third Church (Haverhill, Mass.)</part>
+      </corpname>
+      <corpname rules="rda" source="naf">
+        <part>West Congregational Church (Haverhill, Mass.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_f804779e5c1999cf1ae4e2a27aaaf7ce" level="file">
+        <did>
+          <unittitle>Articles of agreement</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1734">1734</datesingle>
+          </unitdatestructured>
+        </did>
+        <altformavail id="aspace_a26bc4a9d14987bb038699312361c99b">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/HaverhillWest/viewer/Articles20of20Agreement2C201734/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_e6bd0665157747f6d7ff82f260841332">
+          <head>Scope and Contents</head>
+          <p>This document details the plans and budget for the construction of the first
+            meetinghouse in the West Parish.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_045258abc4c3f84dcef58647287e71ea" level="item">
+        <did>
+          <unittitle>Parish records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1734">1734</fromdate>
+              <todate standarddate="1802">1802</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1734-1802</unitdate>
+        </did>
+        <altformavail id="aspace_8020cfbd3ccc2424b4a8eb24bdbdf3d3">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/HaverhillWest/viewer/Church20records2C2017341802/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_bb35f2e12244930edd382059027ac495">
+          <head>Scope and Contents</head>
+          <p>This volume contains the earliest administrative and financial records of the Haverhill
+            West parish and the Third Church, including the ordination of Samuel Bacheller, pew
+            sales, the election of officers, and parish expenses.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_02da1495316393a6e3547aa418632a02" level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1735">1735</fromdate>
+              <todate standarddate="1761">1761</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1735-1761</unitdate>
+        </did>
+        <altformavail id="aspace_da46ecd52cfb63b87787bc998b665df6">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/HaverhillWest/viewer/Church20records2C2017351761/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_28e1694f5f03d725f8d302dbafc08c5a">
+          <head>Scope and Contents</head>
+          <p>This volume was kept by the Third Church's Rev. Stephen Bachellor. It primarily
+            contains membership records, including baptisms, marriages, admissions, dismissions, and
+            narrative accounts of several prominent families. It also contains the covenant signed
+            by the founding members.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_655ae7e12f050841f3adba72d762945f" level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1762">1762</fromdate>
+              <todate standarddate="1826">1826</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1762-1826</unitdate>
+        </did>
+        <altformavail id="aspace_75bb48fd92451121e58d799fd9bd3224">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/HaverhillWest/viewer/Church20records2C2017621826/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_23700901a8c33ad0a753e0cf20f4bbb5">
+          <head>Scope and Contents</head>
+          <p>This volume contains membership records, transcribed correspondence, records of several
+            disciplinary cases, and information about the ministers who served during these
+            years.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_bb7039b81524aea88f8429a929793346" level="item">
+        <did>
+          <unittitle>Treasurer's book</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1815">1815</fromdate>
+              <todate standarddate="1900">1900</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1815-1900</unitdate>
+        </did>
+        <altformavail id="aspace_39fe9a3ddf1905525f2a467d269ea9df">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/HaverhillWest/viewer/Treasurer27s20book2C2018151900/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_6bfc4fa7060016c30957de13d0f61b58">
+          <head>Scope and Contents</head>
+          <p>The treasurer's ledger contains itemized records of the church's income and expenses,
+            including taxes, pew fees, materials and labor for maintenance of the meetinghouse, and
+            the minister's salary. There are regular audits of the church's accounts by the
+            treasurers and committee members.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_c5e7cf62a26e46d7548debeff943ec5f" level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1826">1826</fromdate>
+              <todate standarddate="1838">1838</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1826-1838</unitdate>
+        </did>
+        <altformavail id="aspace_6ed0e837fc0856093eb5262a7e851197">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/HaverhillWest/viewer/Church20records2C2018261838/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_adfa0b0e2339b7136d3e69da9e4ac250">
+          <head>Scope and Contents</head>
+          <p>This volume contains interspersed administrative, financial, and membership
+            records.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_372f0805f3443c12829e3a1914f49f7d" level="item">
+        <did>
+          <unittitle>New building book</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1828">1828</fromdate>
+              <todate standarddate="1852">1852</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1828-1852</unitdate>
+        </did>
+        <altformavail id="aspace_f389cd17dc1a71a494c7b7873c47ddb7">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/HaverhillWest/viewer/New20building20book2C2018281852/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_a46703a9502f737d2d6ace373b16703b">
+          <head>Scope and Contents</head>
+          <p>This book contains the planning and financial records relating to the construction of
+            the church's second meetinghouse, as well as the annual renewal of Rev. Cross's
+            contract. The end of the volume contains the will of David Webster, which includes
+            provisions for a trust to pay the church's ministerial salary.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_1f3bf0a48f9ed5ee297c8bcd6a57f53d" level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1870">1870</fromdate>
+              <todate standarddate="1880">1880</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1870-1880</unitdate>
+        </did>
+        <altformavail id="aspace_b69b81ac94b2f015adc1e13ff25d0b4b">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/HaverhillWest/viewer/Church20records2C2018701880/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_8f00c544eec823c4ce2fd1f4a63bc132">
+          <head>Scope and Contents</head>
+          <p>This volume contains interspersed administrative, financial, and membership records
+            continuing from the previous books. It also includes several printed materials that have
+            been sewn or glued into the book adjacent to the related records.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
