@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/HopkintonMAFirst-5193.xml"
+      >HopkintonMAFirst-5193</recordid>
+    <representation localtype="pdf"
+      href="http://www.congregationallibrary.org/sites/all/files/HopkintonMAFirst-5193.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Hopkinton, Mass. First Congregational Church records, 1722-1911.</titleproper>
+        <author>Jules Thomson</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2019-10-21</date>
+        <num>RG5193</num>
+      </publicationstmt>
+      <seriesstmt>
+        <p>This collection is part of New England's Hidden Histories. Digital historical
+          representations of the collection can be viewed online.</p>
+      </seriesstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS2 - 2013</abbr>
+      <citation>Describing Archives: A Content Standard, Second Edition (DACS)</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>in_progress</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2019-10-29T19:45:50+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Tuesday October 29,
+          2019 at 19:45</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Hopkinton, Mass. First Congregational Church records, 1722-1911.</unittitle>
+      <unitid>RG5193</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>.88</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(2 boxes)</physdesc>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1722">1722</fromdate>
+          <todate standarddate="1911">1911</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" unitdatetype="inclusive">1722-1911</unitdate>
+      <abstract id="aspace_7dab34cd51bc3a9f29fa15aa0651664e">The First Congregational Church in
+        Hopkinton was organized in 1724, shortly after the establishment of the town of Hopkinton by
+        Harvard College, who had purchased the land from a local community of "praying Indians".
+        Five versions of the meeting house have existed, two of which were destroyed, first by fire
+        in 1882 and then by a hurricane in 1939. In September 2011 the name of the church was
+        officially changed to Faith Community Church. This collection includes the earliest records
+        of the church, including meeting minutes, financial reports, listings of marriages,
+        baptisms, deaths, and dismissions, and relations of faith.</abstract>
+      <origination label="creator">
+        <corpname identifier="n97112004" source="lcnaf">
+          <part>First Congregational Church (Hopkinton, Mass.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_bd21843737dc10f7574b3b1334791ae3">
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_f1f372401a3efc64bee7f03a34245c46">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+      <p>Digital Reproductions are protected by copyright and/or related rights. You are free to use
+        the Digital Reproductions in any way that is permitted by the copyright and related rights
+        legislation that applies to your use. In addition, no permission is required from the
+        Congregational Library &amp; Archives for educational uses. For other uses, you need to
+        obtain permission from the Congregational Library &amp; Archives. For additional information
+        regarding copyright, please consult the Congregational Library &amp; Archives' <ref
+          actuate="onrequest" href="http://www.congregationallibrary.org/about/digital-copyright"
+          linktitle="Digital Collections Copyright &amp; Use" show="new">Digital Collections
+          Copyright &amp; Use</ref> policy.</p>
+    </userestrict>
+    <prefercite id="aspace_3f6c7ffa218aadf7afad42e22db55025">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Hopkinton, Mass. First Congregational Church records,
+        1722-1911, RG5193. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_1ace1d3eac963d882ec89f0b5e0444ea">
+      <head>Acquisition Information</head>
+      <p>No aquisition information is available for "Request for reconciliation, 1747".</p>
+      <p>All other materials were temporarily deposited for digitization with the Congregational
+        Library &amp; Archives by Faith Community Church in Hopkinton, MA in June 2014; 2014-42.</p>
+    </acqinfo>
+    <originalsloc id="aspace_35ab6776236820aec5680cf74c2025df">
+      <head>Location of Originals</head>
+      <p>The physical records are held and maintained by the Faith Community Church in Hopkinton,
+        Mass., with the exception of the "Request for reconcilation, 1747" which is housed at the
+        Congregational Library and Archives.</p>
+    </originalsloc>
+    <accruals id="aspace_a40fc4321b54268d0b9648f8f75cd4ef">
+      <head>Accruals</head>
+      <p>Additional accruals are expected for this collection in the form of full-text
+        transcription. There is no anticipated date for this accrual.</p>
+    </accruals>
+    <processinfo id="aspace_a0374a4cc9d1841e6361e3dc15875168">
+      <head>Processing Information</head>
+      <p>Processed and described by Jules Thomson, October 2019, using DACS Second Edition.</p>
+    </processinfo>
+    <bioghist id="aspace_38874e066536811da62dbca1011d61f1">
+      <head>Historical Note</head>
+      <p>The area that now comprises the towns of Hopkinton and Ashland was once known as
+        Magwonkkommok (or Magunco), and consisted of 51 families of "praying Indians", Christianized
+        Native residents probably drawn from the Massachusett and Nipmuc tribes indigenous to the
+        area. This community was the seventh such "praying town" established by the English Puritan
+        missionary Rev. John Eliot. Harvard College subsequently purchased the land from the Native
+        residents in 1715, renaming it Hopkinton after Edward Hopkins, a major benefactor of the
+        college. Harvard then proceeded to lease the land for 3 cents per acre.</p>
+      <p>On May 21, 1723, the town voted "to have preaching constantly on the Sabbath." A church,
+        initially composed of 15 members, was organized in September of 1724. They simultaneously
+        ordained the Rev. Samuel Barrett, a graduate of Harvard, as their first minister. A simple
+        two-story meeting house, measuring 48x38, was constructed in 1725. In 1731 the church voted
+        to observe the Cambridge Platform of Church Discipline, adopting a congregational form of
+        governance.</p>
+      <p>Rev. Barrett remained as pastor until his death in 1772, at which time his colleague Rev.
+        Elijah Fitch took over the ministry until his own death in 1788. In 1791 the Rev. Nathaniel
+        Howe was ordained, although as a condition of his ordination he specified that he would not
+        personally admit members to the church under the Half-Way covenant. He preached a famous
+        "Century Sermon" in 1815 to commemorate the centenary of the town, which was subsequently
+        published worldwide.</p>
+      <p>The parish was officially incorporated in 1827, the town having managed the church before
+        that time. The parish committee quickly voted to build a new meeting house, and the first
+        building was sold and moved off-site. The second meeting house was finished and dedicated in
+        January of 1830, measuring 50x62 feet, with a seating capacity of 600 in the main
+        auditorium. It also included a steeple and bell. An organ was installed at a cost of $600 in
+        1847. This second church was extensively remodeled and enlarged in 1859, when Hopkinton's
+        population grew to 4,500 as a result of the town's success as a center of boot and shoe
+        manufacturing. The organ and bell were also replaced with larger versions, and a parsonage
+        was purchased in 1870 at a cost of $3,500.</p>
+      <p>In 1882, a fire swept through Hopkinton, destroying the second meeting house, along with
+        the town hall, post office, a hotel, and a shoe factory. Funds were quickly raised for the
+        construction of a new and third meeting house, costing a total of $31,000, which was
+        dedicated in May of the following year. This building was also the victim of a cataclysmic
+        event, when the hurricane of September 21, 1938 toppled the steeple and effectively
+        destroyed the entire church. Consequently, a fourth iteration of the meeting house was built
+        in 1939. The large former bell, salvaged from the third meeting house, was installed in the
+        new church and was rung at its dedication.</p>
+      <p>The church eventually affiliated with the United Church of Christ, but voted to leave on
+        October 2, 1994 due to theological differences. In 1997, the current church building was
+        constructed in order to accommodate expanding membership. In September 2011 the name of the
+        church was officially changed to Faith Community Church.</p>
+    </bioghist>
+    <scopecontent id="aspace_4ebddc082bd86a84b742516794112e7f">
+      <head>Scope and Contents</head>
+      <p>This collection includes the earliest records of the First Congregational Church in
+        Hopkinton, Mass. Primarily these include church meeting minutes, financial reports, and
+        listings of marriages, baptisms, deaths, and dismissions, and relations of faith by members
+        seeking admission to the church. There is also a legal contract for the construction of a
+        new meeting house in 1829.</p>
+    </scopecontent>
+    <arrangement id="aspace_b967b80bdaa7dbcb343f88fe90bbd881">
+      <head>Arrangement</head>
+      <p>Materials have been arranged in chronological order by start date. Within the relations
+        file, individual records have been listed in alphabetical order by surname.</p>
+    </arrangement>
+    <phystech id="aspace_5b53da0ea1fdf1fab530d1532f817b1a">
+      <head>Technical Requirements</head>
+      <p>To access digital user's copies via online-interface, a java-enabled web browser is
+        required. Internet Explorer 8.x and later, Firefox 5.x and later, Opera 12 and later, Safari
+        5.x and later, or any version of Google Chrome are recommended.</p>
+    </phystech>
+    <bibliography id="aspace_423f23230c125f777bb4f60789ac8c47">
+      <head>Bibliography</head>
+      <p>Barber, John Warner. <emph>Historical collections: being a general collection of
+          interesting facts, traditions, biographical sketches, anecdotes,</emph></p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85033612" source="lcsh">
+        <part>Covenants (Church polity).</part>
+      </subject>
+      <subject identifier="sh85066724" source="lcsh">
+        <part>Installation (clergy).</part>
+      </subject>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <subject identifier="sh85090572" source="lcsh">
+        <part>Necrologies.</part>
+      </subject>
+      <subject source="local">
+        <part>New England's Hidden Histories.</part>
+      </subject>
+      <corpname identifier="n97112004" source="lcnaf">
+        <part>First Congregational Church (Hopkinton, Mass.)</part>
+      </corpname>
+      <corpname identifier="n88282493" source="lcnaf">
+        <part>Hopkinton (Mass.) -- Church history.</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_adbdabbebd617b8a942c14368e307fe7" level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1722">1722</fromdate>
+              <todate standarddate="1874">1874</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1722-1874</unitdate>
+        </did>
+        <altformavail id="aspace_c6ce7ab304cf4427f612e787052242e6">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Hopkinton/viewer/Church20records2C2017081885/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_0f9fae86540bf89cf1df9181b1e5f151">
+          <head>Scope and Contents</head>
+          <p>This volume is primarily comprised of a year-by-year history of the town from 1708
+            until 1859. Events noted in each year include a list of town citizens prior to 1730,
+            petitions, the activities of notable residents, genealogical information, deaths,
+            appointments to the church, the church's finances, and major church or town events.
+            There are unusually detailed descriptions of several slaves in the town of Hopkinton,
+            including mention of their children and other life circumstances. Other material
+            includes newspaper clippings, some of it detailing Brigham Young's journey to Utah, and
+            some loose correspondence.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_b868702c02fdf16d6f5679620b680183" level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1724">1724</fromdate>
+              <todate standarddate="1864">1864</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1724-1864</unitdate>
+        </did>
+        <altformavail id="aspace_63fb8ede10329036a9e23c79eca2e8d9">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Hopkinton/viewer/Church20records2C2017241864/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_a0e063d8befc7c1855b2e4fb0ccdede1">
+          <head>Scope and Contents</head>
+          <p>This volume includes births, marriage, deaths, admissions, baptisms, meeting minutes,
+            records of complaints, a discussion of the original settlers of the town, and an index
+            at the back.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_55c9a98c625be48723d2efa26e04edf6" level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1724">1724</fromdate>
+              <todate standarddate="1911">1911</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1724-1911</unitdate>
+        </did>
+        <altformavail id="aspace_8864926a3d168a992985f7784796f850">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Hopkinton/viewer/Church20records2C2017241911/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_06845f7c3058259ffa06385849760283">
+          <head>Digital Copies</head>
+          <p>Materials in this volume include a copy of the church covenant, births, marriages,
+            baptisms, deaths, admissions, dismissions, church meeting minutes, correspondence, and
+            the selection and installation of pastors.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_87df8a209a0f1a676e63aa600311d1f2" level="file">
+        <did>
+          <unittitle>Request for reconciliation</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1747">1747</datesingle>
+          </unitdatestructured>
+          <container id="aspace_657eccbba597a9bb6fee9e42c6eb0442" label="Mixed Materials"
+            localtype="box">NEHH-Small 1</container>
+          <container id="aspace_3f95e0b3827c9c0dfdc06e299bf853b6" localtype="folder"
+            parent="aspace_657eccbba597a9bb6fee9e42c6eb0442">31</container>
+        </did>
+        <scopecontent id="aspace_991dadc9e34802bbd3789f6cd4062c76">
+          <head>Scope and Contents</head>
+          <p>This single document is a petition by six signatories requesting reconciliation with
+            disaffected members of the church. The dispute arose over differences of opinion
+            regarding the administration of the Lord's Supper (Communion). The document is dated May
+            4, 1747.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_f5f5371a6143e451cd4a4e2c0901661d" level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1791">1791</fromdate>
+              <todate standarddate="1838">1838</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1791-1838</unitdate>
+        </did>
+        <altformavail id="aspace_de061b708c6b7e6fcea1fa7a20ea5956">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Hopkinton/viewer/Church20records2C2017911838/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_abdaa8268e4e67eaa788f7fe7a9077f2">
+          <head>Scope and Contents</head>
+          <p>This volume is comprised of a copy of the church covenant, confessions of faith, church
+            meeting minutes, admissions, baptisms, dismissions, marriages, deaths, excommunications,
+            and ministers' ordinations. There is a table of contents at the front of the volume.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_dafe4289e245e0d366018d106d508749" level="file">
+        <did>
+          <unittitle>Relations</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1799">1799</fromdate>
+              <todate standarddate="1830">1830</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1799-1830</unitdate>
+        </did>
+        <altformavail id="aspace_7d32b8497e3c10bcdb4840b94f999578">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Hopkinton/viewer/Relations2C2017991830/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_9ac8e8d193a18be074efbe20bffd60d5">
+          <head>Scope and Contents</head>
+          <p>This is a collection of personal relations, written accounts of individuals' religious
+            experience that were often required in the process of applying for full membership. They
+            are organized alphabetically by last name.</p>
+          <list listtype="deflist">
+            <head>Relations by Surname</head>
+            <defitem>
+              <label> Adams, Benjamin</label>
+              <item>relation, dated 1806</item>
+            </defitem>
+            <defitem>
+              <label>Bowker, Charlotte</label>
+              <item>relation, dated 1813</item>
+            </defitem>
+            <defitem>
+              <label>Bowker, Patience</label>
+              <item>relation, dated 1811</item>
+            </defitem>
+            <defitem>
+              <label>Briggs, Betsy</label>
+              <item>relation, dated 1808</item>
+            </defitem>
+            <defitem>
+              <label>Briggs, John</label>
+              <item>relation, dated 1808</item>
+            </defitem>
+            <defitem>
+              <label>Burnam, Josiah</label>
+              <item>relation, dated 1818</item>
+            </defitem>
+            <defitem>
+              <label>Burnam, Ruth</label>
+              <item>relation, dated 1803</item>
+            </defitem>
+            <defitem>
+              <label>Cody, Abigail</label>
+              <item>relation, dated 1812</item>
+            </defitem>
+            <defitem>
+              <label>Cody, John</label>
+              <item>relation, dated 1812</item>
+            </defitem>
+            <defitem>
+              <label>Cody, Sally</label>
+              <item>relation, dated 1812</item>
+            </defitem>
+            <defitem>
+              <label>Cozzens, Ruth</label>
+              <item>relation, dated 1810</item>
+            </defitem>
+            <defitem>
+              <label>Crook, Sally</label>
+              <item>relation, dated 1829</item>
+            </defitem>
+            <defitem>
+              <label>Davids, Polly</label>
+              <item>relation, dated 1811</item>
+            </defitem>
+            <defitem>
+              <label>Dench, Anna</label>
+              <item>relation, undated</item>
+            </defitem>
+            <defitem>
+              <label>Eames, Anna</label>
+              <item>relation, dated 1803</item>
+            </defitem>
+            <defitem>
+              <label>Eames, Patty</label>
+              <item>relation, dated 1819</item>
+            </defitem>
+            <defitem>
+              <label>Ellis, Ireene</label>
+              <item>relation, undated</item>
+            </defitem>
+            <defitem>
+              <label>Ellis, Julia</label>
+              <item>relation, undated</item>
+            </defitem>
+            <defitem>
+              <label>Fisk, Abel</label>
+              <item>relation, undated </item>
+            </defitem>
+            <defitem>
+              <label>Fitch, Emily</label>
+              <item>relation, undated </item>
+            </defitem>
+            <defitem>
+              <label>Flagg, Azubah</label>
+              <item>relation, dated 1821</item>
+            </defitem>
+            <defitem>
+              <label>Freeland, Catharine</label>
+              <item>relation, dated 1823</item>
+            </defitem>
+            <defitem>
+              <label>Freeland, Nancy</label>
+              <item>relation, undated </item>
+            </defitem>
+            <defitem>
+              <label>Gibson, John</label>
+              <item>relation, dated 1830</item>
+            </defitem>
+            <defitem>
+              <label>Gibson, Margery</label>
+              <item>relation, dated 1799</item>
+            </defitem>
+            <defitem>
+              <label>Greenwood, Miriam</label>
+              <item>relation, undated </item>
+            </defitem>
+            <defitem>
+              <label>Haven, Azenath</label>
+              <item>relation, dated 1829</item>
+            </defitem>
+            <defitem>
+              <label>Haven, Elisha</label>
+              <item>relation, dated 1821</item>
+            </defitem>
+            <defitem>
+              <label>Haven, Martha</label>
+              <item>relation, undated </item>
+            </defitem>
+            <defitem>
+              <label>Hayden, William</label>
+              <item>relation, dated 1810</item>
+            </defitem>
+            <defitem>
+              <label>How, Betsy</label>
+              <item>relation, dated 1802</item>
+            </defitem>
+            <defitem>
+              <label>Howe, Eliza</label>
+              <item>relation, undated </item>
+            </defitem>
+            <defitem>
+              <label>Johnson, Adeline</label>
+              <item>relation, undated </item>
+            </defitem>
+            <defitem>
+              <label>Jones, Martha</label>
+              <item>relation, dated 1820</item>
+            </defitem>
+            <defitem>
+              <label>Littlefield, Elisabeth</label>
+              <item>relation, undated </item>
+            </defitem>
+            <defitem>
+              <label>Lovering, Hilley</label>
+              <item>relation, dated 1811</item>
+            </defitem>
+            <defitem>
+              <label>Lovering, Lydia</label>
+              <item>relation, undated </item>
+            </defitem>
+            <defitem>
+              <label>Loving, Mary</label>
+              <item>relation, undated </item>
+            </defitem>
+            <defitem>
+              <label>Loving, Nathaniel</label>
+              <item>relation, dated 1803</item>
+            </defitem>
+            <defitem>
+              <label>Morse, Elisha (w/ Patty)</label>
+              <item>relation, undated</item>
+            </defitem>
+            <defitem>
+              <label>Morse, Patty (w/ Elisha)</label>
+              <item>relation, undated</item>
+            </defitem>
+            <defitem>
+              <label>Morse, Winthrop</label>
+              <item>relation, dated 1811</item>
+            </defitem>
+            <defitem>
+              <label>Phipps, Sarah</label>
+              <item>relation, dated 1812</item>
+            </defitem>
+            <defitem>
+              <label>Pike, Sally</label>
+              <item>relation, dated 1812</item>
+            </defitem>
+            <defitem>
+              <label>Pond, Benjamin</label>
+              <item>relation, undated</item>
+            </defitem>
+            <defitem>
+              <label>Pond, Polly</label>
+              <item>relation, dated 1829</item>
+            </defitem>
+            <defitem>
+              <label>Pool, Abigail</label>
+              <item>relation, dated 1821</item>
+            </defitem>
+            <defitem>
+              <label>Prentiss, Mary</label>
+              <item>relation, dated 1821</item>
+            </defitem>
+            <defitem>
+              <label>Proctor, Benjamin</label>
+              <item>relation, undated</item>
+            </defitem>
+            <defitem>
+              <label>Reed, Emily</label>
+              <item>relation, undated</item>
+            </defitem>
+            <defitem>
+              <label>Richards, Betsey</label>
+              <item>relation, dated 1827</item>
+            </defitem>
+            <defitem>
+              <label>Richards, Nancy</label>
+              <item>relation, dated 1811</item>
+            </defitem>
+            <defitem>
+              <label>Thompson, Charity</label>
+              <item>relation, dated 1819</item>
+            </defitem>
+            <defitem>
+              <label>Walker, Elizabeth</label>
+              <item>relation, dated 1821</item>
+            </defitem>
+            <defitem>
+              <label>Walker, Samuel</label>
+              <item>relation, undated</item>
+            </defitem>
+            <defitem>
+              <label>Wark, Emma</label>
+              <item>relation, dated 1823</item>
+            </defitem>
+            <defitem>
+              <label>Wheton, Ruth</label>
+              <item>relation, dated 1796</item>
+            </defitem>
+          </list>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_8ebb252ff875416a38c9becbe21c868d" level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1827">1827</fromdate>
+              <todate standarddate="1858">1858</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1827-1858</unitdate>
+        </did>
+        <altformavail id="aspace_0e92e412a4f41a050584fbca27ce660e">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Hopkinton/viewer/Church20records2C2018271858/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_dd0052c33de4b8fe7cafcc9b530728a9">
+          <head>Scope and Contents</head>
+          <p>This volume includes correspondence, church meeting minutes, financial records, pew
+            appraisal records, and by-laws of the parish.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_9ffd7fd36feaa406d92bdc07319f1785" level="file">
+        <did>
+          <unittitle>Church building contract</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1829">1829</datesingle>
+          </unitdatestructured>
+        </did>
+        <altformavail id="aspace_afd00007e52f9fc2bb9408b7eb55cd17">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Hopkinton/viewer/Contract2C201829/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_c01252187ff206e81b0ab85335328915">
+          <head>Scope and Contents</head>
+          <p>This 3-page document comprises a legal contract from the Hopkinton parish to build a
+            meetinghouse for the church. It is dated March 14, 1829.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_cc54841734389b5717b8006741902306" level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1838">1838</fromdate>
+              <todate standarddate="1880">1880</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1838-1880</unitdate>
+        </did>
+        <altformavail id="aspace_7968d7e05b1f453b29a7d5ed38b1f79f">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Hopkinton/viewer/Church20records2C2018381880/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_e950bc1d5207591a262bfa860d4fb91e">
+          <head>Scope and Contents</head>
+          <p>Material in this volume includes ecclesiastical council notes, pastor installations,
+            church meeting minutes, committee meeting notes, officer lists, monthly and annual
+            church conference minutes, committee reports, a church manual with the confession of
+            faith revised in 1856, resolutions on the topic of temperance, correspondence, financial
+            records, and disciplinary case records.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
