@@ -1,0 +1,1510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/HalifaxMACongregational-5192.xml"
+      >HalifaxMACongregational</recordid>
+    <representation localtype="pdf"
+      href="http://www.congregationallibrary.org/sites/all/files/HalifaxMACongregational-5192.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Halifax, Mass. Congregational Church records, 1734-1932.</titleproper>
+        <author>Jules Thomson</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2019-11-07</date>
+        <num>RG5192</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.2</abbr>
+      <citation>Describing Archives: A Content Standard, Second Edition (DACS)</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2019-11-07T18:57:26+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Thursday November 7,
+          2019 at 18:57</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Halifax, Mass. Congregational Church records, 1734-1932.</unittitle>
+      <unitid>RG5192</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>1.09</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(1 box)</physdesc>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1734">1734</fromdate>
+          <todate standarddate="1932">1932</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" unitdatetype="inclusive">1734-1932</unitdate>
+      <abstract id="aspace_facd4322b67577d30b188de76364d23e">A Congregational church was officially
+        formed in Halifax in 1734, with 53 founding members. A second meeting house was built in
+        1852. In 1842 a Ladies Sewing Circle was organized and continued to be central to church
+        life. The Halifax Congregational Church is now a member of the United Church of Christ, and
+        continues to serve the community today. This collection consists of early administrative
+        records for the Congregational Church and the associated parish in Halifax.</abstract>
+      <origination label="creator">
+        <corpname rules="rda" source="local">
+          <part>Church of Christ (Halifax, Mass.)</part>
+        </corpname>
+      </origination>
+      <origination label="creator">
+        <corpname rules="rda" source="local">
+          <part>Halifax Congregational Church (Halifax, Mass.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_4ecbe02abaeb942369f8b24046dbc0b0">
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_30bcb97a17710fa34d06c5d60c1884ff">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite id="aspace_8486ced8b07c5600d4acc1dfce6a70b8">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Halifax, Mass. Congregational Church records, 1734-1932,
+        RG5192. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_98731625eb82a8449c756d87dec7a590">
+      <head>Immediate Source of Acquisition</head>
+      <p>Materials were loaned to the Congregational Library &amp; Archives by Halifax
+        Congregational Church, in March 2019; 2014-41.</p>
+    </acqinfo>
+    <processinfo id="aspace_186696eefb3364c783697cd8e721a698">
+      <head>Processing Information</head>
+      <p>Processed and described by Jules Thomson, November 2019, using DACS Second edition.</p>
+    </processinfo>
+    <bioghist id="aspace_a80bb1d14305984ebeb92b1418ba1e7f">
+      <head>Historical Note</head>
+      <p>The land which would become Halifax, Mass. was originally part of West Precinct of
+        Plymouth, which included Plympton, Carver, and Wareham. In 1731, residents in northern
+        Plympton lobbied successfully for permission to hold their own religious meeting in the home
+        of Deacon Robert Waterman. The following year, local landowner John Bryant deeded a plot to
+        the religious society's proprietors for the erection of a meeting house. In October of 1734
+        a church was officially formed by order of an ecclesiastical council, and its covenant
+        signed by 22 male and 31 female members. Rev. John Cotton was the church's first minister,
+        ordained in 1735 and remaining in the position for 20 years. Subsequent early pastors
+        included Rev. William Patten (1757-1765), Rev. Ephraim Briggs (1767-1799), and Rev. Abel
+        Richmond (1800-1832), who was ousted after a 33-year pastorate due to disagreements with
+        parishioners.</p>
+      <p>A Sunday school was founded in 1736, possibly the first such establishment in North
+        America. In the 1750s the meeting house was deemed too small to accommodate the growing
+        population. The building was split in half and expanded by 16 feet in the middle. In
+        addition to being a locus for both town and church business, the meeting house was also used
+        for the storage of munitions and gunpowder during the latter part of the 18th century. In
+        1821 a steeple and bell were built and installed via funds raised from the sale of pews. The
+        expanded first meeting house continued to serve the needs of the church until the early
+        1850s, when it was sold to the town to be used as a town hall. Though remarkably long-lived,
+        the building was destroyed in a fire in 1907.</p>
+      <p>After the dismission of Rev. Abel Richmond in 1832, Rev. Eldridge Howe was invited to the
+        ministry and accepted. A large portion of the congregation still professed loyalty to Rev.
+        Richmond. In 1834, 15 members seceded from the church. This was followed by numerous other
+        secessions over the following year, resulting in a significant decline in overall
+        membership, to about half of its former size. The remaining congregants were unable to pay
+        Rev. Howe's salary to his satisfaction, and he tendered his resignation in late 1835. The
+        following decades were typified by short supply ministries, a notable exception being the
+        11-year pastorate of Rev. Timothy Brainerd from 1855-1866.</p>
+      <p>In 1842 a Ladies' "Missionary Sewing Circle" was officially organized, with the intent to
+        provide clothing for a missionary station in Canada. The group changed names several times
+        in subsequent years and was also known as the Ladies Sewing Circle, the Ladies Benevolent
+        Society, and the Halifax Benevolent Society. Their mission also expanded to include general
+        fundraising for the church and other charitable causes. Despite changes in name and
+        emphasis, this women's group essentially persisted throughout the 19th and 20th centuries
+        and remained an important part of church life.</p>
+      <p>In 1852 a second meeting house was built for the Church's use, slightly to the west of the
+        original building. It was erected at a cost of $5,200 and was dedicated on December 7, 1852
+        with its dedicatory sermon delivered by the Rev. Charles Porter from Plymouth. In 1921,
+        during Sunday service, a violent wind gust caused the steeple to collapse and the spire to
+        fall into an unoccupied pew. The mortgage for the church was paid in full in 1978, and
+        subsequently burned ceremonially in a special service, a popular tradition at the time. The
+        Halifax Congregational Church is now a member of the United Church of Christ, and continues
+        to serve the community today.</p>
+    </bioghist>
+    <scopecontent id="aspace_3ac08edbfe7b2ab42b3ffe6844bf0057">
+      <head>Scope and Contents</head>
+      <p>This collection consists of early administrative records for the Congregational Church and
+        the associated parish in Halifax, as well as membership records, records of Ladies'
+        societies associated with the church, and manuscript historical narratives. Member records
+        include a large number of marriage intentions from the early to mid 1800s.</p>
+    </scopecontent>
+    <arrangement id="aspace_f4b80056d5fd8ddec802ee5efbd491d8">
+      <head>Arrangement</head>
+      <p>This collection has been arranged into four series, listed below. Except within the
+        membership series, records have been arranged in chronological order, by start date. Within
+        the membership series, records have been grouped by topics, and further divided by either
+        alphabetical or chronological order.</p>
+    </arrangement>
+    <bibliography id="aspace_694a533db2a2a8a0e1c5b0762d2f945a">
+      <head>Bibliography</head>
+      <p><emph>250th Anniversary Celebration: United Church of Christ of Halifax.</emph> Halifax,
+        1982. 17.11.1 H 13.5P H</p>
+      <p>Davis, Emerson. <emph>Biographical Sketches of the Congregational Pastors of New England:
+          Volume II</emph>, n.d. 9.3.90</p>
+      <p>Perkins, Ruth V. <emph>250th Anniversary of the Beginning of the Church.</emph> Halifax,
+        1982. 17.11.1 H 13.5P</p>
+      <p>Wadsworth, Joseph III. <emph>The History of the Halifax Congregational Church of Halifax,
+          Massachusetts, Vol. 1</emph> Halifax, 2008. 17.11.1 H 13.5 HalCC HW 2008</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh85025597" source="lcsh">
+        <part>Church discipline.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85033612" source="lcsh">
+        <part>Covenants (Church polity).</part>
+      </subject>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <subject identifier="sh85095385" source="lcsh">
+        <part>Ordination.</part>
+      </subject>
+      <subject identifier="sh85112383" source="lcsh">
+        <part>Registers of births, etc. </part>
+      </subject>
+      <subject source="lcsh">
+        <part>Women -- Religious life.</part>
+      </subject>
+      <subject identifier="sh85147343" source="lcsh">
+        <part>Women -- Societies and clubs.</part>
+      </subject>
+      <corpname rules="rda" source="local">
+        <part>Church of Christ (Halifax, Mass.)</part>
+      </corpname>
+      <corpname identifier="n84064431" source="lcnaf">
+        <part>Halifax (Mass. : Town) -- Church history.</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>Halifax Congregational Church (Halifax, Mass.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_7ab6a7c6476812ed8b980f3c271bfed4" level="series">
+        <did>
+          <unittitle>Church and parish records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1734">1734</fromdate>
+              <todate standarddate="1932">1932</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1734-1932</unitdate>
+        </did>
+        <scopecontent id="aspace_caa19f855ec0e894042ef85115cc9aeb">
+          <head>Scope and Contents</head>
+          <p>This series contains the administrative records of the church and parish in Halifax,
+            including three bound records books. The series includes meeting minutes, officer lists,
+            financial records, ecclesiastical council records, correspondence, and other
+            administrative documentation.</p>
+        </scopecontent>
+        <c02 id="aspace_59647c5cce9420c19e0369c7f99a2300" level="item">
+          <did>
+            <unittitle>Church records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1734">1734</fromdate>
+                <todate standarddate="1835">1835</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1734-1835</unitdate>
+            <container id="aspace_52e265aa84acb9935beebec9bda64e09" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_81ffba9e31a9c41c1dd00a5c95b348b2" localtype="volume"
+              parent="aspace_52e265aa84acb9935beebec9bda64e09">1</container>
+          </did>
+          <scopecontent id="aspace_3bb594bf944f04f0ff4d84280f3b18ac">
+            <head>Scope and Contents</head>
+            <p>This bound volume of church records contains the earliest administrative
+              documentation of the Church of Christ in Halifax. It includes the church's confession
+              of faith, the earliest covenant, meeting minutes, baptisms, member lists, and
+              disciplinary records.</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_1b8a32a2d659cf87675de7a3078cc06d" level="file">
+          <did>
+            <unittitle>Officer lists</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1735">1735</fromdate>
+                <todate standarddate="1885">1885</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1735-1885</unitdate>
+            <container id="aspace_0e0f69a8256023438380448d57ce4043" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_e59fbc152e5452fbf2734ed148e67141" localtype="folder"
+              parent="aspace_0e0f69a8256023438380448d57ce4043">1</container>
+          </did>
+          <scopecontent id="aspace_88cd13d6727371160b3469c0eca7a87b">
+            <head>Scope and Contents</head>
+            <p>This file contains loose records documenting lists of church officers, including
+              deacons and clergy.</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_a90920b519da82a43419429e73b7a4ae" level="file">
+          <did>
+            <unittitle>Financial records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1795">1795</fromdate>
+                <todate standarddate="1844">1844</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1795-1844</unitdate>
+            <container id="aspace_2b9a52585bfd9b016c4b80053f92b042" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_9736992adbd48943f6e5790473e22d86" localtype="folder"
+              parent="aspace_2b9a52585bfd9b016c4b80053f92b042">4</container>
+          </did>
+          <scopecontent id="aspace_abc69d495b4eee56c3513bca264f85ad">
+            <head>Scope and Contents</head>
+            <p>This folder contains loose financial records, including itemized receipts to and from
+              various individuals for everyday expenses, and Rev. Abel Richmond's receipts for
+              payments to Rhode Island College.</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_0cc02b767caa1101fef08a4b1a80aded" level="item">
+          <did>
+            <unittitle>Parish records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1824">1824</fromdate>
+                <todate standarddate="1885">1885</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1824-1885</unitdate>
+            <container id="aspace_34656be4f5e9ee724bfbde25282105d5" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_acd154f821a0f03313c1ff177f1f89a2" localtype="volume"
+              parent="aspace_34656be4f5e9ee724bfbde25282105d5">3</container>
+          </did>
+          <scopecontent id="aspace_3f6b5a0a3da3cec3b2b95c4e3fac283d">
+            <head>Scope and Contents</head>
+            <p>This bound parish record book primarily contains meeting minutes, as well as policy
+              documents, copies of deeds, and copies of correspondence.</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_f483f1cbfdd4ca952a8596e51217f964" level="item">
+          <did>
+            <unittitle>Parish treasury records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1825">1825</fromdate>
+                <todate standarddate="1867">1867</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1825-1867</unitdate>
+            <container id="aspace_6ccf47dd53431e2f37b4356a8ff68a1d" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_6617ac48d21eac6d8a7b17484c366b54" localtype="volume"
+              parent="aspace_6ccf47dd53431e2f37b4356a8ff68a1d">4</container>
+          </did>
+          <scopecontent id="aspace_fbaeec665c094e24d932c510769c3017">
+            <head>Scope and Contents</head>
+            <p>This bound volume of parish treasury records contains financial ledgers with lists of
+              subscribers and rates.</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_1432fa7586afc0d0addf5fc72e90a875" level="file">
+          <did>
+            <unittitle>Ecclesiastical council records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1832">1832</fromdate>
+                <todate standarddate="1875">1875</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1832-1875</unitdate>
+            <container id="aspace_63dc59a72021609437b9ef1e68a9399e" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_fbb7bfcf98c5968cae78044e05d4cba1" localtype="folder"
+              parent="aspace_63dc59a72021609437b9ef1e68a9399e">13</container>
+          </did>
+          <scopecontent id="aspace_6ac3ef5837c52afc114456476309608f">
+            <head>Scope and Contents</head>
+            <p>This folder contains loose records containing the results of ecclesiastical councils,
+              which were primarily called to settle disputes within individual churches, as well as
+              for the ordinations of new ministers.</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_457a745f50ad3e5de430883652c6a27e" level="file">
+          <did>
+            <unittitle>Meeting minutes</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1832">1832</fromdate>
+                <todate standarddate="1878">1878</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1832-1878</unitdate>
+            <container id="aspace_70e25104f377151eae3942f353433b7a" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_259bfa207994666f53cb86a51bfc0f30" localtype="folder"
+              parent="aspace_70e25104f377151eae3942f353433b7a">14</container>
+          </did>
+          <scopecontent id="aspace_3bd584f0b63deb6ab84cd7b9fcde3d0d">
+            <head>Scope and Contents</head>
+            <p>This folder contains loose records of meeting minutes for both the church and parish
+              of Halifax, which include legal warnings, synopses of meetings, and votes on various
+              issues.</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_22d4793659f60a8c9467cc167e87d1d8" level="item">
+          <did>
+            <unittitle>Church records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1832">1832</fromdate>
+                <todate standarddate="1891">1891</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1832-1891</unitdate>
+            <container id="aspace_c2ef0e1a8487132e4659611f79629f9a" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_7c3855407586bd85b6cec0df0c44d9e9" localtype="volume"
+              parent="aspace_c2ef0e1a8487132e4659611f79629f9a">5</container>
+          </did>
+          <scopecontent id="aspace_1759a1503d6203188a95558b9075ba5a">
+            <head>Scope and Contents</head>
+            <p>This bound volume contains records for the Congregational Church in Halifax (referred
+              to only as the "Church in Halifax"). The volume includes meeting minutes, baptisms,
+              admissions, member lists, articles of faith, the church covenant, and ecclesiastical
+              council minutes.</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_1c03f12018ad117b1adba7f3297c592c" level="file">
+          <did>
+            <unittitle>Correspondence</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1833">1833</fromdate>
+                <todate standarddate="1932">1932</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1833-1932</unitdate>
+            <container id="aspace_4c42438656a89396754e50f7a260499e" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_2789c127ba010489350a22b6c35e9845" localtype="folder"
+              parent="aspace_4c42438656a89396754e50f7a260499e">15</container>
+          </did>
+          <scopecontent id="aspace_9ffe81ea9c43a625a9930337fcd85651">
+            <head>Scope and Contents</head>
+            <p>This folder contains loose correspondence, including letters relating to church
+              disputes, missionary society correspondence and newsletter items, and invitations to
+              ordination councils.</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_4035f85c6d9eb77c06d15734c51b0783" level="file">
+          <did>
+            <unittitle>Photographs and prints</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1867; undated</unitdate>
+            <container id="aspace_9f3d3f4d781da12556294441c84430b6" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_b98870629d27042f6bbf2664df29fe0e" localtype="folder"
+              parent="aspace_9f3d3f4d781da12556294441c84430b6">19</container>
+          </did>
+          <scopecontent id="aspace_e80b68675e5e423c3f0f312364f67c72">
+            <head>Scope and Contents</head>
+            <p>This folder contains two black and white photographic prints depicting the sanctuary
+              of the second meeting house and the downstairs sunday school room, an engraving of the
+              Halifax town hall, and a missionary card depicting the ship "Morning Star".</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_2902fe909a7e4f5635c2d90b56908d03" level="file">
+          <did>
+            <unittitle>Conference records</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1884; undated</unitdate>
+            <container id="aspace_c7f80a88fe8241affcb0ed1e59824a53" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_c44581644af28bc75e7526e788233ba0" localtype="folder"
+              parent="aspace_c7f80a88fe8241affcb0ed1e59824a53">20</container>
+          </did>
+          <scopecontent id="aspace_78f821136bd2e19fdf22566b71d3d27a">
+            <head>Scope and Contents</head>
+            <p>This folder contains 2 loose records relating to the Pilgrim Conference at Halifax
+              and an invitation to a the Boston Council of Congregational Churches.</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_83aec763883a5962e99a01664b111c8a" level="file">
+          <did>
+            <unittitle>Policy documents</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1919; undated</unitdate>
+            <container id="aspace_dec58bd1b5d7d424b476954d562c192f" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_7c0ad70f0919e6c0b67ba3e6433eaf98" localtype="folder"
+              parent="aspace_dec58bd1b5d7d424b476954d562c192f">21</container>
+          </did>
+          <scopecontent id="aspace_cbb32687a39b3d61e229f5f107e4b5e2">
+            <head>Scope and Contents</head>
+            <p>This folder contains loose records relating to church policy, including undated early
+              copies of the church's articles of faith and covenant, as well as a constitution
+              document from the National Council of the Congregational Churches of the United
+              States.</p>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 id="aspace_d5549d4e0e510112d510b6f84cd7d4c3" level="series">
+        <did>
+          <unittitle>Membership records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1788">1788</fromdate>
+              <todate standarddate="1895">1895</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1788-1895</unitdate>
+        </did>
+        <scopecontent id="aspace_51a9546ab82aefc7d2d3fd32be0af811">
+          <head>Scope and Contents</head>
+          <p>This series contains the membership records of the church in Halifax, and includes
+            lists of admissions to the church, formal correspondence relating to dismissions and
+            transfers to and from other churches, a large number of official marriage intention
+            documents from the 1800s, and several relations of faith by potential members.</p>
+        </scopecontent>
+        <c02 id="aspace_e2b7eb000dabefa867b2defbad86d228" level="file">
+          <did>
+            <unittitle>Dismissions and transfers (A-H)</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1788">1788</fromdate>
+                <todate standarddate="1891">1891</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1788-1891</unitdate>
+            <container id="aspace_b4cc8809178aaef2a2f6b0bd22477d61" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_0800e0ff4826fdf3a092dc2bb4ce2fb4" localtype="folder"
+              parent="aspace_b4cc8809178aaef2a2f6b0bd22477d61">2</container>
+          </did>
+          <scopecontent id="aspace_94b2c003db9d51c21040e78b72f86e0c">
+            <head>Scope and Contents</head>
+            <p>This folder contains official correspondence between churches, relating to the
+              transfer and dismission of members to and from the Congregational Church in Halifax.
+              It includes documentation relating to members with surnames A-H.</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_9880e95ff40628ff1aa55ff0196760fc" level="file">
+          <did>
+            <unittitle>Dismissions and transfers (I-Z)</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1822">1822</fromdate>
+                <todate standarddate="1895">1895</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1822-1895</unitdate>
+            <container id="aspace_4c0c7efef511104fa40fd110e1602bbf" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_a66acf89b73540adcad0021e11bc872b" localtype="folder"
+              parent="aspace_4c0c7efef511104fa40fd110e1602bbf">3</container>
+          </did>
+          <scopecontent id="aspace_d5dbd1a61f8f21ff330c8716b22aca78">
+            <head>Scope and Contents</head>
+            <p>This folder contains official correspondence between churches, relating to the
+              transfer and dismission of members to and from the Congregational Church in Halifax.
+              It includes documentation relating to members with surnames I-Z.</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_729dc1c13c621f7c491c41990d1117ee" level="file">
+          <did>
+            <unittitle>Marriage intentions (A-B)</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1804">1804</fromdate>
+                <todate standarddate="1849">1849</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1804-1849</unitdate>
+            <container id="aspace_3bfd157aff3c7b567d8673ccebe83198" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_baf4794f073f2a44b8e294b8c60a1e01" localtype="folder"
+              parent="aspace_3bfd157aff3c7b567d8673ccebe83198">5</container>
+          </did>
+          <scopecontent id="aspace_4807fe107956af09753ae22664ff8ddf">
+            <head>Scope and Contents</head>
+            <p>This folder contains marriage intentions, official documents recording marriages in
+              Halifax and surrounding areas. The intentions record the names of the betrothed and
+              their location, and are typically signed by the town clerk. Records are arranged
+              alphabetically by the groom's surname.</p>
+            <list listtype="deflist">
+              <head>Marriage intentions by surname, A-B</head>
+              <defitem>
+                <label>Melzar Adams Jr. and Olive Inglee</label>
+                <item>1804 (Halifax)</item>
+              </defitem>
+              <defitem>
+                <label>Melzar Adams Jr. and Olive Inglee</label>
+                <item>1804 (Kingston)</item>
+              </defitem>
+              <defitem>
+                <label>Daniel Alden and Joanna Tilson</label>
+                <item>1804</item>
+              </defitem>
+              <defitem>
+                <label>Seth Allen and Lucy Holmes</label>
+                <item>1809</item>
+              </defitem>
+              <defitem>
+                <label>Sidney Allen and Elizabeth Hayward</label>
+                <item>1849</item>
+              </defitem>
+              <defitem>
+                <label>John Attwood Jr. and Martha Thomson</label>
+                <item>1828</item>
+              </defitem>
+              <defitem>
+                <label>Jabez Bosworth and Sarah Bradford</label>
+                <item>1806</item>
+              </defitem>
+              <defitem>
+                <label>Francis Bourne and Jannet Thomson</label>
+                <item>1823</item>
+              </defitem>
+              <defitem>
+                <label>William Bozworth and Lucy Hayward</label>
+                <item>1807</item>
+              </defitem>
+              <defitem>
+                <label>Zalmon Brigg and Mary Briggs</label>
+                <item>1819</item>
+              </defitem>
+              <defitem>
+                <label>Thomas Bryant and Nancy Sturtevant</label>
+                <item>1827</item>
+              </defitem>
+              <defitem>
+                <label>Zenas Bryant and Judith Sturtevant</label>
+                <item>1822</item>
+              </defitem>
+              <defitem>
+                <label>Robert Byram and Mercy Faxon</label>
+                <item>1814</item>
+              </defitem>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_f2ea7a5828734c1b75aa58cca3a901df" level="file">
+          <did>
+            <unittitle>Marriage intentions (C-G)</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1802">1802</fromdate>
+                <todate standarddate="1827">1827</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1802-1827</unitdate>
+            <container id="aspace_edc374a3c17aca17e266b83652df0903" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_e21beee9ed8120ca0f54295585d5a129" localtype="folder"
+              parent="aspace_edc374a3c17aca17e266b83652df0903">6</container>
+          </did>
+          <scopecontent id="aspace_589562efbcc901817cb7e9b95edbc29a">
+            <head>Scope and Contents</head>
+            <p>This folder contains marriage intentions, official documents recording marriages in
+              Halifax and surrounding areas. The intentions record the names of the betrothed and
+              their location, and are typically signed by the town clerk. Records are arranged
+              alphabetically by the groom's surname.</p>
+            <list listtype="deflist">
+              <head>Marriage intentions by surname, C-G</head>
+              <defitem>
+                <label>Sebery Child Hathaway and Sarah Porter </label>
+                <item>1818</item>
+              </defitem>
+              <defitem>
+                <label>Ebenezer Colwell Jr. and Elizabeth Bosworth</label>
+                <item>1822</item>
+              </defitem>
+              <defitem>
+                <label>Galen Colwell and Lucy Bosworth</label>
+                <item>1827 (West Bridgewater)</item>
+              </defitem>
+              <defitem>
+                <label>Galen Colwell and Lucy Bosworth</label>
+                <item>1827 (Plympton)</item>
+              </defitem>
+              <defitem>
+                <label>Isaac Cook and Jane Drew</label>
+                <item>1802</item>
+              </defitem>
+              <defitem>
+                <label>Thomas Cornish and Deborah Leach</label>
+                <item>1826 (Halifax)</item>
+              </defitem>
+              <defitem>
+                <label>Thomas Cornish and Deborah Leach</label>
+                <item>1826 (Plymouth)</item>
+              </defitem>
+              <defitem>
+                <label>Melven Crooker and Mary Thomson</label>
+                <item>1807</item>
+              </defitem>
+              <defitem>
+                <label>George Drew and Sarah Thomson III</label>
+                <item>1810</item>
+              </defitem>
+              <defitem>
+                <label>Silvanus Eddy and Joanna Fuller Jr.</label>
+                <item>1808</item>
+              </defitem>
+              <defitem>
+                <label>Nathaniel French and Betsey Waterman</label>
+                <item>1811</item>
+              </defitem>
+              <defitem>
+                <label>Nathaniel French and Eliza Waterman</label>
+                <item>1811</item>
+              </defitem>
+              <defitem>
+                <label>Benjamin Fuller and Anne Bosworth</label>
+                <item>1826</item>
+              </defitem>
+              <defitem>
+                <label>Ebenezer Fuller and Rebecca Fuller</label>
+                <item>1808</item>
+              </defitem>
+              <defitem>
+                <label>Thomas Fuller and Sally Sturtevant</label>
+                <item>1811</item>
+              </defitem>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_ddd6f4906a6677b562683fc575c3aa0d" level="file">
+          <did>
+            <unittitle>Marriage intentions (H)</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1802">1802</fromdate>
+                <todate standarddate="1839">1839</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1802-1839</unitdate>
+            <container id="aspace_396d51609f5daf21e9f1244325e5c252" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_77c0a4356a9cf660a5e0be372e2a459e" localtype="folder"
+              parent="aspace_396d51609f5daf21e9f1244325e5c252">7</container>
+          </did>
+          <scopecontent id="aspace_2f36793bf326b47bec8d14394c02dc25">
+            <head>Scope and Contents</head>
+            <p>This folder contains marriage intentions, official documents recording marriages in
+              Halifax and surrounding areas. The intentions record the names of the betrothed and
+              their location, and are typically signed by the town clerk. Records are arranged
+              alphabetically by the groom's surname.</p>
+            <list listtype="deflist">
+              <head>Marriage intentions by surname, H</head>
+              <defitem>
+                <label>Benjamin Hammonds and Hannah Sturtevant</label>
+                <item>1802 (Carver)</item>
+              </defitem>
+              <defitem>
+                <label>Benjamin Hammonds and Hannah Sturtevant</label>
+                <item>1802 (Halifax)</item>
+              </defitem>
+              <defitem>
+                <label>Ebenezer Hall and Nancy Dunbar</label>
+                <item>1816 (Halifax)</item>
+              </defitem>
+              <defitem>
+                <label>Ebenezer Hall and Nancy Dunbar</label>
+                <item>1816 (Bridgewater)</item>
+              </defitem>
+              <defitem>
+                <label>Silvanus Hall and Almiry Cushman</label>
+                <item>1816 (Bridgewater)</item>
+              </defitem>
+              <defitem>
+                <label>Silvanus Hall and Almaria Cushman</label>
+                <item>1816 (Halifax)</item>
+              </defitem>
+              <defitem>
+                <label>John Harris and Rebecca Wood</label>
+                <item>1811 (Bridgewater)</item>
+              </defitem>
+              <defitem>
+                <label>John Harris and Rebecca Wood</label>
+                <item>1811 (Halifax)</item>
+              </defitem>
+              <defitem>
+                <label>Ephraim Harden and Harty Harden</label>
+                <item>1823</item>
+              </defitem>
+              <defitem>
+                <label>Ebenezer Hathaway and Lucia Hill</label>
+                <item>1839</item>
+              </defitem>
+              <defitem>
+                <label>Benjamin Hayward and Cynthia Wade</label>
+                <item>1831</item>
+              </defitem>
+              <defitem>
+                <label>Ziba Hayward and Sally Bozworth</label>
+                <item>1806</item>
+              </defitem>
+              <defitem>
+                <label>Ziba Hayward and Sarah Bosworth III</label>
+                <item>1806</item>
+              </defitem>
+              <defitem>
+                <label>Eleazer Holmes and Ruth Waterman</label>
+                <item>1803</item>
+              </defitem>
+              <defitem>
+                <label>Ellis Holmes and Content Chipman</label>
+                <item>1808 (Brigewater)</item>
+              </defitem>
+              <defitem>
+                <label>Ellis Holmes and Content Chipman</label>
+                <item>1808 (Halifax)</item>
+              </defitem>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_9cdb0cdc06f8ea58b89cfd23e17e895d" level="file">
+          <did>
+            <unittitle>Marriage intentions (J-M)</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1801">1801</fromdate>
+                <todate standarddate="1848">1848</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1801-1848</unitdate>
+            <container id="aspace_68b388bb88295e31706edf730b07d4c9" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_82f44a9d57f19ff93e0d4a81b037471f" localtype="folder"
+              parent="aspace_68b388bb88295e31706edf730b07d4c9">8</container>
+          </did>
+          <scopecontent id="aspace_d124391d27857c5692d2794fec51ddae">
+            <head>Scope and Contents</head>
+            <p>This folder contains marriage intentions, official documents recording marriages in
+              Halifax and surrounding areas. The intentions record the names of the betrothed and
+              their location, and are typically signed by the town clerk. Records are arranged
+              alphabetically by the groom's surname.</p>
+            <list listtype="deflist">
+              <head>Marriage intentions by surname, J-M</head>
+              <defitem>
+                <label>George Washington Jackson and Molly Briggs Jr.</label>
+                <item>1804</item>
+              </defitem>
+              <defitem>
+                <label>William Jackson to Joanna Crooker</label>
+                <item>1848</item>
+              </defitem>
+              <defitem>
+                <label>Ebenezer Johnson and Lucinda Sears</label>
+                <item>1826 (Londonderry)</item>
+              </defitem>
+              <defitem>
+                <label>Ebenezer Johnson and Lucinda Sears</label>
+                <item>1826 (Halifax)</item>
+              </defitem>
+              <defitem>
+                <label>Arnold Leach and Polly Fuller</label>
+                <item>1812 (Middleborough)</item>
+              </defitem>
+              <defitem>
+                <label>Arnold Leach and Polly Fuller</label>
+                <item>1812 (Halifax)</item>
+              </defitem>
+              <defitem>
+                <label>Joseph Leach and Susanna Sturtevant</label>
+                <item>1801 (Halifax)</item>
+              </defitem>
+              <defitem>
+                <label>Joseph Leach and Susanna Sturtevant</label>
+                <item>1801 (Middleboro)</item>
+              </defitem>
+              <defitem>
+                <label>Joshua Leach and Celia Dean</label>
+                <item>1804</item>
+              </defitem>
+              <defitem>
+                <label>Alpha Lyon and Tabatha Leach</label>
+                <item>1829</item>
+              </defitem>
+              <defitem>
+                <label>Isaac Lyon and Polly Thomson</label>
+                <item>1816</item>
+              </defitem>
+              <defitem>
+                <label>Joshua Lyon and Lucy Thomson</label>
+                <item>1809</item>
+              </defitem>
+              <defitem>
+                <label>Albert Morton and Rachel Hadley</label>
+                <item>1825</item>
+              </defitem>
+              <defitem>
+                <label>Cyrus Morton and Lucy Drew</label>
+                <item>1825</item>
+              </defitem>
+              <defitem>
+                <label>Lloyd Morton and Mercy Tilson</label>
+                <item>1820</item>
+              </defitem>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_43d1742e9c009369d864e8272b57e247" level="file">
+          <did>
+            <unittitle>Marriage intentions (P-R)</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1801">1801</fromdate>
+                <todate standarddate="1832">1832</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1801-1832</unitdate>
+            <container id="aspace_688b314b42ca97ae62ce538c0197039e" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_4553558e20d954cf6336ccec796a10a1" localtype="folder"
+              parent="aspace_688b314b42ca97ae62ce538c0197039e">9</container>
+          </did>
+          <scopecontent id="aspace_fee8593c5b17c3834a796f83683181e2">
+            <head>Scope and Contents</head>
+            <p>This folder contains marriage intentions, official documents recording marriages in
+              Halifax and surrounding areas. The intentions record the names of the betrothed and
+              their location, and are typically signed by the town clerk. Records are arranged
+              alphabetically by the groom's surname.</p>
+            <list listtype="deflist">
+              <head>Marriage intentions by surname, P-R</head>
+              <defitem>
+                <label>Friend Perkins and Anna Inglee</label>
+                <item>1832</item>
+              </defitem>
+              <defitem>
+                <label>John Pool and Bethiah Lucas</label>
+                <item>1826</item>
+              </defitem>
+              <defitem>
+                <label>Henry Pope and Lydia Sturtevant</label>
+                <item>1826</item>
+              </defitem>
+              <defitem>
+                <label>Asa Pratt and Lydia Lyon</label>
+                <item>1802</item>
+              </defitem>
+              <defitem>
+                <label>Asa Pratt II and Rebecca Leach</label>
+                <item>1818</item>
+              </defitem>
+              <defitem>
+                <label>Bela Pratt and Sophia Weston</label>
+                <item>1801</item>
+              </defitem>
+              <defitem>
+                <label>Cornelius Pratt and Lucina Thompson</label>
+                <item>1823 (Bridgewater)</item>
+              </defitem>
+              <defitem>
+                <label>Cornelius Pratt and Lucina Thompson</label>
+                <item>1823 (Halifax)</item>
+              </defitem>
+              <defitem>
+                <label>David Pratt and Lydia Corthell</label>
+                <item>1812</item>
+              </defitem>
+              <defitem>
+                <label>Ebenezer Pratt and Olive Wood</label>
+                <item>1824</item>
+              </defitem>
+              <defitem>
+                <label>Jonathan Pratt and Nabby Phillips</label>
+                <item>1822</item>
+              </defitem>
+              <defitem>
+                <label>Samuel Ramsdel Jr. and Rebecca Thompson</label>
+                <item>1809</item>
+              </defitem>
+              <defitem>
+                <label>Isaiah Ripley Jr. and Zerviah Fuller</label>
+                <item>1805 (Plympton)</item>
+              </defitem>
+              <defitem>
+                <label>Isaiah Ripley Jr. and Zerviah Fuller</label>
+                <item>1805 (Halifax)</item>
+              </defitem>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_c4ed1b52128990a7c2bd64754960c801" level="file">
+          <did>
+            <unittitle>Marriage intentions (S)</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1801">1801</fromdate>
+                <todate standarddate="1848">1848</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1801-1848</unitdate>
+            <container id="aspace_05d81b062043b039a83f897c6ce9cbe3" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_61d3e88ffaf51ababef4dd1efbcf7b58" localtype="folder"
+              parent="aspace_05d81b062043b039a83f897c6ce9cbe3">10</container>
+          </did>
+          <scopecontent id="aspace_6de21032f87fe79e07654c2f37d9178f">
+            <head>Scope and Contents</head>
+            <p>This folder contains marriage intentions, official documents recording marriages in
+              Halifax and surrounding areas. The intentions record the names of the betrothed and
+              their location, and are typically signed by the town clerk. Records are arranged
+              alphabetically by the groom's surname.</p>
+            <list listtype="deflist">
+              <head>Marriage intentions by surname, S</head>
+              <defitem>
+                <label>William Seares and Mary Wood</label>
+                <item>1825</item>
+              </defitem>
+              <defitem>
+                <label>James Smith and Mercy Colwell</label>
+                <item>1847</item>
+              </defitem>
+              <defitem>
+                <label>Daniel Soule and Lucy Waterman</label>
+                <item>1818 (Plympton)</item>
+              </defitem>
+              <defitem>
+                <label>Daniel Soule and Lucy Waterman</label>
+                <item>1818 (Halifax)</item>
+              </defitem>
+              <defitem>
+                <label>Ebenezer Soule and Mary Thompson</label>
+                <item>1828 (Dorchester)</item>
+              </defitem>
+              <defitem>
+                <label>Ebenezer Soule and Mary Thomson</label>
+                <item>1828 (Halifax)</item>
+              </defitem>
+              <defitem>
+                <label>isaac Soule and Ruth Fuller</label>
+                <item>1805</item>
+              </defitem>
+              <defitem>
+                <label>Thomas Soule and Betsy Soule</label>
+                <item>1823</item>
+              </defitem>
+              <defitem>
+                <label>Thomas Standish and Bethiah Waterman</label>
+                <item>1810</item>
+              </defitem>
+              <defitem>
+                <label>John Stebbins and Mary Ford</label>
+                <item>1848</item>
+              </defitem>
+              <defitem>
+                <label>Thomas Stilman and Claira Thomson</label>
+                <item>1831</item>
+              </defitem>
+              <defitem>
+                <label>Bela Sturtevant and Hannah Chandler</label>
+                <item>1808</item>
+              </defitem>
+              <defitem>
+                <label>Dependence Sturtevant and Sarah Soule</label>
+                <item>1816</item>
+              </defitem>
+              <defitem>
+                <label>John Sturtevant and Martha Waterman</label>
+                <item>1822</item>
+              </defitem>
+              <defitem>
+                <label>Josiah Sturtevant and Charlotte Cushing</label>
+                <item>1804</item>
+              </defitem>
+              <defitem>
+                <label>Ward Sturtevant and Lucinda Christian</label>
+                <item>1816</item>
+              </defitem>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_e98d028baeb84a61d7357125d01f0e04" level="file">
+          <did>
+            <unittitle>Marriage intentions (T)</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1801">1801</fromdate>
+                <todate standarddate="1826">1826</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1801-1826</unitdate>
+            <container id="aspace_77811a211098ce1ea04c87ab7643c796" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_40d53f183fa5ebc3393624f918c8beed" localtype="folder"
+              parent="aspace_77811a211098ce1ea04c87ab7643c796">11</container>
+          </did>
+          <scopecontent id="aspace_64a0b083c34d6746c3c740c8377f2f40">
+            <head>Scope and Contents</head>
+            <p>This folder contains marriage intentions, official documents recording marriages in
+              Halifax and surrounding areas. The intentions record the names of the betrothed and
+              their location, and are typically signed by the town clerk. Records are arranged
+              alphabetically by the groom's surname.</p>
+            <list listtype="deflist">
+              <head>Marriage intentions by surname, T</head>
+              <defitem>
+                <label>Walter Thomas and Fanny Clark</label>
+                <item>1815 (Halifax)</item>
+              </defitem>
+              <defitem>
+                <label>Walter Thomas and Fanny Clark</label>
+                <item>1815 (Plympton)</item>
+              </defitem>
+              <defitem>
+                <label>Eliab Thomson and Levina Washburn</label>
+                <item>1819 (Halifax)</item>
+              </defitem>
+              <defitem>
+                <label>Eliab Thomson and Levina Washburn</label>
+                <item>1819 (Bridgewater)</item>
+              </defitem>
+              <defitem>
+                <label>Ire Thomson and Sophie Drew</label>
+                <item>1802</item>
+              </defitem>
+              <defitem>
+                <label>Eliab Thomson and Lydia Thomson`</label>
+                <item>1826</item>
+              </defitem>
+              <defitem>
+                <label>Lewis Thomson and Huldah Wood</label>
+                <item>1821</item>
+              </defitem>
+              <defitem>
+                <label>Nathan Thomson and Elizabeth Fobes</label>
+                <item>1802 (Bridgewater)</item>
+              </defitem>
+              <defitem>
+                <label>Nathaniel Thomson and Molly Foster</label>
+                <item>1812</item>
+              </defitem>
+              <defitem>
+                <label>Ward Thomson and Molly Holmes</label>
+                <item>1814</item>
+              </defitem>
+              <defitem>
+                <label>Adam Tomson Jr. and Salvina Wood Jr.</label>
+                <item>1808</item>
+              </defitem>
+              <defitem>
+                <label>Nathan Tomson and Elizabeth Fobes</label>
+                <item>1802 (Halifax)</item>
+              </defitem>
+              <defitem>
+                <label>Samuel Tomson and Clare Sturlevant</label>
+                <item>1801`</item>
+              </defitem>
+              <defitem>
+                <label>Zebadiah Tomson Jr. and Martha Briggs</label>
+                <item>1805</item>
+              </defitem>
+              <defitem>
+                <label>Bethuel Tilson and Pemela Bosworth</label>
+                <item>1808</item>
+              </defitem>
+              <defitem>
+                <label>Bethuel Tillson and Peranelia Bosworth</label>
+                <item>1809</item>
+              </defitem>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_179b11ce27c8966959c3e208bb7b8589" level="file">
+          <did>
+            <unittitle>Marriage intentions (W)</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1802">1802</fromdate>
+                <todate standarddate="1826">1826</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1802-1826</unitdate>
+            <container id="aspace_e23e32e2c54fa48922548d26d500d21c" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_d92fe25cccb0ecc185d254bd17a1cebb" localtype="folder"
+              parent="aspace_e23e32e2c54fa48922548d26d500d21c">12</container>
+          </did>
+          <scopecontent id="aspace_e051481ed7959cc8ed6efad3cdf6e0c6">
+            <head>Scope and Contents</head>
+            <p>This folder contains marriage intentions, official documents recording marriages in
+              Halifax and surrounding areas. The intentions record the names of the betrothed and
+              their location, and are typically signed by the town clerk. Records are arranged
+              alphabetically by the groom's surname.</p>
+            <list listtype="deflist">
+              <head>Marriage intentions by surname, W</head>
+              <defitem>
+                <label>James Wade and Sabina Lyon</label>
+                <item>1802</item>
+              </defitem>
+              <defitem>
+                <label>Melven Wade and Lydia Holmes</label>
+                <item>1803</item>
+              </defitem>
+              <defitem>
+                <label>Cephas Washburn and Mercy Parris</label>
+                <item>1826 (Bridgewater)</item>
+              </defitem>
+              <defitem>
+                <label>Cephas Washburn and Mercy Parris</label>
+                <item>1826 (Halifax)</item>
+              </defitem>
+              <defitem>
+                <label>Cephas Waterman and Bathsheba Richmond</label>
+                <item>1818</item>
+              </defitem>
+              <defitem>
+                <label>Abial White and Joanna Fuller</label>
+                <item>1808</item>
+              </defitem>
+              <defitem>
+                <label>Martin Willis and Sabina Thompson</label>
+                <item>1825</item>
+              </defitem>
+              <defitem>
+                <label>Cyrus Wood and Lucy Fuller</label>
+                <item>1820</item>
+              </defitem>
+              <defitem>
+                <label>John Wood and Dianthy Waterman</label>
+                <item>1819</item>
+              </defitem>
+              <defitem>
+                <label>Judah Wood Jr. and Rhoda Shaw</label>
+                <item>1812</item>
+              </defitem>
+              <defitem>
+                <label>Timothy Wood Jr. and Mercy Bosworth Jr.</label>
+                <item>1818</item>
+              </defitem>
+            </list>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_72a774c6f2262d983d2fa0a7b41da901" level="file">
+          <did>
+            <unittitle>Admissions</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1840">1840</fromdate>
+                <todate standarddate="1867">1867</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1840-1867</unitdate>
+            <container id="aspace_94a69d66cabcc20794b6be410307eab8" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_eaa69cdb047791ddeb2bd533381d7564" localtype="folder"
+              parent="aspace_94a69d66cabcc20794b6be410307eab8">16</container>
+          </did>
+          <scopecontent id="aspace_0d00e0b329edc5e792ebbe09d2876f74">
+            <head>Scope and Contents</head>
+            <p>This folder contains loose records relating to admissions, specifically lists of
+              admitted members with dates of admission. Some documents recording early admissions
+              appear to be in a more modern hand.</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_49b205f4e80b388551779631f4fa1139" level="file">
+          <did>
+            <unittitle>Relations</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1842">1842</fromdate>
+                <todate standarddate="1867">1867</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1842-1867</unitdate>
+            <container id="aspace_3bc9111215e17b66e6b552ddc3382923" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_cd746d9062dfcfba49b0a81468495c05" localtype="folder"
+              parent="aspace_3bc9111215e17b66e6b552ddc3382923">17</container>
+          </did>
+          <scopecontent id="aspace_8e1953da546fefded468c90147eb3975">
+            <head>Scope and Contents</head>
+            <p>This folder contains relations of faith documents, formalized personal religious
+              statements written by individuals seeking admission to the church. The relations are
+              organized alphabetically by surname.</p>
+            <list listtype="deflist">
+              <head>Relations by surname</head>
+              <defitem>
+                <label>Bosworth, Mary</label>
+                <item>undated</item>
+              </defitem>
+              <defitem>
+                <label>Fuller, Mary</label>
+                <item>1858</item>
+              </defitem>
+              <defitem>
+                <label>Fuller, Levesta</label>
+                <item>1863</item>
+              </defitem>
+              <defitem>
+                <label>Fuller, Mary</label>
+                <item>1867</item>
+              </defitem>
+              <defitem>
+                <label>Fuller, Mary</label>
+                <item>1867 (copy)</item>
+              </defitem>
+              <defitem>
+                <label>Fuller, Nelson</label>
+                <item>1861</item>
+              </defitem>
+              <defitem>
+                <label>Morton, Lydia</label>
+                <item>1842</item>
+              </defitem>
+              <defitem>
+                <label>Sturtevant, Mary</label>
+                <item>1858</item>
+              </defitem>
+              <defitem>
+                <label>Sylvester, L. H.</label>
+                <item>1869</item>
+              </defitem>
+              <defitem>
+                <label>Thomson, Salvina</label>
+                <item>undated</item>
+              </defitem>
+            </list>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 id="aspace_348d149e0661c557678be93a5056cda4" level="series">
+        <did>
+          <unittitle>Historical narratives</unittitle>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1807-1812, undated</unitdate>
+        </did>
+        <scopecontent id="aspace_650f1d759a05d16fd8b08f219c359723">
+          <head>Scope and Contents</head>
+          <p>This series contains handwritten historical accounts, mainly by Halifax local Ignatius
+            Thomson. In his voluminous manuscripts he describes the historical events leading up to
+            the foundation of Halifax as well as a history of the town and region. There are also a
+            small number of undated handwritten historical notes.</p>
+        </scopecontent>
+        <c02 id="aspace_8ec09388ea2e9d24a892a2376f944df6" level="item">
+          <did>
+            <unittitle>Ignatius Thomson historical manuscript and ledger</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1807">1807</fromdate>
+                <todate standarddate="1812">1812</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1807-1812</unitdate>
+            <container id="aspace_17077d128b192dbf49a8454eaf3395f5" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_0f3a5e550a9662bcbb177c94d34ada31" localtype="volume"
+              parent="aspace_17077d128b192dbf49a8454eaf3395f5">2</container>
+          </did>
+          <scopecontent id="aspace_0b3b23330a7e01c8474e7cf2b9008b6b">
+            <head>Scope and Contents</head>
+            <p>This manuscript volume contains a broad-ranging historical narrative focusing on the
+              history of Halifax. A tête-bêche financial ledger is also present at the back of the
+              volume.</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_39c1982b268fa87308097280b79c2fa1" level="file">
+          <did>
+            <unittitle>Ignatius Thomson historical manuscripts (loose)</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_da45a83f15ff0bb2cded9989a1c720a9" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_936be66d4b6b4ff18befc94d1a05d545" localtype="folder"
+              parent="aspace_da45a83f15ff0bb2cded9989a1c720a9">23</container>
+          </did>
+          <scopecontent id="aspace_ebfbdb279237cc855709d2c973fefffa">
+            <head>Scope and Contents</head>
+            <p>These loose manuscript pages were removed from the Ignatius Thomson historical
+              manuscript and ledger, 1807-1812, and contain similar historical narrative
+              material.</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_a5b46015e08589757a8fe988fa3150d8" level="file">
+          <did>
+            <unittitle>Historical narratives</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_fe71d6c283a54fbb9b96f8e86eefec09" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_536f24bc7725039b61182d6b81e6999c" localtype="folder"
+              parent="aspace_fe71d6c283a54fbb9b96f8e86eefec09">22</container>
+          </did>
+          <scopecontent id="aspace_c9a96f6de92f778ba75b3d23efdc1767">
+            <head>Scope and Contents</head>
+            <p>This folder contains undated historical notes relating to the history of Halifax,
+              including a handwritten historical sketch, and part of an unidentified published
+              tract.</p>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 id="aspace_1a649cb6c352346817b463689e444b23" level="series">
+        <did>
+          <unittitle>Ladies Societies records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1842">1842</fromdate>
+              <todate standarddate="1890">1890</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1842-1890</unitdate>
+        </did>
+        <scopecontent id="aspace_0636f2de563c44a2d421293e595a87ae">
+          <head>Scope and Contents</head>
+          <p>This series consists of four record books and one folder of loose documents relating to
+            various iterations of the Ladies Society of the Halifax Congregational Church. The
+            record books are largely sequential with occassional gaps and changes in name.</p>
+        </scopecontent>
+        <c02 id="aspace_33ada81e96d03d3c306503eb79d03821" level="item">
+          <did>
+            <unittitle>Ladies Benevolent Society records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1842">1842</fromdate>
+                <todate standarddate="1855">1855</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1842-1855</unitdate>
+            <container id="aspace_eff68ce5d1d37900f0ae3e4e5e6b21d6" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_02d5886db1837f505ea481a9cc34517e" localtype="volume"
+              parent="aspace_eff68ce5d1d37900f0ae3e4e5e6b21d6">6</container>
+          </did>
+          <scopecontent id="aspace_8a48325a74f7fe263f8f9d699e79e6e1">
+            <head>Scope and Contents</head>
+            <p>This record book of the Ladies Benevolent Society contains a preamble with the
+              organization's mission statement, meeting minutes, lists of officers, lists of
+              subscribers, and financial records.</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_db52ecbbb530d8d96f4875c52d48f938" level="item">
+          <did>
+            <unittitle>Ladies Benevolent Society records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1855">1855</fromdate>
+                <todate standarddate="1863">1863</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1855-1863</unitdate>
+            <container id="aspace_c8cbc70a788ffaed90e6ba70474f2207" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_97b2d4221b8f525bcdba8ee1ee497513" localtype="volume"
+              parent="aspace_c8cbc70a788ffaed90e6ba70474f2207">7</container>
+          </did>
+          <scopecontent id="aspace_90a09b7dcfa04e4e2f78a17e0a8e7c12">
+            <head>Scope and Contents</head>
+            <p>This volume contains the records for the Ladies Benevolent Society, including meeting
+              minutes, officer lists, financial records, and records of charitable contributions
+              including collections for Union soldiers during the Civil War.</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_652647908791a82010c59c23c0f08a24" level="file">
+          <did>
+            <unittitle>Ladies Sewing Society records (loose)</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1860-1864; undated</unitdate>
+            <container id="aspace_bf12ac4855453f81c4db99a7d3c511be" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_cf36fec767999e011d8bfffc8ec3ae6e" localtype="folder"
+              parent="aspace_bf12ac4855453f81c4db99a7d3c511be">18</container>
+          </did>
+          <scopecontent id="aspace_93a767384f909f1c281f6cc367542b41">
+            <head>Scope and Contents</head>
+            <p>This folder of loose records relating to the Ladies Sewing Society were found inside
+              the Ladies Benevolent Society record book, 1855-1863. They include correspondence,
+              including a letter relating to Civil War charity donations, and financial records.</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_92c4e0a1b2a75a22aead00411559cf5a" level="item">
+          <did>
+            <unittitle>Ladies Sewing Society records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1873">1873</fromdate>
+                <todate standarddate="1881">1881</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1873-1881</unitdate>
+            <container id="aspace_fcde57b6424688dcd7b5fc5ff556c940" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_ae60abc7cf7c4f59d3f48a0705c94199" localtype="volume"
+              parent="aspace_fcde57b6424688dcd7b5fc5ff556c940">8</container>
+          </did>
+          <scopecontent id="aspace_1c1fd17ea008fe921a99b5dc53dff1b0">
+            <head>Scope and Contents</head>
+            <p>This bound volume of Ladies Sewing Society records includes a copy of the
+              organization's constitution, meeting minutes, officer lists, and financial
+              ledgers.</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_58fa6e9a0f9299290c155da3fe3b8a1e" level="item">
+          <did>
+            <unittitle>Ladies Sewing Circle records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1881">1881</fromdate>
+                <todate standarddate="1890">1890</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1881-1890</unitdate>
+            <container id="aspace_83ddfd4b484816afed6a1f750a6341c0" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_dcc98ab9af3234bb277592b109b95e67" localtype="volume"
+              parent="aspace_83ddfd4b484816afed6a1f750a6341c0">9</container>
+          </did>
+          <scopecontent id="aspace_3a0e932670f28351d1af1724718043d7">
+            <head>Scope and Contents</head>
+            <p>This bound volume of the Ladies Sewing Circle records includes meeting minutes,
+              officer lists, and copies of correspondence.</p>
+          </scopecontent>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
