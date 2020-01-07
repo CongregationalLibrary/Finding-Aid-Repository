@@ -1,0 +1,1042 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/MedfieldMAFirst-5309.xml"
+      >MedfieldMAFirst-5309</recordid>
+    <representation localtype="pdf"
+      href="http://www.congregationallibrary.org/sites/all/files/MedfieldMAFirst-5309.pdf"> </representation>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Medfield, Mass. First Parish Unitarian Church records, 1697-1970.</titleproper>
+        <author>Jules Thomson</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2019-08-14</date>
+        <num>RG5309</num>
+      </publicationstmt>
+      <seriesstmt>
+        <p>Portions of this collection are part of New England's Hidden Histories. Digital
+          historical representations of these portions of the collection can be viewed online.</p>
+      </seriesstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS2 - 2013</abbr>
+      <citation>Describing Archives: A Content Standard, Second Edition (DACS)</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2020-01-02T21:22:35+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Thursday January 2,
+          2020 at 21:22</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Medfield, Mass. First Parish Unitarian Church records, 1697-1970.</unittitle>
+      <unitid>RG5309</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>0.66</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(2 boxes)</physdesc>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1697">1697</fromdate>
+          <todate standarddate="1970">1970</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" unitdatetype="inclusive">1697-1970</unitdate>
+      <abstract id="aspace_d19fac832355a6faa85ba8b56c7344ea">The First Parish Church was founded in
+        1751 shortly after the incorporation of the town of Medfield. Rev. John Wilson was the first
+        pastor. A second meeting house was constructed in 1706. The third and current meetinghouse
+        was built in 1789. In 1813 the town and the parish were legally separated with members of
+        the church incorporated as The First Parish. In 1827 a group of members of the First Parish
+        petitioned for permission to withdraw from the First Parish, which was becoming increasingly
+        Unitarian, in order to form an Orthodox church. The original First Parish church was
+        subsequently known as the First Parish Unitarian church. The records of the First Parish
+        Church include both church administrative documentation and some personal records such as
+        legal and financial materials.</abstract>
+      <origination label="creator">
+        <persname rules="AACR2" source="naf">
+          <part>Baxter, Joseph, 1676-1745</part>
+        </persname>
+      </origination>
+      <origination label="creator">
+        <corpname identifier="no2010016297" source="lcnaf">
+          <part>First Congregational Church (Medfield, Mass.)</part>
+        </corpname>
+      </origination>
+      <origination label="creator">
+        <corpname identifier="/no2009149669" source="lcnaf">
+          <part>First Parish Unitarian Church (Medfield, Mass.)</part>
+        </corpname>
+      </origination>
+      <origination label="creator">
+        <persname identifier="n85250655" source="lcnaf">
+          <part>Prentiss, Thomas, 1747-1814</part>
+        </persname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_5464c9acd77fb06954b05750c7a4011c">
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_3518ad46be47acffad45bd0e26950b85">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+      <p>Digital Reproductions are protected by copyright and/or related rights. You are free to use
+        the Digital Reproductions in any way that is permitted by the copyright and related rights
+        legislation that applies to your use. In addition, no permission is required from the
+        Congregational Library &amp; Archives for educational uses. For other uses, you need to
+        obtain permission from the Congregational Library &amp; Archives. For additional information
+        regarding copyright, please consult the Congregational Library &amp; Archives' <ref
+          actuate="onrequest" href="http://www.congregationallibrary.org/about/digital-copyright"
+          linktitle="Digital Collections Copyright &amp; Use" show="new">Digital Collections
+          Copyright &amp; Use</ref> policy.</p>
+    </userestrict>
+    <prefercite id="aspace_3ee15ed41ffee6fe7ff693b880357c9d">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Medfield, Mass. First Parish Unitarian Church records,
+        1697-1970, RG5309. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_13fa14240f8901d1aec672aa563c1170">
+      <head>Acquisition Information</head>
+      <p>Materials were permanently loaned to the Congregational Library &amp; Archives by the First
+        Parish Unitarian Church (Medfield, Mass.) in April 2018; 2018-09</p>
+    </acqinfo>
+    <accruals id="aspace_49c799c327e1ffbd5cbcdac39994b3c3">
+      <head>Accruals</head>
+      <p>Additional accruals are expected for this collection in the form of full-text
+        transcription. There is no anticipated date for this accrual.</p>
+    </accruals>
+    <processinfo id="aspace_4827dd2014c4eb10a51a3c5f1baa8cf1">
+      <head>Processing Information</head>
+      <p>Processed and described by Jules Thomson, August 2019, using DACS Second edition.</p>
+    </processinfo>
+    <bioghist id="aspace_9036cbe01841f81e43855ab39b33ccc6">
+      <head>Historical Note</head>
+      <p>The First Parish Church dates back to the beginning of the town of Medfield in 1649, in
+        which settlers from Dedham and Braintree, Mass. requested the incorporation of a new town by
+        the General Court which was subsequently granted in May of 1651. They founded the Medfield
+        Church of Christ in the same year, calling Rev. John Wilson as their first pastor.</p>
+      <p>The second minister was Rev. Joseph Baxter, a Harvard graduate and native of Braintree,
+        Massachusetts, who served from 1697-1745. During his ministry the church membership grew
+        from 65 to 375, and a second meeting house was constructed in 1706.</p>
+      <p>During the pastorate of the fourth minister Rev. Thomas Prentiss, which lasted from
+        1770-1814, a third meetinghouse was built, dating to 1789. As of 2019, a heavily remodeled
+        version of this building is still standing, and is listed on the National Register of
+        Historic Places. The specifications for the wooden frame of the building are given in detail
+        in the town records and include details of the heavy timbers used in construction, which
+        were hand hewn oak measuring 14 inches square. The building's tower was 52 feet high and
+        surmounted by a belfry and cupola. In 1809 the inside of the church was refurbished, with
+        seats in the body of the meeting house being taken up and replaced with pews, as well as the
+        creation of a segregated gallery seating area for non-white parishioners.</p>
+      <p>In 1813 the town and the parish began to be legally separated. The members of the church
+        incorporated as The First Parish. In 1816 the trustees of the Medfield Ministerial Fund,
+        Inc. were granted a charter and by-laws by the General Court. The first Sunday school was
+        organized in 1818, officiated entirely by women, with the wife of Rev. Thomas Prentiss
+        playing an active role in its administration.</p>
+      <p>In 1827 a group of members of the First Parish petitioned for permission to withdraw from
+        the First Parish, which was becoming increasingly Unitarian, in order to form an Orthodox
+        church. An ecclesiastical council was called and granted their request. The Orthodox Church
+        of Medfield was organized officially on February 6, 1828 with 17 total members, and is still
+        active today as the United Church of Christ in Medfield.</p>
+      <p>The original First Parish church was subsequently known as the First Parish Unitarian
+        church from 1828 onwards. The meeting house was extensively remodeled again in 1839,
+        including a complete reorientation of the front of the building from east to south, and the
+        construction of a larger spire. During the hurricane of 1938, the taller spire which had
+        been added when the building was remodeled in 1839 was destroyed, and remains
+        un-replaced.</p>
+      <p>By the 1970s the congregation had diminished to 10 members and was in danger of
+        dissolution. Growth increased in the following decades, however, to the extent that the
+        Unitarian Universalist Association granted the church an award in recognition of their
+        revitalization. The church continues to serve the Medfield community today.</p>
+      <chronlist>
+        <head>Ministers</head>
+        <chronitem>
+          <datesingle>John Wilson Jr.</datesingle>
+          <chronitemset>
+            <event>1651-1691</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Joseph Baxter</datesingle>
+          <chronitemset>
+            <event>1697-1745</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Jonathan Townsend</datesingle>
+          <chronitemset>
+            <event>1745-1769</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Thomas Prentice</datesingle>
+          <chronitemset>
+            <event>1770-1814</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Daniel Clarke Sanders</datesingle>
+          <chronitemset>
+            <event>1815-1829</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>James Augustus Kendall</datesingle>
+          <chronitemset>
+            <event>1830-1837</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Charles Robinson</datesingle>
+          <chronitemset>
+            <event>1839-1850</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Rushton Dashwood Burr</datesingle>
+          <chronitemset>
+            <event>1852-1857</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Solon Wanton Bush</datesingle>
+          <chronitemset>
+            <event>1857-1865</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>James Henry Wiggin</datesingle>
+          <chronitemset>
+            <event>1867-1873</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Charles Chauncy Sewell</datesingle>
+          <chronitemset>
+            <event>1873-1877</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Granville Pierce</datesingle>
+          <chronitemset>
+            <event>1877-1881</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Joseph Nelson Pardee</datesingle>
+          <chronitemset>
+            <event>1882-1884</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>James Johnson Twiss</datesingle>
+          <chronitemset>
+            <event>1884-1887</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>William Willis Hayward</datesingle>
+          <chronitemset>
+            <event>1888-1892</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>John Arthur Savage</datesingle>
+          <chronitemset>
+            <event>1892-1907</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Albert Hague Spence Jr.</datesingle>
+          <chronitemset>
+            <event>1908-1913</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Horatio Edward Latham</datesingle>
+          <chronitemset>
+            <event>1913-1916</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Leonard Cushman</datesingle>
+          <chronitemset>
+            <event>1917-1919</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Franklin Zeiger</datesingle>
+          <chronitemset>
+            <event>1919-1921</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Manly Bacon Townsend</datesingle>
+          <chronitemset>
+            <event>1922-1926</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Anita Trueman Pickett</datesingle>
+          <chronitemset>
+            <event>1926-1928</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Harold Lionell Pickett</datesingle>
+          <chronitemset>
+            <event>1926-1928</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Paul Leicester Muder</datesingle>
+          <chronitemset>
+            <event>1929-1931</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Cicero Adolphus Henderson</datesingle>
+          <chronitemset>
+            <event>1931-1933</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Francis Galarneaux Ricker</datesingle>
+          <chronitemset>
+            <event>1936-1939</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Eric Alton Ayer</datesingle>
+          <chronitemset>
+            <event>1939-1948</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Kendrick Raymond Lee</datesingle>
+          <chronitemset>
+            <event>1948-1951</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Albert Nicholas Kaucher</datesingle>
+          <chronitemset>
+            <event>1951-1955</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>William R Moors</datesingle>
+          <chronitemset>
+            <event>1956-1965</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Donald Vaughn</datesingle>
+          <chronitemset>
+            <event>1965-1967</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Robert Thayer</datesingle>
+          <chronitemset>
+            <event>1968-1977</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Glenn Snowden</datesingle>
+          <chronitemset>
+            <event>1979-1984</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Virgil Murdoch</datesingle>
+          <chronitemset>
+            <event>1984-1986</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Alice B Lane</datesingle>
+          <chronitemset>
+            <event>1987-1989</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Judith Deutsch</datesingle>
+          <chronitemset>
+            <event>1991-2000</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Robert William McKetchnie</datesingle>
+          <chronitemset>
+            <event>2001-2011</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Meg Soens</datesingle>
+          <chronitemset>
+            <event>2013-2016</event>
+          </chronitemset>
+        </chronitem>
+      </chronlist>
+    </bioghist>
+    <scopecontent id="aspace_06610e05405e2ace52f4b11c58cb754a">
+      <head>Scope and Contents</head>
+      <p>The records of the First Parish Church in Medfield include a broad array of both church
+        administrative documentation and some personal records such as legal and financial
+        materials. There is a single bound volume of church records dating from 1738-1880. Other
+        administrative documentation includes a folder of loose records found inside the volume,
+        official church correspondence, membership records, meeting minutes, relations, and a
+        collection of 17th-18th century prayer requests. Also included are records relating to the
+        ministry, including correspondence from ministers, and a volume of sermons spanning several
+        decades from the 1740s-1780s. Personal records include legal and financial records, and a
+        single item of personal correspondence regarding provisions for a ship. Additionally, a
+        small volume of printed materials consisting of a 19th-century order of service and a
+        newspaper cutting from 1970 detailing preservation of the colonial-era relation of faith
+        documents within the collection.</p>
+    </scopecontent>
+    <arrangement id="aspace_2e2847561323fa918f5e51adfa19e5a3">
+      <head>Arrangement</head>
+      <p>Files have been arranged in chronological order by start date, and their contents are
+        ordered chronologically, except in the case of the relation of faith documents, which are
+        ordered alphabetically by surname.</p>
+    </arrangement>
+    <phystech id="aspace_75d7c8611e020907559a627f833043f0">
+      <head>Technical Requirements</head>
+      <p>To access digital user's copies via online-interface, a java-enabled web browser is
+        required. Internet Explorer 8.x and later, Firefox 5.x and later, Opera 12 and later, Safari
+        5.x and later, or any version of Google Chrome are recommended.</p>
+    </phystech>
+    <bibliography id="aspace_c4e675aee20809b45ca14eb057479caf">
+      <head>Bibliography</head>
+      <p>Henderson, J. Hardy. <emph render="italic">Historical sketch of the First Congregational
+          Parish (Unitarian), 1651-1951.</emph>. Medfield, 1951. 17.11.1 M46.65 FIRPUC</p>
+      <p>"Our History." <emph render="italic">First Parish UU of Medfield, MA.</emph> Accessed
+        August 13, 2019. <ref actuate="onrequest"
+          href="https://www.firstparishmedfield.org/our-history/" linktitle="History" show="new"
+          >https://www.firstparishmedfield.org/our-history/</ref></p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Congregational churches -- Prayers and devotions.</part>
+      </subject>
+      <subject identifier="sh85090572" source="lcsh">
+        <part>Necrologies.</part>
+      </subject>
+      <subject source="local">
+        <part>New England's Hidden Histories.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Prayers -- 18th century.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Sermons, American -- 18th century.</part>
+      </subject>
+      <corpname identifier="no2010016297" source="lcnaf">
+        <part>First Congregational Church (Medfield, Mass.)</part>
+      </corpname>
+      <corpname identifier="/no2009149669" source="lcnaf">
+        <part>First Parish Unitarian Church (Medfield, Mass.)</part>
+      </corpname>
+      <corpname identifier="n2003082145" source="lcnaf">
+        <part>Medfield (Mass.) -- Church history.</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_b165c72dc7b78b21887b74ea8049c657" level="file">
+        <did>
+          <unittitle>Relations, A-G</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1714">1714</fromdate>
+              <todate standarddate="1788">1788</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1714-1788</unitdate>
+          <container id="aspace_7e10e715b0de9f533e0dba7eac16ded8" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_3792a37bd52ac64f4e4de3b385a028a1" localtype="folder"
+            parent="aspace_7e10e715b0de9f533e0dba7eac16ded8">1</container>
+        </did>
+        <scopecontent id="aspace_cc890aeb04ca7c46368e5ea72f106be5">
+          <head>Scope and Contents</head>
+          <p>This folder contains relations of faith by parishioners seeking to join the church in
+            Medfield, with surnames beginning with A-G. The documents are organized alphabetically
+            by last name.</p>
+        </scopecontent>
+        <altformavail id="aspace_3d907946b6d6f8bd47313f25ed913f31">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Medfield/viewer/Relations20of20faith2C2016971788/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+      </c01>
+      <c01 id="aspace_fd7875ac25c7dbe9d72b475f62bc7fb7" level="file">
+        <did>
+          <unittitle>Relations, H-Z</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1697">1697</fromdate>
+              <todate standarddate="1766">1766</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1697-1766</unitdate>
+          <container id="aspace_bdd0c851375c047d34dae15efbd9df13" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_4a8a05f48660cae1e66c494dc5a4f6f0" localtype="folder"
+            parent="aspace_bdd0c851375c047d34dae15efbd9df13">2</container>
+        </did>
+        <scopecontent id="aspace_bfe0143114afb0e02f128a7f4e3d0dbb">
+          <head>Scope and Contents</head>
+          <p>This folder contains relations of parishioners with surnames beginning with H-Z, as
+            well as unattributed relations</p>
+        </scopecontent>
+        <altformavail id="aspace_a4434ef1aa6ea725377a6e0f6b80a8fb">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Medfield/viewer/Relations20of20faith2C2016971788/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+      </c01>
+      <c01 id="aspace_68c69dc19df3beacec50b573c57e9a3f" level="file">
+        <did>
+          <unittitle>Ministerial records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1709">1709</datesingle>
+          </unitdatestructured>
+          <container id="aspace_d8ac6594f157f6201939d2fa43b57f23" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_601823869dde1c08d40c1ad15fa0a174" localtype="folder"
+            parent="aspace_d8ac6594f157f6201939d2fa43b57f23">3</container>
+        </did>
+        <scopecontent id="aspace_8da4edece8f1c206f5e81a10400de8f4">
+          <head>Scope and Contents</head>
+          <p>These documents relate directly to the office of the ministry and include
+            correspondence of Rev. Joseph Baxter regarding dissatisfaction with his ministry, a
+            letter of acceptance of the ministerial call from Rev. Thomas Prentice, and an undated
+            sermon fragment.</p>
+        </scopecontent>
+        <altformavail id="aspace_f279a022d20f585485dec8f93dc0f667">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href=" http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Medfield/viewer/Loose20records2C2017091840/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+      </c01>
+      <c01 id="aspace_ed90831fc19223209f8361e88e53aff7" level="file">
+        <did>
+          <unittitle>Membership records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1713">1713</fromdate>
+              <todate standarddate="1813">1813</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1713-1813</unitdate>
+          <container id="aspace_90473d0a07596f5d4a56cac91ec9ebfe" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_3d4dc7ed52b97a450c9db46d7031b367" localtype="folder"
+            parent="aspace_90473d0a07596f5d4a56cac91ec9ebfe">4</container>
+        </did>
+        <scopecontent id="aspace_66580357aada3e73b2b55a5ed7037c52">
+          <head>Scope and Contents</head>
+          <p>This folder contains letters regarding dismissals, admonitions, and excommunication of
+            Medfield church members.</p>
+        </scopecontent>
+        <altformavail id="aspace_3cbd4e14d16dd84fc339d8ecd411d471">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Medfield/viewer/Membership20records2C2017131813/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+      </c01>
+      <c01 id="aspace_0b201eac5e3802807265b08c81863e7b" level="file">
+        <did>
+          <unittitle>Legal records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1725">1725</fromdate>
+              <todate standarddate="1842">1842</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1725-1842</unitdate>
+          <container id="aspace_1f21ede06a980f67fec648039302a9a6" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_6cecdd9689c6c7e185b7ff515dfb1708" localtype="folder"
+            parent="aspace_1f21ede06a980f67fec648039302a9a6">5</container>
+        </did>
+        <scopecontent id="aspace_a09de448e99e54a5b9a6dc9d036df648">
+          <head>Scope and Contents</head>
+          <p>This folder contains land deeds, wills, and a court summons. These include a deed from
+            David Whitmarsh to Nathaniel Bosworth (5/15/1789), a fragmentary will and inventory by a
+            member of the Baxter family (undated), and a court summons by Jonathan Bishop (Justice
+            of the Peace for the Commonwealth of Mass.) to members of the First Congregational
+            Society In Medfield (12/3/1842).</p>
+        </scopecontent>
+        <altformavail id="aspace_5fd069c411c610104ed95e661bcfcc5d">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Medfield/viewer/Loose20records2C2017091840/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+      </c01>
+      <c01 id="aspace_345464d149939a5663e31676aad6d326" level="file">
+        <did>
+          <unittitle>Financial records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1731">1731</fromdate>
+              <todate standarddate="1832">1832</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1731-1832</unitdate>
+          <container id="aspace_4527fb2d2945fd17ee5804b22a665ae4" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_da11c7571626dc9f42d8dbe3403782f0" localtype="folder"
+            parent="aspace_4527fb2d2945fd17ee5804b22a665ae4">6</container>
+        </did>
+        <scopecontent id="aspace_21ef5fa3381399acf8403a6354f49eb3">
+          <head>Scope and Contents</head>
+          <p>This folder contains financial records relating to the church and its parishioners,
+            including receipts by John Fisher for payment by John Baxter (10/28/1765), by Edward
+            Davis for payment by John Baxtor (2/2/1753), and by Jonathan Fiske for payment by Heirs
+            of John Baxter (1832). Also included are lists of subscribers for payments toward the
+            spire of Unitarian Meetinghouse and toward the purchasing of an organ for First
+            Congregational Meetinghouse in Medfield (undated).</p>
+        </scopecontent>
+        <altformavail id="aspace_0a3bdfe58b1b6cc6d75d15b6f805cf65">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Medfield/viewer/Financial20records2C2017311832/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+      </c01>
+      <c01 id="aspace_d0b19e7e48fcecac8547e87d11da6b13" level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1738">1738</fromdate>
+              <todate standarddate="1880">1880</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1738-1880</unitdate>
+          <container id="aspace_23b4379bb17905522b4735f91b98fcab" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_b5909c85cf963caae2f3f7ac30b73ca8" localtype="volume"
+            parent="aspace_23b4379bb17905522b4735f91b98fcab">1</container>
+        </did>
+        <scopecontent id="aspace_03b89303354d95be7f28bf04ea2e60fb">
+          <head>Scope and Contents</head>
+          <p>This volume contains the administrative records of the church as well as the vital
+            records of the church's members. The volume contains meeting minutes, records of
+            important votes, marriage records, baptismal records, necrologies, lists of admitted
+            members and founding documents such as the church covenant.</p>
+        </scopecontent>
+        <altformavail id="aspace_c9644682ace18c3adc5efc6e58213f2a">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Medfield/viewer/Church20records2C2017381880/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+      </c01>
+      <c01 id="aspace_3c381a9414c35ec32054a58a0cccf2af" level="file">
+        <did>
+          <unittitle>Meeting minutes</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1742">1742</fromdate>
+              <todate standarddate="1840">1840</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1742-1840</unitdate>
+          <container id="aspace_2556a8a91693d0a09989fbbaed4843f0" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_b1b2e4a5ba0bd7b4d76e91e2e948cddf" localtype="folder"
+            parent="aspace_2556a8a91693d0a09989fbbaed4843f0">7</container>
+        </did>
+        <scopecontent id="aspace_5af15db3a1342f4a75157b780148f981">
+          <head>Scope and Contents</head>
+          <p>This folder contains loose pages of meeting minutes for the church in Medfield, and
+            correspondence with descriptions of meeting minutes and associated votes.</p>
+        </scopecontent>
+        <altformavail id="aspace_097a7a70af96817f893b8f8bcd0f880c">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Medfield/viewer/Loose20records2C2017091840/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+      </c01>
+      <c01 id="aspace_17f78469e12b2b5ae98696fa65367fea" level="file">
+        <did>
+          <unittitle>Sermons</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1748">1748</fromdate>
+              <todate standarddate="1748">1748</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1744-1748</unitdate>
+          <container id="aspace_9099e36186a72a3922b03d18948dbe31" label="Mixed Materials"
+            localtype="box">2</container>
+          <container id="aspace_a1be57eec62f05a5d9ba6c7f5c32d7c8" localtype="folder"
+            parent="aspace_9099e36186a72a3922b03d18948dbe31">1</container>
+        </did>
+        <scopecontent id="aspace_2f5e097e9b1f34069d27ce9372a42196">
+          <head>Scope and Contents</head>
+          <p>This folder contains seven manuscript sermons, unattributed but written largely in the
+            same hand. The verse text, locations, and dates are as follows:</p>
+          <p>Matthew 4:7 (first preached at Medfield on February 24, 1744/5)</p>
+          <p>Psalm 116.4 (first preached at Medfield on June 29, 1746)</p>
+          <p>James 4.13.14 (first preached at Medfield on January 3, 1747/8)</p>
+          <p>James 4.15 (first preached at Medfield on January 3, 1747/8)</p>
+          <p>Amos 12.4.5. (first preached at Medfield on January 28 1747/8)</p>
+          <p>James 3.15 (first preached at Medfield on May 17, 1747)</p>
+          <p>Mark 6:3 (first preached at Medfield on May 22, 1748)</p>
+        </scopecontent>
+        <altformavail id="aspace_3f67366a160600a0494a4a3aaff7e5cb">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Medfield/viewer/Sermons2C2017441759/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+      </c01>
+      <c01 id="aspace_44b0d6f4ac31fc56597d21c36a2464f7" level="file">
+        <did>
+          <unittitle>Sermons</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1750">1750</fromdate>
+              <todate standarddate="1759">1759</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1750-1759</unitdate>
+          <container id="aspace_187e336de1391c367b4d7053240eb7be" label="Mixed Materials"
+            localtype="box">2</container>
+          <container id="aspace_53cd324d163a04c6df4f4cfa53c3e306" localtype="folder"
+            parent="aspace_187e336de1391c367b4d7053240eb7be">2</container>
+        </did>
+        <scopecontent id="aspace_d6471cd8e0c7092aa7918e620cb4ee3a">
+          <head>Scope and Contents</head>
+          <p>This folder contains a number of manuscript sermons, unattributed but written largely
+            in the same hand. The verses, locations, and dates are as follows:</p>
+          <p>Deuteronomy 32 (first preached at Medfield on June 25, 1750)</p>
+          <p>James 1:21 (first preached at Medfield on August 5, 1750)</p>
+          <p>James 1:21 (first preached at Medfield on August 12, 1750)</p>
+          <p>James 3:17-18 (first preached at Medfield on March 15, 1752)</p>
+          <p>Proverbs 22:17-22 (first preached Medfield on June 28, 1752)</p>
+          <p>Matthew 13:36-44 (first preached at Medfield on January 21, 1753)</p>
+          <p>James 1:27 (first preached at Medfield on August 12, 1753)</p>
+          <p>James 1:27 (first preached at Medfield on August 12, 1753)</p>
+          <p>James 4:8 (first preached at Medfield on March 31, 1754)</p>
+          <p>James 5:12 (first preached at Medfield on June 29, 1755)</p>
+          <p>James 5:12 (first preached at Medfield on July 13, 1755)</p>
+          <p>Romans 10:9-10 (first preached at Medfield on January 25, 1756)</p>
+          <p>Exodus 20:8-11 (first preached at Roxbury on February 1, 1756)</p>
+          <p>Amos 4:7-8 (first preached on June 20, 1756)</p>
+          <p>1 Peter 5:7 (first preached November 14, 1756)</p>
+          <p>Psalm 103:19 (first preached at Roxbury on March 13, 1757)</p>
+          <p>James 5:7 (first preached at Medfield on June 12, 1757)</p>
+          <p>Romans 2:13 (first preached October, 1757)</p>
+          <p>Luke 2:10-11 (first preached at Roxbury on December 25, 1757)</p>
+          <p>James 1:12 (first preached on January 8, 1758)</p>
+          <p>Matthew 22:1-14 (first preached at Roxbury on March 18, 1759)</p>
+          <p>Joshua 1 (first preached at Medfield on 7 May 27, 1759)</p>
+          <p>James 4:6 (first preached at Medfield on August 19, 1759)</p>
+          <p>1 Corinthians 15:58 (first preached at Roxbury on September 23, 1759)</p>
+          <p>James 4:4 (first preached at Medfield on November 25, 1759)</p>
+          <p>James 4:4 (first preached at Medfield on November 25, 1759)</p>
+        </scopecontent>
+        <altformavail id="aspace_2856aaf7014a6f8f9d1265877b7a418e">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Medfield/viewer/Sermons2C2017441759/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+      </c01>
+      <c01 id="aspace_e5e82100a1ba63dc89d9ba3449c0234e" level="file">
+        <did>
+          <unittitle>Sermons</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1760">1760</fromdate>
+              <todate standarddate="1766">1766</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1760-1766</unitdate>
+          <container id="aspace_41a778020533e8756646dc18eb4997f4" label="Mixed Materials"
+            localtype="box">2</container>
+          <container id="aspace_ea0197fa0d541f8b4a661ed50f29895f" localtype="folder"
+            parent="aspace_41a778020533e8756646dc18eb4997f4">3</container>
+        </did>
+        <scopecontent id="aspace_96e4adb947f083b536a704b7192f8f5a">
+          <head>Scope and Contents</head>
+          <p>This folder contains a number of manuscript sermons, unattributed but written largely
+            in the same hand. The individual sermon texts and dates are as follows:</p>
+          <p>Psalm 139:9-100 (first preached June 8, 1760)</p>
+          <p>James 1:26 (first preached May 10, 1761)</p>
+          <p>James 5:17-18 (first preached July 19, 1761)</p>
+          <p>John 21 (first preached October 17, 1762)</p>
+          <p>Matthew 18:1-14 (first preached January 23, 1763)</p>
+          <p>Matthew 19: 16-26 (first preached February 27, 1763)</p>
+          <p>Psalm 91:16 (first preached March 4, 1764)</p>
+          <p>James 5:13 (first preached March 10, 1765)</p>
+          <p>James 5:13 (first preached March 10, 1765)</p>
+          <p>[verse missing] (first preached February 16, 1766)</p>
+          <p>1 Thessalonians 2:13 (first preached February 23, 1766)</p>
+          <p>Proverbs 3:3-4 (first preached August 31, 1766)</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_dde06de8a7ec7a6bb8248d7c2c67e27a" level="file">
+        <did>
+          <unittitle>Sermons</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1701">1701</fromdate>
+              <todate standarddate="1773">1773</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1771-1773</unitdate>
+          <container id="aspace_a65762b3c272a27940c92f2279a3dc07" label="Mixed Materials"
+            localtype="box">2</container>
+          <container id="aspace_eaf0a76ca2f6330c075100c5c783fa07" localtype="folder"
+            parent="aspace_a65762b3c272a27940c92f2279a3dc07">4</container>
+        </did>
+        <scopecontent id="aspace_420dd1e03c508e9d8ee4c19472eb614f">
+          <head>Scope and Contents</head>
+          <p>This volume contains a number of manuscript sermons, unattributed but written in the
+            same hand. The verses, locations and dates are ennumerated below:</p>
+          <p>Isaiah 57:20-21 (first preached at Roxbury on August 18, 1771)</p>
+          <p>Acts 3:20-26 (first preached at Roxbury on November 1, 1772)</p>
+          <p>Acts 4:13-20 (first preached at Roxbury on November 29, 1772)</p>
+          <p>Acts 5:1-11 (first preached at Roxbury on January 17, 1773)</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_abf2f31fee18fa8622b70fc4eb5a345a" level="file">
+        <did>
+          <unittitle>Sermons</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1789">1789</datesingle>
+          </unitdatestructured>
+          <container id="aspace_1aaf397c5f19234e110662b14e78b31d" label="Mixed Materials"
+            localtype="box">2</container>
+          <container id="aspace_4c7a521abd5c14815b3dcf638d13053f" localtype="folder"
+            parent="aspace_1aaf397c5f19234e110662b14e78b31d">5</container>
+        </did>
+        <scopecontent id="aspace_63090406f2ac752286dc73f03ca26591">
+          <head>Scope and Contents</head>
+          <p>This folder contains a single manuscript sermon on Psalm 47:7. The sermon is attributed
+            to "Rev. Thomas Prentiss" (Thomas Prentice)</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_2a5ba26a9deb11bb0045be4b757b3f2d" level="file">
+        <did>
+          <unittitle>Sermons, undated</unittitle>
+          <container id="aspace_966f3cb549bfc549460898cea5d804bc" label="Mixed Materials"
+            localtype="box">2</container>
+          <container id="aspace_98ae843b68443d94b3623eaac5286a1e" localtype="folder"
+            parent="aspace_966f3cb549bfc549460898cea5d804bc">6</container>
+        </did>
+        <scopecontent id="aspace_648fb29747919fcc115952772efbd183">
+          <head>Scope and Contents</head>
+          <p>This folder contains a number of manuscript sermons, unattributed but written largely
+            in the same hand. All but three of the sermons are missing pages or are otherwise
+            fragmentary.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_587c87600c5da1f68e09fd6cd2ceac9d" level="file">
+        <did>
+          <unittitle>Church records (loose)</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1770">1770</fromdate>
+              <todate standarddate="1860">1860</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1770-1860</unitdate>
+          <container id="aspace_b47fe6aba47b59c6f9c922fed923b69a" label="Mixed Materials"
+            localtype="box">2</container>
+          <container id="aspace_cb2ea81f9134308add3de7b6694c4ee7" localtype="folder"
+            parent="aspace_b47fe6aba47b59c6f9c922fed923b69a">7</container>
+        </did>
+        <scopecontent id="aspace_2eaddf3626e45fdbe842638506cea427">
+          <head>Scope and Contents</head>
+          <p>This folder contains loose records found between pages 167-168 of the bound Church
+            record book (1738-1880). They include a piece of correspondence to the church by Thomas
+            Prentice dated 1770, loose meeting minutes dated 1817-1860, and two loose pages of
+            pencil notes relating to the bound volume of records, with page annotations.</p>
+        </scopecontent>
+        <altformavail id="aspace_fa336612e3f329d99a98421ee37163bc">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Medfield/viewer/Loose20records2C2017091840/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+      </c01>
+      <c01 id="aspace_34610a1aea1982791813d41f73ae102d" level="file">
+        <did>
+          <unittitle>Church correspondence</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1776">1776</fromdate>
+              <todate standarddate="1817">1817</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1776-1817</unitdate>
+          <container id="aspace_a0569ce6a225e799f225d0b0c03c5679" label="Mixed Materials"
+            localtype="box">2</container>
+          <container id="aspace_b89db7cbb414602953859f5e8e31546e" localtype="folder"
+            parent="aspace_a0569ce6a225e799f225d0b0c03c5679">8</container>
+        </did>
+        <scopecontent id="aspace_16aee31cf47f7e4fb8dea957a76f20bc">
+          <head>Scope and Contents</head>
+          <p>This folder contains official correspondence both to and from the church in Medfield,
+            largely constituting letters of invitation to ecclesiastical councils and the
+            ordinations of new ministers.</p>
+        </scopecontent>
+        <altformavail id="aspace_3328c70ca7002519bd0957752eaa583a">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Medfield/viewer/Church20correspondence2C2017761817/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+      </c01>
+      <c01 id="aspace_9b928a86ac52154d959d7a336a3e624c" level="file">
+        <did>
+          <unittitle>Personal correspondence</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1812">1812</datesingle>
+          </unitdatestructured>
+          <container id="aspace_b5a7fddc7c93aefb4b28f0e6f9481f32" label="Mixed Materials"
+            localtype="box">2</container>
+          <container id="aspace_0d661a6addf6cc51199cfffb2bd6082a" localtype="folder"
+            parent="aspace_b5a7fddc7c93aefb4b28f0e6f9481f32">9</container>
+        </did>
+        <scopecontent id="aspace_cd403261a5036b340f021cd2a5cb0cd1">
+          <head>Scope and Contents</head>
+          <p>This folder contains a single item of personal correspondence, from "N.B." to "Captain
+            Turner" of the sloop Experiment. The writer details his provision of the ship with a
+            barrel of sweet potatoes and provides instructions for cooking them.</p>
+        </scopecontent>
+        <altformavail id="aspace_104cc867ba551a4a99fb23f9efd829dd">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Medfield/viewer/Loose20records2C2017091840/29"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+      </c01>
+      <c01 id="aspace_26ec654d24d44b26891e6b611da09547" level="file">
+        <did>
+          <unittitle>Printed materials</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1857">1857</fromdate>
+              <todate standarddate="1970">1970</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1857-1970</unitdate>
+          <container id="aspace_a7c065162a551d9e13dfe17c72a29829" label="Mixed Materials"
+            localtype="box">2</container>
+          <container id="aspace_3e71c54497d690b01853e20a20406296" localtype="folder"
+            parent="aspace_a7c065162a551d9e13dfe17c72a29829">10</container>
+        </did>
+        <scopecontent id="aspace_fcf03c59d4a911af9bb8cc2c93fd7aca">
+          <head>Scope and Contents</head>
+          <p>This folder contains printed materials, consisting of an order of service for the
+            installation service of Rev. Solon Bush, and a 1970 newspaper clipping detailing the
+            preservation of the church's relations of faith (1697-1788) by Rev. Robert A.
+            Thayer.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_c6363e21a8bb714ef495c5923e6867b1" level="file">
+        <did>
+          <unittitle>Prayer requests</unittitle>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+          <container id="aspace_d4d5e557244c43a2ff8930bf70395290" label="Mixed Materials"
+            localtype="box">2</container>
+          <container id="aspace_c6f59fc2d0979fc8f8a1b482d834c483" localtype="folder"
+            parent="aspace_d4d5e557244c43a2ff8930bf70395290">11</container>
+        </did>
+        <scopecontent id="aspace_2f6d75ab99f705eb155422ec1bdc441d">
+          <head>Scope and Contents</head>
+          <p>This folder contains prayer requests likely dating to the 17th-18th centuries, with the
+            names of parishioners making the request and a brief description of the desired prayer.
+            They include prayers for safe passage, protection of relatives during military service,
+            bolstering of personal faith, and sanctification of deaths occurring in the family.</p>
+        </scopecontent>
+        <altformavail id="aspace_af25a9a04d6839d3a7d500eae0e9222d">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Medfield/viewer/Prayer20requests2C20undated/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
