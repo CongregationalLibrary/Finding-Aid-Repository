@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/BraintreeMAFirst-5302.xml"
+      >BraintreeMAFirst-5302</recordid>
+    <representation localtype="pdf"
+      href="http://www.congregationallibrary.org/finding-aids/BraintreeMAFirst5302"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Braintree, Mass. First Congregational Church records, 1697-1871.</titleproper>
+        <author>Jules Thomson, Corinne Bernstein</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2016-02-24</date>
+        <num>RG5302</num>
+      </publicationstmt>
+      <seriesstmt>
+        <p>This collection is part of New England's Hidden Histories. Digital historical
+          representations of the collection can be viewed online.</p>
+      </seriesstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS2 - 2013</abbr>
+      <citation>Describing Archives: A Content Standard, Second Edition (DACS)</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2020-01-07T21:28:59+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Tuesday January 7,
+          2020 at 21:28</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Braintree, Mass. First Congregational Church records, 1697-1871.</unittitle>
+      <unitid>RG5302</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>.44</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(1 box)</physdesc>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1697">1697</fromdate>
+          <todate standarddate="1871">1871</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" unitdatetype="inclusive">1697-1871</unitdate>
+      <abstract id="aspace_fb25cb723912c6a92c0f0cfdf3af1402">The Mount Wollaston Parish Meeting
+        House was established in 1639 in the present-day Quincy Area, and by 1640 the town was
+        renamed Braintree. This Meeting House was the site of the original church, which first
+        gathered on September 10, 1707. In 1708, old Braintree was divided into the North Precinct
+        (Quincy) and the South Precinct (Braintree). When Quincy became an official town in 1792,
+        the 1707 church was designated as the First Church in Braintree. The records in this
+        collection include the journal of Samuel Niles dating 1697 to 1777, a volume of church
+        records dating from 1707-1871, a volume of the Braintree Precinct's Financial Records dating
+        1708 to 1796, and a volume of church records dating 1790 to 1825.</abstract>
+      <origination label="creator">
+        <corpname identifier="n88093595" source="lcnaf">
+          <part>First Congregational Church (Braintree, Mass.)</part>
+        </corpname>
+      </origination>
+      <origination label="creator">
+        <persname identifier="n85277127" source="lcnaf">
+          <part>Niles, Samuel, 1674-1762</part>
+        </persname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_90d97ac1f88e57df01c3f9e9d70ad74b">
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_df6b1ad0e1453981f02a85a17a858edb">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+      <p>Digital Reproductions are protected by copyright and/or related rights. You are free to use
+        the Digital Reproductions in any way that is permitted by the copyright and related rights
+        legislation that applies to your use. In addition, no permission is required from the
+        Congregational Library &amp; Archives for educational uses. For other uses, you need to
+        obtain permission from the Congregational Library &amp; Archives. For additional information
+        regarding copyright, please consult the Congregational Library &amp; Archives' <ref
+          actuate="onrequest" href="http://www.congregationallibrary.org/about/digital-copyright"
+          linktitle="Digital Collections Copyright &amp; Use" show="new">Digital Collections
+          Copyright &amp; Use</ref> policy.</p>
+    </userestrict>
+    <prefercite id="aspace_27c40545a3f296ea22148219abfb79cd">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Braintree, Mass. First Congregational Church records,
+        1697-1871. RG5302. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_345c7b336b007f3c28443fbaa37600a2">
+      <head>Acquisition Information</head>
+      <p>All materials besides "church records, 1707-1871" were temporarily deposited for
+        digitization with the Congregational Library &amp; Archives by the First Congregational
+        Church in Braintree in November 2015; no accession number.</p>
+      <p>Church records, 1707-1871 were temporarily deposited for digitization with the
+        Congregational Library &amp; Archives by the First Congregational Church in Braintree in
+        November 2018; 2018-37.</p>
+    </acqinfo>
+    <originalsloc id="aspace_6d541e49a19f0f8094991721fc5c0e8e">
+      <head>Location of Originals</head>
+      <p>The physical records are held and maintained by the First Congregational Church in
+        Braintree, Massachusetts.</p>
+    </originalsloc>
+    <accruals id="aspace_770082dca7775ea98b40dca21ba32443">
+      <head>Accruals</head>
+      <p>Additional accruals are expected for this collection in the form of full-text
+        transcription. There is no anticipated date for this accrual.</p>
+    </accruals>
+    <processinfo id="aspace_b1042cf5576b229fe267bcf5435020c9">
+      <head>Processing Information</head>
+      <p>Processed by Corinne Bernstein, February 2016, using DACS Second Edition. Collection
+        re-described by Jules Thomson in January 2020 to reflect accrual of 1707-1871 volume of
+        church records.</p>
+    </processinfo>
+    <bioghist id="aspace_245fd0f08b86ba576f39326e697811ed">
+      <head>Historical Note</head>
+      <p>The first Parish to settle in the Braintree area in 1634 was known as "Mount Wollaston,"
+        named after the founder of a trading post in 1624. The Mount Wollaston Parish Meeting House
+        was established in 1639 in the present-day Quincy Area, and by 1640 the town was renamed
+        Braintree. Braintree originally included present-day Braintree, Quincy, Randolph, and
+        Holbrook. The Parish Meeting House was the site of the original church, which first gathered
+        on September 10, 1707. In 1708, old Braintree was divided into the North Precinct (Quincy)
+        and the South Precinct (Braintree). At the time, Braintree was sometimes referred to as
+        "Monatiquot," after the Massachusett Indian village and home of Chief Wompatuck. When Quincy
+        became an official town in 1792, the 1707 church was designated as the First Church in
+        Braintree. Over the years, the church has been known as the First Congregational Church,
+        Christ Church, and the Church of the Presidents. The first ministers of the church included
+        Hugh Adams (ordained 1707), Samuel Niles (ordained 1711), and Ezra Weld (ordained 1762).</p>
+    </bioghist>
+    <scopecontent id="aspace_418abe420e4bde1709c2bed9aa8a0d51">
+      <head>Scope and Contents</head>
+      <p>The records from the First Congregational Church in Braintree, Mass. document the history
+        of the organization, Braintree Precinct, and Pastor Samuel Niles, including membership,
+        finances, church life, and the thoughts of the Pastor. Included in the records are meeting
+        minutes, financial records, journal entries, and lists of marriages, baptisms, deaths, and
+        admissions to the church.</p>
+    </scopecontent>
+    <arrangement id="aspace_f89d35dac34bd27300365bd8c2908d1a">
+      <head>Arrangement</head>
+      <p>The four volumes are arranged chronologically by start date.</p>
+    </arrangement>
+    <phystech id="aspace_d74d8aba7736d2c2582f604c3f70ed33">
+      <head>Technical Requirements</head>
+      <p>To access digital user's copies via online-interface a java-enabled web browser is
+        required. Internet Explorer 8.x and later, Firefox 5.x and alter, Opera 12 and later, Safari
+        5.x and later, or any version of Google Chrome are recommended.</p>
+    </phystech>
+    <relatedmaterial id="aspace_073d16ad3be7b9cd7c74228e72547c3a">
+      <head>Related Materials</head>
+      <p>By Richard S. Storrs, D.D: American slavery, and the means of removal: a sermon, preached
+        in the First Congregational Church, Braintree, April 4, 1844. (28.9.4 1534)</p>
+      <p>By First Congregational Church (Braintree, Mass.): Braintree, MA: First Congregational
+        Church. (1907) (17.11.1 B73.4 FIRCC)</p>
+      <p>By A. A. Ellsworth: Christian unity: a sermon preached at the First Parish Church,
+        Braintree, Mass. (1895) (15.5 5834.1)</p>
+      <p>By Rev. Richard S. Storrs: Continuance in the ministry: a discourse delivered in the First
+        Congregational Church, Braintree, Mass., July 3, 1861, by Rev. Richard S. Storrs, on the
+        fiftieth anniversary of his ordination. (15.4 5846 STOO-STOR)</p>
+      <p>Compiled by Ruth W. Shuster: Gathered in 1707: a history of the First Congregational
+        Church, Braintree, Massachusetts, 1707-1957. (1957) (17.11.1 B73.4 FIRCC GS 1957)</p>
+      <p>By the pastor, Rev. A.A. Ellsworth: Law and order: a sermon preached at the First Parish
+        Church, Braintree, Mass., on Sunday, April 5, 1891.) (15.4 5846 ELL-ELY)</p>
+      <p>By Rev. Richard S. Storrs, D.D.: The pastor's farewell benediction. A sermon delivered in
+        the First Congregational Church of Braintree, Mass., July 2, 1871, the day following being
+        the sixtieth anniversary of his settlement, July 3, 1811, / (1871) (15.0.5 5621 S-TE)</p>
+      <p>By Ebenezer Gay, A.M.: The untimely death of a man of God lamented: in a sermon preach'd at
+        the funeral of the Reverend Mr. John Hancock, pastor of the First Church of Christ in
+        Braintree, who died May 7th. 1744, aetatis suae 42. (1744) (15.0.7 5625 HAL-HAZ)</p>
+    </relatedmaterial>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Diaries.</part>
+      </subject>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <subject source="local">
+        <part>New England's Hidden Histories.</part>
+      </subject>
+      <corpname identifier="n88093595" source="lcnaf">
+        <part>First Congregational Church (Braintree, Mass.)</part>
+      </corpname>
+      <persname identifier="n85277127" source="lcnaf">
+        <part>Niles, Samuel, 1674-1762</part>
+      </persname>
+      <corpname identifier="n79023328" source="lcnaf">
+        <part>Braintree (Mass.) -- Church history.</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_c6ea2828edc8dbcfe01283887d1c02c3" level="item">
+        <did>
+          <unittitle>Samuel Niles journal</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1697">1697</fromdate>
+              <todate standarddate="1777">1777</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1697-1777</unitdate>
+        </did>
+        <scopecontent id="aspace_62a1b02e0ee86740c26d3b1664401b1d">
+          <head>Scope and Contents</head>
+          <p>The entries in this journal, dating from 1697 to 1777, document the Pastor, Samuel
+            Niles', thoughts and activities within the church as well as the organizational and
+            membership history of the First Congregational church of Braintree. The journal includes
+            entries regarding the Covenant of Redemption, the Episcopacy, the Godhead of the Christ,
+            the Protestant Power, the Papal Power, the 1665 plague in London, and the Pastor's work,
+            "A Prospect of Death- A Pindarique Essay," written on March 19, 1721. Also included in
+            the entries is the Pastor's own account of his birth, wives, children, marriages, and
+            ordination.</p>
+          <p>The volume also includes records of the marriages, baptisms, and members admitted into
+            communion, which the Pastor oversaw. On page 48, there is a written history of Samuel
+            Niles. The records also include the Abington church covenant that was in place during
+            Niles' ministry, records of burials near the Braintree church meeting house, Niles'
+            financial account with the church and a list of the Churches of Christ living in
+            December of 1777.</p>
+          <p>Although the journal does not include mention of the Stamp Act, the son of the
+            journal's author, Deacon Samuel Niles, was the chairman of a committee of five from
+            Braintree enlisted to draft instructions for the townspeople to react to the Act in
+            1765. This committee commissioned John Adams "to draft the documents recounting the
+            freedoms expected by American colonists," which became the Braintree Instructions. Forty
+            more Massachusetts towns endorsed the Braintree Instructions, a precursor of the
+            American Revolution. The Stamp Act was repealed a year later in the spring of 1766.</p>
+        </scopecontent>
+        <altformavail id="aspace_5e9dbc3edefa8cf9d3f04dc62d9a48a5">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Braintree/viewer/Samuel20Niles27s20journal2C2016971777/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+      </c01>
+      <c01 id="aspace_ae5f7ff64abcb1bce45e989700494288" level="item">
+        <did>
+          <unittitle>Financial records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1708">1708</fromdate>
+              <todate standarddate="1796">1796</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1708-1796</unitdate>
+        </did>
+        <scopecontent id="aspace_28168886a25fe480513235bda84b1936">
+          <head>Scope and Contents</head>
+          <p>The records in this volume document the financial and organizational history of the
+            Braintree District from 1708 to 1796. The records include the Precinct's meeting
+            minutes, financial records, bills of credit and credit payments. Meeting minutes include
+            discussion to build the new Precinct meeting house, beginning on page 82, a list of
+            citizens who bought the thirty-six pews of the new meeting house on pages 93-94, and a
+            report of the Precinct lines being drawn on page 128.</p>
+          <p>The different names used to refer to the Precinct within the records also reflect the
+            evolution of the Braintree region. From pages 1 to 24 the area is referred to as the
+            "South Precinct," from pages 25 to 27 it is referred to as "the South or Middle
+            precinct", from pages 28 to 192 it is referred to as the "Middle Precinct," from pages
+            193 to 200 it is referred to as the "First Precinct, formerly the Middle Precinct," and
+            from page 201 onward the region is referred to as the "Braintree Precinct."</p>
+        </scopecontent>
+        <altformavail id="aspace_e9f9805e65a38eb97548684fc48f4a82">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Braintree/viewer/Financial20records2C2017081796/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+      </c01>
+      <c01 id="aspace_a8a25b2f4dbc8f2e6aef121525654f09" level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1707">1707</fromdate>
+              <todate standarddate="1871">1871</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1707-1871</unitdate>
+        </did>
+        <scopecontent id="aspace_ce8a98d7df4dc728dc55b41c70f6cb84">
+          <head>Scope and Contents</head>
+          <p>This bound volume comprises the earliest church records, with some apparently copied
+            from a previous version, as well as later records continuing to 1871. The front cover
+            label on the volume reads: "Copy of Older Record Book and Dr. Storrs' Record Book." It
+            contains meeting minutes, lists of members, baptisms, marriages, deaths, a copy of the
+            church covenant, and copies of official correspondence.</p>
+        </scopecontent>
+        <altformavail id="aspace_8f38702054f62bc9b4db0e90a26d94ef">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Braintree/viewer/Church20records2C2017071871/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+      </c01>
+      <c01 id="aspace_247bd8a9add6890670a82b72d670c11d" level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1790">1790</fromdate>
+              <todate standarddate="1825">1825</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1790-1825</unitdate>
+        </did>
+        <scopecontent id="aspace_9785f679fe5ec83e79fc7088cb4c4fe4">
+          <head>Scope and Contents</head>
+          <p>Two sets of records were kept within this volume, and are presented here consecutively
+            for ease of use. The first set of records includes lists of the church's minsters and
+            members, covenants, and meeting minutes. The second set of records contains lists of
+            baptisms, marriages, deaths, and admissions to the church. This volume is stated to be a
+            direct continuation of Samuel Niles's Journal, which he originally took with him to
+            Abington when he left this church.</p>
+        </scopecontent>
+        <altformavail id="aspace_6badc7e424930c1dd7088eeb25f3a455">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Braintree/viewer/Church20records2C2017621824/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
