@@ -12,7 +12,7 @@
     <filedesc>
       <titlestmt>
         <titleproper>Dover, N.H. First Parish Church records, 1614-1862.</titleproper>
-        <author>Susan Stanley, Zachary Bodnar</author>
+        <author>Susan Stanley, Zachary Bodnar, Jules Thomson</author>
       </titlestmt>
       <publicationstmt>
         <publisher>Congregational Library Archives</publisher>
@@ -43,7 +43,7 @@
     </languagedeclaration>
     <conventiondeclaration>
       <abbr>DACS2 - 2013</abbr>
-      <citation>Describing Archives: A Content Standard, Second Edition</citation>
+      <citation>Describing Archives: A Content Standard, Second Edition (DACS)</citation>
     </conventiondeclaration>
     <localcontrol localtype="findaidstatus">
       <term>completed</term>
@@ -51,11 +51,11 @@
     <maintenancehistory>
       <maintenanceevent>
         <eventtype value="derived"/>
-        <eventdatetime>2019-06-03T18:39:13+00:00</eventdatetime>
+        <eventdatetime>2020-01-13T16:57:15+00:00</eventdatetime>
         <agenttype value="machine"/>
         <agent>ArchivesSpace v2.5.0</agent>
-        <eventdescription>This finding aid was produced using ArchivesSpace on Monday June 3, 2019
-          at 18:39</eventdescription>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Monday January 13,
+          2020 at 16:57</eventdescription>
       </maintenanceevent>
     </maintenancehistory>
   </control>
@@ -83,10 +83,13 @@
         </daterange>
       </unitdatestructured>
       <unitdate calendar="gregorian" unitdatetype="inclusive">1614-1862, 1967</unitdate>
-      <abstract id="aspace_89e18362147cb4db2e88356f91886f99">Church gathered in 1638; Mass. town
-        from 1642-1679. Extant as Dover First Parish Congregational UCC in 1996. Collection consists
-        of Parish records, 1614-1917; Jeremy Belknap (1744-1798) letters and miscellaneous
-        papers.</abstract>
+      <abstract id="aspace_89e18362147cb4db2e88356f91886f99">Gathered in 1633, the First Parish
+        Church in Dover is the oldest church in New Hampshire. Rev. Hanserd Knollys organized the
+        First Parish Church as a religious organization in 1638. The church joined the United Church
+        of Christ in 1961 and the name changed to First Parish Congregational Church in 1996.
+        Records include births, marriages, deaths, dismissals, disciplinary cases, meeting minutes,
+        financial records, and pew plans; letters by Rev. Jeremy Belknap, Rev. Hubbard Winslow, and
+        the church's clerk Asa A. Tufts, and between congregations.</abstract>
       <origination label="creator">
         <persname identifier="n50006494" source="lcnaf">
           <part>Belknap, Jeremy, 1744-1798</part>
@@ -153,13 +156,14 @@
     </accruals>
     <custodhist id="aspace_d46f779b3786e0e3bb3d531e2dcc6d44">
       <head>Custodial History</head>
-      <p>Microfilm copies were created by the Genealogical Society, Salt Lak City, Utah, in
+      <p>Microfilm copies were created by the Genealogical Society, Salt Lake City, Utah, in
         1967.</p>
     </custodhist>
     <processinfo id="aspace_bba751b9c80821d954cd162296a0bf1e">
       <head>Processing Information</head>
-      <p>Processed by Susan Stanley, March 2018, using DACS Ssecond Edition. Additional description
-        by Zachary Bodnar, February 2019.</p>
+      <p>Processed by Susan Stanley, March 2018, using DACS Second Edition. Additional description
+        by Zachary Bodnar, February 2019. Item level descriptions by Jules Thomson, January
+        2020.</p>
     </processinfo>
     <bioghist id="aspace_a2c1fac145ba2e7777f9c11c31d2cb1f">
       <head>Historical note</head>
@@ -594,6 +598,53 @@
                 href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/DoverNH/viewer/Jeremy20Belknap20correspondence2C201786/1"
                 linktitle="available to view online" show="new">available to view online</ref>.</p>
           </altformavail>
+          <scopecontent id="aspace_4f11161934ae01950ad9bc021a237fd1">
+            <head>Scope and Contents</head>
+            <p>These six items of correspondence were all authored by the Rev. Jeremy Belknap, a
+              Congregational minister better known for his contributions to the corpus of American
+              historical works. After twenty years as minister to the Parish Church in Dover, Rev.
+              Belknap resigned due to the church's failure to resolve his salary complaints. The
+              letters ennumerated below correspond to this dispute, which reached a breaking point
+              in the spring and summer of 1786 and resulted in Rev. Belknap's dissolution of his
+              ministry.</p>
+            <list listtype="deflist">
+              <head>Item list</head>
+              <defitem>
+                <label>1786 April 30</label>
+                <item>from Rev. Belknap to the First Parish in Dover: letter regarding Rev.
+                  Belknap's effort to lobby for an increase in salary due to the depreciation of
+                  paper currency</item>
+              </defitem>
+              <defitem>
+                <label>1786 June 12</label>
+                <item>from Rev. Belknap to the First Parish in Dover: letter declining the church
+                  committee's invitation to converse about the current "difficulties"</item>
+              </defitem>
+              <defitem>
+                <label>1786 June 15</label>
+                <item>from Rev. Belknap to the First Parish in Dover: letter confirming Rev.
+                  Belknap's decision to resign from his former duties</item>
+              </defitem>
+              <defitem>
+                <label>1786 June 16</label>
+                <item>from Rev. Belknap to the First Parish in Dover: letter with a further
+                  reiteration of Rev. Belknap's intentions</item>
+              </defitem>
+              <defitem>
+                <label>1786 June 16</label>
+                <item>from Rev. Belknap to the First Parish in Dover: letter with request for an
+                  official dismissal or alternatively the convening of an Ecclesiastical Council to
+                  decide the matter</item>
+              </defitem>
+              <defitem>
+                <label>1786 July 27</label>
+                <item>from Rev. Belknap to the First Parish in Dover: typewritten copy of an
+                  original letter elaborating on the reasons for Rev. Belknap's resignation,
+                  including objection to the practice of a general parish tax as a means to pay his
+                  salary</item>
+              </defitem>
+            </list>
+          </scopecontent>
         </c02>
         <c02 id="aspace_0ab73e57389fbd2237ef77493ac6afc2" level="file">
           <did>
@@ -601,11 +652,61 @@
             <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
               <daterange>
                 <fromdate standarddate="1828">1828</fromdate>
-                <todate standarddate="1842">1842</todate>
+                <todate standarddate="1838">1838</todate>
               </daterange>
             </unitdatestructured>
-            <unitdate calendar="gregorian" unitdatetype="inclusive">1828-1842</unitdate>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1828-1838</unitdate>
           </did>
+          <altformavail id="aspace_295baa26b144a50648684a3ecdb2eba4">
+            <head>Digital Copies</head>
+            <p>These church records were digitized as part of the New England's Hidden Histories
+              project. Digital reproductions are <ref actuate="onrequest"
+                href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/DoverNH/viewer/Church20correspondence20182818552C20vol201/1"
+                linktitle="available to view online" show="new">available to view online</ref>.</p>
+          </altformavail>
+          <scopecontent id="aspace_a32f6b7d6d51cd2c525d5e46905ebabc">
+            <head>Scope and Contents</head>
+            <p>These official church records deal mainly with ministerial business, including
+              invitations to clergy to preach and their responses. There is also a parishioner
+              recommendation letter and a copy of meeting minutes. Items are ennumerated below.</p>
+            <list listtype="deflist">
+              <head>Item list</head>
+              <defitem>
+                <label>1828 September 13</label>
+                <item>by Asa Tufts [secretary]: meeting minutes</item>
+              </defitem>
+              <defitem>
+                <label>1828 November 23</label>
+                <item>from Hubbard Windlay to the Church and Society of the First Congregational
+                  Parish of Dover: letter declining invitation to preach regularly</item>
+              </defitem>
+              <defitem>
+                <label>1831 November 30</label>
+                <item>from J. H. Keeler to Asa Tufts: letter excusing himself from an ecclesiastical
+                  council</item>
+              </defitem>
+              <defitem>
+                <label>1831 December 7</label>
+                <item>from "L" to [unknown]: letter requesting references for two potential
+                  ministers</item>
+              </defitem>
+              <defitem>
+                <label>1832 May 28</label>
+                <item>from A. D. Eddy to William Woodman: letter with description of recent
+                  travels</item>
+              </defitem>
+              <defitem>
+                <label>1832 October 23</label>
+                <item>from Warren Fay to the First Church in Dover: letter declining ministerial
+                  call</item>
+              </defitem>
+              <defitem>
+                <label>1838 August 6</label>
+                <item>from the Congregational Church in Great Falls to the First Church in Dover:
+                  letter of recommendation for parishioner Oliver Carter</item>
+              </defitem>
+            </list>
+          </scopecontent>
         </c02>
         <c02 id="aspace_8fe580bb186345f28ea9a12094d468b6" level="file">
           <did>
@@ -614,6 +715,46 @@
               <datesingle standarddate="1831">1831</datesingle>
             </unitdatestructured>
           </did>
+          <altformavail id="aspace_224370bdae8be58625a724ad5542d987">
+            <head>Digital Copies</head>
+            <p>These church records were digitized as part of the New England's Hidden Histories
+              project. Digital reproductions are <ref actuate="onrequest"
+                href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/DoverNH/viewer/Church20correspondence20182818552C20vol202/1"
+                linktitle="available to view online" show="new">available to view online</ref>.</p>
+          </altformavail>
+          <scopecontent id="aspace_9e03e8548308b0b7996d379d1ce54fee">
+            <head>Scope and Contents</head>
+            <p>These records relate to the ministry of Rev. H. Winslow, specifically the end of his
+              ministry, his health concerns, and the search for a replacement minister.</p>
+            <list listtype="deflist">
+              <head>Item list</head>
+              <defitem>
+                <label>1831 June 11</label>
+                <item>from Rev. H. Winslow to "the wardens of the First Parish in Dover": letter
+                  describing his health concerns and need for a new pastor</item>
+              </defitem>
+              <defitem>
+                <label>1831 June 11</label>
+                <item>from Rev. H. Winslow to "the wardens of the First Parish in Dover": copy of
+                  above letter with reply from church wardens</item>
+              </defitem>
+              <defitem>
+                <label>1831 November 13</label>
+                <item>from Rev. H. Winslow to Dr. Asa A. Tufts: letter describing his health
+                  concerns</item>
+              </defitem>
+              <defitem>
+                <label>1831 November 30</label>
+                <item>by Israel W. Putnam [moderator]: results of an ecclesiastical council
+                  dismissing Rev. Winslow</item>
+              </defitem>
+              <defitem>
+                <label>1831 December 11</label>
+                <item>from H. Winslow to Dr. Asa A. Tufts: letter suggesting replacement
+                  ministers</item>
+              </defitem>
+            </list>
+          </scopecontent>
         </c02>
         <c02 id="aspace_8143215f0fd8bae561e0f154edfdac2e" level="file">
           <did>
@@ -626,6 +767,42 @@
             </unitdatestructured>
             <unitdate calendar="gregorian" unitdatetype="inclusive">1831-1835</unitdate>
           </did>
+          <altformavail id="aspace_5f530909ddedb1cd9b6d212da70ea5d6">
+            <head>Digital Copies</head>
+            <p>These church records were digitized as part of the New England's Hidden Histories
+              project. Digital reproductions are <ref actuate="onrequest"
+                href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/DoverNH/viewer/Church20correspondence20182818552C20vol202/21"
+                linktitle="available to view online" show="new">available to view online</ref>.</p>
+          </altformavail>
+          <scopecontent id="aspace_72283a07bfa23105f7f9866d2d351109">
+            <head>Scope and Contents</head>
+            <p>These records relate to the church's attempt to instate Rev. J. Turnbull Backus as
+              minister, and Backus's refusals of the call. One letter includes arrangements for
+              temporary preaching.</p>
+            <list listtype="deflist">
+              <head>Item list</head>
+              <defitem>
+                <label>1831 August 19</label>
+                <item>from Allen Gannett to William Woodman: recommendation of J. T. Backus as
+                  replacement minister</item>
+              </defitem>
+              <defitem>
+                <label>1832 February 13</label>
+                <item>from J. Turnbull Backus to William Woodman: letter declining the ministerial
+                  call</item>
+              </defitem>
+              <defitem>
+                <label>1831 October 31</label>
+                <item>from J. Turnbull Backus to William Woodman: letter reiterating his poor health
+                  and declining the ministerial call</item>
+              </defitem>
+              <defitem>
+                <label>1831 August 24</label>
+                <item>from J. Turnbull Backus to William Woodman: letter with arrangements for
+                  preaching</item>
+              </defitem>
+            </list>
+          </scopecontent>
         </c02>
         <c02 id="aspace_3ba86badd811b2fc982e7427548441a6" level="file">
           <did>
@@ -638,6 +815,52 @@
             </unitdatestructured>
             <unitdate calendar="gregorian" unitdatetype="inclusive">1833-1839</unitdate>
           </did>
+          <altformavail id="aspace_650ff895a6e196c19e3516da67ec1101">
+            <head>Digital Copies</head>
+            <p>These church records were digitized as part of the New England's Hidden Histories
+              project. Digital reproductions are <ref actuate="onrequest"
+                href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/DoverNH/viewer/Church20correspondence20182818552C20vol202/37"
+                linktitle="available to view online" show="new">available to view online</ref>.</p>
+          </altformavail>
+          <scopecontent id="aspace_19e065067050fcb789689b9a6e1bc93f">
+            <head>Scope and Contents</head>
+            <p>These records, mainly correspondence, relate to the ministry of Rev. David Root,
+              specifically to his illness and resignation. They include letters from Rev. Root to
+              the church committee and replies.</p>
+            <list listtype="deflist">
+              <head>Item list</head>
+              <defitem>
+                <label>undated</label>
+                <item>from Rev. David Root to the First Parish in Dover: copy of letter declining
+                  preaching due to ill health</item>
+              </defitem>
+              <defitem>
+                <label>1833 January 21</label>
+                <item>from Rev. David Root to the committee of the First Church and Parish in Dover:
+                  letter regarding his ministry</item>
+              </defitem>
+              <defitem>
+                <label>1834 April 24</label>
+                <item>from Charles Ricker to Rev. David Root: letter regarding his dismission</item>
+              </defitem>
+              <defitem>
+                <label>1835 March 25</label>
+                <item>from J. H. Miller to the First Church in Dover: invitation to an
+                  ecclesiastical council for the merging of the Pleasant Street Church in
+                  Portsmouth, N.H. and the North Church</item>
+              </defitem>
+              <defitem>
+                <label>1835 May 28</label>
+                <item>from Rev. David Root to the First Parish of Dover: copy of resignation
+                  letter</item>
+              </defitem>
+              <defitem>
+                <label>1837 June 10</label>
+                <item>from Rev. David Root to the First Congregational Church of Dover: letter
+                  calling for an ecclesiastical council regarding his resignation</item>
+              </defitem>
+            </list>
+          </scopecontent>
         </c02>
         <c02 id="aspace_fa82188c2d9ca72218987c20892e3357" level="file">
           <did>
@@ -650,18 +873,108 @@
             </unitdatestructured>
             <unitdate calendar="gregorian" unitdatetype="inclusive">1834-1839</unitdate>
           </did>
+          <altformavail id="aspace_e9ed0d1c3adf46355f3d57d7ae047ca4">
+            <head>Digital Copies</head>
+            <p>These church records were digitized as part of the New England's Hidden Histories
+              project. Digital reproductions are <ref actuate="onrequest"
+                href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/DoverNH/viewer/Church20correspondence20182818552C20vol202/59"
+                linktitle="available to view online" show="new">available to view online</ref>.</p>
+          </altformavail>
+          <scopecontent id="aspace_f60dd927cb3921b72c9cab7b6ffb987c">
+            <head>Scope and Contents</head>
+            <p>These records relate to the disciplinary case of parishioner Daniel Norris, resulting
+              from a financial dispute with other parishioners. Documents include legal testimonials
+              by witnesses and plaintifs in the case, summons to the hearing, and finally Norris's
+              confession to the church. Items are ennumerated below.</p>
+            <list listtype="deflist">
+              <head>Item list</head>
+              <defitem>
+                <label>1834 February 10</label>
+                <item>by T. E. Sawyer: copy of receipt by Richard McDuffee to Thomas Roberts, with
+                  elaboration of legal dispute</item>
+              </defitem>
+              <defitem>
+                <label>1835 March 17</label>
+                <item>from John W. Hayes to Daniel Norris [on behalf of the church]: letter with
+                  summons to a disciplinary hearing</item>
+              </defitem>
+              <defitem>
+                <label>1835 March 23</label>
+                <item>by Thomas Roberts : legal testimony</item>
+              </defitem>
+              <defitem>
+                <label>1835 March 26</label>
+                <item>by John W. Hayes: report on disciplinary case of Daniel Norris</item>
+              </defitem>
+              <defitem>
+                <label>1835 January 19</label>
+                <item>by Thomas Pickering, David Legro, and Richard McDuffee: legal testimony</item>
+              </defitem>
+              <defitem>
+                <label>1839 February 5</label>
+                <item>from Daniel Norris to the congregation of the First Church in Dover:
+                  confession and request for forgiveness</item>
+              </defitem>
+            </list>
+          </scopecontent>
         </c02>
         <c02 id="aspace_27b84943cad1f091aaf8e57338d9ffe5" level="file">
           <did>
             <unittitle>Correspondence</unittitle>
-            <unitdatestructured unitdatetype="inclusive">
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
               <daterange>
                 <fromdate standarddate="1839">1839</fromdate>
                 <todate standarddate="1842">1842</todate>
               </daterange>
             </unitdatestructured>
-            <unitdate unitdatetype="inclusive">1839-1842</unitdate>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1839-1842</unitdate>
           </did>
+          <altformavail id="aspace_37cacf135e922458c220097dde973688">
+            <head>Digital Copies</head>
+            <p>These church records were digitized as part of the New England's Hidden Histories
+              project. Digital reproductions are <ref actuate="onrequest"
+                href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Medfield/viewer/Prayer20requests2C20undated/28"
+                linktitle="available to view online" show="new">available to view online</ref>.</p>
+          </altformavail>
+          <scopecontent id="aspace_f36f692f9b0e107150541f33f09a4685">
+            <head>Scope and Contents</head>
+            <p>These records comprise letters to and from the church in Dover, discussing pulpit
+              supply and preaching, disciplinary cases of parishioners, and one request for
+              dismissal. Items are ennumerated below.</p>
+            <list listtype="deflist">
+              <head>Item list</head>
+              <defitem>
+                <label>1839 August 28</label>
+                <item>from E. J. Lane to Rev. Mr. Young: letter with request for pulpit
+                  supply</item>
+              </defitem>
+              <defitem>
+                <label>1839 September 4</label>
+                <item>from William J. Breed to E. J. Lane: letter making arrangements for
+                  preaching</item>
+              </defitem>
+              <defitem>
+                <label>1839 October 10</label>
+                <item>from Rev. J. S. Young to the committee of the First Church in Dover: letter
+                  declining offer to continue preaching</item>
+              </defitem>
+              <defitem>
+                <label>1842 July 6</label>
+                <item>from Rev. J. S. Young to Charles Ricker: letter with summons to a disciplinary
+                  hearing</item>
+              </defitem>
+              <defitem>
+                <label>1842 July 8</label>
+                <item>from E. J. Lane to Mr. Palfrey Downing: letter with summons to a disciplinary
+                  meeting</item>
+              </defitem>
+              <defitem>
+                <label>1842 July 10</label>
+                <item>from Elizabeth L. Fols to the Congregational Church in Dover: letter asking
+                  for dismissal</item>
+              </defitem>
+            </list>
+          </scopecontent>
         </c02>
         <c02 id="aspace_48ecbe7ee7d8e20f22e8bd14f0bb5a23" level="file">
           <did>
@@ -670,18 +983,97 @@
               <datesingle standarddate="1842">1842</datesingle>
             </unitdatestructured>
           </did>
+          <altformavail id="aspace_12f0278a14dd164f78c3e27e99f53b21">
+            <head>Digital Copies</head>
+            <p>These church records were digitized as part of the New England's Hidden Histories
+              project. Digital reproductions are <ref actuate="onrequest"
+                href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/DoverNH/viewer/Church20correspondence20182818552C20vol202/93"
+                linktitle="available to view online" show="new">available to view online</ref>.</p>
+          </altformavail>
+          <scopecontent id="aspace_7d7b947d172da9d13445837ccad934f1">
+            <head>Scope and Contents</head>
+            <p>These records relate to the departure of several parishioners from the church in
+              Dover, and the church's subsequent dismissal of the members. In a document submitted
+              to the church, the absenting members describe their opposition to the church's refusal
+              to condemn slavery.</p>
+            <list listtype="deflist">
+              <head>Item list</head>
+              <defitem>
+                <label>1842 October 9</label>
+                <item>from Abraham Folsom to the First Congregational Church in Dover: letter
+                  regarding the abolition of slavery</item>
+              </defitem>
+              <defitem>
+                <label>1842 October 9</label>
+                <item>by the First Church in Dover: letter dismissing Abraham Folsom and other
+                  members</item>
+              </defitem>
+            </list>
+          </scopecontent>
         </c02>
         <c02 id="aspace_8a781c9177162120ca8e172fe9cb2989" level="file">
           <did>
             <unittitle>Correspondence</unittitle>
-            <unitdatestructured unitdatetype="inclusive">
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
               <daterange>
                 <fromdate standarddate="1845">1845</fromdate>
                 <todate standarddate="1849">1849</todate>
               </daterange>
             </unitdatestructured>
-            <unitdate unitdatetype="inclusive">1845-1849</unitdate>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1845-1849</unitdate>
           </did>
+          <altformavail id="aspace_573ca6c4101f5b46e9d1b69d04d8cdec">
+            <head>Digital Copies</head>
+            <p>These church records were digitized as part of the New England's Hidden Histories
+              project. Digital reproductions are <ref actuate="onrequest"
+                href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/DoverNH/viewer/Church20correspondence20182818552C20vol201/42"
+                linktitle="available to view online" show="new">available to view online</ref>.</p>
+          </altformavail>
+          <scopecontent id="aspace_2b0f6dd713dcc3989c5bb2edf402e77b">
+            <head>Scope and Contents</head>
+            <p>These records consist of official church correspondence, including parishioner
+              transfer letters, ministers' letters, invitations to ecclesiastical councils, and
+              summons to disciplinary meetings. Items are ennumerated below.</p>
+            <list listtype="deflist">
+              <head>Item list</head>
+              <defitem>
+                <label>1845 June 14</label>
+                <item>from Homer Barrow to the First Congregational Church and Society in Dover:
+                  letter with acceptance of ministerial call</item>
+              </defitem>
+              <defitem>
+                <label>1845 June 23</label>
+                <item>from the First Congregational Church of Christ in Dover to the Congregational
+                  Church of Christ in Rochester: invitation to ecclesiastical council for the
+                  ordination of Rev. Homer Barrow</item>
+              </defitem>
+              <defitem>
+                <label>1848 September 4</label>
+                <item>from the First Church in Dover to the First Presbyterian Church in
+                  Newburyport: parishioner transfer of Hannah Coffin</item>
+              </defitem>
+              <defitem>
+                <label>undated</label>
+                <item>from the First Church in Dover to the Baptist Church in Dover: parishioner
+                  transfer of "Miss A. B."</item>
+              </defitem>
+              <defitem>
+                <label>undated</label>
+                <item>from the First Church in Dover to Daniel Gale: letter with summons to a
+                  disciplinary hearing</item>
+              </defitem>
+              <defitem>
+                <label>undated</label>
+                <item>from the First Church in Dover to Samuel Prescott: letter with summons to a
+                  disciplinary hearing</item>
+              </defitem>
+              <defitem>
+                <label>1849 March 1</label>
+                <item>from Hayden K. Higby to E. J. Lane: letter requesting letter of transfer to
+                  the Old South Church in Boston</item>
+              </defitem>
+            </list>
+          </scopecontent>
         </c02>
         <c02 id="aspace_8b1cd5db574f146c241096c58dc80f09" level="file">
           <did>
@@ -694,6 +1086,45 @@
             </unitdatestructured>
             <unitdate calendar="gregorian" unitdatetype="inclusive">1853-1855</unitdate>
           </did>
+          <altformavail id="aspace_20a2b248bf431286583efba22ad04b59">
+            <head>Digital Copies</head>
+            <p>These church records were digitized as part of the New England's Hidden Histories
+              project. Digital reproductions are <ref actuate="onrequest"
+                href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/DoverNH/viewer/Church20correspondence20182818552C20vol201/60"
+                linktitle="available to view online" show="new">available to view online</ref>.</p>
+          </altformavail>
+          <scopecontent id="aspace_09d955182ccaae140fc15cc0b121b9ca">
+            <head>Scope and Contents</head>
+            <p>These records comprise four invitations to ecclesiastical councils, from other
+              churches to the church in Dover. The invitations are for ordinations and dismissions
+              of ministers.</p>
+            <list listtype="deflist">
+              <head>Item list</head>
+              <defitem>
+                <label>1853 December 22</label>
+                <item>from the Congregational Church in Great Falls to the Congregational Church in
+                  Dover: invitation to ecclesiastical council for dismission of Rev. McCollom</item>
+              </defitem>
+              <defitem>
+                <label>1853 December 12</label>
+                <item>from the Congregational Church in Epping to the Congregational Church in
+                  Dover: invitation to ecclesiastical council for the ordination of Rev. Lyman
+                  White</item>
+              </defitem>
+              <defitem>
+                <label>1855 October 31</label>
+                <item>from the Congregational Church in Hampton to the Congregational Church in
+                  Dover: invitation to ecclesiastical council for the ordination of Rev. John
+                  Colby</item>
+              </defitem>
+              <defitem>
+                <label>1855 October 22</label>
+                <item>from the North Church and Parish in Portsmouth, N.H. to the Congregational
+                  Church in Dover: invitation to ecclesiastical council for the ordination of Rev.
+                  Lyman Whiting</item>
+              </defitem>
+            </list>
+          </scopecontent>
         </c02>
       </c01>
       <c01 id="aspace_16883b91eef31bb05ebab00dd4901c63" level="series">
@@ -843,6 +1274,26 @@
                 href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/DoverNH/viewer/Tax20documents2C2017811784/1"
                 linktitle="available to view online" show="new">available to view online</ref>.</p>
           </altformavail>
+          <scopecontent id="aspace_dd5b54701975b8d44a1987db7d634d5c">
+            <head>Scope and Contents</head>
+            <p>These three loose documents were found in the church record book dating to 1762-1862,
+              between pages 122-123, and placed in their own folder.</p>
+            <list listtype="deflist">
+              <defitem>
+                <label>1781 April 10</label>
+                <item>by Rev. Jeremy Belknap: notice of receipt for parish taxes levied</item>
+              </defitem>
+              <defitem>
+                <label>1784 May 1</label>
+                <item>by Stephen Evans to the parish wardens: request for payment of one pound, nine
+                  shilling and sixpence from the parish collection of 1782</item>
+              </defitem>
+              <defitem>
+                <label>undated</label>
+                <item>list of payments received from various subscribers</item>
+              </defitem>
+            </list>
+          </scopecontent>
         </c02>
         <c02 id="aspace_7e502b28187052bea97fa31eb718ae2a" level="file">
           <did>
@@ -855,6 +1306,59 @@
             </unitdatestructured>
             <unitdate calendar="gregorian" unitdatetype="inclusive">1825-1834</unitdate>
           </did>
+          <altformavail id="aspace_bfc223e8588e8649fd353b14dc91441c">
+            <head>Digital Copies</head>
+            <p>These church records were digitized as part of the New England's Hidden Histories
+              project. Digital reproductions are <ref actuate="onrequest"
+                href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/DoverNH/viewer/Church20records20loose2C2018281855/1"
+                linktitle="available to view online" show="new">available to view online</ref>.</p>
+          </altformavail>
+          <scopecontent id="aspace_3abb70f5c5c6179390d4c6f6ac9c3dd6">
+            <head>Scope and Contents</head>
+            <p>These records comprise official church correspondence and include invitations to
+              ecclesiastical councils, ordinations, articles of faith and church covenant
+              documents.</p>
+            <list listtype="deflist">
+              <head>Item list</head>
+              <defitem>
+                <label>undated</label>
+                <item>[used by] Rev. Clary: articles of faith</item>
+              </defitem>
+              <defitem>
+                <label>1828 August 6</label>
+                <item>by Jonathan French [moderator]: result of ecclesiastical council dismissing
+                  Rev. Clary</item>
+              </defitem>
+              <defitem>
+                <label>1831 November 16</label>
+                <item>from the Church of Christ at Meredeth Bridge to the Church of Christ at Dover:
+                  invitation to ecclesiastical council for ordination </item>
+              </defitem>
+              <defitem>
+                <label>1832 June 6</label>
+                <item>from the Church of Christ in Pleasant Street, Portsmouth to the Church of
+                  Christ in Dover invitation to ecclesiastical council for ordination</item>
+              </defitem>
+              <defitem>
+                <label>1833 February 6</label>
+                <item>by John Smith [scribe]: result of ecclesiastical council to install Rev.
+                  Root</item>
+              </defitem>
+              <defitem>
+                <label>1833 January 25</label>
+                <item>template letter for ordination invitation</item>
+              </defitem>
+              <defitem>
+                <label>1834 July 15</label>
+                <item>articles of faith and covenant</item>
+              </defitem>
+              <defitem>
+                <label>1835 September 17</label>
+                <item>from the Congregational Church in Rochester to the Church in Dover: invitation
+                  to ecclesiastical council to dismiss pastor</item>
+              </defitem>
+            </list>
+          </scopecontent>
         </c02>
         <c02 id="aspace_ebbdc38fd9650555caa9dae65fbbba59" level="file">
           <did>
@@ -867,6 +1371,41 @@
             </unitdatestructured>
             <unitdate calendar="gregorian" unitdatetype="inclusive">1840-1841</unitdate>
           </did>
+          <altformavail id="aspace_35c3b009700274aee5a68430f40aa447">
+            <head>Digital Copies</head>
+            <p>These church records were digitized as part of the New England's Hidden Histories
+              project. Digital reproductions are <ref actuate="onrequest"
+                href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/DoverNH/viewer/Church20correspondence20182818552C20vol202/79"
+                linktitle="available to view online" show="new">available to view online</ref>.</p>
+          </altformavail>
+          <scopecontent id="aspace_c30540deb17e7169b06a46916e6ca9e0">
+            <head>Scope and Contents</head>
+            <p>These four documents relate to a disciplinary case against parishioner Asa
+              Farnsworth, who was allegedly seen going into the bedroom of the widow Mrs. Benn
+              without anyone besides the two of them present.</p>
+            <list listtype="deflist">
+              <head>Item list</head>
+              <defitem>
+                <label>1840 December 5</label>
+                <item>by Francis Cogswell and others: committee report on Asa Farnsworth's behavior
+                  toward the widow Mrs. Benn</item>
+              </defitem>
+              <defitem>
+                <label>1841 April 9</label>
+                <item>from Asa Farnsworth to the Congregational Church of Dover: letter relating to
+                  his own disciplinary case</item>
+              </defitem>
+              <defitem>
+                <label>1841 June 28</label>
+                <item>from Asa Farnsworth to the Congregational Church of Dover: letter relating to
+                  his own disciplinary case</item>
+              </defitem>
+              <defitem>
+                <label>undated</label>
+                <item>draft of ruling in Asa Farnsworth's disciplinary case</item>
+              </defitem>
+            </list>
+          </scopecontent>
         </c02>
         <c02 id="aspace_250316ff80bf4c0a7285eace57a57c2b" level="file">
           <did>
@@ -879,6 +1418,55 @@
             </unitdatestructured>
             <unitdate calendar="gregorian" unitdatetype="inclusive">1845-1855</unitdate>
           </did>
+          <altformavail id="aspace_03ec756fe7abfc01d381378029d11e4c">
+            <head>Digital Copies</head>
+            <p>These church records were digitized as part of the New England's Hidden Histories
+              project. Digital reproductions are <ref actuate="onrequest"
+                href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/DoverNH/viewer/Church20records20loose2C2018281855/31"
+                linktitle="available to view online" show="new">available to view online</ref>.</p>
+          </altformavail>
+          <scopecontent id="aspace_899a76e3b19a505a1efd66c689b31fe6">
+            <head>Scope and Contents</head>
+            <p>These records consist of official church and parish documents, including several
+              meeting minutes and invitations, and also several financial reports. Items are
+              ennumerated below.</p>
+            <list listtype="deflist">
+              <head>Item list</head>
+              <defitem>
+                <label>1845 May 11</label>
+                <item>by E. J. Lane [clerk]: church and parish meeting minutes</item>
+              </defitem>
+              <defitem>
+                <label>1849 December 2</label>
+                <item>by E. J. Lane [clerk]: church meeting minutes</item>
+              </defitem>
+              <defitem>
+                <label>1849 December 5</label>
+                <item>by B. R. Allen [moderator]: ecclesiastical council meeting minutes</item>
+              </defitem>
+              <defitem>
+                <label>1852 July 6</label>
+                <item>by Adam Jobey [moderator]: ecclesiastical council meeting minutes</item>
+              </defitem>
+              <defitem>
+                <label>1852 May 27</label>
+                <item>meeting notice</item>
+              </defitem>
+              <defitem>
+                <label>1853 December 16</label>
+                <item>from the Mather Church and Society to the First Church in Dover: invitation to
+                  ecclesiastical council for ordination</item>
+              </defitem>
+              <defitem>
+                <label>1854 March 31</label>
+                <item>list of subscribers for the American Sunday School Union</item>
+              </defitem>
+              <defitem>
+                <label>1855 January 1</label>
+                <item>reports of the church treasury committee</item>
+              </defitem>
+            </list>
+          </scopecontent>
         </c02>
         <c02 id="aspace_49fb0e5e269d5e32520b1e0a7fe7eaa3" level="file">
           <did>
@@ -891,6 +1479,42 @@
             </unitdatestructured>
             <unitdate calendar="gregorian" unitdatetype="inclusive">1852-1853</unitdate>
           </did>
+          <altformavail id="aspace_7c9d3cb053eab195935ce57a22c9771c">
+            <head>Digital Copies</head>
+            <p>These church records were digitized as part of the New England's Hidden Histories
+              project. Digital reproductions are <ref actuate="onrequest"
+                href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/DoverNH/viewer/Church20correspondence20182818552C20vol202/99"
+                linktitle="available to view online" show="new">available to view online</ref>.</p>
+          </altformavail>
+          <scopecontent id="aspace_17d1fe6b67e0bf8a272111aea6d019d7">
+            <head>Scope and Contents</head>
+            <p>These documents relate to the selection and ordination of Rev. Benjamin Parsons,
+              including correspondence to and from the First Parish Church in Dover. Items are
+              ennumerated below.</p>
+            <list listtype="deflist">
+              <head>Item list</head>
+              <defitem>
+                <label>1852 December 28 </label>
+                <item>from Benjamin Parsons to the Congregational Church and parish in Dover: letter
+                  with acceptance of ministerial call</item>
+              </defitem>
+              <defitem>
+                <label>1852 December 29</label>
+                <item>from Benjamin Parsons to the Congregational Church and parish in Dover:
+                  addendum to acceptance of call with salary request</item>
+              </defitem>
+              <defitem>
+                <label>1852 December 31</label>
+                <item>from the Congregational Church in Dover to S. L. Pomroy: invitation letter to
+                  the installation of Rev. Parsons</item>
+              </defitem>
+              <defitem>
+                <label>1853 January 12</label>
+                <item>by B. N. Allen [moderator]: results of ecclesiastical council for the
+                  settlement of Rev. Parsons</item>
+              </defitem>
+            </list>
+          </scopecontent>
         </c02>
       </c01>
       <c01 id="aspace_3c3b709b611f901be11e99107ba8b7ed" level="series">
@@ -922,7 +1546,7 @@
             <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
               <datesingle standarddate="1967">1967</datesingle>
             </unitdatestructured>
-            <container id="aspace_4bea4da757fcac2d201f93e0bce1965a" label="Microform"
+            <container id="aspace_3d75e6523fb0428c089830c1294f218c" label="Microform"
               localtype="reel">1</container>
           </did>
         </c02>
@@ -939,7 +1563,7 @@
             <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
               <datesingle standarddate="1967">1967</datesingle>
             </unitdatestructured>
-            <container id="aspace_26f31650885a075df7d7d328eba6bd18" label="Microform"
+            <container id="aspace_c922b4fcde3e498c0fea5805d4490051" label="Microform"
               localtype="reel">2</container>
           </did>
         </c02>
