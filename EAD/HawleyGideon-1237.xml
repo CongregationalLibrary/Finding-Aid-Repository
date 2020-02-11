@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/HawleyGideon-1237.xml"
+      >HawleyGideon-1237</recordid>
+    <representation localtype="pdf"
+      href="http://www.congregationallibrary.org/sites/all/files/HawleyGideon-1237.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Gideon Hawley missionary journals, 1753-1806.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2020-02-11</date>
+        <num>MS1237</num>
+      </publicationstmt>
+      <seriesstmt>
+        <p>This collection is part of New England's Hidden Histories. Digital historical
+          representations of the collection can be viewed online.</p>
+      </seriesstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard, Second Edition</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2020-02-11T16:28:10+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Tuesday February 11,
+          2020 at 16:28</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Gideon Hawley missionary journals, 1753-1806.</unittitle>
+      <unitid>MS1237</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>0.65</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(1 box, 5 reels)</physdesc>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1753">1753</fromdate>
+          <todate standarddate="1806">1806</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" unitdatetype="inclusive">1753-1806</unitdate>
+      <abstract id="aspace_7256b6af4b3b540b28bf1bbeaf93dd54">Rev. Gideon Hawley was born at
+        Stratfield (Bridgeport), Connecticut. Hawley graduated from Yale College in 1749 and was
+        licensed to preach by the Fairfield East Association May 1750. Hawley accepted a position
+        from the Society for Propagating the Gospel among the Indians to establish a mission among
+        the Six Nations on the Susquehanna in 1954. In 1757 Hawley was sent on a temporary mission
+        to the Mashpee and following a formal request by the Mashpee Hawley took up a permanent post
+        among them on April 8, 1758. Hawley died in Mashpee in 1807. This collection of journal and
+        correspondence records includes materials relating to life in the Mohawk country, the Six
+        Nations, the Mashpee Indians, and the Society for the Propagation of the Gospel among the
+        Indians.</abstract>
+      <origination label="creator">
+        <persname identifier="n91082000" source="lcnaf">
+          <part>Hawley, Gideon, 1727-1807</part>
+        </persname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_53c2d108f03c4ff6684d91508ae0e19d">
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_5dfac266eeda1965adf9505451b0cb47">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+      <p>Digital Reproductions are protected by copyright and/or related rights. You are free to use
+        the Digital Reproductions in any way that is permitted by the copyright and related rights
+        legislation that applies to your use. In addition, no permission is required from the
+        Congregational Library &amp; Archives for educational uses. For other uses, you need to
+        obtain permission from the Congregational Library &amp; Archives. For additional information
+        regarding copyright, please consult the Congregational Library &amp; Archives' <ref
+          actuate="onrequest" href="http://www.congregationallibrary.org/about/digital-copyright"
+          linktitle="Digital Collections Copyright &amp; Use" show="new">Digital Collections
+          Copyright &amp; Use</ref> policy.</p>
+    </userestrict>
+    <prefercite id="aspace_f3e20ba411d8fe51496920cc1babfd1a">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Gideon Hawley missionary journals, 1753-1806, MS1237. The
+        Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_58d7a7bd9b6af63c6cd8d7061ed05eff">
+      <head>Source of Acquisition</head>
+      <p>The journals were gifted to the Congregational Library &amp; Archives by A. C. Thompson in
+        1875; no accession number. The journals were originally cataloged with the call number M 11
+        H 31.</p>
+    </acqinfo>
+    <altformavail id="aspace_e7a20846393ac55944fbfb408826190a">
+      <head>Location of Copies</head>
+      <p>The Massachusetts Historical Society maintains their own copy of the microfilms. The
+        microfilm was assigned the call number P-363 reel 8.1.</p>
+    </altformavail>
+    <accruals id="aspace_06d85056b92a596eca590b8fd7fa332a">
+      <head>Accruals</head>
+      <p>Additional accruals are expected for this collection in the form of full-text
+        transcription. There is no anticipated date for this accrual.</p>
+    </accruals>
+    <processinfo id="aspace_20fcf849ccd3d6e609849e0739f3ab9f">
+      <head>Processing Information</head>
+      <p>This collection was originally cataloged as M 11 H 31 and placed within the library's
+        holdings. The collection was first described by archival staff in 1996. The collection was
+        redescribed by Sari Mauro, September 2013, using DACS First Edition. The collection was
+        reprocessed by Zachary Bodnar, February 2020, using DACS Second Edition.</p>
+    </processinfo>
+    <bioghist id="aspace_58293c5e0cccd5bbde27686944b72435">
+      <head>Historical Note</head>
+      <p>Rev. Gideon Hawley was born at Stratfield (Bridgeport), Connecticut, the son of Gideon and
+        Hannah Bennett Hawley. His mother, a daughter of Lieutenant James Bennett of Stratfield,
+        Connecticut died at Hawley's birth. Hawley's father died when Hawley junior was three years
+        old. Hawley was a descendent of Joseph Hawley, who immigrated to America in 1629.</p>
+      <p>Hawley graduated from Yale College in 1749 and was licensed to preach by the Fairfield East
+        Association May 1750. He accepted a position in Stockbridge in 1752, under the pay of the
+        Society for Propagating the Gospel among the Indians and under the supervision of Jonathan
+        Edwards. Jonathan Edwards was a preacher to the whites and the Housatonic Indians in the
+        Stockbridge; he occasionally visited Hawley's school to the Iroquois and gave Hawley advice
+        about his work with the Native Americans there.</p>
+      <p>Due to "opposing cliques among the controlling authorities" at Stockbridge, Hawley accepted
+        a position from the Society to establish a mission among the Six Nations on the Susquehanna;
+        he was ordained in Old South Church, Boston, July 31, 1754 for this position and left for
+        the site, near the contemporary town of Windsor, New York (close to the area where Rev.
+        Elihu Spencer, Yale 1746, made an unsuccessful attempt at ministry five or six years
+        before). Besides acting as a missionary, Rev. Hawley also acted as an interpreter at this
+        post. War did not affect his mission until May 1756, when Hawley was forced to leave. He
+        attempted to return to his former mission, but since it was unsafe, he remained in West
+        Springfield, Massachusetts for the winter. He tried to rejoin his former congregation in the
+        spring of 1757, but the prevalence of small pox prevented him from doing so.</p>
+      <p>Hawley returned to Boston and accepted a commission as chaplain to Colonel Richard
+        Gridley's regiment. He departed with the army for Crown Point July 12 but was forced to
+        return in October, due to illness. The Society then sent Hawley on a temporary mission to
+        the large plantation (approximately 300) of Native Americans at Mashpee, Massachusetts, who
+        had been without a preacher for fifteen years. The Mashpee requested Hawley's permanent
+        appointment; Hawley took up the permanent post April 8, 1758.</p>
+      <p>In Mashpee, Hawley married Lucy Fessenden July 14, 1759, second daughter of Rev. Benjamin
+        Fessenden (Harvard 1718) and Rebecca (Smith) Fessenden of Sandwich. Hawley and Fessenden had
+        three sons and two daughters. The eldest son died in infancy, and other children all lived
+        to maturity. The youngest son graduated at Harvard in 1792 and died in 1800, early on in his
+        pastoral life. Lucy Fessenden died in December 25, 1777 at the age of 50 and Hawley
+        remarried Mrs. Elizabeth Burchard October 7, 1778, widow of Captain David Burchard of
+        Nantucket and previous widow of a Mr. Hussey. Mrs. Elizabeth Burchard was born in Mendon,
+        Massachusetts October 12, 1726 and died August 7, 1797. Hawley died in Mashpee in 1807.</p>
+    </bioghist>
+    <scopecontent id="aspace_803f2e749d6e3a52a83373aee91e009e">
+      <head>Scope and Contents</head>
+      <p>Items in this collection include correspondence, journal accounts, lists of births and
+        deaths, a table of Native American statistics, and a map (1756) by Hawley of Onohoguage
+        villages in New York. This collection includes materials relating to life in the Mohawk
+        country, the Six Nations, the Mashpee Indians, the Society for the Propagation of the Gospel
+        among the Indians, the Massachusetts General Court, and the French and Indian War. Persons
+        named include James Abercromby, Jonathan Edwards, John Hancock, and William Johnson. Of
+        particular note are records mentioning Hawley's long-time translator, Rebecca Kellogg
+        Ashley.</p>
+    </scopecontent>
+    <arrangement id="aspace_6c34a59dc6dc62ab1fb199b95d6ad08a">
+      <head>Arrangement</head>
+      <p>This collection has been arranged in volume order which generally is also date order.</p>
+    </arrangement>
+    <phystech id="aspace_60ca164c5a31744a38cee6c70c5602b8">
+      <head>Technical Requirements</head>
+      <p>To access digital user's copies via online-interface, a java-enabled web browser is
+        required. Internet Explorer 8.x and later, Firefox 5.x and later, Opera 12 and later, Safari
+        5.x and later, or any version of Google Chrome are recommended.</p>
+      <p>A microfilm reader is required in order to access microform materials. One microfilm reader
+        is available to the public upon request.</p>
+    </phystech>
+    <relatedmaterial id="aspace_da1ae5997965fa61330aaf211b2b487c">
+      <head>Related Materials</head>
+      <p>The Massachusetts Historical Society holds two archival collections related to Gideon
+        Hawley. The "Gideon Hawley letters, 1754-1807" collection contains correspondence written by
+        Gideon Hawley largely related to his missionary work and the "Letter to Gideon Hawley, April
+        1764" contains a single letter written by Cognehew, Reuben to Gideon Hawley asking for
+        additional funds for his Mashpee Indian school.</p>
+    </relatedmaterial>
+    <bibliography id="aspace_03fc17e3354fdc018f0ea2b199b4de49">
+      <head>Bibliography</head>
+      <p>Dexter, Franklin Bowditch. <emph render="italic">Biographical Sketches of the Graduates of
+          Yale College with Annals of the College History.</emph> New York: Henry Hold and Company,
+        1896.</p>
+      <p>Malone, Dumas, ed. <emph render="italic">Dictionary of American Biography.</emph> New York:
+        Charles Scribner's Sons, 1932.</p>
+    </bibliography>
+    <controlaccess>
+      <subject source="lcsh">
+        <part>Indians of North America -- Missions. </part>
+      </subject>
+      <subject source="lcsh">
+        <part>Mashpee Indians -- Missions. </part>
+      </subject>
+      <subject source="lcsh">
+        <part>Missionaries -- Massachusetts -- Biography.</part>
+      </subject>
+      <subject source="local">
+        <part>New England's Hidden Histories.</part>
+      </subject>
+      <subject identifier="sh85123612" source="lcsh">
+        <part>Smallpox.</part>
+      </subject>
+      <subject identifier="sh85128212" source="lcsh">
+        <part>Stockbridge Indians -- Missions. </part>
+      </subject>
+      <geogname identifier="sh85140137" source="lcsh">
+        <part>United States -- History -- French and Indian War, 1755-1763.</part>
+      </geogname>
+      <persname identifier="n2009014655" source="lcnaf">
+        <part>Ashley, Rebecca Kellogg, 1695-1757</part>
+      </persname>
+      <persname identifier="n79084179" source="lcnaf">
+        <part>Edwards, Jonathan, 1703-1758</part>
+      </persname>
+      <persname identifier="n91082000" source="lcnaf">
+        <part>Hawley, Gideon, 1727-1807 -- Diaries.</part>
+      </persname>
+      <persname identifier="n91082000" source="lcnaf">
+        <part>Hawley, Gideon, 1727-1807 -- Correspondence.</part>
+      </persname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_978f0df8cb4c2af073680a64c058c572" level="item">
+        <did>
+          <unittitle>Journal</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1754">1754</fromdate>
+              <todate standarddate="1756">1756</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1754-1756</unitdate>
+          <container id="aspace_d38bcdad650b31356ecd4152ecbf793e" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_132ef3fd4ab11c03d5c075d043977b07" localtype="volume"
+            parent="aspace_d38bcdad650b31356ecd4152ecbf793e">1</container>
+        </did>
+        <altformavail id="aspace_2f81d6b53a6fd0dd8cee1b2bd81a56f2">
+          <head>Digital Copies</head>
+          <p>These journal records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/HawleyGideon/viewer/Volume2012C2017541756/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_6666f9915e42f7e9cbf4152b177f988c">
+          <head>Scope and Contents</head>
+          <p>The first volume chronicles Rev. Hawley's time as a missionary traveling through "the
+            Country of the Six Nations" which is now western New York and Pennsylvania. Rev. Hawley
+            keep record of the villages he visited, the people he interacted with, and the Bible
+            passages on which he preached.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_4f08ded7462115d5fd74d3180deffd43" level="item">
+        <did>
+          <unittitle>Journal</unittitle>
+          <unitdatestructured calendar="gregorian" certainty="approximate" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1753">1753</fromdate>
+              <todate standarddate="1795">1795</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" certainty="approximate" unitdatetype="inclusive">circa
+            1753-1795</unitdate>
+          <container id="aspace_1596fb3a5dd6cbf1a840a18408d65efd" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_5a73059f38e4af4937b8747085575f1c" localtype="volume"
+            parent="aspace_1596fb3a5dd6cbf1a840a18408d65efd">2</container>
+        </did>
+        <altformavail audience="internal" id="aspace_a0ccae59a5e1cfc9e7bd28644aafd5a4">
+          <head>Digital Copies</head>
+          <p>These journal records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/HawleyGideon/viewer/Volume2022C20ca2017531795/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_762b93b71200b679c186a6e14a795e04">
+          <head>Scope and Contents</head>
+          <p>Rev. Hawley's second volume contains copies of correspondence referred to in vol. 1,
+            financial records, and a continuation of his travelogue from "the Country of the Six
+            Nations". His movements were often hampered by early battles in the French and Indian
+            War, which he also described.</p>
+          <p>The first few pages in this book contain a later 19th-century letter to a genealogist
+            with a brief Hawley family history, and the 1875 inscription from A. C. Thompson when he
+            donated the journals to the Congregational Library.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_9777e972208f9c338be04e34dae1b108" level="item">
+        <did>
+          <unittitle>Journal</unittitle>
+          <unitdatestructured calendar="gregorian" certainty="approximate" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1777">1777</fromdate>
+              <todate standarddate="1806">1806</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" certainty="approximate" unitdatetype="inclusive">circa
+            1777-1806</unitdate>
+          <container id="aspace_d676f660896966e4c6a7afde334775bd" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_6576bf2fef3963827c4f9c348f65d56c" localtype="volume"
+            parent="aspace_d676f660896966e4c6a7afde334775bd">3</container>
+        </did>
+        <altformavail id="aspace_bba9879528182af01138ab2d58380bfa">
+          <head>Digital Copies</head>
+          <p>These journal records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/HawleyGideon/viewer/Volume2032C20ca2017771806/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_4f3307f21162da0f31da0dc0e8a63dad">
+          <head>Scope and Contents</head>
+          <p>The third volume is largely comprised of correspondence to friends and officials back
+            in New England. Rev. Hawley advocates for better treatment of both their Native American
+            neighbors and lower-class English soldiers. There are also sections in which Hawley
+            reflects on his missionary career, providing further detail about the events recorded in
+            vols. 1 &amp; 2.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_2346f9916b9bff590e987c6bae9bb266" level="item">
+        <did>
+          <unittitle>Journal</unittitle>
+          <unitdatestructured calendar="gregorian" certainty="approximate" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1781">1781</fromdate>
+              <todate standarddate="1806">1806</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" certainty="approximate" unitdatetype="inclusive">circa
+            1781-1806</unitdate>
+          <container id="aspace_d3646a9935d25fe5fe3e3269fde04341" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_bfb24a6f8ff15909353eb5281224de5e" localtype="volume"
+            parent="aspace_d3646a9935d25fe5fe3e3269fde04341">4</container>
+        </did>
+        <altformavail id="aspace_d81277f95682b34c7935d59e89431ffd">
+          <head>Digital Copies</head>
+          <p>These journal records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/HawleyGideon/viewer/Volume2042C20ca2017811806/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_acfa22030a2f07084d217a55acc0e359">
+          <head>Scope and Contents</head>
+          <p>This fourth volume is primarily correspondence. The topics range from the fates of
+            indentured Mashpee Indians to friends' legal matters to his own personal finances. Rev.
+            Hawley also recorded local births, deaths, and marriages at the Mashpee plantation for
+            much of the latter half of the 18th century.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_361f3f7a882e5a5c04fd4349edb0383a" level="item">
+        <did>
+          <unittitle>Microfilm records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1753">1753</fromdate>
+              <todate standarddate="1806">1806</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1753-1806</unitdate>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1981">1981</datesingle>
+          </unitdatestructured>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="2008">2008</datesingle>
+          </unitdatestructured>
+          <container id="aspace_841a98b8aaf21d4c77eb0512b49855f8" label="Microform" localtype="reel"
+            >1 (positive)</container>
+          <container id="aspace_26cadfe3a60123c2145f56476b76f632" label="Microform" localtype="reel"
+            >2 (positive)</container>
+          <container id="aspace_bc9c2a2ce5b8ddd1816dc5e7a0acf9a7" label="Microform" localtype="reel"
+            >3 (positive)</container>
+          <container id="aspace_764ec910508ee1d7c0c9bde31481a59e" label="Microform" localtype="reel"
+            >4 (negative)</container>
+          <container id="aspace_e76b7de28227aaff28b7c1ba7d8e3f6b" label="Microform" localtype="reel"
+            >5 (negative)</container>
+        </did>
+        <accessrestrict id="aspace_3b8b817c6bf98edf2872b5fb5a45eacd">
+          <head>Restrictions on Access</head>
+          <p>Reels 1 and 3 are available for use in the reading room. Reels 2, 4, and 5 are
+            maintained as preservation copies and are not available for public use.</p>
+        </accessrestrict>
+        <scopecontent id="aspace_fe7c6a66688ffd8f8aa67cfa85385d38">
+          <head>Scope and Contents</head>
+          <p>There are a total of five microfilm copies of the Gideon Hawley journals and each copy
+            contains the full text of all four volumes. Two positive reels (reels 1 and 3) were
+            produced by Harvard in 1981. Three additional reels (reels 2, 4, and 5), one positive
+            and two negative, were produced by the Northeast Document Conservation Center in
+            2008.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
