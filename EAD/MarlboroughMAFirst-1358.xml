@@ -1,0 +1,1953 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/MarlboroughMAFirst-1358.xml"
+      >MarlboroughMAFirst-1358</recordid>
+    <representation localtype="pdf" href="http://www.congregationallibrary.org/sites/all/files/MarlboroughMAFirst-1358.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Marlborough, Mass. First Church records, 1704-2002. RG1358</titleproper>
+        <author>Corinne Bernstein, Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2017-10-30</date>
+        <num>RG1358</num>
+      </publicationstmt>
+      <seriesstmt>
+        <p>Portions of this collection are part of New England's Hidden Histories. Digital
+          historical representations of these portions of the collection can be viewed online.</p>
+      </seriesstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency>
+      <agencyname>2020</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2020-08-12T13:01:24+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday August 12,
+          2020 at 13:01</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Marlborough, Mass. First Church records, 1704-2002.</unittitle>
+      <unitid>RG1358</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+        <descriptivenote>
+          <p>English</p>
+        </descriptivenote>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>1.81</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(4 boxes)</physdesc>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1704">1704</fromdate>
+          <todate standarddate="2002">2002</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" unitdatetype="inclusive">1704-2002</unitdate>
+      <abstract id="aspace_19cef9f1556d80578170d50102521974">The First Parish Church was organized
+        in 1666. Shortly after the formation of the First Congregational Evangelical Society in
+        1833, members of the First Church voted to worship with this society, and in 1835 the First
+        Parish and the First Evangelical Congregational Society were incorporated as the Union
+        Society. The church was renamed the Union Church in Marlborough to reflect this new merger,
+        and was most recently renamed in 1913 as First Church. The First Congregational Church in
+        Marlborough records document the history of the organization, the First Parish in
+        Marlborough, and the Union Society, including membership, pastoral care, finances, and
+        church life. Included in the records are meeting minutes, reports, correspondence,
+        architectural drawings, land plans, booklets, deeds, newspaper clippings, and
+        photographs.</abstract>
+      <origination label="Creator">
+        <persname identifier="n84024164" source="lcnaf">
+          <part>Breck, Robert, 1682-1731</part>
+        </persname>
+      </origination>
+      <origination label="Creator">
+        <persname identifier="nr94000010" source="lcnaf">
+          <part>Bucklin, Sylvester F. (Sylvester Fuller), 1784-1860</part>
+        </persname>
+      </origination>
+      <origination label="Creator">
+        <persname identifier="nr94000008" source="lcnaf">
+          <part>Field, Levi A. (Levi Alpheus), 1821-1859</part>
+        </persname>
+      </origination>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">
+          <part>First Church in Marlborough (Congregational) (Marlborough, Mass.)</part>
+        </corpname>
+      </origination>
+      <origination label="Creator">
+        <corpname identifier="nr93030078" source="lcnaf">
+          <part>First Congregational Church (Marlborough, Mass.)</part>
+        </corpname>
+      </origination>
+      <origination label="Creator">
+        <corpname identifier="n97121133" source="lcnaf">
+          <part>First Evangelical Congregational Society (Marlborough, Mass.)</part>
+        </corpname>
+      </origination>
+      <origination label="Creator">
+        <persname identifier="nr95045871" source="lcnaf">
+          <part>Goodhue, John N. (John Northend), 1810-1839</part>
+        </persname>
+      </origination>
+      <origination label="Creator">
+        <persname identifier="nr94042375" source="lcnaf">
+          <part>Ogden, David L. (David Longworth), 1792-1863</part>
+        </persname>
+      </origination>
+      <origination label="Creator">
+        <persname identifier="n85277169" source="lcnaf">
+          <part>Packard, Asa, 1758-1843</part>
+        </persname>
+      </origination>
+      <origination label="Creator">
+        <corpname identifier="nr93030101" source="lcnaf">
+          <part>Union Congregational Church (Marlborough, Mass.)</part>
+        </corpname>
+      </origination>
+      <origination label="Creator">
+        <corpname identifier="n97121149" source="lcnaf">
+          <part>Union Society of Marlborough (Marlborough, Mass.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_c837aed726e8024a102a09c76e83050d">
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_6c0ce6135e37dd789d4ace41987e83bd">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+      <p>Digital Reproductions are protected by copyright and/or related rights. You are free to use
+        the Digital Reproductions in any way that is permitted by the copyright and related rights
+        legislation that applies to your use. In addition, no permission is required from the
+        Congregational Library &amp; Archives for educational uses. For other uses, you need to
+        obtain permission from the Congregational Library &amp; Archives. For additional information
+        regarding copyright, please consult the Congregational Library &amp; Archives' <ref
+          actuate="onrequest" href="http://www.congregationallibrary.org/about/digital-copyright"
+          linktitle="Digital Collections Copyright &amp; Use" show="new">Digital Collections
+          Copyright &amp; Use</ref> policy.</p>
+    </userestrict>
+    <prefercite id="aspace_c0c77f1d571638a580516851dbae2389">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Marlborough, Mass. First Congregational Church records,
+        1704-2002, RG1358. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_3f950b3857047f4f32b950f41b88acc2">
+      <head>Acquisition Information</head>
+      <p>Church and Society records were permanently loaned to the Congregational Library &amp;
+        Archives in December 2015 by the First Church of Marlboro, Massachusetts, as part of
+        RG5305.</p>
+      <p>Microfilm gifted to the Congregational Library &amp; Archives in 1980 by the First Church
+        of Marlboro, Massachusetts.</p>
+    </acqinfo>
+    <accruals id="aspace_4671557e52218cdcdcf346e880862ea1">
+      <head>Accruals</head>
+      <p>Additional accruals are expected for this collection in the form of full-text
+        transcription. There is no anticipated date for this accrual.</p>
+    </accruals>
+    <processinfo id="aspace_c53fca69d819cca10fc8a0ec94bfd2ed">
+      <head>Processing Information</head>
+      <p>Originally processed by Corinne Bernstein, April 2016, using DACS Second Edition.
+        Re-processed by Zachary Bodnar, October 2017.</p>
+    </processinfo>
+    <bioghist id="aspace_d56a8ae0e2377ea0a53a2178b2faa60f">
+      <head>Historical Note</head>
+      <p>The town of Marlborough was incorporated in 1660. The First Parish Church was originally
+        organized in 1666. In 1662, a rate of 2 pence per acre was levied upon all properties in
+        order to raise funds to build a Meeting House; and in 1664, a rate of 3 and ¼ pence was
+        levied to complete the building. This first Meeting House stood on the old Common, but was
+        burnt down by Native Americans in 1676. A new Meeting House was soon erected, but did not
+        remain in active use for long. In 1688, a larger meeting house was built near the site of
+        the former buildings and served as a place of worship until 1809. Rev. William Brimsmead was
+        the first minister of the town.</p>
+      <p>In December of 1804, a committee of seven members was chosen by the town to report on a
+        petition put forth by the westerly population. The petition meant to separate the town into
+        Eastern and Western sections. Although the committee members were in favor of the split, the
+        town would not adopt their report. Opposing propositions from the eastern and western
+        populations of Marlborough on where to build the new meeting house eventually resulted in
+        the split of the town into the East and West Parishes, and a corresponding division in the
+        church. A new meeting house was set up at Spring Hill and was opened for public service in
+        1806. Simultaneously, the inhabitants of the western section of Marlborough had taken steps
+        to form a new Parish and a new meeting house. In 1808, the western part of town was
+        incorporated as the Second Parish in Marlborough, and on the fifth of March, the West Church
+        was organized.</p>
+      <p>In 1833, 50 members of the First Parish withdrew in order to form the First Evangelical
+        Congregational Society. Not long after, the remaining members of the First Parish voted to
+        form a union with the First Evangelical Society. On April 1, 1835 the First Parish and the
+        First Evangelical Congregational Society were incorporated as the Union Society. In 1836,
+        the East Church in Marlborough (formerly called the First Parish Church) was officially
+        renamed the Union Church in Marlborough. In 1852, the Meeting House on Spring Hill was
+        destroyed in a fire. A new meeting house was completed in 1853 which is still in use today.
+        The Union Church in Marlborough was incorporated in 1891. At a meeting held on March 28,
+        1913, church members voted to rename the church, the First Church in Marlborough,
+        Congregational. The parish voted to join the United Church of Christ in 1961.</p>
+      <p>The First Church in Marlborough, Congregational, UCC continues to serve the local community
+        today.</p>
+      <chronlist>
+        <head>Ministers</head>
+        <chronitem>
+          <datesingle>William Brinsmead</datesingle>
+          <chronitemset>
+            <event>1666-1701</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Robert Breck</datesingle>
+          <chronitemset>
+            <event>1704-1731</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Benjamin Kent</datesingle>
+          <chronitemset>
+            <event>1733-1735</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Aaron Smith</datesingle>
+          <chronitemset>
+            <event>1740-1778</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Asa Packard</datesingle>
+          <chronitemset>
+            <event>1785-1806</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Sylvester F. Bucklin</datesingle>
+          <chronitemset>
+            <event>1808-1832</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Charles Forbush</datesingle>
+          <chronitemset>
+            <event>1833-1834</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>John N. Goodhue</datesingle>
+          <chronitemset>
+            <event>1836-1839</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>George E. Day</datesingle>
+          <chronitemset>
+            <event>1840-1847</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>David L. Ogden</datesingle>
+          <chronitemset>
+            <event>1848-1850</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Levi A. Field</datesingle>
+          <chronitemset>
+            <event>1853-1859</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>George N. Anthony</datesingle>
+          <chronitemset>
+            <event>1860-1869</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Charles R. Treat</datesingle>
+          <chronitemset>
+            <event>1870-1873</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>John Willard</datesingle>
+          <chronitemset>
+            <event>1873-1879</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Samuel E. Eastman</datesingle>
+          <chronitemset>
+            <event>1880-1881</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Albert F. Newton</datesingle>
+          <chronitemset>
+            <event>1882-1892</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>William F. Stearns</datesingle>
+          <chronitemset>
+            <event>1893-1895</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Lincoln B. Goodrich</datesingle>
+          <chronitemset>
+            <event>1896-1905</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Albert H. Wheelock</datesingle>
+          <chronitemset>
+            <event>1906-1916</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Belvo Z. Stambaugh</datesingle>
+          <chronitemset>
+            <event>1916-1920</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Stanley H. Addison</datesingle>
+          <chronitemset>
+            <event>1921-1928</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Albert E. Beaumont</datesingle>
+          <chronitemset>
+            <event>1928-1935</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Alfred E. Wheeler</datesingle>
+          <chronitemset>
+            <event>1942-1945</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Norman C. MacLean</datesingle>
+          <chronitemset>
+            <event>1954-1961</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>John W. Morrow</datesingle>
+          <chronitemset>
+            <event>1961-1972</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Zaven Dohanian</datesingle>
+          <chronitemset>
+            <event>1973-1980</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Jeffrey Marks, Assistant Pastor</datesingle>
+          <chronitemset>
+            <event>1976-1976</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Chester Dziczek, Assistant Pastor</datesingle>
+          <chronitemset>
+            <event>1977</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Wayne N. Pruitt</datesingle>
+          <chronitemset>
+            <event>1981-1993</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Mary Aberg, Associate Pastor</datesingle>
+          <chronitemset>
+            <event>1989-1992</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Richard L. Weber</datesingle>
+          <chronitemset>
+            <event>1993-2000</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Gail H. Kendrick, Associate Pastor</datesingle>
+          <chronitemset>
+            <event>1994-1998</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Deborah Loomis Lafond</datesingle>
+          <chronitemset>
+            <event>2002-2006</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>M. Elizabeth Waters, Revitalization Pastor</datesingle>
+          <chronitemset>
+            <event>2006-2010</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Kazimierz Bem</datesingle>
+          <chronitemset>
+            <event>2011–present</event>
+          </chronitemset>
+        </chronitem>
+      </chronlist>
+    </bioghist>
+    <scopecontent id="aspace_59c1c1093e774958213ead7af4436300">
+      <head>Scope and Contents</head>
+      <p>The records of the First Congregational Church in Marlborough include membership lists,
+        church financial records, meeting minutes and reports, personal and church correspondence,
+        architectural drawings, newspaper clippings, and photographs. The records document the
+        history and function of the Congregational church and its 19th centry offshoots, the First
+        Evangelical Society and Union Society records. Also indlucded are pastoral records, which
+        include the personal records of important ministers in the church's history, property
+        records, and microfilm copies of some of the oldest records.</p>
+    </scopecontent>
+    <arrangement id="aspace_d1f972d68ba809ab4972c9acd2c06da7">
+      <head>Arrangement</head>
+      <p>This collection is organized into seven series. Within each series, volumes and folders are
+        arranged chronologically by the start date.</p>
+      <p><emph render="bold">Series 1:</emph> First Church records, 1704-1977</p>
+      <p><emph render="bold">Series 2:</emph> First Parish records, 1806-1876</p>
+      <p><emph render="bold">Series 3:</emph> First Evangelical Society records, 1833-1839</p>
+      <p><emph render="bold">Series 4:</emph> Union Society records, 1803-1903</p>
+      <p><emph render="bold">Series 5:</emph> Ministerial records, 1778-2002</p>
+      <p><emph render="bold">Series 6:</emph> Architectural and Property drawings, 1866-1963</p>
+      <p><emph render="bold">Series 7:</emph> Microfilm, 1982</p>
+    </arrangement>
+    <phystech id="aspace_bd8ab03b2a1802fc635f4975a924f4f3">
+      <head>Technical Requirements</head>
+      <p>To access digital user's copies via online-interface, a java-enabled web browser is
+        required. Internet Explorer 8.x and later, Firefox 5.x and later, Opera 12 and later, Safari
+        5.x and later, or any version of Google Chrome are recommended.</p>
+      <p>A microfilm reader is required in order to access microform materials. One microfilm reader
+        is available to the public upon request.</p>
+    </phystech>
+    <relatedmaterial id="aspace_05001606f48cb34952ae22b2c748f37e">
+      <head>Related Materials</head>
+      <p>By First Church and Second Church of Marlborough: Boston, MA: First Church and Second
+        Church. (1972) (17.11.1 B65.5 FIRSCB BOX 3)</p>
+      <p>Marlborough, MA: First Church of Marlborough. (1966) (17.11.1 M34.36 FIRCM)</p>
+      <p>By First Parish Church: New Marlborough, Mass. First Parish Church records, 1794-1860.
+        (1860) (RANGE 4 SHELF 26)</p>
+      <p>By Ella A. Bigelow: Historical reminiscences of the early times in Marlborough,
+        Massachusetts, and prominent events from 1860 to 1910 : including brief allusions to many
+        individuals, and an account of the celebration of the two hundred and fiftieth anniversary
+        of the incorporation of the town. (1910) (T M34.3BI)</p>
+      <p>By Charles Hudson and Joseph Allen: History of the town of Marlborough, Middlesex county,
+        Massachusetts, from its first settlement in 1657 to 1861; with a brief sketch of the town of
+        Northborough, a genealogy of the families in Marlborough to 1800, and an account of the
+        celebration of the two hundredth anniversary of the incorporation of the town (1862) (T
+        M34.3H)</p>
+      <p>By Franklin P. Rice and George Maynard: Marlborough, Massachusetts, burial ground
+        inscriptions: Old Common, Spring Hill, and Brigham cemeteries. (1908) (T M34.3)</p>
+    </relatedmaterial>
+    <bibliography id="aspace_d0c2d2791f536e55f83961e30e2272b0">
+      <head>Bibliography</head>
+      <p>Field, L. A. <emph render="italic">An Historical Sketch of the First Congregational Church
+          in Marlborough Mass., With the Exercises at the Celebration of the Fiftieth Anniversary of
+          Rev. Sylvester F. Bucklin's Ordination, as Pastor of Said Church</emph>. Worcester: Henry
+        J, Howland, Printer, 1859.</p>
+    </bibliography>
+    <controlaccess>
+      <subject source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Church architecture -- Designs and plans.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Church finance.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Church lands.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Clippings (Books, newspapers, etc.).</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <subject source="local">
+        <part>New England's Hidden Histories.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Pews and pew rights.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Sermons, American -- Early works to 1800.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Sermons, American.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Unitarian controversy.</part>
+      </subject>
+      <corpname rules="rda" source="local">
+        <part>First Church in Marlborough (Congregational) (Marlborough, Mass.)</part>
+      </corpname>
+      <corpname identifier="nr93030078" source="lcnaf">
+        <part>First Congregational Church (Marlborough, Mass.)</part>
+      </corpname>
+      <corpname identifier="n97121133" source="lcnaf">
+        <part>First Evangelical Congregational Society (Marlborough, Mass.)</part>
+      </corpname>
+      <corpname identifier="n81124752" source="lcnaf">
+        <part>Marlborough (Mass.) -- Church history.</part>
+      </corpname>
+      <corpname identifier="nr93030101" source="lcnaf">
+        <part>Union Congregational Church (Marlborough, Mass.)</part>
+      </corpname>
+      <corpname identifier="n97121149" source="lcnaf">
+        <part>Union Society of Marlborough (Marlborough, Mass.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_eeb234b1fb5b9e65236815175c6e6ed3" level="series">
+        <did>
+          <unittitle>First Church records</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>13</quantity>
+            <unittype>Files</unittype>
+          </physdescstructured>
+          <physdesc localtype="container_summary">(5 volumes, 8 folders)</physdesc>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1703">1703</fromdate>
+              <todate standarddate="1977">1977</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1704-1977</unitdate>
+        </did>
+        <scopecontent id="aspace_359ea5ede704ea5676dd8782890883e4">
+          <head>Scope and Contents</head>
+          <p>This series contains 5 volumes of records for the First Church including meeting
+            minutes and membership records. This series also 8 folders of records including sermon
+            pamphlets, weekly sermon records, early church covenants, building, repair, expansion
+            records for the meeting house, written histories of the church, financial records, and
+            pew sale records.</p>
+        </scopecontent>
+        <c02 id="aspace_95a6328180b5bc6f106a7e78f62570a1" level="item">
+          <did>
+            <unittitle>First Church Records Vol. 1</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1704">1704</fromdate>
+                <todate standarddate="1802">1802</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1704-1802, 1852</unitdate>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1852">1852</fromdate>
+                <todate standarddate="1852">1852</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1852</unitdate>
+            <container id="aspace_60db3d34d3a5ce615edc84d3f9c3e074" label="mixed materials"
+              localtype="box">2</container>
+            <container id="aspace_cf1055d0729b1dedf65b2269e616645a" localtype="volume"
+              parent="aspace_60db3d34d3a5ce615edc84d3f9c3e074">1</container>
+          </did>
+          <altformavail id="aspace_973ae276d80f6c93d577679be767d667">
+            <head>Digital Copies</head>
+            <p>These church records were digitized as part of the New England's Hidden Histories
+              project. Digital reproductions are <ref actuate="onrequest"
+                href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Marlborough/viewer/Church20records2C2017041802/1"
+                linktitle="available to view online" show="new">available to view online</ref>.</p>
+          </altformavail>
+          <scopecontent id="aspace_0b703d0647ae3bd01ce37688eb18cc21">
+            <head>Scope and Contents</head>
+            <p>This volume includes a list of recipients of the 1704 church covenant, lists of
+              church members, church meeting minutes and records of votes, baptism and marriage
+              records, lists of recipients of renewed covenants, lists of members entered into
+              renewed full communion, and lists of church admittances.</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_5462394cab663c2569c522f821f94d28" level="item">
+          <did>
+            <unittitle>First Church Records Vol. 2</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1802">1802</fromdate>
+                <todate standarddate="1833">1833</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1802-1833</unitdate>
+            <container id="aspace_53a227d49500849bb3a9730dc7fbc871" label="mixed materials"
+              localtype="box">2</container>
+            <container id="aspace_2edbd5271787aa20f9c938801bfe376d" localtype="volume"
+              parent="aspace_53a227d49500849bb3a9730dc7fbc871">2</container>
+          </did>
+          <altformavail id="aspace_2c63a59df1b2f69a96e6ae812d7ccd76">
+            <head>Digital Copies</head>
+            <p>These church records were digitized as part of the New England's Hidden Histories
+              project. Digital reproductions are <ref actuate="onrequest"
+                href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Marlborough/viewer/Church20records2C2018021833/1"
+                linktitle="available to view online" show="new">available to view online</ref>.</p>
+          </altformavail>
+          <scopecontent id="aspace_b69a9d67e58555333f30bebf6984474a">
+            <head>Scope and Contents</head>
+            <p>This volume includes an index of the volume's records, a history of the church,
+              baptisms, full communion recipients, baptismal covenant recipients, meeting minutes,
+              changes in the Deacon's office, people dismissed to other churches, people received
+              from other churches, and donations to the poor of the church.</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_b019b2ea9c895d3ce126097e313c755c" level="file">
+          <did>
+            <unittitle>Sermon pamphlets</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1730">1730</fromdate>
+                <todate standarddate="1783">1783</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1730-1783</unitdate>
+            <container id="aspace_de41cc303caa43b1f8e2230eadc50a8d" label="mixed materials"
+              localtype="box">1</container>
+            <container id="aspace_dc5a932b2723757238b6746beaeb8aab" localtype="folder"
+              parent="aspace_de41cc303caa43b1f8e2230eadc50a8d">2</container>
+          </did>
+          <altformavail id="aspace_d9a976057094349184d927122883bedc">
+            <head>Digital Copies</head>
+            <p>These sermons were digitized as part of the New England's Hidden Histories project.
+              Digital reproductions are <ref actuate="onrequest"
+                href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Marlborough/viewer/Sermons2C20173017832C20undated/1"
+                linktitle="available to view online" show="new">available to view online</ref>.</p>
+          </altformavail>
+          <scopecontent id="aspace_e6dd23c4154c27468de69935cc196469">
+            <head>Scope and Contents</head>
+            <p>This folder contains five handwritten sermon pamphlets. The first sermon was preached
+              by the Rev. Prentice on the occasion of the "indisposition" of the Rev. Robert Breck,
+              who was the minister at Marlsborough in 1730, and draws upon a portion of Matthew
+              4:24. The second sermon was preached about 1 John 3:9 and also includes a list of
+              dates and locations for where the sermon was preached. The third sermon does not
+              appear to cite a bible verse. The fourth sermon was based on Joshua 24:15 and includes
+              a list of locations and dates it was preached. The fifth sermon was based on
+              Philippians 4:6.</p>
+          </scopecontent>
+          <separatedmaterial id="aspace_c9f3901d23ce881232eb0da187799490">
+            <head>Separated Materials</head>
+            <p>David Goodale's Book, Meliscent Warren Goodale's Sermon Book, and Two Discourses by
+              Aaron Smith were removed from this folder and described separately.</p>
+          </separatedmaterial>
+        </c02>
+        <c02 id="aspace_16debc622efb80177ac3f06863c7d7bc" level="file">
+          <did>
+            <unittitle>First Church records and covenants</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1739">1739</fromdate>
+                <todate standarddate="1741">1741</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1739-1741, undated</unitdate>
+            <container id="aspace_5785e6b09a3a7e2c63547344fe8ff0ac" label="mixed materials"
+              localtype="box">1</container>
+            <container id="aspace_3ba764ea8ba5e0c801abe46fc4ae8489" localtype="folder"
+              parent="aspace_5785e6b09a3a7e2c63547344fe8ff0ac">3</container>
+          </did>
+          <altformavail id="aspace_721170c60c84d664dbc856b68724e1a0">
+            <head>Existence and Location of Copies</head>
+            <p>These church records were digitized as part of the New England's Hidden Histories
+              project. Digital reproductions are <ref actuate="onrequest"
+                href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Marlborough/viewer/Church20records2C20173917412C20undated/1"
+                linktitle="available to view online" show="new">available to view online</ref>.</p>
+          </altformavail>
+          <scopecontent id="aspace_0214e8afe514bc20f84f0d7935a50efa">
+            <head>Scope and Contents</head>
+            <p>This folder contains two versions of the Marlborough Church Covenant and a copy of
+              the Baptismal Covenant. Also included is a record of votes held at a church meeting
+              regarding the pay of Abraham Williams.</p>
+          </scopecontent>
+          <separatedmaterial id="aspace_c92899dcb3cca4341ada1d1e81993c1b">
+            <head>Separated Materials</head>
+            <p>The Marlborough Church records, 1778-1785, and An Historical Sketch of the First
+              Congregational Church, 1859, were removed from this folder and described
+              separately.</p>
+          </separatedmaterial>
+        </c02>
+        <c02 id="aspace_25201b6c83fd28635351af041fceb779" level="item">
+          <did>
+            <unittitle>Marlborough Church records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1778">1778</fromdate>
+                <todate standarddate="1785">1785</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1778-1785</unitdate>
+            <container id="aspace_f57247b9fe7fbf091fb36716f3f5125d" label="mixed materials"
+              localtype="box">2</container>
+            <container id="aspace_6c9e18c97cb7feb94e81c8aa98195c20" localtype="volume"
+              parent="aspace_f57247b9fe7fbf091fb36716f3f5125d">3</container>
+          </did>
+          <altformavail id="aspace_029062575e1b830fb50246a6d1ffb903">
+            <head>Digital Copies</head>
+            <p>These church records were digitized as part of the New England's Hidden Histories
+              project. Digital reproductions are <ref actuate="onrequest"
+                href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Marlborough/viewer/Clerk20records2C2017781785/1"
+                linktitle="available to view online" show="new">available to view online</ref>.</p>
+          </altformavail>
+          <scopecontent id="aspace_3661c94ce305ffbd35b389bae42967a4">
+            <head>Scope and Contents</head>
+            <p>This volume contains the church records from 1778-1885 as recorded by Peter Wood, who
+              was voted church clerk on April 29, 1778. The records include meeting minutes, records
+              of votes, including the voting in of officers in 1778. Also included within the
+              records are a list of members who received Full Communion, and a list of those who
+              received their Baptismal Covenants.</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_9bd3d4884f7237cf2343f4df33e4cdbe" level="file">
+          <did>
+            <unittitle>Meeting House records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1800">1800</fromdate>
+                <todate standarddate="1888">1888</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1800-1888</unitdate>
+            <container id="aspace_d414a0f07b0d789c677b7467f881d39f" label="mixed materials"
+              localtype="box">1</container>
+            <container id="aspace_df07aed10031f3fbeb4c0cef3ab38480" localtype="folder"
+              parent="aspace_d414a0f07b0d789c677b7467f881d39f">5</container>
+          </did>
+        </c02>
+        <c02 id="aspace_3aec18119b77126f0a145fefb4b22a9d" level="file">
+          <did>
+            <unittitle>First Church records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1806">1806</fromdate>
+                <todate standarddate="1809">1809</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1806-1809</unitdate>
+            <container id="aspace_59721c55afe4cf88f92b7b8dfbdf38b1" label="mixed materials"
+              localtype="box">1</container>
+            <container id="aspace_6bb08c08155cba1f0a14928125c881c8" localtype="folder"
+              parent="aspace_59721c55afe4cf88f92b7b8dfbdf38b1">7</container>
+          </did>
+          <scopecontent id="aspace_75eacb2d4e853fa2d097c849636ff9df">
+            <head>Scope and Contents</head>
+            <p>This folder of church records includes a communication with Peter Wood, the clerk, a
+              record of a vote to form a committee regarding the choice of Timothy Davis for "Gospel
+              Minister", a note regarding the collection of church taxes, and a letter from the
+              "Easterly part, or branch, of the Church of Christ in Marlborough" calling for a town
+              meeting to settle Timothy Davis.</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_697758ef713598f9a577094fccd55fa7" level="item">
+          <did>
+            <unittitle>David Goodale's Book</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1806">1806</fromdate>
+                <todate standarddate="1853">1853</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1806-1853</unitdate>
+            <container id="aspace_012257965e9957fa66ec6c208789e2b2" label="mixed materials"
+              localtype="box">1</container>
+            <container id="aspace_2582e233e945ec20f7c13cfb4f85f80d" localtype="volume"
+              parent="aspace_012257965e9957fa66ec6c208789e2b2">9</container>
+          </did>
+          <scopecontent id="aspace_357382d601997d76fdb0dc766727fabb">
+            <head>Scope and Contents</head>
+            <p>This volume, maintained by David Goodale, is a weekly record of sermons preached "in
+              the New Meeting House." For each mass, David provided the name of the preacher, the
+              date, the bible verse of the sermon, and a transcription of the bible passage. There
+              are large gaps in the records after 1809.</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_ab73ac2ec99401ece7e5da888e3ed4ab" level="item">
+          <did>
+            <unittitle>Meliscent Warren Goodale sermon book</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1839">1839</fromdate>
+                <todate standarddate="1967">1967</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1839-1853, 1967</unitdate>
+            <container id="aspace_d4c54371b41b201281d00725288e51bf" label="mixed materials"
+              localtype="box">1</container>
+            <container id="aspace_df058b72bf6ea4b4175eec0b24cd8585" localtype="volume"
+              parent="aspace_d4c54371b41b201281d00725288e51bf">10</container>
+          </did>
+          <scopecontent id="aspace_542ee7d4e8a45251005303c0809a2445">
+            <head>Scope and Contents</head>
+            <p>This volume, maintained by Meliscent Warren Goodale, contains weekly records about
+              the sermons that were preached at the First Congregational Church. For each mass,
+              Meliscent provided the name of the preacher, the date, the bible verse of the sermon,
+              and a short transcription of the bible passage. There are large gaps in the records
+              after 1842. Also included is a letter which described how the volume was added to the
+              collection.</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_3188e0db170048267de273b853029412" level="file">
+          <did>
+            <unittitle>Sale of Pews</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1807">1807</fromdate>
+                <todate standarddate="1893">1893</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1807-1893</unitdate>
+            <container id="aspace_1c7f841dbb8d0a1bb5a98944d0c09561" label="mixed materials"
+              localtype="box">1</container>
+            <container id="aspace_3523895bd4546eb10da7196bebc58f6d" localtype="folder"
+              parent="aspace_1c7f841dbb8d0a1bb5a98944d0c09561">8</container>
+          </did>
+        </c02>
+        <c02 id="aspace_5dda2c709d6a90debf4bb0aec3e4ecc6" level="file">
+          <did>
+            <unittitle>First Church and West Church History</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1830">1830</fromdate>
+                <todate standarddate="1850">1850</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1830-1850</unitdate>
+            <container id="aspace_a32c05eb679d6311c67ea6e46aaf82f7" label="mixed materials"
+              localtype="box">1</container>
+            <container id="aspace_ce9fb6b72b65680ce8c2d2ddc10bd1da" localtype="folder"
+              parent="aspace_a32c05eb679d6311c67ea6e46aaf82f7">10</container>
+          </did>
+        </c02>
+        <c02 id="aspace_991e991e15140b11e19085730286b4c2" level="file">
+          <did>
+            <unittitle>Goodale Property records</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1834">1834</fromdate>
+                <todate standarddate="1842">1842</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1834-1842</unitdate>
+            <container id="aspace_1bc9957075d7c51caf98785f9b8b4586" label="mixed materials"
+              localtype="box">1</container>
+            <container id="aspace_eb49e91d22556b70900d56a8c36ef3f0" localtype="folder"
+              parent="aspace_1bc9957075d7c51caf98785f9b8b4586">12</container>
+          </did>
+        </c02>
+        <c02 id="aspace_492d01344b58430de05b1e28a89ad806" level="file">
+          <did>
+            <unittitle>Monson Church Covenant, handmade envelope, facsimile of the first paper
+              issued by Franklin, First Church Crier</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1856">1856</fromdate>
+                <todate standarddate="1977">1977</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1856, 1977</unitdate>
+            <container id="aspace_449d8639d6ef308fa71f9d829112bca4" label="mixed materials"
+              localtype="box">1</container>
+            <container id="aspace_632a373cafb82aaa2f39a117b2f3c7c5" localtype="folder"
+              parent="aspace_449d8639d6ef308fa71f9d829112bca4">21</container>
+          </did>
+        </c02>
+      </c01>
+      <c01 id="aspace_b057a34b6eef3f9966e153bddf6fc36a" level="series">
+        <did>
+          <unittitle>First Parish records</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>4</quantity>
+            <unittype>Files</unittype>
+          </physdescstructured>
+          <physdesc localtype="container_summary">(3 volumes, 1 folder)</physdesc>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1806">1806</fromdate>
+              <todate standarddate="1876">1876</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1806-1876</unitdate>
+        </did>
+        <scopecontent id="aspace_4330220854f79c40c37642e08114f6c0">
+          <head>Scope and Contents</head>
+          <p>This series contains 3 volumes of records including meeting minutes and financial
+            records. This series also contains a folder of records for the First Parish.</p>
+        </scopecontent>
+        <c02 id="aspace_9aba823e3e88c212407a530c657c7123" level="file">
+          <did>
+            <unittitle>First Parish records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1806">1806</fromdate>
+                <todate standarddate="1876">1876</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1806-1876</unitdate>
+            <container id="aspace_907115500551b268b66c171f33efda8f" label="mixed materials"
+              localtype="box">1</container>
+            <container id="aspace_dc8b100feb497bc49cac44195a55aae5" localtype="folder"
+              parent="aspace_907115500551b268b66c171f33efda8f">1</container>
+          </did>
+          <scopecontent id="aspace_4dfb4767af23f4ee9d434b8146e6cef5">
+            <head>Scope and Contents</head>
+            <p>This folder contains loose leaf records including handwritten copies of First Parish
+              records, a handwritten copy of the petition to incorporate First Parish and the First
+              Evangelical Congregational Society as the Union Society, warrants for Parish meetings,
+              a list of Parish officers, a copy of the act of incorporation, records related to the
+              division of church property between East and West Parishes, copies of Parish committee
+              reports, and collectors' and treasurers' bonds.</p>
+          </scopecontent>
+          <separatedmaterial id="aspace_feddc3f886089fbc8f4913738842191b">
+            <head>Separated Materials</head>
+            <p>The Parish tax book was removed from this folder and described as a single
+              volume.</p>
+          </separatedmaterial>
+        </c02>
+        <c02 id="aspace_603b40426d60ea140fdc993a8c84353d" level="item">
+          <did>
+            <unittitle>First Parish records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1808">1808</fromdate>
+                <todate standarddate="1835">1835</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1808-1835</unitdate>
+            <container id="aspace_26ac8ed604e3ad76064236d0ebe9b389" label="mixed materials"
+              localtype="box">1</container>
+            <container id="aspace_33be8a91c029f7f1dec97ed94bc3c7ec" localtype="volume"
+              parent="aspace_26ac8ed604e3ad76064236d0ebe9b389">1</container>
+          </did>
+          <altformavail id="aspace_c98bdd8154f08a5794e3fc0a683ada8d">
+            <head>Digital Copies</head>
+            <p>These church records were digitized as part of the New England's Hidden Histories
+              project. Digital reproductions are <ref actuate="onrequest"
+                href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Marlborough/viewer/Parish20records2C2018081835/1"
+                linktitle="available to view online" show="new">available to view online</ref>.</p>
+          </altformavail>
+          <scopecontent id="aspace_c3a2e36a3bfef2ce7682ee986395219a">
+            <head>Scope and Contents</head>
+            <p>This volume includes meeting minutes, notes of hand in the treasury, warrants issued
+              to Parish collectors, responses of Parish collectors, prudential committee meeting
+              minutes and reports, and reports to the auditors of the treasury. On page 39, there is
+              a report of Joseph Williams Junior selling a pew to Samuel How.</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_eb206941679bcbbd39cdfcda879eb478" level="item">
+          <did>
+            <unittitle>Parish Tax book</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1808">1808</fromdate>
+                <todate standarddate="1808">1808</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1808</unitdate>
+            <container id="aspace_f511b63c2efbf7fcbe11c7bfee165226" label="mixed materials"
+              localtype="box">1</container>
+            <container id="aspace_b1f2c18e568919f42c20a39d7b839792" localtype="volume"
+              parent="aspace_f511b63c2efbf7fcbe11c7bfee165226">2</container>
+          </did>
+          <altformavail id="aspace_61f88acda924df7893f40da5eb86e31a">
+            <head>Digital Copies</head>
+            <p>These church records were digitized as part of the New England's Hidden Histories
+              project. Digital reproductions are <ref actuate="onrequest"
+                href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Marlborough/viewer/Financial20records2C201808/1"
+                linktitle="available to view online" show="new">available to view online</ref>.</p>
+          </altformavail>
+          <scopecontent id="aspace_f43cb110e2fbaa7082f1b08dfcfc2743">
+            <head>Scope and Contents</head>
+            <p>This is a tax book created by Herman Stow, the parish collector, in 1808, which
+              includes a list of parishioner names and their tax payments broken down by tax
+              categories.</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_37ebffffebdf1d179e9bcc5fdf577196" level="item">
+          <did>
+            <unittitle>Prudential Committee of the First Parish records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1809">1809</fromdate>
+                <todate standarddate="1853">1853</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1809-1853</unitdate>
+            <container id="aspace_07f91a8344ecb7456e3467f76927c989" label="mixed materials"
+              localtype="box">1</container>
+            <container id="aspace_25960b5fbd80a6f214070ba6ebf1117d" localtype="volume"
+              parent="aspace_07f91a8344ecb7456e3467f76927c989">3</container>
+          </did>
+          <scopecontent id="aspace_52012c3c1c675dc741e87a823b0ef148">
+            <head>Scope and Contents</head>
+            <p>This volume includes meeting minutes, accounts for the sale of meeting house pews,
+              committee orders to treasurers, committee warrants to collectors, and Union Society
+              meeting minutes.</p>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 id="aspace_23f231557bef952fce1fe9a8bda0f384" level="series">
+        <did>
+          <unittitle>First Evangelical Society records</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>2</quantity>
+            <unittype>Files</unittype>
+          </physdescstructured>
+          <physdesc localtype="container_summary">(1 volume, 1 folder)</physdesc>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1833">1833</fromdate>
+              <todate standarddate="1839">1839</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1833-1839</unitdate>
+        </did>
+        <scopecontent id="aspace_eebbf61ead67ebd576bbf616e774d3c3">
+          <head>Scope and Contents</head>
+          <p>This series contains the records of the First Congregational Evangelical Society.
+            Included in the records are correspondence with ministers, records of Rev. Forbush's
+            relationship with the First Evangelical Society, members lists, and ecclesiastical
+            council meeting minutes.</p>
+        </scopecontent>
+        <c02 id="aspace_26d66ca2c66ec0f55fa1c2d8d6cc571f" level="item">
+          <did>
+            <unittitle>First Evangelical Congregational Society records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1833">1833</fromdate>
+                <todate standarddate="1834">1834</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1833-1834</unitdate>
+            <container id="aspace_d21dfc4cc059bd81ab494875a58e5dfb" label="mixed materials"
+              localtype="box">3</container>
+            <container id="aspace_5c3eda64e554be0eb01a949743c555b5" localtype="volume"
+              parent="aspace_d21dfc4cc059bd81ab494875a58e5dfb">2</container>
+          </did>
+          <altformavail id="aspace_19e88acac3bbcbed35896795c0b1947d">
+            <head>Digital Copies</head>
+            <p>These church records were digitized as part of the New England's Hidden Histories
+              project. Digital reproductions are <ref actuate="onrequest"
+                href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Marlborough/viewer/Evangelical20Society20records2C2018331834/1"
+                linktitle="available to view online" show="new">available to view online</ref>.</p>
+          </altformavail>
+          <scopecontent id="aspace_93a41bef3c29abb78a72f0f220676066">
+            <head>Scope and Contents</head>
+            <p>This volume includes an 1833 record of a First Parish meeting, an 1834 society vote
+              to increase the 400 dollar salary of Mr. Forbush by 100 hundred dollars, an 1833
+              record of new members to the Evangelical Congregational Society, a list of original
+              members to the society, and meeting minutes. Beginning on page 13 is Reverend Charles
+              Forbush's response to the invitation to become pastor of East Church and the First
+              Evangelical Congregational Society in 1833. Beginning on page 19 is Charles Forbush's
+              letter dissolving his connection to the church and society in 1834.</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_3288f8bb0a9be481448e6fd1b00235e8" level="file">
+          <did>
+            <unittitle>First Evangelical Congregational Society records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1833">1833</fromdate>
+                <todate standarddate="1839">1839</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1833-1839</unitdate>
+            <container id="aspace_93f2091896a631b7061ac3b58f356782" label="mixed materials"
+              localtype="box">1</container>
+            <container id="aspace_c176f77b2822ff970b44f86a9f0925b2" localtype="folder"
+              parent="aspace_93f2091896a631b7061ac3b58f356782">24</container>
+          </did>
+          <altformavail id="aspace_ba602a7b2a752cdf38c85e1e5124039f">
+            <head>Digital Copies</head>
+            <p>These church records were digitized as part of the New England's Hidden Histories
+              project. Digital reproductions are <ref actuate="onrequest"
+                href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Marlborough/viewer/Evangelical20Society20records2C2018331839/1"
+                linktitle="available to view online" show="new">available to view online</ref>.</p>
+          </altformavail>
+          <scopecontent id="aspace_586660169e92b9d3b750bea9b822da28">
+            <head>Scope and Contents</head>
+            <p>This folder contains records related to the separation of the First Evangelical
+              Congregational Society from the First Parish. Included within the documents are the
+              records of multiple ecclesiastical councils called to discuss unification of the two
+              church societies, numerous ministerial replies to calls to preach, records of early
+              demands made to unify the church that ultimately fell through, and letters from former
+              pastors encouraging the two church societies to reunite.</p>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 id="aspace_e2b381279c430f91e348ed8d2cd5f80e" level="series">
+        <did>
+          <unittitle>Union Society records</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>8</quantity>
+            <unittype>Files</unittype>
+          </physdescstructured>
+          <physdesc localtype="container_summary">(3 volumes, 5 folders)</physdesc>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1833">1833</fromdate>
+              <todate standarddate="1903">1903</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1833-1903</unitdate>
+        </did>
+        <scopecontent id="aspace_d10d1f1e5f8b301874f781cce2078052">
+          <head>Scope and Contents</head>
+          <p>This series contains two volumes of records for the Union Society and a volume of
+            records for the Prudential Committee. Also present are five folders of records. Within
+            the records are meeting minutes, financial records, membership records, warrants to
+            collectors and collector responses, property records, and deacon records.</p>
+        </scopecontent>
+        <c02 id="aspace_cad6f1f1626716b1e74e11376aaeba0b" level="file">
+          <did>
+            <unittitle>Union Society Property records</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1833">1833</fromdate>
+                <todate standarddate="1903">1903</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1833-1903</unitdate>
+            <container id="aspace_c73a9e9436dc3d7654818f733716833d" label="mixed materials"
+              localtype="box">1</container>
+            <container id="aspace_91bb401f63d4d9e7bb0454acf2af3648" localtype="folder"
+              parent="aspace_c73a9e9436dc3d7654818f733716833d">25</container>
+          </did>
+        </c02>
+        <c02 id="aspace_1b5528a85200a508bbc09708a1f3352c" level="item">
+          <did>
+            <unittitle>Union Society records</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1835">1835</fromdate>
+                <todate standarddate="1852">1852</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1835-1852</unitdate>
+            <container id="aspace_70ce6718cabf3b2fcb491ac0f57dd347" label="mixed materials"
+              localtype="box">3</container>
+            <container id="aspace_badec51088feaa70a90b4c47e3f26d1a" localtype="volume"
+              parent="aspace_70ce6718cabf3b2fcb491ac0f57dd347">3</container>
+          </did>
+          <scopecontent id="aspace_e979a9adc03fbf3169e9291ee295894f">
+            <head>Scope and Contents</head>
+            <p>This volume includes meeting minutes, warrants for meetings, collectors' responses to
+              warrants, annual meeting minutes, and a list of society members from 1837.</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_ebc6f89eb6f13fd0f53f3cc821f4286c" level="item">
+          <did>
+            <unittitle>Union Society records</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1835">1835</fromdate>
+                <todate standarddate="1892">1892</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1835-1892</unitdate>
+            <container id="aspace_ce37f18ca4dcc36b87491339316aa39e" label="mixed materials"
+              localtype="box">3</container>
+            <container id="aspace_427b90f31f31f5d30fea9a4e030c5c42" localtype="volume"
+              parent="aspace_ce37f18ca4dcc36b87491339316aa39e">4</container>
+          </did>
+          <scopecontent id="aspace_f3a921968fb4d351605061633d8be1a7">
+            <head>Scope and Contents</head>
+            <p>This volume includes an 1853 copy of the 1835 act of incorporation, warrants for
+              meetings, collectors' responses to warrants, meeting minutes, annual meeting minutes,
+              building committee of the Union Society reports, Prudential Committee reports, an 1885
+              list of contributors donating to Union Society debt relief, an 1851 newspaper clipping
+              regarding a land dispute between the Union Society and the inhabitants of Marlborough,
+              a member list from 1853, and reports from the committee to appraise pews. On page 74
+              there is a copy of Reverend George E Day's communication to the Union Church and
+              Society from 1847. On page 96 there is a record of the Union Society establishing the
+              Eastern Boundary of the Common. On page 132, there is a letter of acceptance from
+              Reverend Levi A. Field from 1853. On page 133, there is a letter of acceptance from
+              Reverend George Anthony from 1880. On page 280 there is Reverend Charles R. Trust's
+              letter of resignation and on page 304 are the society's by laws which were adopted in
+              1877.</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_d9131f0973c55fbe40ec4a7532e81bad" level="file">
+          <did>
+            <unittitle>Formation of the Union Society</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1835">1835</fromdate>
+                <todate standarddate="1860">1860</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1835-1860</unitdate>
+            <container id="aspace_cd4ba2633de7eb1dca028fdfc41bae18" label="mixed materials"
+              localtype="box">1</container>
+            <container id="aspace_a990214b5dc98b186a5b89c812b830c6" localtype="folder"
+              parent="aspace_cd4ba2633de7eb1dca028fdfc41bae18">26</container>
+          </did>
+          <scopecontent id="aspace_29d4e9957d60b5a89c7a920873351eab">
+            <head>Scope and Contents</head>
+            <p>This folder contains documents related to the formation of the Union Society in
+              Marlborough. Included in the folder are two copies of "An Act to incorporate the Union
+              Society", lists of voters in the society for 1841 and 1842, financial records, and two
+              statements of "Bonding" with the Union Society: one for Israel L Ames and one for John
+              Goodale, both treasurer and collector.</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_7c86b76dac3740bebae003d8512d45aa" level="file">
+          <did>
+            <unittitle>Union Society records</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1835">1835</fromdate>
+                <todate standarddate="1860">1860</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1835-1860</unitdate>
+            <container id="aspace_92ea23f40b1512db72c290cf168613c3" label="mixed materials"
+              localtype="box">1</container>
+            <container id="aspace_01cafff2895434dfb1aa14fef44d769d" localtype="folder"
+              parent="aspace_92ea23f40b1512db72c290cf168613c3">27</container>
+          </did>
+        </c02>
+        <c02 id="aspace_f00d1ed117f03d5c8134a6754a061104" level="file">
+          <did>
+            <unittitle>Meeting House records</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1852">1852</fromdate>
+                <todate standarddate="1867">1867</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1852-1867</unitdate>
+            <container id="aspace_554fd17f310ec9a46da5599c4e33993b" label="mixed materials"
+              localtype="box">1</container>
+            <container id="aspace_86422d0047ba60f1e3f487a24b92c9d4" localtype="folder"
+              parent="aspace_554fd17f310ec9a46da5599c4e33993b">18</container>
+          </did>
+        </c02>
+        <c02 id="aspace_3e590f8438cee2d1b656d544a411d77d" level="item">
+          <did>
+            <unittitle>Prudential Committee of the Union Society records</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1853">1853</fromdate>
+                <todate standarddate="1868">1868</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1853-1868</unitdate>
+            <container id="aspace_5872acf5239a7cd3432c8a73d022524a" label="mixed materials"
+              localtype="box">3</container>
+            <container id="aspace_3a98d1aa345a7a007d53055bd8c60fb5" localtype="volume"
+              parent="aspace_5872acf5239a7cd3432c8a73d022524a">5</container>
+          </did>
+          <scopecontent id="aspace_ba03440320ab81acf97c8e116ff8676a">
+            <head>Scope and Contents</head>
+            <p>This volume includes records of donations made by members of the Union Society,
+              meeting minutes, requests to the treasurer and collector of the union society to pay
+              member bills, reverends' salaries and to make charges to the society. Also included
+              are annual meeting minutes, and records off bills approved and drawn by the Prudential
+              Committee for 1870.</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_c1acde4fd923744f2a034ece274f443d" level="file">
+          <did>
+            <unittitle>Deacons of First Church records</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1854">1854</fromdate>
+                <todate standarddate="1889">1889</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1854-1889</unitdate>
+            <container id="aspace_2eb9908271e49098e1b65f1ff67802fc" label="mixed materials"
+              localtype="box">1</container>
+            <container id="aspace_158b671891e4c2de38ffc5d03498aba5" localtype="folder"
+              parent="aspace_2eb9908271e49098e1b65f1ff67802fc">20</container>
+          </did>
+        </c02>
+      </c01>
+      <c01 id="aspace_eb43d7a69a0dcc311f5a969fe9984593" level="series">
+        <did>
+          <unittitle>Ministerial records</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>18</quantity>
+            <unittype>Files</unittype>
+          </physdescstructured>
+          <physdesc localtype="container_summary">(12 folders, 6 volume)</physdesc>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1778">1778</fromdate>
+              <todate standarddate="2002">2002</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1778-2002</unitdate>
+        </did>
+        <scopecontent id="aspace_f1d386cfe15015daa6735928650cc67e">
+          <head>Scope and Contents</head>
+          <p>This series contains the records, history, and publications of the ministers from
+            Marlborough. Included in the records are personal correspondence, ecclesiastical council
+            minutes, meeting minutes, published sermons, a church history, photographs of grave
+            sites,</p>
+        </scopecontent>
+        <c02 id="aspace_0893b6c219791e2cba3345f9a1e4f9d4" level="file">
+          <did>
+            <unittitle>Reverend Aaron Smith records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1776">1776</fromdate>
+                <todate standarddate="2002">2002</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1778, 1964-2002</unitdate>
+            <container id="aspace_bdab5a83bd6eb62760337a7a1968b43f" label="mixed materials"
+              localtype="box">1</container>
+            <container id="aspace_249234874ca3d12dd27dafed3e0ac337" localtype="folder"
+              parent="aspace_bdab5a83bd6eb62760337a7a1968b43f">4</container>
+          </did>
+          <altformavail id="aspace_348f81e3e1007fc0054b2612bd2ff99a">
+            <head>Existence and Location of Copies</head>
+            <p>This ministerial record was digitized as part of the New England's Hidden Histories
+              project. Digital reproductions are <ref actuate="onrequest"
+                href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Marlborough/viewer/Aaron20Smith20record2C201778/1"
+                linktitle="available to view online" show="new">available to view online</ref>.</p>
+          </altformavail>
+          <scopecontent id="aspace_315da2cbd66d00043b1b398bdf71f804">
+            <head>Scope and Contents</head>
+            <p>This folder contains the minutes of an Ecclesiastical Council convened following the
+              death of Rev. Aaron Smith, photographs of his grave and a transcription of the
+              inscription on the tombstone, and two newspaper clippings: the first about Smith's
+              house and the second about the Old Wayland Cemetery.</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_5310a2fd5b6179a861e191508eba82e4" level="item">
+          <did>
+            <unittitle>Two Discourses by Aaron Smith</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1749">1749</fromdate>
+                <todate standarddate="1749">1749</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1749</unitdate>
+            <container id="aspace_268be03c8fe2352e2ac7deeee1c772e2" label="mixed materials"
+              localtype="box">1</container>
+            <container id="aspace_f07fd485059150bc3dd1c3ab61091224" localtype="volume"
+              parent="aspace_268be03c8fe2352e2ac7deeee1c772e2">8</container>
+          </did>
+          <scopecontent id="aspace_3c740606bc9b850b2ae4831abbd78800">
+            <head>Scope and Contents</head>
+            <p>This volume is a loosebound print publication of two sermons preached by Aaron Smith,
+              the pastor "of the Church in Marlsborough." Both sermons are based on a passage from
+              Lev. 26. 3-4.</p>
+            <p>The full title reads: "Some Temporal Advantages in Keeping Covenant with GOD,
+              Considered and Applied in Two Discourses from Lev. 26. 3, 4. Delivered June 15th 1749,
+              Being a Day of publick Fasting, on Occasion of the extream Drought."</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_e1716898b89890e7b3b5a2b47e93bcd4" level="file">
+          <did>
+            <unittitle>Reverend Asa Packard records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1805">1805</fromdate>
+                <todate standarddate="1972">1972</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1805-1806, 1972</unitdate>
+            <container id="aspace_d1f09df3b12ef2ce5f0c7cde6bf3c7bd" label="mixed materials"
+              localtype="box">1</container>
+            <container id="aspace_95bdd2d41f52da4550b9a87c5d557702" localtype="folder"
+              parent="aspace_d1f09df3b12ef2ce5f0c7cde6bf3c7bd">6</container>
+          </did>
+          <altformavail id="aspace_3b4806d821b158fcf2bf13d90d570d9c">
+            <head>Digital Copies</head>
+            <p>These ministerial records were digitized as part of the New England's Hidden
+              Histories project. Digital reproductions are <ref actuate="onrequest"
+                href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Marlborough/viewer/Asa20Packard20records2C2018051806/1"
+                linktitle="available to view online" show="new">available to view online</ref>.</p>
+          </altformavail>
+          <scopecontent id="aspace_9cddff59dc90b8fce3c99ac03b180f1d">
+            <head>Scope and Contents</head>
+            <p>This folder contains the records of several council meetings which were called by
+              Rev. Asa Packard in 1805 and 1806 in response to a split in the First Church which
+              resulted in the building of two meeting houses. Also included in the folder are
+              photographs of his and his wife's graves as well as transcriptions of the
+              inscriptions. There is also a newspaper clipping from 1972 about Packard and his
+              home.</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_f5e965f3f5f28afe059cdb997faa1a01" level="file">
+          <did>
+            <unittitle>Reverend Sylvester Bucklin records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1808">1808</fromdate>
+                <todate standarddate="1971">1971</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1808-1859, 1971</unitdate>
+            <container id="aspace_e8e05f50b3475cfde4064c3e93ee062e" label="mixed materials"
+              localtype="box">1</container>
+            <container id="aspace_79da65c43554399d81165825580ca187" localtype="folder"
+              parent="aspace_e8e05f50b3475cfde4064c3e93ee062e">9</container>
+          </did>
+          <scopecontent id="aspace_b9f00305c5da55ef16602b0e2a6750f2">
+            <head>Scope and Contents</head>
+            <p>This folder contains a number of church communications and records related to the
+              Rev. Sylvester Bucklin. Included in those records is his acceptance letter for the
+              call to settle, committee correspondence, a note regarding payments, and issued
+              warrants for parish meetings. Additionally, the folder contains are photographs of the
+              Bucklin family grave sites and transcriptions of the inscriptions on their tomb
+              stones.</p>
+          </scopecontent>
+          <separatedmaterial id="aspace_ba6ffd8dc58c4d0cc4550dbc7d38c4dd">
+            <head>Separated Materials</head>
+            <p>The Sylvester F. Bucklin Ordination Sermon, 1809, and Bucklin's Fiftieth Anniversary
+              Sermon, 1859, were removed from this folder and described separately.</p>
+          </separatedmaterial>
+        </c02>
+        <c02 id="aspace_c35230357c173b2227f2ea71fd55ea86" level="item">
+          <did>
+            <unittitle>Sylvester F. Bucklin Ordination Sermon</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1809">1809</fromdate>
+                <todate standarddate="1809">1809</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1809</unitdate>
+            <container id="aspace_cc5fb400d2c8b624a45a01228e157944" label="mixed materials"
+              localtype="box">1</container>
+            <container id="aspace_71608de88d130dd149c35b2f27351dd4" localtype="volume"
+              parent="aspace_cc5fb400d2c8b624a45a01228e157944">5</container>
+          </did>
+          <scopecontent id="aspace_c414160a0774978dd83d07474b52c15b">
+            <head>Scope and Contents</head>
+            <p>This is a softbound print volume of a sermon delivered by Pitt Clark for the
+              ordination of Rev. Sylvester Bucklin.</p>
+            <p>The full title reads: "A Sermon Delivered in Marlborough at the Ordination of the
+              Rev. Sylvester F. Bucklin November 2, 1808."</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_8d2079e77dcc9bc3653a186949044da7" level="item">
+          <did>
+            <unittitle>Bucklin's Fiftieth Anniversary Sermon</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1859">1859</fromdate>
+                <todate standarddate="1859">1859</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1859</unitdate>
+            <container id="aspace_5dc1ab45b3fa36e6fd27ac3734bd55ad" label="mixed materials"
+              localtype="box">1</container>
+            <container id="aspace_0f7a1829758642ce7a8f679c56c88aae" localtype="volume"
+              parent="aspace_5dc1ab45b3fa36e6fd27ac3734bd55ad">6</container>
+          </did>
+          <scopecontent id="aspace_3f581f4c25d0c5f6c2e0afe35d5e8338">
+            <head>Scope and Contents</head>
+            <p>This is a softbound print volume of a Sermon preached by Rev. Sylvester F. Bucklin on
+              the fiftieth anniversary of his ordination.</p>
+            <p>The full title reads: "A Sermon Preached in Marlborough, Mass., Nov. 3, 1858, by Rev.
+              Sylvester F. Bucklin, on the Fiftieth Anniversary of his Ordination as Pastor of the
+              East Church in that Town."</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_f282e1f8d67621b137fa94e3f1ebfc0e" level="file">
+          <did>
+            <unittitle>Reverend Charles Forbush records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1832">1832</fromdate>
+                <todate standarddate="1834">1834</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1832-1834</unitdate>
+            <container id="aspace_d4eef63b035b4dd9345ed45cac7667b6" label="mixed materials"
+              localtype="box">1</container>
+            <container id="aspace_c0c5b84d0b65bd63e8a91a8f0bca6779" localtype="folder"
+              parent="aspace_d4eef63b035b4dd9345ed45cac7667b6">11</container>
+          </did>
+          <scopecontent id="aspace_f04330722d79fa890deee974c561f2fa">
+            <head>Scope and Contents</head>
+            <p>This folder contains personal and church correspondence of Rev. Charles Forbush.
+              Included in the records are the records of an Ecclesiastical Council meeting held at
+              Forbush's house, and his acceptance of calls to settle in the Evangelical Church in
+              Marlborough and the Congregational Church Society in Northbridge.</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_2e3d70c3f97a8cf205f6c98e4b448b20" level="file">
+          <did>
+            <unittitle>Reverend John N. Goodhue records</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1836">1836</fromdate>
+                <todate standarddate="1839">1839</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1836-1839</unitdate>
+            <container id="aspace_9d6246d267b5cf844e2290d6aff46e94" label="mixed materials"
+              localtype="box">1</container>
+            <container id="aspace_83c0267b3ab33eb0e56d6b539a732d05" localtype="folder"
+              parent="aspace_9d6246d267b5cf844e2290d6aff46e94">13</container>
+          </did>
+        </c02>
+        <c02 id="aspace_1282bc7b88c07ad3b428c3dad5ae905a" level="file">
+          <did>
+            <unittitle>Reverend George E. Day records</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1840">1840</fromdate>
+                <todate standarddate="1846">1846</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1840-1846</unitdate>
+            <container id="aspace_fd4be698dc4f4dede7bdcec54b5f2852" label="mixed materials"
+              localtype="box">1</container>
+            <container id="aspace_6e4902b4f37066b9e6fc72609e567794" localtype="folder"
+              parent="aspace_fd4be698dc4f4dede7bdcec54b5f2852">14</container>
+          </did>
+        </c02>
+        <c02 id="aspace_3673ae8d24a950c341c0e8027b444dd9" level="file">
+          <did>
+            <unittitle>Reverend Kent newspaper clipping</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1842">1842</fromdate>
+                <todate standarddate="1842">1842</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1842</unitdate>
+            <container id="aspace_b967f240e53d7f57816c11a12a2c40da" label="mixed materials"
+              localtype="box">1</container>
+            <container id="aspace_ce328848dd04bb5c70c9195ff486fa40" localtype="folder"
+              parent="aspace_b967f240e53d7f57816c11a12a2c40da">15</container>
+          </did>
+        </c02>
+        <c02 id="aspace_18e09cc590dce1a82ac6920652b4d9fd" level="file">
+          <did>
+            <unittitle>Reverend William Brinsmead records</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1842">1842</fromdate>
+                <todate standarddate="1889">1889</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1842-1889</unitdate>
+            <container id="aspace_594fa5b3d4569946f2b4f880ca1f1476" label="mixed materials"
+              localtype="box">1</container>
+            <container id="aspace_c1e2e3c3bc972f38f8b6be7fe0740b59" localtype="folder"
+              parent="aspace_594fa5b3d4569946f2b4f880ca1f1476">16</container>
+          </did>
+        </c02>
+        <c02 id="aspace_88aca2541e27a6b266eac7023f82e0aa" level="file">
+          <did>
+            <unittitle>Reverend David L. Ogden records</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1848">1848</fromdate>
+                <todate standarddate="1850">1850</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1848-1850</unitdate>
+            <container id="aspace_4441e047e1fa5ca3f5ee2d017612f900" label="mixed materials"
+              localtype="box">1</container>
+            <container id="aspace_817c2c9e60a40f32d4930698106067d0" localtype="folder"
+              parent="aspace_4441e047e1fa5ca3f5ee2d017612f900">17</container>
+          </did>
+        </c02>
+        <c02 id="aspace_5c7fc3a230bb97d6a4992aa4fa66dae2" level="file">
+          <did>
+            <unittitle>Reverend Levi A. Field records</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1853">1853</fromdate>
+                <todate standarddate="1880">1880</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1853-1880</unitdate>
+            <container id="aspace_33ab2495fea3b7489eba57a993c0699b" label="mixed materials"
+              localtype="box">1</container>
+            <container id="aspace_7911f8cc808b1880c4bd5aa10e4feeaf" localtype="folder"
+              parent="aspace_33ab2495fea3b7489eba57a993c0699b">19</container>
+          </did>
+        </c02>
+        <c02 id="aspace_ec0ded43fb07f6523bcb781ceb9cb6cd" level="item">
+          <did>
+            <unittitle>Levi A. Field's Sermons</unittitle>
+            <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+              <quantity>3</quantity>
+              <unittype>Volumes</unittype>
+            </physdescstructured>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1960">1960</fromdate>
+                <todate standarddate="1960">1960</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1960</unitdate>
+            <container id="aspace_99be7c827e1d1e4b1018cb92e96a014c" label="mixed materials"
+              localtype="box">1</container>
+            <container id="aspace_4da9f550bb4e3c95cbda4f2cbedb224b" localtype="volume"
+              parent="aspace_99be7c827e1d1e4b1018cb92e96a014c">7</container>
+          </did>
+          <scopecontent id="aspace_8ab5d2026801ee80a1ca4c137633ac98">
+            <head>Scope and Contents</head>
+            <p>Three copies of a printed volume of select sermons preached by Rev. Levi A. Field
+              while a minister in Marlborough.</p>
+            <p>The full title reads: "Sermons Preached by Rev. Levi A. Field Late Pastor of the
+              Union Church and Society Marlboro, Mass. with the Funeral Sermon and Obituary by Rev.
+              Edmund Powse, Sherborn, Mass."</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_c9b7e2f0651fb767927a97904c080986" level="item">
+          <did>
+            <unittitle>Levi A. Field's "History of the Church" and Sylvester Bucklin's 50th
+              Anniversary Sermon</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1858">1858</fromdate>
+                <todate standarddate="1859">1859</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1858-1859</unitdate>
+            <container id="aspace_bfe76a7e2065a13279f348fd07b7c208" label="mixed materials"
+              localtype="box">3</container>
+            <container id="aspace_5c65512b32bd090cdf317325b5231e63" localtype="volume"
+              parent="aspace_bfe76a7e2065a13279f348fd07b7c208">1</container>
+          </did>
+          <scopecontent id="aspace_9ec5085990ae6d031f937f5565cd8f90">
+            <head>Scope and Contents</head>
+            <p>This volume includes a history of the church written by Levi A. Field and the
+              exercises from the celebration of the fiftieth anniversary of Reverend Sylvester
+              Bucklin's ordination.</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_27d90bf12af617994011cd74b32e0826" level="item">
+          <did>
+            <unittitle>An Historical Sketch of the First Congregational Church</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1859">1859</fromdate>
+                <todate standarddate="1859">1859</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1859</unitdate>
+            <container id="aspace_9051623a22d04ad2407c4c63ec90d458" label="mixed materials"
+              localtype="box">1</container>
+            <container id="aspace_f22820356329d5130918bd53ddded75c" localtype="volume"
+              parent="aspace_9051623a22d04ad2407c4c63ec90d458">4</container>
+          </did>
+        </c02>
+        <c02 id="aspace_eccdc3618de49054ab194bab121bd75b" level="file">
+          <did>
+            <unittitle>Reverend Robert Breck records</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1857">1857</fromdate>
+                <todate standarddate="1857">1857</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1857</unitdate>
+            <container id="aspace_bedf83e0fbce88bc13888797099d1328" label="mixed materials"
+              localtype="box">1</container>
+            <container id="aspace_48f203a3c854d6ed17a68b29203170ae" localtype="folder"
+              parent="aspace_bedf83e0fbce88bc13888797099d1328">22</container>
+          </did>
+        </c02>
+        <c02 id="aspace_8cf88c5bdd00caace3e7ba4af3b9a1a6" level="file">
+          <did>
+            <unittitle>Reverend George Anthony records</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1860">1860</fromdate>
+                <todate standarddate="1868">1868</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1860-1868</unitdate>
+            <container id="aspace_9a32db3dd3e727585ecaa4a6cdf5a1be" label="mixed materials"
+              localtype="box">1</container>
+            <container id="aspace_b840761ebfe452b6e6388c0d96dea806" localtype="folder"
+              parent="aspace_9a32db3dd3e727585ecaa4a6cdf5a1be">23</container>
+          </did>
+        </c02>
+      </c01>
+      <c01 id="aspace_1916098fce3ddb2abbc7da1ad4a4a9cf" level="series">
+        <did>
+          <unittitle>Architectural and Property drawings</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>10</quantity>
+            <unittype>Items</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1866">1866</fromdate>
+              <todate standarddate="1963">1963</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1866-1963</unitdate>
+        </did>
+        <scopecontent id="aspace_a22b1dce8ed3d56e886cfbfd69b6bcab">
+          <head>Scope and Contents</head>
+          <p>This series contains architectural drawings and property plans for the Union Society
+            and First Church in Marlborough.</p>
+        </scopecontent>
+        <c02 id="aspace_8348f198b6c05a85da15909db05f71a3" level="item">
+          <did>
+            <unittitle>Plan of the Commons owned by the Union Society in Marlborough, surveyed by
+              George Ellis</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1866">1866</fromdate>
+                <todate standarddate="1866">1866</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1866</unitdate>
+            <container id="aspace_1487faa6c17a15cbe46caac83d4ef105" label="mixed materials"
+              localtype="folder">1</container>
+            <container id="aspace_11c389865b60f10c28b770464a95ba4a" localtype="Item"
+              parent="aspace_1487faa6c17a15cbe46caac83d4ef105">1</container>
+          </did>
+        </c02>
+        <c02 id="aspace_3c48efe4a282f3364fbaf738a2c588b5" level="item">
+          <did>
+            <unittitle>Lands of Union Society of Marlborough, surveyed by George Ellis</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1866">1866</fromdate>
+                <todate standarddate="1866">1866</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1866</unitdate>
+            <container id="aspace_27ccd084b42932f71bcf69fdcf109959" label="mixed materials"
+              localtype="folder">1</container>
+            <container id="aspace_9ab7dcf2dda89f80568b341e164315e3" localtype="Item"
+              parent="aspace_27ccd084b42932f71bcf69fdcf109959">2</container>
+          </did>
+        </c02>
+        <c02 id="aspace_05779054e59d34c53193d35b69d5ff38" level="item">
+          <did>
+            <unittitle>Plan of Land in Marlborough</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1866">1866</fromdate>
+                <todate standarddate="1866">1866</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1866</unitdate>
+            <container id="aspace_9526b3f7285711540d5a124a031cbee8" label="mixed materials"
+              localtype="folder">1</container>
+            <container id="aspace_52830ae32c52efba1d7560c1614f26ec" localtype="Item"
+              parent="aspace_9526b3f7285711540d5a124a031cbee8">3</container>
+          </did>
+        </c02>
+        <c02 id="aspace_5cbd8b6cd101ef649d15fe186d9ce86d" level="item">
+          <did>
+            <unittitle>Plan of Land in Marlborough, surveyed by George Ellis &amp; Son, copied by
+              M.P. Rogers</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1866">1866</fromdate>
+                <todate standarddate="1866">1866</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1866</unitdate>
+            <container id="aspace_43c05e53b70ee36be705205ef0a3bd85" label="mixed materials"
+              localtype="folder">1</container>
+            <container id="aspace_e8d3629bc4313d1cd74f65d5659c73b1" localtype="Item"
+              parent="aspace_43c05e53b70ee36be705205ef0a3bd85">4</container>
+          </did>
+        </c02>
+        <c02 id="aspace_30d009e9903ed64dfef63365372b607f" level="item">
+          <did>
+            <unittitle>Photocopy of Sanborn Map of Marlborough</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1885">1885</fromdate>
+                <todate standarddate="1885">1885</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1885</unitdate>
+            <container id="aspace_a7588b50756787ca2d859a1c31779e81" label="mixed materials"
+              localtype="box">1</container>
+            <container id="aspace_c01e4d2ba7d197d82c06999967a6f850" localtype="folder"
+              parent="aspace_a7588b50756787ca2d859a1c31779e81">28</container>
+          </did>
+        </c02>
+        <c02 id="aspace_fa643723a68eff192b190a1c16075621" level="item">
+          <did>
+            <unittitle>Land Plan of Marlborough, surveyed by M. P. Rogers</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1887">1887</fromdate>
+                <todate standarddate="1887">1887</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1887</unitdate>
+            <container id="aspace_b4520c08be0e24d02bcdfb492a54edd9" label="mixed materials"
+              localtype="folder">1</container>
+            <container id="aspace_b2a8bbf47842d4e7d677bf1c6011c62e" localtype="Item"
+              parent="aspace_b4520c08be0e24d02bcdfb492a54edd9">5</container>
+          </did>
+        </c02>
+        <c02 id="aspace_5a1c0800ae6195ede859a463ae7ef433" level="item">
+          <did>
+            <unittitle>Plan of Land owned by the Union Church in Marlborough</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1902">1902</fromdate>
+                <todate standarddate="1902">1902</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1902</unitdate>
+            <container id="aspace_933d3d86554c1047873c228080add4ad" label="mixed materials"
+              localtype="folder">1</container>
+            <container id="aspace_638f4700b565d949dcf16e7690e6b449" localtype="Item"
+              parent="aspace_933d3d86554c1047873c228080add4ad">6</container>
+          </did>
+        </c02>
+        <c02 id="aspace_010109ed0e99ff6a653f94bad6befa9d" level="item">
+          <did>
+            <unittitle>Plan of Union Society Parsonage Land</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_6251247c4b5ada1f85aeba5ff9e97bd1" label="mixed materials"
+              localtype="folder">1</container>
+            <container id="aspace_9279cfaf2a90a11c68e333dc2ee2b1a8" localtype="Item"
+              parent="aspace_6251247c4b5ada1f85aeba5ff9e97bd1">7</container>
+          </did>
+        </c02>
+        <c02 id="aspace_46e408617c6a3ca22fab8660c77ab02d" level="item">
+          <did>
+            <unittitle>Alterations to the existing Sunday School Assembly Room for the First Church,
+              architect Earl V. Aldrich</unittitle>
+            <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+              <quantity>2</quantity>
+              <unittype>Items</unittype>
+            </physdescstructured>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1963">1963</fromdate>
+                <todate standarddate="1963">1963</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1963</unitdate>
+            <container id="aspace_d90085635029b0feca8b2b2c4300e414" label="mixed materials"
+              localtype="folder">1</container>
+            <container id="aspace_327fb44d2a11ad5375716f8a10fcc579" localtype="Item"
+              parent="aspace_d90085635029b0feca8b2b2c4300e414">8-9</container>
+          </did>
+        </c02>
+      </c01>
+      <c01 id="aspace_eab7c2d71f79f5f9a559e58de9e8fee7" level="series">
+        <did>
+          <unittitle>Microfilm</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>1</quantity>
+            <unittype>Reels</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1982">1982</fromdate>
+              <todate standarddate="1982">1982</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1982</unitdate>
+        </did>
+        <scopecontent id="aspace_5b1e0f960c2e21a8e15f3970aec656ed">
+          <head>Scope and Contents</head>
+          <p>This series contains a single microfilm reel of early church records from the First
+            Church in Marlborough.</p>
+        </scopecontent>
+        <c02 id="aspace_c55d46a628eb9e90b8700ab2557e956a" level="item">
+          <did>
+            <unittitle>Marlborough Church records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1982">1982</fromdate>
+                <todate standarddate="1982">1982</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1982</unitdate>
+            <materialspec id="aspace_8a5e62f088f9ed50be4577dc5f01ad57">Contents were microfilmed by
+              the Harvard University Reprographic Services.</materialspec>
+            <container id="aspace_a7540392489afc1d77dbda74fa93dc5c" label="Microform"
+              localtype="reel">1</container>
+          </did>
+          <index id="aspace_3fc0d7c57c4dc4c9c79915eae716debf">
+            <head>Scope and Contents</head>
+            <p>This reel contains three volumes of early church records from the First Church and
+              First Parish.</p>
+            <indexentry>
+              <title>
+                <part>Church Records Vol. 1</part>
+              </title>
+            </indexentry>
+            <indexentry>
+              <title>
+                <part>Church Records Vol. 2</part>
+              </title>
+            </indexentry>
+            <indexentry>
+              <title>
+                <part>Parish Records</part>
+              </title>
+            </indexentry>
+          </index>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
