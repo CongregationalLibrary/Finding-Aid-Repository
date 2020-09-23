@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/MedwayMAFirst-0927.xml"
+      >MedwayMAFirst-0927</recordid>
+    <representation localtype="pdf"
+      href="http://www.congregationallibrary.org/sites/all/files/MedwayMAFirst-0927.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Medway, Mass. First Church of Christ records, 1730-1876.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2018-06-22</date>
+        <num>RG0927</num>
+      </publicationstmt>
+      <seriesstmt>
+        <p>This collection is part of New England's Hidden Histories. Digital historical
+          representations of the collection can be viewed online.</p>
+      </seriesstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2020-09-23T17:54:58+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday September
+          23, 2020 at 17:54</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Medway, Mass. First Church of Christ records, 1730-1876.</unittitle>
+      <unitid>RG0927</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>0.22</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(1 box)</physdesc>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1730">1730</fromdate>
+          <todate standarddate="1876">1876</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" unitdatetype="inclusive">1730-1876</unitdate>
+      <abstract id="aspace_9b788e7d1b32894fff6977845687a0b7">Originally named Boggastow in Nipmuck
+        Territory, then part of Medfield, Medway was settled in 1657 when an increasing number of
+        colonists settled the land west of the Charles River. Medway was incorporated on October 25,
+        1713 and the decision to immediately build its own church was made at town meeting on
+        November 23, 1713. The Church of Christ, later known as First Church of Christ, was
+        organized on October 7, 1714. The section known as East Medway separated in 1885 to form the
+        town of Millis; First Church of Christ Medway is physically located in modern day Millis,
+        Massachusetts. This collection contains the early records of the church, including meeting
+        minutes, sermons, disciplinary records, and ecclesiastical council proceedings.</abstract>
+      <origination label="creator">
+        <corpname identifier="98016905" source="lcnaf">
+          <part>First Church of Christ (Medway, Mass.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_ad1ee0f806f9a04d7a81f1937b5285cd">
+      <head> Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_1172c56ee517ee5cea1c6a20c2e2b468">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+      <p>Digital Reproductions are protected by copyright and/or related rights. You are free to use
+        the Digital Reproductions in any way that is permitted by the copyright and related rights
+        legislation that applies to your use. In addition, no permission is required from the
+        Congregational Library &amp; Archives for educational uses. For other uses, you need to
+        obtain permission from the Congregational Library &amp; Archives. For additional information
+        regarding copyright, please consult the Congregational Library &amp; Archives' <ref
+          actuate="onrequest" href="http://www.congregationallibrary.org/about/digital-copyright"
+          linktitle="Digital Collections Copyright &amp; Use" show="new">Digital Collections
+          Copyright &amp; Use</ref> policy.</p>
+    </userestrict>
+    <prefercite id="aspace_d34491affffcc1979fffce82a15d547c">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Medway, Mass. First Church of Christ records, 1730-1876,
+        RG0927. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_61555eb4def18632a02a8f80c97c5e17">
+      <head>Acquisition Information</head>
+      <p>No acquisition information is available for this collection.</p>
+    </acqinfo>
+    <accruals id="aspace_5298c9261634b3cab94b5eadb273b458">
+      <head>Accruals</head>
+      <p>Additional accruals are expected for this collection in the form of full-text
+        transcription. There is no anticipated date for this accrual.</p>
+    </accruals>
+    <processinfo id="aspace_36318ddfb3eaf84895884917c8b97988">
+      <head>Processing Information</head>
+      <p>Originally processed by Cristina Prochilo, September, 2015 using DACS Second Edition.
+        Aditional processing by Zachary Bodnar, June 2018.</p>
+    </processinfo>
+    <bioghist id="aspace_85e9c33ae1c3ac5ac6767956a350c329">
+      <head>Historical Note</head>
+      <p>Originally named Boggastow in Nipmuck Territory, then part of Medfield, Medway was settled
+        in 1657 when an increasing number of colonists settled the land west of the Charles River.
+        The settlement grew enough that by 1712 the Massachusetts General Court was petitioned to
+        create a separate town; Medway was incorporated on October 25, 1713 and the decision to
+        immediately build its own church was made at town meeting on November 23, 1713.</p>
+      <p>Until the church's construction was finished, services were held by Reverend David Deming
+        at Peter Adams's house. The Church of Christ, later known as First Church of Christ, was
+        organized on October 7, 1714. A subscription, led by Jonathan Plimpton, raised a noon house
+        in 1730. In 1749 the first meetinghouse burned. In 1748 Medway divided into eastern and
+        western precincts with First Church of Christ in the eastern precinct and Second Church
+        organizing in 1750 in the western precinct. A large undevelopable tract of land known as The
+        Black Swamp divided the two. The section known as East Medway separated in 1885 to form the
+        town of Millis; First Church of Christ Medway is physically located in modern day Millis,
+        Massachusetts.</p>
+    </bioghist>
+    <scopecontent id="aspace_ef8ad063ba7b25dbd5986d79860d5e4a">
+      <head>Scope and Contents</head>
+      <p>This collection contains the records of the First Church of Christ formerly in Medway,
+        Massachusetts, though the earliest records are no longer extant. This collection contains
+        the early records of the church, including meeting minutes, sermons, a relation,
+        disciplinary records, ministerial wages, and ecclesiastical council proceedings.</p>
+    </scopecontent>
+    <arrangement id="aspace_93f418c305cfe3483e800827109216b3">
+      <head>Arrangement</head>
+      <p>This collection has been arranged by material type.</p>
+    </arrangement>
+    <phystech id="aspace_c11274b3dc19151f7d4891a569f54ae5">
+      <head>Technical Requirements</head>
+      <p>To access digital user's copies via online-interface, a java-enabled web browser is
+        required. Internet Explorer 8.x and later, Firefox 5.x and later, Opera 12 and later, Safari
+        5.x and later, or any version of Google Chrome are recommended.</p>
+    </phystech>
+    <controlaccess>
+      <subject identifier="sh85025597" source="lcsh">
+        <part>Church discipline.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85033612" source="lcsh">
+        <part>Covenants (Church polity).</part>
+      </subject>
+      <subject identifier="sh85046255" source="lcsh">
+        <part>Excommunication.</part>
+      </subject>
+      <subject identifier="sh2008111551" source="lcsh">
+        <part>Sermons, American -- Early works to 1800.</part>
+      </subject>
+      <corpname identifier="98016905" source="lcnaf">
+        <part>First Church of Christ (Medway, Mass.)</part>
+      </corpname>
+      <corpname identifier="n93015637" source="lcnaf">
+        <part>Medway (Mass.) -- Church history.</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_bada983b2f20398461ae9e58f5ad0a9d" level="file">
+        <did>
+          <unittitle>Sermons</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1766">1766</fromdate>
+              <todate standarddate="1781">1781</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1766-1781</unitdate>
+          <container id="aspace_edebb4dd0ef891c2803d3d7fbaba1c33" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_cc33262e4676577ad6172de8f987c3b2" localtype="folder"
+            parent="aspace_edebb4dd0ef891c2803d3d7fbaba1c33">1</container>
+        </did>
+        <originalsloc id="aspace_ce78ca3021cb841ffaac6afe5388fd70">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Medway/viewer/Sermon2C20Job20212027/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </originalsloc>
+        <scopecontent id="aspace_af7976f9220e8d90f64f153cf5e93545">
+          <head>Scope and Contents</head>
+          <p>Sermons, Job: 21-27 and Timothy: 2.1, were written in multiple hands and delivered on a
+            variety of dates and locations.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_00f39031c13be7ea0b4b7dafcdcd7da3" level="file">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1730">1730</fromdate>
+              <todate standarddate="1796">1796</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1730-1796</unitdate>
+          <container id="aspace_ccd975c4dd8c512c8dccdd22b9784eaf" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_963dacffe3bc86e3b89f1e4f3d8cfde6" localtype="folder"
+            parent="aspace_ccd975c4dd8c512c8dccdd22b9784eaf">2</container>
+        </did>
+        <altformavail id="aspace_2e9f8f64540e5ad599dbffa510d1df1a">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://www.congregationallibrary.org/nehh/series1/MedwayMAFirst0927-churchfinancial"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_fac37c4c65dce8c978eb555a89eeeff5">
+          <head>Scope and Contents</head>
+          <p>These records contain meeting house expenses (including a subscription for the
+            construction of a noon house meet on the Sabbath), the confession of faith of James
+            Peniman, correspondence, and records discussing ministerial salary.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_76b302c770f0092f6a696eff90708641" level="file">
+        <did>
+          <unittitle>Disciplinary cases</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1743">1743</fromdate>
+              <todate standarddate="1808">1808</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1743-1808</unitdate>
+          <container id="aspace_bc4e2d1eb14fea56bf5efc14c265de35" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_67cd1f743e62bf982e6d59e601199da9" localtype="folder"
+            parent="aspace_bc4e2d1eb14fea56bf5efc14c265de35">3</container>
+        </did>
+        <altformavail id="aspace_ef005e76aef49bd08df67ba6740ead80">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://www.congregationallibrary.org/nehh/series1/MedwayMAFirst0927-discipline"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_e468df270d6d932dd6f221308fcb0953">
+          <head>Scope and Contents</head>
+          <p>These records are about disciplinary cases in Medway during this period. During the
+            colonial period, the local church often functioned as the legal authority in matters of
+            morality. Punishment in such cases usually consisted of censure — a temporary
+            restriction from attending services and participating in church business — until the
+            guilty party made a formal confession or request for forgiveness. Of particular notes is
+            the case of David Pond of Wrentham who struck a pitch, created a disturbance was
+            excommunicated from his church, and requested admission to First Church in Medway.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_649153b89ad4991cd9e64ae1eb2af3d7" level="item">
+        <did>
+          <unittitle>Church manuscript records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1876">1876</datesingle>
+          </unitdatestructured>
+          <container id="aspace_6cfebab6c9dc517fbfc59617445c3cb6" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_eeddd136f7cfe72c332f5ff9574ede9f" localtype="volume"
+            parent="aspace_6cfebab6c9dc517fbfc59617445c3cb6">1</container>
+        </did>
+        <altformavail id="aspace_36ccf6e75ebfc9df17f863427e1ba6a6">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Medway/viewer/Volume2C201876/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_234e80c1160b9b60bea5e1619d48c556">
+          <head>Scope and Contents</head>
+          <p>Volume transcribed in 1876 from earlier records, approximately 1772. The volume
+            contains the Articles of Covenant and numerous empty pages.</p>
+        </scopecontent>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
