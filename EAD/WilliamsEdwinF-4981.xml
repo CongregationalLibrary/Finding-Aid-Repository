@@ -1,0 +1,2302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/WilliamsEdwinF-4981.xml"
+      >WilliamsEdwinF-4981</recordid>
+    <representation localtype="pdf"
+      href="http://www.congregationallibrary.org/sites/all/files/WilliamsEdwinF-4981.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Edward Franklin Williams papers, 1859-1918.</titleproper>
+        <author>Mary Guinan, William McCarthy</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2018-08-28</date>
+        <num>MS4981</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2020-10-05T15:09:19+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Monday October 5,
+          2020 at 15:09</eventdescription>
+      </maintenanceevent>
+      <maintenanceevent>
+        <eventtype value="revised"/>
+        <eventdatetime>2020-04-02</eventdatetime>
+        <agenttype value="human"/>
+        <agent>Zachary Bodnar</agent>
+        <eventdescription>Significant revisions to collection description, agents, and subject
+          headings.</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Edward Franklin Williams papers, 1859-1918.</unittitle>
+      <unitid>MS4981</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>1.88</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(3 boxes)</physdesc>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1859">1859</fromdate>
+          <todate standarddate="1918">1918</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" unitdatetype="inclusive">1859-1918</unitdate>
+      <langmaterial id="aspace_69b5dff3960b1995a4f0ac4311414cb3">
+        <language>The entire collection is written in English except for a single pamphlet written
+          in Hebrew.</language>
+      </langmaterial>
+      <abstract id="aspace_a5271f8ce4a051f4651275f2ffcef556">Edward Franklin Williams was born in
+        Uxbridge, Massachusetts on July 22, 1832. He graduated from Yale in 1856 after which he
+        spent three years teaching in Connecticut and Massachusetts. He then went to the Princeton
+        Theological Seminary where he graduated in 1861. He was licensed by the Presbytery of New
+        Brunswick in 1861. When the Civil War broke out, Williams joined the Christian Commission
+        where he distributed religious literature, medical aid, and various supplies to Union
+        troops. The Congregational ministry at Whitinsville, Massachusetts ordained Williams on
+        October 17, 1866. After 1891, Williams was a delegate to the International Congregational
+        Council in London, England. He spent several years abroad and studied at the University of
+        Berlin after which he published "Christian Life in Germany" in 1896. From 1901-1911,
+        Williams was the pastor of the First Congregational Church of Evanston in Evanston, Illinois
+        where he died on May 26, 1919. This collection consists of the personal papers of Edward
+        Franklin Williams that were presumably collected by Williams himself. The collection
+        includes sermons, notes, writings, and lectures given at various institutions. Of particular
+        note are his sermons, which are labeled with the various dates, and locations he gave them
+        as well as marked with edits and changes he made to them over the years. His writings
+        include notes and research on a variety of topics ranging from the early years of American
+        history to the study of electricity. Also included are the lectures he gave at the Chicago
+        Theological Seminary and Beloit College on systemic theology and the history of
+        philosophy.</abstract>
+      <origination label="creator">
+        <persname identifier="no2003056941" source="lcnaf">
+          <part>Williams, Edward F. (Edward Franklin), 1832-1919</part>
+        </persname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_765add8f650e408011c5bcdf326adb18">
+      <head> Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_8906c420a932a8b9fbd3378d59140386">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite id="aspace_43e2f0130cd4c4f692aaf09924c14c8f">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Edward Franklin Williams papers, 1859-1918, MS4981. The
+        Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_6b1316d189d7f8c6fc46db8a1826654b">
+      <head>Acquisition Information</head>
+      <p>Collection arrived at the CLA as part of a large deposit of materials from the Chicago
+        Theological Seminary in January 2011; Acc# 2011-19. An additional accrual arrived in
+        2015.</p>
+    </acqinfo>
+    <processinfo id="aspace_f6fbd29daf64699b0c411841572207fb">
+      <head>Processing Information</head>
+      <p>The collection was first processed by Mary Guinan in 2013. The collection was reprocessed
+        by William McCarthy in August 2018 using DACS Second Edition.</p>
+    </processinfo>
+    <bioghist id="aspace_cfc13287bb45da00830ca775b590133f">
+      <head>Biographical Information</head>
+      <p>Edward Franklin Williams was born in Uxbridge, Massachusetts on July 22, 1832. He graduated
+        from Yale in 1856 after which he spent three years teaching in Connecticut and
+        Massachusetts. He then went to the Princeton Theological Seminary where he graduated in
+        1861. He was licensed by the Presbytery of New Brunswick in 1861. When the Civil War broke
+        out, Williams joined the Christian Commission where he distributed religious literature,
+        medical aid, and various supplies to Union troops. The Congregational ministry at
+        Whitinsville, Massachusetts ordained Williams on October 17, 1866. He took charge of the
+        Lookout Mountain Institute in Chattanooga, Tennessee in 1866 where he educated young
+        missionaries. After a brief time as a teacher in the Normal Department of Howard University
+        in Washington, D.C., he moved west and began preaching in St. Charles, Illinois in 1869.
+        From 1869-1873, Williams was the pastor of Tabernacle Congregational Church in Chicago
+        Illinois. He then moved on to a pastorate at the South Congregational Church in Chicago,
+        Illinois from 1873-1891. After 1891, Williams was a delegate to the International
+        Congregational Council in London, England. He spent several years abroad and studied at the
+        University of Berlin after which he published "Christian Life in Germany" in 1896. Williams
+        served as the Editor of the Congregationalist, Director of the Chicago Missionary Society,
+        and president of the Chicago Tract Society which published and distributed Christian
+        literature. Additionally, Williams lectured at the Chicago Theological Seminary in 1894 and
+        Beloit College in 1903. From 1901-1911, Williams was the pastor of the First Congregational
+        Church of Evanston in Evanston, Illinois where he died on May 26, 1919.</p>
+    </bioghist>
+    <scopecontent id="aspace_cdb30ed60276498fb577697c96e9c9cd">
+      <head>Scope and Contents</head>
+      <p>This collection consists of the personal papers of Edward Franklin Williams that were
+        presumably collected by Williams himself. The collection includes sermons, notes, writings,
+        and lectures given at various institutions. Of particular note are his sermons, which are
+        labeled with the various dates, and locations he gave them as well as marked with edits and
+        changes he made to them over the years. His writings include notes and research on a variety
+        of topics ranging from the early years of American history to the study of electricity. Also
+        included are the lectures he gave at the Chicago Theological Seminary and Beloit College on
+        systemic theology and the history of philosophy.</p>
+    </scopecontent>
+    <arrangement id="aspace_965f1cdd0218d665e74d60bcf8d1f177">
+      <head>Arrangement</head>
+      <p>This collection is arranged into the three series listed below. Materials each series is
+        arranged chronologically.</p>
+      <p><emph render="bold">Series 1:</emph> Writings and Notes, 1859-1915.</p>
+      <p><emph render="bold">Series 2:</emph> Sermons, 1862-1918.</p>
+      <p><emph render="bold">Series 3:</emph> Lectures, 1870-1918.</p>
+    </arrangement>
+    <relatedmaterial id="aspace_b1feb4feb4ec3b9cfe4f98991d9d29b4">
+      <head>Related Materials</head>
+      <p>Additional records related to the works of Edward Franklin Williams can be found in the
+        Chicago, Ill. Tabernacle Congregational Church records, 1865-1906, 1911, RG5216.</p>
+    </relatedmaterial>
+    <controlaccess>
+      <subject identifier="sh91003261" source="lcsh">
+        <part>Clergy -- United States.</part>
+      </subject>
+      <subject identifier="sh85037601" source="lcsh">
+        <part>Diaries.</part>
+      </subject>
+      <subject identifier="sh85075676" source="lcsh">
+        <part>Lectures and lecturing.</part>
+      </subject>
+      <subject identifier="sh85112579" source="lcsh">
+        <part>Religion and science.</part>
+      </subject>
+      <subject identifier="sh85120263" source="lcsh">
+        <part>Sermons, American.</part>
+      </subject>
+      <corpname identifier="n82228434" source="lcnaf">
+        <part>Beloit College -- Lectures and lecturing.</part>
+      </corpname>
+      <corpname identifier="n50073261" source="lcnaf">
+        <part>Princeton Theological Seminary.</part>
+      </corpname>
+      <corpname identifier="no2012149456" source="lcnaf">
+        <part>South Congregational Church (Chicago, Ill.)</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>Tabernacle Congregational Church (Chicago, Ill.)</part>
+      </corpname>
+      <corpname identifier="nr98043592" source="lcnaf">
+        <part>United States Christian Commission. Army Committee</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_f15f7867be4596fca23655984b16fb23" level="series">
+        <did>
+          <unittitle>Writings and notes</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>24</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1859">1859</fromdate>
+              <todate standarddate="1915">1915</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1859-1915</unitdate>
+        </did>
+        <scopecontent id="aspace_b0d6c732893ac15835be1266ebce6ab0">
+          <head>Scope and Contents</head>
+          <p>This series contains a variety of writings by Edward Franklin Williams and a few
+            others. The materials are arranged chronologically. Also included is an extensive set of
+            notes on a range of topics from the history of Holland to science.</p>
+        </scopecontent>
+        <c02 id="aspace_464e917fe93c863c0d04eef4fbd21133" level="file">
+          <did>
+            <unittitle>Diary</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1859">1859</fromdate>
+                <todate standarddate="1860">1860</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1859-1860</unitdate>
+            <container id="aspace_c75aacc7d19ce307a1c2a578cbdd22b9" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_f90987b6652afebc15e7c39513be2b42" localtype="folder"
+              parent="aspace_c75aacc7d19ce307a1c2a578cbdd22b9">124</container>
+          </did>
+          <scopecontent id="aspace_70c55985190cf165c890abd038a823c5">
+            <head>Scope and Contents</head>
+            <p>This series contains diary materials written by Edward Franklin Williams. The
+              majority of the diary seems to have been written while Williams was attending
+              Princeton Theological Seminary and living in the area. The materials are arranged
+              according to original order as a number of the loose pages are undated.</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_bb0f93237ec9ecfc22686ab66416a188" level="file">
+          <did>
+            <unittitle>Diary</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1860">1860</fromdate>
+                <todate standarddate="1865">1865</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1860-1865</unitdate>
+            <container id="aspace_5e48c5a159c796eef9541e6bc89bfb82" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_6e61a20ca99b73a21a6ce867e8c7cec4" localtype="folder"
+              parent="aspace_5e48c5a159c796eef9541e6bc89bfb82">125</container>
+          </did>
+        </c02>
+        <c02 id="aspace_b79f74f7ae6eb0b60960cc270db221d9" level="file">
+          <did>
+            <unittitle>Yale and James T. Graves</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1864">1864</fromdate>
+                <todate standarddate="1866">1866</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1864-1866</unitdate>
+            <container id="aspace_8baf0db72c1fdfb06553b4f9efe9c042" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_19c5bbaf3ffcaf6e9d73b09c1a37c461" localtype="folder"
+              parent="aspace_8baf0db72c1fdfb06553b4f9efe9c042">7</container>
+          </did>
+          <scopecontent id="aspace_0feafc8244bdd9687c996f1203571f98">
+            <head>Scope and Contents</head>
+            <p>This file contains a scrapbook of Yale memorabilia. Though Williams attended Yale,
+              the dates of the materials are ten years after Williams graduated. There are also a
+              number of materials addressed to James T. Graves, who was also a minister in the
+              Chicago area. This collection kept this file because it most likely was held on to by
+              Williams on purpose.</p>
+          </scopecontent>
+        </c02>
+        <c02 id="aspace_cf923a65913a3d18945dd36ec57c2537" level="file">
+          <did>
+            <unittitle>Congregational House</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1870">1870</datesingle>
+            </unitdatestructured>
+            <container id="aspace_85616c6839c21a3ef91116adf378a8f6" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_fe69d465f2356294d30dd5ee8fbde98e" localtype="folder"
+              parent="aspace_85616c6839c21a3ef91116adf378a8f6">126</container>
+          </did>
+        </c02>
+        <c02 id="aspace_0838a6b782a2fd6ab9d72631225bb46e" level="file">
+          <did>
+            <unittitle>Notes</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1901">1901</datesingle>
+            </unitdatestructured>
+            <container id="aspace_81f34efd6e94fd2df6b1895a72cd637d" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_d1ca445022e19eb5c54c3b53f6f7b567" localtype="folder"
+              parent="aspace_81f34efd6e94fd2df6b1895a72cd637d">127</container>
+          </did>
+        </c02>
+        <c02 id="aspace_a45ed053ad333c31ae23f172f5fae1e8" level="file">
+          <did>
+            <unittitle>Notes on Herbert Spencer</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1903-04">April 1903</datesingle>
+            </unitdatestructured>
+            <container id="aspace_37c07e72e47b6365778b800f82be9130" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_4522d5594ea089dfa49da91d3d2124a2" localtype="folder"
+              parent="aspace_37c07e72e47b6365778b800f82be9130">128</container>
+          </did>
+        </c02>
+        <c02 id="aspace_e7d67db42d0c42a43131ee25d1a447e4" level="file">
+          <did>
+            <unittitle>Protestant Weekly Letter by Professor Doctor Adolf Deissmann</unittitle>
+            <unitdate unitdatetype="inclusive">August 21, 1915</unitdate>
+            <container id="aspace_05b6f5f32c6e8474ebaad2b015b34353" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_2afbe1e57987fb5f45581104223df29b" localtype="folder"
+              parent="aspace_05b6f5f32c6e8474ebaad2b015b34353">8</container>
+          </did>
+        </c02>
+        <c02 id="aspace_3970ea0a65b683c361f990bd66599f09" level="file">
+          <did>
+            <unittitle>Notes on Religion and Science</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_cc5d43ab7cd3b1dfb8a2d7383a824478" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_024dddafd7b4fbd8844bc1bfcd369c44" localtype="folder"
+              parent="aspace_cc5d43ab7cd3b1dfb8a2d7383a824478">129</container>
+          </did>
+        </c02>
+        <c02 id="aspace_f33bd99d4167e1e5a5a085cfbc213a99" level="file">
+          <did>
+            <unittitle>Jesuits and Settlements in America</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_7adf3c9e027c80e039f37ae2a5069e6b" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_3da274867d0cd8457159620b2fc942ce" localtype="folder"
+              parent="aspace_7adf3c9e027c80e039f37ae2a5069e6b">130</container>
+          </did>
+        </c02>
+        <c02 id="aspace_84077b61d3a23992891a74300e44c612" level="file">
+          <did>
+            <unittitle>Peace of Utrecht notes</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_e1ea8448ceece7feac3822dd9afec113" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_8a2de285acaf98f78fc4f87d489ddc75" localtype="folder"
+              parent="aspace_e1ea8448ceece7feac3822dd9afec113">131</container>
+          </did>
+        </c02>
+        <c02 id="aspace_cb2905531075de9cd221f7fb35ac9151" level="file">
+          <did>
+            <unittitle>La Salle notes</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_414f736de265f46580c3564769b7aa8f" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_bdccdf8b3220f8a1eab43bb5cf02c269" localtype="folder"
+              parent="aspace_414f736de265f46580c3564769b7aa8f">132</container>
+          </did>
+        </c02>
+        <c02 id="aspace_dcbce9806026093f6bd9fe5a71e8f65e" level="file">
+          <did>
+            <unittitle>Notes on Atheism</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_b8bf95ff68bde9bf4597a748899cc50e" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_b23fc4f616ca592111432b8efdbc1ae2" localtype="folder"
+              parent="aspace_b8bf95ff68bde9bf4597a748899cc50e">133</container>
+          </did>
+        </c02>
+        <c02 id="aspace_c41ec2f9d858e50a394e7b23b5af8559" level="file">
+          <did>
+            <unittitle>Supplementary Notes from Palfrey and Bancroft Society</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_97749bfd285823660c0a172206070354" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_cf3c3527e90ed26ad6bb468f8cab0ca2" localtype="folder"
+              parent="aspace_97749bfd285823660c0a172206070354">134</container>
+          </did>
+        </c02>
+        <c02 audience="internal" id="aspace_f73424c31b9ea0da58a3f3e31ee3eab8" level="file">
+          <did>
+            <unittitle>Notes on Judgement</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_dd852e8738eece37d53d4add570f1e9a" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_f88fa4c16e939e8d6eded1aa39df668f" localtype="folder"
+              parent="aspace_dd852e8738eece37d53d4add570f1e9a">135</container>
+          </did>
+        </c02>
+        <c02 audience="internal" id="aspace_8e9166080f4f3f40b8d39687069818d9" level="file">
+          <did>
+            <unittitle>New Platonism</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_d98b1ac57260efc14249f7f61f9c448d" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_92838af7dd0ff0dfc06de19b24952630" localtype="folder"
+              parent="aspace_d98b1ac57260efc14249f7f61f9c448d">136</container>
+          </did>
+        </c02>
+        <c02 audience="internal" id="aspace_605e0f4ef901756edb3ff6ed576eff0b" level="file">
+          <did>
+            <unittitle>Writings</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_53ce9a5861c5b898ffbf4cf8f4fdd805" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_0f797dd1fd71da382e08d35da60ffe4b" localtype="folder"
+              parent="aspace_53ce9a5861c5b898ffbf4cf8f4fdd805">137</container>
+          </did>
+        </c02>
+        <c02 audience="internal" id="aspace_0357d8a724146d3a7138f63be9a13752" level="file">
+          <did>
+            <unittitle>Notes on Holland</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_ff47eb46a6e5809ffb82af2c9c1d0185" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_8285bc73993943e0ce309659a7d7724b" localtype="folder"
+              parent="aspace_ff47eb46a6e5809ffb82af2c9c1d0185">138</container>
+          </did>
+        </c02>
+        <c02 audience="internal" id="aspace_86ac1b7f9d4de45b0e18775dc54b3f75" level="file">
+          <did>
+            <unittitle>Notes on George Eliot</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_d60cdaba0573a6d04ad34dfafa413095" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_e2fd7a2f8635812de9096a2a9950f590" localtype="folder"
+              parent="aspace_d60cdaba0573a6d04ad34dfafa413095">139</container>
+          </did>
+        </c02>
+        <c02 audience="internal" id="aspace_cf1cb72ff274d672029e316f8dd7b0fb" level="file">
+          <did>
+            <unittitle>Hebrew Syntax notebook</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_3233274071628a450ab51457acf52d03" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_8f6c78fc7a23e37e2e87d1311c5fdca6" localtype="folder"
+              parent="aspace_3233274071628a450ab51457acf52d03">140</container>
+          </did>
+        </c02>
+        <c02 audience="internal" id="aspace_7917dee90e1eb5c2495e8ed709a38bfb" level="file">
+          <did>
+            <unittitle>Untitled notes</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_2f6794995912de1b68e260e406e1649a" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_f116be943a9546ae4a617c8b06b6b5c8" localtype="folder"
+              parent="aspace_2f6794995912de1b68e260e406e1649a">141</container>
+          </did>
+        </c02>
+        <c02 audience="internal" id="aspace_f6b117e56b67fae6d5a8bcf02e6fa81c" level="file">
+          <did>
+            <unittitle>Notes on the Social Question or Society</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_1cf41237c3d1a43ff8cefcafbb9333a3" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_286628cf8ad8de8d66d6cee613e32dd7" localtype="folder"
+              parent="aspace_1cf41237c3d1a43ff8cefcafbb9333a3">142</container>
+          </did>
+        </c02>
+        <c02 audience="internal" id="aspace_c4ec4ec02e83f49d831c34b9c853fd57" level="file">
+          <did>
+            <unittitle>Notes on Rationale of Philosophical Thought</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_61fa2f0e1c405b8ec4fa479a4ee0246f" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_c4ff139bced5c50f16f1ef5ec9e1b637" localtype="folder"
+              parent="aspace_61fa2f0e1c405b8ec4fa479a4ee0246f">143</container>
+          </did>
+        </c02>
+        <c02 id="aspace_a910eed2d61c837ce85410dacf2aed57" level="file">
+          <did>
+            <unittitle>Set of Religious Questions</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_dceeecf038b993366133599a07f8760a" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_32dde3ba40ed92b2df50607f84385a62" localtype="folder"
+              parent="aspace_dceeecf038b993366133599a07f8760a">9</container>
+          </did>
+        </c02>
+        <c02 id="aspace_f31a43feb3dbbb4f93921259dbb0c9e7" level="file">
+          <did>
+            <unittitle>Notes on Poetry, Philosophy and Ethics</unittitle>
+            <unitdate unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_66e4f9cb83e129cf6d9f620219699924" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_0bbe5ac9d0f9574bca973e2b194cb8e9" localtype="folder"
+              parent="aspace_66e4f9cb83e129cf6d9f620219699924">10</container>
+          </did>
+        </c02>
+      </c01>
+      <c01 id="aspace_b738fe3564bf63868cf744c1fc51da3a" level="series">
+        <did>
+          <unittitle>Sermons</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>128</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1862">1862</fromdate>
+              <todate standarddate="1918">1918</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1862-1918</unitdate>
+        </did>
+        <scopecontent id="aspace_11b5b5a724351ce60dcd430e39f536a0">
+          <head>Scope and Contents</head>
+          <p>This series contains sermons written and used by Edward Franklin Williams across his
+            career. Most sermons indicate all the places and dates they were preached. The series is
+            arranged chronologically.</p>
+        </scopecontent>
+        <c02 id="aspace_ecefc0164466b15b536cd449c1621af7" level="file">
+          <did>
+            <unittitle>Sermons first Preached at Rockdale Congregational Church</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1862">1862</datesingle>
+            </unitdatestructured>
+            <container id="aspace_1dd0d4963ac268d25f9b8863f7365707" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_3841b556006134e6ccd36c88cf931c73" localtype="folder"
+              parent="aspace_1dd0d4963ac268d25f9b8863f7365707">1</container>
+          </did>
+        </c02>
+        <c02 id="aspace_715aace930e190eaa25d51f59d371923" level="file">
+          <did>
+            <unittitle>In the Vineyard</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1865-07-23">July 23, 1865</datesingle>
+            </unitdatestructured>
+            <container id="aspace_6dcaf97022590d5d192e8e06009fc4d7" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_eb69658125bed25891bdc410c17edb64" localtype="folder"
+              parent="aspace_6dcaf97022590d5d192e8e06009fc4d7">2</container>
+          </did>
+        </c02>
+        <c02 id="aspace_3133b1fe808b6712920100c4646a8e8b" level="file">
+          <did>
+            <unittitle> Sermons first Preached at St. Charles Church</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1868">1868</datesingle>
+            </unitdatestructured>
+            <container id="aspace_ebe4abdb5daf49d529ca20d0ea39f949" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_fd6108d0fd757f63fffb94987d45446b" localtype="folder"
+              parent="aspace_ebe4abdb5daf49d529ca20d0ea39f949">3</container>
+          </did>
+        </c02>
+        <c02 id="aspace_e665571e1c9fda47c0b334abc8740d20" level="file">
+          <did>
+            <unittitle>Sermons first Preached at Tabernacle Congregational Church</unittitle>
+            <unitdate unitdatetype="inclusive">1869</unitdate>
+            <container id="aspace_95c22f65a87a1db4235d5e06da464f61" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_d4aded45a2be510ff58fe4902c6da077" localtype="folder"
+              parent="aspace_95c22f65a87a1db4235d5e06da464f61">1</container>
+          </did>
+        </c02>
+        <c02 id="aspace_de8ccafa5ff4d3613242c16f67ca4a01" level="file">
+          <did>
+            <unittitle>Untitled sermon</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1869-02-14">February 14, 1869</datesingle>
+            </unitdatestructured>
+            <container id="aspace_307d4438495165e9da3194ffb67fea62" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_00367584708f4d71d960827904831b33" localtype="folder"
+              parent="aspace_307d4438495165e9da3194ffb67fea62">4</container>
+          </did>
+        </c02>
+        <c02 id="aspace_cc8d0e76e9bbe83fd50c7e8e93ddbafe" level="file">
+          <did>
+            <unittitle>Untitled sermon</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1869-03-28">March 28, 1869</datesingle>
+            </unitdatestructured>
+            <container id="aspace_d8abef0f8296ec68a9ccfdc45c876e93" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_884f31ed8f273d85f4d6e7b3a96d256a" localtype="folder"
+              parent="aspace_d8abef0f8296ec68a9ccfdc45c876e93">5</container>
+          </did>
+        </c02>
+        <c02 id="aspace_35109344f066ef6a96a7bfbc976b37a0" level="file">
+          <did>
+            <unittitle>Untitled sermon</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1869-04-11">April 11, 1869</datesingle>
+            </unitdatestructured>
+            <container id="aspace_872837a8b158486a425b2de9b53e7452" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_846a43b0cfedf71202abc491dab12c0f" localtype="folder"
+              parent="aspace_872837a8b158486a425b2de9b53e7452">6</container>
+          </did>
+        </c02>
+        <c02 id="aspace_2fa4cf926f798ac7202075bec1063e5e" level="file">
+          <did>
+            <unittitle>Untitled sermon</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1869-06-06">June 6, 1869</datesingle>
+            </unitdatestructured>
+            <container id="aspace_e062894996521007adfe57dd2f3b2a70" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_545ed934446d419316d7d387d988d998" localtype="folder"
+              parent="aspace_e062894996521007adfe57dd2f3b2a70">7</container>
+          </did>
+        </c02>
+        <c02 id="aspace_b5fc82b877654d923b78ac3edef18f1c" level="file">
+          <did>
+            <unittitle>The Mustard Seed</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">May 22, 1870</unitdate>
+            <container id="aspace_a39e8ed60bdf6a2f44c4f5f0f82da9db" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_fc705150fa7bda0b2f3c7bd20b86f54c" localtype="folder"
+              parent="aspace_a39e8ed60bdf6a2f44c4f5f0f82da9db">8</container>
+          </did>
+        </c02>
+        <c02 id="aspace_2db8bf16069ab8aafdbe16920535b0d6" level="file">
+          <did>
+            <unittitle>Sermons first Preached at Tabernacle Congregational Church</unittitle>
+            <unitdate unitdatetype="inclusive">1870</unitdate>
+            <container id="aspace_76edde4a73592b485306f7fec5e50759" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_843a6823c98c150b43f366b8d2a98ff5" localtype="folder"
+              parent="aspace_76edde4a73592b485306f7fec5e50759">2</container>
+          </did>
+        </c02>
+        <c02 id="aspace_61b3591b4a5d0bb19fb6db27267be857" level="file">
+          <did>
+            <unittitle>Sermons first Preached at Tabernacle Congregational Church</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1870">1870</fromdate>
+                <todate standarddate="1871">1871</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1870-1871</unitdate>
+            <container id="aspace_2c959ec650418ca9d3e354c1ea805744" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_5fc798cd59d3ccf9eb13cd36010e4df9" localtype="folder"
+              parent="aspace_2c959ec650418ca9d3e354c1ea805744">3</container>
+          </did>
+        </c02>
+        <c02 id="aspace_9da04075ea3ccec0d234b6d15ecba4c3" level="file">
+          <did>
+            <unittitle>Common place book</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1871">1871</datesingle>
+            </unitdatestructured>
+            <container id="aspace_8e75aa7b562ebafbee735554eb9978f7" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_ab27654de34b9b49da99f2d581f1bf23" localtype="folder"
+              parent="aspace_8e75aa7b562ebafbee735554eb9978f7">9</container>
+          </did>
+        </c02>
+        <c02 id="aspace_e1483dce852587154f8c2b1b7caa9470" level="file">
+          <did>
+            <unittitle>Untitled sermons</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1871</unitdate>
+            <container id="aspace_6e1f2e08fc29c7bf44db3a96e5641586" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_ca7e19979f433e40108dbe5ffefc4f6a" localtype="folder"
+              parent="aspace_6e1f2e08fc29c7bf44db3a96e5641586">10</container>
+          </did>
+        </c02>
+        <c02 id="aspace_65259fe9c7eeca68287c27322ba34bd9" level="file">
+          <did>
+            <unittitle>Joseph, on a Life of Trust</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1871-04-16">April 16, 1871</datesingle>
+            </unitdatestructured>
+            <container id="aspace_9fb3e32706b7d95033c01d0967679462" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_a1cc45c3d1ebbb73fdcb8c77c3547759" localtype="folder"
+              parent="aspace_9fb3e32706b7d95033c01d0967679462">11</container>
+          </did>
+        </c02>
+        <c02 id="aspace_81f3d0159be6a35050bb59f861471f95" level="file">
+          <did>
+            <unittitle>Untitled sermons</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1871-04-23">April 23, 1871</datesingle>
+            </unitdatestructured>
+            <container id="aspace_45e4a408500ddb184012d1a783247f19" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_38ce29a519482990ad06f876ddabeb4a" localtype="folder"
+              parent="aspace_45e4a408500ddb184012d1a783247f19">12</container>
+          </did>
+        </c02>
+        <c02 id="aspace_0ad53c5126a73f1bae48bc4d3bc9a820" level="file">
+          <did>
+            <unittitle>The Insanity of Sin</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1871-05-07">May 7, 1871</datesingle>
+            </unitdatestructured>
+            <container id="aspace_055216b982af1c08edacc312fabef552" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_14280341099add55d17864fdf4e4d579" localtype="folder"
+              parent="aspace_055216b982af1c08edacc312fabef552">13</container>
+          </did>
+        </c02>
+        <c02 id="aspace_b07fba27806fb82ed5d3c5bd54c72c54" level="file">
+          <did>
+            <unittitle>The Pharisee and the Publieum</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1871-07-16">July 16, 1871</datesingle>
+            </unitdatestructured>
+            <container id="aspace_494e07f8f18b0b2e6fdf6f521fdd30c7" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_3805c8ee8bd07474186ed65c65bee33d" localtype="folder"
+              parent="aspace_494e07f8f18b0b2e6fdf6f521fdd30c7">14</container>
+          </did>
+        </c02>
+        <c02 id="aspace_39c55edbc2d1ed16222e45f24a267c7f" level="file">
+          <did>
+            <unittitle>Untitled sermons</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1871-09-23">August 23, 1871</datesingle>
+            </unitdatestructured>
+            <container id="aspace_aae2659cae35cba8a420cb9293c4fecc" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_a0267d96aaf41e7949fad2b317a8ab59" localtype="folder"
+              parent="aspace_aae2659cae35cba8a420cb9293c4fecc">15</container>
+          </did>
+        </c02>
+        <c02 id="aspace_03236ebc40de0b9abf0315d29d4273e8" level="file">
+          <did>
+            <unittitle>Sermons first Preached at Tabernacle Congregational Church</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1871">1871</fromdate>
+                <todate standarddate="1873">1873</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1871-1873</unitdate>
+            <container id="aspace_e4f983b9eb6972bdfe0563f165a84e90" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_19013cbac57887cb65416327ea8db988" localtype="folder"
+              parent="aspace_e4f983b9eb6972bdfe0563f165a84e90">16</container>
+          </did>
+        </c02>
+        <c02 id="aspace_047c5c23b98b25dd4aa2b97a2277825b" level="file">
+          <did>
+            <unittitle>Kingdom of God: Permanent and Universal</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1872-03-17">March 17, 1872</datesingle>
+            </unitdatestructured>
+            <container id="aspace_9cc53f1f79c55047de9a804f4f713791" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_135b0e7323523ed31bcff163adb1ecce" localtype="folder"
+              parent="aspace_9cc53f1f79c55047de9a804f4f713791">17</container>
+          </did>
+        </c02>
+        <c02 id="aspace_1736ab15065ec9f8f10fe8c8ab3d2eb5" level="file">
+          <did>
+            <unittitle>Spirits</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1872-06-09">June 9, 1872</datesingle>
+            </unitdatestructured>
+            <container id="aspace_abc34f14719f1815e58df91910d37594" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_748bcc1ac41fa4cd7762d9e1464b330e" localtype="folder"
+              parent="aspace_abc34f14719f1815e58df91910d37594">18</container>
+          </did>
+        </c02>
+        <c02 id="aspace_981922f59dcef8f64e3d48de24753dee" level="file">
+          <did>
+            <unittitle>Significant of the Resurrection of Jesus</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1872-06-09">June 9, 1872</datesingle>
+            </unitdatestructured>
+            <container id="aspace_6d91ede38a853d333f0098c2e19087a6" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_8a81972b02668ef7e9a5648862cd511f" localtype="folder"
+              parent="aspace_6d91ede38a853d333f0098c2e19087a6">19</container>
+          </did>
+        </c02>
+        <c02 id="aspace_85b5e65e1967a9de77b2200858f7af6f" level="file">
+          <did>
+            <unittitle>Untitled sermon</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1873-03-23">March 23, 1873</datesingle>
+            </unitdatestructured>
+            <container id="aspace_99d2eb92bbd4c67f16639d48f0de0b7a" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_6b1d4491ea9bf6da902225e72f79b0d9" localtype="folder"
+              parent="aspace_99d2eb92bbd4c67f16639d48f0de0b7a">20</container>
+          </did>
+        </c02>
+        <c02 id="aspace_c26210f0c0b228b8c111df4db0c218b4" level="file">
+          <did>
+            <unittitle>Sermons first Preached at Tabernacle Congregational Church</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1873">1873</datesingle>
+            </unitdatestructured>
+            <container id="aspace_98c315b058f79c3954d7d40a68ff9052" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_0d4f561ccd9409e8f1fc04c6e5fb7e68" localtype="folder"
+              parent="aspace_98c315b058f79c3954d7d40a68ff9052">21</container>
+          </did>
+        </c02>
+        <c02 id="aspace_37cc10b37e953ba19faf6f90463d805c" level="file">
+          <did>
+            <unittitle>Sermons delivered at Oakland Congregational Church</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1875-10">October 1875</datesingle>
+            </unitdatestructured>
+            <container id="aspace_d73653f885c97fa2356403c295a5bc41" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_0de73cba54b66171c3f37abea88ebf49" localtype="folder"
+              parent="aspace_d73653f885c97fa2356403c295a5bc41">22</container>
+          </did>
+        </c02>
+        <c02 id="aspace_776115772cebb1a84a15c9eb9953bfed" level="file">
+          <did>
+            <unittitle>Untitled sermon</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1875-12-05">December 5, 1875</datesingle>
+            </unitdatestructured>
+            <container id="aspace_7b0b6d3d74f113c0ea4f9248fb3096ae" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_625d4c22ce48ebb09ba7bc4f4be9c470" localtype="folder"
+              parent="aspace_7b0b6d3d74f113c0ea4f9248fb3096ae">23</container>
+          </did>
+        </c02>
+        <c02 id="aspace_3df01e09794a5756397ccda56139ff9f" level="file">
+          <did>
+            <unittitle>Thankfulness, an Element in the Christian Life</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1878-11-10">November 10, 1878</datesingle>
+            </unitdatestructured>
+            <container id="aspace_88f65d0a98cd243bffe2cb309c713e14" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_90729357286e891473fff2d00253ba07" localtype="folder"
+              parent="aspace_88f65d0a98cd243bffe2cb309c713e14">24</container>
+          </did>
+        </c02>
+        <c02 id="aspace_c0f2766919d0b71e6207195533bd5a54" level="file">
+          <did>
+            <unittitle>Greed</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1879-02-09">February 9, 1879</datesingle>
+            </unitdatestructured>
+            <container id="aspace_c137edabe5f0feb41175725987e24c94" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_82772488c7d37a46bf49e3ece2eac953" localtype="folder"
+              parent="aspace_c137edabe5f0feb41175725987e24c94">25</container>
+          </did>
+        </c02>
+        <c02 id="aspace_2c59b11c81fa507c12d16ae03e40e1c0" level="file">
+          <did>
+            <unittitle>The Church Warfare</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1879-02-16">February 16, 1879</datesingle>
+            </unitdatestructured>
+            <container id="aspace_2da39770654035dc22308ebd8f4d9085" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_58b840ed50ef4235a40a9e3e5a133bae" localtype="folder"
+              parent="aspace_2da39770654035dc22308ebd8f4d9085">26</container>
+          </did>
+        </c02>
+        <c02 id="aspace_f56520f66fdc39621c908340bf0f7e47" level="file">
+          <did>
+            <unittitle>Untitled sermons</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1879">1879</fromdate>
+                <todate standarddate="1883">1883</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1879-1883</unitdate>
+            <container id="aspace_eb3824e61011fd2f59ad7df30a8f560a" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_743e878f9025061f3daf92c7a2310917" localtype="folder"
+              parent="aspace_eb3824e61011fd2f59ad7df30a8f560a">4</container>
+          </did>
+        </c02>
+        <c02 id="aspace_f4d06e2bf161cf753ebb3189bc189829" level="file">
+          <did>
+            <unittitle>Thanksgiving</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1880-11-25">November 25, 1880</datesingle>
+            </unitdatestructured>
+            <container id="aspace_a72e01ee4e14c51b465080d789d10c92" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_8fb3b375bdfa76b84ce74cab306d90d6" localtype="folder"
+              parent="aspace_a72e01ee4e14c51b465080d789d10c92">27</container>
+          </did>
+        </c02>
+        <c02 id="aspace_0dca3c0590fed894f49fcfbe8e42af63" level="file">
+          <did>
+            <unittitle>Manifestation of God</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1881-04-06">April 6, 1881</datesingle>
+            </unitdatestructured>
+            <container id="aspace_f5487ac1225cd4319563d50e28a01510" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_147c6e073dcdb7de2748ee03cf7d67aa" localtype="folder"
+              parent="aspace_f5487ac1225cd4319563d50e28a01510">28</container>
+          </did>
+        </c02>
+        <c02 id="aspace_b62b453bfc3c5a89680bd2355c7130d5" level="file">
+          <did>
+            <unittitle>A New Outlook</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1889-01-06">January 6, 1889</datesingle>
+            </unitdatestructured>
+            <container id="aspace_5827603aeaa100a2419a550d41bf3622" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_d85fa0ca4478c7000d2a8e8a3a62e8b2" localtype="folder"
+              parent="aspace_5827603aeaa100a2419a550d41bf3622">29</container>
+          </did>
+        </c02>
+        <c02 id="aspace_b81d61a25dbc1bd6a78dfa9f193abacc" level="file">
+          <did>
+            <unittitle>The Atonement as Set Forth in the Gospels</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1889-03-10">March 10, 1889</datesingle>
+            </unitdatestructured>
+            <container id="aspace_3e83023a062112d7cfabdfcb2692265a" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_e8572e46ccf760ea5673346e67fd9808" localtype="folder"
+              parent="aspace_3e83023a062112d7cfabdfcb2692265a">30</container>
+          </did>
+        </c02>
+        <c02 id="aspace_ba6892b66926623be097bfd7087f55e8" level="file">
+          <did>
+            <unittitle>Thinking</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1889-06-19">June 19, 1889</datesingle>
+            </unitdatestructured>
+            <container id="aspace_a8bb64b17ddb87ffb4bbdcc6ca31463f" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_734b9c0deb6c47ae857df212db04e358" localtype="folder"
+              parent="aspace_a8bb64b17ddb87ffb4bbdcc6ca31463f">31</container>
+          </did>
+        </c02>
+        <c02 id="aspace_3dbe8a2713e3ec0e4b66162c54e49310" level="file">
+          <did>
+            <unittitle>Power of Example</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1889-08-21">August 21, 1889</datesingle>
+            </unitdatestructured>
+            <container id="aspace_6015333eba69a28204b1e13649aa14c9" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_321e94f5b4a54faf118a0b9f86c46e11" localtype="folder"
+              parent="aspace_6015333eba69a28204b1e13649aa14c9">32</container>
+          </did>
+        </c02>
+        <c02 id="aspace_6e29672531ae7029f09ffd5985ec0180" level="file">
+          <did>
+            <unittitle>Perfection in Manhood</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1889-08-25">August 25, 1889</datesingle>
+            </unitdatestructured>
+            <container id="aspace_92163499f02111813a562bf36bbe72d6" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_8a7d7c796d00720d3aaebf13de4db7a8" localtype="folder"
+              parent="aspace_92163499f02111813a562bf36bbe72d6">33</container>
+          </did>
+        </c02>
+        <c02 id="aspace_63e8d9f496525c041f643955337b18f9" level="file">
+          <did>
+            <unittitle>Mormonism</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1889-11-21">November 21, 1889</datesingle>
+            </unitdatestructured>
+            <container id="aspace_f1920dc9b311e02656f41e1c6d0765a3" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_6917dab7cae9e1a17339f9d97744396f" localtype="folder"
+              parent="aspace_f1920dc9b311e02656f41e1c6d0765a3">34</container>
+          </did>
+        </c02>
+        <c02 id="aspace_54614aa57d266eee5a5d9689635e8a47" level="file">
+          <did>
+            <unittitle>Debt the West Owes the East</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1889-11-24">November 24, 1889</datesingle>
+            </unitdatestructured>
+            <container id="aspace_174513b8aff26e2c7a8f8f3f3e41422f" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_6cd1cc0e7b7ace5e35a3639fd7c57b2f" localtype="folder"
+              parent="aspace_174513b8aff26e2c7a8f8f3f3e41422f">35</container>
+          </did>
+        </c02>
+        <c02 id="aspace_e466ad576f365482d7f0ecdb9229a9ec" level="file">
+          <did>
+            <unittitle>House of the Lord</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1891-03-15">March 15, 1891</datesingle>
+            </unitdatestructured>
+            <container id="aspace_c3c5e125d8ae57f3956023f617b9eb7f" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_c8367715555d671baa317e9744db9f02" localtype="folder"
+              parent="aspace_c3c5e125d8ae57f3956023f617b9eb7f">36</container>
+          </did>
+        </c02>
+        <c02 id="aspace_937b5d7ea8d938549869b1bb0f9bb0c6" level="file">
+          <did>
+            <unittitle>Heroism: The Christian Ministry</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1891-04-19">April 19, 1891</datesingle>
+            </unitdatestructured>
+            <container id="aspace_ef2ecb4cdf89b3fef5ef10d91fc7cea0" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_d6ad6d1aacf7486d9686c233de251a21" localtype="folder"
+              parent="aspace_ef2ecb4cdf89b3fef5ef10d91fc7cea0">37</container>
+          </did>
+        </c02>
+        <c02 id="aspace_d240deda8b7ec8115b7bfcc1a17864e6" level="file">
+          <did>
+            <unittitle>God's Wishes for Man or the Proposals of the Gospel</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1892-09-18">September 18, 1892</datesingle>
+            </unitdatestructured>
+            <container id="aspace_5af6f99154737a6872fbe3cd48863bf2" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_b15f8d54993dee7d75450a4c55bee336" localtype="folder"
+              parent="aspace_5af6f99154737a6872fbe3cd48863bf2">38</container>
+          </did>
+        </c02>
+        <c02 id="aspace_d8473b5b39f4537b7045a1f4bbce5222" level="file">
+          <did>
+            <unittitle>Faith Triumphant Over Failure</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1892-10-23">October 23, 1892</datesingle>
+            </unitdatestructured>
+            <container id="aspace_d52ee358601672f09381cf6e4b483290" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_b5e7faf65feebd0614bc4e089ee9ec79" localtype="folder"
+              parent="aspace_d52ee358601672f09381cf6e4b483290">39</container>
+          </did>
+        </c02>
+        <c02 id="aspace_56c2feffa3887c8761618dffaee9b9a2" level="file">
+          <did>
+            <unittitle>Retrospection</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1894">1894</datesingle>
+            </unitdatestructured>
+            <container id="aspace_84c72c3e91dca0e862f05fa1df9d885b" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_1cb86a0a7c3a4d4fe1c707532b391573" localtype="folder"
+              parent="aspace_84c72c3e91dca0e862f05fa1df9d885b">40</container>
+          </did>
+        </c02>
+        <c02 id="aspace_cd497ddb6fdc78acf3728a4d28561afd" level="file">
+          <did>
+            <unittitle>Christian Patriotism</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1894">1894</datesingle>
+            </unitdatestructured>
+            <container id="aspace_2abd8155d737416751c3de6a38d1c4d5" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_576ee6e69b31917fea253288fd78f5b7" localtype="folder"
+              parent="aspace_2abd8155d737416751c3de6a38d1c4d5">41</container>
+          </did>
+        </c02>
+        <c02 id="aspace_f82db0d8134ecdff7e8ef728a9714fa8" level="file">
+          <did>
+            <unittitle>Gospel of the Kingdom</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1894-02-07">February 7, 1894</datesingle>
+            </unitdatestructured>
+            <container id="aspace_3098d9f50fb5cd760e075634fe0a4c03" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_dac810f2a8fe2157a304fa31fe07f342" localtype="folder"
+              parent="aspace_3098d9f50fb5cd760e075634fe0a4c03">42</container>
+          </did>
+        </c02>
+        <c02 id="aspace_d10ccc07bc4dac638f093bdf57407218" level="file">
+          <did>
+            <unittitle>Gospel of Jesus Christ</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1894-06-24">June 24, 1894</datesingle>
+            </unitdatestructured>
+            <container id="aspace_b93265b766ef17a2814fbad6ce3e4636" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_dbf93a7f10bc09ba95b24f2e6222dc16" localtype="folder"
+              parent="aspace_b93265b766ef17a2814fbad6ce3e4636">43</container>
+          </did>
+        </c02>
+        <c02 id="aspace_7d604a02229f23fb730fd69fad340a9f" level="file">
+          <did>
+            <unittitle>The Opportunity of Youth</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1894-07-22">July 22, 1894</datesingle>
+            </unitdatestructured>
+            <container id="aspace_f686de8a48710c257d0251f8e2236982" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_f74892a3e4b95ccaa17e7c650d6088b1" localtype="folder"
+              parent="aspace_f686de8a48710c257d0251f8e2236982">44</container>
+          </did>
+        </c02>
+        <c02 id="aspace_1e3995b8c07570533231e578dbbc871d" level="file">
+          <did>
+            <unittitle>The Serenity of Faith</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1894-07-29">July 29, 1894</datesingle>
+            </unitdatestructured>
+            <container id="aspace_df2c953b7242b890bfb25f40b6c76412" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_d556216db848a10df85dd37122a7a139" localtype="folder"
+              parent="aspace_df2c953b7242b890bfb25f40b6c76412">45</container>
+          </did>
+        </c02>
+        <c02 id="aspace_b8ee7ca66ed2f45f76670971a5499a00" level="file">
+          <did>
+            <unittitle>Master and Disciple</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1894-08-05">August 5, 1894</datesingle>
+            </unitdatestructured>
+            <container id="aspace_63d18fa7e7afe24a7a7bb45d21363416" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_bb81baf9a5b3b08ac673bc8b7694fce1" localtype="folder"
+              parent="aspace_63d18fa7e7afe24a7a7bb45d21363416">46</container>
+          </did>
+        </c02>
+        <c02 id="aspace_c4ef268873f3c59019851bfb4a4ed19f" level="file">
+          <did>
+            <unittitle>Christmas 1894</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1894-10-23">October 23, 1894</datesingle>
+            </unitdatestructured>
+            <container id="aspace_166a7533f127d58b67b3d73657f80375" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_7cddd66e1031157192de600b62e1f54e" localtype="folder"
+              parent="aspace_166a7533f127d58b67b3d73657f80375">47</container>
+          </did>
+        </c02>
+        <c02 id="aspace_010707811c218cd2fbfb45bce440e195" level="file">
+          <did>
+            <unittitle>The Kingdom of Christ</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1895-01-06">January 6, 1895</datesingle>
+            </unitdatestructured>
+            <container id="aspace_42717d2f67041428b5d74f8b3f2d5d50" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_e6eabc94d460bb116008fb17617216fb" localtype="folder"
+              parent="aspace_42717d2f67041428b5d74f8b3f2d5d50">48</container>
+          </did>
+        </c02>
+        <c02 id="aspace_ede3abfa3ace428026c3243245b9644a" level="file">
+          <did>
+            <unittitle>Motives to a Christian Life</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1895-01-15">January 15, 1895</datesingle>
+            </unitdatestructured>
+            <container id="aspace_b66af81a222864b6910bf12519c48a10" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_f855e4af1dfec4f13c04d99f0b09e912" localtype="folder"
+              parent="aspace_b66af81a222864b6910bf12519c48a10">49</container>
+          </did>
+        </c02>
+        <c02 id="aspace_80cb8633408717ebb41553c46d14aff7" level="file">
+          <did>
+            <unittitle>Realities</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1895-03-10">March 10, 1895</datesingle>
+            </unitdatestructured>
+            <container id="aspace_16ecff496d1c9408bcf0caf8adfe17d2" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_283f6227dc107778cdb566cd5c53df80" localtype="folder"
+              parent="aspace_16ecff496d1c9408bcf0caf8adfe17d2">50</container>
+          </did>
+        </c02>
+        <c02 id="aspace_b7ef293f411ca6507084e7da67123762" level="file">
+          <did>
+            <unittitle>Our Patriotic Dead</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1895-05-30">May 30, 1895</datesingle>
+            </unitdatestructured>
+            <container id="aspace_ffdbd8f3426651a6b041a87f9215c0b5" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_802c94a9d6b12a1e28145882c1c2d5e0" localtype="folder"
+              parent="aspace_ffdbd8f3426651a6b041a87f9215c0b5">51</container>
+          </did>
+        </c02>
+        <c02 id="aspace_0b026506301af896c31a56481ac405eb" level="file">
+          <did>
+            <unittitle>Our Future</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1895-07-28">July 28, 1895</datesingle>
+            </unitdatestructured>
+            <container id="aspace_be5b6ecd28b8b994d929d0ee11947817" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_2b016cc221ab036993ec9aef5158297e" localtype="folder"
+              parent="aspace_be5b6ecd28b8b994d929d0ee11947817">52</container>
+          </did>
+        </c02>
+        <c02 id="aspace_567be301d947f5596cd48e9e750909c6" level="file">
+          <did>
+            <unittitle>Moments of Power in Human Lives</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1895-07-28">July 28, 1895</datesingle>
+            </unitdatestructured>
+            <container id="aspace_e81e986491feec7a1d4dfaed8d89f92a" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_0a4281e160dfc8824fdf90da168bd9de" localtype="folder"
+              parent="aspace_e81e986491feec7a1d4dfaed8d89f92a">53</container>
+          </did>
+        </c02>
+        <c02 id="aspace_3ce9e30591e227fc1b1bc8ad1a5d65db" level="file">
+          <did>
+            <unittitle>Persistency</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1895-08-04">August 4, 1895</datesingle>
+            </unitdatestructured>
+            <container id="aspace_bba50357667de29a3bdeca0ca632ae4a" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_e8608fe97c31b363ee8244cae001073f" localtype="folder"
+              parent="aspace_bba50357667de29a3bdeca0ca632ae4a">54</container>
+          </did>
+        </c02>
+        <c02 id="aspace_e82e39ae59e0638e5e2d651295aaf08e" level="file">
+          <did>
+            <unittitle>The Purpose of the Gospel to Make Men and Women</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1895-08-18">August 18, 1895</datesingle>
+            </unitdatestructured>
+            <container id="aspace_820d0d4e28d8fe640b494a667f7d707b" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_d604876e4aa7f588a540e8347597b393" localtype="folder"
+              parent="aspace_820d0d4e28d8fe640b494a667f7d707b">55</container>
+          </did>
+        </c02>
+        <c02 id="aspace_960194ce47ace08cc64ed0d27193f2a9" level="file">
+          <did>
+            <unittitle>The Unchangeable Christ</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1895-08-30">August 30, 1895</datesingle>
+            </unitdatestructured>
+            <container id="aspace_a924c3761435608ff8ad36a8914168af" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_21ee7983ebc9a59753c9734343d22e2b" localtype="folder"
+              parent="aspace_a924c3761435608ff8ad36a8914168af">56</container>
+          </did>
+        </c02>
+        <c02 id="aspace_aad11c5e1fdb970cdf88099e5536540b" level="file">
+          <did>
+            <unittitle>The Doctrine or Training of the Apostles</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1896-06-07">June 7, 1896</datesingle>
+            </unitdatestructured>
+            <container id="aspace_5303cd6d72f9eb474bd1602bb973ea73" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_92f0a675ad98d19c23dd2ff9a3836f3f" localtype="folder"
+              parent="aspace_5303cd6d72f9eb474bd1602bb973ea73">57</container>
+          </did>
+        </c02>
+        <c02 id="aspace_a088fadefb8dfc51e051ac8d90a2eb90" level="file">
+          <did>
+            <unittitle>Theories of Life</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1896-08-16">August 16, 1896</datesingle>
+            </unitdatestructured>
+            <container id="aspace_03ed520b7b83b928854f5f775dcb631b" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_a71161d86de3e8fcb2c3d67197605073" localtype="folder"
+              parent="aspace_03ed520b7b83b928854f5f775dcb631b">58</container>
+          </did>
+        </c02>
+        <c02 id="aspace_71cfb6d4d4eac6598ace078c4b3dcc61" level="file">
+          <did>
+            <unittitle>A Great Duty</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1896-08-23">August 23, 1896</datesingle>
+            </unitdatestructured>
+            <container id="aspace_4d189581f4c11e5700e8828fd796f54c" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_f218557bae1e27363402a14a6cdec1cd" localtype="folder"
+              parent="aspace_4d189581f4c11e5700e8828fd796f54c">59</container>
+          </did>
+        </c02>
+        <c02 id="aspace_f06264d09a4903732e22d79232bfe755" level="file">
+          <did>
+            <unittitle>Characteristics of Christian Life</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1896-11-08">November 8, 1896</datesingle>
+            </unitdatestructured>
+            <container id="aspace_3bbd2642262f8a0287f0fb296e6479ce" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_d9dc60fd42838c29380a48a3856bea33" localtype="folder"
+              parent="aspace_3bbd2642262f8a0287f0fb296e6479ce">60</container>
+          </did>
+        </c02>
+        <c02 id="aspace_dd541274ceb2bad0e8ea48e45fd60140" level="file">
+          <did>
+            <unittitle>What the Church of Today Stands for</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1897-04-11">April 11, 1897</datesingle>
+            </unitdatestructured>
+            <container id="aspace_9c2e2b1cab0658df3d5b97b4655944f8" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_790738049a405cab89cdaaa2fc809928" localtype="folder"
+              parent="aspace_9c2e2b1cab0658df3d5b97b4655944f8">61</container>
+          </did>
+        </c02>
+        <c02 id="aspace_96382a0180628c14987772a193138c14" level="file">
+          <did>
+            <unittitle>Studies for the Bancroft</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1897-04-27">April 27, 1897</datesingle>
+            </unitdatestructured>
+            <container id="aspace_925a809bf91604bff376e57fc04851b6" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_7b8cb5bcee031d8c888df38d0fbe2758" localtype="folder"
+              parent="aspace_925a809bf91604bff376e57fc04851b6">62</container>
+          </did>
+        </c02>
+        <c02 id="aspace_a096235d75a39826b46b967f68696c20" level="file">
+          <did>
+            <unittitle>Obedience is Better than Sacrifice</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1897-05-09">May 9, 1897</datesingle>
+            </unitdatestructured>
+            <container id="aspace_f510668cebcb7609d4b3dc45278a7cad" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_bdfcfd4d620a69fc268e02882aadac01" localtype="folder"
+              parent="aspace_f510668cebcb7609d4b3dc45278a7cad">63</container>
+          </did>
+        </c02>
+        <c02 id="aspace_1a75bacb92ec6f3ba0a63047763b27cf" level="file">
+          <did>
+            <unittitle>Analysis for Persistency</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1897-06-03">June 3, 1897</datesingle>
+            </unitdatestructured>
+            <container id="aspace_637459d86e9c1fce93a39228253d60f8" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_ec3a6a264522e0422e494f1d1d59e81c" localtype="folder"
+              parent="aspace_637459d86e9c1fce93a39228253d60f8">64</container>
+          </did>
+        </c02>
+        <c02 id="aspace_9e78f35610c3830e1689f609e3472236" level="file">
+          <did>
+            <unittitle>Teachings of Jesus Concerning Man and His Salvation; Origin of the Belief in
+              the Incarnation</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1898">1898</fromdate>
+                <todate standarddate="1907">1907</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1898, 1907</unitdate>
+            <container id="aspace_8e2a769fb2fe4f0af2369ff29a46aaeb" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_f1bf1d45280a9462286f9a5e9e2899c1" localtype="folder"
+              parent="aspace_8e2a769fb2fe4f0af2369ff29a46aaeb">65</container>
+          </did>
+        </c02>
+        <c02 id="aspace_26f6ace54744b3780486e8d69dfb960c" level="file">
+          <did>
+            <unittitle>The Thirty Years' War</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1898-02-15">February 15, 1898</datesingle>
+            </unitdatestructured>
+            <container id="aspace_215b11e42621dabe217bdfb769245552" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_844419404e60c6e3a55b9053e095b504" localtype="folder"
+              parent="aspace_215b11e42621dabe217bdfb769245552">66</container>
+          </did>
+        </c02>
+        <c02 id="aspace_0fea6313329884308dd4a10c8f4bec3c" level="file">
+          <did>
+            <unittitle>A Vision of God the Interpretation of Life</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1898-07-03">July 3, 1898</datesingle>
+            </unitdatestructured>
+            <container id="aspace_8c8308fbbd3a529c79d0d327eb03efc8" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_8cada647f0b1711a9a035add99f0ec46" localtype="folder"
+              parent="aspace_8c8308fbbd3a529c79d0d327eb03efc8">67</container>
+          </did>
+        </c02>
+        <c02 id="aspace_81451382263dc665c081f55b4c5568c1" level="file">
+          <did>
+            <unittitle>The Gospel Proposals</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1898-09-24">September 24, 1898</datesingle>
+            </unitdatestructured>
+            <container id="aspace_3942f6e4d7985392472949ead421b848" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_4b9abb815d57c420a4c2395beda95852" localtype="folder"
+              parent="aspace_3942f6e4d7985392472949ead421b848">68</container>
+          </did>
+        </c02>
+        <c02 id="aspace_6f40ea5811aa03657a4ac87328e1fcfe" level="file">
+          <did>
+            <unittitle>Working Together with God</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1899-10-01">October 1, 1899</datesingle>
+            </unitdatestructured>
+            <container id="aspace_9cd681d941097ab5ab81b7389f7664c1" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_81a5831fc25918168ca7e29784c10b45" localtype="folder"
+              parent="aspace_9cd681d941097ab5ab81b7389f7664c1">69</container>
+          </did>
+        </c02>
+        <c02 id="aspace_9f6fe8cd64bc84595bcf8d74b59a5d91" level="file">
+          <did>
+            <unittitle>Christianity and the Intellectual Life</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1900-03-04">March 4, 1900</datesingle>
+            </unitdatestructured>
+            <container id="aspace_2cca53c0ce895fe806ba47f5094a9b49" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_00aed90cf87cb250ab7acea637a0905a" localtype="folder"
+              parent="aspace_2cca53c0ce895fe806ba47f5094a9b49">70</container>
+          </did>
+        </c02>
+        <c02 id="aspace_a8f25f34ffd40a6888e57acf81178e53" level="file">
+          <did>
+            <unittitle>For the Bancroft</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1900-06-19">June 19, 1900</datesingle>
+            </unitdatestructured>
+            <container id="aspace_3c27fd0ea6c92df6e351b798219d2e15" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_75cd03bfe672236a849c14a4c27e636c" localtype="folder"
+              parent="aspace_3c27fd0ea6c92df6e351b798219d2e15">71</container>
+          </did>
+        </c02>
+        <c02 id="aspace_a69a55a7a8307911cc6fa6bddeb4a2a9" level="file">
+          <did>
+            <unittitle>Guilt and Danger of Moral Indifference </unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1900-08-08">August 8, 1900</datesingle>
+            </unitdatestructured>
+            <container id="aspace_0f870be9a9fe80720334b0d44cddd3e8" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_015a3cb4cdb83b42e8a4cf57a1d70dae" localtype="folder"
+              parent="aspace_0f870be9a9fe80720334b0d44cddd3e8">72</container>
+          </did>
+        </c02>
+        <c02 id="aspace_5735de08a77b8a38ed6fbe12f96e7ef9" level="file">
+          <did>
+            <unittitle>Untitled sermon</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1901-04">April 1901</datesingle>
+            </unitdatestructured>
+            <container id="aspace_331e071832bd2c6a19ff7b1590dd6644" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_2f8650207d7e42116a7feca284a9f163" localtype="folder"
+              parent="aspace_331e071832bd2c6a19ff7b1590dd6644">73</container>
+          </did>
+        </c02>
+        <c02 id="aspace_759c57d34d6e90d05228cb19512c30a1" level="file">
+          <did>
+            <unittitle>The Law of Self-Sacrifice</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1902-10-12">October 12, 1902</datesingle>
+            </unitdatestructured>
+            <container id="aspace_fe1a5d869c0ed2418550a403c37e9fd6" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_1ef5aed361e4f190e930905d004ab224" localtype="folder"
+              parent="aspace_fe1a5d869c0ed2418550a403c37e9fd6">74</container>
+          </did>
+        </c02>
+        <c02 id="aspace_2c14a40242975934ab0f9a458841b396" level="file">
+          <did>
+            <unittitle>Waiting for the Moving of the Water</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1902-11-30">November 30, 1902</datesingle>
+            </unitdatestructured>
+            <container id="aspace_70d0b3de021f69638ec3f9553ada2248" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_bd786a1b911be982546ac1fc2872bb83" localtype="folder"
+              parent="aspace_70d0b3de021f69638ec3f9553ada2248">75</container>
+          </did>
+        </c02>
+        <c02 id="aspace_f0d5d1c3e904d4f86df7dc965a02f252" level="file">
+          <did>
+            <unittitle>Christ as the Pledge of Immortality</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1902-12-07">December 7, 1902</datesingle>
+            </unitdatestructured>
+            <container id="aspace_7b22d5bc3aeb82cd9390df13a1268a2c" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_92978e9f75d2a79570b886eb460980e5" localtype="folder"
+              parent="aspace_7b22d5bc3aeb82cd9390df13a1268a2c">76</container>
+          </did>
+        </c02>
+        <c02 id="aspace_38f6e5c5359811e1d0db915682e2f2eb" level="file">
+          <did>
+            <unittitle>Untitled sermon</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1903-01">January 1903</datesingle>
+            </unitdatestructured>
+            <container id="aspace_de8e23e9c114a00a6a224c29a5c0d741" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_37c1b3ee95c34ae8bd3bf0285b11b4e4" localtype="folder"
+              parent="aspace_de8e23e9c114a00a6a224c29a5c0d741">77</container>
+          </did>
+        </c02>
+        <c02 id="aspace_8907164e562fb963792e28eed04e3a5f" level="file">
+          <did>
+            <unittitle>Untitled sermon</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1903-01-25">January 25, 1903</datesingle>
+            </unitdatestructured>
+            <container id="aspace_1994d97f5ce1e1c87edd362c6e9e5e4d" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_1ea904dbe0edf0054bdd9f92ee278d62" localtype="folder"
+              parent="aspace_1994d97f5ce1e1c87edd362c6e9e5e4d">78</container>
+          </did>
+        </c02>
+        <c02 id="aspace_1fbb9a21a2b150afe183bf1ee6af330a" level="file">
+          <did>
+            <unittitle>Witnesses for Christ</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1903-02-01">February 1, 1903</datesingle>
+            </unitdatestructured>
+            <container id="aspace_ab82c808cb6b2f0907e13d3936b1d8bb" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_6efe875d6a8e8a368c98bc3c98dc3d00" localtype="folder"
+              parent="aspace_ab82c808cb6b2f0907e13d3936b1d8bb">79</container>
+          </did>
+        </c02>
+        <c02 id="aspace_dfeaef8775885c41cca3a80c39cd2f11" level="file">
+          <did>
+            <unittitle>What is it to be a Christian?</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1903-03-22">March 22, 1903</datesingle>
+            </unitdatestructured>
+            <container id="aspace_5f2c95bedd5f0abfc768a251242deecb" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_0eefaafcbd5e3f4cc8010c0ff7d7a406" localtype="folder"
+              parent="aspace_5f2c95bedd5f0abfc768a251242deecb">80</container>
+          </did>
+        </c02>
+        <c02 id="aspace_476b392a8b68217d6bc585427e3ea059" level="file">
+          <did>
+            <unittitle>This Onething I Do</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1903-03-29">March 29, 1903</datesingle>
+            </unitdatestructured>
+            <container id="aspace_7018cc8fb982fbe95fcbcc41364b9f3c" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_51033d86540f476bb17d18c89da60800" localtype="folder"
+              parent="aspace_7018cc8fb982fbe95fcbcc41364b9f3c">81</container>
+          </did>
+        </c02>
+        <c02 id="aspace_7edf16641c30a527145c1f848c224de2" level="file">
+          <did>
+            <unittitle>Prayer Meeting on Hebrews</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1903-04-22">April 22, 1903</datesingle>
+            </unitdatestructured>
+            <container id="aspace_bd5e5d3cefbc0d6ab48987bd90f7b400" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_7ce7d8777701ca70414be0caf8fedd90" localtype="folder"
+              parent="aspace_bd5e5d3cefbc0d6ab48987bd90f7b400">82</container>
+          </did>
+        </c02>
+        <c02 id="aspace_628c020e7bc069a2e97e9c65237261b0" level="file">
+          <did>
+            <unittitle>Attraction to Christian Religion for Young Men</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1903-07-18">July 18, 1903</datesingle>
+            </unitdatestructured>
+            <container id="aspace_158df95f09dbd04706bfdc23e9fe0167" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_4723ecc4b809581686cb25ebd9fd5ebb" localtype="folder"
+              parent="aspace_158df95f09dbd04706bfdc23e9fe0167">83</container>
+          </did>
+        </c02>
+        <c02 id="aspace_07e02073f04661e57da321fe0638a4fd" level="file">
+          <did>
+            <unittitle>Our Idea of a Priest</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1903-10-06">October 6, 1903</datesingle>
+            </unitdatestructured>
+            <container id="aspace_9de7d1879f9b1092298e69ad39a3cc79" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_6688226f248a254fd3d63afe59cddc32" localtype="folder"
+              parent="aspace_9de7d1879f9b1092298e69ad39a3cc79">84</container>
+          </did>
+        </c02>
+        <c02 id="aspace_ed89ca1c90525398d42cfb92c58b0856" level="file">
+          <did>
+            <unittitle>Palm Sunday Entrance into Jerusalem</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1904-04-08">April 8, 1904</datesingle>
+            </unitdatestructured>
+            <container id="aspace_737a32c028e609b74ed14fbdffe437bc" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_74244cb3e998450cc11dbae127f1a7cd" localtype="folder"
+              parent="aspace_737a32c028e609b74ed14fbdffe437bc">85</container>
+          </did>
+        </c02>
+        <c02 id="aspace_a3bf3ea2357703e1a108525165920e69" level="file">
+          <did>
+            <unittitle>The Rich Young Ruler</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1904-11-06">November 6, 1904</datesingle>
+            </unitdatestructured>
+            <container id="aspace_b066da1fac8bccf53a791ba7236b4456" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_926247bc6a2f86deb3038ad4b17c9c85" localtype="folder"
+              parent="aspace_b066da1fac8bccf53a791ba7236b4456">86</container>
+          </did>
+        </c02>
+        <c02 id="aspace_9dd5a70598cd4f2d2b4139f74dd458ef" level="file">
+          <did>
+            <unittitle>Majesty of Law and Blessedness of Obedience</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1907">1907</datesingle>
+            </unitdatestructured>
+            <container id="aspace_04dd34ed6882b876c3cdd9f4cc1e7a6e" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_510576f626e586542e27c54185917909" localtype="folder"
+              parent="aspace_04dd34ed6882b876c3cdd9f4cc1e7a6e">87</container>
+          </did>
+        </c02>
+        <c02 id="aspace_b42f687c4a25044f68442d28871354c4" level="file">
+          <did>
+            <unittitle>A Lost Bible</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1907-03-10">March 10, 1907</datesingle>
+            </unitdatestructured>
+            <container id="aspace_bc9ce82f89423f329c6b5a244c55fb0c" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_9b87f04ea5cd80ee6ce35f89211d8864" localtype="folder"
+              parent="aspace_bc9ce82f89423f329c6b5a244c55fb0c">88</container>
+          </did>
+        </c02>
+        <c02 id="aspace_8ddd20453940c86293a3fdf5951c6606" level="file">
+          <did>
+            <unittitle>Does God Care?</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1907-08-11">August 11, 1907</datesingle>
+            </unitdatestructured>
+            <container id="aspace_13d14acd068efc86f33c7ff26d47eee4" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_612b05f5d9697dc3facc2d09f78bbdb2" localtype="folder"
+              parent="aspace_13d14acd068efc86f33c7ff26d47eee4">89</container>
+          </did>
+        </c02>
+        <c02 id="aspace_1eac483480175b04d08ac18e03aaf830" level="file">
+          <did>
+            <unittitle>Vision through Christ</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1907-12-15">December 15, 1907</datesingle>
+            </unitdatestructured>
+            <container id="aspace_2ff530c5f23c0cba5f9086ef79494641" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_fead0682120f571cd3992a4cb9ac53dc" localtype="folder"
+              parent="aspace_2ff530c5f23c0cba5f9086ef79494641">90</container>
+          </did>
+        </c02>
+        <c02 id="aspace_4ed8779ced3f44ddd6ce098afd998d69" level="file">
+          <did>
+            <unittitle>What Christ proposes to do for Men?</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1909-03-03">March 3, 1909</datesingle>
+            </unitdatestructured>
+            <container id="aspace_27c305275020e4f653639d20c40434f8" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_f31d3f0d5fcbc86a5e0be2ed9406430a" localtype="folder"
+              parent="aspace_27c305275020e4f653639d20c40434f8">91</container>
+          </did>
+        </c02>
+        <c02 id="aspace_3abd6cd25a832660235107f298e43998" level="file">
+          <did>
+            <unittitle>The Ideal Man Sermon</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1910-07-31">July 31, 1910</datesingle>
+            </unitdatestructured>
+            <container id="aspace_4e8587e860d2a4212f2a846ca5bc804c" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_9c51843447f382362f30027b745f5987" localtype="folder"
+              parent="aspace_4e8587e860d2a4212f2a846ca5bc804c">92</container>
+          </did>
+        </c02>
+        <c02 id="aspace_24156a2559f02cdb7b760be14cb75059" level="file">
+          <did>
+            <unittitle>The Appeal of the Xtn Religion to the Present Generation</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1912-09-17">September 17, 1912</datesingle>
+            </unitdatestructured>
+            <container id="aspace_e09d06ec5a4ba8d27d50a8cd58a7f536" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_734087bbcbc068a2779bc09e72c94fef" localtype="folder"
+              parent="aspace_e09d06ec5a4ba8d27d50a8cd58a7f536">93</container>
+          </did>
+        </c02>
+        <c02 id="aspace_dd2490ab434b42ec53dee78971649f50" level="file">
+          <did>
+            <unittitle>Untitled sermon</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1915">1915</datesingle>
+            </unitdatestructured>
+            <container id="aspace_1483ea1613c6a5cea388e2d33115e67c" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_881b633ec6f6aaee507cc9c1471078b9" localtype="folder"
+              parent="aspace_1483ea1613c6a5cea388e2d33115e67c">94</container>
+          </did>
+        </c02>
+        <c02 id="aspace_a4d21f6c6d41da44dd7efc72ec9bb57b" level="file">
+          <did>
+            <unittitle>The Significance of a Human Life</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1918-08-11">August 11, 1918</datesingle>
+            </unitdatestructured>
+            <container id="aspace_7da42d77c99e56296104b2bbc98f7956" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_9386c85570c37c2384578af796fcbdf3" localtype="folder"
+              parent="aspace_7da42d77c99e56296104b2bbc98f7956">95</container>
+          </did>
+        </c02>
+        <c02 id="aspace_25f3ecd575ed9fdedc71e7e9b79f338e" level="file">
+          <did>
+            <unittitle>Alone in the World</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1918-08-18">August 18, 1918</datesingle>
+            </unitdatestructured>
+            <container id="aspace_bc8b42eac05941bddaf3c220436298b6" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_a3bc9942e7b8bfcee0a59d39c7c678a8" localtype="folder"
+              parent="aspace_bc8b42eac05941bddaf3c220436298b6">96</container>
+          </did>
+        </c02>
+        <c02 id="aspace_d9ba19eda3e6f24dd0c142532679df0d" level="file">
+          <did>
+            <unittitle>The Future Life</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1918-08-25">August 25, 1918</datesingle>
+            </unitdatestructured>
+            <container id="aspace_ada08fb9e811c83b1a38ca212a5a6ec2" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_43025c44976bf627b618a4dc0925b89d" localtype="folder"
+              parent="aspace_ada08fb9e811c83b1a38ca212a5a6ec2">97</container>
+          </did>
+        </c02>
+        <c02 id="aspace_1116634c24a4b2d7f4500e3b6a9df0fa" level="file">
+          <did>
+            <unittitle>Living in God</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1918-09-01">September 1, 1918</datesingle>
+            </unitdatestructured>
+            <container id="aspace_dad9c23cb5b9dbcc8059bf1b965468ee" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_aeebacc1564f79963b8f358996ad8889" localtype="folder"
+              parent="aspace_dad9c23cb5b9dbcc8059bf1b965468ee">98</container>
+          </did>
+        </c02>
+        <c02 id="aspace_d568f5765d95bb7a4b7077dff5ff1c3c" level="file">
+          <did>
+            <unittitle>The Christian Life</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1918-09-08">September 8, 1918</datesingle>
+            </unitdatestructured>
+            <container id="aspace_c6e77ccc6484d5b4f760b5c73104d8f7" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_7bced27c0225645df4f67979f47448e7" localtype="folder"
+              parent="aspace_c6e77ccc6484d5b4f760b5c73104d8f7">99</container>
+          </did>
+        </c02>
+        <c02 id="aspace_9d4e813ce7b05cdd5f62e222fedb9099" level="file">
+          <did>
+            <unittitle>The Stones</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">February 17</unitdate>
+            <container id="aspace_9f0cefc6bcfd547f88f23a7ca4a4ec9b" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_c2767487d1cbd688e36f3b2af10643f4" localtype="folder"
+              parent="aspace_9f0cefc6bcfd547f88f23a7ca4a4ec9b">100</container>
+          </did>
+        </c02>
+        <c02 id="aspace_7cf63397155a5db13cc759966da0acd7" level="file">
+          <did>
+            <unittitle>Sermons Preached at 47th Street Church</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_87237989d67e1e1a5a3333da4c6a6bae" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_07b7ba0620c9e8ad10e7be0e972b57fd" localtype="folder"
+              parent="aspace_87237989d67e1e1a5a3333da4c6a6bae">101</container>
+          </did>
+        </c02>
+        <c02 id="aspace_cca67d68be51302feef49f10d04db315" level="file">
+          <did>
+            <unittitle>Studies on the Prophet</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_4ab0d2f2e89507f74c0b2dabdf41bd0a" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_add5ddde16d113310d56051cfb066979" localtype="folder"
+              parent="aspace_4ab0d2f2e89507f74c0b2dabdf41bd0a">102</container>
+          </did>
+        </c02>
+        <c02 id="aspace_2dbef5dcfef87246823ff1af69599160" level="file">
+          <did>
+            <unittitle>Theories of Evolution and Our Idea of God</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_0618ea5a72e91597b509d787e56781e9" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_11af5aba4e50ff5b643abbf4a0b826e1" localtype="folder"
+              parent="aspace_0618ea5a72e91597b509d787e56781e9">103</container>
+          </did>
+        </c02>
+        <c02 id="aspace_b871541c05cf818d45f9bdad12081125" level="file">
+          <did>
+            <unittitle>Foundations of Every Acceptable Religious Service</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_5d0b4d1ac15b298d149ff4cf3d8aee91" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_06bd5940f783a0a83d5f0097c308c469" localtype="folder"
+              parent="aspace_5d0b4d1ac15b298d149ff4cf3d8aee91">104</container>
+          </did>
+        </c02>
+        <c02 id="aspace_30f3bfd10f4142e4eab0bac709df8f1f" level="file">
+          <did>
+            <unittitle>The New Birth</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_ca821e84ccadbe55ac1ae2911f8c57e7" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_a037cb37320e98964ba000f5a0510bd6" localtype="folder"
+              parent="aspace_ca821e84ccadbe55ac1ae2911f8c57e7">105</container>
+          </did>
+        </c02>
+        <c02 id="aspace_61df1cf58ff37ce7b08f611065d3520d" level="file">
+          <did>
+            <unittitle>Evangelistic Services</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_1604075f67cac32a6b7bd8ccf6ffa789" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_e80f56b7ae7f8aad293e5108ec500229" localtype="folder"
+              parent="aspace_1604075f67cac32a6b7bd8ccf6ffa789">106</container>
+          </did>
+        </c02>
+        <c02 id="aspace_d332c2b4f60354c1c0497933559aa0e4" level="file">
+          <did>
+            <unittitle>Incomplete sermon on Europe and Asia</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_277ef96bb0eab72c26b24763f0fd1edf" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_e7d0ea7149a78a7afde040d493104754" localtype="folder"
+              parent="aspace_277ef96bb0eab72c26b24763f0fd1edf">107</container>
+          </did>
+        </c02>
+        <c02 id="aspace_10d58fa414ab670812da24333b3d2344" level="file">
+          <did>
+            <unittitle>The Problem of Suffering</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_d92a32ef137574a4caadb61d10c49273" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_926c6ef05b551e44efe8e0178faa0ad7" localtype="folder"
+              parent="aspace_d92a32ef137574a4caadb61d10c49273">108</container>
+          </did>
+        </c02>
+        <c02 id="aspace_3c4eb0622cc11a504b9e1b74dbd4c982" level="file">
+          <did>
+            <unittitle>Summary of the Synoptics</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_f2207c854ff9cbe157179914a22af987" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_2873bddf459e6e73d1596f1b1b5c3021" localtype="folder"
+              parent="aspace_f2207c854ff9cbe157179914a22af987">109</container>
+          </did>
+        </c02>
+        <c02 id="aspace_bfafba428558cfff223debbd9e8edb55" level="file">
+          <did>
+            <unittitle>What Men Want</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_fdb7f6534233e0ac93cd7d5c96a9636f" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_863ca3b906bc10d7b0422ae0642c8c3a" localtype="folder"
+              parent="aspace_fdb7f6534233e0ac93cd7d5c96a9636f">110</container>
+          </did>
+        </c02>
+        <c02 id="aspace_18731ddccdea6bc9bdfc08495ec04333" level="file">
+          <did>
+            <unittitle>A Women's Evangelical</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_1250a689bc0cd4a7d38374407e9c6ea9" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_453e34c5afe72ced45cdd112f2be0822" localtype="folder"
+              parent="aspace_1250a689bc0cd4a7d38374407e9c6ea9">111</container>
+          </did>
+        </c02>
+        <c02 id="aspace_203410e499ed8d429074d40b1c166a6e" level="file">
+          <did>
+            <unittitle>Sermon packets</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_06c2e35aaa3ecc61232d40d87c0df890" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_c1fde38a785aedd9d110f215aba3f029" localtype="folder"
+              parent="aspace_06c2e35aaa3ecc61232d40d87c0df890">112</container>
+          </did>
+        </c02>
+        <c02 id="aspace_67a2a9d3a247aa1c8ceac03adee09683" level="file">
+          <did>
+            <unittitle>Why should I be a Christian?</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_4a509528eace88e6385fa08cad70a84f" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_1a365bd9bff6ff12da4b881ce1ac76bb" localtype="folder"
+              parent="aspace_4a509528eace88e6385fa08cad70a84f">113</container>
+          </did>
+        </c02>
+        <c02 id="aspace_3c4e8bf576a6a5e792c9355bcf810ae9" level="file">
+          <did>
+            <unittitle>Ordination sermon</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_f5a4d81d37b92b6dc153c357f368207b" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_560908320c629d84dda7e664e2831c5e" localtype="folder"
+              parent="aspace_f5a4d81d37b92b6dc153c357f368207b">114</container>
+          </did>
+        </c02>
+        <c02 id="aspace_5357b9fa973d4088dbb09f810636eff4" level="file">
+          <did>
+            <unittitle>The Salt of the World</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_ffff491c9d75846fd229c1c748162360" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_cd599d4a4086953501d5fc8d56c342c2" localtype="folder"
+              parent="aspace_ffff491c9d75846fd229c1c748162360">115</container>
+          </did>
+        </c02>
+        <c02 id="aspace_feb11d900dc86f27151a30f77dd01012" level="file">
+          <did>
+            <unittitle>The Christian Religion: An Appeal for its Acceptance</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_0f0a8e40c4d6e889c2b75dd8b4441633" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_13a97008fa976f4862ad0026bb512ec5" localtype="folder"
+              parent="aspace_0f0a8e40c4d6e889c2b75dd8b4441633">116</container>
+          </did>
+        </c02>
+        <c02 id="aspace_609d9e5c63507b9b2cecb9700f455473" level="file">
+          <did>
+            <unittitle>Growth of the Christian Disciple</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_805d1deeb675d3f5c0b28e60f8a30a99" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_aa06a9aaca20c4879a4d899e26f02d13" localtype="folder"
+              parent="aspace_805d1deeb675d3f5c0b28e60f8a30a99">117</container>
+          </did>
+        </c02>
+        <c02 id="aspace_a4a5568e27f3288b815992c23d90ce4b" level="file">
+          <did>
+            <unittitle>Untitled sermon</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_b9fc0f7f83ec7875e066a08142222e38" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_471bfaebf4a736ec700645bcd1ccdf45" localtype="folder"
+              parent="aspace_b9fc0f7f83ec7875e066a08142222e38">118</container>
+          </did>
+        </c02>
+        <c02 id="aspace_cbeedd0b3a3d1fe9f2b53c1fa5dfc393" level="file">
+          <did>
+            <unittitle>Worth of the Bible</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_004accb23c5ad7bd5492c5a61324362e" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_d6428c76893e1de3f42eda7245e39dea" localtype="folder"
+              parent="aspace_004accb23c5ad7bd5492c5a61324362e">119</container>
+          </did>
+        </c02>
+        <c02 id="aspace_c81e8be8c5721cf4515313f6aa5a209f" level="file">
+          <did>
+            <unittitle>A Nation's Duty to Itself: A Patriotic Sermon</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_abd95d5d2792bed9499620f32ee7486f" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_1e4fe419598686e23a2b6ce04dd7f359" localtype="folder"
+              parent="aspace_abd95d5d2792bed9499620f32ee7486f">120</container>
+          </did>
+        </c02>
+        <c02 id="aspace_ecf11221745873a0696fc9d2ccd7e86e" level="file">
+          <did>
+            <unittitle>Church of the Living God </unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_c381aaa3487641ed8651bc4894a208df" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_46128678d872f0731cd81add8cc87834" localtype="folder"
+              parent="aspace_c381aaa3487641ed8651bc4894a208df">121</container>
+          </did>
+        </c02>
+        <c02 id="aspace_ebbeb82aa0ae830bfe990982953c9bca" level="file">
+          <did>
+            <unittitle>Loose pages from unknown sermons</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_0a6dc078ed3c847a724e31a82dc92771" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_ffac2893204e4288359c8b297f1f04e4" localtype="folder"
+              parent="aspace_0a6dc078ed3c847a724e31a82dc92771">122</container>
+          </did>
+        </c02>
+        <c02 id="aspace_a8b641c1e345403f3335163bec90bce9" level="file">
+          <did>
+            <unittitle>Sermons first preached at Tabernacle Congregational Church</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_0f7a875851780bf6730bdc04e0ae8aa0" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_471690dc93cc639bff62802fdb295f5c" localtype="folder"
+              parent="aspace_0f7a875851780bf6730bdc04e0ae8aa0">123</container>
+          </did>
+        </c02>
+        <c02 id="aspace_843023b100cc9c8225da4c0938e55d63" level="file">
+          <did>
+            <unittitle>Sermons preached at South Church</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_5511673c87aa0593c80872b217665553" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_4510d078e6de8fb767be66917d9c2a9e" localtype="folder"
+              parent="aspace_5511673c87aa0593c80872b217665553">5</container>
+          </did>
+        </c02>
+      </c01>
+      <c01 id="aspace_c412fa0ae701d324b4e42d0355919502" level="series">
+        <did>
+          <unittitle>Lectures</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>21</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1870">1870</fromdate>
+              <todate standarddate="1918">1918</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1870-1918</unitdate>
+        </did>
+        <scopecontent id="aspace_b5c877667f33301347da9a19e99cc5f6">
+          <head>Scope and Contents</head>
+          <p>This series contains lectures that were given by Williams to Rochford Female Seminary
+            and Beloit College.</p>
+        </scopecontent>
+        <c02 id="aspace_b479b539e81e01b963f24ab716f4b9c8" level="file">
+          <did>
+            <unittitle>Lectures at Rochford Female Seminary</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1870">1870</fromdate>
+                <todate standarddate="1873">1873</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1870-1873</unitdate>
+            <container id="aspace_003d53ae332155392498690d4ef218d0" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_a953ed966c911f39fad9af1cae865285" localtype="folder"
+              parent="aspace_003d53ae332155392498690d4ef218d0">1</container>
+          </did>
+        </c02>
+        <c02 id="aspace_c76a28773aec92d15c9f17d471b1d663" level="file">
+          <did>
+            <unittitle>Lectures at Rochford Female Seminary</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1873">1873</fromdate>
+                <todate standarddate="1873">1873</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1873, undated</unitdate>
+            <container id="aspace_070cb197517d71e5d9a0016c7e9d3a70" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_64b94cacc646e70512b2c46a825fa42a" localtype="folder"
+              parent="aspace_070cb197517d71e5d9a0016c7e9d3a70">2</container>
+          </did>
+        </c02>
+        <c02 id="aspace_17c858067ebb79b072702769cd0babaa" level="file">
+          <did>
+            <unittitle>Lectures on Systematic Theology</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1894">1894</datesingle>
+            </unitdatestructured>
+            <container id="aspace_a53a7c6e06edd03ecf2fc5a6435106b6" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_e2dce796b8bf01609ab86cee4c3906ff" localtype="folder"
+              parent="aspace_a53a7c6e06edd03ecf2fc5a6435106b6">6</container>
+          </did>
+        </c02>
+        <c02 id="aspace_c86af562d0d682d215648a2e4bfd2037" level="file">
+          <did>
+            <unittitle>Beloit College lectures on Christian and Modern Ethics</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1903-05">May 1903</datesingle>
+            </unitdatestructured>
+            <container id="aspace_c7daebf737ddd6703f471db55f1b61a2" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_d763a244f979dbf49b29cc0c9c8ab578" localtype="folder"
+              parent="aspace_c7daebf737ddd6703f471db55f1b61a2">3</container>
+          </did>
+        </c02>
+        <c02 id="aspace_7096c55d3d8cbc4c35ed445f6ce8f657" level="file">
+          <did>
+            <unittitle>Beloit College lectures on Greek Morality and Ethics</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1903">1903</datesingle>
+            </unitdatestructured>
+            <container id="aspace_16503ad6ba61ea5855fc75e79f7be2bc" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_18e6b78fd07b2295b0ba85876e9ea517" localtype="folder"
+              parent="aspace_16503ad6ba61ea5855fc75e79f7be2bc">4</container>
+          </did>
+        </c02>
+        <c02 id="aspace_624a2040f3f85dd58695d22777523016" level="file">
+          <did>
+            <unittitle>Beloit College lectures on Socrates, Aristotle and Plato</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1903">1903</datesingle>
+            </unitdatestructured>
+            <container id="aspace_2ed574d343d342565520732c2c38c9e0" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_0d175fabb2a6e5af4a504e18811840b6" localtype="folder"
+              parent="aspace_2ed574d343d342565520732c2c38c9e0">5</container>
+          </did>
+        </c02>
+        <c02 id="aspace_2bfd7056ebcd9e3182ace01534344717" level="file">
+          <did>
+            <unittitle>Beloit College lectures on Four Socratic Schools and Stoicism</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1903">1903</datesingle>
+            </unitdatestructured>
+            <container id="aspace_4f83cb23bca0a8b2ac64a964c708b1c4" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_31ef8968f5d15173dd9cf248b072fb97" localtype="folder"
+              parent="aspace_4f83cb23bca0a8b2ac64a964c708b1c4">6</container>
+          </did>
+        </c02>
+        <c02 id="aspace_2a77baec695caec3bbeb0ffc25655218" level="file">
+          <did>
+            <unittitle>Beloit College lectures on Butler, Hume and Adam Smith</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_f024b8c3d67564999d82bf66a1d271d3" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_061111de2d13f4e48a3a915d14d0d4c9" localtype="folder"
+              parent="aspace_f024b8c3d67564999d82bf66a1d271d3">7</container>
+          </did>
+        </c02>
+        <c02 id="aspace_239faeb45a4d25c53bc0c7a23b2ed274" level="file">
+          <did>
+            <unittitle>Beloit College lectures on the Intuitionalists</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_f99f7f48cc8705cf55a64540671e663f" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_6cc7233e52f02d52496bbf233482e68d" localtype="folder"
+              parent="aspace_f99f7f48cc8705cf55a64540671e663f">8</container>
+          </did>
+        </c02>
+        <c02 id="aspace_fe5adfa91ec12a8021c5beb411bc1519" level="file">
+          <did>
+            <unittitle>Beloit College lectures on Utilitarianism</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_7aebfeee9c53dd5368d4e760da29fafd" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_700e84b6260ccf0ba068895514d452db" localtype="folder"
+              parent="aspace_7aebfeee9c53dd5368d4e760da29fafd">9</container>
+          </did>
+        </c02>
+        <c02 id="aspace_4afb4112bcd6f1e1a94c9659507e2f77" level="file">
+          <did>
+            <unittitle>Beloit College lectures General Summary</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_9baa78a04c8cb6b2ef10c0541241bc22" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_e239624884ed34b401fd8c30fa268f77" localtype="folder"
+              parent="aspace_9baa78a04c8cb6b2ef10c0541241bc22">10</container>
+          </did>
+        </c02>
+        <c02 id="aspace_837b525583db107e45f4e01c0fca9174" level="file">
+          <did>
+            <unittitle>Beloit College lectures on Christian and Medieval Ethics</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_05f9cb94efea4b4650635768db4d7c36" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_f6f30988e85dd1c1bd213ee800f958ac" localtype="folder"
+              parent="aspace_05f9cb94efea4b4650635768db4d7c36">11</container>
+          </did>
+        </c02>
+        <c02 id="aspace_3e6901d71df922d375905e266f3bf8c5" level="file">
+          <did>
+            <unittitle>Beloit College lectures on Christian Ethics</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_4757fd61fd94ee9ba731832f2fb7fff0" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_e84c3e022b035a24d6b19cec68eae925" localtype="folder"
+              parent="aspace_4757fd61fd94ee9ba731832f2fb7fff0">12</container>
+          </did>
+        </c02>
+        <c02 id="aspace_0ca4b403fbe5c61c598925ed3db9f411" level="file">
+          <did>
+            <unittitle>Beloit College lectures on Modern Ethics</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_d2b7e7a984bfbe9bcaee0a48c5e42d31" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_6fc13bd8906555b597c673520faec073" localtype="folder"
+              parent="aspace_d2b7e7a984bfbe9bcaee0a48c5e42d31">13</container>
+          </did>
+        </c02>
+        <c02 id="aspace_0e4a2da24ed4a2c264457e9825ba7806" level="file">
+          <did>
+            <unittitle>Beloit College lectures on Greek Philosophy</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_275c223dd23ed0d3638bf1f7355eeadb" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_b269d450b96e59dfcb111822cab24ec6" localtype="folder"
+              parent="aspace_275c223dd23ed0d3638bf1f7355eeadb">14</container>
+          </did>
+        </c02>
+        <c02 id="aspace_a217e30367f82cd5795b5eaacdf402be" level="file">
+          <did>
+            <unittitle>Beloit College lectures on Weber's History of Philosophy</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_c8cc67d6a39da8fdeab42168a9ff7021" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_9788c9a8d545abd2c80ade5347083bf5" localtype="folder"
+              parent="aspace_c8cc67d6a39da8fdeab42168a9ff7021">15</container>
+          </did>
+        </c02>
+        <c02 id="aspace_3811983212e6c1d81127bc75707a6ddf" level="file">
+          <did>
+            <unittitle>Beloit College lectures on Philosophy</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_dbf5584a17c205fa4bde926a6d70ba8e" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_1d55b05d02f173564ad7c93936b0c4d6" localtype="folder"
+              parent="aspace_dbf5584a17c205fa4bde926a6d70ba8e">16</container>
+          </did>
+        </c02>
+        <c02 id="aspace_4e65f7cd06bfff6f96f9c6785755d017" level="file">
+          <did>
+            <unittitle>Beloit College lectures on Christianity and Philosophy of the Middle
+              Age</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_7c1d3fcf900d29fec5c2eccce288e2ba" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_893e8037d6a94e56710d8dafcf656828" localtype="folder"
+              parent="aspace_7c1d3fcf900d29fec5c2eccce288e2ba">17</container>
+          </did>
+        </c02>
+        <c02 id="aspace_af91b3101d9928f9404c77b29126ffdd" level="file">
+          <did>
+            <unittitle>Beloit College lectures on Philosophy and History</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_d63ea711ead1a49ba085dfe55f60eb75" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_2a42fbf1ba63e2e4af3e0e87603df346" localtype="folder"
+              parent="aspace_d63ea711ead1a49ba085dfe55f60eb75">18</container>
+          </did>
+        </c02>
+        <c02 id="aspace_751eb6e2cd725de4d546d2fa0d529f26" level="file">
+          <did>
+            <unittitle>Beloit College lectures</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_0b41ed6a602b44fad4edc82a8ea9fb69" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_322ad7a4d083d8c00bd3ef9b6a87656d" localtype="folder"
+              parent="aspace_0b41ed6a602b44fad4edc82a8ea9fb69">19</container>
+          </did>
+        </c02>
+        <c02 id="aspace_0306ec409752686bca3e963fbaef9ef5" level="file">
+          <did>
+            <unittitle>Second lecture on Hebrews</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_3daa2414e4ec3110e77ced0851565410" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_dc2188d8f22a25c9ae51edecd630a49e" localtype="folder"
+              parent="aspace_3daa2414e4ec3110e77ced0851565410">20</container>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
