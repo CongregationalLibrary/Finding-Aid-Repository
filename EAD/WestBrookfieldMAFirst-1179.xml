@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/HawleyGideon-1237.xml"
+      >WestBrookfieldMAFirst-1179</recordid>
+    <representation localtype="pdf"
+      href="http://www.congregationallibrary.org/sites/all/files/WestBrookfieldMAFirst-1179.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>West Brookfield, Mass. First Congregational Church records,
+          1757-1917.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2017-09-15</date>
+        <num>RG1179</num>
+      </publicationstmt>
+      <seriesstmt>
+        <p>Parts of this collection are part of New England's Hidden Histories. Digital historical
+          representations of these portions of the collection can be viewed online.</p>
+      </seriesstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2020-10-05T13:42:03+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Monday October 5,
+          2020 at 13:42</eventdescription>
+      </maintenanceevent>
+      <maintenanceevent>
+        <eventtype value="revised"/>
+        <eventdatetime>2020-03-31</eventdatetime>
+        <agenttype value="human"/>
+        <agent>Zachary Bodnar</agent>
+        <eventdescription>Major revisions to collection description and
+          arrangement.</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>West Brookfield, Mass. First Congregational Church records, 1754-1917.</unittitle>
+      <unitid>RG1179</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>1.09</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(1 box)</physdesc>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1754">1754</fromdate>
+          <todate standarddate="1917">1917</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" unitdatetype="inclusive">1754-1917</unitdate>
+      <abstract id="aspace_f98fae72fc0c986beec6ed82f09d742a">The town of Brookfield was first
+        settled during the 1660s. The first meeting house in Brookfield was built atop Foster's Hill
+        in Brookfield and shortly after construction began on the second meeting house, the First
+        Church was officially organized in 1717. West Brookfield split from Brookfield in 1848 and
+        the First Church became Congregational Church. The church joined the United Church of Christ
+        in 1964. The records include membership lists, church correspondence, church and parish
+        meeting minutes, and vital records.</abstract>
+      <origination label="creator">
+        <corpname identifier="nr98030069" source="lcnaf">
+          <part>Congregational Church (West Brookfield, Mass.)</part>
+        </corpname>
+      </origination>
+      <origination label="creator">
+        <corpname identifier="nr98030384" source="lcnaf">
+          <part>First Church (Brookfield, Mass.)</part>
+        </corpname>
+      </origination>
+      <origination label="creator">
+        <corpname identifier="n98108871" source="lcnaf">
+          <part>First Congregational Church (West Brookfield, Mass.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_b28e6d7932b3f9f6c69df1f215a25ad2">
+      <head> Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_709bbd916c7434e7377c18412e0497d4">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+      <p>Digital Reproductions are protected by copyright and/or related rights. You are free to use
+        the Digital Reproductions in any way that is permitted by the copyright and related rights
+        legislation that applies to your use. In addition, no permission is required from the
+        Congregational Library &amp; Archives for educational uses. For other uses, you need to
+        obtain permission from the Congregational Library &amp; Archives. For additional information
+        regarding copyright, please consult the Congregational Library &amp; Archives' <ref
+          actuate="onrequest" href="http://www.congregationallibrary.org/about/digital-copyright"
+          linktitle="Digital Collections Copyright &amp; Use" show="new">Digital Collections
+          Copyright &amp; Use</ref> policy.</p>
+    </userestrict>
+    <prefercite id="aspace_47eb054438281b757394073065efc40c">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the West Brookfield, Mass. First Congregational Church
+        records, 1757-1929, RG1179. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_5787ae11e61c6ce36a947f09f2408849">
+      <head>Acquisition Information</head>
+      <p>Records deposited to the Congregational Library &amp; Archives in October 1967 by the Rev.
+        George Worcester. No accession number available.</p>
+      <p>Additional records gifted to the Congregational Library &amp; Archives in 1998 by the First
+        Congregational Church of West Brookfield, Massachusetts. No accession number available.</p>
+    </acqinfo>
+    <accruals id="aspace_ff875ff719cd6b1fb2aa50eae9bcd7d5">
+      <head>Accruals</head>
+      <p>Additional accruals are expected for this collection in the form of full-text
+        transcription. There is no anticipated date for this accrual.</p>
+    </accruals>
+    <processinfo id="aspace_a37e1e6490d325fdf7434c7f7022ba0b">
+      <head>Processing Information</head>
+      <p>Processed by Zachary Bodnar, September 2017, using DACS Second Edition.</p>
+    </processinfo>
+    <bioghist id="aspace_f264f1eff7347cc561b7a114c72eed6b">
+      <head>Historical Note</head>
+      <p>The early history of Brookfield, and the congregational church within, is difficult to
+        discern, with most of the earliest town records having been lost to fire and the earliest
+        church records too being lost to time. The town of Brookfield was first settled during the
+        1660s. The first meeting house in Brookfield was built atop Foster's Hill in Brookfield,
+        though there were likely long periods where worship at that location was impossible due to
+        ongoing conflicts with Native Americans. In 1715, construction began on the second meeting
+        house and in 1717 the First Church was officially gathered. The third meeting house was
+        constructed in 1755 about a half mile northwest of Foster Hill and in 1794 the fourth
+        meeting house was constructed on the same spot as the third.</p>
+      <p>West Brookfield split from Brookfield in 1848. At that time the First Church changed its
+        name to Congregational Church. The church joined the United Church of Christ in 1964 and
+        likely around that time changed its name again to First Congregational Church. The church
+        continues to serve its community today.</p>
+    </bioghist>
+    <scopecontent id="aspace_d686b11809abdd37140e7c0901c53aae">
+      <head>Scope and Contents</head>
+      <p>The West Brookfield, Mass. First Congregational Church records document the history and
+        life of the church, including membership lists, church correspondence, church and parish
+        meeting minutes, committee reports, treasurer's reports, baptism and marriage documents,
+        documents related to the burial grounds, documents related to the division of Brookfield,
+        pew deeds, and certificates of organization.</p>
+    </scopecontent>
+    <arrangement id="aspace_674b6c495793e4165b739c51547c40ab">
+      <head>Arrangement</head>
+      <p>This collection has been arranged in chronological order and where appropriate materials
+        have been grouped together by topic.</p>
+    </arrangement>
+    <phystech id="aspace_3d2f694723b81aa4dd150402fb5e0c47">
+      <head>Technical Requirements</head>
+      <p>To access digital user's copies via online-interface, a java-enabled web browser is
+        required. Internet Explorer 8.x and later, Firefox 5.x and later, Opera 12 and later, Safari
+        5.x and later, or any version of Google Chrome are recommended.</p>
+    </phystech>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85021756" source="lcsh">
+        <part>Cemeteries.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <subject source="local">
+        <part>New England's Hidden Histories.</part>
+      </subject>
+      <subject identifier="sh85100506" source="lcsh">
+        <part>Pews and pew rights.</part>
+      </subject>
+      <corpname identifier="n82047882" source="lcnaf">
+        <part>Brookfield (Mass.) -- Church history.</part>
+      </corpname>
+      <corpname identifier="nr98030069" source="lcnaf">
+        <part>Congregational Church (West Brookfield, Mass.)</part>
+      </corpname>
+      <corpname identifier="nr98030384" source="lcnaf">
+        <part>First Church (Brookfield, Mass.)</part>
+      </corpname>
+      <corpname identifier="n98108871" source="lcnaf">
+        <part>First Congregational Church (West Brookfield, Mass.)</part>
+      </corpname>
+      <corpname identifier="n82045018" source="lcnaf">
+        <part>West Brookfield (Mass.) -- Church history.</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_db4d66a828b9ae83f24f72b6622a7b72" level="item">
+        <did>
+          <unittitle>West Brookfield Parish records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1754">1754</fromdate>
+              <todate standarddate="1826">1826</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1754-1826</unitdate>
+          <container id="aspace_6c447c8db53b7e183532008d3d0c27b4" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_333c78ea937b73c28792a5a12fd6d438" localtype="volume"
+            parent="aspace_6c447c8db53b7e183532008d3d0c27b4">1</container>
+        </did>
+        <altformavail id="aspace_0b0279e7a08e5041b929d18bc60ee96d">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/WestBrookfield/viewer/Parish20records2C2017541826/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_d499cdfd3b5fe6619ccaec9060ae7cdd">
+          <head>Scope and Contents</head>
+          <p>This volume contains 342 pages of parish records dating from 1754 to 1826. Included
+            within the parish records are parish meeting minutes, records of votes, records of
+            petitions and lists of petition signers, notices of town meetings, lists of committee
+            members, appointments to church positions, committee reports, and certificates of
+            membership.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_eca5ccf5173bb73f7afbe4eab2a7507b" level="item">
+        <did>
+          <unittitle>West Brookfield Parish records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1826">1826</fromdate>
+              <todate standarddate="1860">1860</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1826-1860</unitdate>
+          <container id="aspace_22c117c52fe83deccdcd4d2e84abfcc7" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_501e48fe89fc82f0f312439bcd69f7ae" localtype="volume"
+            parent="aspace_22c117c52fe83deccdcd4d2e84abfcc7">2</container>
+        </did>
+        <scopecontent id="aspace_3c98610aa7b6ee945b6333b35c207d1d">
+          <head>Scope and Contents</head>
+          <p>This volume contains 537 pages of parish records dating from 1826 to 1860. Included
+            within the parish records are parish meeting minutes, records of votes, notices of town
+            meetings, lists of committee members, appointments to church positions, committee
+            reports, treasurer's reports and other financial documents, pew deeds, lists of members,
+            records of oath taking, and certificates of membership.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_db515aa722113db8a9c88d27a34558d2" level="item">
+        <did>
+          <unittitle>West Brookfield Parish records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1860">1860</fromdate>
+              <todate standarddate="1909">1909</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1860-1909</unitdate>
+          <container id="aspace_1d38c27bf6913b51c8c01b0e855a916d" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_8badd126114ce721b1ffb341424600a1" localtype="volume"
+            parent="aspace_1d38c27bf6913b51c8c01b0e855a916d">3</container>
+        </did>
+      </c01>
+      <c01 id="aspace_acb72aef4433d0bb6efa50c603bedb0b" level="item">
+        <did>
+          <unittitle>West Brookfield First Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1756">1756</fromdate>
+              <todate standarddate="1818">1818</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1756-1818</unitdate>
+          <container id="aspace_ab0ca82fe393ce6d93f0985dd10a8713" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_70315c2c989e7b9c3967786573747d2f" localtype="volume"
+            parent="aspace_ab0ca82fe393ce6d93f0985dd10a8713">5</container>
+        </did>
+        <altformavail id="aspace_4aa511c6450516eb155066daaa771502">
+          <head>Digital Copies</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/WestBrookfield/viewer/Church20records2C2017561818/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_73abd14b7675e0128ad336fca7766c94">
+          <head>Scope and Contents</head>
+          <p>This volume contains 161 pages of church records dating from 1756 to 1818. Included
+            within the church records are baptismal records, Covenant agreements, lists of
+            dismissions, lists of admissions, marriage records, and records of church votes and
+            meetings.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_afc68df8474725078c4f670c9dc0cbac" level="item">
+        <did>
+          <unittitle>West Brookfield First Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1819">1819</fromdate>
+              <todate standarddate="1867">1867</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1819-1867</unitdate>
+          <container id="aspace_39f4b59830c5cd44b97490988e66ea11" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_dfcb5c7c14841683eb1416e1fe08b777" localtype="volume"
+            parent="aspace_39f4b59830c5cd44b97490988e66ea11">6</container>
+        </did>
+        <altformavail id="aspace_03776806e6190c05fa61a6bc7288b297">
+          <head>Digitized Material</head>
+          <p>These church records were digitized as part of the New England's Hidden Histories
+            project. Digital reproductions are <ref actuate="onrequest"
+              href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/WestBrookfield/viewer/Church20records2C2018191867/1"
+              linktitle="available to view online" show="new">available to view online</ref>.</p>
+        </altformavail>
+        <scopecontent id="aspace_c2bdcd4dc647bfaadc8295129778d5e1">
+          <head>Scope and Contents</head>
+          <p>This volume contains 461 pages of church records dating from 1819 to 1867. Included
+            within the church records are a historical sketch of the First Church, lists of members
+            baptismal records, confessions of faith, church meeting minutes, and records of
+            votes.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_1ce380515cf9168957bb0d1d532ac10c" level="item">
+        <did>
+          <unittitle>West Brookfield First Church records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1867">1867</fromdate>
+              <todate standarddate="1889">1889</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1867-1889</unitdate>
+          <container id="aspace_ccd4b4a3c81450169cff60c3db2293dd" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_0352f67f8f55f9fb73e5072d0399b14e" localtype="volume"
+            parent="aspace_ccd4b4a3c81450169cff60c3db2293dd">7</container>
+        </did>
+      </c01>
+      <c01 id="aspace_2d0f0dcd98e12de784aadfdfc898644c" level="item">
+        <did>
+          <unittitle>West Brookfield First Parish records</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1818">1818</fromdate>
+              <todate standarddate="1876">1876</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1818-1876</unitdate>
+          <container id="aspace_97d7bf9720cf40bde15ca868bc657c31" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_c2592a7ca2d23788a83be0abb15a0e80" localtype="volume"
+            parent="aspace_97d7bf9720cf40bde15ca868bc657c31">4</container>
+        </did>
+      </c01>
+      <c01 id="aspace_ee200c6ee5c379c3ae69fcf71e7c2633" level="file">
+        <did>
+          <unittitle>Church pew deeds</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1799">1799</datesingle>
+          </unitdatestructured>
+          <container id="aspace_1a56ffafa21d8cc296785a9c6c307532" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_8a01ffc626228b611c9218bf887e3253" localtype="folder"
+            parent="aspace_1a56ffafa21d8cc296785a9c6c307532">1</container>
+        </did>
+        <scopecontent id="aspace_d973251e1e6e03b91b1b66aa422d5cae">
+          <head>Scope and Contents</head>
+          <p>This 1799 document is four pages and includes a list of names and the pew number they
+            have been deeded.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_680655c17fc4395bc0f738bc0de4ca04" level="file">
+        <did>
+          <unittitle>Proposal for burial ground</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1807">1807</datesingle>
+          </unitdatestructured>
+          <container id="aspace_916181c71c59a3cc3d7e86a8b5e4e155" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_c58fcce444e5209d69d9949dff3592f4" localtype="folder"
+            parent="aspace_916181c71c59a3cc3d7e86a8b5e4e155">2</container>
+        </did>
+        <scopecontent id="aspace_28b3222653df6ffbcee7e3a1035824f4">
+          <head>Scope and Contents</head>
+          <p>This 1807 document is four pages and includes a proposal by Dwight Foster to buy a
+            piece of land to become a new burial ground for the First Church.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_c679f1b03a832e442e8004d991493069" level="file">
+        <did>
+          <unittitle>Report to accept proposal for burial ground</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1807">1807</datesingle>
+          </unitdatestructured>
+          <container id="aspace_0e6d4e2e9d08f369e997cfefe7d726f7" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_5029ad984edc40a0d28aada304449e58" localtype="folder"
+            parent="aspace_0e6d4e2e9d08f369e997cfefe7d726f7">3</container>
+        </did>
+        <scopecontent id="aspace_f290824055271356f9fc2f2cca836f60">
+          <head>Scope and Contents</head>
+          <p>This 1807 document is four pages and includes a committee report endorsing Dwight
+            Foster's proposal for a new burial ground.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_28bae3b1c5f129635b68d5b89efa4659" level="file">
+        <did>
+          <unittitle>Petition to form "First Universal Society of Brookfield"</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1808">1808</datesingle>
+          </unitdatestructured>
+          <container id="aspace_52da3c4f94d488b76615ef03a0af0c30" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_7b24f07ea980d6eae1b75ae478a7f2fa" localtype="folder"
+            parent="aspace_52da3c4f94d488b76615ef03a0af0c30">4</container>
+        </did>
+        <scopecontent id="aspace_5a9cdac764e8ee431291a21197c0e5cc">
+          <head>Scope and Contents</head>
+          <p>This 1808 document is 2 pages and includes a petition to form a "First Universal
+            Society of Brookfield" that was sent to the Massachusetts General Court.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_3f187c50833abdc2ef62d67781a97150" level="file">
+        <did>
+          <unittitle>H. Stebbins to Ebenezer Merriam</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1820">1820</datesingle>
+          </unitdatestructured>
+          <container id="aspace_02c0ab007d052efc6fb9597bde006390" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_6f373ff88bb47871af01329ea0964a34" localtype="folder"
+            parent="aspace_02c0ab007d052efc6fb9597bde006390">6</container>
+        </did>
+        <scopecontent id="aspace_71a2b90a7f4bf1aa110b9973ff454d7a">
+          <head>Scope and Contents</head>
+          <p>This 1820 letter from Herman Stebbins to Ebenezer Merriam is four pages and documents
+            the lengths and costs of bridges and roads in the "West Parish."</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_fe3a1634b205057a01354336758e7f0c" level="file">
+        <did>
+          <unittitle>Notice to levy taxes</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1823">1823</datesingle>
+          </unitdatestructured>
+          <container id="aspace_106dfe0ca827bc54c61d099f87fc890d" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_11e200bf6c41af022d9bc6005a5083a9" localtype="folder"
+            parent="aspace_106dfe0ca827bc54c61d099f87fc890d">7</container>
+        </did>
+        <scopecontent id="aspace_17c96a69639a2b76ceba7c358b198c2e">
+          <head>Scope and Contents</head>
+          <p>This 1823 document is 2 pages and includes a notice given to Deacon A. White to levy
+            taxes for the "Inhabitants of School District No. 3 in the West Parish."</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_5d0194a99d683f7e8d7316ee4ff68f23" level="file">
+        <did>
+          <unittitle>Record of town meeting</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1828">1828</datesingle>
+          </unitdatestructured>
+          <container id="aspace_a2ad756464d75c7b71f64ec772e54692" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_fae23f5ee7c4fe15e3392846d7cd1bcd" localtype="folder"
+            parent="aspace_a2ad756464d75c7b71f64ec772e54692">8</container>
+        </did>
+        <scopecontent id="aspace_b8b2926f7e6d3eb5b0c5051b372de1dc">
+          <head>Scope and Contents</head>
+          <p>This 1828 document is four pages and includes the records of a town meeting including a
+            warrant to notify the town of the meeting, acknowledgement of that notification, and the
+            meeting minutes of that meeting.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_d151a9caddef930446466b08e0379cf3" level="item">
+        <did>
+          <unittitle>Request made to legistlature to divide town of Brookfield</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1829">1829</datesingle>
+          </unitdatestructured>
+          <container id="aspace_945346dfc2d78c04173476ba2a45d07c" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_be59261618cfc583c3842c8ba30f0567" localtype="volume"
+            parent="aspace_945346dfc2d78c04173476ba2a45d07c">8</container>
+        </did>
+        <scopecontent id="aspace_7b38b3a073cbe957b456f995e93ccf1f">
+          <head>Scope and Contents</head>
+          <p>This volume contains 23 pages of a request made to the MA Legislature to divide the
+            town of Brookfield. The petition includes specific reasons for the request. Also
+            included are some testimonies from church members in support of the divide.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_422f00c397356dcfcc343d6f680b6dc3" level="file">
+        <did>
+          <unittitle>H. Stebbins affadavit against M. Bains</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1829">1829</datesingle>
+          </unitdatestructured>
+          <container id="aspace_5036ff958fe84292205104a32ee356be" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_8b74beb66fd21a8560d508c0d2a73055" localtype="folder"
+            parent="aspace_5036ff958fe84292205104a32ee356be">9</container>
+        </did>
+        <scopecontent id="aspace_2fb89192af8442e57dd85087bf3326d7">
+          <head>Scope and Contents</head>
+          <p>This 1829 document is two pages and includes an itemized list of costs associated with
+            work that Herman Stebbins did for Moses Bains in relation to proposals to divide the
+            town of Brookfield.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_e924cfb8e516ef7380ce4154c6f0ab9d" level="file">
+        <did>
+          <unittitle>Report of the Committee for Division of the Town</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1829">1829</datesingle>
+          </unitdatestructured>
+          <container id="aspace_93a3c7023dec8ab5ae53f7501483b616" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_e52f800f8e461db18a879d966f25839b" localtype="folder"
+            parent="aspace_93a3c7023dec8ab5ae53f7501483b616">10</container>
+        </did>
+        <scopecontent id="aspace_1fd4e68e9d3f9231bafe89b9343231ae">
+          <head>Scope and Contents</head>
+          <p>This 1829 document is four pages and is a report from the Committee for Division of the
+            Town which authorizes payments to Herman Stebbins and states that the petition to divide
+            the town was rejected by the state legislature.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_b6e0d46fc3b683b9fbf727fbd8e033d9" level="file">
+        <did>
+          <unittitle>Report of the Burial Grounds Committee</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1829">1829</datesingle>
+          </unitdatestructured>
+          <container id="aspace_52e05de5a086ab0e72a80eca7b07a427" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_43c298946f07f9abb045ff148c507a7d" localtype="folder"
+            parent="aspace_52e05de5a086ab0e72a80eca7b07a427">11</container>
+        </did>
+        <scopecontent id="aspace_406890f57d37c3d9e1081a374504a988">
+          <head>Scope and Contents</head>
+          <p>This 1829 document is two pages and includes a report of the Burial Ground Committee
+            answering questions about the number of lots in the "new Burial Grounds" and the status
+            of payment for those lots.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_1621a16728bd967a556c5f3f5775a821" level="file">
+        <did>
+          <unittitle>Report of committee to divide burial grounds</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1834">1834</datesingle>
+          </unitdatestructured>
+          <container id="aspace_532377153524ac8f3e5f6f832aea6943" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_d283024497c85fb5b5916a09b86341d8" localtype="folder"
+            parent="aspace_532377153524ac8f3e5f6f832aea6943">12</container>
+        </did>
+        <scopecontent id="aspace_f817669ae187c9ee9082442fc053fdcc">
+          <head>Scope and Contents</head>
+          <p>This 1834 document is two pages and includes a report of success from a committee
+            appointed to divide the "North east corner of the burying grounds" into sections and
+            lots.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_9cc1c8709893f301f9edbf190861b54b" level="file">
+        <did>
+          <unittitle>Rules for the Sexton of the Meeting House</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1839">1839</datesingle>
+          </unitdatestructured>
+          <container id="aspace_8d27baa9c4831c579e11ce235b94aacb" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_b8cc13c789fb743ef4ee727cf58e6971" localtype="folder"
+            parent="aspace_8d27baa9c4831c579e11ce235b94aacb">13</container>
+        </did>
+        <scopecontent id="aspace_21bc255626a40d139664ab819257fc7b">
+          <head>Scope and Contents</head>
+          <p>This 1839 document is four pages and provides a written set of rules to be followed by
+            the Sexton of the Meeting House.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_f1d2744d93043b61c320f4a8b21bac94" level="file">
+        <did>
+          <unittitle>Deed of pew to George S. Duell</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1844">1844</datesingle>
+          </unitdatestructured>
+          <container id="aspace_75c0f5ed83c40ea0c9c552bd35ab652d" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_a869f0c6e7d6919e0c059d1dd6381c11" localtype="folder"
+            parent="aspace_75c0f5ed83c40ea0c9c552bd35ab652d">14</container>
+        </did>
+      </c01>
+      <c01 id="aspace_2f35e45f257a9a702447bde619ec29f4" level="file">
+        <did>
+          <unittitle>Extract from the WIll of Moses Barnes</unittitle>
+          <unitdatestructured calendar="gregorian" certainty="approximate" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1852">1852</fromdate>
+              <todate standarddate="1858">1858</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" certainty="approximate" unitdatetype="inclusive">circa
+            1852-1858</unitdate>
+          <container id="aspace_3da2616c3fd0195599118a8f68474435" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_217370856d466196c785faf65c3064da" localtype="folder"
+            parent="aspace_3da2616c3fd0195599118a8f68474435">15</container>
+        </did>
+      </c01>
+      <c01 id="aspace_acc835b07d78e9819a836d8630465b86" level="file">
+        <did>
+          <unittitle>Certificate of Organization</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1913">1913</datesingle>
+          </unitdatestructured>
+          <container id="aspace_a62f467f99c8fdfe9de3edf050318876" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_8f67e3baeafcd651768261543124dcc1" localtype="folder"
+            parent="aspace_a62f467f99c8fdfe9de3edf050318876">18</container>
+        </did>
+      </c01>
+      <c01 id="aspace_5b32dcd585d4cfbc039763473fe6057c" level="file">
+        <did>
+          <unittitle>Two Notices of Organizing Church meetings</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1913">1913</datesingle>
+          </unitdatestructured>
+          <container id="aspace_1531d17e22de03dc3c8b2347a7bd9843" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_a74f4b4096d910034437224cf1c030bd" localtype="folder"
+            parent="aspace_1531d17e22de03dc3c8b2347a7bd9843">19</container>
+        </did>
+      </c01>
+      <c01 id="aspace_669b22f26d47ba5e72d1048a0f4a48ad" level="file">
+        <did>
+          <unittitle>Letter from Rev. Samuel Dunham to Rev. J. H. Hoffman</unittitle>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <datesingle standarddate="1917">1917</datesingle>
+          </unitdatestructured>
+          <container id="aspace_efdbfc728da432e42e4986977c950f67" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_c5a01374d1dc2292841117bb3e20761b" localtype="folder"
+            parent="aspace_efdbfc728da432e42e4986977c950f67">20</container>
+        </did>
+      </c01>
+      <c01 id="aspace_e4fee1eacb97b70a975bcf4a35e26f36" level="file">
+        <did>
+          <unittitle>Petition to the legislature for division of the town</unittitle>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+          <container id="aspace_028870f0b7a68c6ac78e3351bfda4693" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_0016512e5b273a662077b20b81b04867" localtype="folder"
+            parent="aspace_028870f0b7a68c6ac78e3351bfda4693">5</container>
+        </did>
+        <scopecontent id="aspace_9e1ce5f37d5e141a0e1baab02c9955bc">
+          <head>Scope and Contents</head>
+          <p>This undated document is two pages and includes a formal petition to the legislature of
+            Massachusetts for the division of the town of Brookfield.</p>
+        </scopecontent>
+      </c01>
+      <c01 id="aspace_793190afcb18ffabfb92ecb4acca1c7f" level="file">
+        <did>
+          <unittitle>Resolution Statement to honor Miss Mary J. Holt</unittitle>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+          <container id="aspace_1f6488402bbedd16b65d006baf39c235" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_3e013646b6e3a92693d7c5e3d5e45ddd" localtype="folder"
+            parent="aspace_1f6488402bbedd16b65d006baf39c235">16</container>
+        </did>
+      </c01>
+      <c01 id="aspace_d14eea9e72f893c54503d4ae06c26fa9" level="file">
+        <did>
+          <unittitle>Report of Church Building Committee</unittitle>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+          <container id="aspace_c83e5483dd45223b1a3f15914e9168ed" label="Mixed Materials"
+            localtype="box">1</container>
+          <container id="aspace_dfbe2b53417c7d7d2df3d0c7af5347f5" localtype="folder"
+            parent="aspace_c83e5483dd45223b1a3f15914e9168ed">17</container>
+        </did>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
