@@ -1,0 +1,1293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/JaffreyNHUnited-0106.xml"
+      >JaffreyNHUnited-0106</recordid>
+    <representation localtype="pdf"
+      href="http://www.congregationallibrary.org/sites/all/files/JaffreyNHUnited-0106.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Jaffrey, N.H. United Church of Jaffrey records, 1827-1980.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2017-08-14</date>
+        <num>RG0106</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language>English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2020-10-05T18:58:21+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.5.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Monday October 5,
+          2020 at 18:58</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Jaffrey, N.H. United Church of Jaffrey records, 1827-1980.</unittitle>
+      <unitid>RG0106</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>1.79</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(3 boxes)</physdesc>
+      <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1827">1827</fromdate>
+          <todate standarddate="1980">1980</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" unitdatetype="inclusive">1827-1980</unitdate>
+      <abstract id="aspace_18706793457cba1c8de53a6adea4f5f5">The roots of the United Church of
+        Jaffrey start in 1850 when 23 members of Jaffrey's First Congregational Church established
+        Jaffrey East Orthodox Congregational Church, erecting a meeting-house the same year. The
+        United Church records document the history and life of the church, including reports,
+        meeting minutes, vital statistics, financial information, church bulletins, auxiliary
+        groups, correspondence, and property deeds. Records are fragmentary and
+        incomplete.</abstract>
+      <origination label="creator">
+        <corpname identifier="n98091719" source="lcnaf">
+          <part>East Congregational Church (Jaffrey, N.H.)</part>
+        </corpname>
+      </origination>
+      <origination label="creator">
+        <corpname rules="AACR2" source="naf">
+          <part>Federated Church (Jaffrey, N.H.)</part>
+        </corpname>
+      </origination>
+      <origination label="creator">
+        <corpname identifier="n98091731" source="lcnaf">
+          <part>First Baptist Church (Jaffrey, N.H.)</part>
+        </corpname>
+      </origination>
+      <origination label="creator">
+        <corpname rules="AACR2" source="naf">
+          <part>Universalist Church (Jaffrey, N.H.)</part>
+        </corpname>
+      </origination>
+      <origination label="creator">
+        <corpname identifier="n98091740" source="lcnaf">
+          <part>United Church of Jaffrey (Jaffrey, N.H.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_a5fea5c66ded6cc4aa5be0e2b7be8919">
+      <head> Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_551ee68546d0e1c3a314f1bf5b316e64">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite id="aspace_da574f601226a2a19172070c2fea09a4">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Jaffrey, N.H. United Church of Jaffrey records, 1827-1980,
+        RG0106. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_ada9c11af70e34555ce652bbd0a2eb02">
+      <head>Acquisition Information</head>
+      <p>Permanently loaned to the Congregational Library &amp; Archives by The United Church of
+        Jaffrey, June 1991; Acc# 1992-1.</p>
+    </acqinfo>
+    <processinfo id="aspace_937d78e874777635a5e25e17a9260be4">
+      <head>Processing Information</head>
+      <p>Re-processed by Zachary Bodnar, August 2017, using DACS Second Edition.</p>
+    </processinfo>
+    <bioghist id="aspace_a816fef74ca092d2188c900be65813ad">
+      <head>Historical Note</head>
+      <p>The roots of the United Church of Jaffrey start in 1850 when 23 members of Jaffrey's First
+        Congregational Church established Jaffrey East Orthodox Congregational Church, erecting a
+        meeting-house the same year. The church built a parsonage and vestry in 1876. When the
+        town's Universalist minister, Myron L. Cutler, died in 1930 the members of his church chose
+        to join with East's congregation rather than find a new minister. The members of East also
+        had connections with the Baptist church and still with First Congregational. Further
+        inter-denominational ties were drawn when Jaffrey's Baptist minister, Roger Floyd, left his
+        position in 1949. The small Baptist church chose to close rather than find a new minister;
+        most of the members joined East. At this point, there were equal number of Baptists and
+        Congregationalists, prompting a shift in name and organization. East Orthodox Church became
+        the Federated Church with separate covenants for each denomination. In 1957 the
+        Congregational members of the church voted to become a Covenant member of the New Hampshire
+        Conference of the New Hampshire Conference of the United Church of Christ. After maintaining
+        membership with both Baptist and UCC denominations, the members decided to withdraw from the
+        Baptist Convention in 1970 to simplify day to day work as well as strengthen the bond as one
+        United Church.</p>
+      <p>The Federated Church continued services in the old Baptist building, which was larger than
+        the Congregational building. In 1959 the Federated Church dissolved its two components and
+        formed the United Church of Jaffrey. Further building changes started in 1967. The old
+        parish hall and parsonage were in disrepair. The current trend by mid-20th century was for
+        ministers to live in their own house. This, plus the cost of restoration, meant the church
+        chose to tear down the parsonage and old hall and build a new hall in 1970.</p>
+      <p><emph render="bold">Ministers</emph></p>
+      <list>
+        <item><emph render="bold">East Congregational Church</emph></item>
+        <item>John Edward Bullard Jewett 1850-1852</item>
+        <item>George Washington Adams 1854-1857</item>
+        <item>Franklin Dexter Austin 1858-1863</item>
+        <item>C.W. Allen 1863-1870</item>
+        <item>John C. Gowan 1870-1871</item>
+        <item>Darius Newton Goodrich 1872-1874</item>
+        <item>W. H. Dowden 1875-1880</item>
+        <item>John Calvin Staples 1880-1883</item>
+        <item>Ezra Jackson Riggs 1883-1886</item>
+        <item>Moses T. Runnells 1886-1889</item>
+        <item>Edward I. Ross 1890-1891</item>
+        <item>William H. Stuart 1891-1899</item>
+        <item>J. Sherman Grove 1899-1903</item>
+        <item>Millard Fillmore Hardy 1904-1910</item>
+        <item>David Howie 1911-1914</item>
+        <item>Charles G. Johnson 1915-1919</item>
+        <item>John H. Hoffman 1920-1922</item>
+        <item>Ambrose Jenkins 1923</item>
+        <item>Bruce W. Cronmiller 1924-1930</item>
+        <item>Henry Rees Jones 1930-1933</item>
+        <item>G. Gerald Parker 1933-1939</item>
+        <item>Levering Reynolds, Jr. 1939-1945</item>
+        <item>Richard Stoughton, Jr. 1945-1957</item>
+        <item><emph render="bold">Federated Church</emph></item>
+        <item>Byron Higgon 1957-1961</item>
+        <item><emph render="bold">United Church</emph></item>
+        <item>Interim Ministers 1961-1963</item>
+        <item>Mario Cestaro 1963-1969</item>
+        <item><emph render="bold">United Church, UCC</emph></item>
+        <item>Franklin L. Irvine 1969-1972</item>
+        <item>Emily B Preston 1972-1993</item>
+        <item>Lois Sundeen 1993-1995</item>
+        <item>William Beardslee 1995-2007</item>
+        <item>J.M. Shepherd 2007-2009</item>
+        <item>Teri Motley 2009-2014</item>
+        <item>Christopher C Owen 2014-2016</item>
+        <item>Mark Koyama 2016-present</item>
+      </list>
+    </bioghist>
+    <scopecontent id="aspace_8ef8c9d4e6878d1f1441583600e2f9c0">
+      <head>Scope and Contents</head>
+      <p>The United Church records document the history and life of the church, including reports,
+        meeting minutes, vital statistics, financial information, church bulletins, auxiliary
+        groups, correspondence, and property deeds. Please be sure to read the history of the church
+        and note both Universalist and Baptist church records are included from those extinct
+        congregations. All series records are fragmentary and incomplete.</p>
+    </scopecontent>
+    <arrangement id="aspace_57740d24ddb2bd8b911c27a9a4e4ac2f">
+      <head>Arrangement</head>
+      <p>The collection has been organized into the five series listed below. Within each series,
+        records have been arranged chronologically.</p>
+      <p><emph render="bold">Series 1:</emph> First Baptist Church Records, 1827-1964</p>
+      <p><emph render="bold">Series 2:</emph> East Congregational Church Records, 1849-1968</p>
+      <p><emph render="bold">Series 3:</emph> First Universalist Society Records, 1875-1939</p>
+      <p><emph render="bold">Series 4:</emph> Federated Church Records, 1949-1959</p>
+      <p><emph render="bold">Series 5:</emph> United Church Records, 1956-1980</p>
+    </arrangement>
+    <relatedmaterial id="aspace_096717620dbe47b68d4f72da61083b6f">
+      <head>Related Materials</head>
+      <p>Cutter, Daniel B. <emph render="italic">History of the town of Jaffrey New Hampshire, from
+          the date of the Masonian Charter to the present time, 1749-1880</emph>, Concord NH:
+        Republican Press Association. 1881. (T J18.4C)</p>
+      <p>Gerould, Samuel L. <emph render="italic">The Congregational and Presbyterian Churches and
+          Ministers of New Hampshire Connected With the General Association</emph>. Lebanon NH :
+        H.E. Waite &amp; Co. 1900. (9.3.67 (2))</p>
+      <p>Lawrence, Robert F. <emph render="italic">The New Hampshire Churches: comprising histories
+          of the Congregational and Presbyterian churches in the state. . .</emph> Claremont
+        Manufacturing Co. 1856. (9.3.36)</p>
+      <p>Livingston, W.W. and DeBevoise, G.H. <emph render="italic">Seventy Years of Cheshire
+          Conference</emph>. Keene NH : Darling &amp; Co. 1897. (9.6.37(1))</p>
+    </relatedmaterial>
+    <bibliography id="aspace_5c77a888faafecd957517ed49de8eff5">
+      <head>Bibliography</head>
+      <p>The United Church of Jaffrey, UCC. Celebrating 150 Years 1850-2000. Jaffrey: United Church
+        of Jaffrey, U.C.C., 2000</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025666" source="lcsh">
+        <part>Church newsletters.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85025766" source="lcsh">
+        <part>Church societies.</part>
+      </subject>
+      <subject identifier="sh85025209" source="lcsh">
+        <part>Christian union.</part>
+      </subject>
+      <subject identifier="sh85026945" source="lcsh">
+        <part>Clergy -- Appointment, call, and election.</part>
+      </subject>
+      <subject identifier="sh85027084" source="lcsh">
+        <part>Clippings (Books, newspapers, etc.).</part>
+      </subject>
+      <subject identifier="sh94007643" source="lcsh">
+        <part>Unitarian controversy.</part>
+      </subject>
+      <corpname identifier="n98091719" source="lcnaf">
+        <part>East Congregational Church (Jaffrey, N.H.)</part>
+      </corpname>
+      <corpname rules="AACR2" source="naf">
+        <part>Federated Church (Jaffrey, N.H.)</part>
+      </corpname>
+      <corpname identifier="n98091731" source="lcnaf">
+        <part>First Baptist Church (Jaffrey, N.H.)</part>
+      </corpname>
+      <corpname identifier="n98091697" source="lcnaf">
+        <part>Jaffrey (N.H.) -- Church history.</part>
+      </corpname>
+      <corpname identifier="n98091740" source="lcnaf">
+        <part>United Church of Jaffrey (Jaffrey, N.H.)</part>
+      </corpname>
+      <corpname rules="AACR2" source="naf">
+        <part>Universalist Church (Jaffrey, N.H.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 id="aspace_b0b86e84c102313d5807e5bcc7a04fa3" level="series">
+        <did>
+          <unittitle>First Baptist Church records</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>11</quantity>
+            <unittype>Files</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" era="ce" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1827">1827</fromdate>
+              <todate standarddate="1964">1964</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" era="ce" unitdatetype="inclusive">1827-1964</unitdate>
+        </did>
+        <bioghist id="aspace_4ad214757be2ccf78f305a7a2a289545">
+          <head>Historical Note</head>
+          <p>The first meeting of the First Baptist Church in Jaffrey met on January 28, 1814. In
+            1823 the First Baptist Church &amp; Society was formed and incorporated. After Rev.
+            Roger Floyd departed in 1949, the Baptists voted to join in federation with the East
+            Congregational Church, forming The Federated Church in Jeffrey. In 1959, after a decade
+            of separate worship, the Congregationalists and Baptists joined fully and formed the
+            United Church of Jaffrey.</p>
+        </bioghist>
+        <scopecontent id="aspace_4d6cb44acb923190ef0f6aecce56ce45">
+          <head>Scope and Contents</head>
+          <p>This series includes records from the extinct First Baptist Church in Jaffrey, NH.
+            Types of records include: meeting minutes for several church societies; annual reports;
+            letters of dismission; membership lists; property deeds.</p>
+        </scopecontent>
+        <c02 id="aspace_152705428d748a3fd401e9c359058e4c" level="file">
+          <did>
+            <unittitle>Real estate deeds</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1827">1827</fromdate>
+                <todate standarddate="1953">1953</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1827-1953</unitdate>
+            <container id="aspace_2c526648abbbcc44f9abaa9a513202dc" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_d1e4f5b2185bc7f42a82a56bddfb32f6" localtype="folder"
+              parent="aspace_2c526648abbbcc44f9abaa9a513202dc">13</container>
+          </did>
+        </c02>
+        <c02 id="aspace_078131095988e69bcbb33c12c2066b1b" level="file">
+          <did>
+            <unittitle>Baptist Female Benevolent Working Society minutes</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1844">1844</fromdate>
+                <todate standarddate="1870">1870</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1844-1870</unitdate>
+            <container id="aspace_0ec89b0c8cd52fa9441a6b5b2ba7f6e2" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_07c0a1e19c5327a050866e575faec1a3" localtype="folder"
+              parent="aspace_0ec89b0c8cd52fa9441a6b5b2ba7f6e2">9</container>
+          </did>
+        </c02>
+        <c02 id="aspace_45b44508f62e0ee42af4a7e6b1bccc82" level="file">
+          <did>
+            <unittitle>Cheerful Workers minutes</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1878">1878</fromdate>
+                <todate standarddate="1880">1880</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1878-1880</unitdate>
+            <container id="aspace_f0ca394dff74b8573d5d592c3157cd55" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_3d4a9f8b0231291ee90a66c6079988e7" localtype="folder"
+              parent="aspace_f0ca394dff74b8573d5d592c3157cd55">10</container>
+          </did>
+        </c02>
+        <c02 id="aspace_d7eb9a97e80dcba50cdae5e39cd93dc2" level="file">
+          <did>
+            <unittitle>Charity Square minutes</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1883">1883</fromdate>
+                <todate standarddate="1887">1887</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1883-1887</unitdate>
+            <container id="aspace_bbd3435d3bcc3e6c2f70ab25fe54ff26" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_8938442e63d5229d4429971ff1ad0e9d" localtype="folder"
+              parent="aspace_bbd3435d3bcc3e6c2f70ab25fe54ff26">6</container>
+          </did>
+        </c02>
+        <c02 id="aspace_ab37d13259e2a4a02fdc34892813921e" level="file">
+          <did>
+            <unittitle>Charity Square minutes</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1888">1888</fromdate>
+                <todate standarddate="1898">1898</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1888-1898</unitdate>
+            <container id="aspace_2007bba28695a4886c5fd1029ff938a9" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_0cb3f49fa84da59002e965df0937edcb" localtype="folder"
+              parent="aspace_2007bba28695a4886c5fd1029ff938a9">7</container>
+          </did>
+        </c02>
+        <c02 id="aspace_a84f240b9de75a11afebbf63d0accf31" level="file">
+          <did>
+            <unittitle>Charity Square minutes</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1898">1898</fromdate>
+                <todate standarddate="1934">1934</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1898-1934</unitdate>
+            <container id="aspace_b8f029854392087bf06ce928626100d4" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_385c9ce869e6af6cb3089177abd86d95" localtype="folder"
+              parent="aspace_b8f029854392087bf06ce928626100d4">8</container>
+          </did>
+        </c02>
+        <c02 id="aspace_15d74b64afeaad7c1401c4e693dd90af" level="file">
+          <did>
+            <unittitle>Gold Gatherers minutes</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1895">1895</fromdate>
+                <todate standarddate="1897">1897</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1895-1897</unitdate>
+            <container id="aspace_2790f7b73c42e9aba91900e5e82114ba" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_15ebd033cbc254fea01e5aa6a86e2c31" localtype="folder"
+              parent="aspace_2790f7b73c42e9aba91900e5e82114ba">11</container>
+          </did>
+        </c02>
+        <c02 id="aspace_21833479ffdd44d1e17bea9c62e3488e" level="file">
+          <did>
+            <unittitle>Women's Foreign Mission Society minutes</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1897">1897</fromdate>
+                <todate standarddate="1920">1920</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1897-1920</unitdate>
+            <container id="aspace_32f568b73f3d3e23d7341386f2c03766" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_2dbcb2bf8e6b59a462963202d4a5f2f1" localtype="folder"
+              parent="aspace_32f568b73f3d3e23d7341386f2c03766">12</container>
+          </did>
+        </c02>
+        <c02 id="aspace_7473f1a12edaf764a064c1b50999b3d5" level="file">
+          <did>
+            <unittitle>First Baptist Church</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1946">1946</fromdate>
+                <todate standarddate="1959">1959</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1946-1959</unitdate>
+            <container id="aspace_ff90d42df8db48955b45257b51db1ec2" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_33036631a80d4367135064e8adc3b3e3" localtype="folder"
+              parent="aspace_ff90d42df8db48955b45257b51db1ec2">3</container>
+          </did>
+        </c02>
+        <c02 id="aspace_8101d2fe1f2dc07f806f2cda4d323a3f" level="file">
+          <did>
+            <unittitle>Warrants, annual meeting minutes, reports</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1949">1949</fromdate>
+                <todate standarddate="1958">1958</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1949-1958</unitdate>
+            <container id="aspace_57db3df0dd19652a52d1c625d73ea215" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_4abfae61c0f7a1991add3ca0846e9639" localtype="folder"
+              parent="aspace_57db3df0dd19652a52d1c625d73ea215">5</container>
+          </did>
+        </c02>
+        <c02 id="aspace_508930ec22338e91db5bd1c0bc54e67c" level="file">
+          <did>
+            <unittitle>Yearly reports and conventions</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1949">1949</fromdate>
+                <todate standarddate="1964">1964</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1949-1964</unitdate>
+            <container id="aspace_9263b5673b78b87d39eb40ae91074bd7" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_880b360e0e293a27412fa27239646fb4" localtype="folder"
+              parent="aspace_9263b5673b78b87d39eb40ae91074bd7">4</container>
+          </did>
+        </c02>
+      </c01>
+      <c01 id="aspace_b779572c9a8be270e508e8a9ff93410f" level="series">
+        <did>
+          <unittitle>East Congregational Church records</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>17</quantity>
+            <unittype>Files</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" era="ce" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1849">1849</fromdate>
+              <todate standarddate="1968">1968</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" era="ce" unitdatetype="inclusive">1849-1968</unitdate>
+        </did>
+        <bioghist id="aspace_ff693112eca863f8c072be10c5bbd421">
+          <head>Historical Note</head>
+          <p>In 1850, 23 members of Jaffrey's First Congregational Church requested letters of
+            dismission to begin a new Church in the increasingly populous eastern part of the town.
+            That same year the East Congregational Church was built. 1876 saw an expansion of the
+            church's property with the addition of a parsonage and vestry. In 1949, the
+            Congregational and Baptist churches joined in Federation becoming the Federated Church
+            of Jaffrey.</p>
+        </bioghist>
+        <scopecontent id="aspace_c2e8e12ab4b11daea0a82645025e2bb3">
+          <head>Scope and Contents</head>
+          <p>This series includes records from the East Jaffrey Congregational Church in Jaffrey,
+            NH. Types of records include: meeting minutes for several church societies; vital
+            statistics; treasurer's records; correspondence; news clippings; property deeds; church
+            letters; church histories; 1 photograph.</p>
+        </scopecontent>
+        <c02 id="aspace_35f7c906f79c9b022fccddc70cd53100" level="file">
+          <did>
+            <unittitle>Deeds</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1849">1849</fromdate>
+                <todate standarddate="1968">1968</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1849-1968</unitdate>
+            <container id="aspace_e4291236a63b770683e25916c0ed1bf0" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_43d3a6e5d56b4fd54a2efbdc6efb8a94" localtype="folder"
+              parent="aspace_e4291236a63b770683e25916c0ed1bf0">21</container>
+          </did>
+        </c02>
+        <c02 id="aspace_f9c4c6ca5066aaa3a01a25bfed69ca74" level="file">
+          <did>
+            <unittitle>Register of vital statistics</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1875">1875</fromdate>
+                <todate standarddate="1958">1958</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1875-1958</unitdate>
+            <container id="aspace_34d0f89afd32c241a7348ececbf45e5c" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_2fbbd3e0030e823915143adc984f9705" localtype="folder"
+              parent="aspace_34d0f89afd32c241a7348ececbf45e5c">14</container>
+          </did>
+        </c02>
+        <c02 id="aspace_e1268704d88c99e4cfdb0311e3ca14e9" level="file">
+          <did>
+            <unittitle>Society minutes, standing committee reports</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1882">1882</fromdate>
+                <todate standarddate="1949">1949</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1882-1949</unitdate>
+            <container id="aspace_83c92ba82925d2196bef286f2289cf6c" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_4c1c075a2b51983d8d41f927056a848b" localtype="folder"
+              parent="aspace_83c92ba82925d2196bef286f2289cf6c">16</container>
+          </did>
+        </c02>
+        <c02 id="aspace_45909fe31f9f312adf6371c5cf018187" level="file">
+          <did>
+            <unittitle>Loose papers and minutes</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1884">1884</fromdate>
+                <todate standarddate="1946">1946</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1884-1946</unitdate>
+            <container id="aspace_4529aeca06030943b5554925a7d93941" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_9ffcdce914e26290ca6eea5b046e11ee" localtype="folder"
+              parent="aspace_4529aeca06030943b5554925a7d93941">15</container>
+          </did>
+        </c02>
+        <c02 id="aspace_5407c362c65e8d32c77e2c5da2996f2c" level="file">
+          <did>
+            <unittitle>50th anniversary history</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1899">1899</datesingle>
+            </unitdatestructured>
+            <container id="aspace_ca097dbfc9876e9de625adb7fa8e72d9" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_9f774e3f916fa434fb85a11a99c97f0e" localtype="folder"
+              parent="aspace_ca097dbfc9876e9de625adb7fa8e72d9">25</container>
+          </did>
+        </c02>
+        <c02 id="aspace_7258f6308255be5a7f38ee852a0ad20d" level="file">
+          <did>
+            <unittitle>Manuscript histories</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1899">1899</fromdate>
+                <todate standarddate="1903">1903</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1899-1903</unitdate>
+            <container id="aspace_0ea950c58170e139b42bbe9f86f789b0" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_c14f0b6fbd003b08e486ce5141a36756" localtype="folder"
+              parent="aspace_0ea950c58170e139b42bbe9f86f789b0">26</container>
+          </did>
+        </c02>
+        <c02 id="aspace_adb21fe8b92f01246229ea6a8b777fef" level="file">
+          <did>
+            <unittitle>Junior Christian Endeavor minutes</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1902">1902</fromdate>
+                <todate standarddate="1903">1903</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1902-1903</unitdate>
+            <container id="aspace_03e241d4ac9f7305393e67e7b7a5e1a3" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_69880930786ac88e41d4624737a0f7e5" localtype="folder"
+              parent="aspace_03e241d4ac9f7305393e67e7b7a5e1a3">23</container>
+          </did>
+        </c02>
+        <c02 id="aspace_745e929fd7312764e0a56beff56d28e2" level="file">
+          <did>
+            <unittitle>Junior Christian Endeavor minutes</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1904">1904</fromdate>
+                <todate standarddate="1909">1909</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1904-1909</unitdate>
+            <container id="aspace_0cd7de79807b912723f45cd1ed1d6d6f" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_d53ecdebd702a384599227a0667e4bd8" localtype="folder"
+              parent="aspace_0cd7de79807b912723f45cd1ed1d6d6f">24</container>
+          </did>
+        </c02>
+        <c02 id="aspace_3d9ede7c096002b13cb970f8b4df0df2" level="file">
+          <did>
+            <unittitle>Memorial funds, bank book, and wills</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1903">1903</fromdate>
+                <todate standarddate="1975">1975</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1903-1975</unitdate>
+            <container id="aspace_d7c2efcc119265846ef4f60012ba0154" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_5e72fda542da83d7626926d98f61cf0b" localtype="folder"
+              parent="aspace_d7c2efcc119265846ef4f60012ba0154">22</container>
+          </did>
+        </c02>
+        <c02 id="aspace_0d3224d2cc5fa11216b7c59a5e6fea0d" level="file">
+          <did>
+            <unittitle>Documentation and receipts for church name change</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1919">1919</fromdate>
+                <todate standarddate="1951">1951</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1919-1951</unitdate>
+            <container id="aspace_ab2ac1890d0cf6024e3d8bb0e37a142d" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_3b3401c0bc8d6a28dd791c8ead5d37cb" localtype="folder"
+              parent="aspace_ab2ac1890d0cf6024e3d8bb0e37a142d">20</container>
+          </did>
+        </c02>
+        <c02 id="aspace_22dec5d5ac7a0c12928db84974dd7e61" level="file">
+          <did>
+            <unittitle>Repair fund ledgers</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1930">1930</fromdate>
+                <todate standarddate="1940">1940</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1930-1940</unitdate>
+            <container id="aspace_0cae7f46a9768df7f0afa7cf52938d0e" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_11e213fa3b765b663a6759b6c19d64a0" localtype="folder"
+              parent="aspace_0cae7f46a9768df7f0afa7cf52938d0e">19</container>
+          </did>
+        </c02>
+        <c02 id="aspace_482498f1c1f1b9132ab79ac576b284e1" level="file">
+          <did>
+            <unittitle>News clippings from The Recorder</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1934">1934</fromdate>
+                <todate standarddate="1937">1937</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1934-1937</unitdate>
+            <container id="aspace_c07dce17c80f1bee46ddfa236db1aeef" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_ff0f4766f0591edc8e0d0090520288ba" localtype="folder"
+              parent="aspace_c07dce17c80f1bee46ddfa236db1aeef">28</container>
+          </did>
+        </c02>
+        <c02 id="aspace_18d375710cccc2df614410d273cc8793" level="file">
+          <did>
+            <unittitle>Monthly church letter</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1934">1934</fromdate>
+                <todate standarddate="1939">1939</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1934-1939</unitdate>
+            <container id="aspace_1bcf5dea487f583f1b39d3b1b89288be" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_371f1e71697c3fa956cb268f13f9c342" localtype="folder"
+              parent="aspace_1bcf5dea487f583f1b39d3b1b89288be">27</container>
+          </did>
+        </c02>
+        <c02 id="aspace_8447c53ac9fbd55c35ecc4f714e8a120" level="file">
+          <did>
+            <unittitle>Treasurer's ledger</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1934">1934</fromdate>
+                <todate standarddate="1941">1941</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1934-1941</unitdate>
+            <container id="aspace_30b5217e2a672efa64716b645a268e3a" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_3e5d082668e356e476ed9ff1b851d0de" localtype="folder"
+              parent="aspace_30b5217e2a672efa64716b645a268e3a">17</container>
+          </did>
+        </c02>
+        <c02 id="aspace_176424162a8bd856e389455228a7cbae" level="file">
+          <did>
+            <unittitle>George Gerald Parker papers</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1935">1935</fromdate>
+                <todate standarddate="1939">1939</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1935-1939</unitdate>
+            <container id="aspace_a71679770db0e26fda50f6152e2214d5" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_4ded20dcdb3fa3a28e9f87e9dcc1c3b5" localtype="folder"
+              parent="aspace_a71679770db0e26fda50f6152e2214d5">29</container>
+          </did>
+        </c02>
+        <c02 id="aspace_493ce46ec2f868c393fdaef8a8880a67" level="file">
+          <did>
+            <unittitle>Special funds and endowment lists</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1935">1935</fromdate>
+                <todate standarddate="1958">1958</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1935-1958</unitdate>
+            <container id="aspace_a1be4eccb8ed4c06e1c09778b13b59f5" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_2264f670c976a82f2089d067f66673df" localtype="folder"
+              parent="aspace_a1be4eccb8ed4c06e1c09778b13b59f5">18</container>
+          </did>
+        </c02>
+        <c02 id="aspace_d28d699102667c01f80dd759f0075370" level="file">
+          <did>
+            <unittitle>Edward I. Ross photograph</unittitle>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_4d146d3ffdbeffe8a4b577e7d4aa78f2" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_de20c0e88ed50535c41d7f037a58ef9b" localtype="folder"
+              parent="aspace_4d146d3ffdbeffe8a4b577e7d4aa78f2">30</container>
+          </did>
+        </c02>
+      </c01>
+      <c01 id="aspace_36fc59ceea2049b70e21548edfe7e9fa" level="series">
+        <did>
+          <unittitle>First Universalist Society records</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>2</quantity>
+            <unittype>Files</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1875">1875</fromdate>
+              <todate standarddate="1939">1939</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" unitdatetype="inclusive">1875-1939</unitdate>
+        </did>
+        <bioghist id="aspace_01ed6f10ee52f26e99a7d27bfcf8603d">
+          <head>Historical Note</head>
+          <p>The First Universalist Society of Jaffrey was started in 1822 and the Society was
+            incorporated as a religious corporate body in 1875. The death of Rev. Myron L. Cutler in
+            1930, after serving his church for 43 years, became the impetus for the small
+            congregation to close permanently with many of its members joining East Congregational
+            Church and smaller numbers joining both the Baptist Church and First Church.</p>
+        </bioghist>
+        <scopecontent id="aspace_ac866d7d762050f2d551e904927fefda">
+          <head>Scope and Contents</head>
+          <p>This series includes records from the extinct First Universalist Society in Jaffrey,
+            NH. Types of records include: yearbooks; annual meeting reports; trustees reports;
+            treasurer's and collector's reports; sales receipts; church histories.</p>
+        </scopecontent>
+        <c02 id="aspace_27e5350715f5448844d6729ce312c051" level="file">
+          <did>
+            <unittitle>First Universalist Society records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1901">1901</fromdate>
+                <todate standarddate="1939">1939</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1901-1939</unitdate>
+            <container id="aspace_2f6c32c748f04936d807c936621b13f2" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_8506a021c7cfa2e497f886c9635e5691" localtype="folder"
+              parent="aspace_2f6c32c748f04936d807c936621b13f2">1</container>
+          </did>
+        </c02>
+        <c02 id="aspace_d0c95602648ec1e22d26f12c01c1f0a1" level="file">
+          <did>
+            <unittitle>First Universalist Society records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1875">1875</fromdate>
+                <todate standarddate="1938">1938</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1875-1938</unitdate>
+            <container id="aspace_a61321270dfb5a446abf685d84b43ead" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_9f95a66aebbcd77a05cbebf6d22a3c17" localtype="folder"
+              parent="aspace_a61321270dfb5a446abf685d84b43ead">2</container>
+          </did>
+        </c02>
+      </c01>
+      <c01 id="aspace_a01ecd2e54d211a230926d5bc4868fec" level="series">
+        <did>
+          <unittitle>Federated Church records</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>8</quantity>
+            <unittype>Files</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" era="ce" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1949">1949</fromdate>
+              <todate standarddate="1959">1959</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" era="ce" unitdatetype="inclusive">1949-1959</unitdate>
+        </did>
+        <bioghist id="aspace_9bbba4c6c39f49bdd4da2c2b4a7bdb4e">
+          <head>Historical Note</head>
+          <p>The Federated Church of Jaffrey formed in 1949 after the First Baptist Church and the
+            East Jaffrey Congregational Church joined in federation. The two denominations
+            maintained separate worship and Covenants with the New Hampshire Baptist Convention and
+            New Hampshire Conference of Congregational-Christian Churches. Worship was held at the
+            Federated Church while the Baptist Church at Charity Square became the new Parish Hall
+            and center of church-related activities. In 1959, at the recommendation of the Rev.
+            Richard Stoughton, Jr., the two member churches of the Federated Church dissolved and
+            together formed the United Church of Jaffrey.</p>
+        </bioghist>
+        <scopecontent id="aspace_111ce277fcf6bcb2230208847e1b443b">
+          <head>Scope and Contents</head>
+          <p>This series includes records from the Federated Church in Jaffrey, NH. Types of records
+            include: meeting minutes for several church societies; annual meeting minutes; church
+            correspondence; Sunday calendars; religious histories; sermon.</p>
+        </scopecontent>
+        <c02 id="aspace_e15160e41864d8e21632c817ee2b7710" level="file">
+          <did>
+            <unittitle>Articles of agreement, amendments, and incorporation</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1949">1949</fromdate>
+                <todate standarddate="1958">1958</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1949-1958</unitdate>
+            <container id="aspace_e4b6e1516a054a7bc03d9b65cc677202" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_a0eebd4a1cf27eb2a80a4281e37ec46b" localtype="folder"
+              parent="aspace_e4b6e1516a054a7bc03d9b65cc677202">32</container>
+          </did>
+        </c02>
+        <c02 id="aspace_838289d234ec287332583a10a5e0ff18" level="file">
+          <did>
+            <unittitle>Federated guild minutes</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1950">1950</fromdate>
+                <todate standarddate="1955">1955</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1950-1955</unitdate>
+            <container id="aspace_a3f9c963d7b10d8125039b8a23a98329" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_f2804284342f8aec2d82766bd79029e3" localtype="folder"
+              parent="aspace_a3f9c963d7b10d8125039b8a23a98329">36</container>
+          </did>
+        </c02>
+        <c02 id="aspace_99e64731205c16ef9638051e8ffe16a4" level="file">
+          <did>
+            <unittitle>Annual meetings</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1951">1951</fromdate>
+                <todate standarddate="1959">1959</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1951-1959</unitdate>
+            <container id="aspace_fd000bd6b858f5f6e318a993e22b2452" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_d52680a9770a4d865435beedbc130f0f" localtype="folder"
+              parent="aspace_fd000bd6b858f5f6e318a993e22b2452">33</container>
+          </did>
+        </c02>
+        <c02 id="aspace_24ee5f69abe95d55aaf23f3474b433bb" level="file">
+          <did>
+            <unittitle>The Spire</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1953">1953</fromdate>
+                <todate standarddate="1958">1958</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1953-1958</unitdate>
+            <container id="aspace_50cae0cbe7e799d89b47e0749f10d46e" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_88a932741fa838f387b60c69377cfe4a" localtype="folder"
+              parent="aspace_50cae0cbe7e799d89b47e0749f10d46e">37</container>
+          </did>
+        </c02>
+        <c02 id="aspace_edfaef7494189ff16327fba902ce54e2" level="file">
+          <did>
+            <unittitle>Historical items</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1956">1956</fromdate>
+                <todate standarddate="1958">1958</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1956-1958</unitdate>
+            <container id="aspace_02bd7e20966a5f5b50590aa2d91ad0e3" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_72c425eabebae586655d66a1a1833573" localtype="folder"
+              parent="aspace_02bd7e20966a5f5b50590aa2d91ad0e3">38</container>
+          </did>
+        </c02>
+        <c02 id="aspace_93ec3a736e7b8f92356ffddd93fdc547" level="file">
+          <did>
+            <unittitle>Ministerial search correspondence</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1957">1957</datesingle>
+            </unitdatestructured>
+            <container id="aspace_7e54183d0233dd2a052db03092339996" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_68a15d4bff2e5660ab7196ce483233c1" localtype="folder"
+              parent="aspace_7e54183d0233dd2a052db03092339996">34</container>
+          </did>
+        </c02>
+        <c02 id="aspace_55fd5e973c6a09844afa16ba3473c76f" level="file">
+          <did>
+            <unittitle>Federated church records</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1957">1957</fromdate>
+                <todate standarddate="1959">1959</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1957-1959</unitdate>
+            <container id="aspace_f21473febdf983cccc733d39a25bc797" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_0fc7a5b5d65905374a1ae9c545e84010" localtype="folder"
+              parent="aspace_f21473febdf983cccc733d39a25bc797">31</container>
+          </did>
+        </c02>
+        <c02 id="aspace_bf07f247dff31e2659ab311328a65934" level="file">
+          <did>
+            <unittitle>Deacons/deaconesses meeting minutes</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1958">1958</datesingle>
+            </unitdatestructured>
+            <container id="aspace_d386758b180e120abb529be87332707d" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_bf51ef8efd62a730f7e23e87f0b949ee" localtype="folder"
+              parent="aspace_d386758b180e120abb529be87332707d">35</container>
+          </did>
+        </c02>
+      </c01>
+      <c01 id="aspace_6391c039051b08ef112a992c5fe1d76d" level="series">
+        <did>
+          <unittitle>United Church records</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>17</quantity>
+            <unittype>Files</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" era="ce" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1956">1956</fromdate>
+              <todate standarddate="1980">1980</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" era="ce" unitdatetype="inclusive">1956-1980</unitdate>
+        </did>
+        <bioghist id="aspace_fec63e5bf0b28b1e870ed3d385b322cc">
+          <head>Historical Note</head>
+          <p>The United Church of Jaffrey formed out of the Federated Church in 1959, when the East
+            Congregational Church and First Baptist Church dissolved to form into a single church
+            body. The United Church of Jaffrey is a member of the United Church of Christ and
+            continues to serve its community today.</p>
+        </bioghist>
+        <scopecontent id="aspace_48340477a68bda01ebc24609fb279e69">
+          <head>Scope and Contents</head>
+          <p>This series includes records from The United Church in Jaffrey, NH. Types of records
+            include: meeting minutes for several church societies; annual meeting minutes; deeds;
+            building records; news clippings; newsletters; membership lists; constitution.</p>
+        </scopecontent>
+        <c02 id="aspace_e574aa0031f67328992ab6a0cb8896c1" level="file">
+          <did>
+            <unittitle>Newsletters, bulletins, and newspaper clippings</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1956">1956-1976</datesingle>
+            </unitdatestructured>
+            <container id="aspace_a8f99393f86ae1bed134f1c8315f3892" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_cd7e22245e0921fa6b0afebef744a3c6" localtype="folder"
+              parent="aspace_a8f99393f86ae1bed134f1c8315f3892">55</container>
+          </did>
+        </c02>
+        <c02 id="aspace_c8a76551aa0fb94ee6590c1bd778af01" level="file">
+          <did>
+            <unittitle>Proposals to unite, constitution, and by-laws</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1958">1958</fromdate>
+                <todate standarddate="1970">1970</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1958-1970</unitdate>
+            <container id="aspace_3ab08d55f45f888ff2500575e8da6361" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_03882c1f49d338c4afbb3149a187cbcd" localtype="folder"
+              parent="aspace_3ab08d55f45f888ff2500575e8da6361">43</container>
+          </did>
+        </c02>
+        <c02 id="aspace_2dc5726a19e7abc81470edea1ee44642" level="file">
+          <did>
+            <unittitle>Deeds</unittitle>
+            <unitdatestructured unitdatetype="inclusive">
+              <datesingle standarddate="1959">1959</datesingle>
+            </unitdatestructured>
+            <unitdate unitdatetype="inclusive">1959</unitdate>
+            <container id="aspace_3c4168034e16f0cfe06076336b7b71a8" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_a2a83146e70e133ccd9360f27afd796c" localtype="folder"
+              parent="aspace_3c4168034e16f0cfe06076336b7b71a8">53</container>
+          </did>
+        </c02>
+        <c02 id="aspace_b6d2ea38d03a1d1b6a9bdf3506ba1c52" level="file">
+          <did>
+            <unittitle>Register of vital statistics</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1959">1959</fromdate>
+                <todate standarddate="1963">1963</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1959-1963</unitdate>
+            <container id="aspace_f7aa65174347e1d10f832c7385967044" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_a17b8a5810ebb7881bb7bbb47fd4f3ac" localtype="folder"
+              parent="aspace_f7aa65174347e1d10f832c7385967044">39</container>
+          </did>
+        </c02>
+        <c02 id="aspace_39ab400a2b9f136fc045e024c8b7de02" level="file">
+          <did>
+            <unittitle>Vital statistics</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1959">1959</fromdate>
+                <todate standarddate="1979">1979</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1959-1979</unitdate>
+            <container id="aspace_feccd1eb74acbc20f9578b1a02e346c8" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_3fe6e6fe0f8a1eb2fe46b68f7e793fa1" localtype="folder"
+              parent="aspace_feccd1eb74acbc20f9578b1a02e346c8">41</container>
+          </did>
+        </c02>
+        <c02 id="aspace_f2e95aef36ca97de740d41353ac75707" level="file">
+          <did>
+            <unittitle>Vital statistics</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1962">1962</fromdate>
+                <todate standarddate="1969">1969</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1962-1969</unitdate>
+            <container id="aspace_58106d668e14870ad80d8295b9068ecc" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_a5127ad405acb1cc9a14e2854b4fd9c2" localtype="folder"
+              parent="aspace_58106d668e14870ad80d8295b9068ecc">40</container>
+          </did>
+        </c02>
+        <c02 id="aspace_137b3bd276a101c16b0ee5f91f42c9fc" level="file">
+          <did>
+            <unittitle>Annual meetings</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1959">1959</fromdate>
+                <todate standarddate="1963">1963</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1959-1963</unitdate>
+            <container id="aspace_4c28b5630bf8fa248888681042d1a095" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_6fe159dd2242c8992965d22fa2149289" localtype="folder"
+              parent="aspace_4c28b5630bf8fa248888681042d1a095">44</container>
+          </did>
+        </c02>
+        <c02 id="aspace_b0f947ae6aff325e356af84cc7b75ba7" level="file">
+          <did>
+            <unittitle>Annual meetings</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1964">1964</fromdate>
+                <todate standarddate="1971">1971</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1964-1971</unitdate>
+            <container id="aspace_b7b782cfd9c482144da33ec03e926bd1" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_581229c8c94a25a56be6969fbe695b84" localtype="folder"
+              parent="aspace_b7b782cfd9c482144da33ec03e926bd1">45</container>
+          </did>
+        </c02>
+        <c02 id="aspace_6a46db049e663317bc90bd57a0bf9301" level="file">
+          <did>
+            <unittitle>Annual meetings</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1972">1972</fromdate>
+                <todate standarddate="1976">1976</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1972-1976</unitdate>
+            <container id="aspace_4729fcf392cf90498f4f1a84a309b93b" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_da75e6e76acfb707fa99bd68bd736f0d" localtype="folder"
+              parent="aspace_4729fcf392cf90498f4f1a84a309b93b">46</container>
+          </did>
+        </c02>
+        <c02 id="aspace_c5951dcc82d1221038d7314e3f49694e" level="file">
+          <did>
+            <unittitle>Children's choir awards</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1960">1960-1961</datesingle>
+            </unitdatestructured>
+            <container id="aspace_6f77b67b86f5bec82d434d4d6c5fa8cb" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_463c16f5d63fc499e1c60e336a542047" localtype="folder"
+              parent="aspace_6f77b67b86f5bec82d434d4d6c5fa8cb">54</container>
+          </did>
+        </c02>
+        <c02 id="aspace_9148a29a96a966cdd7854ed4bf7a32b5" level="file">
+          <did>
+            <unittitle>Building alterations, programs and news clippings</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1960">1960</fromdate>
+                <todate standarddate="1970">1970</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1960-1970</unitdate>
+            <container id="aspace_4fa6deca894e08f67cc7926d2978d07c" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_f07fa8161cf145b7ed1455e7e05a2f97" localtype="folder"
+              parent="aspace_4fa6deca894e08f67cc7926d2978d07c">51</container>
+          </did>
+        </c02>
+        <c02 id="aspace_d8792fa4f5e39cb04cd317d418e90c7d" level="file">
+          <did>
+            <unittitle>Parish house specifications</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <datesingle standarddate="1970">1970</datesingle>
+            </unitdatestructured>
+            <container id="aspace_dc758ec2f2856817cf586b1ec91a288d" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_c460f7b3486ec107fdefc34b58a7fc0b" localtype="folder"
+              parent="aspace_dc758ec2f2856817cf586b1ec91a288d">52</container>
+          </did>
+        </c02>
+        <c02 id="aspace_42a91ae0d31225ee8ba22ecd0eb8e164" level="file">
+          <did>
+            <unittitle>Membership directories</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1962">1962</fromdate>
+                <todate standarddate="1978">1978</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1962-1978</unitdate>
+            <container id="aspace_989e47263d867b84cb1331ba302ee619" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_6216aa61f1fd969474c6c0117f7b75ac" localtype="folder"
+              parent="aspace_989e47263d867b84cb1331ba302ee619">42</container>
+          </did>
+        </c02>
+        <c02 id="aspace_3012ba3e0320bc0e98735f5e6f30bcef" level="file">
+          <did>
+            <unittitle>Council minutes</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1968">1968</fromdate>
+                <todate standarddate="1971">1971</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1968-1971</unitdate>
+            <container id="aspace_54ca7feb0de930b5a5216a7459dbfadd" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_0476473a18dfc86996a3f166b8ca4dbd" localtype="folder"
+              parent="aspace_54ca7feb0de930b5a5216a7459dbfadd">47</container>
+          </did>
+        </c02>
+        <c02 id="aspace_697dcc5890f10e8a197d82680f91f3c4" level="file">
+          <did>
+            <unittitle>Council minutes</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1972">1972</fromdate>
+                <todate standarddate="1973">1973</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1972-1973</unitdate>
+            <container id="aspace_d98ea51f3023ad57540790ddba62779d" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_6104eae57501d55022dc420aff0483a3" localtype="folder"
+              parent="aspace_d98ea51f3023ad57540790ddba62779d">48</container>
+          </did>
+        </c02>
+        <c02 id="aspace_f421b9e0385b00a2152073c57f8836d4" level="file">
+          <did>
+            <unittitle>Council minutes</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1974">1974</fromdate>
+                <todate standarddate="1978">1978</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1974-1978</unitdate>
+            <container id="aspace_b1b3b6a28d85203c747cdabac298c02b" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_8a3334b6689cff32ea0eac16f906650a" localtype="folder"
+              parent="aspace_b1b3b6a28d85203c747cdabac298c02b">49</container>
+          </did>
+        </c02>
+        <c02 id="aspace_677ae3bb80aeeb03f71109db9029fb28" level="file">
+          <did>
+            <unittitle>Council minutes</unittitle>
+            <unitdatestructured calendar="gregorian" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1979">1979</fromdate>
+                <todate standarddate="1980">1980</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" unitdatetype="inclusive">1979-1980</unitdate>
+            <container id="aspace_0cab847cc9ce772925314c3d8e8ac0d0" label="Mixed Materials"
+              localtype="box">3</container>
+            <container id="aspace_0e8de626f493958bd9466b5e0bb52fcf" localtype="folder"
+              parent="aspace_0cab847cc9ce772925314c3d8e8ac0d0">50</container>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
