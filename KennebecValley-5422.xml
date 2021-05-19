@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid instanceurl="">KennebecValley-5422</recordid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Kennebec Valley Association records, 1931-2015. </titleproper>
+        <author>William McCarthy</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2021-05-18</date>
+        <num>RG5422</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>translation missing: en.enumerations.resource_finding_aid_description_rules.DACS
+        2019.0.3</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2021-05-19T17:45:06+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.8.1</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday May 19,
+          2021 at 17:45</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Kennebec Valley Association records, 1931-2015.</unittitle>
+      <unitid>RG5422</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>.18</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">One ledger placed in a half-sized letter
+        box</physdesc>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1931-06-10">1931-06-10</fromdate>
+          <todate standarddate="2015-08-28">2015-08-28</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">June 10, 1931 -
+        August 28, 2015</unitdate>
+      <abstract >The Kennebec Valley Association was
+        part of the Maine Conference and remained until 2016, when it merged with the Franklin
+        Association to form the Living Water Association. The records begin in 1931, but information
+        on when the association first formed is unknown. This collection contains a single volume
+        that covers the accounts of the treasurer for the Kennebec Valley Association from 1931
+        through 2016.</abstract>
+      <origination label="source">
+        <persname relator="dnr" rules="rda" source="local">
+          <part>Ruark, Walter T.</part>
+        </persname>
+      </origination>
+    </did>
+    <accessrestrict >
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict >
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite >
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Kennebec Valley Association, 1931-2015, RG5422. The
+        Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo >
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by Walter T. Ruark in
+        March 2021; 2021-05.</p>
+    </acqinfo>
+    <processinfo >
+      <head>Processing Information</head>
+      <p>Processed by William McCarthy, May 2021, using DACS second edition.</p>
+    </processinfo>
+    <bioghist >
+      <head>Historical Note</head>
+      <p>The Kennebec Valley Association was part of the Maine Conference and remained until 2016,
+        when it merged with the Franklin Association to form the Living Water Association. The
+        records begin in 1931, but information on when the association first formed is unknown. The
+        ledger contains the name of the treasurer for most years but some gaps are present.</p>
+      <chronlist>
+        <head>List of Treasurers</head>
+        <chronitem>
+          <datesingle>Minnie C. Garland</datesingle>
+          <chronitemset>
+            <event>1931-1956</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>J.B. Tschamler</datesingle>
+          <chronitemset>
+            <event>1956-1962</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>W.H. Bearce</datesingle>
+          <chronitemset>
+            <event>1962-1977</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Howard L. Bowen</datesingle>
+          <chronitemset>
+            <event>1978-1979</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Frank B. Spooner</datesingle>
+          <chronitemset>
+            <event>1979-1981</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Richard A. Norton</datesingle>
+          <chronitemset>
+            <event>1981</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Elizabeth Olson</datesingle>
+          <chronitemset>
+            <event>1985-1989</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Priscilla McKallip</datesingle>
+          <chronitemset>
+            <event>1989-1992</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>David C. Gagnon</datesingle>
+          <chronitemset>
+            <event>1994-2005</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Harold M. Klaiber</datesingle>
+          <chronitemset>
+            <event>2006-2011</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Robert Dodge</datesingle>
+          <chronitemset>
+            <event>2015-2016</event>
+          </chronitemset>
+        </chronitem>
+      </chronlist>
+    </bioghist>
+    <scopecontent >
+      <head>Scope and Contents</head>
+      <p>This collection contains a single volume that covers the accounts of the treasurer for the
+        Kennebec Valley Association from 1931 through 2015.</p>
+    </scopecontent>
+    <controlaccess>
+      <subject identifier="sh85025606" source="lcsh">
+        <part>Church finance.</part>
+      </subject>
+      <subject identifier="sh85008810" source="lcsh">
+        <part>Associations, institutions, etc.</part>
+      </subject>
+      <persname audience="internal" relator="dnr" rules="rda" source="local">
+        <part>Ruark, Walter T.</part>
+      </persname>
+    </controlaccess>
+    <dsc>
+      <c01  level="item">
+        <did>
+          <unittitle>Treasurer's Ledger</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1931-06-10">1931-06-10</fromdate>
+              <todate standarddate="2015-08-28">2015-08-28</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">June 10, 1931
+            - August 28, 2015</unitdate>
+          <container altrender="Slim Letter Document Case"
+             label="Volumes" localtype="box"
+            >1</container>
+          <container  localtype="volume"
+            >1</container>
+        </did>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
