@@ -45,11 +45,11 @@
     <maintenancehistory>
       <maintenanceevent>
         <eventtype value="derived"/>
-        <eventdatetime>2021-05-19T17:45:06+00:00</eventdatetime>
+        <eventdatetime>2021-05-19T18:01:44+00:00</eventdatetime>
         <agenttype value="machine"/>
         <agent>ArchivesSpace v2.8.1</agent>
         <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday May 19,
-          2021 at 17:45</eventdescription>
+          2021 at 18:01</eventdescription>
       </maintenanceevent>
     </maintenancehistory>
   </control>
@@ -92,6 +92,11 @@
         <persname relator="dnr" rules="rda" source="local">
           <part>Ruark, Walter T.</part>
         </persname>
+      </origination>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">
+          <part>Kennebec Valley Association</part>
+        </corpname>
       </origination>
     </did>
     <accessrestrict >
@@ -210,6 +215,9 @@
       <persname audience="internal" relator="dnr" rules="rda" source="local">
         <part>Ruark, Walter T.</part>
       </persname>
+      <corpname rules="rda" source="local">
+        <part>Kennebec Valley Association</part>
+      </corpname>
     </controlaccess>
     <dsc>
       <c01  level="item">
