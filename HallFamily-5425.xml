@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid instanceurl="">HallFamily-5425</recordid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Hall Family papers, 1815-1871, 1939. </titleproper>
+        <author>William McCarthy</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2021-07-30</date>
+        <num>MS5425</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>translation missing: en.enumerations.resource_finding_aid_description_rules.DACS
+        2019.0.3</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2021-08-02T13:34:06+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.8.1</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Monday August 2, 2021
+          at 13:34</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Hall Family papers, 1815-1871, 1939.</unittitle>
+      <unitid>MS5425</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>.22</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(1 legal size document case)</physdesc>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1815">1815</fromdate>
+          <todate standarddate="1939">1939</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1815-1871,
+        1939</unitdate>
+      <abstract>Gordon Hall was a missionary to India who was from Tolland, Massachusetts. While in
+        India he met Margaret Lewis, who had lived there for over 20 years. They would eventually
+        get married and have four kids together, though only one survived into adulthood. That
+        child, first born Nathan and then Gordon, was a minister who served in Wilton, Connecticut
+        and Northampton, Massachusetts. Gordon would marry Emily Baldwin Hall and they would have
+        seven children together. One of those children, Gordon Robert Hall, was a working physician
+        in New York. Samuel and Clarina Bradley Merwin were the parents of Emily Baldwin Hall and
+        lived mainly in New Haven, Connecticut. This collection contains letters to Margaret Lewis
+        Hall as well as letters to and from her son, Gordon Hall, and a letter from Samuel Merwin to
+        Clarina Bradley Merwin. Also included are financial documents related to the Hall Family,
+        including a marriage settlement and a certificate of capital stock.</abstract>
+      <origination label="source">
+        <persname relator="dnr" rules="rda" source="local">
+          <part>Hall, Gordon</part>
+        </persname>
+      </origination>
+      <origination label="Creator">
+        <persname identifier="nr92032349" source="lcnaf">
+          <part>Hall, Gordon, 1823-1879</part>
+        </persname>
+      </origination>
+      <origination label="Creator">
+        <persname rules="rda" source="local">
+          <part>Merwin, Samuel, 1781-1856</part>
+        </persname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head> Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Hall Family papers, 1815-1871, 1939, MS5425. The
+        Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library by Gordon Hall in July 2021;
+        2021-08.</p>
+    </acqinfo>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Processed by William McCarthy, July 2021, using DACS second edition.</p>
+    </processinfo>
+    <bioghist>
+      <head>Biographical Information</head>
+      <p>Gordon Hall was born on April 8, 1784 in Tolland, Massachusetts. His parents were Nathan
+        and Elizabeth Hall. Gordon went to Williams College between 1805 and 1808. After graduation,
+        he worked as a minister in Woodbury, Connecticut from 1809-1810. He also spent some time
+        working in Pittsfield, Massachusetts. Hall would enroll in Andover Theological Seminary in
+        1810 and eventually be ordained on February 6th, 1812. That same month, the American Board
+        of Commissioners for Foreign Missions sent Hall and four others to India. Upon arrival, Hall
+        went to Bombay with fellow missionary Samuel Nott. He would eventually marry Margaret Lewis
+        in December of 1816. They would have four children together, though only one would survive
+        into adulthood. In 1826, while touring areas of the country with outbreaks of cholera, he
+        contracted the disease and died.</p>
+      <p>Margaret Lewis Hall was born in Wales on July 20, 1783. She moved to India and while there
+        learned to speak Hindustani. She met Gordon Hall in Bombay and they would marry in 1816.
+        They would have four children together, though only one would survive into adulthood. In
+        1825, she left with their two sons for Salem, Massachusetts in order to leave them with
+        relatives. One of the sons would die on the journey and when Gordon died the following year,
+        she remained in the United States. She died in Northampton, Massachusetts on January 25,
+        1868.</p>
+      <p>Gordon Hall was born Nathan Hall on November 4, 1823 in India. He was the youngest child of
+        Margaret and Gordon and the only one to survive past childhood. At some point he would
+        change his name from Nathan to Gordon. He attended Yale in 1843 and also Yale Theological
+        Seminary in 1847. He served as minister in Wilton, Connecticut from 1848 to 1852 and then at
+        the Edwards Church in Northampton, Massachusetts from 1852 until his death. He received an
+        honorary divinity degree from Amherst College in 1864. Gordon married Emily Baldwin Merwin
+        in 1848 and they had seven children together. Gordon died on November 5, 1879 of typhoid
+        pneumonia.</p>
+      <p>Gordon Robert Hall was born on September 28, 1849 in Wilton, Connecticut. His mother was
+        Emily Baldwin Hall and father was Gordon Hall. Hall graduated from Amherst College in 1872
+        and then the College of Physicians and Surgeons in 1880. He was a working physician at Kings
+        County Hospital and a consultant in hospitals in New York. He died on October 23, 1923 in
+        Brooklyn, New York.</p>
+      <p>Samuel Merwin was the father of Emily Baldwin Hall, who would eventually marry Gordon Hall.
+        He was born on May 21, 1781 and was a minister in New Haven, Connecticut. He died on
+        September 3, 1856 in New Haven.</p>
+      <p>Clarina Bradley Merwin was the mother of Emily Baldwin Hall, who would eventually marry
+        Gordon hall. She was born in Danbury, Connecticut in 1788 and died in New Haven, Connecticut
+        in 1859.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains letters to Margaret Lewis Hall as well as letters to and from her
+        son, Gordon Hall, and a letter from Samuel Merwin to Clarina Bradley Merwin. Also included
+        are financial documents related to the Hall Family, including a marriage settlement and a
+        certificate of capital stock.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>This collection has been arranged into two series and the records in each series has been
+        arranged chronologically by start date.</p>
+    </arrangement>
+    <bibliography>
+      <head>Bibliography</head>
+      <p>Bardwell, Horatio, <emph render="italic">Memoir of Rev. Gordon Hall, A.M.: one of the first
+          missionaries of the Amer. Board of Comm. for For. Missions, at Bombay</emph>. New York:
+        Flagg, Gould, and Newman, 1834.
+        https://archive.org/details/memoirofrevgordofm00bard/page/n7/mode/2up?q=margaret.</p>
+      <p>Davis, Emerson, <emph render="italic">Biographical sketches of the Congregational pastors
+          of New England</emph>. Boston: Congregational Publishing Society, 1869.
+        https://archive.org/details/biographicalsket04davi/page/n5/mode/2up.</p>
+      <p><emph render="italic">Dr. Gordon Robert Hall</emph>. New York Times (New York, NY), Oct.
+        24, 1923.</p>
+      <p>Markham, Sandra. <emph render="italic">Clarina Bradley Taylor Merwin</emph>. Findagrave.
+        December 5, 2020. https://www.findagrave.com/memorial/219365173/clarina-bradley-merwin.</p>
+      <p><emph render="italic">The Congregational Yearbook</emph>. Boston: Congregational Publishing
+        Society, 1880. https://archive.org/details/congregationalye1880cong/mode/2up.</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh85076240" source="lcsh">
+        <part>Letters.</part>
+      </subject>
+      <subject identifier="sh85033035" source="lcsh">
+        <part>Correspondence.</part>
+      </subject>
+      <persname audience="internal" relator="dnr" rules="rda" source="local">
+        <part>Hall, Gordon</part>
+      </persname>
+      <persname identifier="nr92032349" source="lcnaf">
+        <part>Hall, Gordon, 1823-1879</part>
+      </persname>
+      <persname rules="rda" source="local">
+        <part>Hall, Gordon Robert, 1849-1923</part>
+      </persname>
+      <persname identifier="nr92013822" source="lcnaf">
+        <part>Hall, Gordon, 1784-1826</part>
+      </persname>
+      <persname rules="rda" source="local">
+        <part>Hall, Margaret Lewis, 1783-1868</part>
+      </persname>
+      <persname rules="rda" source="local">
+        <part>Merwin, Clarina Bradley, 1788-1859</part>
+      </persname>
+    </controlaccess>
+    <dsc>
+      <c01 level="series">
+        <did>
+          <unittitle>Letters</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>12</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1815">1815</fromdate>
+              <todate standarddate="1939">1939</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1815-1871,
+            1939</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains letters to Margaret Lewis Hall, wife of missionary Gordon Hall, as
+            well as letters to and from their son, also named Gordon Hall. Also included is a letter
+            from Samuel Merwin to Clarina Bradley Merwin.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>Letter from Samuel Merwin to Clarina Bradley Merwin</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1815">1815</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">1</container>
+          </did>
+          <bioghist>
+            <head>Biographical Information</head>
+            <p>Samuel and Clarina Merwin were married and had several children, including Emily
+              Baldwin Merwin. Emily would eventually marry Gordon Hall.</p>
+          </bioghist>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Letters to Margaret Lewis Hall</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1824">1824</fromdate>
+                <todate standarddate="1826">1826</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1824-1826</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">2</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Miscellany Letters</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1826">1826</fromdate>
+                <todate standarddate="1939">1939</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1826, 1864,
+              1939, undated</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">13</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Letters to Margaret Lewis Hall</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1827">1827</fromdate>
+                <todate standarddate="1828">1828</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1827-1828</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">3</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Letters to Margaret Lewis Hall</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1829">1829</fromdate>
+                <todate standarddate="1830">1830</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1829-1830</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">4</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Letters to Margaret Lewis Hall</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1831">1831</fromdate>
+                <todate standarddate="1834">1834</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1831-1834</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">5</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Letters to Margaret Lewis Hall</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1835">1835</fromdate>
+                <todate standarddate="1842">1842</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1835-1842</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">7</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Letters to and from Gordon Hall</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1842">1842</fromdate>
+                <todate standarddate="1845">1845</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1842-1845</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">8</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Letters to and from Gordon Hall</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1848">1848</fromdate>
+                <todate standarddate="1850">1850</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1848-1850</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">9</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Letters to and from Gordon Hall</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1851">1851</fromdate>
+                <todate standarddate="1853">1853</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1851-1853</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">10</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Letters to and from Gordon Hall</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1864">1864, undated</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">11</container>
+          </did>
+        </c02>
+        <c02 audience="internal" level="file">
+          <did>
+            <unittitle>Letter from Gordon Hall to his son</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1871-09-26">September 26, 1871</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">14</container>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Finance</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>2</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1834">1834</fromdate>
+              <todate standarddate="1865">1865</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1834,
+            1865</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains financial documents related to the Hall Family, including a
+            marriage settlement and a certificate of capital stock.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>Marriage Settlement of Gordon Hall and Margaret Lewis</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1834-11-01">November 1, 1834</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">6</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Capital Stock</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1865-08-31">August 31, 1865</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">12</container>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
