@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid instanceurl=""/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Samuel Wolcott journal, 1869-1885. </titleproper>
+        <author>William McCarthy</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2021-09-24</date>
+        <num>MS5428</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>translation missing: en.enumerations.resource_finding_aid_description_rules.DACS
+        2019.0.3</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2021-09-27T18:02:41+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.8.1</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Monday September 27,
+          2021 at 18:02</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Samuel Wolcott journal, 1869-1885.</unittitle>
+      <unitid>MS5428</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <container label="Mixed Materials" localtype="folder">1</container>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>1</quantity>
+        <unittype>Volume</unittype>
+      </physdescstructured>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1869">1869</fromdate>
+          <todate standarddate="1885">1885</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1869-1885</unitdate>
+      <abstract>Samuel Wolcott was born to Elihu and Rachel McClintock Wolcott in South Windsor,
+        Connecticut, on July 2, 1813. He graduated from Yale College in 1833 and Andover Theological
+        Seminart in 1837. He would go on to be an assisstant secretary for the A.B.C.F.M. Samuel
+        would be ordained on November 1st, 1839. Some places where we worked as a minister includes
+        Longmeadow, Belchertown, Providence, Chicago, and Cleveland. He died in Longmeadow,
+        Massachusetts on February 24, 1886. This collection is a single journal that gives an
+        account of Samuel Wolcott's daily activities.</abstract>
+      <origination label="source">
+        <corpname identifier="n79022921" rules="rda" source="lcnaf">
+          <part>Brigham Young University</part>
+        </corpname>
+      </origination>
+      <origination label="Creator">
+        <persname identifier="n92105483" rules="rda" source="lcnaf">
+          <part>Wolcott, Samuel, 1813-1886</part>
+        </persname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to some of the physical items is restricted. When microfilm surrogates exist, they
+        are to be used instead of originals. Exceptions may be granted in cases of extenuating
+        circumstance, at the discretion of the Archivist.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Samuel Wolcott journal, 1869-1885, MS5428. The
+        Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Collection was donated to the Congregational Library and Archives by Brigham Young
+        University by 2021, accession number 2021-13.</p>
+    </acqinfo>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Processed by William McCarthy in September 2021, using DACS Second Edition.</p>
+    </processinfo>
+    <bioghist>
+      <head>Biographical Note</head>
+      <p>Samuel Wolcott was born to Elihu and Rachel McClintock Wolcott in South Windsor,
+        Connecticut, on July 2, 1813. He graduated from Yale College in 1833 and Andover Theological
+        Seminart in 1837. He would go on to be an assisstant secretary for the A.B.C.F.M. Samuel
+        would be ordained on November 1st, 1839. Some places where we worked as a minister includes
+        Longmeadow, Belchertown, Providence, Chicago, and Cleveland. He died in Longmeadow,
+        Massachusetts on February 24, 1886.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection is a single journal that gives an account of Samuel Wolcott's daily
+        activities.</p>
+    </scopecontent>
+    <bibliography>
+      <head>Bibliography</head>
+      <p>"Congregational year-book". Boston: Congregational Publishing Society, 1887.</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh85037601" source="lcsh">
+        <part>Diaries.</part>
+      </subject>
+      <corpname identifier="n79022921" relator="fmo" rules="rda" source="lcnaf">
+        <part>Brigham Young University</part>
+      </corpname>
+      <persname identifier="n92105483" rules="rda" source="lcnaf">
+        <part>Wolcott, Samuel, 1813-1886</part>
+      </persname>
+    </controlaccess>
+    <dsc/>
+  </archdesc>
+</ead>
