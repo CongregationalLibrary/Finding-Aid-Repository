@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid instanceurl="">CyrusNash-0932</recordid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Cyrus Nash papers, 1630-1837. </titleproper>
+        <author>William McCarthy</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>06/10/2021</date>
+        <num>MS0932</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>translation missing: en.enumerations.resource_finding_aid_description_rules.DACS
+        2019.0.3</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2021-06-10T19:17:55+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.8.1</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Thursday June 10,
+          2021 at 19:17</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Cyrus Nash papers, 1630-1837.</unittitle>
+      <unitid>MS0932</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>.44</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(1 case)</physdesc>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1630">1630</fromdate>
+          <todate standarddate="1837">1837</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1630-1837</unitdate>
+      <abstract>Cyrus Nash was born on May 8th, 1750 in Abington, Mass. His parents were Luke and
+        Nabby Nash. He worked as the parish clerk for the Abington Church. He recorded information
+        about Abington and the surrounding area, including vital statistics, histories, and council
+        reports. After falling from his roof, he was confined to his home for his last 45 years.
+        While at home, he became fascinated in a vareity of topics and news that came his way,
+        taking notes on what he could. He died on March 4th, 1850 at the age of 69. This collection
+        contains records related to the town of Abington, such as vital statistics, monetary
+        transactions, Ecclesiastical reports, genealogies and town histories. Also included are
+        Nash's personal notes, observations and journals.</abstract>
+      <origination label="Creator">
+        <persname rules="rda" source="local">
+          <part>Nash, Cyrus, 1780-1850</part>
+        </persname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head> Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Cyrus Nash papers, 1680-1837, MS0932. The Congregational
+        Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>No acquisition information is available for this collection.</p>
+    </acqinfo>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Processed by William McCarthy, June 2021, using DACS second edition.</p>
+    </processinfo>
+    <bioghist>
+      <head>Biographical Note</head>
+      <p>Cyrus Nash was born on May 8th, 1750 in Abington, Mass. His parents were Luke and Nabby
+        Nash. He worked as the parish clerk for the Abington Church. He recorded information about
+        Abington and the surrounding area, including vital statistics, histories, and council
+        reports. After falling from his roof, he was confined to his home for his last 45 years.
+        While at home, he became fascinated in a vareity of topics and news that came his way,
+        taking notes on what he could. He died on March 4th, 1850 at the age of 69.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains records related to the town of Abington, such as vital statistics,
+        monetary transactions, Ecclesiastical reports, genealogies and town histories. Also included
+        are Nash's personal notes, observations and journals.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>This collection is divided into three series. Records in each series are arranged
+        chronologically by start where applicable.</p>
+      <p><emph render="bold">Series 1:</emph> Related to the town of Abington, 1630-1837</p>
+      <p><emph render="bold">Series 2:</emph> Personal records, 1758-1833</p>
+      <p><emph render="bold">Series 3:</emph> Related to the town of Abington and personal records,
+        1830-1835</p>
+    </arrangement>
+    <relatedmaterial>
+      <head>Related Materials</head>
+      <p>Additional records on Cyrus Nash can be found at the Dyer Memorial Library in Abington,
+        Mass.</p>
+    </relatedmaterial>
+    <bibliography>
+      <head>Bibliography</head>
+      <p>Waters, Henry F., New England historical and genealogical register. Samuel G. Drake:
+        Boston, 1850. https://archive.org/details/newenglandhistor004wate/page/293/mode/1up.</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh85081923" source="lcsh">
+        <part>Massachusetts -- History.</part>
+      </subject>
+      <subject identifier="sh85143949" source="lcsh">
+        <part>Vital statistics.</part>
+      </subject>
+      <subject identifier="sh85037601" source="lcsh">
+        <part>Diaries.</part>
+      </subject>
+      <subject identifier="sh85048256" source="lcsh">
+        <part>Finance.</part>
+      </subject>
+      <persname rules="rda" source="local">
+        <part>Nash, Cyrus, 1780-1850</part>
+      </persname>
+      <corpname identifier="n2006166636" source="lcnaf">
+        <part>Abington (Mass.) -- History.</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 level="series">
+        <did>
+          <unittitle>Related to the town of Abington</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>17</quantity>
+            <unittype>Files</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1630">1630</fromdate>
+              <todate standarddate="1837">1837</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1630-1837</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains records from Cyrus Nash that deal with the town of Abington, such
+            as vital statistics, monetary transactions, Ecclesiastical reports, genealogies and town
+            histories.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>An index to the history of the first settlers in Abington</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1630">1630</fromdate>
+                <todate standarddate="1830">1830</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1630-1830</unitdate>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=565&amp;cat=597"
+              label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">1</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Vital statistics in Abington</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1667">1667</fromdate>
+                <todate standarddate="1837">1837</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1667-1837</unitdate>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=565&amp;cat=597"
+              label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">2</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Birth records in Abington</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1694">1694</fromdate>
+                <todate standarddate="1757">1757</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1694-1757</unitdate>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=565&amp;cat=597"
+              label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">3</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Vital statistics and notes on the Eclipse</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1726">1726</fromdate>
+                <todate standarddate="1834">1834</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1726-1834</unitdate>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=565&amp;cat=597"
+              label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">4</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Copy of town records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1731">1731</fromdate>
+                <todate standarddate="1781">1781</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1731-1781</unitdate>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=565&amp;cat=597"
+              label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">5</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Articles of agreement for Abington mill</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1735-03-01">1735-03-01</fromdate>
+              </daterange>
+            </unitdatestructured>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=565&amp;cat=597"
+              label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">30</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Payments</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1736">1736</fromdate>
+                <todate standarddate="1770">1770</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1736-1770</unitdate>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=565&amp;cat=597"
+              label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">6</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>First church and society of Abington records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1770">1770</fromdate>
+                <todate standarddate="1814">1814</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1770-1814</unitdate>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=565&amp;cat=597"
+              label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">8</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Ecclesiastical council report</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1813-06-07">June 7, 1813</datesingle>
+            </unitdatestructured>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=565&amp;cat=597"
+              label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">9</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Ecclesiastical council report</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1820-07-28">1820-07-28</fromdate>
+              </daterange>
+            </unitdatestructured>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=565&amp;cat=597"
+              label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">11</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Monetary transactions</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1827">1827</fromdate>
+                <todate standarddate="1831">1831</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1827-1831</unitdate>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=565&amp;cat=597"
+              label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">12</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Result of the council at Abington</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1830-01-05">1830-01-05</fromdate>
+              </daterange>
+            </unitdatestructured>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=565&amp;cat=597"
+              label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">13</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Ecclesiastical council report</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1830-01">1830-01</fromdate>
+                <todate standarddate="1830-02">1830-02</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">January-February 1830</unitdate>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=565&amp;cat=597"
+              label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">14</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Perish meetings</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1830">1830</fromdate>
+                <todate standarddate="1831">1831</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1830-1831</unitdate>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=565&amp;cat=597"
+              label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">16</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Meeting notes</unittitle>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">March 16 and
+              21</unitdate>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=565&amp;cat=597"
+              label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">17</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Town histories and notes on sermons</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=565&amp;cat=597"
+              label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">25</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>History of Abington and genealogy</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=565&amp;cat=597"
+              label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">26</container>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Personal records</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>10</quantity>
+            <unittype>Files</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1758">1758</fromdate>
+              <todate standarddate="1833">1833</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1758-1833</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains records from Cyrus Nash's personal notes, observations and
+            journals.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>Observations and notes</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1758">1758</fromdate>
+                <todate standarddate="1830">1830</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1758-1830</unitdate>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=565&amp;cat=597"
+              label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">7</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Written copies of newspaper articles</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1817">1817</fromdate>
+                <todate standarddate="1833">1833</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1817-1833</unitdate>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=565&amp;cat=597"
+              label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">10</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Family history</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=565&amp;cat=597"
+              label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">18</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Journal</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=565&amp;cat=597"
+              label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">19</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Copy of Dr. Green's questions and counsel to professors</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=565&amp;cat=597"
+              label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">20</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Book binding and agricultural guides</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=565&amp;cat=597"
+              label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">21</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Notes on medicine, agriculture and population</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=565&amp;cat=597"
+              label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">22</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Notes on money</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=565&amp;cat=597"
+              label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">27</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Request to clean spoons</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=565&amp;cat=597"
+              label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">28</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Life of Swedenborg</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=565&amp;cat=597"
+              label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">29</container>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Related to the town of Abington and personal records</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>3</quantity>
+            <unittype>Files</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1830">1830</fromdate>
+              <todate standarddate="1835">1835</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1830-1835</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains items with information about both the town of Abington and Cyrus
+            Nash's personal records.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>Observations, notes and vital statistics</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1830">1830</datesingle>
+            </unitdatestructured>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=565&amp;cat=597"
+              label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">15</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Vital statistics and notes on religion</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1834">1834</fromdate>
+                <todate standarddate="1835">1835</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1834-1835</unitdate>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=565&amp;cat=597"
+              label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">23</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Vital statistics and "How does a man become a universalist?"</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=565&amp;cat=597"
+              label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">24</container>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
