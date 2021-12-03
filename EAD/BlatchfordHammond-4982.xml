@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid instanceurl="">BlatchfordHammond-4982</recordid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>E.W. Blatchford collection on Charles G. Hammond, 1843, 1877-1913. </titleproper>
+        <author>David Castillo, William McCarthy</author>
+      </titlestmt>
+      <editionstmt>
+        <p>The original finding aid was made in March 2014 and updated in December 2021.</p>
+      </editionstmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>12/2/2021</date>
+        <num>MS4982</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>translation missing: en.enumerations.resource_finding_aid_description_rules.DACS
+        2019.0.3</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2021-12-03T16:24:28+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.8.1</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Friday December 3,
+          2021 at 16:24</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>E.W. Blatchford collection on Charles G. Hammond, 1843, 1877-1913.</unittitle>
+      <unitid>MS4982</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>.22</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(1 box)</physdesc>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1843">1843</fromdate>
+          <todate standarddate="1913">1913</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1843,
+        1877-1913</unitdate>
+      <abstract>Charles Goodrich Hammond was born in Bolton, Connecticut on June 4, 1804. He was the
+        eldest son of Chester and Fanny Goodrich Hammond. Charles was elected Auditor General of the
+        State of Michigan for a time and then as the collector of the port of Detroit. In 1852, he
+        became the Chicago manager for the Michigan Central Railroad and remained intimately
+        connected with the city for the rest of his life. He died on April 15, 1884. Eliphalet
+        Wickes (E.W.) Blatchford was born on May 31, 1826 in Stillwater, New York. His parents were
+        the Rev. John Blatchford and Frances Wickes Blatchford. He served as the president of the
+        Chicago Theological Seminary for over 40 years and as vice president of the American Board
+        of Commissioners for Foreign Missions. E.W. died in Chicago on January 14th, 1915. In 1852,
+        E.W. Blatchford became friends with Charles G. Hammond. The two remained close friends until
+        Hammond's death in 1884. Following his death, Blatchford worked closely with Hammond's
+        brother, H.L. Hammond on the creation of a memorial biography. This collection contains
+        records related to that memorial biography and includes drafts, correspondences,
+        photographs, obituaries, and an autobiographical sketch.</abstract>
+      <origination label="Creator">
+        <persname identifier="n90691912" source="lcnaf">
+          <part>Blatchford, E.W. (Eliphalet Wickes), 1826-1914</part>
+        </persname>
+      </origination>
+      <origination label="Creator">
+        <persname rules="rda" source="local">
+          <part>Hammond, Charles G.</part>
+        </persname>
+      </origination>
+      <origination label="Creator">
+        <persname identifier="nr91028609" source="lcnaf">
+          <part>Hammond, H. L. (Henry Laurens), 1815-1893</part>
+        </persname>
+      </origination>
+    </did>
+    <accessrestrict audience="internal">
+      <head> Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the E.W. Blatchford collection on Charles G. Hammond, 1843,
+        1877-1913, MS4982. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library by the Chicago Theological Seminary in
+        2011; 2011-20.</p>
+    </acqinfo>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Collection was originally processed by David Castillo, LIS 438 intern, March 2014.
+        Collection was re-processed by William McCarthy, December 2021.</p>
+    </processinfo>
+    <bioghist>
+      <head>Biographical Note</head>
+      <p>Charles Goodrich Hammond was born in Bolton, Connecticut on June 4, 1804. He was the eldest
+        son of Chester and Fanny Goodrich Hammond. A few years later, the family moved to Smyrna in
+        New York. His father helped establish a new church in the community and Charles would be
+        converted in 1816 at the age of twelve. Charles was educated locally and also began teaching
+        others, including in Whitesboro, New York. In 1825, Charles moved to Canandaigua and worked
+        in a mercantile business. Charles met his wife, Charlotte, in Whitesboro and they were
+        married in August 1827. They remained active members of Whitesboro until they moved to
+        Detroit in 1834. While in Detroit, they joined the Presbyerian church and Charles was
+        elected an elder. Charles, along with others, helped the building up of Union City, Michigan
+        in 1836. His parents would join him at a farm they jointly purchased that same year. His
+        father would eventually become a deacon for a church started in the area. Charles was
+        elected Auditor General of the State of Michigan for a time and then as the collector of the
+        port of Detroit. In 1852, he became the Chicago manager for the Michigan Central Railroad
+        and remained intimately connected with the city for the rest of his life. He worked for
+        other railroads until 1865, when his health began to fail. He took a few years off,
+        exploring Europe, and by 1870 was back in Chicago where he would live for the rest of his
+        life. In 1875, he withdrew from most business practices and focused on city and church life.
+        He died on April 15, 1884.</p>
+      <p>Eliphalet Wickes (E.W.) Blatchford was born on May 31, 1826 in Stillwater, New York. His
+        parents were the Rev. John Blatchford and Frances Wickes Blatchford. The Blatchfords moved
+        to Chicago and then later to Missouri where John Blatchford served as president of Marion
+        College. E.W. Blatchford returned to Illinois in 1845 to attend Illinois College. After
+        college, he started and eventually achieved enough success with his lead and linseed oil
+        manufacturing company to buy out his partner and reorganize the company as E.W. Blatchford
+        and Company. In 1858, he married Mary Emily Williams and the two had seven children
+        together. Throughout his life, Blatchford was a noted philanthropist and leading
+        Congregational layperson. He served as the president of the Chicago Theological Seminary for
+        over 40 years and as vice president of the American Board of Commissioners for Foreign
+        Missions, devoting himself greatly to missionary work. He also played a central role in
+        establishing the Newberry Library in Chicago, where the majority of his family papers now
+        reside. E.W. died in Chicago on January 14th, 1915.</p>
+      <p>In 1852, Blatchford became friends with Charles G. Hammond. The two remained close friends
+        until Colonel Hammond's death in 1884. From the late 1880's onward, Blatchford worked
+        closely with Hammond's brother, H.L. Hammond on the creation of a memorial biography, "The
+        Memorabilia of Charles G. Hammond", which was completed in 1889.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains records related to E.W. Blatchford and his goal of creating a
+        memorial biography for Charles G. Hammond. This includes drafts, correspondences,
+        photographs, obituaries, and an autobiographical sketch.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>The collection is arranged chronologically by date.</p>
+    </arrangement>
+    <relatedmaterial>
+      <head>Related Materials</head>
+      <p>Additional records related to E.W. Blatchford can be found in the Blatchford family papers
+        located at the Newberry Library, Chicago, Illinois.</p>
+    </relatedmaterial>
+    <bibliography>
+      <head>Bibliography</head>
+      <p>1. "In Memory of Charles Goodrich Hammond and Charlotte Bradley Hammond". (Cambridge:
+        Riverside Press, 1887), 4-10.</p>
+      <p>2. Baird, Spencer Fullerton. Blatchford Family Papers - Additions, 1841-1947, Bulk
+        1870-1914., 1870.</p>
+      <p>3. Wikipedia contributors, "Eliphalet Wickes Blatchford," Wikipedia, The Free Encyclopedia,
+        https://en.wikipedia.org/w/index.php?title=Eliphalet_Wickes_Blatchford&amp;oldid=1047922605
+        (accessed December 3, 2021).</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh85033035" source="lcsh">
+        <part>Correspondence.</part>
+      </subject>
+      <subject identifier="sh85093651" source="lcsh">
+        <part>Obituaries.</part>
+      </subject>
+      <subject identifier="sh85014152" source="lcsh">
+        <part>Biography.</part>
+      </subject>
+      <subject identifier="sh85101195" source="lcsh">
+        <part>Photographs. </part>
+      </subject>
+      <persname identifier="n90691912" source="lcnaf">
+        <part>Blatchford, E.W. (Eliphalet Wickes), 1826-1914</part>
+      </persname>
+      <persname rules="rda" source="local">
+        <part>Hammond, Charles G.</part>
+      </persname>
+      <persname identifier="nr91028609" source="lcnaf">
+        <part>Hammond, H. L. (Henry Laurens), 1815-1893</part>
+      </persname>
+    </controlaccess>
+    <dsc>
+      <c01 level="file">
+        <did>
+          <unittitle>Biographies of General Lewis Cass</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1843">1843, undated</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">1</container>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>Autobiographical sketch of Charles G. Hammond</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1876">circa 1876</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">2</container>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>Notes and research</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1876">1876</fromdate>
+              <todate standarddate="1906">1906</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1876-1906</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">3</container>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>Charles and Charlotte Hammond photographs</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1877">1877, undated</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">4</container>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>Correspondence between E.W. Blatchford and Hammond family</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1877">1877</fromdate>
+              <todate standarddate="1900">1900</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1877-1900</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">5</container>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>Funeral planning for Charles G. Hammond</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1884">1884</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">6</container>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>Obituaries and Tributes</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1884">1884</fromdate>
+              <todate standarddate="1905">1905</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1884-1905</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">7</container>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>Charles G. Hammond memorial draft</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1899">1899</fromdate>
+              <todate standarddate="1904">1904</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1899, 1904</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">11</container>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>Correspondences with photographers </unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1903">1903</fromdate>
+              <todate standarddate="1906">1906</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1903-1906</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">8</container>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>Correspondences</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1909">1909</fromdate>
+              <todate standarddate="1913">1913</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1909-1913</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">9</container>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>Photographs related to Charles G. Hammond</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">10</container>
+        </did>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
