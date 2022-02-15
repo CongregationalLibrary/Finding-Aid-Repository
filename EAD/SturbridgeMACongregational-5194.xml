@@ -1,0 +1,1040 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/SturbridgeMACongregational-5194.xml"
+      >SturbridgeMACongregational-5194</recordid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Sturbridge, Mass. Federated Church of Sturbridge and Fiskdale records,
+          1736-1999.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2022-02-14</date>
+        <num>RG5194</num>
+      </publicationstmt>
+      <seriesstmt>
+        <p>Portions of this collection are part of New England's Hidden Histories. Digital
+          historical representations of these portions of the collection can be viewed online.</p>
+      </seriesstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard, </citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2022-02-15T20:33:42+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.8.1</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Tuesday February 15,
+          2022 at 20:33</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Sturbridge, Mass. Federated Church of Sturbridge and Fiskdale records,
+        1736-1999.</unittitle>
+      <unitid>RG5194</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>2.18</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(2 boxes)</physdesc>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1736">1736</fromdate>
+          <todate standarddate="1999">1999</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1736-1999</unitdate>
+      <abstract>The land that is modern Sturbridge, Massachusetts, was first visited by English
+        Puritans in 1644. Sturbridge wasn't settled by English colonists until 1729 by Medfield
+        residents. Construction of the first meeting house was completed in 1734. The Congregational
+        Church in Sturbridge was established on September 29, 1736. In 1747 members of the church
+        withdrew to form a separatist church which later became the Fiskdale Baptist Church.
+        Construction on the second meeting house was completed in 1787. A second split in the
+        congregation occurred in 1864 which resulted in the formation of the Sturbridge Unitarian
+        Church. In 1908 the second meeting house burned after being struck by lightning; the third
+        meeting house was constructed in 1910. In 1922, the Congregational Church, Baptist Church,
+        and Unitarian Church merged to form the Federated Church of Sturbridge and Fiskdale. This
+        collection contains the administrative history of the Congregational Church in Sturbridge,
+        as well as the Baptist and Unitarian churches. Materials in the collection include church
+        records, membership records, and financial records.</abstract>
+      <origination label="Creator">
+        <corpname identifier="n98074124" source="lcnaf">
+          <part>Baptist Church (Fiskdale, Mass.)</part>
+        </corpname>
+      </origination>
+      <origination label="Creator">
+        <corpname identifier="n98074104" source="lcnaf">
+          <part>Congregational Church (Sturbridge, Mass.)</part>
+        </corpname>
+      </origination>
+      <origination label="Creator">
+        <corpname identifier="n98074143" source="lcnaf">
+          <part>Federated Church of Sturbridge and Fiskdale (Sturbridge, Mass.)</part>
+        </corpname>
+      </origination>
+      <origination label="Creator">
+        <corpname identifier="n98074120" source="lcnaf">
+          <part>Unitarian Church (Sturbridge, Mass.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+      <p>Digital Reproductions are protected by copyright and/or related rights. You are free to use
+        the Digital Reproductions in any way that is permitted by the copyright and related rights
+        legislation that applies to your use. In addition, no permission is required from the
+        Congregational Library &amp; Archives for educational uses. For other uses, you need to
+        obtain permission from the Congregational Library &amp; Archives. For additional information
+        regarding copyright, please consult the Congregational Library &amp; Archives' <ref
+          actuate="onrequest" href="https://www.congregationallibrary.org/about/digital-copyright"
+          linktitle="Digital Collections Copyright &amp; Use" show="new">Digital Collections
+          Copyright &amp; Use</ref> policy.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Sturbridge, Mass. Federated Church of Sturbridge and
+        Fiskdale records, 1736-1999., RG5194. The Congregational Library &amp; Archives, Boston,
+        MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were loaned to the Congregational Library &amp; Archives by the Federated Church
+        of Sturbridge and Fiskdale in December 2015; 2014-43.</p>
+    </acqinfo>
+    <altformavail>
+      <head>Digital Copies</head>
+      <p>Records within this collection were digitized as part of the New England's Hidden Histories
+        project. Digital reproductions may be accessed online through our <ref
+          href="https://congregationallibrary.quartexcollections.com/manuscript-collections/browse-the-congregational-church-records-in-sturbridge-massachusetts"
+          linktitle="view digitial reproductions online" show="new">digital archive</ref>.</p>
+    </altformavail>
+    <accruals>
+      <head>Accruals</head>
+      <p>Additional accruals are expected for this collection in the form of full-text
+        transcription. There is no anticipated date for this accrual.</p>
+    </accruals>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Originally processed by Sari Mauro, September 2014, using DACS Second Edition. Reprocessed
+        by Zachary Bodnar, February 2022, using DACS 2019.0.3.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>The land that is modern Sturbridge, Massachusetts, was first visited by English Puritans in
+        1644, but had been inhabited by the Nipmuc people and the area of Sturbridge was called
+        Tantisques Spurred by reports of lead and iron deposits, John Winthrop II visited Tantisques
+        in 1644. There, he negotiated for the purchase of land from Tantasqua, sachem of the area,
+        to set up a mine, though minerals were not mined from this land until 1658. The mine stayed
+        in the Winthrop family until 1738 and remained operational until 1910. Sturbridge wasn't
+        settled by English colonists until 1729 when residents of Medfield acquired a land grant
+        from the General Court of Massachusetts. Before the town was formally incorporated as
+        Sturbridge in 1738, the land was initially known as the Plantation of New Medfield.</p>
+      <p>Construction of the first meeting house was begun in 1733 and was completed the following
+        year. In 1736 the proprietors of the town called Caleb Rice to become the first minister in
+        the town. The Congregational Church in Sturbridge was established on September 29, 1736. On
+        May 10, 1747, 15 members of the church removed themselves from the church to form a new
+        Separatist Congregational Church. In 1748 these "separatists" ordained their first minister
+        and in 1749 the separatists established themselves as Baptists and formed the Baptist Church
+        in Sturbridge, and later Fiskdale. This separation initially caused something of a crisis in
+        the town, especially as the separatists refused to pay taxes to support the established
+        Congregational Church. During much of Rice's ministry, the town struggled to pay his
+        ministerial salary.</p>
+      <p>Plans for the construction of a second meeting house were first approved in 1773. However,
+        those plans were revoked shortly thereafter and would not be revisited again until 1783
+        largely due to the American Revolution. Construction on the second meeting house was begun
+        in 1784 and the new building was dedicated in December 1787. A steeple was added to the
+        building in 1794 and the building underwent multiple renovations during the 19th
+        century.</p>
+      <p>A second split in the congregation occurred in 1864, in part due to "turbulence" caused by
+        the ministry of Marshall B. Angier. On June 3, 1864, the First Unitarian Church of
+        Sturbridge was founded with many of its first members coming from the Congregational Church.
+        The first Unitarian Church building was dedicated on December 11, 1872.</p>
+      <p>On August 5, 1908, the second meeting house was struck by lightning and subsequently burned
+        to the ground. Following the destruction of the second meeting house the Congregationalists
+        met at the Unitarian Church until a new church edifice was completed in 1910. In 1922, in
+        large part due to the declining population of Sturbridge, the Congregational Church, Baptist
+        Church, and Unitarian Church merged to form the Federated Church of Sturbridge and Fiskdale
+        with each congregation remaining a separate society within the Federated Church. The 1910
+        Congregational Church building became the central building for the Federated Church. The
+        Federated Church of Sturbridge and Fiskdale remains active today.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains the administrative history of the Congregational Church in
+        Sturbridge, as well as records from the Fiskdale Baptist Church, the Sturbridge Unitarian
+        Church, and the Federated Church of Sturbridge and Fiskdale. Materials in this collection
+        include church records, correspondence, society records, vital membership records, relations
+        of faith, financial records and reports, and pew records.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>This collection has been arranged into three series. Records within each series have been
+        arranged chronologically by start date.</p>
+      <p><emph render="bold">Series 1:</emph> Church records, 1736-1999</p>
+      <p><emph render="bold">Series 2:</emph> Membership records, 1742-1865</p>
+      <p><emph render="bold">Series 3:</emph> Financial records, 1820-1894</p>
+    </arrangement>
+    <phystech>
+      <head>Technical Requirements</head>
+      <p>To access digital materials on Quartex, it is strongly recommended that you use the latest
+        available version of Microsoft Edge, Google Chrome, Mozilla Firefox, or Safari (Apple).</p>
+    </phystech>
+    <bibliography>
+      <head>Bibliography</head>
+      <p>Stevens, Raymond. <emph render="italic">Highlights of 250 Years of the Congregational
+          Society of the Federated Church of Sturbridge and Fiskdale, 1736-1986</emph>. Sturbridge,
+        1986. 17.11.1 S78.3 FEDCSF</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh85025597" source="lcsh">
+        <part>Church discipline.</part>
+      </subject>
+      <subject identifier="sh85025606" source="lcsh">
+        <part>Church finance.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85033612" source="lcsh">
+        <part>Covenants (Church polity).</part>
+      </subject>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <subject identifier="sh85090572" source="lcsh">
+        <part>Necrologies.</part>
+      </subject>
+      <subject source="local">
+        <part>New England's Hidden Histories.</part>
+      </subject>
+      <subject identifier="sh85100506" source="lcsh">
+        <part>Pews and pew rights.</part>
+      </subject>
+      <subject identifier="sh94007643" source="lcsh">
+        <part>Unitarian controversy.</part>
+      </subject>
+      <subject identifier="sh85147343" source="lcsh">
+        <part>Women -- Societies and clubs.</part>
+      </subject>
+      <corpname identifier="n98074124" source="lcnaf">
+        <part>Baptist Church (Fiskdale, Mass.)</part>
+      </corpname>
+      <corpname identifier="n98074104" source="lcnaf">
+        <part>Congregational Church (Sturbridge, Mass.)</part>
+      </corpname>
+      <corpname identifier="n98074143" source="lcnaf">
+        <part>Federated Church of Sturbridge and Fiskdale (Sturbridge, Mass.)</part>
+      </corpname>
+      <corpname identifier="n98074111" source="lcnaf">
+        <part>Separatist Congregational Church (Sturbridge, Mass.)</part>
+      </corpname>
+      <corpname identifier="n89223914" source="lcnaf">
+        <part>Sturbridge (Mass.) -- Church history.</part>
+      </corpname>
+      <corpname identifier="n98074120" source="lcnaf">
+        <part>Unitarian Church (Sturbridge, Mass.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="series">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1736">1736</fromdate>
+              <todate standarddate="1999">1999</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1736-1999</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains records related to the daily administration of the Congregational
+            Church and its affiliated societies. The series contains church records, meeting
+            minutes, records of women run benevolent societies, ecclesiastical council records,
+            meeting warrants, and Sabbath school records. This series also contains record books
+            created and maintained by the Fiskdale Baptist Church and the Sturbridge Unitarian
+            Church.</p>
+        </scopecontent>
+        <c level="item">
+          <did>
+            <unittitle>Church records</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1736">1736</fromdate>
+                <todate standarddate="1758">1758</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1736-1758</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">1</container>
+          </did>
+          <scopecontent>
+            <head>Scope and Contents</head>
+            <p>This volume is a copy of the original records, transcribed by the clerk in 1896. It
+              contains minutes and votes of meetings, baptisms, marriages, admissions, dismissions,
+              disciplinary cases, confessions, and the original church covenant.</p>
+          </scopecontent>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Church records</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1736">1736</fromdate>
+                <todate standarddate="1765">1765</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1736-1765</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">1</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Reports</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1761">1761</fromdate>
+                <todate standarddate="1868">1868</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1761, 1779,
+              1868</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">3</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Fiskdale Baptist Church records</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1780">1780</fromdate>
+                <todate standarddate="1999">1999</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1780-1999</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="volume">1</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Church records</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1786">1786</fromdate>
+                <todate standarddate="1818">1818</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1786-1818</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">2</container>
+          </did>
+          <scopecontent>
+            <head>Scope and Contents</head>
+            <p>This volume contains minutes of meetings, baptisms (including some "whose record was
+              lost during the ministry of the Rev. Mr. Paine" recreated by the scribe at the time),
+              admissions, dismissions, and marriages.</p>
+          </scopecontent>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Church records</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1800">1800</fromdate>
+                <todate standarddate="1819">1819</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1800-1819</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="volume">2</container>
+          </did>
+          <scopecontent>
+            <head>Scope and Contents</head>
+            <p>This volume was kept by Rev. Otis Lane and begins with the ecclesiastical council to
+              arrange his ordination as the new pastor. It contains minutes of meetings, procedures
+              for disciplinary cases, admissions, dismissions, baptisms, deaths, transcribed
+              correspondence, the eventual dismission of Rev. Lane at his request, and his
+              replacement by Rev. Alvan Bond.</p>
+          </scopecontent>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Invitations to ecclesiastical councils</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1808">1808</fromdate>
+                <todate standarddate="1834">1834</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1808-1834</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">6</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Female Society records</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1813">1813</fromdate>
+                <todate standarddate="1829">1829</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1813-1829</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">7</container>
+          </did>
+          <scopecontent>
+            <head>Scope and Contents</head>
+            <p>This material contains correspondence to the Female Society in Sturbridge. Topics
+              include faith, friendship, missionary work, and charitable donations. Many of the
+              letters appear to have been intended to be read aloud at meetings.</p>
+          </scopecontent>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Church records</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1819">1819</fromdate>
+                <todate standarddate="1831">1831</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1819-1831</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="volume">3</container>
+          </did>
+          <scopecontent>
+            <head>Scope and Contents</head>
+            <p>This volume was kept by Rev. Alvan Bond and begins with the ecclesiastical council to
+              arrange his ordination as the new pastor. Its contents include minutes of meetings,
+              the articles of faith adopted in 1826, admissions, dismissions, deaths, baptisms, the
+              rules of church discipline, and several individual disciplinary cases.</p>
+          </scopecontent>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Correspondence</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1820">1820</fromdate>
+                <todate standarddate="1891">1891</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1820-1891</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">9</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Miscellaneous records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1829">1829, undated</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">4</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Church records</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1831">1831</fromdate>
+                <todate standarddate="1895">1895</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1831-1895</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="volume">4</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Congregational Society records</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1831">1831</fromdate>
+                <todate standarddate="1871">1871</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1831-1871</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="volume">5</container>
+          </did>
+          <separatedmaterial>
+            <head>Separated Materials</head>
+            <p>Loose materials from within this volume of records were removed to make the
+              Congregational Society records, 1866-1871, folder.</p>
+          </separatedmaterial>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Sabbath School Society records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1834">1834</fromdate>
+                <todate standarddate="1841">1841</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1834-1841</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">5</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Invitations to ecclesiastical councils</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1835">1835</fromdate>
+                <todate standarddate="1865">1865</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1835-1865</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">6</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Ladies Benevolent Society records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1851">1851</fromdate>
+                <todate standarddate="1898">1898</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1851-1898</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">7</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Pastoral calls</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1863">1863</fromdate>
+                <todate standarddate="1871">1871</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1863, 1871</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">12</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Meeting warrants</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1863">1863</fromdate>
+                <todate standarddate="1880">1880</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1863-1880</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">13</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Church records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1964">1964</fromdate>
+                <todate standarddate="1973">1973</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1864-1973</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">9</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Unitarian Congregational Society of Sturbridge records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1864">1864</fromdate>
+                <todate standarddate="1908">1908</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1864-1908</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">10</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Congregational Society records</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1866">1866</fromdate>
+                <todate standarddate="1871">1871</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1866-1871</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">11</container>
+          </did>
+          <separatedmaterial>
+            <head>Separated Materials</head>
+            <p>These materials were removed from within the Congregational Society records,
+              1831-1871.</p>
+          </separatedmaterial>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Meeting warrants</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1881">1881</fromdate>
+                <todate standarddate="1893">1893</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1881-1893</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">14</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Women's Missionary Society records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1889">1889</fromdate>
+                <todate standarddate="1897">1897</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1889-1897</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">11</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Church covenant</unittitle>
+            <unitdate datechar="other" unitdatetype="inclusive">undated</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">15</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Sermon fragment</unittitle>
+            <unitdate datechar="other" unitdatetype="inclusive">undated</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">16</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Ecclesiastical council minutes</unittitle>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >undated</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">13</container>
+          </did>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unittitle>Membership records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1742">1742</fromdate>
+              <todate standarddate="1865">1865</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1742-1865</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains vital membership records for the Congregational Church in
+            Sturbridge. The series includes marriage records, records of deaths, membership records,
+            disciplinary case records, and relations of faith.</p>
+        </scopecontent>
+        <c level="file">
+          <did>
+            <unittitle>Confessions</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1742">1742</fromdate>
+                <todate standarddate="1853">1853</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1742-1822, 1853</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">1</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Relations</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1757">1757</fromdate>
+                <todate standarddate="1763">1763</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1757-1763,
+              undated</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">2</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Disciplinary cases</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1783">1783</fromdate>
+                <todate standarddate="1831">1831</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1783-1831</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">4</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Dismission requests</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1798">1798</fromdate>
+                <todate standarddate="1865">1865</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1798-1865</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">5</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Membership certificates</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1804">1804</fromdate>
+                <todate standarddate="1828">1828</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1804-1828</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">2</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Book of marriages and deaths</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1819">1819</fromdate>
+                <todate standarddate="1831">1831</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1819-1831</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">3</container>
+          </did>
+          <scopecontent>
+            <head>Scope and Contents</head>
+            <p>Although such information is also included in the general church records, Rev. Bond
+              also kept a separate book of the marriages and deaths of church members during his
+              time in Sturbridge. In some cases, it may provide more detail.</p>
+          </scopecontent>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Membership transfers</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1831">1831</fromdate>
+                <todate standarddate="1836">1836</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1831-1836</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">10</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Membership transfers</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1836">1836</fromdate>
+                <todate standarddate="1842">1842</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1836-1842</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">8</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Membership withdrawals</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1836">1836</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">7</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Marriage intentions</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1839">1839</fromdate>
+                <todate standarddate="1842">1842</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1839-1842</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">9</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Marriage intentions</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1842">1842</fromdate>
+                <todate standarddate="1844">1844</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1842-1844</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">10</container>
+          </did>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unittitle>Financial records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1820">1820</fromdate>
+              <todate standarddate="1894">1894</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1820-1894</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains financial records for the Congregational Church in Sturbridge. The
+            series includes financial ledgers and reports, receipts, and pew records.</p>
+        </scopecontent>
+        <c level="file">
+          <did>
+            <unittitle>Financial reports</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1820">1820</fromdate>
+                <todate standarddate="1875">1875</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1820-1875</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">8</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Financial records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1827">1827</fromdate>
+                <todate standarddate="1832">1832</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1827-1832</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">4</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Receipts</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1827">1827</fromdate>
+                <todate standarddate="1834">1834</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1827-1834</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">3</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Pew records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1834">1834</fromdate>
+                <todate standarddate="1856">1856</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1834-1856</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">5</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Financial records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1842">1842</fromdate>
+                <todate standarddate="1894">1894</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1842-1894</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">11</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Financial records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1843">1843</fromdate>
+                <todate standarddate="1866">1866</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1843-1866</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">6</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Financial records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1856">1856</fromdate>
+                <todate standarddate="1897">1897</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1856-1897</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">8</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Pew rental records</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1856">1856</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="volume">6</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Pew rental records</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1872">1872</fromdate>
+                <todate standarddate="1873">1873</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1872-1873</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">12</container>
+          </did>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
