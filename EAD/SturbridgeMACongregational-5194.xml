@@ -7,6 +7,8 @@
     <recordid
       instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/SturbridgeMACongregational-5194.xml"
       >SturbridgeMACongregational-5194</recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/all/files/SturbridgeMACongregational-5194.pdf"/>
     <filedesc>
       <titlestmt>
         <titleproper>Sturbridge, Mass. Federated Church of Sturbridge and Fiskdale records,
@@ -43,7 +45,7 @@
     </languagedeclaration>
     <conventiondeclaration>
       <abbr>DACS 2019.0.3</abbr>
-      <citation>Describing Archives: A Content Standard, </citation>
+      <citation>Describing Archives: A Content Standard, Second Edition</citation>
     </conventiondeclaration>
     <localcontrol localtype="findaidstatus">
       <term>completed</term>
