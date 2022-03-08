@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/NatickMAFirst-4839.xml"
+      >NatickMAFirst-4839</recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/all/files/NatickMAFirst4839.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Natick, Mass. First Congregational Church records, 1721-1920.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2022-03-08</date>
+        <num>RG4839</num>
+      </publicationstmt>
+      <seriesstmt>
+        <p>Portions of this collection are part of New England's Hidden Histories. Digital
+          historical representations of these portions of the collection can be viewed online.</p>
+      </seriesstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+      <descriptivenote>
+        <p>English</p>
+      </descriptivenote>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard, Second Edition</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2022-03-08T15:47:27+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.8.1</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Tuesday March 8, 2022
+          at 15:47</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Natick, Mass. First Congregational Church records, 1721-1920.</unittitle>
+      <unitid>RG4839</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>1.15</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(1 box, 3 reels)</physdesc>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1721">1721</fromdate>
+          <todate standarddate="1920">1920</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1721-1920</unitdate>
+      <abstract>First Congregational Church of Natick, Massachusetts, was established in 1651 by a
+        group of English settlers and missionaries under the leadership of Rev. John Elliot. The
+        church became home to many local Native Americans, also known as "Praying Indians," and was
+        the location of the writing of the "Eliot Bible:" a bible translated into phonetic
+        Algonquian. This collection contains records of church covenants, meeting minutes, baptismal
+        records, lists of deaths, disciplinary records, ordinations, and membership
+        records.</abstract>
+      <origination label="Creator">
+        <corpname identifier="nr2005028232" source="lcnaf">
+          <part>First Congregational Church (Natick, Mass.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+      <p>Digital Reproductions are protected by copyright and/or related rights. You are free to use
+        the Digital Reproductions in any way that is permitted by the copyright and related rights
+        legislation that applies to your use. In addition, no permission is required from the
+        Congregational Library &amp; Archives for educational uses. For other uses, you need to
+        obtain permission from the Congregational Library &amp; Archives. For additional information
+        regarding copyright, please consult the Congregational Library &amp; Archives' <ref
+          actuate="onrequest" href="https://www.congregationallibrary.org/about/digital-copyright"
+          linktitle="Digital Collections Copyright &amp; Use" show="new">Digital Collections
+          Copyright &amp; Use</ref> policy.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Natick, Mass. First Congregational Church records,
+        1721-1920., RG4839. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>The 1721-1794 church record book was deposited at the Congregational Library &amp; Archives
+        by the First Congregational Church of Natick in 2007; no accession number.</p>
+      <p>The remaining portion of the collection was deposited at the Congregational Library &amp;
+        Archives by the First Congregational Church of Natick in 2016; accession 2016-05. This
+        accession was originally provided the identifier RG5313.</p>
+    </acqinfo>
+    <altformavail>
+      <head>Digital Copies</head>
+      <p>Records within this collection were digitized as part of the New England's Hidden Histories
+        project. Digital reproductions may be accessed online through our <ref
+          href="https://congregationallibrary.quartexcollections.com/manuscript-collections/browse-the-first-congregational-church-records-in-natick-massachusetts"
+          linktitle="view digitial reproductions online" show="new">digital archive</ref>.</p>
+    </altformavail>
+    <accruals>
+      <head>Accruals</head>
+      <p>Additional accruals are expected for this collection in the form of full-text
+        transcription. There is no anticipated date for this accrual.</p>
+    </accruals>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Processed by Zachary Bodnar, March 2022, using DACS Second Edition.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>The First Congregational Church in Natick was established by a group of English settlers
+        and missionaries led by Rev. John Eliot in 1651, in what is now old South Natick. The
+        settlers cultivated strong relationships with local Indigenous peoples, mainly comprising
+        members of the Massachusett tribe, while attempting to convert them to Christianity. To this
+        end, Rev. Eliot studied the Algonquin language with the help of the Montaukett interpreter
+        Cockenoe, eventually publishing a translation of the Bible in phonetic Algonquin.</p>
+      <p>Those who converted were known as "Praying Indians" and became foundational members of the
+        First Church in Natick, which was typified by its racially diverse congregation during the
+        17th and 18th centuries. There was a sizeable minority of congregants who were identified as
+        "Negro" in the earliest church registers, as well as increasing numbers of white members.
+        The Native presence persisted despite major fluctuations in their numbers, including those
+        resulting from deadly forced removals to Deer Island in 1675, during King Philip's War.</p>
+      <p>In 1721 the old meetinghouse was rebuilt and local missionary Rev. Oliver Peabody was
+        appointed as minister. During his tenure (1721-1752), he created the first extant records
+        for both the church and town. Construction on a third meetinghouse in the same location
+        began in 1754.</p>
+      <p>By 1749 however, white congregants were lobbying to move the church from South Natick to
+        the increasingly segregated Natick Center. These "Center Members" were at odds with the
+        largely Indigenous South Natick members who wished to retain the old location. Despite the
+        unifying efforts of Rev. Peabody's successor, Rev. Stephen Badger, a fourth meetinghouse was
+        eventually built in Natick Center in 1767. In 1798 the congregation officially split,
+        largely (although not completely) along racial lines, with both groups retaining the moniker
+        of "First Church". Rev. Badger was subsequently dismissed for his refusal to preach at the
+        Center church, continuing to reside in South Natick until his death in 1803.</p>
+      <p>After the congregational schism, the South Natick division of Natick First fell into
+        disrepair, but was revived in 1828 with the incorporation of the South Parish Congregational
+        Church and the construction of a new meeting house. The South Parish, which became Unitarian
+        in 1870, is now called the Eliot Church and hosts a revived Praying Indian community of
+        worship. The "Center" church continued through several physical iterations until the present
+        day while retaining the designation of the First Church in Natick. Notable among these was
+        the sixth meetinghouse, a costly edifice erected on the same site in 1854, which included a
+        bell and fine organ, and played host to several prominent luminaries of the Civil War era.
+        This structure however burned down only two decades after its construction, in the great
+        Natick fire of 1874. A gothic-style church was erected adjacent to the former site in 1877
+        and is still in use. Natick First joined the United Church of Christ shortly after the
+        latter organization's foundation in 1957.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains early administrative and financial records for the First
+        Congregational Church in Natick. The collection contains administrative records and meeting
+        minutes, financial records and ledgers, church membership records, baptismal records,
+        marriage records, records of deaths, sermons produced by Benjamin Caryl, church
+        correspondence, a list of prohibition supporters, and a history of the Sabbath school in
+        Natick.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>Materials in this collection have been arranged in chronological order by start date.</p>
+    </arrangement>
+    <phystech>
+      <head>Technical Requirements</head>
+      <p>To access digital materials on our digital archive, it is strongly recommended that you use
+        the latest available version of Microsoft Edge, Google Chrome, Mozilla Firefox, or Safari
+        (Apple).</p>
+      <p>A microfilm reader is required in order to access microform materials. One microfilm reader
+        is available to the public upon request.</p>
+    </phystech>
+    <controlaccess>
+      <subject identifier="sh85003480" source="lcsh">
+        <part>Algonquin Indians.</part>
+      </subject>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025597" source="lcsh">
+        <part>Church discipline.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85033612" source="lcsh">
+        <part>Covenants (Church polity).</part>
+      </subject>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <subject identifier="sh85090572" source="lcsh">
+        <part>Necrologies.</part>
+      </subject>
+      <subject source="local">
+        <part>New England's Hidden Histories.</part>
+      </subject>
+      <subject identifier="sh85095385" source="lcsh">
+        <part>Ordination.</part>
+      </subject>
+      <subject identifier="sh2008111551" source="lcsh">
+        <part>Sermons, American -- Early works to 1800.</part>
+      </subject>
+      <subject identifier="sh85133710" source="lcsh">
+        <part>Temperance and religion.</part>
+      </subject>
+      <persname identifier="n84024575" source="lcnaf">
+        <part>Badger, Stephen, 1726-1803</part>
+      </persname>
+      <corpname identifier="nr2005028232" source="lcnaf">
+        <part>First Congregational Church (Natick, Mass.)</part>
+      </corpname>
+      <corpname identifier="n79069737" source="lcnaf">
+        <part>Natick (Mass.) -- Church history</part>
+      </corpname>
+      <persname identifier="n85253116" source="lcnaf">
+        <part>Peabody, Oliver, 1698-1752</part>
+      </persname>
+      <persname identifier="nr2006033289" source="lcnaf">
+        <part>Sears, Freeman, 1779-1811</part>
+      </persname>
+      <corpname identifier="nr2001028763" source="lcnaf">
+        <part>South Congregational Church in Natick (Natick, Mass.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1721">1721</fromdate>
+              <todate standarddate="1794">1794</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1721-1794</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">1</container>
+          <container label="Microform" localtype="reel">Print Master</container>
+          <container label="Microform" localtype="reel">Archival Master</container>
+          <container label="Microform" localtype="reel">Service Copy</container>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This volume contains the earliest extant records for the town of Natick and of the
+            First Church. They begin in 1721, the year in which a second meetinghouse was built and
+            in which Rev. Oliver Peabody began his 30 year tenure. It includes lists of members,
+            baptisms, deaths, church meetings minutes, and a copy of the church covenant. This
+            volume of records includes a list of "those Indians that have Dyed from among us," which
+            can be used as an index to track the activities of Native Americans in the church, many
+            of whom had anglicized names. Stewardship of the records passed to Rev. Stephen Badger
+            in 1752, after Rev. Peabody's death.</p>
+        </scopecontent>
+        <accessrestrict>
+          <head>Restrictions on Access</head>
+          <p>Of the microfilm reels, only the service copy is available for public use. Master reels
+            are restricted and maintained for preservation purposes.</p>
+        </accessrestrict>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>Letter regarding the building of the third meeting house</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1750">1750</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">12</container>
+        </did>
+        <phystech>
+          <head>Physical Access</head>
+          <p>Access to this folder is restricted due to the presence of broken glass. Contact the
+            archivist for special permission to view the item. Special gloves must be worn when
+            handling this folder.</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>Letter to bereaved parent</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1755">1755</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">1</container>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This single piece of correspondence is both unsigned and unaddressed. Its writer
+            expresses sympathy with a bereaved parent whose son was killed in the disastrous defeat
+            of General Edward Braddock's forces near Fort Duquesne, in the "Battle of the
+            Monongahela" during the French and Indian War. The letter was sent from Boston and dated
+            August 4, 1755.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>Warrant for meeting about gallery stairs</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1755">1755</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">13</container>
+        </did>
+        <phystech>
+          <head>Physical Access</head>
+          <p>Access to this folder is limited due to the presence of glass. Handle with care.</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>Benjamin Caryl sermons</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1762">1762</fromdate>
+              <todate standarddate="1803">1803</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1762-1803</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">2</container>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>"A sermon at the execution of Moses Paul"</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1772">circa 1772</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">3</container>
+        </did>
+        <altformavail>
+          <head>Electronic resource available</head>
+          <p>An electronic version of a later edition of this sermon is available through Hathi
+            Trust Digital Library: <ref href="https://catalog.hathitrust.org/Record/100310929">A
+              Sermon at the execution of Moses Paul</ref></p>
+        </altformavail>
+        <altformavail>
+          <head>Library resource available</head>
+          <p>A different edition of this item is available from the Congregational Library &amp;
+            Archives: <ref
+              href="https://congregationallibrary.softlinkliberty.net:443/liberty/OpacLogin?mode=BASIC&amp;openDetail=true&amp;corporation=CLA&amp;action=search&amp;queryTerm=uuid%3D%2273eec402c0a8e1010055af1500240cc4%22&amp;operator=OR&amp;url=%2Fopac%2Fsearch.do"
+              >15.5 5842.1</ref></p>
+        </altformavail>
+        <phystech>
+          <head>Physical Access</head>
+          <p>Access to this item is restricted due to the fragility of the object. Please use either
+            the edition held by the library or the electronic version on Hathi Trust. Contact the
+            archivist for special permission to view this item.</p>
+        </phystech>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>A plan of Concert of Prayer circular letter</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1794">1794</fromdate>
+              <todate standarddate="1795">1795</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1794-1795</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">4</container>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>Purchase of town's right to meeting house</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1798">1798</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">14</container>
+        </did>
+        <phystech>
+          <head>Physical Access</head>
+          <p>Access to this folder is limited due to the presence of glass. Handle with care.</p>
+        </phystech>
+      </c01>
+      <c01 level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1802">1802</fromdate>
+              <todate standarddate="1833">1833</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1802-1833</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">2</container>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This volume dates from shortly after the Church's 1798 schism and comprises the records
+            of the "Center" division of Natick First. It includes details of the church's committee
+            at the time of formation, articles of faith, the church covenant, financial records,
+            member lists, records of baptisms, marriages, deaths, church meeting minutes, and
+            correspondence. The death records include detailed mortality information such as age at
+            death and cause of death, and occasional demographic details. Correspondence includes a
+            letter from Rev. Sears seeking reconciliation with the people of South Natick. A table
+            of contents is included at the front of the volume.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <unittitle>Ministerial fund records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1802">1802</fromdate>
+              <todate standarddate="1914">1914</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1802-1914</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">3</container>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>Freeman Sears letter</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1809">1809</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">15</container>
+        </did>
+        <phystech>
+          <head>Physical Access</head>
+          <p>Access to this folder is limited due to the presence of glass. Handle with care.</p>
+        </phystech>
+      </c01>
+      <c01 level="item">
+        <did>
+          <unittitle>Financial records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1814">1814</fromdate>
+              <todate standarddate="1914">1914</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1814-1914</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">4</container>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>"A sermon, delivered at Natick, January 5, 1817, containing a history of said
+            town"</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1817">1817</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">5</container>
+        </did>
+        <altformavail>
+          <head>Electronic resource available</head>
+          <p>An electronic version of this item is available through the Internet Archives: <ref
+              href="https://archive.org/details/sermondelivereda1817moor/page/n7/mode/2up">"A
+              Sermon, delivered at Natick, January 5, 1817"</ref></p>
+        </altformavail>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This sermon was authored by Martin Moore, but it includes an end note which was
+            authored by Freeman Sears, minister at the First Congregational Church of Natick between
+            1806 and 1811.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <unittitle>Financial records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1822">1822</fromdate>
+              <todate standarddate="1862">1862</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1822-1862</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">5</container>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This volume comprises financial ledgers from Natick First's 'Center' church subsequent
+            to the congregational split of 1798. The records, kept by various of the church's
+            treasurers, detail incoming and outgoing revenue, ministerial salaries, member rates,
+            and other miscellaneous expenses.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1833">1833</fromdate>
+              <todate standarddate="1864">1864</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1833-1864</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">6</container>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>Daniel Wight papers</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1837">1837</fromdate>
+              <todate standarddate="1919">1919</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1837-1919</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">6</container>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <unittitle>Church records by Willard Drury</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1856">1856</fromdate>
+              <todate standarddate="1868">1868</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1856-1868</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">7</container>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>Financial records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1861">1861</fromdate>
+              <todate standarddate="1866">1866</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1861-1866</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">7</container>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>Typewritten excerpt from "The old Indian chronicle"</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1867">1867</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">8</container>
+        </did>
+        <altformavail>
+          <head>Electronic resource available</head>
+          <p>A complete copy of the work this item is an excerpt of is available through the Hathi
+            Trust Digital Library: <ref href="https://catalog.hathitrust.org/Record/008427689">"The
+              old Indian chronicle: being a collection of exceeding rare tracts written and
+              published in the time of King Philip's war"</ref></p>
+        </altformavail>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This typewritten excerpt contains the text of pages 88 through 96 from "The old Indian
+            chronicle", a work by Samuel G. Grace.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>Financial records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1878">1878</fromdate>
+              <todate standarddate="1912">1912</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1878,
+            1900-1912</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">16</container>
+        </did>
+        <separatedmaterial>
+          <head>Separated Materials</head>
+          <p>These materials were removed from the volume "Financial records, 1814-1914".</p>
+        </separatedmaterial>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>Prohibition supporters</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1892">1892</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">9</container>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>Chronological list of members from 1802-1920</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1920">1920</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">10</container>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This list of members was compiled by Lucy E. Wight.</p>
+        </scopecontent>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>Early history of the Natick Sabbath School</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">11</container>
+        </did>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
