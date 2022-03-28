@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/BryantSDUnion-5431.xml"
+      >BryantSDUnion-5431</recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/all//files/BryantSDUnion-5431.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Bryant, S.D. Union Congregational Church Records, 1892-2009.</titleproper>
+        <author>Patrick Riordan</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <num>RG5431</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2022-03-22T19:48:16+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.8.1</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Tuesday March 22,
+          2022 at 19:48</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Bryant, S.D. Union Congregational Church, 1892-2009.</unittitle>
+      <unitid>RG5431</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>1.49</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(2 boxes, 1 folder)</physdesc>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1892">1892</fromdate>
+          <todate standarddate="2009">2009</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1892-2009</unitdate>
+      <abstract>The Union Congregational Church of Bryant, S.D. was founded on March 13, 1892, with
+        the writing of it's first constitution. On March 30th, 1892, the church joined in covenant
+        fellowship with Congregational churches in DeSmet, Hetland, Erwin, Lake Preston, and Willow
+        Lakes. The church building was finished in 1897 and later remodeled in 1945. This collection
+        records the activities of the church and it's community through annual reports, membership
+        records, church correspondence, yearbook reports, and financial records.</abstract>
+      <origination label="Creator">
+        <persname rules="rda" source="local">
+          <part>Brewton, Marjie</part>
+        </persname>
+      </origination>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">
+          <part>Union Congregational Church (Bryant, S.D.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Bryant, S.D. Union Congregational Church records,
+        1892-2009, RG5431. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by Rev. Marjie Brewton
+        in February 2022; Accession 2022-02.</p>
+    </acqinfo>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Processed by Patrick Riordan, March 2022, using DACS 2019.03.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>The Union Congregational Church of Bryant, South Dakota, was founded on March 13, 1892,
+        with the writing of its first constitution. On March 30th, 1892, the church joined in
+        covenant fellowship with Congregational churches in DeSmet, Hetland, Erwin, Lake Preston,
+        and Willow Lake. The congregation originally met for worship in the Baptist church and other
+        places until a church building was financed and built in 1897. In 1945 a building fund was
+        established to remodel the Church, and a basement was later dug and bricked. In 1911, the
+        church voted to separate from the Congregational Home Mission Board and become financially
+        self-supporting. From 1929 to 1943, the church struggled with both finances and attendance,
+        and until 1984 struggled to keep pastors employed. As a result of this, the church shared
+        several pastors with the Willow Lake Congregational Church from 1946 to 1987. The church was
+        part of the United Church of Christ. In 1993, the Prairie Retreat, a nonprofit led by Rev.
+        Marjie Brewton, was sponsored by the church and ran as an extended ministry. The church was
+        dissolved in 2020.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>The Bryant, S.D. Union Congregational Church records include annual reports, membership
+        records, church correspondence, and yearbook reports. Also included are financial records,
+        in the form of ledgers, receipts, treasurer's records, and building records.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>The collection has been arranged in chronological order with closely related materials
+        grouped together as appropriate.</p>
+    </arrangement>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025854" source="lcsh">
+        <part>Church buildings.</part>
+      </subject>
+      <subject identifier="sh85025591" source="lcsh">
+        <part>Church correspondence.</part>
+      </subject>
+      <subject identifier="sh85025606" source="lcsh">
+        <part>Church finance.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Clergy -- Resignation.</part>
+      </subject>
+      <subject identifier="sh85031336" source="lcsh">
+        <part>Constitutions. </part>
+      </subject>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <subject identifier="sh85090572" source="lcsh">
+        <part>Necrologies.</part>
+      </subject>
+      <subject identifier="sh85093651" source="lcsh">
+        <part>Obituaries.</part>
+      </subject>
+      <subject identifier="sh85130524" source="lcsh">
+        <part>Sunday schools.</part>
+      </subject>
+      <subject identifier="sh85147565" source="lcsh">
+        <part>Women in church work.</part>
+      </subject>
+      <corpname identifier="no2005017505" source="lcnaf">
+        <part>Bryant (S.D.) -- Church history.</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>Union Congregational Church (Bryant, S.D.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="item">
+        <did>
+          <unittitle>Union Congregational Annual Reports</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1892">1892</fromdate>
+              <todate standarddate="1924">1924</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1892-1924</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">1</container>
+        </did>
+        <separatedmaterial>
+          <head>Separated Materials</head>
+          <p>Material was removed from this volume and made into the folder titled "Letter of
+            Resignation, 1924."</p>
+        </separatedmaterial>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Union Congregational Annual Reports</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1924">1924</fromdate>
+              <todate standarddate="1956">1956</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1924-1956</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">2</container>
+        </did>
+        <separatedmaterial>
+          <head>Separated Materials</head>
+          <p>Material was removed from this volume and made into the folder titled "Materials from
+            the Union Congregational Annual Reports, 1924-1956."</p>
+        </separatedmaterial>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Materials from Union Congregational Annual Report</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1924">1924</fromdate>
+              <todate standarddate="1956">1956</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1924-1956</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">4</container>
+        </did>
+        <separatedmaterial>
+          <head>Separated Materials</head>
+          <p>This material was removed from the Union Congregational Annual Report, 1924-1956.</p>
+        </separatedmaterial>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Union Congregational Annual Reports</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1956">1956</fromdate>
+              <todate standarddate="2004">2004</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1956-2004</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">3</container>
+        </did>
+        <separatedmaterial>
+          <head>Separated Materials</head>
+          <p>Material was removed from this volume and made into the folder titled "Materials from
+            the Union Congregational Annual Reports, 1956-2004."</p>
+        </separatedmaterial>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Materials from Union Congregational Annual Reports</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1956">1956</fromdate>
+              <todate standarddate="2004">2004</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1956-2004</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">9</container>
+        </did>
+        <separatedmaterial>
+          <head>Separated Materials</head>
+          <p>This Material was removed from the Union Congregational Annual Reports, 1956-2004.</p>
+        </separatedmaterial>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Building Records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1897">1897</fromdate>
+              <todate standarddate="2009">2009</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1897-2009</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">1</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Sabbath Reading</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1908">1908</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">2</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>International Sunday School Association Certificate</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1913">1913</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="folder">1</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Treasurer's Record Books</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1918">1918</fromdate>
+              <todate standarddate="1944">1944</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1918-1944</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">4</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Treasurer's Record Books</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1918">1918</fromdate>
+              <todate standarddate="1950">1950</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1918-1950</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">5</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Treasurer's Record Books</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1945">1945</fromdate>
+              <todate standarddate="1952">1952</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1945-1952</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="volume">1</container>
+        </did>
+        <separatedmaterial>
+          <head>Separated Materials</head>
+          <p>Material was removed from this volume and made into the folder titled "Materials from
+            Treasurer's Record Books, 1945-1952."</p>
+        </separatedmaterial>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Materials from Treasurer's Record Books</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1945">1945</fromdate>
+              <todate standarddate="1952">1952</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1945-1952</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">8</container>
+        </did>
+        <separatedmaterial>
+          <head>Separated Materials</head>
+          <p>This Material was removed from the volume "Treasurer's Record Books, 1945-1952."</p>
+        </separatedmaterial>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Treasurer's Record Books</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1953">1953</fromdate>
+              <todate standarddate="1958">1958</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1953-1958</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="volume">2</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Treasurer's Record Books</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1958">1958</fromdate>
+              <todate standarddate="1961">1961</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1958-1961</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">6</container>
+        </did>
+        <separatedmaterial>
+          <head>Separated Materials</head>
+          <p>Material was removed from this item and made into the folder titled "Materials from
+            Treasurer's Record Books, 1958-1961."</p>
+        </separatedmaterial>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Materials from Treasurer's Record Books</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1958">1958</fromdate>
+              <todate standarddate="1961">1961</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1958-1961</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">10</container>
+        </did>
+        <separatedmaterial>
+          <head>Separated Materials</head>
+          <p>This material was removed from the volume "Treasurer's Record Books, 1958-1961."</p>
+        </separatedmaterial>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Treasurer's Record Books</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1962">1962</fromdate>
+              <todate standarddate="1973">1973</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1962-1973</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">7</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Letter of Resignation</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1924">1924</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">3</container>
+        </did>
+        <separatedmaterial>
+          <head>Separated Materials</head>
+          <p>This material was removed from the volume "Union Congregational Annual Reports,
+            1892-1924."</p>
+        </separatedmaterial>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Correspondence</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1938">1938</fromdate>
+              <todate standarddate="1992">1992</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1938-1992</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">5</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Yearbook Reports</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1939">1939</fromdate>
+              <todate standarddate="1983">1983</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1939-1983</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">6</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Membership Papers</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1940">1940</fromdate>
+              <todate standarddate="1978">1978</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1940-1978</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">7</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Anniversary Books and Constitutions</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1964">1964</fromdate>
+              <todate standarddate="1996">1996</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1964-1996</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">11</container>
+        </did>
+        <separatedmaterial>
+          <head>Separated Materials</head>
+          <p>The volume "'Heart of the Earth', 1989." was removed from this folder.</p>
+        </separatedmaterial>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Sunday School Secretary's Records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1971">1971</fromdate>
+              <todate standarddate="1975">1975</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1971-1975</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">8</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>"Heart of the Earth"</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1989">1989</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">9</container>
+        </did>
+        <separatedmaterial>
+          <head>Separated Materials</head>
+          <p>This material was removed from the folder titled "Anniversary Books and Constitutions,
+            1964-1996."</p>
+        </separatedmaterial>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Women in Mission</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1999">1999</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">12</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Donations "in Memorium"</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">1</container>
+        </did>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
