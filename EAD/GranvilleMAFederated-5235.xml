@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/GranvilleMAFederated-5235.xml"
+      >GranvilleMAFederated-5235</recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/all/files/GranvilleMAFederated-5235.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Granville, Mass. Granville Federated Church records, 1754-1941.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2022-03-28</date>
+        <num>RG5235</num>
+      </publicationstmt>
+      <seriesstmt>
+        <p>Portions of this collection are part of New England's Hidden Histories. Digital
+          historical representations of these portions of the collection can be viewed online.</p>
+      </seriesstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2022-03-29T19:00:23+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.8.1</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Tuesday March 29,
+          2022 at 19:00</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Granville, Mass. Granville Federated Church records, 1754-1941.</unittitle>
+      <unitid>RG5235</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>1.09</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(1 box)</physdesc>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1754">1754</fromdate>
+          <todate standarddate="1941">1941</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1754-1941</unitdate>
+      <abstract>The First Church of Christ in Granville was gathered in 1744, and Moses Tuttle was
+        ordained as the first minister in 1747. The first meeting house was constructed during
+        Tuttle's ministry. Timothy Mather Cooley, a Granville native, was called to become the
+        minister of the First Church of Christ in 1795 and he served as the pastor for 63 years. In
+        1937, the First Church of Christ and the Baptist Church in Granville decided to share a
+        building and merge to form the Granville Federated Church. This collection contains
+        administrative records, membership records, and ministerial records and includes church
+        records and meeting minutes, correspondence, disciplinary records, and relations of
+        faith.</abstract>
+      <origination label="Creator">
+        <persname identifier="n87947351" source="lcnaf">
+          <part>Cooley, Timothy Mather, 1772-1859</part>
+        </persname>
+      </origination>
+      <origination label="Creator">
+        <corpname identifier="no97059907" source="lcnaf">
+          <part>First Church of Christ (Granville, Mass.)</part>
+        </corpname>
+      </origination>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">
+          <part>Granville Federated Church (Granville, Mass.)</part>
+        </corpname>
+      </origination>
+      <origination label="Creator">
+        <persname identifier="n83135226" source="lcnaf">
+          <part>Haynes, Lemuel, 1753-1833</part>
+        </persname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+      <p>Digital Reproductions are protected by copyright and/or related rights. You are free to use
+        the Digital Reproductions in any way that is permitted by the copyright and related rights
+        legislation that applies to your use. In addition, no permission is required from the
+        Congregational Library &amp; Archives for educational uses. For other uses, you need to
+        obtain permission from the Congregational Library &amp; Archives. For additional information
+        regarding copyright, please consult the Congregational Library &amp; Archives' <ref
+          actuate="onrequest" href="https://www.congregationallibrary.org/about/digital-copyright"
+          linktitle="Digital Collections Copyright &amp; Use" show="new">Digital Collections
+          Copyright &amp; Use</ref> policy.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Sturbridge, Mass. Federated Church of Sturbridge and
+        Fiskdale records, 1736-1999., RG5194. The Congregational Library &amp; Archives, Boston,
+        MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were loaned to the Congregational Library &amp; Archives by the town of
+        Granville, Massachusetts, in October 2014; 2014-82.</p>
+    </acqinfo>
+    <altformavail>
+      <head>Digital Copies</head>
+      <p>Records within this collection were digitized as part of the New England's Hidden Histories
+        project. Digital reproductions may be accessed online through our <ref
+          href="https://congregationallibrary.quartexcollections.com/manuscript-collections/browse-the-first-church-of-christ-records-in-granville-massachusetts"
+          linktitle="view digitial reproductions online" show="new">digital archive</ref>.</p>
+    </altformavail>
+    <accruals>
+      <head>Accruals</head>
+      <p>Additional accruals are expected for this collection in the form of full-text
+        transcription. There is no anticipated date for this accrual.</p>
+    </accruals>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Initially partially processed by Sari Mauro, using DACS Second Edition. Reprocessed by
+        Zachary Bodnar, March 2022, using DACS 2019.0.3.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>The town of Granville, Massachusetts, was first settled by English colonists in 1736. The
+        town was incorporated in 1754. The First Church of Christ in Granville was gathered in 1744.
+        Moses Tuttle was ordained as the first minister of the Church of Christ in 1747. The first
+        meeting house was constructed during Tuttle's ministry and was made possible by a large
+        financial contribution from Tuttle.</p>
+      <p>Numerous churches can trace their roots to the First Church of Christ in Granville. The
+        West Granville Congregational Church, originally known as the Second or Middle Church of
+        Granville, was gathered in 1781. The Tolland Congregational Church, originally known as the
+        Third or West Church of Granville, was gathered in 1791. The Baptist Church in Granville was
+        likewise formed in 1791. The Methodist Episcopal Church in Granville was formed in 1800.</p>
+      <p>Timothy Mather Cooley, a Granville native, was called to become the minister of the First
+        Church of Christ in 1795, and he was ordained in 1796. During his ministry, in 1802, the
+        second meeting house was constructed. Timothy Cooley served as minister of the church for
+        more than 63 years and died in Granville on December 14, 1859.</p>
+      <p>In 1937, the First Church of Christ and the Baptist Church in Granville decided to share a
+        building and merge to form the Granville Federated Church. The Granville Federated Church
+        continues to serve the local community today.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains administrative records, membership records, and ministerial
+        records from the Granville Federated Church. The collection includes administrative church
+        records and meeting minutes, church correspondence, records of admissions and dismissions,
+        church disciplinary records, confessions of faith and covenants, relations of faith, and
+        ministerial correspondence.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>This collection has been arranged into three series. Records within each series have been
+        arranged chronologically, by start date, with closely related materials grouped together as
+        appropriate.</p>
+      <p><emph render="bold">Series 1:</emph> Church records, 1754-1941</p>
+      <p><emph render="bold">Series 2:</emph> Membership records, 1756-1920</p>
+      <p><emph render="bold">Series 3:</emph> Ministerial records, 1777-1870</p>
+    </arrangement>
+    <phystech>
+      <head>Technical Requirements</head>
+      <p>To access digital materials on our digital archive, it is strongly recommended that you use
+        the latest available version of Microsoft Edge, Google Chrome, Mozilla Firefox, or Safari
+        (Apple).</p>
+    </phystech>
+    <bibliography>
+      <head>Bibliography</head>
+      <p><emph render="italic">Granville Jubilee. The First Church of Christ, Granville, Mass.,
+          August 28th, 1895.</emph> Pittsfield: Press of the Sun Printing Company, 1895. 17.11.1
+        G76.63 FirCC</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh85025597" source="lcsh">
+        <part>Church discipline.</part>
+      </subject>
+      <subject identifier="sh85025606" source="lcsh">
+        <part>Church finance.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Clergy -- Correspondence.</part>
+      </subject>
+      <subject identifier="sh85033612" source="lcsh">
+        <part>Covenants (Church polity).</part>
+      </subject>
+      <subject identifier="sh85033885" source="lcsh">
+        <part>Creeds.</part>
+      </subject>
+      <subject identifier="sh85046434" source="lcsh">
+        <part>Experience (Religion).</part>
+      </subject>
+      <subject source="local">
+        <part>New England's Hidden Histories.</part>
+      </subject>
+      <subject identifier="sh85090572" source="lcsh">
+        <part>Necrologies.</part>
+      </subject>
+      <corpname identifier="n84161610" source="lcnaf">
+        <part>American Home Missionary Society</part>
+      </corpname>
+      <persname identifier="n87947351" source="lcnaf">
+        <part>Cooley, Timothy Mather, 1772-1859</part>
+      </persname>
+      <corpname identifier="no97059907" source="lcnaf">
+        <part>First Church of Christ (Granville, Mass.)</part>
+      </corpname>
+      <corpname identifier="n2004078207" rules="rda" source="lcnaf">
+        <part>Granville (Mass.) -- Church history.</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>Granville Federated Church (Granville, Mass.)</part>
+      </corpname>
+      <persname identifier="n83135226" source="lcnaf">
+        <part>Haynes, Lemuel, 1753-1833</part>
+      </persname>
+    </controlaccess>
+    <dsc>
+      <c level="series">
+        <did>
+          <unittitle>Church records</unittitle>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>15</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>2</quantity>
+            <unittype>Items</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1755">1755</fromdate>
+              <todate standarddate="1941">1941</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1754-1941</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains records related to the administration of the Granville Federated
+            Church. This series includes church administrative records and meeting minutes, church
+            correspondence, financial records, programs and booklets, annual reports, and
+            confessions of faith and covenants.</p>
+        </scopecontent>
+        <c level="file">
+          <did>
+            <unittitle>Church constitution and records</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="record_keeping"
+              unitdatetype="inclusive">
+              <datesingle standarddate="1754">1754, undated</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="folder">2</container>
+            <container localtype="Item">3-4</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Church records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1755">1755</fromdate>
+                <todate standarddate="1885">1885</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1755-1885</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">1</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Miscellaneous church records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1758">1758</fromdate>
+                <todate standarddate="1857">1857</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1758-1857</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">2</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Ecclesiastical council records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1761">1761</fromdate>
+                <todate standarddate="1791">1791</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1761-1791</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">3</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Church correspondence</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1769">1769</fromdate>
+                <todate standarddate="1842">1842</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1769-1842</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">4</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Miscellaneous church records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1769">1769</fromdate>
+                <todate standarddate="1856">1856</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1769-1856</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">5</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Invitations to ecclesiastical councils</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1798">1798</fromdate>
+                <todate standarddate="1853">1853</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1798-1853</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">6</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Church records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1802">1802</fromdate>
+                <todate standarddate="1866">1866</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1802-1866</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">7</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Financial records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1825">1825</fromdate>
+                <todate standarddate="1897">1897</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1825-1897</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">8</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Programs, announcements, and printed materials</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1830">1830</fromdate>
+                <todate standarddate="1868">1868</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1830-1868</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">9</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>"The church and the secession movement"</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1856">1856</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">10</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>American Home Missionary Society</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1883">1883</fromdate>
+                <todate standarddate="1941">1941</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1883-1884, 1941</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">11</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Annual meetings</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1901">1901</fromdate>
+                <todate standarddate="1916">1916</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1901-1916</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">12</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Annual church reports</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1903">1903</fromdate>
+                <todate standarddate="1917">1917</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1903-1917</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">13</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Confessions of faith and covenants</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">14</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Southwick emigrants</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">15</container>
+          </did>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unittitle>Membership records</unittitle>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>21</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>2</quantity>
+            <unittype>Items</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1756">1756</fromdate>
+              <todate standarddate="1920">1920</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1756-1920</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains records and papers related to the members of Granville Federated
+            Church. This series includes relations of faith, confessions and other disciplinary
+            related documents, records of admissions and dismissions, and records of deaths.</p>
+        </scopecontent>
+        <c level="file">
+          <did>
+            <unittitle>Admissions and dismissions</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1756">1756</fromdate>
+                <todate standarddate="1799">1799</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1756-1799</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">16</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Admissions and dismissions</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1800">1800</fromdate>
+                <todate standarddate="1849">1849</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1800-1849</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">25</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Admissions and dismissions</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1850">1850</fromdate>
+                <todate standarddate="1920">1920</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1850-1920</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">32</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Confessions</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1758">1758</fromdate>
+                <todate standarddate="1798">1798</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1758-1798</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">17</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Confessions</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1800">1800</fromdate>
+                <todate standarddate="1856">1856</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1800-1856</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">26</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Church disciplinary records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1758">1758</fromdate>
+                <todate standarddate="1821">1821</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1758-1821</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">18</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Deacon Hitchcock disciplinary case records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1760">1760</fromdate>
+                <todate standarddate="1770">1770</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1760-1770</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">19</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Separatist disciplinary case records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1762">1762</fromdate>
+                <todate standarddate="1769">1769</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1762-1769</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">20</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>James Burt disciplinary case records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1763">1763</fromdate>
+                <todate standarddate="1771">1771</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1763-1771</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">21</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Relations, A-M</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1797">1797</fromdate>
+                <todate standarddate="1846">1846</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1797-1846</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">22</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Relations, O-Z</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1769">1769</fromdate>
+                <todate standarddate="1847">1847</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1769-1847</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">23</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Relations</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1800">1800</fromdate>
+                <todate standarddate="1804">1804</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1800-1804,
+              undated</unitdate>
+            <container label="Mixed Materials" localtype="folder">2</container>
+            <container localtype="Item">1-2</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Experiences</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1798">1798</fromdate>
+                <todate standarddate="1799">1799</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1798-1799</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">24</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Mehitable Adams and Asa Seymor disciplinary case records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1820">1820</fromdate>
+                <todate standarddate="1821">1821</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1820-1821</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">27</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Record of deaths</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1822">1822</fromdate>
+                <todate standarddate="1866">1866</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1822-1866</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">28</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Pledge of abstinence</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1827">1827</fromdate>
+                <todate standarddate="1856">1856</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1827-1856</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">29</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Cyrus Webster disciplinary case records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1829">1829</fromdate>
+                <todate standarddate="1833">1833</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1829-1833</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">30</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Mr. Eno disciplinary case records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1846">1846</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">31</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Sunday school records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1867">1867</fromdate>
+                <todate standarddate="1907">1907</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1867-1907</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">33</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Family dates and biographies</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1908">1908, undated</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">34</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Lucy A. Ward experience</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">35</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Fragmentary complaints</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">36</container>
+          </did>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unittitle>Ministerial records</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>9</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1777">1777</fromdate>
+              <todate standarddate="1870">1870</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1777-1870</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains records relating to, or produced by, ministers. This series
+            includes correspondence to and from ministers, ministers' copies of church records,
+            records relating to the dismission of Rev. Smith, and manuscript sermons and essays.</p>
+        </scopecontent>
+        <c level="file">
+          <did>
+            <unittitle>Reverend Smith dismission</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1777">1777</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">37</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Sermons and essays</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1790">1790, undated</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">38</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Lemuel Haynes correspondence</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1796">1796</fromdate>
+                <todate standarddate="1810">1810</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1796-1810</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">39</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Timothy Cooley correspondence</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1810">1810</fromdate>
+                <todate standarddate="1856">1856</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1810-1856</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">40</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Timothy Cooley's copies of church records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1819">1819</fromdate>
+                <todate standarddate="1833">1833</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1819-1833</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">41</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Timothy Cooley correspondence</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1831">1831</fromdate>
+                <todate standarddate="1857">1857</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1831-1857</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">42</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Timothy Cooley correspondence with Henry W. Tryon</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1854">1854</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">43</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Timothy Cooley correspondence regarding parsonage</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1855">1855</fromdate>
+                <todate standarddate="1856">1856</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1855-1856</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">44</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>A. E. Geike correspondence</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1858">1858</fromdate>
+                <todate standarddate="1870">1870</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1858-1870</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">45</container>
+          </did>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
