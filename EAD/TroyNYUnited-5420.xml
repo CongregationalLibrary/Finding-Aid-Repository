@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/TroyNYUnited-5420.xml"
+      >TroyNYUnited-5420</recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/all/files/TroyNYUnited-5420.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Troy, N.Y. United Calvary Congregational Church Records,
+          1906-2021.</titleproper>
+        <author>Patrick Riordan</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2022-05-02</date>
+        <num>RG5420</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2022-05-02T18:27:19+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.8.1</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Monday May 2, 2022 at
+          18:27</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Troy, N.Y. United Calvary Congregational Church records, 1906-2021.</unittitle>
+      <unitid>RG5420</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+        <languageset>
+          <language langcode="arm">Armenian</language>
+          <script scriptcode="Armn">Armenian</script>
+        </languageset>
+        <languageset>
+          <language langcode="tur">Turkish</language>
+          <script scriptcode="Armn">Armenian</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>0.77</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(2 boxes, 1 folder)</physdesc>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1906">1906</fromdate>
+          <todate standarddate="2021">2021</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1906-2021</unitdate>
+      <abstract>In 1906, the United Armenian Calvary Congregational Church formed under the moniker
+        "Armenian Presbyterian Church of Troy." After the completion of a church building in 1914,
+        the church was separated into the Presbyterian Church and "The Armenian Congregational
+        Church of Troy, N.Y." which cooperated closely and worked out of the same church building.
+        These churches were reunited in 1919 under their final name, The United Armenian Calvary
+        Congregational Church, up until the church was closed in 2020. This collection records the
+        activities and membership of this organization through church record books, membership
+        records, photograph collections, and financial records.</abstract>
+      <origination label="Creator">
+        <corpname rules="rda">
+          <part>United Armenian Calvary Congregational Church</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Troy, N.Y. United Calvary Congregational Church records,
+        1906-2020, RG5420. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by the United Armenian
+        Calvary Congregational Church in March 2021; RG5420.</p>
+    </acqinfo>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Processed by Patrick Riordan, April 2022, using DACS 2019.03.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>The beginning of The United Armenian Calvary Congregational Church in 1906 followed a wave
+        of immigration from modern-day Turkey resulting from the Armenian massacres of 1895. The
+        church formed under the moniker "Armenian Presbyterian Church of Troy", but after the
+        completion of a church building in 1914, the church was separated into the Presbyterian
+        Church and "The Armenian Congregational Church of Troy, N.Y." which cooperated closely and
+        worked out of the same church building. These churches were reunited in 1919 under their
+        final name, The United Armenian Calvary Congregational Church, up until the church was
+        closed in 2020. The church operated a sunday school which focused on teaching about Armenian
+        heritage and forming connections with Armenian communities throughout the United States.
+        Every holiday and season, the church hosted a food kitchen in which feasts were prepared for
+        its members. A list of the pastors who served the church follows:</p>
+      <chronlist>
+        <head>Ministers</head>
+        <chronitem>
+          <datesingle>Rev. Sarkis O Kerian</datesingle>
+          <chronitemset>
+            <event>1910-1911</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Rev. Mihran T Kalaijian</datesingle>
+          <chronitemset>
+            <event>1912-1918</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Rev. Puzant Levonian</datesingle>
+          <chronitemset>
+            <event>1918-1920</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Rev. Samuel Rejebian</datesingle>
+          <chronitemset>
+            <event>1920-1926</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Rev. Ephraim Jernazian</datesingle>
+          <chronitemset>
+            <event>1927-1940</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Rev. Mihran Renjilian</datesingle>
+          <chronitemset>
+            <event>1944-1959</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Rev. Charles Baboian</datesingle>
+          <chronitemset>
+            <event>1957-1965</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Rev. Jirair Sogomian</datesingle>
+          <chronitemset>
+            <event>1965-1968</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Rev. Dennis Durgin</datesingle>
+          <chronitemset>
+            <event>1968-1971</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Rev. Vigen Galustian</datesingle>
+          <chronitemset>
+            <event>1971-1975</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Rev. Vincent Kumjian</datesingle>
+          <chronitemset>
+            <event>1973-1978, 2005-2006</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Rev. William Hammann</datesingle>
+          <chronitemset>
+            <event>1978-1989</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Rev. Joanne Gulezian-Hartunian</datesingle>
+          <chronitemset>
+            <event>1989-1997</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Rev. Munro Roberts</datesingle>
+          <chronitemset>
+            <event>1998-1999</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Rev. Stanley Skinner</datesingle>
+          <chronitemset>
+            <event>1999-2000, 2002-2005</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Rev. Mihran Kupeyian</datesingle>
+          <chronitemset>
+            <event>2000-2002</event>
+          </chronitemset>
+        </chronitem>
+      </chronlist>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>The Troy, N.Y. United Calvary Congregational Church records include church record books,
+        membership records, church correspondence, photograph collections, and anniversary reports.
+        Also included are financial records, in the form of treasurer's records, receipts, and
+        building records.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>Materials have been arranged in chronological order by start date, and further by relation
+        when appropriate.</p>
+    </arrangement>
+    <controlaccess>
+      <subject identifier="sh85007294" source="lcsh">
+        <part>Armenian massacres, 1894-1896.</part>
+      </subject>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025854" source="lcsh">
+        <part>Church buildings.</part>
+      </subject>
+      <subject identifier="sh85025591" source="lcsh">
+        <part>Church correspondence.</part>
+      </subject>
+      <subject identifier="sh85025606" source="lcsh">
+        <part>Church finance.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <subject identifier="sh85090572" source="lcsh">
+        <part>Necrologies.</part>
+      </subject>
+      <subject identifier="sh85101195" source="lcsh">
+        <part>Photographs. </part>
+      </subject>
+      <subject identifier="sh85093651" source="lcsh">
+        <part>Obituaries.</part>
+      </subject>
+      <corpname audience="internal" rules="rda">
+        <part>United Armenian Calvary Congregational Church</part>
+      </corpname>
+      <corpname identifier="n50052585" source="lcnaf">
+        <part>Troy (N.Y.) -- Church history.</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1906">1906</fromdate>
+              <todate standarddate="1960">1960</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1906-1960</unitdate>
+          <langmaterial>
+            <languageset>
+              <language langcode="eng">English</language>
+              <script scriptcode="Latn">Latin</script>
+            </languageset>
+            <languageset>
+              <language langcode="arm">Armenian</language>
+              <script scriptcode="Armn">Armenian</script>
+            </languageset>
+            <languageset>
+              <language langcode="tur">Turkish</language>
+              <script scriptcode="Armn">Armenian</script>
+            </languageset>
+          </langmaterial>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">1</container>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1927">1927</fromdate>
+              <todate standarddate="1978">1978</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1927-1978</unitdate>
+          <langmaterial>
+            <languageset>
+              <language langcode="eng">English</language>
+              <script scriptcode="Latn">Latin</script>
+            </languageset>
+          </langmaterial>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="volume">2</container>
+        </did>
+        <separatedmaterial>
+          <head>Separated Materials</head>
+          <p>Material was removed from this item and moved to "Materials from Church Records,
+            1927-1978"</p>
+        </separatedmaterial>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>Materials from church records, 1927-1978</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1929">1929</fromdate>
+              <todate standarddate="1942">1942</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1929-1942</unitdate>
+          <langmaterial>
+            <languageset>
+              <language langcode="eng">English</language>
+              <script scriptcode="Latn">Latin</script>
+            </languageset>
+            <languageset>
+              <language langcode="arm">Armenian</language>
+              <script scriptcode="Armn">Armenian</script>
+            </languageset>
+            <languageset>
+              <language langcode="tur">Turkish</language>
+              <script scriptcode="Armn">Armenian</script>
+            </languageset>
+          </langmaterial>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">2</container>
+        </did>
+        <separatedmaterial>
+          <head>Separated Materials</head>
+          <p>This material was taken from the item "Church Records, 1927-1978"</p>
+        </separatedmaterial>
+      </c01>
+      <c01 level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1976">1976</fromdate>
+              <todate standarddate="2020">2020</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1976-2020</unitdate>
+          <langmaterial>
+            <languageset>
+              <language langcode="eng">English</language>
+              <script scriptcode="Latn">Latin</script>
+            </languageset>
+          </langmaterial>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="volume">1</container>
+        </did>
+        <separatedmaterial>
+          <head>Separated Materials</head>
+          <p>Material was removed from this item and moved to "Materials from Church Records,
+            1976-2020"</p>
+        </separatedmaterial>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>Materials from church records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1976">1976</fromdate>
+              <todate standarddate="2020">2020</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1976-2020</unitdate>
+          <langmaterial>
+            <languageset>
+              <language langcode="eng">English</language>
+              <script scriptcode="Latn">Latin</script>
+            </languageset>
+          </langmaterial>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">5</container>
+        </did>
+        <separatedmaterial>
+          <head>Separated Materials</head>
+          <p>This material was taken from the item "Church Records, 1927-1978"</p>
+        </separatedmaterial>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>Church history</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1914">1914</fromdate>
+              <todate standarddate="2020">2020</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1914-2020</unitdate>
+          <langmaterial>
+            <languageset>
+              <language langcode="eng">English</language>
+              <script scriptcode="Latn">Latin</script>
+            </languageset>
+          </langmaterial>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">3</container>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>Photographs: groups</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1961">1961</fromdate>
+              <todate standarddate="1990">1990</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1961-1990</unitdate>
+          <langmaterial>
+            <languageset>
+              <language langcode="eng">English</language>
+              <script scriptcode="Latn">Latin</script>
+            </languageset>
+          </langmaterial>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">2</container>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>Testimonial photographs</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1972">1972</datesingle>
+          </unitdatestructured>
+          <langmaterial>
+            <languageset>
+              <language langcode="eng">English</language>
+              <script scriptcode="Latn">Latin</script>
+            </languageset>
+          </langmaterial>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">3</container>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>Special event records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1972">1972</fromdate>
+              <todate standarddate="2001">2001</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1972-2001</unitdate>
+          <langmaterial>
+            <languageset>
+              <language langcode="eng">English</language>
+              <script scriptcode="Latn">Latin</script>
+            </languageset>
+          </langmaterial>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">4</container>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>Photographs: church gatherings</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1977">1977</fromdate>
+              <todate standarddate="1991">1991</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1977-1991</unitdate>
+          <langmaterial>
+            <languageset>
+              <language langcode="eng">English</language>
+              <script scriptcode="Latn">Latin</script>
+            </languageset>
+          </langmaterial>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">6</container>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>Scrapbook</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1978">1978</fromdate>
+              <todate standarddate="1992">1992</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1978-1992</unitdate>
+          <langmaterial>
+            <languageset>
+              <language langcode="eng">English</language>
+              <script scriptcode="Latn">Latin</script>
+            </languageset>
+          </langmaterial>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">1</container>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>Financial records and by-laws</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1991">1991</fromdate>
+              <todate standarddate="2021">2021</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1991-2021</unitdate>
+          <langmaterial>
+            <languageset>
+              <language langcode="eng">English</language>
+              <script scriptcode="Latn">Latin</script>
+            </languageset>
+          </langmaterial>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">7</container>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>Building records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="2015">2015</fromdate>
+              <todate standarddate="2020">2020</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >2015-2020</unitdate>
+          <langmaterial>
+            <languageset>
+              <language langcode="eng">English</language>
+              <script scriptcode="Latn">Latin</script>
+            </languageset>
+          </langmaterial>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">8</container>
+        </did>
+      </c01>
+      <c01 level="item">
+        <did>
+          <unittitle>Closure worship service</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="2020">2020</datesingle>
+          </unitdatestructured>
+          <langmaterial>
+            <languageset>
+              <language langcode="eng">English</language>
+              <script scriptcode="Latn">Latin</script>
+            </languageset>
+          </langmaterial>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="Compact Disk">1</container>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>Photographs: groups</unittitle>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >undated</unitdate>
+          <container label="Mixed Materials" localtype="folder">4</container>
+        </did>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
