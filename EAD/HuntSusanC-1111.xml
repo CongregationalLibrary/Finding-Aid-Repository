@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/HuntSusanC-1111.xml"
+      >HuntSusanC-1111</recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/all/files/HuntSusanC-1111.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Susan Counce Hunt papers, 1793-1835.</titleproper>
+        <author>Jules Thomson</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2022-06-28</date>
+        <num>MS1111</num>
+      </publicationstmt>
+      <seriesstmt>
+        <p>This collection is part of New England's Hidden Histories. Digital historical
+          representations of the collection can be viewed online.</p>
+      </seriesstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+      <descriptivenote>
+        <p>English</p>
+      </descriptivenote>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2022-06-28T19:32:41+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.8.1</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Tuesday June 28, 2022
+          at 19:32</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Susan Counce Hunt papers, 1793-1835.</unittitle>
+      <unitid>MS1111</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>0.22</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(1 box)</physdesc>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1793">1793</fromdate>
+          <todate standarddate="1835">1835</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1793-1835</unitdate>
+      <abstract>Susan Counce Hunt was born in 1779 to Mary Counce Hunt (1735-1801) and Daniel Hunt
+        who spent at least some of their lives in Boston during the American Revolution. At one time
+        a Baptist, Susan later became Congregationalist and attended Old South Church, Boston, MA.
+        In 1836, she switched again to Salem Street Church, Boston, MA, at age 57. Her collection
+        contains diaries (journals), extracts from sermons, readings, and letters to and from
+        various family members from 1793-1835.</abstract>
+      <origination label="Creator">
+        <persname rules="rda" source="local">
+          <part>Hunt, Mary</part>
+        </persname>
+      </origination>
+      <origination label="Creator">
+        <persname rules="rda" source="local">
+          <part>Hunt, Susan Counce</part>
+        </persname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+      <p>Digital Reproductions are protected by copyright and/or related rights. You are free to use
+        the Digital Reproductions in any way that is permitted by the copyright and related rights
+        legislation that applies to your use. In addition, no permission is required from the
+        Congregational Library &amp; Archives for educational uses. For other uses, you need to
+        obtain permission from the Congregational Library &amp; Archives. For additional information
+        regarding copyright, please consult the Congregational Library &amp; Archives' <ref
+          actuate="onrequest" href="http://www.congregationallibrary.org/about/digital-copyright"
+          linktitle="Digital Collections Copyright &amp; Use" show="new">Digital Collections
+          Copyright &amp; Use</ref> policy.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Susan Counce Hunt papers, 1793-1835, MS1111. The
+        Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>No acquisition information is available for this collection.</p>
+    </acqinfo>
+    <altformavail>
+      <head>Digital Copies</head>
+      <p>Records within this collection were digitized as part of the New England's Hidden Histories
+        project. Digital reproductions may be accessed online through our <ref
+          href="https://congregationallibrary.quartexcollections.com/manuscript-collections/browse-the-susan-counce-hunt-papers"
+          linktitle="view digitial reproductions online" show="new">digital archive</ref>.</p>
+    </altformavail>
+    <accruals>
+      <head>Accruals</head>
+      <p>Additional accruals are expected for this collection in the form of full-text
+        transcription. There is no anticipated date for this accrual.</p>
+    </accruals>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Processed and described by Jules Thomson, December 2021, using DACS Second edition.</p>
+    </processinfo>
+    <bioghist>
+      <head>Biographical / Historical</head>
+      <p>Susan Counce Hunt was born in 1779, daughter of Mary (Counce) Hunt and Daniel Hunt. Mary
+        Hunt was born in 1735 and died in 1801. Both Mary and Daniel spent at least part of their
+        lives in Boston, Mass. during the British occupation.</p>
+      <p>Susan Counce Hunt was at one time a Baptist, but later switched to Congregationalism and
+        attended Old South Church, Boston, MA. In 1836 she switched again to Salem Street Church,
+        Boston, MA, at age 57.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains diaries (journals), extracts from sermons, readings, and letters
+        from 1793-1835. Contained in 8 handmade books. One letter contains an essay entitled "On the
+        Millenium" which mentions Jonathan Edwards. One journal is an arithmatic book attributed to
+        "Sukey Counce Hunt." Also contains correspondence between the author's parents, Mary
+        (Counce) Hunt and Daniel Hunt, which chronicles life in Boston during British occupation,
+        and a diary of Mary Hunt's.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>This collection has been arranged into 9 folders, in chronological order by start date.</p>
+    </arrangement>
+    <phystech>
+      <head>Technical Requirements</head>
+      <p>To access digital user's copies via online-interface, a java-enabled web browser is
+        required. Internet Explorer 8.x and later, Firefox 5.x and later, Opera 12 and later, Safari
+        5.x and later, or any version of Google Chrome are recommended.</p>
+    </phystech>
+    <controlaccess>
+      <subject source="lcsh">
+        <part>Christian poetry.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Commonplace books.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Diaries.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Letters.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Sermons.</part>
+      </subject>
+      <geogname source="lcsh">
+        <part>United States -- History -- Revolution, 1775-1783.</part>
+      </geogname>
+      <subject source="lcsh">
+        <part>Women -- Religious life.</part>
+      </subject>
+      <persname rules="rda" source="local">
+        <part>Hunt, Susan Counce</part>
+      </persname>
+      <corpname source="lcnaf">
+        <part>Old South Church (Boston, Mass.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="file">
+        <did>
+          <unittitle>Mary Hunt diary and sermon notes</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1756">1756</fromdate>
+              <todate standarddate="1758">1758</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1756-1758</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">1</container>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This folder contains a loose or disbound diary kept by Mary Counce Hunt, mother of
+            Susan Counce Hunt, with entries dating from 1756-1758.</p>
+        </scopecontent>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Correspondence</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1768">1768</fromdate>
+              <todate standarddate="1789">1789</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1768-1789</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">2</container>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This folder contains correspondence between Susan Counce Hunt's parents, Mary Counce
+            Hunt and Daniel Hunt. The letters chronicle life in Boston during the American
+            Revolution and British occupation, and include a poem about the Boston Massacre.</p>
+        </scopecontent>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Arithmetic and commonplace book</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1794">1794</fromdate>
+              <todate standarddate="1808">1808</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1794-1808</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">3</container>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This paper-bound volume with a pictoral cover is labeled "Sukey Counce Hunt, 1794"
+            (Sukey is a diminuitive of Susan) and contains a math workbook with problems and
+            solutions, as well as notes on sermons by Revs. Clay, Huntington, Eliot, Eckley,
+            Bachellor, Lathrop, Grafton, Ellis, and Pitman. Also included in the volume is a
+            historical timeline of antiquity, and further notes on sermons by Revs. Coffin,
+            Stillman, Bradley, Grafton, Eliot, Robinson, Bolles, Pitman, and Read.</p>
+        </scopecontent>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Remarks on mother's death and sermon notes</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1794">1794</fromdate>
+              <todate standarddate="1808">1808</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1794-1808</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">4</container>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This small string-bound notebook contains an essay on the death of Susan Counce Hunt's
+            mother, Mary Counce Hunt, followed by sermon notes on sermons by Revs. Bowles, Baldwin,
+            Stillman, Morse, and Bradley.</p>
+        </scopecontent>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Sermon notes</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1804">1804</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">5</container>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This paper-bound volume contains Susan Counce Hunt's notes on sermons by Revs.
+            Stillman, Bigelow, Eckley, Brookes, Collier, Baldwin, Lathrop, Nelson, and Chaplin.</p>
+        </scopecontent>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Poem</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1821">1821</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">6</container>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This folder contains a religious poem by Herriot [illeg.] Hunt, dated December 20,
+            1821. The work focuses on the afterlife and it is entitled "Here and There, or This
+            World and the Next".</p>
+        </scopecontent>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Sermon notes</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1824">1824</fromdate>
+              <todate standarddate="1826">1826</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1824-1826</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">7</container>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This paper-bound volume contains Susan Counce Hunt's notes on sermons by Revs. Baldwin,
+            Bacon, Wisner, Eaton, Humphreys, and Matthewson.</p>
+        </scopecontent>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Sermon notes</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1828">1828</fromdate>
+              <todate standarddate="1829">1829</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1828-1829</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">8</container>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This paper-bound volume contains primarily sermon notes by Susan Counce Hunt, on
+            sermons preached by Revs. Huntington, Jenks, Beecher, and Wisner. It also includes some
+            diary-like information such as descriptions of the weather.</p>
+        </scopecontent>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Extracts from Buck memoir and sermon notes</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1835">1835</fromdate>
+              <todate standarddate="1837">1837</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1835-1837</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">9</container>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This paper-bound notebook contains Susan Counce Hunt's personal notes, including an
+            extract from Charles Buck's memoir, and sermon notes on sermons delivered by Revs.
+            Blagden, Sargent, Wisner, and Phillips.</p>
+        </scopecontent>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
