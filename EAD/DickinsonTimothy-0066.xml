@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/DickinsonTimothy.xml"
+      >DickinsonTimothy-0066</recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/all/files/DickinsonTimothy-0066.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Timothy Dickinson diary and commonplace book, 1761-1809.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2021-11-22</date>
+        <num>MS0066</num>
+      </publicationstmt>
+      <seriesstmt>
+        <p>This collection is part of New England's Hidden Histories. Digital historical
+          representations of the collection can be viewed online.</p>
+      </seriesstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>in_progress</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2022-06-29T12:48:22+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.8.1</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday June 29,
+          2022 at 12:48</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Timothy Dickinson papers, 1809, undated.</unittitle>
+      <unitid>MS0066</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>2</quantity>
+        <unittype>Folders</unittype>
+      </physdescstructured>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <datesingle standarddate="1809">1809</datesingle>
+      </unitdatestructured>
+      <abstract>Timothy Dickinson was born on June 25, 1761 in Amherst, Massachusetts. Dickinson
+        joined the Continental Army in 1777 and was discharged in 1779. He graduated from Dartmouth
+        in 1785 and was ordained as the minister at Holliston, Massachusetts on February 18, 1789.
+        He remained minister there until his death on July 6, 1813. This collection contains two
+        items written by Timothy Dickinson. The first is a short biography which recounts his time
+        in the Continental Army and the second is a commonplace book which contains various
+        religious writings.</abstract>
+      <origination label="Creator">
+        <persname source="lcnaf">
+          <part>Dickinson, Timothy, 1761-1813</part>
+        </persname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+      <p>Digital Reproductions are protected by copyright and/or related rights. You are free to use
+        the Digital Reproductions in any way that is permitted by the copyright and related rights
+        legislation that applies to your use. In addition, no permission is required from the
+        Congregational Library &amp; Archives for educational uses. For other uses, you need to
+        obtain permission from the Congregational Library &amp; Archives. For additional information
+        regarding copyright, please consult the Congregational Library &amp; Archives' <ref
+          actuate="onrequest" href="http://www.congregationallibrary.org/about/digital-copyright"
+          linktitle="Digital Collections Copyright &amp; Use" show="new">Digital Collections
+          Copyright &amp; Use</ref> policy.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Timothy Dickinson papers, circa 1779, 1809, MS0066. The
+        Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>No acquisition information is available for this collection.</p>
+    </acqinfo>
+    <altformavail>
+      <head>Digital Copies</head>
+      <p>Records within this collection were digitized as part of the New England's Hidden Histories
+        project. Digital reproductions may be accessed online through our <ref
+          href="https://congregationallibrary.quartexcollections.com/manuscript-collections/browse-the-timothy-dickinson-papers"
+          linktitle="view digitial reproductions online" show="new">digital archive</ref>.</p>
+    </altformavail>
+    <accruals>
+      <head>Accruals</head>
+      <p>Additional accruals are expected for this collection in the form of full-text
+        transcription. There is no anticipated date for this accrual.</p>
+    </accruals>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Processed by Zachary Bodnar, November 2021, according to DACS 2019.0.3.</p>
+    </processinfo>
+    <bioghist>
+      <head>Biographical Note</head>
+      <p>Timothy Dickinson was born on June 25, 1761 in Amherst, Massachusetts. Dickinson joined the
+        Continental Army in 1777 after an order from the General Court of Massachusetts produced an
+        order "to raise men to go to Ticonderoga". Dickinson continued to serve in the Continental
+        Army until November, 1779, when his regiment was discharged in Albany. Timothy Dickinson
+        graduated from Dartmouth in 1785 and later studied theology under Rev. Tappan of Newbury. He
+        was ordained as minister at Holliston, Massachusetts on February 18, 1789. He remained
+        minister at that place until his death. Timothy Dickinson died on July 6, 1813.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection of personal papers contains two items. The first is a short biography that
+        largely covers Timothy Dickinson's time in the Continental Army. The second is a commonplace
+        book which largely contains religiously themed writings.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>Items in this collection have been arranged by chronological order by start date.</p>
+    </arrangement>
+    <phystech>
+      <head>Technical Requirements</head>
+      <p>To access digital user's copies via online-interface, a java-enabled web browser is
+        required. Internet Explorer 8.x and later, Firefox 5.x and later, Opera 12 and later, Safari
+        5.x and later, or any version of Google Chrome are recommended.</p>
+    </phystech>
+    <bibliography>
+      <head>Bibliography</head>
+      <p>Emerson, Davis. "Biographical sketches of the Congregational pastors of New England". 1930.
+        9.3.90</p>
+    </bibliography>
+    <controlaccess>
+      <subject source="lcsh">
+        <part>Autobiography.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Commonplace books.</part>
+      </subject>
+      <geogname source="lcsh">
+        <part>United States -- History -- Revolution, 1775-1783.</part>
+      </geogname>
+      <persname source="lcnaf">
+        <part>Dickinson, Timothy, 1761-1813</part>
+      </persname>
+    </controlaccess>
+    <dsc>
+      <c level="item">
+        <did>
+          <unittitle>Autobiography</unittitle>
+          <unitdate calendar="gregorian" certainty="inferred" datechar="creation"
+            unitdatetype="inclusive">undated</unitdate>
+          <container label="Mixed Materials" localtype="box">NEHH-Small</container>
+          <container localtype="folder">32</container>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This short autobiography by Timothy Dickinson starts with his birth in 1761 before
+            providing a brief history of Dickinson's time in the Continental Army between 1777 and
+            1779. The autobiography ends with his returning home in November of 1779.</p>
+        </scopecontent>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Commonplace book</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1809">1809</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">NEHH-Small</container>
+          <container localtype="folder">33</container>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This commonplace book contains a collection of writings, primarily of a religious
+            nature. Most of the various writings begin with passages from the Bible. Some appear to
+            be lists of ideas or thoughts, such as one about youths. It's possible this commonplace
+            book was used to write down ideas and thoughts to be used in sermons.</p>
+        </scopecontent>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
