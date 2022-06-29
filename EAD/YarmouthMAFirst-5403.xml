@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/YarmouthMAFirst.xml"
+      >YarmouthMAFirst-5403</recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/all/files/YarmouthMAFirst-5403.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Yarmouth, Mass. First Congregational Church records, 1729-1888.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2021-11-17</date>
+        <num>RG5403</num>
+      </publicationstmt>
+      <seriesstmt>
+        <p>This collection is part of New England's Hidden Histories. Digital historical
+          representations of the collection can be viewed online.</p>
+      </seriesstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2022-06-29T14:07:21+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.8.1</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday June 29,
+          2022 at 14:07</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Yarmouth, Mass. First Congregational Church records, 1729-1888.</unittitle>
+      <unitid>RG5403</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>0.44</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(1 box)</physdesc>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1729">1729</fromdate>
+          <todate standarddate="1888">1888</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1729-1888</unitdate>
+      <abstract>The First Congregational Church in Yarmouth, Massachusetts, was likely established
+        in 1639. The first minister of the church was Marmaduke Matthews and the first meeting house
+        was located in what is today known as Ancient Cemetery. In 1716, the second meeting house
+        was constructed close to the location of the first. The third meeting house was constructed
+        in 1830 and the fourth, and present, edifice was constructed in 1870. Members were dismissed
+        from the First Congregational Church in 1727 and 1840 to form the East Second Church of
+        Yarmouth and the South Congregational Church respectively. This collection contains both
+        vital records and administrative records. The records include church meeting minutes,
+        financial records, ordination and installation records, membership records, baptismal
+        records, marriage records, and records of deaths.</abstract>
+      <origination label="Creator">
+        <corpname source="lcnaf">
+          <part>First Congregational Church (Yarmouth, Mass.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+      <p>Digital Reproductions are protected by copyright and/or related rights. You are free to use
+        the Digital Reproductions in any way that is permitted by the copyright and related rights
+        legislation that applies to your use. In addition, no permission is required from the
+        Congregational Library &amp; Archives for educational uses. For other uses, you need to
+        obtain permission from the Congregational Library &amp; Archives. For additional information
+        regarding copyright, please consult the Congregational Library &amp; Archives' <ref
+          actuate="onrequest" href="http://www.congregationallibrary.org/about/digital-copyright"
+          linktitle="Digital Collections Copyright &amp; Use" show="new">Digital Collections
+          Copyright &amp; Use</ref> policy.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Yarmouth, Mass. First Congregational Church records,
+        1729-1888, RG5403. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were temporarily deposited for digitization to the Congregational Library &amp;
+        Archives by the First Congregational Church of Yarmouth in June 2019; 2019-15.</p>
+    </acqinfo>
+    <originalsloc>
+      <head>Location of Originals</head>
+      <p>Materials in this collection are held and maintained by the First Congregational Church in
+        Yarmouth, Massachusetts.</p>
+    </originalsloc>
+    <altformavail>
+      <head>Digital Copies</head>
+      <p>Records within this collection were digitized as part of the New England's Hidden Histories
+        project. Digital reproductions may be accessed online through our <ref
+          href="https://congregationallibrary.quartexcollections.com/manuscript-collections/browse-the-first-congregational-church-records-in-yarmouth-massachusetts"
+          linktitle="view digitial reproductions online" show="new">digital archive</ref>.</p>
+    </altformavail>
+    <accruals>
+      <head>Accruals</head>
+      <p>Additional accruals are expected for this collection in the form of full-text
+        transcription. There is no anticipated date for this accrual.</p>
+    </accruals>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Processed by Zachary Bodnar, November 2021, according to DACS 2019.0.3.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>Due to a fire in 1674 no definite records exist that date back to the founding of the First
+        Congregational Church in Yarmouth, Massachusetts. However, the accepted date for the
+        establishment of the First Congregational Church is 1639, shortly after the settlement of
+        the town. The first minister of the church was Marmaduke Matthews, originally of Swansea
+        Wales. The original meeting house was located in what is currently called Ancient
+        Cemetery.</p>
+      <p>During the pastorate of Daniel Greenleaf, in 1716, the second meeting house was constructed
+        close to the location of the first. 33 members of the First Congregational Church were
+        dismissed in 1727 so that they could form a church in the newly formed east precinct of
+        Yarmouth. The East Second Church of Yarmouth later became the First North Trinitarian Church
+        in Dennis and is now the Dennis Union Church. In 1766, during the pastorate of Joseph Green
+        Jr., the second meeting house was enlarged in order to accommodate the growing congregation.
+        During Timothy Alden's pastorate, the First Congregational Church started its first Sabbath
+        school.</p>
+      <p>By 1830, the congregation had outgrown its meeting house again and so a new edifice was
+        erected that year in Yarmouth Port. In 1840, 64 members were dismissed so that they might
+        form another Congregational Church in West Yarmouth. Originally called the South
+        Congregational Church, the church is now called the West Yarmouth Congregational Church.</p>
+      <p>In the summer of 1870 the first cornerstone was laid for the fourth meeting house of the
+        First Congregational Church in Yarmouth. This building was dedicated on November 29, 1870.
+        The First Congregational Church continues to worship in the fourth meeting house and
+        continues to serve the local community to this day.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains both administrative and vital records for the First Congregational
+        Church of Yarmouth, Massachusetts in the form of both church and parish record books. The
+        administrative records cover topics such as pews and pew deeds, church finances, records
+        related to ordinations and installations, meeting minutes, council results, and committee
+        records. The vital records contain membership records for admissions and dismissions,
+        baptismal records, marriage records, and records of deaths.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>This collection has been arranged in chronological order by start date.</p>
+    </arrangement>
+    <phystech>
+      <head>Technical Requirements</head>
+      <p>To access digital user's copies via online-interface, a java-enabled web browser is
+        required. Internet Explorer 8.x and later, Firefox 5.x and later, Opera 12 and later, Safari
+        5.x and later, or any version of Google Chrome are recommended.</p>
+    </phystech>
+    <bibliography>
+      <head>Bibliography</head>
+      <p><emph render="italic">Manual of the First Congregational Church, Yarmouth, Mass.</emph>
+        Yarmouth Port: Register Steam Job Printing Establishment, 1873.</p>
+      <p>"Our History." The First Congregational Church of Yarmouth. Accessed November 17, 2021,
+          <ref href="https://www.fccyarmouth.org/history"
+          linktitle="https://www.fccyarmouth.org/history" show="new"
+          >https://www.fccyarmouth.org/history</ref>.</p>
+    </bibliography>
+    <controlaccess>
+      <subject source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Church finance.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Installation (clergy).</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Necrologies.</part>
+      </subject>
+      <subject source="local">
+        <part>New England's Hidden Histories.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Ordination.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Pews and pew rights.</part>
+      </subject>
+      <persname source="lcnaf">
+        <part>Alden, Timothy, 1736-1828</part>
+      </persname>
+      <persname rules="rda" source="local">
+        <part>Cogswell, Nathaniel, 1796-1874</part>
+      </persname>
+      <corpname source="lcnaf">
+        <part>First Congregational Church (Yarmouth, Mass.)</part>
+      </corpname>
+      <persname rules="rda" source="local">
+        <part>Packard, Abel K. (Abel Kingman), 1823-1903</part>
+      </persname>
+    </controlaccess>
+    <dsc>
+      <c level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1729">1729</fromdate>
+              <todate standarddate="1861">1861</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1729-1861</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This volume is a register which contains lists of baptisms, admissions, dismissions,
+            and membership lists. The volume also contains the minutes of church meetings, the
+            minutes of minutes related to ministerial calls and the choice of deacons, and a copy of
+            the result of an ecclesiastical council meeting called for the dismission of Nathaniel
+            Cogswell.</p>
+        </scopecontent>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Parish records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1805">1805</fromdate>
+              <todate standarddate="1888">1888</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1805-1888</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This volume of parish records contains financial records and records related to parish
+            business. The records include clerk reports, collectors reports, ministerial calls,
+            records related to the discussion of a new church building, and general financial
+            records. The volume also contains records of pews and pew deeds and an interesting
+            record verifying the church's affiliation as something other than Congregational for tax
+            purposes.</p>
+        </scopecontent>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1822">1822</fromdate>
+              <todate standarddate="1850">1850</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1822-1850</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This volume of church records, which covers the entirety of Nathaniel Cogswell's
+            pastorate, contains records relating to the ordination of Nathaniel Cogswell, admission
+            records, dismission records, baptismal records, marriage records, and records of
+            deaths.</p>
+        </scopecontent>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
