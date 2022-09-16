@@ -1,549 +1,1551 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<ead xmlns="http://ead3.archivists.org/schema/"><control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924"><recordid instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/HarwichMAFirst-0089.xml">HarwichMAFirst-0089</recordid><filedesc><titlestmt><titleproper>Harwich, Mass. First Congregational Church records, 1726-1982. </titleproper><author>Zachary Bodnar</author></titlestmt><publicationstmt><publisher>Congregational Library &amp; Archives</publisher><address><addressline>14 Beacon Street</addressline><addressline>Suite 200</addressline><addressline>Boston, MA 02108</addressline><addressline localtype="business">617-523-0470</addressline><addressline localtype="email">info@14beacon.org</addressline><addressline><ref href="http://www.CongregationalLibrary.org" linktitle="http://www.CongregationalLibrary.org" show="new">http://www.CongregationalLibrary.org</ref></addressline></address><date>2017-09-26</date><num>RG0089</num></publicationstmt><seriesstmt><p>Portions of this collection are part of New England's Hidden Histories.  Digital historical representations of these portions of the collection can be viewed online.</p></seriesstmt></filedesc><maintenancestatus value="derived"/><maintenanceagency countrycode="US"><agencycode>US-MBC</agencycode><agencyname>Congregational Library &amp; Archives</agencyname></maintenanceagency><languagedeclaration><language langcode="und">Undetermined</language><script scriptcode="Zyyy">Code for undetermined script</script><descriptivenote><p>English</p></descriptivenote></languagedeclaration><conventiondeclaration><abbr>DACS 2019.0.3</abbr><citation>translation missing: en.enumerations.resource_finding_aid_description_rules.DACS 2019.0.3</citation></conventiondeclaration><localcontrol localtype="findaidstatus"><term>completed</term></localcontrol><maintenancehistory><maintenanceevent><eventtype value="derived"/><eventdatetime>2022-09-15T17:32:05+00:00</eventdatetime><agenttype value="machine"/><agent>ArchivesSpace v3.2.0</agent><eventdescription>This finding aid was produced using ArchivesSpace on Thursday September 15, 2022 at 17:32</eventdescription></maintenanceevent><maintenanceevent><eventtype value="revised"/><eventdatetime>2020-03-30</eventdatetime><agenttype value="unknown"/><agent/><eventdescription>Zachary Bodnar: Minor additions to subjects and agents.</eventdescription></maintenanceevent></maintenancehistory></control><archdesc level="collection">
-  <did>
-    <unittitle>Harwich, Mass. First Congregational Church records, 1726-1982.</unittitle>
-    <unitid>RG0089</unitid>
-    <repository>
-      <corpname>
-        <part>Congregational Library &amp; Archives</part>
-      </corpname>
-    </repository>
-    <langmaterial>
-      <language langcode="eng">English</language>
-    </langmaterial>
-    <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
-      <quantity>2.53</quantity>
-      <unittype>Cubic Feet</unittype>
-    </physdescstructured>
-    <physdesc localtype="container_summary">(3 boxes, 2 reels)</physdesc>
-    <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
-      <daterange>
-        <fromdate standarddate="1726">1726</fromdate>
-        <todate standarddate="1982">1982</todate>
-      </daterange>
-    </unitdatestructured>
-    <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1726-1982</unitdate>
-    <abstract id="aspace_d715700112a4ba3a46f578bf8f5fa179">The First Congregational Church of Harwich, Massachusetts, was founded in 1747 when the town of Harwich was split into the North and South Parishes. On April 8, 1747, the precinct voted to complete construction on a meeting house which was finally completed in 1748. In 1792, the second meetinghouse was completed after the first had been condemned a year earlier. The church officially became known as the First Congregational Church of Harwich when the church became incorporated in 1898 at the behest of the Rev. George Y. Washburn. The First Church of Harwich continues to serve the community today. The collection documents the history, administration, and life of the church and includs membership lists, church and parish records, and administrative/legal documents.</abstract>
-    <origination label="Creator">
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/HarwichMAFirst-0089.xml"
+      >HarwichMAFirst-0089</recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/all/files/HarwichMAFirst-0089.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Harwich, Mass. First Congregational Church records, 1726-1982.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2017-09-26</date>
+        <num>RG0089</num>
+      </publicationstmt>
+      <seriesstmt>
+        <p>Portions of this collection are part of New England's Hidden Histories. Digital
+          historical representations of these portions of the collection can be viewed online.</p>
+      </seriesstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="und">Undetermined</language>
+      <script scriptcode="Zyyy">Code for undetermined script</script>
+      <descriptivenote>
+        <p>English</p>
+      </descriptivenote>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2022-09-15T17:32:05+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Thursday September
+          15, 2022 at 17:32</eventdescription>
+      </maintenanceevent>
+      <maintenanceevent>
+        <eventtype value="revised"/>
+        <eventdatetime>2020-03-30</eventdatetime>
+        <agenttype value="human"/>
+        <agent/>
+        <eventdescription>Zachary Bodnar: Minor additions to subjects and agents.</eventdescription>
+      </maintenanceevent>
+      <maintenanceevent>
+        <eventtype value="revised"/>
+        <eventdatetime>2022-09-15</eventdatetime>
+        <agenttype value="human"/>
+        <agent/>
+        <eventdescription>Zachary Bodnar: Accrual integrated into collection.</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Harwich, Mass. First Congregational Church records, 1726-1982.</unittitle>
+      <unitid>RG0089</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>2.53</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(3 boxes, 2 reels)</physdesc>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1726">1726</fromdate>
+          <todate standarddate="1982">1982</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1726-1982</unitdate>
+      <abstract>The First Congregational Church of Harwich, Massachusetts, was founded in 1747 when
+        the town of Harwich was split into the North and South Parishes. On April 8, 1747, the
+        precinct voted to complete construction on a meeting house which was finally completed in
+        1748. In 1792, the second meetinghouse was completed after the first had been condemned a
+        year earlier. The church officially became known as the First Congregational Church of
+        Harwich when the church became incorporated in 1898 at the behest of the Rev. George Y.
+        Washburn. The First Church of Harwich continues to serve the community today. The collection
+        documents the history, administration, and life of the church and includs membership lists,
+        church and parish records, and administrative/legal documents.</abstract>
+      <origination label="Creator">
+        <corpname identifier="n95082128" source="lcnaf">
+          <part>Church of Christ (Harwich, Mass.)</part>
+        </corpname>
+      </origination>
+      <origination label="Creator">
+        <corpname identifier="n95082124" source="lcnaf">
+          <part>First Congregational Church (Harwich, Mass.)</part>
+        </corpname>
+      </origination>
+      <origination label="Creator">
+        <persname identifier="n95082162" source="lcnaf">
+          <part>Washburn, Geroge Y.</part>
+        </persname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head> Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+      <p>Digital Reproductions are protected by copyright and/or related rights. You are free to use
+        the Digital Reproductions in any way that is permitted by the copyright and related rights
+        legislation that applies to your use. In addition, no permission is required from the
+        Congregational Library &amp; Archives for educational uses. For other uses, you need to
+        obtain permission from the Congregational Library &amp; Archives. For additional information
+        regarding copyright, please consult the Congregational Library &amp; Archives' <ref
+          actuate="onrequest" href="http://www.congregationallibrary.org/about/digital-copyright"
+          linktitle="Digital Collections Copyright &amp; Use" show="new">Digital Collections
+          Copyright &amp; Use</ref> policy.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Harwich, Mass. First Congregational Church records,
+        1726-1982, RG0089. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials deposited to the Congregational Library &amp; Archives by the First
+        Congregational Church of Harwich in 1981; no accession number.</p>
+      <p>The Draft deed was donated to the Congregational Library &amp; Archives by the First
+        Congregational Church of Harwich in 2022, 2022-18.</p>
+    </acqinfo>
+    <altformavail>
+      <head>Digital Copies</head>
+      <p>Records within this collection were digitized as part of the New England's Hidden Histories
+        project. Digital reproductions may be accessed online through our <ref
+          href="https://congregationallibrary.quartexcollections.com/manuscript-collections/browse-the-first-congregational-church-records-in-harwich-massachusetts"
+          >digital archive</ref>.</p>
+    </altformavail>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Originally processed in 1982. Re-processed by Zachary Bodnar, September 2017, using DACS
+        Second Edition.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>Prior to the arrival of European colonists, the lands that encompass today's Harwich were
+        inhabited by the Wampanoag. Harwich was first settled by Europeans in 1670 as part of
+        Yarmouth. Harwich was separately incorporated in 1694.</p>
+      <p>The First Congregational Church of Harwich, Massachusetts, was founded in 1747 when the
+        town of Harwich was split into the North and South Parishes. Efforts to split the town in
+        half had begun in 1744 when families from the south side of Harwich petitioned the town
+        meeting to separate the southern portion into its own distinct precinct. This and several
+        other attempts were denied until a petition to the Massachusetts General Court resulted in
+        the eventual separation of Harwich into two "distinct and separate precinct[s]" effective
+        January 16, 1747. On April 8, 1747, the precinct voted to begin construction of a meeting
+        house with construction being completed the following year. Also, in April of 1747, Edward
+        Pell, a Harvard graduate and Boston native, preached to the South Parish. Not long after, he
+        was called by the South Parish to become the first pastor of the South Parish, a call he
+        accepted graciously. Pell was ordained to the office on November 12, 1747. As part of his
+        salary, Pell was given a "convenient hovel." This structure was finally completed in 1751.
+        Pell perished in 1752 and his widow left to Maine in 1753. At this time, their home became
+        the parsonage and "Ministerial House" for future pastors. It did not remain as such for long
+        as in 1782 the house and barn were sold to cover precinct expenses. The period between 1773
+        and 1792 was particularly rocky for the church, marked by numerous religious dissensions,
+        shared pulpits with the West Harwich Baptist Church, and general unrest which resulted in
+        the quick succession of multiple pastors during this period.</p>
+      <p>In 1792, the second meetinghouse was completed after the first had been condemned a year
+        earlier. With the new meetinghouse came a new minister, Nathan Underwood, whose name became
+        synonymous with the second meetinghouse. Underwood served the parish for thirty-six years,
+        the longest ministry at the church. During his time at the First Congregational Church,
+        Underwood expanded the membership of the church, advocated for further independence for the
+        South Precinct, and taught numerous others "scientific" farming. He retired from active
+        service in 1819, though he continued to offer support until 1828 when his relation with the
+        church was formally dissolved. Shortly before his death, Underwood sold his home to the town
+        for use as an almshouse. By 1832 the second meetinghouse needed to be replaced, and by the
+        fall of that year Moses B. Lakeman completed construction. Financial difficulties and short
+        pastorates marked the church's history until 1851 when the Rev. Moses Hale Wilder began a
+        complete reorganization of the church's administration. He also oversaw the first expansion
+        of the third meetinghouse in 1854.</p>
+      <p>The church officially became known as the First Congregational Church of Harwich when the
+        church became incorporated under Massachusetts state law on December 19, 1898 at the behest
+        of the Rev. George Y. Washburn. Washburn, further, celebrated the 150th anniversary of the
+        church by writing a history of the congregation in 1897.</p>
+      <p>The first third of the 20th century was again marked by financial and parishioner distress
+        with few pastors remaining long and the congregation growing smaller. That changed in 1933
+        with George Hunt who helped to revitalize the church community. His wife, Ruth Hunt, became
+        the first woman to preach at the First Church after her husband fell ill one weekend. After
+        World War II, Harwich, along with the rest of the Massachusetts cape, had become something
+        of a tourist resort town. The result has been a revitalized church which has become
+        welcoming to locals and visitors alike. The 200th anniversary of the church saw a complete
+        renovation of the third meetinghouse. In 1954, a chapel first built by the Ladies of the
+        Sewing Circle in 1881 was repurposed into the Parish House. In 1961, the church voted to
+        become a member of the United Church of Christ. The First Church of Harwich continues to
+        serve the community today.</p>
+      <chronlist>
+        <head>Ministers</head>
+        <chronitem>
+          <datesingle>Edward Pell</datesingle>
+          <chronitemset>
+            <event>1746-1752</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Benjamin Crocker</datesingle>
+          <chronitemset>
+            <event>1754-1756</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>John Dennis</datesingle>
+          <chronitemset>
+            <event>1756-1761</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Benjamin Crocker</datesingle>
+          <chronitemset>
+            <event>1761-1765</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Jonathan Mills</datesingle>
+          <chronitemset>
+            <event>1766-1773</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>No regular minister</datesingle>
+          <chronitemset>
+            <event>1774-1776</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Joseph Litchfield</datesingle>
+          <chronitemset>
+            <event>1777-1778</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Samuel Nickerson</datesingle>
+          <chronitemset>
+            <event>1778-1787</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Jonathan Jeffers</datesingle>
+          <chronitemset>
+            <event>1787-1789</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Asa Hunt</datesingle>
+          <chronitemset>
+            <event>1790-1791</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Nathan Underwood</datesingle>
+          <chronitemset>
+            <event>1792-1828</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Isaac W. Wheelwright</datesingle>
+          <chronitemset>
+            <event>1826-1827</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>William M. Cornell</datesingle>
+          <chronitemset>
+            <event>1828-1829</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Lucius Field</datesingle>
+          <chronitemset>
+            <event>1830</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Powers</datesingle>
+          <chronitemset>
+            <event>1831</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Caleb Kimball</datesingle>
+          <chronitemset>
+            <event>1832-1834</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>William Withington</datesingle>
+          <chronitemset>
+            <event>1835</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Charles S. Adams</datesingle>
+          <chronitemset>
+            <event>1835-1838</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>John H. Avery</datesingle>
+          <chronitemset>
+            <event>1838-1839</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>William Marchant</datesingle>
+          <chronitemset>
+            <event>1840-1841</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>James D. Farnsworth</datesingle>
+          <chronitemset>
+            <event>1841</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>William H. Adams</datesingle>
+          <chronitemset>
+            <event>1841-1844</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Cyrus Stone</datesingle>
+          <chronitemset>
+            <event>1844-1848</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Theophilus F. Sawin</datesingle>
+          <chronitemset>
+            <event>1848-1851</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Moses Hale Wilder</datesingle>
+          <chronitemset>
+            <event>1851-1858</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Joseph Rice Munsell</datesingle>
+          <chronitemset>
+            <event>1858-1868</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>William H. Beard</datesingle>
+          <chronitemset>
+            <event>1869-1870</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Charles S. Whitney</datesingle>
+          <chronitemset>
+            <event>1871-1872</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Bradish G. Ward</datesingle>
+          <chronitemset>
+            <event>1872-1876</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Joseph Hammond</datesingle>
+          <chronitemset>
+            <event>1876-1877</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Smith Norton</datesingle>
+          <chronitemset>
+            <event>1878-1879</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>S.W. Powell</datesingle>
+          <chronitemset>
+            <event>1880</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Rufus B. Tobey</datesingle>
+          <chronitemset>
+            <event>1880-1883</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Cassius M. Westlake</datesingle>
+          <chronitemset>
+            <event>1884-1885</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Henry P. Cutting</datesingle>
+          <chronitemset>
+            <event>1885-1888</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>F.J. Ward</datesingle>
+          <chronitemset>
+            <event>1890</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>John C. Staples</datesingle>
+          <chronitemset>
+            <event>1891-1892</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>J. Walter Sylvester</datesingle>
+          <chronitemset>
+            <event>1893</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>J.H. Whittaker, Jr.</datesingle>
+          <chronitemset>
+            <event>1893-1894</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Artemas J. Haynes</datesingle>
+          <chronitemset>
+            <event>1894-1896</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>George Y. Washburn</datesingle>
+          <chronitemset>
+            <event>1896-1899</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Charles H. Rowley</datesingle>
+          <chronitemset>
+            <event>1899-1904</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Henry A. Ryder</datesingle>
+          <chronitemset>
+            <event>1905-1910</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Frederick T. Knight</datesingle>
+          <chronitemset>
+            <event>1910-1912</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>George W. Clark</datesingle>
+          <chronitemset>
+            <event>1913-1918</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Jack Hyde</datesingle>
+          <chronitemset>
+            <event>1919-1920</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>F.B. Noyes</datesingle>
+          <chronitemset>
+            <event>1920-1922</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>F.W. Hoisington</datesingle>
+          <chronitemset>
+            <event>1923-1924</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>B.D.F. Lindsay</datesingle>
+          <chronitemset>
+            <event>1924-1928</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Howard R. May</datesingle>
+          <chronitemset>
+            <event>1928-1929</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Walter M. Stone</datesingle>
+          <chronitemset>
+            <event>1930-1931</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Leon S. Kelley</datesingle>
+          <chronitemset>
+            <event>1931-1932</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>George A. Hunt</datesingle>
+          <chronitemset>
+            <event>1933-1936</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Henry D. Newell</datesingle>
+          <chronitemset>
+            <event>1936-1943</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>George Loring Thurlow</datesingle>
+          <chronitemset>
+            <event>1943-1953</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Harry L. Meyer</datesingle>
+          <chronitemset>
+            <event>1953-1959</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>J. Edward Elliot</datesingle>
+          <chronitemset>
+            <event>1960-1971</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Albert C. Ronander</datesingle>
+          <chronitemset>
+            <event>1971-1978</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>H.L. Meyer</datesingle>
+          <chronitemset>
+            <event>1976-1982</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>J.R. Williams</datesingle>
+          <chronitemset>
+            <event>1981-1984</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>M.B. Carver-Schad</datesingle>
+          <chronitemset>
+            <event>1981-2007</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>C.T. Newberry</datesingle>
+          <chronitemset>
+            <event>1985-2006</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>L.C. Toppan</datesingle>
+          <chronitemset>
+            <event>1986-1995</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>E. Deasy</datesingle>
+          <chronitemset>
+            <event>1988-1989</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>J.N. Erickson</datesingle>
+          <chronitemset>
+            <event>1990-1997</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>J.C. Pearsall</datesingle>
+          <chronitemset>
+            <event>1997-1998</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>A. Weirch</datesingle>
+          <chronitemset>
+            <event>1998-2001</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>T.C. Leinbach</datesingle>
+          <chronitemset>
+            <event>2006-2017</event>
+          </chronitemset>
+        </chronitem>
+        <chronitem>
+          <datesingle>Susan E. Thomas</datesingle>
+          <chronitemset>
+            <event>2021-present</event>
+          </chronitemset>
+        </chronitem>
+      </chronlist>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>The Harwich, Mass. First Congregational Church records document the history,
+        administration, and life of the church, including membership lists, church and parish
+        records, meeting minutes, financial documents, society records, legal documents, church
+        publications, committee reports, subscription lists, a manuscript by George Y. Washburn, and
+        microfilmed copies of original records.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>The collection is divided into the five series listed below. The records are arranged
+        primarily by chronological order and then topic.</p>
+      <p><emph render="bold">Series 1:</emph> Church and Society Records, 1745-1974</p>
+      <p><emph render="bold">Series 2:</emph> Administrative Records, 1726-1982</p>
+      <p><emph render="bold">Series 3:</emph> Church Subscriptions, 1832-1857</p>
+      <p><emph render="bold">Series 4:</emph> Rev. George Y. Washburn Manuscript, circa 1897,
+        1972</p>
+      <p><emph render="bold">Series 5:</emph> Microfilm, 1981</p>
+    </arrangement>
+    <phystech>
+      <head>Technical Requirements</head>
+      <p>To access digital user's copies via online-interface, a java-enabled web browser is
+        required. Internet Explorer 8.x and later, Firefox 5.x and later, Opera 12 and later, Safari
+        5.x and later, or any version of Google Chrome are recommended.</p>
+      <p>A microfilm reader is required in order to access microform materials. One microfilm reader
+        is available to the public upon request.</p>
+    </phystech>
+    <bibliography>
+      <head>Bibliography</head>
+      <p><emph render="italic">History: First Congregational Church Harwich, Massachussetts
+          1747-1972.</emph> Harwich: Jack Viall, 1972. 17.11.1 H26.67 FirCC</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025606" source="lcsh">
+        <part>Church finance.</part>
+      </subject>
+      <subject identifier="sh85025643" source="lcsh">
+        <part>Church lands.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85033885" source="lcsh">
+        <part>Creeds.</part>
+      </subject>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <subject source="local">
+        <part>New England's Hidden Histories.</part>
+      </subject>
       <corpname identifier="n95082128" source="lcnaf">
         <part>Church of Christ (Harwich, Mass.)</part>
       </corpname>
-    </origination>
-    <origination label="Creator">
       <corpname identifier="n95082124" source="lcnaf">
         <part>First Congregational Church (Harwich, Mass.)</part>
       </corpname>
-    </origination>
-    <origination label="Creator">
-      <persname identifier="n95082162" source="lcnaf">
-        <part>Washburn, Geroge Y.</part>
-      </persname>
-    </origination>
-  </did>
-  <accessrestrict id="aspace_e5029ce95a3b129b3e5866d8d73cd3e9">
-    <head> Restrictions on Access</head>
-<p>Access to this collection is unrestricted and open to the public.</p>  </accessrestrict>
-  <userestrict id="aspace_55165c36b9a6e286aff086037e40bb85">
-    <head>Restrictions on Use</head>
-<p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the researcher to determine the copyright status of collection items and to secure any permissions necessary for their reproduction and publication. Requests for permission to publish material must be discussed with the archivist or librarian.</p><p>Digital Reproductions are protected by copyright and/or related rights. You are free to use the Digital Reproductions in any way that is permitted by the copyright and related rights legislation that applies to your use. In addition, no permission is required from the Congregational Library &amp; Archives for educational uses. For other uses, you need to obtain permission from the Congregational Library &amp; Archives. For additional information regarding copyright, please consult the Congregational Library &amp; Archives' <ref actuate="onrequest" href="http://www.congregationallibrary.org/about/digital-copyright" linktitle="Digital Collections Copyright &amp; Use" show="new">Digital Collections Copyright &amp; Use</ref> policy.</p>  </userestrict>
-  <prefercite id="aspace_2b769586803c14684a5a36ccaf383e14">
-    <head>Preferred Citation</head>
-<p>[Identification of item], in the Harwich, Mass. First Congregational Church records, 1726-1982, RG0089. The Congregational Library &amp; Archives, Boston, MA.</p>  </prefercite>
-  <acqinfo id="aspace_1f949e7f8fee2c1166bdfb54ac7a384a">
-    <head>Acquisition Information</head>
-<p>Materials deposited to the Congregational Library &amp; Archives by the First Congregational Church of Harwich in 1981; no accession number.</p><p>The Draft deed was donated to the Congregational Library &amp; Archives by the First Congregational Church of Harwich in 2022, 2022-18.</p>  </acqinfo>
-  <altformavail id="aspace_24c5e1235c83be78ab6309e9a97c2a25">
-    <head>Digital Copies</head>
-<p>Records within this collection were digitized as part of the New England's Hidden Histories project. Digital reproductions may be accessed online through our <ref href="https://congregationallibrary.quartexcollections.com/manuscript-collections/browse-the-first-congregational-church-records-in-harwich-massachusetts">digital archive</ref>.</p>  </altformavail>
-  <processinfo id="aspace_e03bcb8d927fdcfa1a049c7ab95156fb">
-    <head>Processing Information</head>
-<p>Originally processed in 1982. Re-processed by Zachary Bodnar, September 2017, using DACS Second Edition.</p>  </processinfo>
-  <bioghist id="aspace_145339593e3850bfc547a031de6ab294">
-    <head>Historical Note</head>
-<p>Prior to the arrival of European colonists, the lands that encompass today's Harwich were inhabited by the Wampanoag. Harwich was first settled by Europeans in 1670 as part of Yarmouth. Harwich was separately incorporated in 1694.</p><p>The First Congregational Church of Harwich, Massachusetts, was founded in 1747 when the town of Harwich was split into the North and South Parishes. Efforts to split the town in half had begun in 1744 when families from the south side of Harwich petitioned the town meeting to separate the southern portion into its own distinct precinct. This and several other attempts were denied until a petition to the Massachusetts General Court resulted in the eventual separation of Harwich into two "distinct and separate precinct[s]" effective January 16, 1747. On April 8, 1747, the precinct voted to begin construction of a meeting house with construction being completed the following year. Also, in April of 1747, Edward Pell, a Harvard graduate and Boston native, preached to the South Parish. Not long after, he was called by the South Parish to become the first pastor of the South Parish, a call he accepted graciously. Pell was ordained to the office on November 12, 1747. As part of his salary, Pell was given a "convenient hovel." This structure was finally completed in 1751. Pell perished in 1752 and his widow left to Maine in 1753. At this time, their home became the parsonage and "Ministerial House" for future pastors. It did not remain as such for long as in 1782 the house and barn were sold to cover precinct expenses. The period between 1773 and 1792 was particularly rocky for the church, marked by numerous religious dissensions, shared pulpits with the West Harwich Baptist Church, and general unrest which resulted in the quick succession of multiple pastors during this period.</p><p>In 1792, the second meetinghouse was completed after the first had been condemned a year earlier. With the new meetinghouse came a new minister, Nathan Underwood, whose name became synonymous with the second meetinghouse. Underwood served the parish for thirty-six years, the longest ministry at the church. During his time at the First Congregational Church, Underwood expanded the membership of the church, advocated for further independence for the South Precinct, and taught numerous others "scientific" farming. He retired from active service in 1819, though he continued to offer support until 1828 when his relation with the church was formally dissolved. Shortly before his death, Underwood sold his home to the town for use as an almshouse. By 1832 the second meetinghouse needed to be replaced, and by the fall of that year Moses B. Lakeman completed construction. Financial difficulties and short pastorates marked the church's history until 1851 when the Rev. Moses Hale Wilder began a complete reorganization of the church's administration. He also oversaw the first expansion of the third meetinghouse in 1854.</p><p>The church officially became known as the First Congregational Church of Harwich when the church became incorporated under Massachusetts state law on December 19, 1898 at the behest of the Rev. George Y. Washburn. Washburn, further, celebrated the 150th anniversary of the church by writing a history of the congregation in 1897.</p><p>The first third of the 20th century was again marked by financial and parishioner distress with few pastors remaining long and the congregation growing smaller. That changed in 1933 with George Hunt who helped to revitalize the church community. His wife, Ruth Hunt, became the first woman to preach at the First Church after her husband fell ill one weekend. After World War II, Harwich, along with the rest of the Massachusetts cape, had become something of a tourist resort town. The result has been a revitalized church which has become welcoming to locals and visitors alike. The 200th anniversary of the church saw a complete renovation of the third meetinghouse. In 1954, a chapel first built by the Ladies of the Sewing Circle in 1881 was repurposed into the Parish House. In 1961, the church voted to become a member of the United Church of Christ. The First Church of Harwich continues to serve the community today.</p>    <chronlist>
-      <head>Ministers</head>
-      <chronitem>
-        <datesingle>Edward Pell</datesingle>
-        <chronitemset>
-          <event>1746-1752</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>Benjamin Crocker</datesingle>
-        <chronitemset>
-          <event>1754-1756</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>John Dennis</datesingle>
-        <chronitemset>
-          <event>1756-1761</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>Benjamin Crocker</datesingle>
-        <chronitemset>
-          <event>1761-1765</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>Jonathan Mills</datesingle>
-        <chronitemset>
-          <event>1766-1773</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>No regular minister</datesingle>
-        <chronitemset>
-          <event>1774-1776</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>Joseph Litchfield</datesingle>
-        <chronitemset>
-          <event>1777-1778</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>Samuel Nickerson</datesingle>
-        <chronitemset>
-          <event>1778-1787</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>Jonathan Jeffers</datesingle>
-        <chronitemset>
-          <event>1787-1789</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>Asa Hunt</datesingle>
-        <chronitemset>
-          <event>1790-1791</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>Nathan Underwood</datesingle>
-        <chronitemset>
-          <event>1792-1828</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>Isaac W. Wheelwright</datesingle>
-        <chronitemset>
-          <event>1826-1827</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>William M. Cornell</datesingle>
-        <chronitemset>
-          <event>1828-1829</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>Lucius Field</datesingle>
-        <chronitemset>
-          <event>1830</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>Powers</datesingle>
-        <chronitemset>
-          <event>1831</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>Caleb Kimball</datesingle>
-        <chronitemset>
-          <event>1832-1834</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>William Withington</datesingle>
-        <chronitemset>
-          <event>1835</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>Charles S. Adams</datesingle>
-        <chronitemset>
-          <event>1835-1838</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>John H. Avery</datesingle>
-        <chronitemset>
-          <event>1838-1839</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>William Marchant</datesingle>
-        <chronitemset>
-          <event>1840-1841</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>James D. Farnsworth</datesingle>
-        <chronitemset>
-          <event>1841</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>William H. Adams</datesingle>
-        <chronitemset>
-          <event>1841-1844</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>Cyrus Stone</datesingle>
-        <chronitemset>
-          <event>1844-1848</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>Theophilus F. Sawin</datesingle>
-        <chronitemset>
-          <event>1848-1851</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>Moses Hale Wilder</datesingle>
-        <chronitemset>
-          <event>1851-1858</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>Joseph Rice Munsell</datesingle>
-        <chronitemset>
-          <event>1858-1868</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>William H. Beard</datesingle>
-        <chronitemset>
-          <event>1869-1870</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>Charles S. Whitney</datesingle>
-        <chronitemset>
-          <event>1871-1872</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>Bradish G. Ward</datesingle>
-        <chronitemset>
-          <event>1872-1876</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>Joseph Hammond</datesingle>
-        <chronitemset>
-          <event>1876-1877</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>Smith Norton</datesingle>
-        <chronitemset>
-          <event>1878-1879</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>S.W. Powell</datesingle>
-        <chronitemset>
-          <event>1880</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>Rufus B. Tobey</datesingle>
-        <chronitemset>
-          <event>1880-1883</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>Cassius M. Westlake</datesingle>
-        <chronitemset>
-          <event>1884-1885</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>Henry P. Cutting</datesingle>
-        <chronitemset>
-          <event>1885-1888</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>F.J. Ward</datesingle>
-        <chronitemset>
-          <event>1890</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>John C. Staples</datesingle>
-        <chronitemset>
-          <event>1891-1892</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>J. Walter Sylvester</datesingle>
-        <chronitemset>
-          <event>1893</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>J.H. Whittaker, Jr.</datesingle>
-        <chronitemset>
-          <event>1893-1894</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>Artemas J. Haynes</datesingle>
-        <chronitemset>
-          <event>1894-1896</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>George Y. Washburn</datesingle>
-        <chronitemset>
-          <event>1896-1899</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>Charles H. Rowley</datesingle>
-        <chronitemset>
-          <event>1899-1904</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>Henry A. Ryder</datesingle>
-        <chronitemset>
-          <event>1905-1910</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>Frederick T. Knight</datesingle>
-        <chronitemset>
-          <event>1910-1912</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>George W. Clark</datesingle>
-        <chronitemset>
-          <event>1913-1918</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>Jack Hyde</datesingle>
-        <chronitemset>
-          <event>1919-1920</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>F.B. Noyes</datesingle>
-        <chronitemset>
-          <event>1920-1922</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>F.W. Hoisington</datesingle>
-        <chronitemset>
-          <event>1923-1924</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>B.D.F. Lindsay</datesingle>
-        <chronitemset>
-          <event>1924-1928</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>Howard R. May</datesingle>
-        <chronitemset>
-          <event>1928-1929</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>Walter M. Stone</datesingle>
-        <chronitemset>
-          <event>1930-1931</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>Leon S. Kelley</datesingle>
-        <chronitemset>
-          <event>1931-1932</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>George A. Hunt</datesingle>
-        <chronitemset>
-          <event>1933-1936</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>Henry D. Newell</datesingle>
-        <chronitemset>
-          <event>1936-1943</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>George Loring Thurlow</datesingle>
-        <chronitemset>
-          <event>1943-1953</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>Harry L. Meyer</datesingle>
-        <chronitemset>
-          <event>1953-1959</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>J. Edward Elliot</datesingle>
-        <chronitemset>
-          <event>1960-1971</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>Albert C. Ronander</datesingle>
-        <chronitemset>
-          <event>1971-1978</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>H.L. Meyer</datesingle>
-        <chronitemset>
-          <event>1976-1982</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>J.R. Williams</datesingle>
-        <chronitemset>
-          <event>1981-1984</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>M.B. Carver-Schad</datesingle>
-        <chronitemset>
-          <event>1981-2007</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>C.T. Newberry</datesingle>
-        <chronitemset>
-          <event>1985-2006</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>L.C. Toppan</datesingle>
-        <chronitemset>
-          <event>1986-1995</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>E. Deasy</datesingle>
-        <chronitemset>
-          <event>1988-1989</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>J.N. Erickson</datesingle>
-        <chronitemset>
-          <event>1990-1997</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>J.C. Pearsall</datesingle>
-        <chronitemset>
-          <event>1997-1998</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>A. Weirch</datesingle>
-        <chronitemset>
-          <event>1998-2001</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>T.C. Leinbach</datesingle>
-        <chronitemset>
-          <event>2006-2017</event>
-        </chronitemset>
-      </chronitem>
-      <chronitem>
-        <datesingle>Susan E. Thomas</datesingle>
-        <chronitemset>
-          <event>2021-present</event>
-        </chronitemset>
-      </chronitem>
-    </chronlist>
-  </bioghist>
-  <scopecontent id="aspace_8f13d923dcd66b5c6b1a2e0c338d3068">
-    <head>Scope and Contents</head>
-<p>The Harwich, Mass. First Congregational Church records document the history, administration, and life of the church, including membership lists, church and parish records, meeting minutes, financial documents, society records, legal documents, church publications, committee reports, subscription lists, a manuscript by George Y. Washburn, and microfilmed copies of original records.</p>  </scopecontent>
-  <arrangement id="aspace_3342c05f012afb244dbf9408a61f748b">
-    <head>Arrangement</head>
-<p>The collection is divided into the five series listed below. The records are arranged primarily by chronological order and then topic.</p><p><emph render="bold">Series 1:</emph> Church and Society Records, 1745-1974</p><p><emph render="bold">Series 2:</emph> Administrative Records, 1726-1982</p><p><emph render="bold">Series 3:</emph> Church Subscriptions, 1832-1857</p><p><emph render="bold">Series 4:</emph> Rev. George Y. Washburn Manuscript, circa 1897, 1972</p><p><emph render="bold">Series 5:</emph> Microfilm, 1981</p>  </arrangement>
-  <phystech id="aspace_7d6dec59ea545790dca851e8be6aaca5">
-    <head>Technical Requirements</head>
-<p>To access digital user's copies via online-interface, a java-enabled web browser is required. Internet Explorer 8.x and later, Firefox 5.x and later, Opera 12 and later, Safari 5.x and later, or any version of Google Chrome are recommended.</p><p>A microfilm reader is required in order to access microform materials. One microfilm reader is available to the public upon request.</p>  </phystech>
-  <bibliography id="aspace_49dc59724e2328578beec3e0fe6b57f3">
-    <head>Bibliography</head>
-<p><emph render="italic">History: First Congregational Church Harwich, Massachussetts 1747-1972.</emph> Harwich: Jack Viall, 1972. 17.11.1 H26.67 FirCC</p>  </bibliography>
-  <controlaccess>
-    <subject identifier="sh89002058" source="lcsh">
-      <part>Baptismal records.</part>
-    </subject>
-    <subject identifier="sh85025606" source="lcsh">
-      <part>Church finance.</part>
-    </subject>
-    <subject identifier="sh85025643" source="lcsh">
-      <part>Church lands.</part>
-    </subject>
-    <subject identifier="sh85025649" source="lcsh">
-      <part>Church membership.</part>
-    </subject>
-    <subject identifier="sh85025741" source="lcsh">
-      <part>Church records and registers.</part>
-    </subject>
-    <subject identifier="sh85033885" source="lcsh">
-      <part>Creeds.</part>
-    </subject>
-    <subject identifier="sh85081512" source="lcsh">
-      <part>Marriage records.</part>
-    </subject>
-    <subject source="local">
-      <part>New England's Hidden Histories.</part>
-    </subject>
-    <corpname identifier="n95082128" source="lcnaf">
-      <part>Church of Christ (Harwich, Mass.)</part>
-    </corpname>
-    <corpname identifier="n95082124" source="lcnaf">
-      <part>First Congregational Church (Harwich, Mass.)</part>
-    </corpname>
-    <corpname identifier="n83002084" source="lcnaf">
-      <part>Harwich (Mass.) -- Church history.</part>
-    </corpname>
-  </controlaccess>
-  <dsc><c id="aspace_8f63d3a07505825622e799f6c221e1bc" level="series"><did><unittitle>Church and Society records</unittitle><physdescstructured coverage="whole" physdescstructuredtype="materialtype"><quantity>16</quantity><unittype>Volumes</unittype></physdescstructured><unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive"><daterange><fromdate standarddate="1745">1745</fromdate><todate standarddate="1974">1974</todate></daterange></unitdatestructured><unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1745-1974</unitdate></did><scopecontent id="aspace_3b7cd2673af242ac48625048c9334272"><head>Scope and Contents</head><p>This series includes the records or the church and parish as well as records of societies attached to the church. Included within the records are meeting minutes, baptismal records, marriage records, committee reports, financial documents, annual reports, and historical notes.</p></scopecontent><c id="aspace_594d16aa0ee4b5893eef0db3b0199d98" level="item"><did><unittitle>Parish records</unittitle><unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive"><daterange><fromdate standarddate="1746">1746</fromdate><todate standarddate="1792">1792</todate></daterange></unitdatestructured><unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1746-1792</unitdate><container altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327" id="aspace_05d96e33ddbca57f496741fc6d079131" label="Mixed Materials" localtype="box">1</container><container id="aspace_c8431a0e59138fca8e0b30d6d6fdd2a2" localtype="volume" parent="aspace_05d96e33ddbca57f496741fc6d079131">1</container></did><phystech id="aspace_502bf807cff1b42085a26b6ac9708fe9"><head>Physical Access</head><p>These records are unavailable for patron use due to fragility. Use the 19th century copy of these records. Contact the archivist for special permission to view the originals.</p></phystech><altformavail id="aspace_98be4513af42152881ea9d3379539a23"><head>Location of Copies</head><p>These records were transcribed and edited by Obed Brooks and made the first part of the Records of the First Parish, 1745-1899.</p></altformavail></c><c id="aspace_ea7606a8a6388a6ce9a91872d94b6eec" level="item"><did><unittitle>Proprietors' records</unittitle><unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive"><daterange><fromdate standarddate="1791">1791</fromdate><todate standarddate="1793">1793</todate></daterange></unitdatestructured><unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1791-1793</unitdate><container altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327" id="aspace_a844f94ece12a1e9a0b3e7bdeeec2044" label="Mixed Materials" localtype="box">1</container><container id="aspace_d2e5b36318febf772125e8f5dbc8bbb4" localtype="volume" parent="aspace_a844f94ece12a1e9a0b3e7bdeeec2044">2</container></did><scopecontent id="aspace_d313eb7680c946eb92c0886071fcd9c1"><head>Scope and Contents</head><p>The Proprietors' Records include meeting minutes, financial records, receipts, pew deeds, treasurer reports, and the church ledger for the years 1791-1793.</p></scopecontent></c><c id="aspace_7cd8781bdb7060bf7864eae1c698dd84" level="item"><did><unittitle>Church records volume 1</unittitle><unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive"><daterange><fromdate standarddate="1792">1792</fromdate><todate standarddate="1835">1835</todate></daterange></unitdatestructured><unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1792-1835</unitdate><container altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327" id="aspace_72569e27224a87c839504c0d8dd2350b" label="Mixed Materials" localtype="box">1</container><container id="aspace_63d41d66ca1469647a98dea41ab10cdd" localtype="volume" parent="aspace_72569e27224a87c839504c0d8dd2350b">3</container></did><scopecontent id="aspace_a200b38aed2ccafb9a28f6ef64e4f0bc"><head>Scope and Contents</head><p>This record book contains church records dating from 1792-1835. Included within these records are the Church Covenant, church proceedings, lists of admitted members, lists of members received from other churches, lists of members removed to other churches, baptismal records, dates for the administration of the supper, and marriage records.</p></scopecontent></c><c id="aspace_f08005ae9fcc2188df5959330915cb16" level="item"><did><unittitle>Church records volume 2</unittitle><unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive"><daterange><fromdate standarddate="1792">1792</fromdate><todate standarddate="1857">1857</todate></daterange></unitdatestructured><unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1792-1857</unitdate><container altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327" id="aspace_81d780ae6a6aededf3f4f23cd870907e" label="Mixed Materials" localtype="box">1</container><container id="aspace_7c8061dee15ce1ff0ac25ea35ffbcbbc" localtype="volume" parent="aspace_81d780ae6a6aededf3f4f23cd870907e">4</container></did><scopecontent id="aspace_ac0742ababbe96b9a19b56a2c62e44ac"><head>Scope and Contents</head><p>This record book contains parish records dating from 1792-1857. Included within these records are the minutes of church and parish meetings, minutes of government meetings, legal calls of assembly, and financial records.</p></scopecontent></c><c id="aspace_0203162c6f20380018009f9462e02a2e" level="item"><did><unittitle>Records of the First Parish</unittitle><unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive"><daterange><fromdate standarddate="1745">1745</fromdate><todate standarddate="1899">1899</todate></daterange></unitdatestructured><unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1745-1899</unitdate><unitdatestructured calendar="gregorian" datechar="record_keeping" unitdatetype="inclusive"><daterange><fromdate standarddate="1830">1830</fromdate><todate standarddate="1899">1899</todate></daterange></unitdatestructured><unitdate calendar="gregorian" datechar="record_keeping" unitdatetype="inclusive">1830-1899</unitdate><container altrender="Clamshell Box, Large" id="aspace_32fdeee875dc183b770b5fec05ce8b6f" label="Mixed Materials" localtype="box">3</container></did><scopecontent id="aspace_68f7d62c3a2b9d4f3a0a9ea653d1af95"><head>Scope and Contents</head><p>This record book contains the records of the First Parish from 1745-1899.  The records dating from 1745-1803 are handwritten transcribed copies of the original oldest records of the church. They were transcribed by Obed Brooks who also edited and annotated the records. The Congregational Library &amp; Archives holds an incomplete collection of those original documents which are now considered too fragile to handle. All records in the book from 1830-1899 were original. Included within these records are the minutes of church and parish meetings, minutes of precinct meetings, legal calls of assembly, church correspondence, the original members list, and treasurer accounts.</p></scopecontent></c><c id="aspace_d868d3adbb49b13c743376d72e065160" level="item"><did><unittitle>Minister's records</unittitle><unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive"><daterange><fromdate standarddate="1832">1832</fromdate><todate standarddate="1855">1855</todate></daterange></unitdatestructured><unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1832-1855</unitdate><container altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327" id="aspace_9ed0aa0f9a8188214f879466f69fbc68" label="Mixed Materials" localtype="box">1</container><container id="aspace_64550654f72aea0754d3385afa203607" localtype="volume" parent="aspace_9ed0aa0f9a8188214f879466f69fbc68">5</container></did><scopecontent id="aspace_b280dd338fa246fe5da75d0dd0a16132"><head>Scope and Contents</head><p>This record book contains parish records dating from 1832-1855. Included within these records are building dedications, the form of the first covenant, the Confession of Faith, the Church Covenant, the Confession of Faith and Covenant, records of church business, admissions lists, baptismal records, lists of dismissions, church by-laws, records pertaining to the organization of the church, marriage records, church meeting minutes, lists of deaths and funerals, lists of subscribers, and membership lists.</p></scopecontent></c><c id="aspace_406e6c63a35be472d3405dce4f7c0eff" level="item"><did><unittitle>Church and Parish meetings</unittitle><unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive"><daterange><fromdate standarddate="1855">1855</fromdate><todate standarddate="1899">1899</todate></daterange></unitdatestructured><unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1855-1899</unitdate><container altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327" id="aspace_b78cebfa842c3a31a5ac431dcd62fdf7" label="Mixed Materials" localtype="box">1</container><container id="aspace_03b3d0b4fa93952a0b0e4e0c78aedaf3" localtype="volume" parent="aspace_b78cebfa842c3a31a5ac431dcd62fdf7">6</container></did></c><c id="aspace_33de945ec19e88a0d1dc7aa38d45c282" level="item"><did><unittitle>Young Peoples' Society records</unittitle><unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive"><daterange><fromdate standarddate="1887">1887</fromdate><todate standarddate="1895">1895</todate></daterange></unitdatestructured><unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1887-1895</unitdate><container altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327" id="aspace_d1b595bb65111147051f8b99da7a1498" label="Mixed Materials" localtype="box">1</container><container id="aspace_0f0e4e252efe9971fb725c51296188b7" localtype="volume" parent="aspace_d1b595bb65111147051f8b99da7a1498">7</container></did></c><c id="aspace_a3c76fe65ba374255f2897aea9b47905" level="item"><did><unittitle>Records of the First Congregational Church of Harwich</unittitle><unitdatestructured datechar="creation" unitdatetype="inclusive"><daterange><fromdate standarddate="1900">1900</fromdate><todate standarddate="1940">1940</todate></daterange></unitdatestructured><unitdate datechar="creation" unitdatetype="inclusive">1900-1940</unitdate><container altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327" id="aspace_13d8a40f23b0f0f62da1fca2268fcec9" label="Mixed Materials" localtype="box">1</container><container id="aspace_ae5330ae60f7b15994e305e03ff03935" localtype="volume" parent="aspace_13d8a40f23b0f0f62da1fca2268fcec9">8</container></did></c><c id="aspace_20984d88a7026c03d01d311058bb07a3" level="item"><did><unittitle>Records of the First Congregational Church of Harwich</unittitle><unitdatestructured datechar="creation" unitdatetype="inclusive"><daterange><fromdate standarddate="1941">1941</fromdate><todate standarddate="1954">1954</todate></daterange></unitdatestructured><unitdate datechar="creation" unitdatetype="inclusive">1941-1954</unitdate><container altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327" id="aspace_353e54520fb7bd4e283174c4ee750f5a" label="Mixed Materials" localtype="box">1</container><container id="aspace_be9ae28e39f23deeac0eed211f060faa" localtype="volume" parent="aspace_353e54520fb7bd4e283174c4ee750f5a">9</container></did></c><c id="aspace_83c698e123ad7aa46daf22571bb38aa3" level="item"><did><unittitle>Records of the First Congregational Church of Harwich</unittitle><unitdatestructured datechar="creation" unitdatetype="inclusive"><daterange><fromdate standarddate="1956">1956</fromdate><todate standarddate="1960">1960</todate></daterange></unitdatestructured><unitdate datechar="creation" unitdatetype="inclusive">1956-1960</unitdate><container altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327" id="aspace_5749d11fde4c16e513b5a6f45eb553b0" label="Mixed Materials" localtype="box">1</container><container id="aspace_9b12058b2e63b7e9fca40d9ff6b3674b" localtype="volume" parent="aspace_5749d11fde4c16e513b5a6f45eb553b0">10</container></did></c><c id="aspace_da7fbf234a3f13d7cde1c4b8340496cc" level="item"><did><unittitle>Records of the First Congregational Church of Harwich</unittitle><unitdatestructured datechar="creation" unitdatetype="inclusive"><daterange><fromdate standarddate="1961">1961</fromdate><todate standarddate="1962">1962</todate></daterange></unitdatestructured><unitdate datechar="creation" unitdatetype="inclusive">1961-1962</unitdate><container altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327" id="aspace_1729e8421c0a4fa77333d2795d45b2b4" label="Mixed Materials" localtype="box">1</container><container id="aspace_0cdb17be64c65b8bca74e7cbd5e05a76" localtype="volume" parent="aspace_1729e8421c0a4fa77333d2795d45b2b4">11</container></did></c><c id="aspace_2d7322d1022b0c4bdad8d89d7a074764" level="item"><did><unittitle>Records of the First Congregational Church of Harwich</unittitle><unitdatestructured datechar="creation" unitdatetype="inclusive"><daterange><fromdate standarddate="1963">1963</fromdate><todate standarddate="1964">1964</todate></daterange></unitdatestructured><unitdate datechar="creation" unitdatetype="inclusive">1963-1964</unitdate><container altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327" id="aspace_23ecf415302bb1fcc451c6cc1eef6b75" label="Mixed Materials" localtype="box">2</container><container id="aspace_236da3dee86c47413c67d674b81ef6d5" localtype="volume" parent="aspace_23ecf415302bb1fcc451c6cc1eef6b75">1</container></did></c><c id="aspace_d1576a3e542873525c1992c8dbebb795" level="item"><did><unittitle>Records of the First Congregational Church of Harwich</unittitle><unitdatestructured datechar="creation" unitdatetype="inclusive"><daterange><fromdate standarddate="1965">1965</fromdate><todate standarddate="1966">1966</todate></daterange></unitdatestructured><unitdate datechar="creation" unitdatetype="inclusive">1965-1966</unitdate><container altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327" id="aspace_9e134e9f13f2d19c43219589f846769c" label="Mixed Materials" localtype="box">2</container><container id="aspace_efae4064c509877696ba845890bf0447" localtype="volume" parent="aspace_9e134e9f13f2d19c43219589f846769c">2</container></did></c><c id="aspace_2354b1388c39f618893bbd56cb1cbce9" level="item"><did><unittitle>Records of the First Congregational Church of Harwich</unittitle><unitdatestructured datechar="creation" unitdatetype="inclusive"><daterange><fromdate standarddate="1966">1966</fromdate><todate standarddate="1971">1971</todate></daterange></unitdatestructured><unitdate datechar="creation" unitdatetype="inclusive">1966-1971</unitdate><container altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327" id="aspace_d82f58bbebe990a1b93a6506be82f712" label="Mixed Materials" localtype="box">2</container><container id="aspace_068744b86ce19b7f59cfcb6b5d481e08" localtype="volume" parent="aspace_d82f58bbebe990a1b93a6506be82f712">3</container></did></c><c id="aspace_f7bef9962d53423abc738538dd70d860" level="item"><did><unittitle>Records of the First Congregational Church of Harwich</unittitle><unitdatestructured datechar="creation" unitdatetype="inclusive"><daterange><fromdate standarddate="1971">1971</fromdate><todate standarddate="1974">1974</todate></daterange></unitdatestructured><unitdate datechar="creation" unitdatetype="inclusive">1971-1974</unitdate><container altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327" id="aspace_0d65336c588328a22fd38855646834b9" label="Mixed Materials" localtype="box">2</container><container id="aspace_02c2640dcc379d5fc26eb3e10245d1b8" localtype="volume" parent="aspace_0d65336c588328a22fd38855646834b9">4</container></did></c></c><c id="aspace_d4e82d3ec4f3e7bd1e46ba1c90f93a92" level="series"><did><unittitle>Administrative records</unittitle><physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied"><quantity>15</quantity><unittype>Files</unittype></physdescstructured><physdesc localtype="container_summary">(5 volumes, 10 folders)</physdesc><unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive"><daterange><fromdate standarddate="1726">1726</fromdate><todate standarddate="1982">1982</todate></daterange></unitdatestructured><unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1726-1982</unitdate></did><scopecontent id="aspace_c9cf5536e812be2e87fd88216a6b80a3"><head>Scope and Contents</head><p>This series includes records related to the administration and functions of the First Congregational Church. Included in the records are legal documents such as land deeds and calls of assembly, correspondence, reports of the treasurer and committees, and church publications.</p></scopecontent><c id="aspace_9ea590735adf3d06ef2b9d8b966b8559" level="file"><did><unittitle>Deed of land</unittitle><unitdatestructured datechar="creation" unitdatetype="inclusive"><daterange><fromdate standarddate="1726">1726</fromdate><todate standarddate="1727">1727</todate></daterange></unitdatestructured><unitdate datechar="creation" unitdatetype="inclusive">1726-1727</unitdate><container altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327" id="aspace_e79d5d942d029ed1a68ac7a2977f5a79" label="Mixed Materials" localtype="box">2</container><container id="aspace_61bf88535d576ccac880ac3fbed68062" localtype="folder" parent="aspace_e79d5d942d029ed1a68ac7a2977f5a79">1</container></did></c><c id="aspace_b689420ad89b60d76891baae42ce6b2c" level="file"><did><unittitle>Church register</unittitle><physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied"><quantity>2</quantity><unittype>Items</unittype></physdescstructured><unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive"><daterange><fromdate standarddate="1746">1746</fromdate><todate standarddate="1747">1747</todate></daterange></unitdatestructured><unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1746-1747</unitdate><container altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327" id="aspace_77589ad92cd8ff57885f42b47e7c9bf6" label="Mixed Materials" localtype="box">2</container><container id="aspace_99a326c7283cf71f0d7ffccce6d9b764" localtype="folder" parent="aspace_77589ad92cd8ff57885f42b47e7c9bf6">2</container></did><scopecontent id="aspace_3ceafaf50d7d7025298a8ec4a156ab60"><head>Scope and Contents</head><p>This folder includes two documents which cover the founding of the First Congregational Church of Harwich in the newly established South Parish. Included in the documents is a list of the founding members of the church and a copy of the petition to the Massachusetts General Court which resulted in the formation of the South Parish.</p></scopecontent></c><c id="aspace_1fe2b9362dcddbbbdac09e40a75694b6" level="file"><did><unittitle>Draft deed, 1747</unittitle><unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive"><datesingle standarddate="1747">1747</datesingle></unitdatestructured><container altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327" id="aspace_c21dc9ecba721b57f00fcf82c24e26c6" label="Mixed Materials" localtype="box">2</container><container id="aspace_5bebf562ddd44625326d612962ab19ce" localtype="folder" parent="aspace_c21dc9ecba721b57f00fcf82c24e26c6">18</container></did></c><c id="aspace_cd90f156032cce234933ec3dad7beb59" level="file"><did><unittitle>Sale of land</unittitle><unitdatestructured datechar="creation" unitdatetype="inclusive"><datesingle standarddate="1748">1748</datesingle></unitdatestructured><unitdate datechar="creation" unitdatetype="inclusive">1748</unitdate><container altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327" id="aspace_c0e181fa6bf9a4cded146015fd3b48ba" label="Mixed Materials" localtype="box">2</container><container id="aspace_aa39e07858fef886073374ae0842f5d2" localtype="folder" parent="aspace_c0e181fa6bf9a4cded146015fd3b48ba">3</container></did></c><c id="aspace_2f0f1d2a75fcf96c77a1a2fa647d20e7" level="file"><did><unittitle>Calls to assembly</unittitle><unitdatestructured datechar="creation" unitdatetype="inclusive"><daterange><fromdate standarddate="1789">1789</fromdate><todate standarddate="1796">1796</todate></daterange></unitdatestructured><unitdate datechar="creation" unitdatetype="inclusive">1789-1796</unitdate><container altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327" id="aspace_aa0732837072d83ee0bb4597bb0215dc" label="Mixed Materials" localtype="box">2</container><container id="aspace_d4e505d38efbb87a1527ea62855c24f1" localtype="folder" parent="aspace_aa0732837072d83ee0bb4597bb0215dc">4</container></did></c><c id="aspace_44ec056ffd7fb3f136edf241254e6b8f" level="file"><did><unittitle>Church communications</unittitle><physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied"><quantity>4</quantity><unittype>Items</unittype></physdescstructured><unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive"><daterange><fromdate standarddate="1792">1792</fromdate><todate standarddate="1828">1828</todate></daterange></unitdatestructured><unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1792-1828</unitdate><container altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327" id="aspace_b29243e4479e41d4af219704896a455b" label="Mixed Materials" localtype="box">2</container><container id="aspace_c15f326d7dabb4258eec17a6b23e6370" localtype="folder" parent="aspace_b29243e4479e41d4af219704896a455b">5</container></did><altformavail id="aspace_56249ff74de7ae23638dff487a7412ca"><head>Digital Copies</head><p>These church records were digitized as part of the New England's Hidden Histories project. Digital reproductions are <ref actuate="onrequest" href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Harwich/viewer/Church20communications2C2017921828/1" linktitle="available to view online" show="new">available to view online</ref>.</p></altformavail><scopecontent id="aspace_d0337e5aecfd122cbaf520e8dfe58646"><head>Scope and Contents</head><p>Included in this folder are four documents which generally represent communications and correspondence from the church. Included is a receipt, a letter by Rev. Nathan Underwood, a call to vote for church officers, and a communication to Rev. Underwood regarding his official end of pastoral duties.</p></scopecontent></c><c id="aspace_2cff94a666b942cf731d5034d9ae6462" level="item"><did><unittitle>Articles of Faith and Covenant</unittitle><unitdatestructured datechar="creation" unitdatetype="inclusive"><datesingle standarddate="1832">1832</datesingle></unitdatestructured><unitdate datechar="creation" unitdatetype="inclusive">1832</unitdate><container altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327" id="aspace_61978763d9b0845b8cc567130bb6e93e" label="Mixed Materials" localtype="box">2</container><container id="aspace_4684dd4412190fae0cdc1930d92d4e50" localtype="volume" parent="aspace_61978763d9b0845b8cc567130bb6e93e">5</container></did></c><c id="aspace_bcccb0e7b67e54d6b24ca2a7edf32235" level="file"><did><unittitle>Treasurer's report</unittitle><unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive"><daterange><fromdate standarddate="1832">1832</fromdate><todate standarddate="1838">1838</todate></daterange></unitdatestructured><unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1832-1838</unitdate><container altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327" id="aspace_727bdef4b07e8c9d6e8cf896e354d839" label="Mixed Materials" localtype="box">2</container><container id="aspace_3ee9b38098c604c7220a9cf68ba1e803" localtype="volume" parent="aspace_727bdef4b07e8c9d6e8cf896e354d839">6</container></did><scopecontent id="aspace_b978bee42213bfcbb11b86241e82550b"><head>Scope and Contents</head><p>This volume contains 30 pages of financial records dating from 1832-1855. Included within these records are the church ledger, receipts, pew numbers and prices, and lists of contributions collected.</p></scopecontent></c><c id="aspace_d47d3d33466a9aa9e40aa6f0082494d8" level="item"><did><unittitle>Harwich Sunday School class book</unittitle><unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive"><datesingle standarddate="1836">1836</datesingle></unitdatestructured><container altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327" id="aspace_1d3a994af6c77300d38daf6e66b5045c" label="Mixed Materials" localtype="box">2</container><container id="aspace_c993353f34b1961b3cc58d3db75ed808" localtype="volume" parent="aspace_1d3a994af6c77300d38daf6e66b5045c">7</container></did></c><c id="aspace_46d5986b4a349307bb39460087b0beab" level="file"><did><unittitle>Church correspondence</unittitle><unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive"><daterange><fromdate standarddate="1838">1838</fromdate><todate standarddate="1876">1876</todate></daterange></unitdatestructured><unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1838-1876</unitdate><container altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327" id="aspace_cc0646581f146bb723797e1ed079ef58" label="Mixed Materials" localtype="box">2</container><container id="aspace_6136511d3330676ccaf2250cf12a7b95" localtype="folder" parent="aspace_cc0646581f146bb723797e1ed079ef58">6</container></did></c><c id="aspace_593f7021bbd8477e750702585e9f7915" level="file"><did><unittitle>Town disturbance</unittitle><unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive"><datesingle standarddate="1863">1863</datesingle></unitdatestructured><container altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327" id="aspace_c5b585c335b26e227dc2cc590aefee39" label="Mixed Materials" localtype="box">2</container><container id="aspace_7c74f48c5440392a82b514d28146f0fa" localtype="folder" parent="aspace_c5b585c335b26e227dc2cc590aefee39">7</container></did></c><c id="aspace_c36932c8629980f4ee86ab36b6a19551" level="file"><did><unittitle>Discipline of Obed Brooks</unittitle><unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive"><daterange><fromdate standarddate="1874">1874</fromdate><todate standarddate="1875">1875</todate></daterange></unitdatestructured><unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1874-1875</unitdate><container altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327" id="aspace_725fb015ecceb5c145720946f044723a" label="Mixed Materials" localtype="box">2</container><container id="aspace_6defd134e656366eb8b0e6bc5bb508fb" localtype="folder" parent="aspace_725fb015ecceb5c145720946f044723a">8</container></did></c><c id="aspace_bb225d2f1464fbe47ed547f296339714" level="item"><did><unittitle>Manual of the Congregational Church</unittitle><unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive"><datesingle standarddate="1881">1881</datesingle></unitdatestructured><container altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327" id="aspace_1ddc9840aa1a5d2ec467c4977b9d0d41" label="Mixed Materials" localtype="box">2</container><container id="aspace_1dd17f7b85b6cb694578a77a71b38560" localtype="volume" parent="aspace_1ddc9840aa1a5d2ec467c4977b9d0d41">8</container></did></c><c id="aspace_47dd05a2d7fbfcd30f7a1b274d8897d8" level="item"><did><unittitle>Church By-laws</unittitle><unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive"><datesingle standarddate="1898">1898</datesingle></unitdatestructured><container altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327" id="aspace_79b0653bdbceeccf81f4752a38ebed99" label="Mixed Materials" localtype="box">2</container><container id="aspace_b79c5d3efbd888a58685339e3874ad82" localtype="volume" parent="aspace_79b0653bdbceeccf81f4752a38ebed99">9</container></did></c><c id="aspace_097cb4b2302d894b56d0786cddc0bdfe" level="file"><did><unittitle>Committee notes and reports</unittitle><unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive"><daterange><fromdate standarddate="1941">1941</fromdate><todate standarddate="1965">1965</todate></daterange></unitdatestructured><unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1941-1965</unitdate><container altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327" id="aspace_7313862869d819902a22208d04f474e8" label="Mixed Materials" localtype="box">2</container><container id="aspace_73afa2f6cb3d2d4c421dc1a0207bb373" localtype="folder" parent="aspace_7313862869d819902a22208d04f474e8">9</container></did></c><c id="aspace_5156223e2b7fd9c71201f319d547b5bb" level="file"><did><unittitle>Church publications</unittitle><unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive"><daterange><fromdate standarddate="1981">1981</fromdate><todate standarddate="1982">1982</todate></daterange></unitdatestructured><unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1981-1982</unitdate><container altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327" id="aspace_f0d718b70fde50fdbe26b1ecda125192" label="Mixed Materials" localtype="box">2</container><container id="aspace_34627d5a13d17f2e58100cb0c92e8c4e" localtype="folder" parent="aspace_f0d718b70fde50fdbe26b1ecda125192">10</container></did></c></c><c id="aspace_b5205d4375221e12f39131fd89f84639" level="series"><did><unittitle>Church Subscriptions</unittitle><physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied"><quantity>5</quantity><unittype>Files</unittype></physdescstructured><physdesc localtype="container_summary">(4 volumes, 1 folder)</physdesc><unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive"><daterange><fromdate standarddate="1832">1832</fromdate><todate standarddate="1857">1857</todate></daterange></unitdatestructured><unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1832-1857</unitdate></did><scopecontent id="aspace_b223265057d3105f2b3bb15835e165ce"><head>Scope and Contents</head><p>This series includes records related to church subscriptions as part of fundraising for building projects.  Included in the records are subscriptions lists and receipts.</p></scopecontent><c id="aspace_6139d7a55551d7fbc98438126989f279" level="item"><did><unittitle>Subscription receipts</unittitle><unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive"><daterange><fromdate standarddate="1832">1832</fromdate><todate standarddate="1835">1835</todate></daterange></unitdatestructured><unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1832-1835</unitdate><container altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327" id="aspace_5001bedd0f7a3d40608863c3e932a483" label="Mixed Materials" localtype="box">2</container><container id="aspace_8f2a10e9a8aad4dee2891e7ba2a3f900" localtype="volume" parent="aspace_5001bedd0f7a3d40608863c3e932a483">10</container></did><scopecontent id="aspace_8ce7aacb3b910a76f2e1f36ca3dbad2b"><head>Scope and Contents</head><p>This volume contains 55 pages of records dating from 1832-1835. Included within these records are receipts which list the date issued, the holder of the receipt, and the date that the receipts were paid off.  Also included is a list of members who had paid dues.</p></scopecontent></c><c id="aspace_4229feafed796cc32aa7912fdf268f79" level="item"><did><unittitle>Subscription receipts</unittitle><unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive"><daterange><fromdate standarddate="1832">1832</fromdate><todate standarddate="1838">1838</todate></daterange></unitdatestructured><unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1832-1838</unitdate><container altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327" id="aspace_eef74587599560152c2b270bfbf91b96" label="Mixed Materials" localtype="box">2</container><container id="aspace_a5f88c04dc2387e5f95941930c7e1563" localtype="volume" parent="aspace_eef74587599560152c2b270bfbf91b96">11</container></did><scopecontent id="aspace_f700315f4e599712ff50091acd5b4275"><head>Scope and Contents</head><p>This volume contains 32 pages of records dating from 1832-1838. Included within these records are receipts which list the date issued, the holder of the receipt, and the date that the receipts were paid off.  Also included are breif financial notes.</p></scopecontent></c><c id="aspace_47877ca63c10314cd30f9991a30ad019" level="file"><did><unittitle>List of subscriptions</unittitle><unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive"><datesingle standarddate="1836">1836</datesingle></unitdatestructured><container altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327" id="aspace_0c5d24eb822176958924f4c36e0bc415" label="Mixed Materials" localtype="box">2</container><container id="aspace_9d0cb2df08ac7539f000bf9ad08ef70c" localtype="volume" parent="aspace_0c5d24eb822176958924f4c36e0bc415">12</container></did><scopecontent id="aspace_a732274f988949dbdf14f779811a43d3"><head>Scope and Contents</head><p>This volume contains 25 pages of records dated 1836. Included within these records are a list of members not paid, additional subscription receipts, subscriptions paid by labor, and financial calculations.</p></scopecontent></c><c id="aspace_ab5b7e6f2b64dd0a89f2cad3db2cbc2d" level="file"><did><unittitle>Subscription paper</unittitle><unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive"><datesingle standarddate="1854">1854</datesingle></unitdatestructured><container altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327" id="aspace_26f08dead8d9ada7709be0eae17a34a5" label="Mixed Materials" localtype="box">2</container><container id="aspace_ba1f458d1b898637ace802afb2269926" localtype="folder" parent="aspace_26f08dead8d9ada7709be0eae17a34a5">11</container></did></c><c id="aspace_040e05a6ab3e4b10dacfd2ee987b0d20" level="file"><did><unittitle>Subscriptions: Remodeling of the Church</unittitle><unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive"><daterange><fromdate standarddate="1855">1855</fromdate><todate standarddate="1857">1857</todate></daterange></unitdatestructured><unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1855-1857</unitdate><container altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327" id="aspace_14b90a719d7a512b9b6f6a23633b3e55" label="Mixed Materials" localtype="box">2</container><container id="aspace_8eab8355ba7d7da5260b1eca03129508" localtype="volume" parent="aspace_14b90a719d7a512b9b6f6a23633b3e55">13</container></did></c></c><c id="aspace_c90a929136b817ce8009cb8b0093c94e" level="series"><did><unittitle>Rev. George Y. Washburn Manuscript</unittitle><physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied"><quantity>6</quantity><unittype>Folders</unittype></physdescstructured><unitdatestructured calendar="gregorian" certainty="approximate" datechar="creation" unitdatetype="inclusive"><daterange><fromdate standarddate="1897">1897</fromdate><todate standarddate="1972">1972</todate></daterange></unitdatestructured><unitdate calendar="gregorian" certainty="approximate" datechar="creation" unitdatetype="inclusive">circa 1897, 1972</unitdate></did><scopecontent id="aspace_1bf40c042087b0f954cba06240b2ccee"><head>Scope and Contents</head><p>This series includes the a manuscript written by the Rev. George Y. Washburn on the occasion of the 150th anniversary of the First Congregational Church which covers the history of Harwich and the church.  Also included in the materials are Washburn's collected notes and contemporary summaries of Washburn's work made in preparation for the 225th anniversary of the church.</p></scopecontent><c id="aspace_137a391fd6002cf7aff52c9bdad15a4a" level="file"><did><unittitle>Washburn manuscript</unittitle><unitdatestructured calendar="gregorian" certainty="approximate" datechar="creation" unitdatetype="inclusive"><datesingle standarddate="1897">circa 1897</datesingle></unitdatestructured><container altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327" id="aspace_230078a3da1099220b3aeaf5d0caaa0d" label="Mixed Materials" localtype="box">2</container><container id="aspace_a2ed9ae22d5aa597ff600501d0aee442" localtype="folder" parent="aspace_230078a3da1099220b3aeaf5d0caaa0d">12</container></did></c><c id="aspace_422f542710a6f0f820c36b55fd5ec0db" level="file"><did><unittitle>Washburn summaries</unittitle><unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive"><datesingle standarddate="1972">1972</datesingle></unitdatestructured><container altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327" id="aspace_abda19e7c8054e321a47830f6a0e5afd" label="Mixed Materials" localtype="box">2</container><container id="aspace_1b73e84fac2feb9805bdf58c48ee09c7" localtype="folder" parent="aspace_abda19e7c8054e321a47830f6a0e5afd">13</container></did></c><c id="aspace_cb32c92d2b6c570b03639290d657f58e" level="file"><did><unittitle>Washburn notes I</unittitle><unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">undated</unitdate><container altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327" id="aspace_a3013a697c5ebaa401aa7b6d6bd0179a" label="Mixed Materials" localtype="box">2</container><container id="aspace_b62d32af988d0c9b4b1ac022adbf0c9e" localtype="folder" parent="aspace_a3013a697c5ebaa401aa7b6d6bd0179a">14</container></did></c><c id="aspace_673b94d3724c89c868598bd110ffaff6" level="file"><did><unittitle>Washburn notes II</unittitle><unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">undated</unitdate><container altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327" id="aspace_0b8b43b2e7458eb03dc6887efc6280d2" label="Mixed Materials" localtype="box">2</container><container id="aspace_3e324a4df7027c7119642cf67d2d7f0f" localtype="folder" parent="aspace_0b8b43b2e7458eb03dc6887efc6280d2">15</container></did></c><c id="aspace_a032c1ed2302e5657d6a3d4c8e5c838a" level="file"><did><unittitle>Washburn notes III</unittitle><unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">undated</unitdate><container altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327" id="aspace_0dafa4cc97aba8dbe5c474502ea203dc" label="Mixed Materials" localtype="box">2</container><container id="aspace_761a59f545d1ddfc238206f8cd2eb1a7" localtype="folder" parent="aspace_0dafa4cc97aba8dbe5c474502ea203dc">16</container></did></c><c id="aspace_9f880fb4cb9d6b966fe61a0c9af8f1b9" level="file"><did><unittitle>Washburn notes IV</unittitle><unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">undated</unitdate><container altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327" id="aspace_549cbcc7d1da6099c7bf730e56f9f8b8" label="Mixed Materials" localtype="box">2</container><container id="aspace_5162bb80669d2d8521f9722d16585928" localtype="folder" parent="aspace_549cbcc7d1da6099c7bf730e56f9f8b8">17</container></did></c></c><c id="aspace_a4362f25fc6608f064f428f55f04c14f" level="series"><did><unittitle>Microfilm</unittitle><physdescstructured coverage="whole" physdescstructuredtype="materialtype"><quantity>2</quantity><unittype>Reels</unittype></physdescstructured><unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive"><datesingle standarddate="1981">1981</datesingle></unitdatestructured></did><scopecontent id="aspace_ecfcee1628c3e049b15f0880fbb6987a"><head>Scope and Contents</head><p>Included in this series are two reels of microfilmed copies of church and parish records.</p></scopecontent><originalsloc id="aspace_996cf6450fea94009d2114ef093151cf"><head>Existence and Location of Originals</head><p>Originals of microfilmed records can be found within this collection.</p></originalsloc><c id="aspace_8c32916bf98c8172b97475d6a83632e9" level="item"><did><unittitle>Records of the First Congregational Church of Harwich</unittitle><unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive"><datesingle standarddate="1981">1981</datesingle></unitdatestructured><container id="aspace_cf9de6dd4b9c331525922c4f7ea58fb5" label="Microform" localtype="box">H2</container><container id="aspace_4da10350f160cf33de78818266ef4403" localtype="reel" parent="aspace_cf9de6dd4b9c331525922c4f7ea58fb5">1</container></did><scopecontent id="aspace_d9b13c9b455189f4ca323cac40f4711f"><head>Index</head><list listtype="ordered" numeration="decimal">
-<item>Original Deed</item>
-<item>Records: 1745-1899</item>
-<item>Ministers Record: 1792</item>
-<item>Records: 1792-1855</item>
-<item>Ministers Records: 1832-1855</item>
-<item>Church &amp; Parish Meetings: 1855-1899</item>
-<item>Records: 1940-1966</item>
-</list></scopecontent></c><c id="aspace_2fe3852052ec34e26898d359b505092d" level="item"><did><unittitle>Records of the First Congregational Church of Harwich</unittitle><unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive"><datesingle standarddate="1981">1981</datesingle></unitdatestructured><container id="aspace_7e5c4676f6acdf951b79474f6b275165" label="Microform" localtype="box">H2</container><container id="aspace_e830338237d7f1d0350c5f614e8309de" localtype="reel" parent="aspace_7e5c4676f6acdf951b79474f6b275165">2</container></did><scopecontent id="aspace_c04af36965a881575ce19ce6f1a8f60e"><head>Index</head><list listtype="ordered" numeration="decimal">
-<item>Records: 1966-1975</item>
-<item>Washburn papers</item>
-<item>Benjamin Smalley and Sam Nickerson Petition to Gen. Court</item>
-<item>Articles of Faith: 1840</item>
-<item>Manual: 1887</item>
-<item>Subscriptions: 1832, 1855-1857</item>
-<item>Church by-laws: 1898</item>
-<item>Christian Endeavor</item>
-</list></scopecontent></c></c></dsc>
-</archdesc>
+      <corpname identifier="n83002084" source="lcnaf">
+        <part>Harwich (Mass.) -- Church history.</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="series">
+        <did>
+          <unittitle>Church and Society records</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="materialtype">
+            <quantity>16</quantity>
+            <unittype>Volumes</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1745">1745</fromdate>
+              <todate standarddate="1974">1974</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1745-1974</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series includes the records or the church and parish as well as records of
+            societies attached to the church. Included within the records are meeting minutes,
+            baptismal records, marriage records, committee reports, financial documents, annual
+            reports, and historical notes.</p>
+        </scopecontent>
+        <c level="item">
+          <did>
+            <unittitle>Parish records</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1746">1746</fromdate>
+                <todate standarddate="1792">1792</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1746-1792</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">1</container>
+          </did>
+          <phystech>
+            <head>Physical Access</head>
+            <p>These records are unavailable for patron use due to fragility. Use the 19th century
+              copy of these records. Contact the archivist for special permission to view the
+              originals.</p>
+          </phystech>
+          <altformavail>
+            <head>Location of Copies</head>
+            <p>These records were transcribed and edited by Obed Brooks and made the first part of
+              the Records of the First Parish, 1745-1899.</p>
+          </altformavail>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Proprietors' records</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1791">1791</fromdate>
+                <todate standarddate="1793">1793</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1791-1793</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">2</container>
+          </did>
+          <scopecontent>
+            <head>Scope and Contents</head>
+            <p>The Proprietors' Records include meeting minutes, financial records, receipts, pew
+              deeds, treasurer reports, and the church ledger for the years 1791-1793.</p>
+          </scopecontent>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Church records volume 1</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1792">1792</fromdate>
+                <todate standarddate="1835">1835</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1792-1835</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">3</container>
+          </did>
+          <scopecontent>
+            <head>Scope and Contents</head>
+            <p>This record book contains church records dating from 1792-1835. Included within these
+              records are the Church Covenant, church proceedings, lists of admitted members, lists
+              of members received from other churches, lists of members removed to other churches,
+              baptismal records, dates for the administration of the supper, and marriage
+              records.</p>
+          </scopecontent>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Church records volume 2</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1792">1792</fromdate>
+                <todate standarddate="1857">1857</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1792-1857</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">4</container>
+          </did>
+          <scopecontent>
+            <head>Scope and Contents</head>
+            <p>This record book contains parish records dating from 1792-1857. Included within these
+              records are the minutes of church and parish meetings, minutes of government meetings,
+              legal calls of assembly, and financial records.</p>
+          </scopecontent>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Records of the First Parish</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1745">1745</fromdate>
+                <todate standarddate="1899">1899</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1745-1899</unitdate>
+            <unitdatestructured calendar="gregorian" datechar="record_keeping"
+              unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1830">1830</fromdate>
+                <todate standarddate="1899">1899</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="record_keeping" unitdatetype="inclusive"
+              >1830-1899</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+          </did>
+          <scopecontent>
+            <head>Scope and Contents</head>
+            <p>This record book contains the records of the First Parish from 1745-1899. The records
+              dating from 1745-1803 are handwritten transcribed copies of the original oldest
+              records of the church. They were transcribed by Obed Brooks who also edited and
+              annotated the records. The Congregational Library &amp; Archives holds an incomplete
+              collection of those original documents which are now considered too fragile to handle.
+              All records in the book from 1830-1899 were original. Included within these records
+              are the minutes of church and parish meetings, minutes of precinct meetings, legal
+              calls of assembly, church correspondence, the original members list, and treasurer
+              accounts.</p>
+          </scopecontent>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Minister's records</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1832">1832</fromdate>
+                <todate standarddate="1855">1855</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1832-1855</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">5</container>
+          </did>
+          <scopecontent>
+            <head>Scope and Contents</head>
+            <p>This record book contains parish records dating from 1832-1855. Included within these
+              records are building dedications, the form of the first covenant, the Confession of
+              Faith, the Church Covenant, the Confession of Faith and Covenant, records of church
+              business, admissions lists, baptismal records, lists of dismissions, church by-laws,
+              records pertaining to the organization of the church, marriage records, church meeting
+              minutes, lists of deaths and funerals, lists of subscribers, and membership lists.</p>
+          </scopecontent>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Church and Parish meetings</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1855">1855</fromdate>
+                <todate standarddate="1899">1899</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1855-1899</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">6</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Young Peoples' Society records</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1887">1887</fromdate>
+                <todate standarddate="1895">1895</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1887-1895</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">7</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Records of the First Congregational Church of Harwich</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1900">1900</fromdate>
+                <todate standarddate="1940">1940</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1900-1940</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">8</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Records of the First Congregational Church of Harwich</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1941">1941</fromdate>
+                <todate standarddate="1954">1954</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1941-1954</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">9</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Records of the First Congregational Church of Harwich</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1956">1956</fromdate>
+                <todate standarddate="1960">1960</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1956-1960</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">10</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Records of the First Congregational Church of Harwich</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1961">1961</fromdate>
+                <todate standarddate="1962">1962</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1961-1962</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">11</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Records of the First Congregational Church of Harwich</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1963">1963</fromdate>
+                <todate standarddate="1964">1964</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1963-1964</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="volume">1</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Records of the First Congregational Church of Harwich</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1965">1965</fromdate>
+                <todate standarddate="1966">1966</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1965-1966</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="volume">2</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Records of the First Congregational Church of Harwich</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1966">1966</fromdate>
+                <todate standarddate="1971">1971</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1966-1971</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="volume">3</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Records of the First Congregational Church of Harwich</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1971">1971</fromdate>
+                <todate standarddate="1974">1974</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1971-1974</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="volume">4</container>
+          </did>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unittitle>Administrative records</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>15</quantity>
+            <unittype>Files</unittype>
+          </physdescstructured>
+          <physdesc localtype="container_summary">(5 volumes, 10 folders)</physdesc>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1726">1726</fromdate>
+              <todate standarddate="1982">1982</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1726-1982</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series includes records related to the administration and functions of the First
+            Congregational Church. Included in the records are legal documents such as land deeds
+            and calls of assembly, correspondence, reports of the treasurer and committees, and
+            church publications.</p>
+        </scopecontent>
+        <c level="file">
+          <did>
+            <unittitle>Deed of land</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1726">1726</fromdate>
+                <todate standarddate="1727">1727</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1726-1727</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">1</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Church register</unittitle>
+            <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+              <quantity>2</quantity>
+              <unittype>Items</unittype>
+            </physdescstructured>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1746">1746</fromdate>
+                <todate standarddate="1747">1747</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1746-1747</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">2</container>
+          </did>
+          <scopecontent>
+            <head>Scope and Contents</head>
+            <p>This folder includes two documents which cover the founding of the First
+              Congregational Church of Harwich in the newly established South Parish. Included in
+              the documents is a list of the founding members of the church and a copy of the
+              petition to the Massachusetts General Court which resulted in the formation of the
+              South Parish.</p>
+          </scopecontent>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Draft deed, 1747</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1747">1747</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">18</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Sale of land</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1748">1748</datesingle>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1748</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">3</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Calls to assembly</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1789">1789</fromdate>
+                <todate standarddate="1796">1796</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1789-1796</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">4</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Church communications</unittitle>
+            <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+              <quantity>4</quantity>
+              <unittype>Items</unittype>
+            </physdescstructured>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1792">1792</fromdate>
+                <todate standarddate="1828">1828</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1792-1828</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">5</container>
+          </did>
+          <altformavail>
+            <head>Digital Copies</head>
+            <p>These church records were digitized as part of the New England's Hidden Histories
+              project. Digital reproductions are <ref actuate="onrequest"
+                href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/Harwich/viewer/Church20communications2C2017921828/1"
+                linktitle="available to view online" show="new">available to view online</ref>.</p>
+          </altformavail>
+          <scopecontent>
+            <head>Scope and Contents</head>
+            <p>Included in this folder are four documents which generally represent communications
+              and correspondence from the church. Included is a receipt, a letter by Rev. Nathan
+              Underwood, a call to vote for church officers, and a communication to Rev. Underwood
+              regarding his official end of pastoral duties.</p>
+          </scopecontent>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Articles of Faith and Covenant</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1832">1832</datesingle>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1832</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="volume">5</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Treasurer's report</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1832">1832</fromdate>
+                <todate standarddate="1838">1838</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1832-1838</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="volume">6</container>
+          </did>
+          <scopecontent>
+            <head>Scope and Contents</head>
+            <p>This volume contains 30 pages of financial records dating from 1832-1855. Included
+              within these records are the church ledger, receipts, pew numbers and prices, and
+              lists of contributions collected.</p>
+          </scopecontent>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Harwich Sunday School class book</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1836">1836</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="volume">7</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Church correspondence</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1838">1838</fromdate>
+                <todate standarddate="1876">1876</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1838-1876</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">6</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Town disturbance</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1863">1863</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">7</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Discipline of Obed Brooks</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1874">1874</fromdate>
+                <todate standarddate="1875">1875</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1874-1875</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">8</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Manual of the Congregational Church</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1881">1881</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="volume">8</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Church By-laws</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1898">1898</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="volume">9</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Committee notes and reports</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1941">1941</fromdate>
+                <todate standarddate="1965">1965</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1941-1965</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">9</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Church publications</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1981">1981</fromdate>
+                <todate standarddate="1982">1982</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1981-1982</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">10</container>
+          </did>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unittitle>Church Subscriptions</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>5</quantity>
+            <unittype>Files</unittype>
+          </physdescstructured>
+          <physdesc localtype="container_summary">(4 volumes, 1 folder)</physdesc>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1832">1832</fromdate>
+              <todate standarddate="1857">1857</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1832-1857</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series includes records related to church subscriptions as part of fundraising for
+            building projects. Included in the records are subscriptions lists and receipts.</p>
+        </scopecontent>
+        <c level="item">
+          <did>
+            <unittitle>Subscription receipts</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1832">1832</fromdate>
+                <todate standarddate="1835">1835</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1832-1835</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="volume">10</container>
+          </did>
+          <scopecontent>
+            <head>Scope and Contents</head>
+            <p>This volume contains 55 pages of records dating from 1832-1835. Included within these
+              records are receipts which list the date issued, the holder of the receipt, and the
+              date that the receipts were paid off. Also included is a list of members who had paid
+              dues.</p>
+          </scopecontent>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Subscription receipts</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1832">1832</fromdate>
+                <todate standarddate="1838">1838</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1832-1838</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="volume">11</container>
+          </did>
+          <scopecontent>
+            <head>Scope and Contents</head>
+            <p>This volume contains 32 pages of records dating from 1832-1838. Included within these
+              records are receipts which list the date issued, the holder of the receipt, and the
+              date that the receipts were paid off. Also included are breif financial notes.</p>
+          </scopecontent>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>List of subscriptions</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1836">1836</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="volume">12</container>
+          </did>
+          <scopecontent>
+            <head>Scope and Contents</head>
+            <p>This volume contains 25 pages of records dated 1836. Included within these records
+              are a list of members not paid, additional subscription receipts, subscriptions paid
+              by labor, and financial calculations.</p>
+          </scopecontent>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Subscription paper</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1854">1854</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">11</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Subscriptions: Remodeling of the Church</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1855">1855</fromdate>
+                <todate standarddate="1857">1857</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1855-1857</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="volume">13</container>
+          </did>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unittitle>Rev. George Y. Washburn Manuscript</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>6</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" certainty="approximate" datechar="creation"
+            unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1897">1897</fromdate>
+              <todate standarddate="1972">1972</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" certainty="approximate" datechar="creation"
+            unitdatetype="inclusive">circa 1897, 1972</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series includes the a manuscript written by the Rev. George Y. Washburn on the
+            occasion of the 150th anniversary of the First Congregational Church which covers the
+            history of Harwich and the church. Also included in the materials are Washburn's
+            collected notes and contemporary summaries of Washburn's work made in preparation for
+            the 225th anniversary of the church.</p>
+        </scopecontent>
+        <c level="file">
+          <did>
+            <unittitle>Washburn manuscript</unittitle>
+            <unitdatestructured calendar="gregorian" certainty="approximate" datechar="creation"
+              unitdatetype="inclusive">
+              <datesingle standarddate="1897">circa 1897</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">12</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Washburn summaries</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1972">1972</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">13</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Washburn notes I</unittitle>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >undated</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">14</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Washburn notes II</unittitle>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >undated</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">15</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Washburn notes III</unittitle>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >undated</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">16</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Washburn notes IV</unittitle>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >undated</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">17</container>
+          </did>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unittitle>Microfilm</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="materialtype">
+            <quantity>2</quantity>
+            <unittype>Reels</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1981">1981</datesingle>
+          </unitdatestructured>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>Included in this series are two reels of microfilmed copies of church and parish
+            records.</p>
+        </scopecontent>
+        <originalsloc>
+          <head>Existence and Location of Originals</head>
+          <p>Originals of microfilmed records can be found within this collection.</p>
+        </originalsloc>
+        <c level="item">
+          <did>
+            <unittitle>Records of the First Congregational Church of Harwich</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1981">1981</datesingle>
+            </unitdatestructured>
+            <container label="Microform" localtype="box">H2</container>
+            <container localtype="reel">1</container>
+          </did>
+          <scopecontent>
+            <head>Index</head>
+            <list listtype="ordered" numeration="decimal">
+              <item>Original Deed</item>
+              <item>Records: 1745-1899</item>
+              <item>Ministers Record: 1792</item>
+              <item>Records: 1792-1855</item>
+              <item>Ministers Records: 1832-1855</item>
+              <item>Church &amp; Parish Meetings: 1855-1899</item>
+              <item>Records: 1940-1966</item>
+            </list>
+          </scopecontent>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Records of the First Congregational Church of Harwich</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1981">1981</datesingle>
+            </unitdatestructured>
+            <container label="Microform" localtype="box">H2</container>
+            <container localtype="reel">2</container>
+          </did>
+          <scopecontent>
+            <head>Index</head>
+            <list listtype="ordered" numeration="decimal">
+              <item>Records: 1966-1975</item>
+              <item>Washburn papers</item>
+              <item>Benjamin Smalley and Sam Nickerson Petition to Gen. Court</item>
+              <item>Articles of Faith: 1840</item>
+              <item>Manual: 1887</item>
+              <item>Subscriptions: 1832, 1855-1857</item>
+              <item>Church by-laws: 1898</item>
+              <item>Christian Endeavor</item>
+            </list>
+          </scopecontent>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
 </ead>
