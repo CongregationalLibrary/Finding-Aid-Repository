@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="http://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/HillsboroughNHCenter-5439.xml"
+      >HillsboroughNHCenter-5439</recordid>
+    <representation localtype="pdf" href="https://www.congregationallibrary.org/sites/all/files/HillsboroughNHCenter-5439.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Hillsborough, N.H. Hillsborough Center Congregational Society records,
+          1840-2022.</titleproper>
+        <author>Karen Clausen-Brown</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <num>RG5439</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2022-12-07T20:36:24+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday December 7,
+          2022 at 20:36</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Hillsborough, N.H. Hillsborough Center Congregational Society records,
+        1840-2022.</unittitle>
+      <unitid>RG5439</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>0.70</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">2 boxes</physdesc>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1840">1840</fromdate>
+          <todate standarddate="2022">2022</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1840-2022</unitdate>
+      <abstract>The Congregational Society in Hillsborough, New Hampshire, was first organized and
+        began convening in its first meeting house in 1769. Over the next two decades, the society
+        constructed two more meeting houses. Its third meeting house served the community until
+        1839, when a group of church members withdrew to form their own congregation and build their
+        own meeting house, a fourth, in Bridge Village. After the split in the community and the
+        construction of the fourth Bridge Village meeting house in 1839, the third meeting house
+        ceased to serve as a house of worship and was finally abandoned in 1874. Efforts were
+        underway in the late 1880s and early 1890s to restore the third building, but it burned down
+        in a fire in 1892. After the fire, the efforts that had been directed at restoring the third
+        building were redirected instead into the construction of a new fifth church building, which
+        was ultimately dedicated in 1893. This fifth building served the Congregational Society
+        until the 1920s, when its doors closed. In 1935, though, some community members spearheaded
+        an effort to reopen the church for summer services. The society continues to this day to
+        hold Sunday services during the summer. This collection contains records of the society,
+        including vital records, financial records, building records, cemetery records, records of
+        meetings and events, records of the Junior Society of Christian Endeavor, pulpit supply
+        records, orders of worship, incorporation documents, and correspondence.</abstract>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">
+          <part>Hillsborough Center Congregational Society (Hillsborough, N.H.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Hillsborough, N.H. Hillsborough Center Congregational
+        Society records, 1840-2022, RG5439. The Congregational Library &amp; Archives, Boston,
+        MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by the Hillsborough
+        Center Congregational Society in October, 2022; Accession 2022-22. An additional two
+        manuscripts, one a confession of faith and covenant and one a confession of faith, were
+        transferred from the library into this collection in November, 2022; Accession 2022-24.</p>
+    </acqinfo>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Processed by Karen Clausen-Brown in 2022, using DACS 2019.0.3.</p>
+    </processinfo>
+    <bioghist>
+      <head>Biographical / Historical</head>
+      <p>The Congregational Society in Hillsborough, New Hampshire, was first organized and began
+        convening in its first meeting house in 1769. On November 24, 1772, the town appointed the
+        Rev. Jonathan Barns to take oversight over the church's meetings in the town, and several
+        months later, on May 25, 1773, the annual town meeting called for the erection of a second
+        meeting house. That construction was completed around 1779 on a hill southeast of the
+        Hillsborough town center, which came to be known as "Meeting House Hill." When the
+        congregation outgrew that building, they constructed a third, larger meeting house. The
+        building of the third meeting house began in 1789 and was finished in about three years. The
+        Rev. Jonathan Barnes continued to serve as minister for the congregation until 1803, when he
+        was struck by lightning while horseback riding. He died as a result of his accident in
+        1805.</p>
+      <p>The third meeting house served the community until 1839, when a group of church members
+        withdrew to form their own congregation and build their own meeting house, a fourth, in
+        Bridge Village, closer to where those members were living. That community initially called
+        itself the Hillsborough Bridge Village Congregational Church but eventually adopted the name
+        Smith Memorial Congregational Church, after Governor John B. Smith, who contributed funds to
+        the building's renovation in 1909. Smith Memorial continues to meet today and is presently
+        affiliated with the United Church of Christ.</p>
+      <p>After the split in the church community and the construction of the fourth Bridge Village
+        meeting house in 1839, the "Old Meeting House" (the third) ceased to serve as a house of
+        worship and instead became a town house used primarily for community meetings. The building
+        then became a house of worship for a local Methodist congregation, and it was finally
+        abandoned in 1874. Efforts were underway in the late 1880s and early 1890s to restore the
+        building, but it burned down in a fire in 1892.</p>
+      <p>After the fire, the efforts that had been directed at restoring the third building were
+        redirected instead into the construction of a new fifth church building. That building was
+        dedicated on August 15, 1893. Records from 1897 to 1909 indicate that this church hosted an
+        active Junior Society of Christian Endeavor for its youth. This fifth building served the
+        Congregational Society until the 1920s, when its doors closed. In 1935, though, some
+        community members expressed a desire for the church to reopen, and repairs on the building
+        were undertaken and it was reopened for summer services.</p>
+      <p>In 1968, the Hillsborough Center Congregational Society was incorporated, and it celebrated
+        its bicentennial in 1969. The society continues to this day to hold Sunday services during
+        the summer, relying on supply ministers from throughout the Northeastern United States. The
+        society has been maintained by a group of church officers including a clerk, treasurer,
+        pulpit supply chairperson, building and grounds chairperson, flower chairperson, and
+        cemetery chairperson.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains records of the activities and members of the Hillsborough Center
+        Congregational Society, including vital records, financial records, building records,
+        cemetery records, records of meetings and events, records of the Junior Society of Christian
+        Endeavor, pulpit supply records, orders of worship, incorporation documents, and
+        correspondence.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>Materials have been arranged primarily in chronological order by start date, and
+        secondarily by topic.</p>
+    </arrangement>
+    <bibliography>
+      <head>Bibliography</head>
+      <p>Browne, George Waldo. <emph render="italic">The History of Hillsborough, New Hampshire,
+          1735-1921</emph>. Vol. 1, <emph render="italic">History and Description</emph>.
+        Manchester, N.H.: John B. Clarke Company, Printers, 1921. T H55.7 B</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025591" source="lcsh">
+        <part>Church correspondence.</part>
+      </subject>
+      <subject identifier="sh85025606" source="lcsh">
+        <part>Church finance.</part>
+      </subject>
+      <subject identifier="sh85025619" source="lcsh">
+        <part>Church history.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85033612" source="lcsh">
+        <part>Covenants (Church polity).</part>
+      </subject>
+      <subject identifier="sh85033885" source="lcsh">
+        <part>Creeds.</part>
+      </subject>
+      <subject identifier="sh87001646" source="lcsh">
+        <part>Interim clergy.</part>
+      </subject>
+      <subject identifier="sh85075742" source="lcsh">
+        <part>Legal documents.</part>
+      </subject>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <subject identifier="sh85090572" source="lcsh">
+        <part>Necrologies.</part>
+      </subject>
+      <subject identifier="sh85025615" source="lcsh">
+        <part>Church group work with youth.</part>
+      </subject>
+      <subject identifier="sh85021756" source="lcsh">
+        <part>Cemeteries.</part>
+      </subject>
+      <subject identifier="sh85025580" source="lcsh">
+        <part>Church bulletins.</part>
+      </subject>
+    </controlaccess>
+    <dsc>
+      <c level="file">
+        <did>
+          <unittitle>Confessions, covenant, and manual</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1840">1840</fromdate>
+              <todate standarddate="1894">1894</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1840-1894,
+            undated</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">1</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Financial records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1880">1880</fromdate>
+              <todate standarddate="2014">2014</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1880-2014</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">2</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Events, memorials, and meetings</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1888">1888</fromdate>
+              <todate standarddate="2013">2013</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1888-2013</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">3</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Church histories</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1890">1890</fromdate>
+              <todate standarddate="2009">2009</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1890-2009</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">4</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Pilgrim Church Register and Record</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1893">1893</fromdate>
+              <todate standarddate="1928">1928</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1893-1928</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">1</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Membership records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1894">1894</fromdate>
+              <todate standarddate="2019">2019</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1894-2019</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">5</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Junior Society of Christian Endeavor</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1897">1897</fromdate>
+              <todate standarddate="1909">1909</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1897-1909</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">6</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Reports for Congregational Year Book</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1918">1918</fromdate>
+              <todate standarddate="1923">1923</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1918-1923</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">7</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Building and facilities</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1936">1936</fromdate>
+              <todate standarddate="1994">1994</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1936-1994</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">1</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Pulpit supply records and correspondence</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1940">1940</fromdate>
+              <todate standarddate="1972">1972</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1940-1972</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">2</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Pulpit supply records and correspondence</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1973">1973</fromdate>
+              <todate standarddate="2019">2019</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1973-2019</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">3</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Budgets and treasurer's reports</unittitle>
+          <unitdatestructured calendar="gregorian" certainty="approximate" datechar="creation"
+            unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1940">1940</fromdate>
+              <todate standarddate="1986">1986</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" certainty="approximate" datechar="creation"
+            unitdatetype="inclusive">circa 1940-1986</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">4</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Cemetery committee and cemetery records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1955">1955</fromdate>
+              <todate standarddate="1995">1995</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1955-1995</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">5</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Orders of worship and Sunday services</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1957">1957</fromdate>
+              <todate standarddate="2015">2015</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1957-2015</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">6</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Annual Meeting and Special Meeting records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1963">1963</fromdate>
+              <todate standarddate="2018">2018</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1963-2018</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">7</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Summer preaching cards</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1965">1965</fromdate>
+              <todate standarddate="2022">2022</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1965-2022</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">8</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Correspondence</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1966">1966</fromdate>
+              <todate standarddate="2012">2012</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1966-2012, undated</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">9</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Incorporation documents</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1968">1968</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">10</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Nominating committee and officers</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1981">1981</fromdate>
+              <todate standarddate="2017">2017</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1981-2017</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">11</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Newspaper clippings</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1981">1981</fromdate>
+              <todate standarddate="1983">1983</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1981-1983</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">12</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Hymnal donation records</unittitle>
+          <unitdatestructured calendar="gregorian" certainty="approximate" datechar="creation"
+            unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1985">1985</fromdate>
+              <todate standarddate="1999">1999</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" certainty="approximate" datechar="creation"
+            unitdatetype="inclusive">1985-circa 1999</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">13</container>
+        </did>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
