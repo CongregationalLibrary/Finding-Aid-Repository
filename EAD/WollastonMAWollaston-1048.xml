@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/WollastonMAWollaston-1048.xml"
+      >WollastonMAWollaston-1048</recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/all/files/WollastonMAWollaston-1048.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Wollaston, Quincy, Mass. Wollaston Congregational Church records,
+          1874-1968.</titleproper>
+        <author>G McFarland</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2023-03-01</date>
+        <num>RG1048</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2023-03-15T12:40:53+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday March 15,
+          2023 at 12:40</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Wollaston, Quincy, Mass. Wollaston Congregational Church records,
+        1874-1968.</unittitle>
+      <unitid>RG1048</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>1.44</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(2 boxes)</physdesc>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1874">1874</fromdate>
+          <todate standarddate="1968">1968</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1874-1968</unitdate>
+      <abstract>On September 23, 1874, a meeting was called for the organization of a Congregational
+        church in Wollaston, Quincy, Massachusetts. The resulting Wollaston Congregational Society
+        met in local churches and member residences until the completion of the first meeting house,
+        which was erected in 1875 and dedicated in 1876. Wollaston Congregational Church was
+        officially incorporated on November 15, 1898. Construction on a replacement for the first
+        meeting house ended with a dedication on March 28 1926. Wollaston Congregational Church
+        voted to join the United Church of Christ on January 29, 1960 and is still active today.
+        This collection contains the earliest records of Wollaston Congregational Church and its
+        auxiliary groups and includes financial records, membership lists, meeting minutes, reports,
+        and correspondence. A church history, produced as a scrapbook in 1951, documents the first
+        75 years of the church.</abstract>
+      <origination label="Creator">
+        <corpname identifier="n98074199" source="lcnaf">
+          <part>Wollaston Congregational Church (Wollaston, Quincy, Mass.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head> Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U. S. Copyright Law. It is the responsibility of
+        the researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Wollaston, Quincy, Mass. Wollaston Congregational Church
+        records, 1874-1968, RG1048. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by Wollaston
+        Congregational Church (Wollaston, Quincy, Mass.) in February 1962.</p>
+    </acqinfo>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Processed by G McFarland, March 2023, using DACS Second Edition.</p>
+    </processinfo>
+    <bioghist>
+      <head>Biographical / Historical</head>
+      <p>The land that is modern Quincy, Massachusetts is the seasonal, ancestral home of the
+        Mosetwut tribe and historic seat of leader Sac'hem Chickataubut. The ancestors of the
+        Mosetwut tribe and Pokapoag people inhabited the future site of the town before and during
+        the first recording of the colonization of the area on September 30, 1621 under Captain
+        Myles Standish of the Plymouth Colony. Quincy's present-day neighborhood of Wollaston
+        paralleled colonial expansion in the area and developed as a European settlement after
+        Thomas Morton, Captain Richard Wollaston, and a group of colonists parted with the Plymouth
+        Colony as early as 1624.</p>
+      <p>On September 23, 1874, a meeting was called for the organization of a Congregational church
+        in Wollaston, Quincy, Massachusetts. The resulting Wollaston Congregational Society met in
+        local churches and member residences until the completion of the first meeting house, which
+        was erected in 1875 and dedicated in 1876. Reverend Francis N. Zabriskee, D.D., acted as
+        first regular pastor. The church was constructed on the corner lot between Lincoln Avenue
+        and Winthrop Avenue in Quincy, Massachusetts in the neighborhood then known as Wollaston
+        Heights. Specifications for the wooden Gothic Revival were made by architect Samuel D. Kelly
+        of Boston with J.D. Rollins and D. R. Edgerton of Edgarton &amp; Rollins contracted to
+        complete the building on or before January 1, 1876. Wollaston Congregational Church was
+        incorporated on November 15, 1898, effectively dissolving the Wollaston Congregational
+        Society.</p>
+      <p>The Wollaston Congregational Church an acquired additional, neighboring property in 1900. A
+        new parish house was built and dedicated on November 14, 1915. Discussions regarding the
+        potential of a new meeting house arose in 1923 to accommodate increased membership. The
+        eventual construction of a new meeting house began in 1925. The corner stone was laid on
+        June 14 of the same year, and the building was dedicated on March 28, 1926.</p>
+      <p>The Wollaston Congregational Church maintained several auxiliary groups throughout its
+        history. A meeting was held on February 17, 1875 for the organization Ladies Benevolent
+        Society. The society outlined its constitution and bylaws on February 26, 1875. The
+        Auxiliary to the Women's Board of Missions was organized in 1887 and merged with the Ladies
+        Benevolent Society in May 1918 to form the Women's Union. Also included is the
+        Congregational Men's Club, which was started in 1906 and renamed the Chester I. Campbell
+        Men's Club in 1933.</p>
+      <p>Wollaston Congregational Church voted to join the United Church of Christ on January 29,
+        1960 and is still active today.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains the records, correspondence, and programs related to the gathering
+        and construction of Wollaston Congregational Church of Quincy, Massachusetts since its
+        initial organization in 1874. Included within the records are the administrative and society
+        meeting minutes and reports, financial records, and membership lists of the church. The
+        records also document the formation and mission of the church's auxiliary groups such as the
+        Ladies Benevolent Society, Wollaston Auxiliary, and Woman's Union through meeting minutes
+        and personal correspondence. A scrapbook on the history of the first 75 years of the church,
+        which includes photographs from the early twentieth century and a drawing from memory of the
+        original meeting house, further contextualizes the materials.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>The collection is arranged into two series. Records in each series and subseries have been
+        primarily arranged chronologically by start date, and secondarily by topic.</p>
+    </arrangement>
+    <bibliography>
+      <head>Bibliography</head>
+      <p>Edwards, William Churchill. Historic Quincy, Massachusetts. 1st ed. Quincy: City of Quincy,
+        1957.</p>
+      <p>"We Are the Descendants." The Massachusett Tribe at Ponkapoag. The Massachusett Tribe at
+        Ponkapoag, 2023. https://massachusetttribe.org/.</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85025584" source="lcsh">
+        <part>Church charities.</part>
+      </subject>
+      <subject identifier="sh85025591" source="lcsh">
+        <part>Church correspondence.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85025854" source="lcsh">
+        <part>Church buildings.</part>
+      </subject>
+      <subject identifier="sh85025606" source="lcsh">
+        <part>Church finance.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025766" source="lcsh">
+        <part>Church societies.</part>
+      </subject>
+      <subject identifier="sh85076240" source="lcsh">
+        <part>Letters.</part>
+      </subject>
+      <subject identifier="sh85101195" source="lcsh">
+        <part>Photographs. </part>
+      </subject>
+      <subject identifier="sh85147560" source="lcsh">
+        <part>Women in charitable work.</part>
+      </subject>
+      <geogname source="lcsh">
+        <part>Wollaston (Quincy, Mass.) -- Church history.</part>
+      </geogname>
+      <corpname identifier="n98074199" source="lcnaf">
+        <part>Wollaston Congregational Church (Wollaston, Quincy, Mass.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="series">
+        <did>
+          <unittitle>Church administration</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>17</quantity>
+            <unittype>Files</unittype>
+          </physdescstructured>
+          <physdesc localtype="container_summary">(13 volumes, 4 folders)</physdesc>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1874">1874</fromdate>
+              <todate standarddate="1951">1951</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1874-1951</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains church records such as printed by-laws, administrative reports,
+            meeting minutes, and account books. Included in these records are copies of church
+            governance, descriptions of committee activities, specifications for the construction of
+            the first meeting house, and vital statistics such as membership lists. A scrapbook
+            reviewing the history of the church from 1876 to 1951 further contextualizes the
+            materials.</p>
+        </scopecontent>
+        <c level="item">
+          <did>
+            <unittitle>Church and society records</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1874">1874</fromdate>
+                <todate standarddate="1898">1898</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1874-1898</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">1</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Society records</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1874">1874</fromdate>
+                <todate standarddate="1925">1925</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1874-1925</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">2</container>
+          </did>
+          <separatedmaterial>
+            <head>Separated Materials</head>
+            <p>Materials removed from this volume are stored separately in folder titled "Various
+              transactions, programs, and correspondence, 1890-1950".</p>
+          </separatedmaterial>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Church records</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="record_keeping"
+              unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1874">1874</fromdate>
+                <todate standarddate="1876">1876</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="record_keeping" unitdatetype="inclusive"
+              >1874-1876</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">19</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>"A Review of its First 75 Years 1876 – 1951"</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="record_keeping"
+              unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1876">1876</fromdate>
+                <todate standarddate="1951">1951</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="record_keeping" unitdatetype="inclusive"
+              >1876-1951</unitdate>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1951">1951</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">10</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Various transactions, programs, and correspondence</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1890">1890</fromdate>
+                <todate standarddate="1950">1950</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1890-1950</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">1</container>
+          </did>
+          <separatedmaterial>
+            <head>Separated Materials</head>
+            <p>This file is comprised of materials removed from the volume titled "Society records,
+              1874-1925".</p>
+          </separatedmaterial>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Church records</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1898">1898</fromdate>
+                <todate standarddate="1899">1899</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1898-1899</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">3</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Executive committee records</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1899">1899</fromdate>
+                <todate standarddate="1915">1915</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1899-1915</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">4</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Prudential committee reports</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1888">1888</fromdate>
+                <todate standarddate="1898">1898</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1888-1898</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">7</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Prudential committee meeting minutes</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1899">1899</fromdate>
+                <todate standarddate="1930">1930</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1899-1930</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">8</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Prudential committee meeting minutes</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1930">1930</fromdate>
+                <todate standarddate="1939">1939</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1930-1939</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">9</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Account book</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1927">1927</fromdate>
+                <todate standarddate="1943">1943</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1927-1943</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">10</container>
+          </did>
+          <separatedmaterial>
+            <head>Separated Materials</head>
+            <p>Materials removed from this volume are stored separately in folder titled "Wollaston
+              Congregational fire insurance and accounting note, 1935". The accounting note was
+              discovered on page 179 of the volume.</p>
+          </separatedmaterial>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Executive committee and committee of twenty five meeting minutes</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1932">1932</fromdate>
+                <todate standarddate="1939">1939</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1932-1939</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">5</container>
+          </did>
+          <separatedmaterial>
+            <head>Separated Materials</head>
+            <p>Materials removed from this volume are stored separately in file titled "Debt of
+              Honor Campaign program, 1938". The materials were found with the volume entry for
+              February 27, 1938.</p>
+          </separatedmaterial>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Wollaston Congregational fire insurance and accounting note</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1935">1935</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">3</container>
+          </did>
+          <separatedmaterial>
+            <head>Separated Materials</head>
+            <p>This file is comprised of materials removed the volume titled "Account book,
+              1927-1943". The accounting note was discovered on page 179 of the volume.</p>
+          </separatedmaterial>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Wollaston Congregational Church Forward Movement Fund cash book</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1936">1936</fromdate>
+                <todate standarddate="1943">1943</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1936-1943</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">11</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Church by-laws</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1936">1936</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">6</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Debt of Honor Campaign program</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1938">1938</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">2</container>
+          </did>
+          <separatedmaterial>
+            <head>Separated Materials</head>
+            <p>This file is comprised of a pamphlet removed the volume titled "Exeuctive committee
+              and committee of twenty five meeting minutes, 1932-1939". The material was found with
+              the volume entry for February 27, 1938.</p>
+          </separatedmaterial>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Dr. Isaiah W. Sneath Memorial Fund account book</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1940">1940</fromdate>
+                <todate standarddate="1941">1941</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1940-1941</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">12</container>
+          </did>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unittitle>Auxiliary groups</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>13</quantity>
+            <unittype>Files</unittype>
+          </physdescstructured>
+          <physdesc localtype="container_summary">(7 volumes, 6 folders)</physdesc>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1875">1875</fromdate>
+              <todate standarddate="1968">1968</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1875-1968</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains the records of Wollaston Congregational Church's auxiliary groups.
+            Included are the meeting minutes, financial information, and personal and organizational
+            correspondence of the Ladies Benevolent Society, Auxiliary W.B.M., Women's Missionary
+            Association, and Woman's Union.</p>
+        </scopecontent>
+        <c level="item">
+          <did>
+            <unittitle>Ladies Benevolent Society records</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1875">1875</fromdate>
+                <todate standarddate="1892">1892</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1875-1892</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">13</container>
+          </did>
+          <separatedmaterial>
+            <head>Separated Materials</head>
+            <p>Materials removed from this volume are stored separately in folder titled "History of
+              Woman's Union &amp; Benevolent Society correspondence, 1901-1968". Letter from the
+              Calhoun Colored School was discovered on page 92 of volume.</p>
+          </separatedmaterial>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Ladies Benevolent Society records</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1900">1900</fromdate>
+                <todate standarddate="1915">1915</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1900-1915</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">14</container>
+          </did>
+          <separatedmaterial>
+            <head>Separated Materials</head>
+            <p>Materials removed from this volume are stored separately in folder titled
+              "Correspondence and Woman's Home Missionary Association records, 1911".</p>
+          </separatedmaterial>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>History of Woman's Union &amp; Benevolent Society and
+              correspondence</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1901">1901</fromdate>
+                <todate standarddate="1968">1968</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1901-1968</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">4</container>
+          </did>
+          <separatedmaterial>
+            <head>Separated Materials</head>
+            <p>This file is comprised of materials removed the volume titled "Ladies Benevolent
+              Society records, 1875-1892". Letter from the Calhoun Colored School was discovered on
+              page 92 of volume.</p>
+          </separatedmaterial>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Correspondence and Women's Home Missionary Association records</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1911">1911</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">5</container>
+          </did>
+          <separatedmaterial>
+            <head>Separated Materials</head>
+            <p>This file is comprised of materials removed from the volume titled "Ladies Benevolent
+              Society records, 1900-1915".</p>
+          </separatedmaterial>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Wollaston Auxiliary W.B.M. records</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1912">1912</fromdate>
+                <todate standarddate="1918">1918</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1912-1918</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">16</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Ladies Benevolent Society records</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1916">1916</fromdate>
+                <todate standarddate="1918">1918</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1916-1918</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">15</container>
+          </did>
+          <separatedmaterial>
+            <head>Separated Materials</head>
+            <p>Materials removed from this volume are stored separately in folder titled "Letters to
+              Ladies Benevolent Society, 1918".</p>
+          </separatedmaterial>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Woman's Union meeting minutes</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1918">1918</fromdate>
+                <todate standarddate="1921">1921</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1918-1921</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">17</container>
+          </did>
+          <separatedmaterial>
+            <head>Separated Materials</head>
+            <p>This file is comprised of a brochure removed the volume titled "Woman's Union meeting
+              minutes, 1918-1921". The item was disovered on page 13 of the volume.</p>
+          </separatedmaterial>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Letters to Ladies Benevolent Society</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1918">1918</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">6</container>
+          </did>
+          <separatedmaterial>
+            <head>Separated Materials</head>
+            <p>This file is comprised of materials removed the volume titled "Ladies Benevolent
+              Society records, 1916-1918".</p>
+          </separatedmaterial>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Norfolk and Pilgrim Branch W.B.M. Report</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1919">1919</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">9</container>
+          </did>
+          <separatedmaterial>
+            <head>Separated Materials</head>
+            <p>This file is comprised of a brochure removed the volume titled "Woman's Union meeting
+              minutes, 1918-1921". The item was disovered on page 13 of the volume.</p>
+          </separatedmaterial>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Woman's Union records</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1921">1921</fromdate>
+                <todate standarddate="1926">1926</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1921-1926</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">18</container>
+          </did>
+          <separatedmaterial>
+            <head>Separated Materials</head>
+            <p>Materials removed from this volume are stored separately in folder titled
+              "Correspondence, Report of Serving Committee, and Ladies' Night Ticket, 1922-1923,
+              undated". Clipping titled "Our Slogan" and Ladies' Night ticket was discovered on page
+              184 of volume. Letter from Dorothy H. Taylor on Boston University Women Graduates'
+              Club letterhead was discovered on page 238 of volume.</p>
+          </separatedmaterial>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Correspondence, Report of Serving Committee, and Ladies' Night
+              Ticket</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1922">1922</fromdate>
+                <todate standarddate="1923">1923</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1922-1923,
+              undated</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">7</container>
+          </did>
+          <separatedmaterial>
+            <head>Separated Materials</head>
+            <p>This file is comprised of materials removed the volume titled "Woman's Union records,
+              1921-1926". Clipping titled "Our Slogan" and Ladies' Night ticket was discovered on
+              page 184 of volume. Letter from Dorothy H. Taylor on Boston University Women
+              Graduates' Club letterhead was discovered on page 238 of volume.</p>
+          </separatedmaterial>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Secretary Records of the Woman's Unions</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1926">1926</fromdate>
+                <todate standarddate="1935">1935</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1926-1935</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="volume">1</container>
+          </did>
+          <separatedmaterial>
+            <head>Separated Materials</head>
+            <p>Materials removed from this volume are stored separately in folder titled "Receipts
+              and letters, 1932, undated". Receipts was discovered on page 129 of volume. Letter
+              from Chaplain William S. Kelley was discovered on page 211 of volume.</p>
+          </separatedmaterial>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Receipts and letters</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1932">1932</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">8</container>
+          </did>
+          <separatedmaterial>
+            <head>Separated Materials</head>
+            <p>This file is comprised of materials removed the volume titled "Secretary Records of
+              the Woman's Unions, 1926-1935". Receipts was discovered on page 129 of volume. Letter
+              from Chaplain William S. Kelley was discovered on page 211 of volume.</p>
+          </separatedmaterial>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
