@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/JamaicaPlainMAChrist-1118.xml"
+      >JamaicaPlainMAChrist-1118</recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/all/files/JamaicaPlainMAChrist-1118.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Jamaica Plain, Boston, Mass. Christ Church Evangelical records,
+          1900-1930.</titleproper>
+        <author>G McFarland</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2023-03-20</date>
+        <num>RG1118</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2023-03-22T19:06:02+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday March 22,
+          2023 at 19:06</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Jamaica Plain, Boston, Mass. Christ Church Evangelical records,
+        1900-1930.</unittitle>
+      <unitid>RG1118</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+        <languageset>
+          <language langcode="ger">German</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>0.46</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(1 box, 1 folder)</physdesc>
+      <unitdatestructured calendar="gregorian" certainty="approximate" datechar="creation"
+        unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1900">1900</fromdate>
+          <todate standarddate="1930">1930</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" certainty="approximate" datechar="creation"
+        unitdatetype="inclusive">1900-1930</unitdate>
+      <abstract>Christ Church Evangelical (Jamaica Plain, Boston, Mass.) was organized in 1901. The
+        edifice was built in 1903 at 120 Chestnut Street in Jamaica Plain, Boston, Massachusetts.
+        The church, which was a merger of the former German Reformed Church of Bay Village and
+        German Reformed mission of Jamaica Plain, was listed as a Christ Reformed Church and Christ
+        Evangelical &amp; Reformed Church before merging with the United Church of Christ in 1967.
+        The last service was held the same year before the church was ultimately dissolved. This
+        collection contains records from Christ Church Evangelical and a photograph from the German
+        Reformed mission's circa 1900 worship site. Included are church meeting minutes written in
+        German, as well as a ledger book, photographs, and treasurer's records. A copper-plated
+        stamp depicts the Chestnut Street building, which burned down in the 1970s.</abstract>
+      <origination label="Creator">
+        <corpname rules="rda" source="naf">
+          <part>Christ Church Evangelical (Jamaica Plain, Boston, Mass.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head> Restrictions on Use</head>
+      <p>Items in this collection are subject to U. S. Copyright Law. It is the responsibility of
+        the researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication.Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Jamaica Plain, Boston, Mass. Christ Church Evangelical
+        records, 1900-1930, RG1118. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by two surviving
+        members of Christ Church Evangelical (Jamaica Plain, Boston, Mass.), Edward Klotter and
+        Louise Wyman, in June 1978. Additional materials were donated by Louise Redonnet in July
+        1981; no accession number.</p>
+    </acqinfo>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Processed by G McFarland, March 2023, using DACS Second Edition.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>The modern neighborhoods of Bay Village and Jamaica Plain of Boston, Massachusetts sit on
+        the ancestral land of the Massachusett and Pawtucket peoples. The future occupied sites of
+        the Christ Church Evangelical (Jamaica Plain, Boston, Mass.) and its preceding organizations
+        were first colonized through Puritan settlements in the Boston area in the 18th century.</p>
+      <p>Christ Church Evangelical (Jamaica Plain, Boston, Mass.) was founded through the merger of
+        the German Reformed Church of Bay Village, Boston, Massachusetts and the former German
+        Reformed mission of Jamaica Plain, Boston, Massachusetts. The German Reformed Church was
+        organized as an Evangelical church by 1847 under Reverend Louis B. Schwartz. The first
+        meeting house was located in the Bay Village neighborhood of Boston, Massachusetts, on
+        Shawmut Street, until 1895. The church was not listed in Boston City Directories again until
+        it appeared again in 1900 at a new location of Danforth Street of Jamaica Plain with
+        Reverend John Wirz as pastor.</p>
+      <p>A separate German Reformed mission was maintained and worshipped in a store building on
+        Roxbury Street in Jamaica Plain, Boston, Massachusetts, from 1897 until the organization of
+        Christ Church Evangelical in 1901. A church building was erected in 1903 at 120 Chestnut
+        Avenue in Jamaica Plain. The German Reformed Church at Danforth Street presumably joined the
+        Jamaica Plain Christ Church in 1904. The church was first listed as Christ Reformed Church
+        from 1940 to 1960 then Christ Evangelical &amp; Reformed from 1960 to 1967. Christ Church
+        Evangelical joined the United Church of Christ before its last service and dissolution in
+        1967. The Chestnut Avenue building burned down in the early 1970s.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains records related to the organization of Christ Church Evangelical
+        (Jamaica Plain, Boston, Mass.) in 1901. Included within the records are the photographs,
+        financial records, and meetings minutes of the church. The financial records, comprised of a
+        ledger book and treasurer's records, provide a membership list through the documentation of
+        individual donations. Meeting minutes in German provide insight into the church's
+        organization and priorities. Photographs in the collection depict the store on Roxbury
+        Street used by the German Reformed mission prior to the construction of the church building
+        in 1903 as well as the interior and exterior of the Chestnut Street building. A
+        copper-plated stamp provides an additional representation of the façade of the Chestnut
+        Street building.</p>
+    </scopecontent>
+    <bibliography>
+      <head>Bibliography</head>
+      <p>Hartmann, Edward G. "Some Data on the German Reformed Churches of City of Boston."
+        Unpublished manuscript, 1987, typescript.</p>
+      <p>"Native American Heritage Month." Douglas D. Schumann Library &amp; Learning Commons.
+        Wentworth Institute of Technology, November 1, 2022.
+        https://library.wit.edu/guides/native-american-heritage/welcome.</p>
+      <p>Native Land Digital. Native Land Digital, October 8, 2021. https://native-land.ca/.</p>
+      <p>Taylor, Richard H. Congregations of the German Reformed Church in the United States.
+        Easton, PA: Richard H. Taylor, 2020.</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85025854" source="lcsh">
+        <part>Church buildings.</part>
+      </subject>
+      <subject identifier="sh85025606" source="lcsh">
+        <part>Church finance.</part>
+      </subject>
+      <subject identifier="sh85101195" source="lcsh">
+        <part>Photographs. </part>
+      </subject>
+      <corpname rules="rda" source="naf">
+        <part>Christ Church Evangelical (Jamaica Plain, Boston, Mass.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="item">
+        <did>
+          <unittitle>Photograph of temporary worship site in store on Roxbury St., circa
+            1900.</unittitle>
+          <unitdatestructured calendar="gregorian" certainty="approximate" datechar="creation"
+            unitdatetype="inclusive">
+            <datesingle standarddate="1900">1900</datesingle>
+          </unitdatestructured>
+          <langmaterial>
+            <language langcode="eng">English</language>
+          </langmaterial>
+          <container label="Mixed Materials" localtype="folder">1</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Ledger book</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1901">1901</fromdate>
+              <todate standarddate="1912">1912</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1901-1912</unitdate>
+          <langmaterial>
+            <language langcode="eng">English</language>
+          </langmaterial>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">1</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Meeting minutes</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1907">1907</fromdate>
+              <todate standarddate="1917">1917</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1907-1917</unitdate>
+          <langmaterial>
+            <language langcode="ger">German</language>
+            <language langcode="eng">English</language>
+          </langmaterial>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">2</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Meeting minutes</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1917">1917</fromdate>
+              <todate standarddate="1930">1930</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1917-1930</unitdate>
+          <langmaterial>
+            <language langcode="ger">German</language>
+          </langmaterial>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">3</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Treasurer's records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1921">1921</fromdate>
+              <todate standarddate="1925">1925</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1921-1925</unitdate>
+          <langmaterial>
+            <language langcode="eng">English</language>
+          </langmaterial>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">4</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Photographs of interior and exterior of church building</unittitle>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >undated</unitdate>
+          <langmaterial>
+            <language langcode="eng">English</language>
+          </langmaterial>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">5</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Copper-plated stamp</unittitle>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >undated</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="object">1</container>
+        </did>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
