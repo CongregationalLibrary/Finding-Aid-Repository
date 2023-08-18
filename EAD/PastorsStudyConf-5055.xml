@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid instanceurl=""/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Pastor's Study Conference records, 1980-2000.</titleproper>
+        <author>Collection processed by Jessica Steytler in June 28, 2013. </author>
+      </titlestmt>
+      <editionstmt>
+        <p>Updated for ArchivesSpace by William McCarthy in 2017.</p>
+      </editionstmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <num>RG5055</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS2 - 2013</abbr>
+      <citation>translation missing: en.enumerations.resource_finding_aid_description_rules.DACS2 -
+        2013</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2023-08-18T15:21:34+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Friday August 18,
+          2023 at 15:21</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Pastor's Study Conference records, 1980-2000.</unittitle>
+      <unitid>RG5055</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>.53</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(2 cases)</physdesc>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1980">1980</fromdate>
+          <todate standarddate="2000">2000</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1980-2000</unitdate>
+      <abstract >This pastor's group was comprised of
+        United Church of Christ members from the New England and New York regions who met annually
+        to discuss and study a theme or topic. Contains publicity brochures and, minutes, and
+        working files for the yearly study conference spanning from 1980 through 2000.</abstract>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">
+          <part>Pastor's Study Conference (Springfield, Mass.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict >
+      <head> Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public. This collection has been
+        minimally processed for access. Please contact the archivist or librarian for more
+        information.</p>
+    </accessrestrict>
+    <prefercite >
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Pastor's Study Conference, 1980-2000, RG5055. The
+        Congregational Library and Archive, Boston, MA.</p>
+    </prefercite>
+    <acqinfo >
+      <head>Immediate Source of Acquisition</head>
+      <p>Given as a gift by George E. Peters on June 14, 2013. Accession number 2013-05.</p>
+    </acqinfo>
+    <bioghist >
+      <head>Biographical / Historical</head>
+      <p>From the context of the files, the purpose of the organization was to meet once a year at
+        Springfield, Massachusetts, Old First Church, in February to discuss a theme selected by the
+        planning committee. The members were within the United Church of Christ from New England and
+        New York. The group has disbanded.</p>
+    </bioghist>
+    <scopecontent >
+      <head>Scope and Contents</head>
+      <p>Contains publicity brochures and, minutes, and working files for the yearly study
+        conference spanning from 1980 through 2000.</p>
+    </scopecontent>
+    <arrangement >
+      <head>Arrangement</head>
+      <p>This collection maintains the original order in which the records were given to the
+        library.</p>
+    </arrangement>
+    <controlaccess>
+      <subject identifier="sh85008810" source="lcsh">
+        <part>Associations, institutions, etc.</part>
+      </subject>
+    </controlaccess>
+    <dsc>
+      <c01  level="file">
+        <did>
+          <unittitle>Publicity, Brochures</unittitle>
+          <unitdate datechar="other" unitdatetype="inclusive">undated</unitdate>
+          <container  label="Mixed Materials"
+            localtype="box">1</container>
+          <container  localtype="folder"
+            >1</container>
+        </did>
+      </c01>
+      <c01  level="file">
+        <did>
+          <unittitle>Working File</unittitle>
+          <unitdate datechar="other" unitdatetype="inclusive">1980s</unitdate>
+          <container  label="Mixed Materials"
+            localtype="box">1</container>
+          <container  localtype="folder"
+            >2</container>
+        </did>
+      </c01>
+      <c01  level="file">
+        <did>
+          <unittitle>Working File</unittitle>
+          <unitdate datechar="other" unitdatetype="inclusive">1990-1991</unitdate>
+          <container  label="Mixed Materials"
+            localtype="box">1</container>
+          <container  localtype="folder"
+            >3</container>
+        </did>
+      </c01>
+      <c01  level="file">
+        <did>
+          <unittitle>Working File</unittitle>
+          <unitdate datechar="other" unitdatetype="inclusive">1992-1993</unitdate>
+          <container  label="Mixed Materials"
+            localtype="box">1</container>
+          <container  localtype="folder"
+            >4</container>
+        </did>
+      </c01>
+      <c01  level="file">
+        <did>
+          <unittitle>Working File</unittitle>
+          <unitdate datechar="other" unitdatetype="inclusive">1993-1994</unitdate>
+          <container  label="Mixed Materials"
+            localtype="box">2</container>
+          <container  localtype="folder"
+            >1</container>
+        </did>
+      </c01>
+      <c01  level="file">
+        <did>
+          <unittitle>Working File</unittitle>
+          <unitdate datechar="other" unitdatetype="inclusive">1994-1995</unitdate>
+          <container  label="Mixed Materials"
+            localtype="box">2</container>
+          <container  localtype="folder"
+            >2</container>
+        </did>
+      </c01>
+      <c01  level="file">
+        <did>
+          <unittitle>Working File</unittitle>
+          <unitdate datechar="other" unitdatetype="inclusive">1995-1996</unitdate>
+          <container  label="Mixed Materials"
+            localtype="box">2</container>
+          <container  localtype="folder"
+            >3</container>
+        </did>
+      </c01>
+      <c01  level="file">
+        <did>
+          <unittitle>Working File</unittitle>
+          <unitdate datechar="other" unitdatetype="inclusive">1996-1997</unitdate>
+          <container  label="Mixed Materials"
+            localtype="box">2</container>
+          <container  localtype="folder"
+            >4</container>
+        </did>
+      </c01>
+      <c01  level="file">
+        <did>
+          <unittitle>Working File</unittitle>
+          <unitdate datechar="other" unitdatetype="inclusive">1997-1998</unitdate>
+          <container  label="Mixed Materials"
+            localtype="box">2</container>
+          <container  localtype="folder"
+            >5</container>
+        </did>
+      </c01>
+      <c01  level="file">
+        <did>
+          <unittitle>Working File</unittitle>
+          <unitdate datechar="other" unitdatetype="inclusive">1998-1999</unitdate>
+          <container  label="Mixed Materials"
+            localtype="box">2</container>
+          <container  localtype="folder"
+            >6</container>
+        </did>
+      </c01>
+      <c01  level="file">
+        <did>
+          <unittitle>Working File</unittitle>
+          <unitdate datechar="other" unitdatetype="inclusive">1999-2000</unitdate>
+          <container  label="Mixed Materials"
+            localtype="box">2</container>
+          <container  localtype="folder"
+            >7</container>
+        </did>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
