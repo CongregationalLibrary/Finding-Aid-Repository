@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid instanceurl="">BelmontMAWaverly-5050</recordid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Belmont, Mass. First Congregational Church of Waverley records, 1861-1962. </titleproper>
+        <author>Jessica Steytler, William McCarthy</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2017-10-06</date>
+        <num>RG5050</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+      <descriptivenote>
+        <p>English</p>
+      </descriptivenote>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS2 - 2013</abbr>
+      <citation>translation missing: en.enumerations.resource_finding_aid_description_rules.DACS2 -
+        2013</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2023-08-18T13:30:23+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Friday August 18,
+          2023 at 13:30</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Belmont, Mass. First Congregational Church of Waverley records,
+        1861-1979.</unittitle>
+      <unitid>RG5050</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>.53</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(2 cases)</physdesc>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1861">1861</fromdate>
+          <todate standarddate="1979">1979</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1861-1979</unitdate>
+      <abstract>These are the remaining church records of the First Church of Waverley, Waverley
+        being a sub-set of the town of Belmont. The most significant record is a ledger book of the
+        Society, 1861-1885. The majority of the records date from the early 20th century, from a few
+        of their auxiliary groups.</abstract>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">
+          <part>First Congregational Church of Waverley (1865-2012) (Belmont, Mass.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head> Restrictions on Access</head>
+      <p>This collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Belmont, MA. First Congregational of Waverley Church
+        Records, 1861-1962, RG5050. The Congregational Library and Archive, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Donated by Daniel C. Lee and the All People United Church, April 22, 2013. Accession number
+        2013-01.</p>
+    </acqinfo>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Processed by Jessica Steytler, April 2013, using DACS Second Edition. ArchivesSpace record
+        created by William McCarthy.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>According to the Society minutes (folder 1, box 1), Rev. Charles Jones, Daniel Deshon, John
+        Taggard, John Sylvester, Sarumus Gates, William Lowry, Frank Cottle, W. A. Blodgett, Mr.
+        Greene, and Mr. Harrington met to establish a new congregation. The society formed in 1861,
+        which is when the record book starts. The church was not officially established until
+        1865.</p>
+      <p>The only history available about the church within this collection is kept in with the
+        anniversary material, written in 1979 by the then-historian.</p>
+      <p>The First Church, as it was established, essentially closed in 2002 when it merged with the
+        Senuri Korean Church, which shared space at 471 Trapelo Road. Senuri had a separate listing
+        in the UCC Yearbook for a few years, then in 2003 was listed as First Church
+        Waverley-Senuri, however only had 35 members after previously having 115. After 2010, the
+        church called itself All People's United Church. That Congregation closed its doors in late
+        2012, sold the building and property to a developer, which then demolished the church in
+        early 2013. Copies of newspaper articles about the sale and demolition are in the collection
+        folder for this church.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>These are the remaining church records of the First Church of Waverley, Waverley being a
+        sub-set of the town of Belmont. The most significant record is a ledger book of the Society,
+        1861-1885. The majority of the records date from the early 20th century, from a few of their
+        auxiliary groups. The most recent document is a presentation from the historian, Mrs.
+        Herbert H. Jaynes in 1979. No dedicated vital statistical records were kept.</p>
+      <p>A list of records represented are: ledger from earliest years of the church, a page a day
+        diary from 1866, auxiliary club records, anniversary celebrations, photographs, Sunday
+        school teachers' meeting ledger, programs for special occasions and Sunday service.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>There is no formal series listing, given the brevity of the collection. Church records are
+        first, followed by auxiliary clubs and Sunday school. Programs and photographs are last.</p>
+    </arrangement>
+    <relatedmaterial>
+      <head>Related Materials</head>
+      <p>A manual of the First Congregational Church of Waverley, in the town of Belmont, Mass.,
+        1868. 17.11.1 B41.57 FIRCCW</p>
+    </relatedmaterial>
+    <controlaccess>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <corpname rules="rda" source="local">
+        <part>First Congregational Church of Waverley (1865-2012) (Belmont, Mass.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 level="file">
+        <did>
+          <unittitle>Society Minutes, Records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="other" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1861">1861</fromdate>
+              <todate standarddate="1885">1885</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="other" unitdatetype="inclusive"
+            >1861-1885</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">1</container>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>Diary</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="other" unitdatetype="inclusive">
+            <datesingle standarddate="1866">1866</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">2</container>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdate datechar="other" unitdatetype="inclusive">undated</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">3</container>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>Congregational Brotherhood Records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="other" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1922">1922</fromdate>
+              <todate standarddate="1923">1923</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="other" unitdatetype="inclusive"
+            >1922-1923</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">4</container>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>Congregational Brotherhood Records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="other" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1923">1923</fromdate>
+              <todate standarddate="1930">1930</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="other" unitdatetype="inclusive"
+            >1923-1930</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">5</container>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>Mother's Club Daybooks</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="other" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1938">1938</fromdate>
+              <todate standarddate="1962">1962</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="other" unitdatetype="inclusive"
+            >1938-1962</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">6</container>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>Sunday School Teachers' Meetings</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="other" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1921">1921</fromdate>
+              <todate standarddate="1925">1925</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="other" unitdatetype="inclusive"
+            >1921-1925</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">7</container>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>Anniversary Celebrations, Dedications</unittitle>
+          <unitdate calendar="gregorian" datechar="other" unitdatetype="inclusive"
+            >undated</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">1</container>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>Photographs</unittitle>
+          <unitdate calendar="gregorian" datechar="other" unitdatetype="inclusive"
+            >undated</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">2</container>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>Ladies Aid Annual Fair Programs</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="other" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1922">1922</fromdate>
+              <todate standarddate="1956">1956</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="other" unitdatetype="inclusive"
+            >1922-1956</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">3</container>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>Sunday Program</unittitle>
+          <unitdate calendar="gregorian" datechar="other" unitdatetype="inclusive"
+            >undated</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">4</container>
+        </did>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
