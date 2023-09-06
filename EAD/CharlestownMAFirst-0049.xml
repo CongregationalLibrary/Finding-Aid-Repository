@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/CharlestownMAFirst-0049.xml"
+      >CharlestownMAFirst-0049</recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/all/files/CharlestownMAFirst-0049.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Charlestown, Boston, Mass. First Church records, 1632-1927.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2023-09-05</date>
+        <num>RG0049</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2023-09-06T15:45:48+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday September
+          6, 2023 at 15:45</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Charlestown, Boston, Mass. First Church records, 1632-1927.</unittitle>
+      <unitid>RG0049</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>1.80</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(2 boxes, 2 microfilm)</physdesc>
+      <unitdatestructured calendar="gregorian" datechar="record_keeping" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1632">1632</fromdate>
+          <todate standarddate="1927">1927</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="record_keeping" unitdatetype="inclusive"
+        >1632-1927</unitdate>
+      <abstract>Charlestown proper was founded in 1628 and formally settled on July 4, 1629. The
+        First Church of Charlestown was gathered in 1632. The church's third meeting house was
+        destroyed during the Battle of Bunker Hill and the fourth meeting house was not constructed
+        until 1783 after the American Revolutionary War had ended. In 1913, the Winthrop Church
+        merged with the First Church. In 1957, the interior of the church was destroyed by a fire;
+        financial hardship delayed the restoration of the church for many years. In 2014, the First
+        Church partnered with Celebration Church, a Brazilian congregation, to renew and renovate
+        the church. In 2022, the First Church merged with Christ Church Charlestown, who inherited
+        the church building and now worships there. This collection contains important
+        administrative records for the First Church in Charlestown, Boston, Massachusetts as well as
+        the records of the First Parish in Charlestown. The collection includes parish records,
+        building records, and financial records.</abstract>
+      <origination label="Creator">
+        <corpname identifier="nr90011901" source="lcnaf">
+          <part>First Church (Charlestown, Boston, Mass.)</part>
+        </corpname>
+      </origination>
+      <origination label="Creator">
+        <corpname identifier="n98023693" source="lcnaf">
+          <part>Winthrop Church (Charlestown, Boston, Mass.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head> Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Charlestown, Boston, Mass. First Church records,
+        1632-1927, RG0049. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were loaned to the Congregational Library &amp; Archives by The First Church in
+        Charlestown, Boston, Massachusetts, circa 1979; no accession record.</p>
+      <p>The Winthrop Church society records were initially a unique collection and given the
+        identifier RG0841. There is no information about this collection. It was merged into this
+        collection as part of the 2023 reprocessing.</p>
+    </acqinfo>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Initially processed by Hal Worthley, 1997. Reprocessed by Zachary Bodnar, August 2023,
+        using Describing Archives: A Content Standard.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>Prior to English colonization, the are today known as Charlestown, Boston, Massachusetts,
+        was inhabited by the indigenous Massachusett. Charlestown was called Mishawum by the
+        Massachusett. The first English colonizers were Thomas and Jane Walford who arrived in
+        Mishawum in 1624. Charlestown proper was founded in 1628 and formally settled on July 4,
+        1629. A church was founded in Charlestown in 1630, but when John Winthrop accepted William
+        Blaxton's invitation to settle on the Shawmut peninsula, the majority of that early church's
+        membership withdrew. The 35 original members of the church who still resided in Charlestown
+        sought dismissal from the church and recovenanted as the First Church of Charlestown on
+        November 2, 1632. The first meeting house was made from Governor Winthrop's "Great House"
+        and a second meeting house was built in 1636. John Harvard was the church's third minister;
+        he died in 1638. Harvard College was renamed in honor of John Harvard after he had
+        bequeathed his entire library and half of his monetary estate to the college in his
+        will.</p>
+      <p>The third meetinghouse was constructed in 1715. That building was destroyed during the
+        Battle of Bunker Hill, during the American Revolution, when British troops almost completely
+        destroyed the town. The town did not truly begin to rebuild until after the American
+        Revolutionary War ended in 1783; the fourth meeting house was constructed in 1783. This
+        building was expanded in 1804. The fifth meeting house was constructed in 1834 and the sixth
+        was constructed in 1853. In 1834, a second Congregational Church, known as the Winthrop
+        Congregational Church, was gathered. This church merged with the First Church in 1913 and
+        the Winthrop Church building became the First Church's seventh church building.</p>
+      <p>In 1957, the church's interior was destroyed by a fire. The church suffered financial
+        hardships following the fire and the building could only be restored after many years.
+        During the racial protests and violence which enveloped Boston between 1974 and 1976, the
+        First Church became a safe haven for African American students. In 2014, the church began a
+        revitalization process with Celebration Church, a Brazillian congregation; the result of
+        this partnership was a refurbished church building in 2016. In 2015, with the installation
+        of Erik Maloy, the church became a member of the Southern Baptist Convention alongside its
+        continued membership with the United Church of Christ. In 2022, the First Church merged with
+        Christ Church Charlestown who inherited the church building and now holds worship there.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains important administrative records for the First Church in
+        Charlestown, Boston, Massachusetts as well as the records of the First Parish in
+        Charlestown. The collection includes parish records, building records, especially those
+        related to pews and pew deeds, financial records, Sunday school records, and reproduction of
+        the church's earliest church records.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>Materials in this collection have been organized first by chronological order and then by
+        topic so that closely related materials are listed in sequence.</p>
+    </arrangement>
+    <phystech>
+      <head>Physical restrictions</head>
+      <p>The photocopied instance of the "Church records (reproduction), 1632-1789, 1880" is the
+        prefered use copy of these records as the bound originals are very fragile.</p>
+    </phystech>
+    <phystech>
+      <head>Technical Requirements</head>
+      <p>A microfilm reader is required to access microform materials. One microfilm reader is
+        available to the public upon request.</p>
+    </phystech>
+    <relatedmaterial>
+      <head>Related Materials</head>
+      <p>The Massachusetts Historical Society holds the larger portion of the First Church's
+        records, as well as the records of the Winthrop Congregational Church which merged with the
+        First Church in 1913. The finding aid for this collection can be found here: <ref
+          href="https://www.masshist.org/collection-guides/view/fa0030"
+          linktitle="Finding aid at the Massachusetts Historical Society" show="new">First Church
+          (Charlestown, Boston, Mass.) Records, 1631-1980. Ms. N-1248.</ref></p>
+    </relatedmaterial>
+    <bibliography>
+      <head>Bibliography</head>
+      <p>Ford, Victor, and Violet Farrell. "First Church, 1632, Charlestown, Mass.," in <emph
+          render="italic">First Church Charlestown Congregational, 1632-1982: 350-th
+          Anniversary</emph>. 1982.</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025209" source="lcsh">
+        <part>Christian union.</part>
+      </subject>
+      <subject identifier="sh85025854" source="lcsh">
+        <part>Church buildings.</part>
+      </subject>
+      <subject identifier="sh85025606" source="lcsh">
+        <part>Church finance.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <subject identifier="sh85100506" source="lcsh">
+        <part>Pews and pew rights.</part>
+      </subject>
+      <subject identifier="sh85130524" source="lcsh">
+        <part>Sunday schools.</part>
+      </subject>
+      <corpname identifier="nr90011901" source="lcnaf">
+        <part>First Church (Charlestown, Boston, Mass.)</part>
+      </corpname>
+      <corpname identifier="n98023693" source="lcnaf">
+        <part>Winthrop Church (Charlestown, Boston, Mass.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="item">
+        <did>
+          <unittitle>Church records (reproduction)</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="record_keeping"
+            unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1632">1632</fromdate>
+              <todate standarddate="1789">1789</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="record_keeping" unitdatetype="inclusive"
+            >1632-1789</unitdate>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1980">1980</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">1</container>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">12</container>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">1</container>
+          <container label="Microform" localtype="box">Microfilm postive</container>
+          <container label="Microform" localtype="box">Microfilm negative</container>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>In 1880, for James Frothingham Dunnewell, 62 copies of a reproduction of the First
+            Church's earliest records were created. Each volume was numbered. The Congregational
+            Library &amp; Archives holds copies two and five, of the 62 copy run, as well as a
+            photocopied copy of copy number 5 which was created due to the fragility of the
+            original. The CLA also holds two microfilm copies, positive and negative, of the 1800
+            reproduction.</p>
+        </scopecontent>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Parish records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1784">1784</fromdate>
+              <todate standarddate="1803">1803</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1784-1803</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">2</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Parish records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1803">1803</fromdate>
+              <todate standarddate="1823">1823</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1803-1823</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">3</container>
+        </did>
+        <separatedmaterial>
+          <head>Separated Materials</head>
+          <p>An item was removed from between pages 158 and 159 of this volume, for the purposes of
+            preservation, and placed in the folder "First Parish in the town of Charlestown
+            incorporation, 1812."</p>
+        </separatedmaterial>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Parish records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1823">1823</fromdate>
+              <todate standarddate="1854">1854</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1823-1854</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">4</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Parish records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1854">1854</fromdate>
+              <todate standarddate="1880">1880</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1854-1880</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">5</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Pew plans</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1798">1798</fromdate>
+              <todate standarddate="1866">1866</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1798,
+            1866</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">1</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Pew plan</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1853">1853</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="folder">7</container>
+        </did>
+        <accessrestrict>
+          <head>Conditions Governing Access</head>
+          <p>This item is extremely fragile and any use of the item is likely to cause further
+            damage. Special permission is required to view this item.</p>
+        </accessrestrict>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Pew subscribers</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1800">1800</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">6</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>An act to incorporate a Religious Society...</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1803">1803</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">2</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Assessors' accounts</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1803">1803</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="volume">3</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Assessors' accounts</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1804">1804</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="volume">4</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Assessors' accounts</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1805">1805</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="volume">6</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Assessors' accounts</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1807">1807</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="volume">5</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Treasurer's records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1808">1808</fromdate>
+              <todate standarddate="1811">1811</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1808-1811</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="volume">1</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>First Parish in the town of Charlestown incorporation</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1812">1812</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">3</container>
+        </did>
+        <separatedmaterial>
+          <head>Separated Materials</head>
+          <p>This item was removed from the Parish records, 1803-1823, for the purposes of
+            preservation. This item was found between pages 158 and 159.</p>
+        </separatedmaterial>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Committee to supply the pulpit communications</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1819">1819</fromdate>
+              <todate standarddate="1820">1820</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1819-1820</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">4</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Sunday school records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1830">1830</fromdate>
+              <todate standarddate="1834">1834</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1830-1834</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">7</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Sunday school records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1832">1832</fromdate>
+              <todate standarddate="1835">1835</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1832-1835</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">8</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Sunday school records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1834">1834</fromdate>
+              <todate standarddate="1841">1841</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1834-1841</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">9</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Winthrop Church society records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1832">1832</fromdate>
+              <todate standarddate="1833">1833</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1832-1833</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">12</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Building committee records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1833">1833</fromdate>
+              <todate standarddate="1835">1835</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1833-1835</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="volume">8</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Building committee cashbook</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1833">1833</fromdate>
+              <todate standarddate="1835">1835</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1833-1835</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">10</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>An act relating to parishes and religious freedom clipping</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1834">1834</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">5</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Pew deeds</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1834">1834</fromdate>
+              <todate standarddate="1927">1927</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1834-1927</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="volume">2</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Parish Land Company account book</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1835">1835</fromdate>
+              <todate standarddate="1838">1838</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1835-1838</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">11</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Treasurer's records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1856">1856</fromdate>
+              <todate standarddate="1878">1878</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1856-1878</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="volume">7</container>
+        </did>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
