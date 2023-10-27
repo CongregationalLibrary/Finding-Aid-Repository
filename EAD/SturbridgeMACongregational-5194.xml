@@ -21,6 +21,7 @@
           <addressline>14 Beacon Street</addressline>
           <addressline>Suite 200</addressline>
           <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
           <addressline localtype="email">info@14beacon.org</addressline>
           <addressline><ref href="http://www.CongregationalLibrary.org"
               linktitle="http://www.CongregationalLibrary.org" show="new"
@@ -45,7 +46,7 @@
     </languagedeclaration>
     <conventiondeclaration>
       <abbr>DACS 2019.0.3</abbr>
-      <citation>Describing Archives: A Content Standard, Second Edition</citation>
+      <citation>Describing Archives: A Content Standard</citation>
     </conventiondeclaration>
     <localcontrol localtype="findaidstatus">
       <term>completed</term>
@@ -53,11 +54,11 @@
     <maintenancehistory>
       <maintenanceevent>
         <eventtype value="derived"/>
-        <eventdatetime>2022-02-15T20:33:42+00:00</eventdatetime>
+        <eventdatetime>2023-10-26T18:00:50+00:00</eventdatetime>
         <agenttype value="machine"/>
-        <agent>ArchivesSpace v2.8.1</agent>
-        <eventdescription>This finding aid was produced using ArchivesSpace on Tuesday February 15,
-          2022 at 20:33</eventdescription>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Thursday October 26,
+          2023 at 18:00</eventdescription>
       </maintenanceevent>
     </maintenancehistory>
   </control>
@@ -154,6 +155,9 @@
       <head>Acquisition Information</head>
       <p>Materials were loaned to the Congregational Library &amp; Archives by the Federated Church
         of Sturbridge and Fiskdale in December 2015; 2014-43.</p>
+      <p>The letter from Rev. Paine to Miriam Newell was removed from the Sturbridge Separatist
+        materials (RG0971) and transferred to this collection. This item is owned by the
+        Congregational Library &amp; Archive.</p>
     </acqinfo>
     <altformavail>
       <head>Digital Copies</head>
@@ -296,6 +300,14 @@
       <c level="series">
         <did>
           <unittitle>Church records</unittitle>
+          <physdescstructured coverage="part" physdescstructuredtype="materialtype">
+            <quantity>12</quantity>
+            <unittype>Volumes</unittype>
+          </physdescstructured>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>14</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
           <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
             <daterange>
               <fromdate standarddate="1736">1736</fromdate>
@@ -717,6 +729,14 @@
       <c level="series">
         <did>
           <unittitle>Membership records</unittitle>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>1</quantity>
+            <unittype>Volume</unittype>
+          </physdescstructured>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>11</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
           <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
             <daterange>
               <fromdate standarddate="1742">1742</fromdate>
@@ -897,6 +917,14 @@
       <c level="series">
         <did>
           <unittitle>Financial records</unittitle>
+          <physdescstructured coverage="part" physdescstructuredtype="materialtype">
+            <quantity>4</quantity>
+            <unittype>Volumes</unittype>
+          </physdescstructured>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>5</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
           <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
             <daterange>
               <fromdate standarddate="1820">1820</fromdate>
