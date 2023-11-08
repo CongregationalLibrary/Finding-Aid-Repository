@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/BCMM-1063.xml"
+      >BCMM-1063</recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/all/files/BCMM-1063.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Boston Congregational Ministers' Meeting records, 1868-1951.</titleproper>
+        <author>Madison Bellew</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <num>RG1063</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2023-11-08T15:37:46+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday November 8,
+          2023 at 15:37</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Boston Congregational Ministers' Meeting records, 1868-1951.</unittitle>
+      <unitid>RG1063</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>0.88</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(2 boxes)</physdesc>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1868">1868</fromdate>
+          <todate standarddate="1951">1951</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1868 -
+        1951</unitdate>
+      <abstract>The Boston Ministers' Meeting was a gathering of Congregational pastors and acting
+        pastors in the Boston, MA area. The meetings were meant to facilitate fellowship among
+        Congregational ministers through discussions, presentations, and prayer, and were held
+        regularly from April 1868 until their formal end in 1951. The collection consists of six
+        volumes of meeting minutes from the Ministers' Meetings with some inclusion of the meeting's
+        by-laws, member lists, correspondence, and publications either written or inserted into the
+        related volume.</abstract>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">
+          <part>Boston Congregational Ministers' Meeting.</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head> Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Boston Congregational Ministers' Meeting records,
+        1868-1951, RG1063. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Immediate Source of Acquisition</head>
+      <p>Materials were deposited to Congregational Library &amp; Archives in 1965. Volume 6 was
+        deposited to Congregational Library &amp; Archvies by Myron Fowell on 24 March 1995; no
+        accession number.</p>
+    </acqinfo>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Processed by Madison Bellew, October 2023, using DACS.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>The Boston Ministers' Meeting began April 6, 1868 with a group of Congregational pastors
+        and acting pastors in Boston and the surrounding areas of Massachusetts. They first met at
+        the Congregational Library Association and regular meetings were held at Pilgrim Hall at 14
+        Beacon St. in Boston. Their meetings were held weekly on Mondays from September or October
+        until April or May. In the later years, the meeting were held monthly on the first Monday of
+        the month. The organization was meant to facilitate and promote fellowship among
+        Congregational ministers. The meetings consisted of discussions between members,
+        presentations from speakers, prayer and occasionally music. During the 1940s, interest began
+        to decline along with membership and attendance. In October 1951, the Boston Ministers'
+        Meeting formally ended due to a lack of interest in gathering together from the
+        Congregational ministers in the area. The remaining records and treasury were given to Rev.
+        Myron Fowell in November 1951.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>The collection consists of six volumes and one folder of loose materials dating from 1868 –
+        1951. There is a gap between 1913 – 1917 with no records from those years. There are smaller
+        time skips from when the Boston Ministers' Meetings were on a break in the summer or chose
+        to cancel or move their meetings. The volumes are mostly handwritten meeting minutes from
+        the regular meetings held by the Boston Ministers' Meeting along with the standing rules of
+        the organization and member lists for certain years. The handwriting changes regularly
+        throughout the volumes die to annual elections of a new secretary who was responsible for
+        recording the meeting minutes. There are additional materials inserted into the volumes that
+        relate to the organization or to the topic discussed during a meeting. The additional
+        materials are a mix of handwritten and typed papers that include correspondence, newspaper
+        clippings, pamphlets, advertisements or other papers of interest to the current author. Some
+        of the additional materials have been pasted onto pages of the volumes or attached by paper
+        clip. Other materials have no attachment to the pages and are loosely inserted between two
+        pages. The majority of the additional materials have been left alone in the volumes they
+        were inserted into. The loose materials in the 1898-1908 volume have been removed due to the
+        comparatively large quantity of them and preservation concerns over potential damage from
+        metal attachments or folded creases. The removed loose materials have been placed in a
+        separate folder in the order they were removed from the volume.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>The volumes have been arranged chronologically by start date.</p>
+    </arrangement>
+    <controlaccess>
+      <subject identifier="sh85032905" source="lcsh">
+        <part>Corporate minutes.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Clergy -- Societies, etc. </part>
+      </subject>
+    </controlaccess>
+    <dsc>
+      <c level="file">
+        <did>
+          <unittitle>Congregational pastors' meeting records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1868">1868</fromdate>
+              <todate standarddate="1885">1885</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1868 -
+            1885</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">1</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Boston ministers' meeting records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1885">1885</fromdate>
+              <todate standarddate="1898">1898</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1885 -
+            1898</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">2</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Records of Boston ministers' meeting</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1898">1898</fromdate>
+              <todate standarddate="1908">1908</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1898 -
+            1908</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">3</container>
+        </did>
+        <relatedmaterial>
+          <head>Related Materials</head>
+          <p>Loose meterials were removed from this volume and placed in a seperate folder labeled:
+            Loose materials from records of Boston ministers' meeting, 1898-1908, 1904-1908.</p>
+        </relatedmaterial>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Loose materials from records of Boston ministers' meeting,
+            1898-1908</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1904">1904</fromdate>
+              <todate standarddate="1908">1908</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1904 -
+            1908</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">1</container>
+        </did>
+        <relatedmaterial>
+          <head>Related Materials</head>
+          <p>Materials were removed from volume labeled: Records of Boston ministers' meeting,
+            1898-1908.</p>
+        </relatedmaterial>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Boston ministers' meeting records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1909">1909</fromdate>
+              <todate standarddate="1913">1913</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1909 -
+            1913</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="volume">1</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Boston ministers' meeting records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1917">1917</fromdate>
+              <todate standarddate="1925">1925</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1917 -
+            1925</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="volume">2</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Boston ministers' meeting records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1925">1925</fromdate>
+              <todate standarddate="1951">1951</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1925 -
+            1951</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="volume">3</container>
+        </did>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
