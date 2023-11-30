@@ -1,0 +1,1117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/BrightonMAFaneuil-0025.xml"
+      >BrightonMAFaneuil-0025</recordid>
+    <representation localtype="pdf"
+      href="file:///Z:/DATA/Draft_File_Structure_ZNuke/CLACollections/Archives/Collections/BrightonMAFaneuil-0025/BrightonMAFaneuil-0025.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Brighton, Boston, Mass. Faneuil Congregational Church records,
+          1884-1984.</titleproper>
+        <author>Madison Bellew</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>November 2023</date>
+        <num>RG0025</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2023-11-30T16:29:15+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Thursday November 30,
+          2023 at 16:29</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Brighton, Boston, Mass. Faneuil Congregational Church records,
+        1884-1984.</unittitle>
+      <unitid>RG0025</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>2.99</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(2 cartons, 2 boxes)</physdesc>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1884-1984</unitdate>
+      <abstract>The Faneuil Congregational Church was organized in the Brighton area of Boston, MA
+        from 1903 to 1976. It grew out of the Faneuil Sunday School and built its own church
+        building in 1913. The church closed in 1975 and was officially dissolved in 1976 due to the
+        lack of membership. The collection contains records about the administration and history of
+        Faneuil church and some of the organizations within it. The collection includes
+        correspondence, meeting minutes, constitution and bylaws, annual reports, church registers,
+        membership lists, baptismal records, account ledgers, treasurer's reports, service programs,
+        materials relating to the 50th anniversary of the church, sermons (1937) of minister Aaron
+        N. Meckel, photographs, newspaper clippings, a gavel and publications from or about the
+        church.</abstract>
+      <origination label="Creator">
+        <corpname rules="AACR2" source="naf">
+          <part>Faneuil Congregational Church (Brighton, Boston, Mass.)</part>
+        </corpname>
+      </origination>
+      <origination label="Creator">
+        <persname identifier="n95073245" source="lcnaf">
+          <part>Meckel, Aaron N. (Aaron Nathaniel), 1904-</part>
+        </persname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head> Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Brighton, Boston, Mass. Faneuil Congregational Church
+        records, 1884-1984, RG0025. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Originally deposited 24 October 1975 with the Congregational Christian Historical Society,
+        Boston, Mass. by Roy B. Stewart, clerk, and Rev. Harry W. Mason Jr, on behalf of the church.
+        Converted to Gift 3 December 1985 by Metropolitan Boston Association of the Massachusetts
+        Conference of the United Church of Christ.</p>
+    </acqinfo>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Originally processed 1990. Reprocessed by Madison Bellew, 2023 using DACS.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>The Faneuil Congregational Church was located in the Brighton area of Boston, Mass and
+        existed from 1903 to 1976. The church grew from the Faneuil Sunday School which began in
+        1877 to serve the children of the Faneuil area so that they did not have to travel to
+        Brighton Congregational Church. The Sunday school began classes at the home of James W.
+        Harvey on Newton Street before moving to a rented room in a store on Brooks Street. In 1900,
+        Faneuil Chapel was built for the school and was dedicated in November of that year. The
+        school continued to operate out of the chapel until 1914 when the new church building was
+        completed, and the chapel was sold to the City of Boston to be used as a public library. In
+        1941, Faneuil Church repurchased the chapel and moved the school back to that location until
+        the school's closure in 1972 due to a lack of students.</p>
+      <p>In 1903, the community of Faneuil came together to create their own church separate from
+        Brighton Congregational Church and incorporated the Faneuil Congregational Church of Boston
+        in January 1903. The first service of the church was held at Faneuil Chapel on February 4,
+        1903. In May 1903, the first permanent pastor, Rev. Andrew H. Mulnix, began serving the
+        church and remained pastor until his resignation in December 1935. In January 1911, the
+        mortgage for the Faneuil Chapel was paid and a service was held to commemorate the burning
+        of the mortgage. The church began plans for a new building after 1911 and construction was
+        completed in December 1913. The mortgage for the new building was paid and burned in January
+        1924. The church bought and installed a new organ in October 1925 and a new chancel window
+        in November 1930.</p>
+      <p>The church celebrated its 25th anniversary in February 1928. In 1935, Rev. Mulnix resigned
+        and was replaced in May 1936 by Rev. Aaron N. Meckel who served the church until March 1941.
+        In 1953, Faneuil Church celebrated its 50th anniversary with a special service and other
+        events. In 1969, Rev. Harry W. Mason Jr began serving the church and remained as pastor
+        until its closure. In the 1970s as the membership and budget declined, the church began
+        plans to close. The last service was held on June 29, 1975 and the final annual meeting for
+        the dissolution of Faneuil Congregational Church corporation was held in January 1976 at
+        Brighton Center Church where many members had moved. The materials owned by the church were
+        returned to the original donor, given to the Brighton Historical Society, thrown away, or
+        entrusted to the United Church of Christ. The church building was sold to the Central New
+        England District of the United Pentecostal Church in 1975, while the parish house had been
+        sold previously to Edward P. Long in 1963. Any remaining funds were separated among various
+        charities or given to the Massachusetts Conference of the UCC.</p>
+      <p>The Faneuil church was home to multiple organizations throughout its lifetime. The Women's
+        Association began in November 1901 and remained heavily involved in the church operation
+        until its dissolution in 1976. The Pilgrim League began in 1924 for the business women and
+        young mothers of the church and merged with the Women's Association in 1932. The Men's club
+        began in or before 1926 and existed until 1975 when the church closed.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>The collection contains records for the Faneuil Congregational Church for its entire
+        lifetime of 1903-1976, with some earlier records from the Faneuil Sunday School and some
+        later financial records. The collection includes volumes of meeting minutes, treasurer's
+        account books, receipt ledger books, and church registers. It also includes folders of
+        correspondence, annual reports, treasury reports, meeting minutes, service programs,
+        publications, member lists, baptismal records, bylaws and constitutions, legal precedings,
+        financial records, newspaper clippings, member dismission forms, photographs, minister
+        sermons, and histories. The collection also includes a film reel of the church's 50th
+        anniversary, a gavel, and a box of member contact cards. The records are from or about the
+        church itself, its members, or the organizations within it.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>The collection is arranged in five series, one of which has four sub-series. The series and
+        the records within them are arranged chronologically by start date.</p>
+      <p><emph render="bold">Series 1:</emph> History of Faneuil congregational church,
+        1884-1969</p>
+      <p><emph render="bold">Series 2:</emph> Organization records, 1901-1975</p>
+      <p><emph render="italic">Subseries 1:</emph> Women's association, 1901-1975</p>
+      <p><emph render="italic">Subseries 2:</emph> Missionary auxiliary group, 1914-1932</p>
+      <p><emph render="italic">Subseries 3:</emph> Pilgrim league, 1924-1932</p>
+      <p><emph render="italic">Subseries 4:</emph> Faneuil men's club, 1927-1975</p>
+      <p><emph render="bold">Series 3:</emph> Administrative records, 1903-1975</p>
+      <p><emph render="bold">Series 4:</emph> Member records, 1903-1976</p>
+      <p><emph render="bold">Series 5:</emph> Financial records, 1934-1984</p>
+    </arrangement>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025565" source="lcsh">
+        <part>Church anniversaries.</part>
+      </subject>
+      <subject identifier="sh2004003103" source="lcsh">
+        <part>Church closures</part>
+      </subject>
+      <subject identifier="sh85025606" source="lcsh">
+        <part>Church finance.</part>
+      </subject>
+      <subject identifier="sh85025646" source="lcsh">
+        <part>Church management.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85147343" source="lcsh">
+        <part>Women -- Societies and clubs.</part>
+      </subject>
+      <corpname rules="AACR2" source="naf">
+        <part>Faneuil Congregational Church (Brighton, Boston, Mass.)</part>
+      </corpname>
+      <corpname identifier="n85272140" source="lcnaf">
+        <part>Brighton (Boston, Mass.) -- Church history.</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="series">
+        <did>
+          <unittitle>History of Faneuil congregational church</unittitle>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>6</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <physdescstructured coverage="part" physdescstructuredtype="materialtype">
+            <quantity>1</quantity>
+            <unittype>Reels</unittype>
+          </physdescstructured>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>1</quantity>
+            <unittype>Object</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1884">1884</fromdate>
+              <todate standarddate="1969">1969</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1884-1969</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains records relating to the history of Faneuil Congregational Church
+            from the start of the Faneuil Sunday School to the close of the church. It includes
+            photographs, correspondence, publications, service programs, sermons, newspaper
+            clippings, member lists, reports, a film reel for the church's 50th anniversary, and a
+            gavel.</p>
+        </scopecontent>
+        <c level="file">
+          <did>
+            <unittitle>Photographs</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1880">1880</fromdate>
+                <todate standarddate="1953">1953</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">circa 1880-1953</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">9</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Programs, publications, and mailings</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1884">1884</fromdate>
+                <todate standarddate="1960">1960</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1884-1960</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">12</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Records of 50th anniversary</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1900">1900</fromdate>
+                <todate standarddate="1954">1954</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1900-1954</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">10</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Gavel</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1903">1903</datesingle>
+            </unitdatestructured>
+            <container label="Physical Object" localtype="box">1</container>
+            <container localtype="Item">1</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Newspaper clippings</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1913">1913</fromdate>
+                <todate standarddate="1951">1951</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1913-1951</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">11</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Correspondence on changing pastors</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1935">1935</fromdate>
+                <todate standarddate="1969">1969</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1935-1969</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">13</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Aaron N. Meckel's sermons</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1937">1937</fromdate>
+                <todate standarddate="1939">1939</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1937-1939</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">12</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Film of 50th anniversary</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1953">1953</datesingle>
+            </unitdatestructured>
+            <container label="Moving Images" localtype="box">1</container>
+            <container localtype="reel">1</container>
+          </did>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unittitle>Organization records</unittitle>
+          <physdescstructured coverage="part" physdescstructuredtype="materialtype">
+            <quantity>9</quantity>
+            <unittype>Volumes</unittype>
+          </physdescstructured>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>5</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1901">1901</fromdate>
+              <todate standarddate="1975">1975</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1901-1975</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains records from or about various organizations within Faneuil
+            Congregational Church including the Women's Association, the Pilgrim League, the Men's
+            Club, and the Missionary Auxilary Group. The majority of the records are for the Women's
+            Association. The series includes nine volumes of treasurer's account books and meeting
+            minutes; and five folders of annual reports, meeting minutes, member lists, bylaws, and
+            correspondence for the organizations.</p>
+        </scopecontent>
+        <c level="subseries">
+          <did>
+            <unittitle>Women's association</unittitle>
+            <physdescstructured coverage="part" physdescstructuredtype="materialtype">
+              <quantity>7</quantity>
+              <unittype>Volumes</unittype>
+            </physdescstructured>
+            <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+              <quantity>3</quantity>
+              <unittype>Folders</unittype>
+            </physdescstructured>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1901">1901</fromdate>
+                <todate standarddate="1975">1975</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1901-1975</unitdate>
+          </did>
+          <scopecontent>
+            <head>Scope and Contents</head>
+            <p>This sub-series contains records for the Women's Association of Faneuil
+              Congregational Church. It includes seven volumes of treasurer's account books and
+              meeting minutes; and three folders of meeting minutes, annual reports, and bylaws for
+              the association.</p>
+          </scopecontent>
+          <c level="file">
+            <did>
+              <unittitle>Treasurer's account book</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1901">1901</fromdate>
+                  <todate standarddate="1908">1908</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1901-1908</unitdate>
+              <container label="Mixed Materials" localtype="box">1</container>
+              <container localtype="volume">3</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Record book</unittitle>
+              <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1901">1901</fromdate>
+                  <todate standarddate="1909">1909</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+                >1901-1909</unitdate>
+              <container label="Mixed Materials" localtype="box">1</container>
+              <container localtype="volume">4</container>
+            </did>
+            <relatedmaterial>
+              <head>Related Materials</head>
+              <p>Loose papers were removed and placed in the folder labeled Papers from record book,
+                1901-1909, 1901.</p>
+            </relatedmaterial>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Papers from record book, 1901-1909</unittitle>
+              <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+                <datesingle standarddate="1901">1901</datesingle>
+              </unitdatestructured>
+              <container label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">10</container>
+            </did>
+            <relatedmaterial>
+              <head>Related Materials</head>
+              <p>The papers were removed from the volume labeled Record book, 1901-1909.</p>
+            </relatedmaterial>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Annual reports</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1901">1901</fromdate>
+                  <todate standarddate="1953">1953</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1901-1953</unitdate>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">6</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Treasurer's account book</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1908">1908</fromdate>
+                  <todate standarddate="1913">1913</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1908-1913</unitdate>
+              <container label="Mixed Materials" localtype="box">1</container>
+              <container localtype="volume">5</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Treasurer's account book</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1914">1914</fromdate>
+                  <todate standarddate="1940">1940</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1914-1940</unitdate>
+              <container label="Mixed Materials" localtype="box">1</container>
+              <container localtype="volume">6</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Meeting minutes</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1922">1922</fromdate>
+                  <todate standarddate="1938">1938</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1922-1938</unitdate>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="volume">5</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Meeting minutes</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1938">1938</fromdate>
+                  <todate standarddate="1950">1950</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1938-1950</unitdate>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="volume">6</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Meeting minutes</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1949">1949</fromdate>
+                  <todate standarddate="1962">1962</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1949-1962</unitdate>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="volume">7</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Meeting minutes</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1963">1963</fromdate>
+                  <todate standarddate="1975">1975</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1963-1975</unitdate>
+              <container label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">11</container>
+            </did>
+          </c>
+        </c>
+        <c level="subseries">
+          <did>
+            <unittitle>Missionary auxiliary group</unittitle>
+            <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+              <quantity>1</quantity>
+              <unittype>Volume</unittype>
+            </physdescstructured>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1914">1914</fromdate>
+                <todate standarddate="1932">1932</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1914-1932</unitdate>
+          </did>
+          <scopecontent>
+            <head>Scope and Contents</head>
+            <p>This series contains records for the Missionary Auxilary Group at Faneuil
+              Congregational Church. It includes one volume of a treasurer's account book.</p>
+          </scopecontent>
+          <c level="file">
+            <did>
+              <unittitle>Treasurer's book</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1914">1914</fromdate>
+                  <todate standarddate="1932">1932</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1914-1932</unitdate>
+              <container label="Mixed Materials" localtype="box">1</container>
+              <container localtype="volume">8</container>
+            </did>
+          </c>
+        </c>
+        <c level="subseries">
+          <did>
+            <unittitle>Pilgrim league</unittitle>
+            <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+              <quantity>1</quantity>
+              <unittype>Volume</unittype>
+            </physdescstructured>
+            <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+              <quantity>1</quantity>
+              <unittype>Folder</unittype>
+            </physdescstructured>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1924">1924</fromdate>
+                <todate standarddate="1932">1932</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1924-1932</unitdate>
+          </did>
+          <scopecontent>
+            <head>Scope and Contents</head>
+            <p>This series contains records for the Pilgim League at Faneuil Congregational Church.
+              It includes one volume of meeting minutes and bylaws; and one folder of annual reports
+              for the organization. The Pilgrim League merged into the Women's Association of
+              Faneuil Congregational Church in 1932.</p>
+          </scopecontent>
+          <c level="file">
+            <did>
+              <unittitle>Record book</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1924">1924</fromdate>
+                  <todate standarddate="1925">1925</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1924-1925</unitdate>
+              <container label="Mixed Materials" localtype="box">1</container>
+              <container localtype="volume">7</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Annual reports</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1924">1924</fromdate>
+                  <todate standarddate="1932">1932</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1924-1932</unitdate>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">7</container>
+            </did>
+          </c>
+        </c>
+        <c level="subseries">
+          <did>
+            <unittitle>Faneuil men's club</unittitle>
+            <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+              <quantity>1</quantity>
+              <unittype>Folder</unittype>
+            </physdescstructured>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1927">1927</fromdate>
+                <todate standarddate="1975">1975</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1927-1975</unitdate>
+          </did>
+          <scopecontent>
+            <head>Scope and Contents</head>
+            <p>This sub-series contains records for the Men's Club of Faneuil Congregational Church.
+              It includes one folder of meeting minutes, member lists, correspondence, and bylaws
+              for the organization.</p>
+          </scopecontent>
+          <c level="file">
+            <did>
+              <unittitle>Men's club records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1927">1927</fromdate>
+                  <todate standarddate="1975">1975</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1927-1975</unitdate>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">8</container>
+            </did>
+          </c>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unittitle>Administrative records</unittitle>
+          <physdescstructured coverage="part" physdescstructuredtype="materialtype">
+            <quantity>4</quantity>
+            <unittype>Volumes</unittype>
+          </physdescstructured>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>4</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1903">1903</fromdate>
+              <todate standarddate="1975">1975</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1903-1975</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>The administrative records were created throughout the lifetime of Faneuil church from
+            1903-1975. The records include four volumes of meeting minutes with some related papers
+            inserted, and four folders with annual reports, correspondence, meeting minutes,
+            publications, and church laws all relating to the running and administration of Faneuil
+            Church.</p>
+        </scopecontent>
+        <c level="file">
+          <did>
+            <unittitle>Record book no 1</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1903">1903</fromdate>
+                <todate standarddate="1914">1914</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1903-1914</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="volume">1</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Laws of government</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1907">1907</fromdate>
+                <todate standarddate="1967">1967</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1907-1967</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">1</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Record book no 2</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1914">1914</fromdate>
+                <todate standarddate="1931">1931</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1914-1931</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="volume">2</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Record book no 3</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1931">1931</fromdate>
+                <todate standarddate="1935">1935</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1931-1935</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="volume">3</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Record book no 4</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1935">1935</fromdate>
+                <todate standarddate="1949">1949</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1935-1949</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="volume">4</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Annual reports</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1941">1941</fromdate>
+                <todate standarddate="1975">1975</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1941-1975</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">4</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Distribution and sale of church property</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1972">1972</fromdate>
+                <todate standarddate="1975">1975</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1972-1975</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">2</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Records for dissolution of Faneuil church</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1974">1974</fromdate>
+                <todate standarddate="1975">1975</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1974-1975</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">5</container>
+          </did>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unittitle>Member records</unittitle>
+          <physdescstructured coverage="part" physdescstructuredtype="materialtype">
+            <quantity>2</quantity>
+            <unittype>Volumes</unittype>
+          </physdescstructured>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>6</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>1</quantity>
+            <unittype>Box</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1903">1903</fromdate>
+              <todate standarddate="1976">1976</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1903-1976</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series includes vital statistics for the members of Faneuil Congregational Church.
+            It incldudes two volumes of church registers; three folders of correspondence, mailing
+            lists, officer lists, member lists, and letters of dismission forms; three folders of
+            information cards for members and baptisms; and one box of member contact cards.</p>
+        </scopecontent>
+        <c level="file">
+          <did>
+            <unittitle>Member card list</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container label="Mixed Materials" localtype="box">4</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Church register</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1903">1903</fromdate>
+                <todate standarddate="1976">1976</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1903-1976</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">1</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Membership files</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1909">1909</fromdate>
+                <todate standarddate="1976">1976</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1909-1976</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">3</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Church register</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1914">1914</fromdate>
+                <todate standarddate="1976">1976</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1914-1976</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">2</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Member lists</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1935">1935</fromdate>
+                <todate standarddate="1939">1939</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1935-1939</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">5</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Baptismal records, M-Z</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1937">1937</fromdate>
+                <todate standarddate="1976">1976</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1937-1976</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">2</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Baptismal records, A-L</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1937">1937</fromdate>
+                <todate standarddate="1976">1976</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1937-1976</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">1</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Letters of dismission</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1957">1957</fromdate>
+                <todate standarddate="1976">1976</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1957-1976</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">8</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Mailing lists</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1975">1975</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">9</container>
+          </did>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unittitle>Financial records</unittitle>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>4</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <physdescstructured coverage="part" physdescstructuredtype="materialtype">
+            <quantity>3</quantity>
+            <unittype>Volumes</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1934">1934</fromdate>
+              <todate standarddate="1984">1984</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1934-1984</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>The series contains financial records for Faneuil Church from 1934 to 1984. It includes
+            three volumes of reciept or account ledgers for the church, and four folders with
+            correspondence, treasurer's reports, legal precedings, and newspaper clippings. Due to
+            delays in court relating to an estate that included a bequest to Faneuil Congregational
+            Church, the financial records continue past the closure of the church.</p>
+        </scopecontent>
+        <c level="file">
+          <did>
+            <unittitle>Receipt and disbursement ledger</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1934">1934</fromdate>
+                <todate standarddate="1969">1969</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1934-1969</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="volume">1</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Account ledger</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1948">1948</fromdate>
+                <todate standarddate="1964">1964</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1948-1964</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="volume">2</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Bequests to Faneuil Congregational Church</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1948">1948</fromdate>
+                <todate standarddate="1984">1984</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1948-1984</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">3</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Treasurer's reports</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1950">1950</fromdate>
+                <todate standarddate="1976">1976</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1950-1976</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">4</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Correspondence for parish house mortgage</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1963">1963</fromdate>
+                <todate standarddate="1968">1968</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1963-1968</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">6</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Account ledger</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1965">1965</fromdate>
+                <todate standarddate="1975">1975</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1965-1975</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="volume">3</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Land damage claim</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1968">1968</datesingle>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1968</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">7</container>
+          </did>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
