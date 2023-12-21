@@ -20,17 +20,18 @@
           <addressline>14 Beacon Street</addressline>
           <addressline>Suite 200</addressline>
           <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
           <addressline localtype="email">info@14beacon.org</addressline>
           <addressline><ref href="http://www.CongregationalLibrary.org"
               linktitle="http://www.CongregationalLibrary.org" show="new"
               >http://www.CongregationalLibrary.org</ref></addressline>
         </address>
-        <date>2022-05-02</date>
+        <date>2019-06-21</date>
         <num>MS4865</num>
       </publicationstmt>
       <seriesstmt>
-        <p>Portions of this collection are part of New England's Hidden Histories. Digital
-          historical representations of these portions of the collection can be viewed online.</p>
+        <p>This collection is part of New England's Hidden Histories. Digital historical
+          representations of the collection can be viewed online.</p>
       </seriesstmt>
     </filedesc>
     <maintenancestatus value="derived"/>
@@ -40,10 +41,13 @@
     </maintenanceagency>
     <languagedeclaration>
       <language langcode="eng">English</language>
-      <script scriptcode="Latn">Latin</script>
+      <script scriptcode="lat">Latin</script>
+      <descriptivenote>
+        <p>English</p>
+      </descriptivenote>
     </languagedeclaration>
     <conventiondeclaration>
-      <abbr>DACS 2019.0.3</abbr>
+      <abbr>DACS2 - 2013</abbr>
       <citation>Describing Archives: A Content Standard</citation>
     </conventiondeclaration>
     <localcontrol localtype="findaidstatus">
@@ -52,19 +56,11 @@
     <maintenancehistory>
       <maintenanceevent>
         <eventtype value="derived"/>
-        <eventdatetime>2022-05-02T14:06:12+00:00</eventdatetime>
+        <eventdatetime>2023-12-21T18:50:41+00:00</eventdatetime>
         <agenttype value="machine"/>
-        <agent>ArchivesSpace v2.8.1</agent>
-        <eventdescription>This finding aid was produced using ArchivesSpace on Monday May 2, 2022 at
-          14:06</eventdescription>
-      </maintenanceevent>
-      <maintenanceevent>
-        <eventtype value="revised"/>
-        <eventdatetime>2022-05-02</eventdatetime>
-        <agenttype value="human"/>
-        <agent/>
-        <eventdescription>Added a new item to the collection. Adjusted some
-          description.</eventdescription>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Thursday December 21,
+          2023 at 18:50</eventdescription>
       </maintenanceevent>
     </maintenancehistory>
   </control>
@@ -78,10 +74,7 @@
         </corpname>
       </repository>
       <langmaterial>
-        <languageset>
-          <language langcode="eng">English</language>
-          <script scriptcode="Latn">Latin</script>
-        </languageset>
+        <language langcode="eng">English</language>
       </langmaterial>
       <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
         <quantity>1</quantity>
@@ -99,10 +92,9 @@
         area. . Hopkins preached in Sheffield (now Great Barrington), Massachusetts, from 1743-1769
         and then preached at the First Congregational Church in Newport, Rhode Island, from 1770
         until his death in 1803. He is best known for his theological work that formed part of the
-        theological scheme known as New Divinity, or Hopkinsianism. This collection contains four
+        theological scheme known as New Divinity, or Hopkinsianism. This collection contains three
         letters written by Samuel Hopkins; two thank a family friend for their hospitality while
-        Hopkins travelled, the third includes some of Hopkins theological arguments, and the fourth
-        speaks to Hopkins's illness in 1803.</abstract>
+        Hopkins travelled and the third includes some of Hopkins theological arguments.</abstract>
       <origination label="Creator">
         <persname identifier="n85024934" source="lcnaf">
           <part>Hopkins, Samuel, 1721-1803</part>
@@ -136,27 +128,12 @@
     </prefercite>
     <acqinfo>
       <head>Acquisition Information</head>
-      <p>No acquisition information is available for items one through three.</p>
-      <p>The letter from Hopkins to West was donated to the Congregational Library &amp; Archives by
-        Diane Power in May 2022; 2022-11.</p>
+      <p>No acquisition information is available for this collection.</p>
     </acqinfo>
-    <altformavail>
-      <head>Existence and Location of Copies</head>
-      <p>Some items in this collection were digitized as part of the New England's Hidden Histories
-        project. Digital reproductions are <ref
-          href="https://congregationallibrary.quartexcollections.com/manuscript-collections/browse-the-samuel-hopkins-correspondence"
-          linktitle="available to view online" show="new">available to view online</ref>.</p>
-    </altformavail>
-    <accruals>
-      <head>Accruals</head>
-      <p>Additional accruals are expected for this collection in the form of full-text
-        transcription. There is no anticipated date for this accrual.</p>
-    </accruals>
     <processinfo>
       <head>Processing Information</head>
       <p>Originally processed by Anderson Boone, September 2014, using DACS Second Edition.
-        Reprocessed by Zachary Bodnar, June 2019, using DACS Second Edition. An accrual of a single
-        letter was processed and added to the collection by Zachary Bodnar in May 2022.</p>
+        Reprocessed by Zachary Bodnar, June 2019, using DACS Second Edition.</p>
     </processinfo>
     <bioghist>
       <head>Biographical Note</head>
@@ -169,18 +146,17 @@
         continued to preach there until his death in 1803. During the Revolutionary War, Hopkins
         fled Newport, and continued to preach at Newburyport, Massachusetts, as well as Canterbury
         and Stamford, Connecticut.</p>
-      <p>Hopkins's work with Johnathan Edwards and Joseph Bellamy resulted in the theological scheme
+      <p>Hopkins' work with Johnathan Edwards and Joseph Bellamy resulted in the theological scheme
         known as New Divinity, Hopkinsianism, and New England Theology, among other names. Initially
         a slave holder himself, Hopkins later became one of the earliest Congregationalists to
         condemn the institution of slavery.</p>
     </bioghist>
     <scopecontent>
       <head>Scope and Contents</head>
-      <p>This collection contains four letters written by Samuel Hopkins. Two are written to
+      <p>This collection contains three letters written by Samuel Hopkins. Two are written to
         Ebenezer Little, a family friend, thanking Little and his family for their hospitality
-        during Hopkins travels. The third letter is written to Mr. Fuller in Newport and includes
-        some of Hopkins' theological arguments. The fourth letter is written to Rev. Stephen West in
-        Stockbridge, Massachusetts, and includes an account of Hopkins's sickness.</p>
+        during Hopkins travels. The third letter is written to British minister Andrew Fuller
+        (1754-1815) and includes some of Hopkins' theological arguments.</p>
     </scopecontent>
     <arrangement>
       <head>Arrangement</head>
@@ -188,10 +164,17 @@
     </arrangement>
     <phystech>
       <head>Technical Requirements</head>
-      <p>To access digital materials on our digital archive, it is strongly recommended that you use
-        the latest available version of Microsoft Edge, Google Chrome, Mozilla Firefox, or Safari
-        (Apple).</p>
+      <p>To access digital user's copies via online-interface, a java-enabled web browser is
+        required. Internet Explorer 8.x and later, Firefox 5.x and later, Opera 12 and later, Safari
+        5.x and later, or any version of Google Chrome are recommended.</p>
     </phystech>
+    <altformavail>
+      <head>Digital Copies</head>
+      <p>Records within this collection were digitized as part of the New England's Hidden Histories
+        project. Digital reproductions may be accessed online through our <ref
+          href="https://congregationallibrary.quartexcollections.com/manuscript-collections/browse-the-samuel-hopkins-correspondence"
+          >digital archive</ref>.</p>
+    </altformavail>
     <controlaccess>
       <subject identifier="sh94001813" source="lcsh">
         <part>New Divinity theology.</part>
@@ -199,15 +182,15 @@
       <subject source="local">
         <part>New England's Hidden Histories.</part>
       </subject>
+      <persname identifier="n85024824" source="lcnaf">
+        <part>Fuller, Andrew, 1754-1815</part>
+      </persname>
       <persname identifier="n85024934" source="lcnaf">
         <part>Hopkins, Samuel, 1721-1803 -- Correspondence.</part>
       </persname>
-      <persname identifier="n85173471" source="lcnaf">
-        <part>West, Stephen, 1735-1819</part>
-      </persname>
     </controlaccess>
     <dsc>
-      <c01 level="file">
+      <c level="file">
         <did>
           <unittitle>Corresppondence</unittitle>
           <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
@@ -225,16 +208,25 @@
           <container label="Mixed Materials" localtype="box">NEHH-Small 1</container>
           <container localtype="folder">20</container>
         </did>
-        <c02 level="item">
+        <c level="item">
           <did>
             <unittitle>Hopkins to Little</unittitle>
             <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
               <datesingle standarddate="1766">1766</datesingle>
             </unitdatestructured>
-            <container label="Mixed Materials" localtype="box">NEHH-Small 1</container>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+              label="Mixed Materials" localtype="box">NEHH-Small 1</container>
             <container localtype="folder">20</container>
             <container localtype="Item">1</container>
           </did>
+          <altformavail>
+            <head>Digital Copies</head>
+            <p>This letter was digitized as part of the New England's Hidden Histories project.
+              Digital reproductions are <ref actuate="onrequest"
+                href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/HopkinsSamuel/viewer/Letter20to20Little2C201766/1"
+                linktitle="available to view online" show="new">available to view online</ref>.</p>
+          </altformavail>
           <scopecontent>
             <head>Scope and Contents</head>
             <p>This letter written by Rev. Samuel Hopkins was addressed to Ebenezer Little in
@@ -244,17 +236,26 @@
               Little, his wife, their daughter, and a "Miss E. West" who was entrusted with delivery
               of the letter.</p>
           </scopecontent>
-        </c02>
-        <c02 level="item">
+        </c>
+        <c level="item">
           <did>
             <unittitle>Hopkins to Little</unittitle>
             <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
               <datesingle standarddate="1767">1767</datesingle>
             </unitdatestructured>
-            <container label="Mixed Materials" localtype="box">NEHH-Small 1</container>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+              label="Mixed Materials" localtype="box">NEHH-Small 1</container>
             <container localtype="folder">20</container>
             <container localtype="Item">2</container>
           </did>
+          <altformavail>
+            <head>Digital Copies</head>
+            <p>This letter was digitized as part of the New England's Hidden Histories project.
+              Digital reproductions are <ref actuate="onrequest"
+                href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/HopkinsSamuel/viewer/Letter20to20Little2C201767/1"
+                linktitle="available to view online" show="new">available to view online</ref>.</p>
+          </altformavail>
           <scopecontent>
             <head>Scope and Contents</head>
             <p>This letter written by Rev. Samuel Hopkins was addressed to Ebenezer Little in
@@ -262,44 +263,37 @@
               visit to Newbury. Rev. Hopkins mentioned Ebenezer Little, his wife, their daughter,
               and Mr. Parsons, a mutual acquaintance, within the letter.</p>
           </scopecontent>
-        </c02>
-        <c02 level="item">
+        </c>
+        <c level="item">
           <did>
             <unittitle>Hopkins to Fuller</unittitle>
             <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
               <datesingle standarddate="1803">1803</datesingle>
             </unitdatestructured>
-            <container label="Mixed Materials" localtype="box">NEHH-Small 1</container>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+              label="Mixed Materials" localtype="box">NEHH-Small 1</container>
             <container localtype="folder">20</container>
             <container localtype="Item">3</container>
           </did>
+          <altformavail>
+            <head>Digital Copies</head>
+            <p>This letter was digitized as part of the New England's Hidden Histories project.
+              Digital reproductions are <ref actuate="onrequest"
+                href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/HopkinsSamuel/viewer/Letter20to20Fuller2C201803/1"
+                linktitle="available to view online" show="new">available to view online</ref>.</p>
+          </altformavail>
           <scopecontent>
             <head>Scope and Contents</head>
-            <p>This letter, likely dictated by Rev Samuel Hopkins to a scribe, was addressed to Mr.
-              Fuller in Newport, Rhode Island. The letter opens with a statement about the Hopkins
-              declining health. The majority of the letter is a theological argument on how
+            <p>This letter, likely dictated by Rev Samuel Hopkins to a scribe, was likely addressed
+              to the British Andrew Fuller (1754-1815). The letter opens with a statement about
+              Hopkins declining health. The majority of the letter is a theological argument on how
               determine what a true Christian is, how to think about faith, and how an individual
               may go to heaven. The letter includes notes and edits and is unsigned indicating this
               was likely a draft letter.</p>
           </scopecontent>
-        </c02>
-        <c02 level="item">
-          <did>
-            <unittitle>Hopkins to West</unittitle>
-            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
-              <datesingle standarddate="1803">1803</datesingle>
-            </unitdatestructured>
-            <container label="Mixed Materials" localtype="box">NEHH-Small 1</container>
-            <container localtype="folder">20</container>
-            <container localtype="Item">4</container>
-          </did>
-          <scopecontent>
-            <head>Scope and Contents</head>
-            <p>In this letter, written in reply to a previous letter from Rev. Stephen West in
-              Stockbridge, Massachusetts, Samuel Hopkins recounts his recent sickness.</p>
-          </scopecontent>
-        </c02>
-      </c01>
+        </c>
+      </c>
     </dsc>
   </archdesc>
 </ead>
