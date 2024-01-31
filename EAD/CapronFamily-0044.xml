@@ -1,0 +1,2390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/CapronFamily-0044.xml"
+      >CapronFamily-0044</recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/all/files/CapronFamily-0044.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Capron Family papers, 1777-1950.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2024-01-30</date>
+        <num>MS0044</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>dacs</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2024-01-31T14:31:55+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday January 31,
+          2024 at 14:31</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Capron Family papers, 1777-1950.</unittitle>
+      <unitid>MS0044</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+        <languageset>
+          <language langcode="tam">Tamil</language>
+          <script scriptcode="Taml">Tamil</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>3.27</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(6 boxes, 1 folder)</physdesc>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1777">1777</fromdate>
+          <todate standarddate="1950">1950</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1777-1950</unitdate>
+      <abstract>William Banfield Capron was born in Uxbridge, Massachusetts on April 14, 1824. Sarah
+        Brown Hooker was born in Lanesboro, Massachusetts, on April 24, 1828. Sarah and William met
+        while both were teaching at the Hartford High School. They were married on October 1, 1856.
+        Almost immediately after their marriage, the couple were assigned to the Madurai (then
+        called Madura) Mission of the American Board of Commissioners for Foreign Missions. They
+        worked in Madurai and Manamadurai until 1872. During this time, William and Sarah had three
+        children, Annie Hooker (1860-1909), Laura Elizabeth (1862-1946) and Henry (1864-1865). They
+        returned to the United States in 1972 before returning to India in 1874. William died of
+        heart disease on October 6, 1876. Sarah continued to work in India until 1886. When she
+        returned to the United States she continued to work with the Woman's Board of Missions, gave
+        speeches, and in 1889 she began working with the Women's Department of the Bible Institute
+        for Home and Foreign Missions in Chicago. She officially retired in 1894 and died on
+        December 15, 1918. Central to the collection's papers are the letters of Sarah B. Capron
+        (née Hooker), William B. Capron, their daughters Annie H. Morse (née Capron) and Laura E.
+        Keith (née Capron), and Sarah's sister, Anne E. Tufts (née Hooker). The collection primarily
+        contains correspondence but also includes diaries and journals, manuscript writings,
+        photographs and a family album, teak wood samples and a bead toy, publications and
+        memorials, legal documents, and a fragment of a circa 1784 wedding dress.</abstract>
+      <origination label="Creator">
+        <persname identifier="n98074324" source="lcnaf">
+          <part>Capron, Sarah B., 1828-1919</part>
+        </persname>
+      </origination>
+      <origination label="Creator">
+        <persname identifier="n92023146" source="lcnaf">
+          <part>Capron, William B. (William Banfield), 1824-1876</part>
+        </persname>
+      </origination>
+      <origination label="Creator">
+        <persname rules="dacs" source="local">
+          <part>Keith, Laura E., 1862-1946</part>
+        </persname>
+      </origination>
+      <origination label="Creator">
+        <persname rules="dacs" source="local">
+          <part>Morse, Annie H., 1860-1909</part>
+        </persname>
+      </origination>
+      <origination label="Creator">
+        <persname>
+          <part>Tufts, Anne E., 1830-1917</part>
+        </persname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Capron Family papers, 1777-1950, MS0044. The
+        Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by Winthrop P. Haynes
+        in January, 1980. Additional materials were donated by Charles Haynes in May 1986. An
+        accrual to the collection was made in 2001 by Calvin L. Traylor via the Bostonian Society
+        (now Revolutionary Spaces). Three additional letters from William B. Capron were donated by
+        Richael Potaski in July 2016.</p>
+    </acqinfo>
+    <custodhist>
+      <head>Custodial History</head>
+      <p>A portion of the collection (see collection file for detailed inventory) was given to
+        Calvin L. Traylor in 1976 by Robert and Ann E. Beckhold (née Keith). This portion of the
+        collection was first donated to the Bostonian Society (now Revolutionary Spaces) in 2001 and
+        then transferred to the Congregational Library &amp; Archives not long after.</p>
+      <p>Three letters from William B. Capron were purchased at auction by Richael Potaski before
+        they were donated to the Congregational Library &amp; Archives in 2016. There is no
+        additional provenance information for these letters, nor is it clear which letters these
+        might be in the current iteration of the finding aid.</p>
+      <p>All other portions of the collection were donated to the Congregational Library &amp;
+        Archives by direct descendants.</p>
+    </custodhist>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>The collection was minimally processed by Jessica Steytler in 2002. The collection was
+        fully processed by Zachary Bodnar, January 2024, using Describing Archives: A Content
+        Standard.</p>
+    </processinfo>
+    <bioghist>
+      <head>Biographical Note</head>
+      <p>William Banfield Capron was born in Uxbridge, Massachusetts on April 14, 1824, son of
+        William Cargill Capron (1799-1875) and Chloe Capron (née Day) (1800-1882). He had three
+        younger siblings, John Henry Capron (1827-1910), Samuel Mills Capron (1832-1874), and Laura
+        Ann Washburn Biscoe (née Capron) (1837-1878). His education took him to the Phillips
+        Academy, Yale, and the Andover Theological Seminary. He was an ordained Evangelist upon his
+        graduation from Andover. While he was a student and seminarian, William was a private tutor
+        in Baltimore for one year and principal of Hopkins Grammar School in Hartford, which merged
+        into the Hartford High School, for six years.</p>
+      <p>Sarah Brown Hooker was born in Lanesboro, Massachusetts, on April 24, 1828, daughter of
+        Henry Brown Hooker (1802-1881) and Martha Vinal Hooker (née Chickering) (1806-1893). She had
+        two younger sisters, Anne Elizabeth Tufts (née Hooker) (1830-1917) and Martha Vinal
+        Chickering Hooker (1836-1838). Sarah attended the Wheaton Female Seminary and the State
+        Normal School at West Newton. She taught at the district schools of Falmouth and worked as a
+        first assistant in the Oliver High School in Lawrence and later became an assistant in the
+        Hartford High School.</p>
+      <p>Sarah and William met while both were teaching at the Hartford High School. They were
+        married on October 1, 1856. Almost immediately after their marriage, the couple were
+        assigned to the Madurai (then called Madura) Mission of the American Board of Commissioners
+        for Foreign Missions (ABCFM); they set sail for India on November 21, 1856 and arrived about
+        100 days later. After their arrival in Madurai, Sarah was put in char of the Madura Girls'
+        Boarding School while William performed evangelical work and supervised the construction of
+        a house in Manamadurai. During this time, William and Sarah had three children, Annie Hooker
+        (1860-1909), Laura Elizabeth (1862-1946) and Henry (1864-1865). The family moved to
+        Manamadurai in 1864.</p>
+      <p>The family continued to work in and around Manamadurai, doing evangelical, medical, and
+        educational work for the Madurai mission, until 1872. In 1872, William's and Sarah's
+        requests for furlough were accepted and the whole family sailed back to the United States.
+        During this time, William helped to write a publish a memorial book for his brother, Samuel
+        Mills Capron, who had taken over as principal of the Hopkins Grammar School after William
+        and died on April 1, 1874. Their furlough was ended in 1874 when Sarah and William sailed
+        back to India to continue their work with the Madurai mission. Their daughters, Annie and
+        Laura, remained in the United States under the care of Sarah's sister Anne and her husband
+        Arthur Webster Tufts.</p>
+      <p>After returning to Madurai, Sarah took some medical lessons, before she and William
+        returned to Manamadurai. In 1876, William suddenly died due to heart disease. Sarah remained
+        in India, though she was reassigned to Madurai, to continue her work with the Madurai
+        mission. She remained in India until 1886 when she retired from her foreign missionary work
+        and returned to the United States. Her work with the ABCFM did not conclude though and
+        between 1886 and 1889, Sarah worked with the Women's Board of Missions and traveled
+        extensively to give speeches and talks about her missionary work to local missionary groups
+        and churches.</p>
+      <p>In 1889, Sarah accepted the superintendent's position at the Women's Department of the
+        Bible Institute for Home and Foreign Missions in Chicago (later the Moody Bible Institute).
+        For five years she worked and lived in Chicago before retiring in 1894. After her
+        retirement, she returned to Boston and lived with her sister Anne for many years.
+        Eventually, likely due to their age, the two moved to Poughkeepsie to live with Laura and
+        her husband James Dyer Keith (1864-1943). Anne died on April 9, 1917, and Sarah died on
+        December 15, 1918.</p>
+      <p>The histories of Annie H. and Laura E. are significantly less well documented. Laura
+        married her husband, James D. Keith on June 1, 1892. They had two children, James Monroe
+        Keith (1893-1982) and Annie Hooker Hart (née Keith) (1895-1969). She and her husband lived
+        in Poughkeepsie, and were well known within Poughkeepsie, until their deaths; Laura died on
+        June 14, 1946.</p>
+      <p>Annie married her husband, Lewis Kennedy Morse (1869-1930), on April 21, 1897. They had two
+        children, Anna Hooker Haynes (née Morse) (1899-1992) and Arthur Webster Morse (1900-1975).
+        The documentary evidence show that Annie's and Laura's families were very close, with both
+        families visiting the other with some frequency. Annie died on October 31, 1909.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains the papers of the Capron Family. Central to the collection's
+        papers are the letters of Sarah B. Capron (née Hooker) and William B. Capron. Other
+        prominent family members found in the collection include Sarah's sister, Anne E. Tufts (née
+        Hooker), and Sarah's and William's daughters, Annie H. Morse (née Capron) and Laura E. Keith
+        (née Capron). The collection primarily contains correspondence from the above five family
+        members, as well as additional correspondence from the extended Hooker, Capron, and Keith
+        families. The majority of the correspondence is familial in nature and, over the course of
+        decades, documents the relationships and daily lives of five generations of family members.
+        The collection also contains a number of diaries and journals. The collection also contains
+        evidence of Sarah's and William's missionary work in Madurai, India, and at home through
+        correspondence with the American Board of Commissioners for Foreign Missions, photographs,
+        correspondence with family, and collected documents related to their missionary work. The
+        collection at large contains correspondence, manuscript writings, photographs and a family
+        album, teak wood samples and a bead toy, publications and memorials, legal documents, and a
+        fragment of a circa 1784 wedding dress.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>This series has been arranged into the below listed nine series. Generally speaking,
+        materials were sorted into these series based primarily on the creator of the materials or
+        the provenance of the materials. Materials within each series have been arranged in
+        chronological order. At one point, most correspondence within the collection was sorted and
+        foldered by recipient; as of 2024 most correspondence has now been sorted by the letter
+        writer.</p>
+      <p><emph render="bold">Series 1:</emph> Hooker Family papers, 1777-1856</p>
+      <p><emph render="bold">Series 2:</emph> Capron Family papers, 1784-1929</p>
+      <p><emph render="bold">Series 3:</emph> Anne Elizabeth Tufts (née Hooker), 1836-1910</p>
+      <p><emph render="bold">Series 4:</emph> Sarah Brown Capron (née Hooker) papers, 1837-1919</p>
+      <p><emph render="bold">Series 5:</emph> William Banfield Capron papers, 1840-1876</p>
+      <p><emph render="bold">Series 6:</emph> Miscellaneous records, 1858-1928</p>
+      <p><emph render="bold">Series 7:</emph> Annie Hooker Morse (née Capron), 1865-1909</p>
+      <p><emph render="bold">Series 8:</emph> Laura Elizabeth Keith (née Capron), 1865-1950</p>
+      <p><emph render="bold">Series 9:</emph> Photographic materials, 1882-1916</p>
+    </arrangement>
+    <relatedmaterial>
+      <head>Related Materials</head>
+      <p><ref href="https://hollisarchives.lib.harvard.edu/repositories/24/resources/2708"
+          linktitle="View finding aid online">American Board of Commissioners for Foreign Missions
+          Archives, 1810-1961</ref> (ABC 1-91) <ref
+          href="https://library.harvard.edu/libraries/houghton" linktitle="Visit Houghton Library"
+          >Houghton Library</ref>, Harvard University.</p>
+      <p><ref href="https://wheatoncollege.as.atlas-sys.com/repositories/2/resources/654"
+          linktitle="View finding aid online">Letter from Sarah B. Hooker to her parents,
+        1844</ref>, SMC-391. <ref href="https://library.wheatoncollege.edu/archives"
+          linktitle="Visit Marion B. Gebbie Archives and Special Collections">Marion B. Gebbie
+          Archives and Special Collections</ref>, Wheaton College.</p>
+      <p><ref href="https://archives.lib.duke.edu/catalog/capronsarahbrown"
+          linktitle="View finding aid online">Sarah Brown Capron Letter, 1865 December 26, December
+          28</ref>, <ref href="https://library.duke.edu/rubenstein"
+          linktitle="Visit David M. Rubenstein Rare Book &amp; Manuscript Library">David M.
+          Rubenstein Rare Book &amp; Manuscript Library</ref>, Duke University.</p>
+      <p><ref href="https://findingaids.library.upenn.edu/records/UPENN_RBML_PUSP.MS.COLL.1488"
+          linktitle="View finding aid online">Sarah Brown Hooker Capron papers, 1836-1900</ref>, Ms.
+        Coll. 1488, <ref href="https://www.library.upenn.edu/kislak"
+          linktitle="Visit Kislak Center for Special Collections">Kislak Center for Special
+          Collections</ref>, Rare Books and Manuscripts, University of Pennsylvania.</p>
+    </relatedmaterial>
+    <relatedmaterial>
+      <head>The Sarah Brown Hooker and William Banfield Capron Family Tree</head>
+      <p>The link below will bring you to a navigable family tree for Sarah and William Capron. The
+        family tree includes 90 members across six generations, many of whom appear within the
+        Capron Family papers collection. The collection is best understood when the relationships
+        between the many correspondents found within are clearly denoted. We hope that this family
+        tree will be helpful for your research while using the materials found within this
+        collection.</p>
+      <p><ref
+          href="https://www.congregationallibrary.org/sites/all/files/CapronFamilyGenealogy.html#view:START"
+          linktitle="View the Capron Family Tree">The Sarah Brown Hooker and William Banfield Capron
+          Family Tree</ref></p>
+    </relatedmaterial>
+    <bibliography>
+      <head>Bibliography</head>
+      <p>Elliot, Mary Elvira, Stimpson, Mary A., and Hoyt, Martha Seavey. <emph render="italic"
+          >Representative Women of New England.</emph> Edited by Julia Ward Howe. Boston: New
+        England Historical Publishing Company, 1904.</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh85023564" source="lcsh">
+        <part>Children of missionaries.</part>
+      </subject>
+      <subject identifier="sh85037601" source="lcsh">
+        <part>Diaries.</part>
+      </subject>
+      <subject identifier="sh85053742" source="lcsh">
+        <part>Genealogy.</part>
+      </subject>
+      <subject identifier="sh85076240" source="lcsh">
+        <part>Letters.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Missionaries -- India.</part>
+      </subject>
+      <subject identifier="sh85086027" source="lcsh">
+        <part>Missionaries' spouses.</part>
+      </subject>
+      <subject identifier="sh85101196" source="lcsh">
+        <part>Photograph albums.</part>
+      </subject>
+      <subject identifier="sh85101195" source="lcsh">
+        <part>Photographs. </part>
+      </subject>
+      <corpname identifier="n50060748" source="lcnaf">
+        <part>American Board of Commissioners for Foreign Missions</part>
+      </corpname>
+      <corpname identifier="n50006335" source="lcnaf">
+        <part>Chicago Evangelization Society. Bible Institute for Home and Foreign Missions</part>
+      </corpname>
+      <corpname identifier="no2008092143" source="lcnaf">
+        <part>Lucy Perry Noble Bible School (Madurai, India)</part>
+      </corpname>
+      <corpname identifier="n80061081" source="lcnaf">
+        <part>Tamil Nadu (India) -- Missions </part>
+      </corpname>
+      <corpname identifier="n88224336" source="lcnaf">
+        <part>Woman's Board of Missions</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="series">
+        <did>
+          <unittitle>Hooker Family papers</unittitle>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>1</quantity>
+            <unittype>Volume</unittype>
+          </physdescstructured>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>3</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1777">1777</fromdate>
+              <todate standarddate="1856">1856</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1777-1856</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains records originating from the extended Hooker family. The majority
+            of the records within this series were authored by Henry B. Hooker, the father of Sarah
+            B. Capron (née Hooker) and Anna E. Tufts (née Hooker). There is also a legal copy of the
+            will of John Hooker, Sarah's and Anna's great grandfather. The</p>
+        </scopecontent>
+        <c level="file">
+          <did>
+            <unittitle>John Hooker will (copy)</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="record_keeping"
+              unitdatetype="inclusive">
+              <datesingle standarddate="1777">1777</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">1</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Henry B. Hooker correspondence</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1830">1830</fromdate>
+                <todate standarddate="1836">1836</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1830-1836</unitdate>
+            <container label="Mixed Materials" localtype="box">5</container>
+            <container localtype="folder">5</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Henry B. Hooker Index Rerum</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1830">1830</fromdate>
+                <todate standarddate="1850">1850</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1830-1850</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">12</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Henry B. Hooker to Sarah B. Capron (née Hooker)</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1850">1850</fromdate>
+                <todate standarddate="1856">1856</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1850-1856</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">2</container>
+          </did>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unittitle>Capron Family papers</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>11</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1784">1784</fromdate>
+              <todate standarddate="1929">1929</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1784-1929</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains the papers of the extended Capron family. The majority of the
+            papers in this series are correspondence from William B. Capron's immediate family to
+            William. A fragment of the wedding dress of Asenath Capron (née Cargil), William's
+            grandmother, is also a part of this series.</p>
+        </scopecontent>
+        <c level="file">
+          <did>
+            <unittitle>Asenath Capron (née Cargil) wedding dress fragment</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1784">circa 1784</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">1</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Laura A. W. Biscoe (née Capron) to William B. Capron</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1839">1839</fromdate>
+                <todate standarddate="1848">1848</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1839-1848</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">83</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Samuel M. Capron to William B. Capron</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1840">1840</fromdate>
+                <todate standarddate="1849">1849</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1840-1849</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">84</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>William C. Capron to William B. Capron</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1841">1841</fromdate>
+                <todate standarddate="1849">1849</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1841-1849</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">85</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>John H. Capron to William B. Capron</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1843">1843</fromdate>
+                <todate standarddate="1846">1846</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1843-1846</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">86</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Chloe Capron (née Day) to William B. Capron</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1847">1847</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">87</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Samuel M. Capron to Chloe Capron (née Day)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1852">1852</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">88</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Samuel M. Capron to William B. Capron</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1857">1857</fromdate>
+                <todate standarddate="1859">1859</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1857-1859</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">2</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Letters to Laura A. W. Biscoe (née Capron)</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1865">1865</fromdate>
+                <todate standarddate="1869">1869</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1865-1869</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">3</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>William C. Capron deeds (copy)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1894">1894</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">5</container>
+            <container localtype="folder">3</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Laura Capron Green to Clara Day Capron</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1927">1927</fromdate>
+                <todate standarddate="1929">1929</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1927-1929</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">4</container>
+          </did>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unittitle>Anne Elizabeth Tufts (née Hooker)</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>21</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1836">1836</fromdate>
+              <todate standarddate="1910">1910</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1836-1910</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains the papers of Anne Elizabeth Tufts (née Hooker). The majority of
+            the papers are letters written by Anne to family members, especially her sister, Sarah
+            B. Capron (née Hooker) and niece Laura E. Keith (née Capron). This series also contains
+            miscellaneous letters sent to Anna and some letters from her husband, Arthur W. Tufts,
+            and his family.</p>
+        </scopecontent>
+        <c level="file">
+          <did>
+            <unittitle>Anne E. Tufts (née Hooker) correspondence</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1836">1836</fromdate>
+                <todate standarddate="1857">1857</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1836-1857</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">36</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Anne E. Tufts (née Hooker) to Henry B. Hooker</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1845">1845</fromdate>
+                <todate standarddate="1855">1855</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1845-1855</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">37</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Anne E. Tufts (née Hooker) to Martha V. Hooker (née Chickering)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1846">1846</fromdate>
+                <todate standarddate="1856">1856</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1846-1856</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">38</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Anne E. Tufts (née Hooker) to aunt Vinal</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1848">1848</fromdate>
+                <todate standarddate="1853">1853</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1848-1853</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">39</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Anne E. Tufts (née Hooker) to uncle Vinal</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1849">1849</fromdate>
+                <todate standarddate="1851">1851</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1849-1851</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">40</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Anne E. Tufts (née Hooker) to Anna H. Chickering (née Titcomb)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1850">1850</fromdate>
+                <todate standarddate="1853">1853</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1850-1853</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">41</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Anne E. Tufts (née Hooker) to Sarah B. Capron (née Hooker)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1885">1885</fromdate>
+                <todate standarddate="1886">1886</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1885-1886</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">42</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Anne E. Tufts (née Hooker) to Martha V. Hooker (née Chickering)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1886">1886</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">43</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Anne E. Tufts (née Hooker) to Annie H. Morse (née Capron)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1886">1886</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">44</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Anne E. Tufts (née Hooker) to Laura E. Keith (née Capron)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1886">1886</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">45</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Arthur W. Tufts to Sarah B. Capron (née Hooker)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1889">1889</fromdate>
+                <todate standarddate="1891">1891</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1889-1891</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">46</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Anne E. Tufts (née Hooker) to Sarah B. Capron (née Hooker)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1889">1889</fromdate>
+                <todate standarddate="1891">1891</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1889-1891</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">47</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Anne E. Tufts (née Hooker) to Laura E. Keith (née Capron)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1903">1903</fromdate>
+                <todate standarddate="1905">1905</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1903-1905</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">48</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Anne E. Tufts (née Hooker) to Laura E. Keith (née Capron)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1906">1906</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">49</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Anne E. Tufts (née Hooker) correspondence</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1906">1906</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">50</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Sarah S. Burke (née Tufts) to Anne E. Tufts (née Hooker)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1908">circa 1908</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">51</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Anne E. Tufts (née Hooker) to Laura E. Keith (née Capron)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1908">1908</fromdate>
+                <todate standarddate="1909">1909</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1908-1909</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">52</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Letters to Anne E. Tufts (née Hooker)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1909">1909</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">53</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Emma F. Powers (née Tufts) to Anne E. Tufts (née Hooker)</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1909">1909</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">89</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Anne E. Tufts (née Hooker) to James D. Keith</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1909">1909</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">54</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Anne E. Tufts (née Hooker) to Laura E. Keith (née Capron)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1910">1910</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">55</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Anne E. Tufts (née Hooker) poetry</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">56</container>
+          </did>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unittitle>Sarah Brown Capron (née Hooker) papers</unittitle>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>35</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <physdescstructured coverage="part" physdescstructuredtype="materialtype">
+            <quantity>8</quantity>
+            <unittype>Volumes</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1837">1837</fromdate>
+              <todate standarddate="1919">1919</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1837-1919</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains the papers of Sarah B. Capron (née Hooker). The majority of the
+            papers in this series are letters written by Sarah to her immediate family members,
+            especially her sister Anne E. Tufts (née Hooker) and her daughters Annie H. Morse (née
+            Capron) and Laura E. Keith (née Capron). This series also contains journals,
+            correspondence to Sarah, manuscript writings, and a book detailing the various addresses
+            Sarah delivered.</p>
+        </scopecontent>
+        <c level="file">
+          <did>
+            <unittitle>Sarah B. Capron (née Hooker) to aunt Vinal</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1837">1837</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">1</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Sarah B. Capron (née Hooker) to Anne E. Tufts (née Hooker)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1837">1837</fromdate>
+                <todate standarddate="1857">1857</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1837-1857</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">2</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Sarah B. Capron (née Hooker) to Miss Mary Drew</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1844">1844</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">3</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Sarah B. Capron (née Hooker) correspondence</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1844">1844</fromdate>
+                <todate standarddate="1856">1856</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1844-1856</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">4</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Sarah B. Capron (née Hooker) book of poetry</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1849">1849</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">1</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Sarah B. Capron (née Hooker) journal</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1852">1852</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">2</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>First Congregational Society to Sarah B. Capron (née Hooker),
+              1852</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1852">1852</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">5</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Sarah B. Capron (née Hooker) to Anne E. Tufts (née Hooker)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1853">1853</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">6</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Sarah B. Capron (née Hooker) to Martha V. Hooker (née Chickering)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1853">1853</fromdate>
+                <todate standarddate="1854">1854</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1853-1854</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">7</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Sarah B. Capron (née Hooker) to Anna H. Chickering (née Titcomb)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1853">1853</fromdate>
+                <todate standarddate="1854">1854</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1853-1854</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">8</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Sarah B. Capron (née Hooker) to aunt Vinal</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1853">1853</fromdate>
+                <todate standarddate="1854">1854</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1853-1854</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">9</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Sarah B. Capron (née Hooker) journal (copy)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1856">1856</fromdate>
+                <todate standarddate="1857">1857</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1856-1857</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">3</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Sarah B. and William B. journal (correspondence)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1857">1857</fromdate>
+                <todate standarddate="1866">1866</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1857-1866</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">6</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Sarah B. Capron (née Hooker) journal (copy)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1858">1858</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">4</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Sarah B. Capron (née Hooker) journal</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1858">1858</fromdate>
+                <todate standarddate="1865">1865</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1858-1865</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">5</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Sarah B. Capron (née Hooker) Manamadurai correspondence</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1860">1860</fromdate>
+                <todate standarddate="1884">1884</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1860-1884</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">10</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Sarah B. Capron (née Hooker) to Martha V. Hooker (née Chickering)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1863">1863</fromdate>
+                <todate standarddate="1865">1865</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1863-1865</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">11</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Sarah B. Capron (née Hooker) Manamadurai correspondence</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1863">1863</fromdate>
+                <todate standarddate="1868">1868</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1863-1868</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">12</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Sarah B. Capron (née Hooker) to Martha V. Hooker (née Chickering) and Anne E.
+              Tufts (née Hooker) </unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1865">1865</fromdate>
+                <todate standarddate="1883">1883</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1865-1883</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">13</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Sarah B. Capron (née Hooker) correspondence</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1880">1880</fromdate>
+                <todate standarddate="1886">1886</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1880-1886</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">14</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Letters to Sarah B. Capron (née Hooker)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1885">1885</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">15</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Autographs for Sarah B. Capron (née Hooker)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1886">1886</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">7</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>S.P.C.K Press publications</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1887">1887</fromdate>
+                <todate standarddate="1905">1905</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1887-1905</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">16</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Addresses by Sarah B. Capron (née Hooker)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1888">1888</fromdate>
+                <todate standarddate="1889">1889</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1888-1889</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">8</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Sarah B. Capron (née Hooker) articles and writings</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1895">1895</fromdate>
+                <todate standarddate="1902">1902</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1895-circa 1902</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">17</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Sarah B. Capron (née Hooker) biographies</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1895">1895</fromdate>
+                <todate standarddate="1918">1918</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1895, 1918</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">18</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Sarah B. Capron (née Hooker) memorials</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1898">1898</fromdate>
+                <todate standarddate="1919">1919</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1898, 1918-1919</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">19</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Sarah B. Capron (née Hooker) to Laura E. Keith (née Capron)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1903">1903</fromdate>
+                <todate standarddate="1905">1905</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1903-1905</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">20</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Sarah B. Capron (née Hooker) to Annie H. Morse (née Capron)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1904">1904</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">21</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Sarah B. Capron (née Hooker) to Laura E. Keith (née Capron)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1906">1906</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">22</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Sarah B. Capron (née Hooker) to Laura E. Keith (née Capron)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1908">1908</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">23</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Sarah B. Capron (née Hooker) to Laura E. Keith (née Capron)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1909">1909</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">24</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Sarah B. Capron (née Hooker) to Laura E. Keith (née Capron)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1909">1909</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">25</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Sarah B. Capron (née Hooker) to James M. Keith</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1909">1909</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">26</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Letters to Sarah B. Capron (née Hooker)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1909">1909</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">27</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Clara Day Capron to Sarah B. Capron (née Hooker)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1909">1909</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">28</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Alice M. St. John (née Biscoe) to Sarah B. Capron (née Hooker)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1909">1909</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">29</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Bertha C. Robbins (née Capron) to Sarah B. Capron (née Hooker)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1910">1910</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">30</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Sarah B. Capron (née Hooker) to Laura E. Keith (née Capron)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1910">1910</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">31</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Sarah B. Capron (née Hooker) to Annie H. Hart (née Keith)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1910">1910</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">32</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Sarah B. Capron (née Hooker) to Laura E. Keith (née Capron)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1914">1914</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">33</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>"The Mother and Daughter! A Peek into Hindu's Life" manuscript</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">34</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Ladies' Department of the Bible Institute for Home and Foreign Missions
+              brochure</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">35</container>
+          </did>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unittitle>William Banfield Capron papers</unittitle>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>14</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <physdescstructured coverage="part" physdescstructuredtype="materialtype">
+            <quantity>3</quantity>
+            <unittype>Volumes</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1840">1840</fromdate>
+              <todate standarddate="1876">1876</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1840-1876</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains the papers of William B. Capron. The majority of the papers in
+            this series are letters written by William to his immediate family members, such as
+            Samuel M. Capron and Laura A. W. Biscoe (née Capron). This series also contains letters
+            written to the American Board of Commissioners for Foreign Missions, manuscript
+            writings, letters written in Tamil, and additional letters addressed to William. A
+            portion of William's correspondence while in India was collected into a correspondence
+            journal which can be found in the Sarah Brown Capron (née Hooker) series.</p>
+        </scopecontent>
+        <c level="file">
+          <did>
+            <unittitle>William B. Capron to Chloe Capron (née Day)</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1840">1840</fromdate>
+                <todate standarddate="1847">1847</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1840-1847</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">3</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Miscellaneous letters to William B. Capron</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1843">1843</fromdate>
+                <todate standarddate="1849">1849</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1843-1849</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">4</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>William B. Capron correspondence</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1856">1856</fromdate>
+                <todate standarddate="1861">1861</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1856-1861</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">9</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>William B. Capron to Samuel M. Capron</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1856">1856</fromdate>
+                <todate standarddate="1864">1864</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1856-1864</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">5</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>William B. Capron correspondence</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1857">1857</fromdate>
+                <todate standarddate="1868">1868</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1857-1868</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">10</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>William and Sarah Capron letters to the Sabbath school</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1861">1861</fromdate>
+                <todate standarddate="1869">1869</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1861-1869</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">8</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>William B. Capron to Laura A. W. Biscoe (née Capron)</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1862">1862</fromdate>
+                <todate standarddate="1865">1865</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1862-1865</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">9</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>William B. Capron correspondence in Tamil</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1862">1862</fromdate>
+                <todate standarddate="1869">1869</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1862-1869</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">6</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>William B. Capron correspondence and diagrams</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1863">1863</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">10</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>William B. Capron diary</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1865">1865</fromdate>
+                <todate standarddate="1866">1866</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1865-1866</unitdate>
+            <container label="Mixed Materials" localtype="box">5</container>
+            <container localtype="volume">1</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>William B. Capron to Laura A. W. Biscoe (née Capron)</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1865">1865</fromdate>
+                <todate standarddate="1868">1868</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1865-1868</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">7</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Copies of letters from William B. Capron to family</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1867">1867</fromdate>
+                <todate standarddate="1868">1868</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1867-1868</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">11</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>William B. Capron Jaffna correspondence</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1868">1868</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">12</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>William B. Capron to Prudential Committee</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1871">1871</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">13</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>William B. Capron manuscript writings on India</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1874">1874</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">14</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>William B. Capron correspondence</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1874">1874</fromdate>
+                <todate standarddate="1876">1876</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1874-1876</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">15</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Articles following the death of William B. Capron</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1876">1876</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">16</container>
+          </did>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unittitle>Miscellaneous records</unittitle>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>7</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>1</quantity>
+            <unittype>Volume</unittype>
+          </physdescstructured>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>7</quantity>
+            <unittype>Objects</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1858">1858</fromdate>
+              <todate standarddate="1928">1928</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1858-1928</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains records and papers which, otherwise, do not fit the rest of this
+            collection's series and whose provenance is unclear as to make it difficult to associate
+            the materials with one particular person within the collection. A number of the papers
+            are related to missionary work, and specifically, with the American Board of
+            Commissioners for Foreign Missions. This series also contains a number of artifacts,
+            including a bead toy, wood samples, and a teak dowel.</p>
+        </scopecontent>
+        <c level="file">
+          <did>
+            <unittitle>Miscellaneous correspondence</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1858">1858</fromdate>
+                <todate standarddate="1928">1928</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1858-1928</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">5</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Treasurer's record of the Ladies' Missionary Society</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1862">1862</fromdate>
+                <todate standarddate="1885">1885</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1860-1885</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="volume">1</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>David C. Scudder letters and letter from Alice A. Evans regarding David
+              Scudder</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1861">1861</fromdate>
+                <todate standarddate="1862">1862</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1861-1862</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">6</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Mary Susan Rice letters</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1863">1863</fromdate>
+                <todate standarddate="1864">1864</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1863-1864</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">7</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>H. W. Ballantine letter to Sabbath school</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1864">1864</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">8</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Letters to Helen W. Reynolds</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1901">1901</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">9</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Miscellaneous genealogy related clippings and documents</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1907">1907</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">5</container>
+            <container localtype="folder">4</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Dr. Slap "Table Reminiscences"</unittitle>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >undated</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">10</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Teak dowel</unittitle>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >undated</unitdate>
+            <container label="Physical Object" localtype="box">5</container>
+            <container localtype="object">1</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Bead toy</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container label="Physical Object" localtype="box">6</container>
+            <container localtype="object">1</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Wood samples</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container label="Physical Object" localtype="box">6</container>
+            <container localtype="object">2-6</container>
+          </did>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unittitle>Annie Hooker Morse (née Capron)</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>11</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1865">1865</fromdate>
+              <todate standarddate="1909">1909</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1865-1909</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains the papers of Annie H. Morse (née Capron), daughter of Sarah (née
+            Hooker) and William Capron. The majority of this series contains letters authored by
+            Annie to her immediate family. This series also contains letters from Annie's husband,
+            Lewis K. Morse, and miscellaneous letters sent to Annie.</p>
+        </scopecontent>
+        <c level="file">
+          <did>
+            <unittitle>Annie H. Morse (née Capron) certificate</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1865">1865</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">72</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Annie H. Morse (née Capron) to Sarah B. Capron (née Hooker)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1885">1885</fromdate>
+                <todate standarddate="1886">1886</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1885-1886</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">73</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Annie H. Morse (née Capron) to Laura E. Keith (née Capron)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1885">1885</fromdate>
+                <todate standarddate="1886">1886</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1885-1886</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">74</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Annie H. Morse (née Capron) to Anne E. Tufts (née Hooker)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1886">1886</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">75</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Annie H. Morse (née Capron) to Laura E. Keith (née Capron)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1904">1904</fromdate>
+                <todate standarddate="1906">1906</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1904-1906</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">76</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Annie H. Morse (née Capron) to Sarah B. Capron (née Hooker)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1906">1906</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">77</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Annie H. Morse (née Capron) to Anne E. Tufts (née Hooker)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1906">1906</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">78</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Alice H. Wellington to Annie and Lewis Morse</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1906">1906</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">79</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Annie H. Morse (née Capron) to Anne E. Tufts (née Hooker)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1908">1908</fromdate>
+                <todate standarddate="1909">1909</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1908-1909</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">80</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Annie H. Morse (née Capron) to Laura E. Keith (née Capron)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1908">1908</fromdate>
+                <todate standarddate="1909">1909</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1908-1909</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">81</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Annie H. Morse (née Capron) to Sarah B. Capron (née Hooker)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1909">1909</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">82</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Lewis K. Morse to Laura E. Keith (née Capron)</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1909">1909</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">90</container>
+          </did>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unittitle>Laura Elizabeth Keith (née Capron)</unittitle>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>18</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>1</quantity>
+            <unittype>Volume</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1865">1865</fromdate>
+              <todate standarddate="1950">1950</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1865-1950</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains the papers of Laura E. Keith (née Capron), daughter of Sarah (née
+            Hooker) and William Capron. The majority of this series contains letters authored by
+            Laura. The series also contains correspondence between members of the Keith family,
+            correspondence from Laura's children, James and Annie, letters from Laura's husband,
+            James D. Keith, and a journal.</p>
+        </scopecontent>
+        <c level="file">
+          <did>
+            <unittitle>Miscellaneous American Board of Commissioners for Foreign Missions
+              publications</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1865">1865</fromdate>
+                <todate standarddate="1950">1950</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1865-1950</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">57</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Miscellaneous collected publications</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1871">1871</fromdate>
+                <todate standarddate="1906">1906</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1871, 1906</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">58</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Laura E. Keith (née Capron) to Sarah B. Capron (née Hooker)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1884">1884</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">59</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Laura E. Keith (née Capron) to Martha V. Hooker (née Chickering)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1885">1885</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">60</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Laura E. Keith (née Capron) to Anne E. Tufts (née Hooker)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1885">1885</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">61</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Laura E. Keith (née Capron) to Sarah B. Capron (née Hooker)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1885">1885</fromdate>
+                <todate standarddate="1886">1886</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1885-1886</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">62</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Laura E. Keith (née Capron) diary</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1886">1886</fromdate>
+                <todate standarddate="1908">1908</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1886-1908</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">11</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Correspondence to James W. Keith and John W. Keith</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1890">1890</fromdate>
+                <todate standarddate="1894">1894</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1890-1894</unitdate>
+            <container label="Mixed Materials" localtype="box">5</container>
+            <container localtype="folder">1</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>James M. Keith and Arthur M. Keith lawsuit correspondence</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1891">1891</fromdate>
+                <todate standarddate="1892">1892</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1891-1892</unitdate>
+            <container label="Mixed Materials" localtype="box">5</container>
+            <container localtype="folder">2</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Letters to Laura E. Keith (née Capron)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1904">1904</fromdate>
+                <todate standarddate="1906">1906</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">circa 1904-1906</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">63</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Laura E. Keith (née Capron) to Anne E. Tufts (née Hooker)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1906">1906</fromdate>
+                <todate standarddate="1908">1908</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1906-1908</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">64</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Annie H. Hart (née Keith) to Laura E. Keith (née Capron)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1906">1906</fromdate>
+                <todate standarddate="1909">1909</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1906-1909</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">65</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>James M. Keith to Laura E. Keith (née Capron) and James D. Keith</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1906">1906</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">66</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>James D. Keith to Laura E. Keith (née Capron)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1906">1906</fromdate>
+                <todate standarddate="1909">1909</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1906-1909</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">67</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Laura E. Keith (née Capron) to Annie H. Morse (née Capron)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1909">1909</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">68</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Letters to Laura E. Keith (née Capron)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1925">1925, undated</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">69</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Dindigal Boarding School recitation hall blueprint</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1927">1927</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="folder">7</container>
+          </did>
+          <separatedmaterial>
+            <head>Separated Materials</head>
+            <p>This blueprint was separated from the folder "Correspondence between Laure E. Keith
+              (née Capron) and the American Board of Commissioners for Foreign Missions, 1928-1938"
+              to be safely stored in flat files.</p>
+          </separatedmaterial>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Correspondence between Laure E. Keith (née Capron) and the American Board of
+              Commissioners for Foreign Missions</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1928">1928</fromdate>
+                <todate standarddate="1938">1938</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1928-1938</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">70</container>
+          </did>
+          <separatedmaterial>
+            <head>Separated Materials</head>
+            <p>The "Dindigal Boarding School recitation hall blueprint, 1927" was removed from this
+              folder so that it could be safely stored in the flat files.</p>
+          </separatedmaterial>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Laura E. Keith (née Capron) to Sarah B. Capron (née Hooker)</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">71</container>
+          </did>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unittitle>Photographic materials</unittitle>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>6</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <physdescstructured coverage="part" physdescstructuredtype="materialtype">
+            <quantity>2</quantity>
+            <unittype>Volumes</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1882">1882</fromdate>
+              <todate standarddate="1916">1916</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1882-1916</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains photographs and other types of visual media. The majority of the
+            series contains photographs taken in India, likely mostly from Madurai and its environs.
+            This series also contains a series of images from South Africa and an album for the
+            Capron family.</p>
+        </scopecontent>
+        <c level="item">
+          <did>
+            <unittitle>India photograph album</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1882">1882</fromdate>
+                <todate standarddate="1886">1886</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">circa 1882-1886</unitdate>
+            <container label="Mixed Materials" localtype="box">5</container>
+            <container localtype="volume">2</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Lucy Perry Noble Bible School tract and photograph</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1914">1914</fromdate>
+                <todate standarddate="1916">1916</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1914-1916</unitdate>
+            <container label="Mixed Materials" localtype="box">4</container>
+            <container localtype="folder">1</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Photographs of India</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container label="Mixed Materials" localtype="box">4</container>
+            <container localtype="folder">2</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Images of India</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container label="Mixed Materials" localtype="box">4</container>
+            <container localtype="folder">3</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>India panorama</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container label="Mixed Materials" localtype="box">5</container>
+            <container localtype="folder">6</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Images of South Africa</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container label="Mixed Materials" localtype="box">4</container>
+            <container localtype="folder">4</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Miscellaneous photographs</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container label="Mixed Materials" localtype="box">4</container>
+            <container localtype="folder">5</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Capron family album</unittitle>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >undated</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="volume">2</container>
+          </did>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
