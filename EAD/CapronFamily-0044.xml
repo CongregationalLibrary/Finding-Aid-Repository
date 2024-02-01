@@ -49,11 +49,11 @@
     <maintenancehistory>
       <maintenanceevent>
         <eventtype value="derived"/>
-        <eventdatetime>2024-01-31T14:31:55+00:00</eventdatetime>
+        <eventdatetime>2024-02-01T13:44:14+00:00</eventdatetime>
         <agenttype value="machine"/>
         <agent>ArchivesSpace v3.2.0</agent>
-        <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday January 31,
-          2024 at 14:31</eventdescription>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Thursday February 1,
+          2024 at 13:44</eventdescription>
       </maintenanceevent>
     </maintenancehistory>
   </control>
@@ -96,7 +96,7 @@
         called Madura) Mission of the American Board of Commissioners for Foreign Missions. They
         worked in Madurai and Manamadurai until 1872. During this time, William and Sarah had three
         children, Annie Hooker (1860-1909), Laura Elizabeth (1862-1946) and Henry (1864-1865). They
-        returned to the United States in 1972 before returning to India in 1874. William died of
+        returned to the United States in 1872 before returning to India in 1874. William died of
         heart disease on October 6, 1876. Sarah continued to work in India until 1886. When she
         returned to the United States she continued to work with the Woman's Board of Missions, gave
         speeches, and in 1889 she began working with the Women's Department of the Bible Institute
@@ -233,7 +233,7 @@
         June 14, 1946.</p>
       <p>Annie married her husband, Lewis Kennedy Morse (1869-1930), on April 21, 1897. They had two
         children, Anna Hooker Haynes (née Morse) (1899-1992) and Arthur Webster Morse (1900-1975).
-        The documentary evidence show that Annie's and Laura's families were very close, with both
+        The documentary evidence shows that Annie's and Laura's families were very close, with both
         families visiting the other with some frequency. Annie died on October 31, 1909.</p>
     </bioghist>
     <scopecontent>
@@ -303,8 +303,7 @@
         between the many correspondents found within are clearly denoted. We hope that this family
         tree will be helpful for your research while using the materials found within this
         collection.</p>
-      <p><ref
-          href="https://www.congregationallibrary.org/sites/all/files/CapronFamilyGenealogy.html#view:START"
+      <p><ref href="https://congregationallibrary.org/sites/default/files/CapronFamilyTree.html"
           linktitle="View the Capron Family Tree">The Sarah Brown Hooker and William Banfield Capron
           Family Tree</ref></p>
     </relatedmaterial>
@@ -342,9 +341,18 @@
       <corpname identifier="n50060748" source="lcnaf">
         <part>American Board of Commissioners for Foreign Missions</part>
       </corpname>
+      <persname rules="rda" source="local">
+        <part>Capron, Samuel Mills, 1832-1874</part>
+      </persname>
       <corpname identifier="n50006335" source="lcnaf">
         <part>Chicago Evangelization Society. Bible Institute for Home and Foreign Missions</part>
       </corpname>
+      <persname identifier="nr96011600" source="lcnaf">
+        <part>Hooker, H. B. (Henry Brown), 1802-1881</part>
+      </persname>
+      <persname identifier="n85387647" source="lcnaf">
+        <part>Hooker, John, 1729-1777</part>
+      </persname>
       <corpname identifier="no2008092143" source="lcnaf">
         <part>Lucy Perry Noble Bible School (Madurai, India)</part>
       </corpname>
