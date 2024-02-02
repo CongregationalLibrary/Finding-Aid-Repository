@@ -1,0 +1,1239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="completed"
+    langencoding="iso639-2b" repositoryencoding="iso15511">
+    <eadid countrycode="US" mainagencycode="US-MBC">BerkeleyCAGrace-5473</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Berkeley, CA. Grace North Church records, 1891-2016.
+          <num>RG5473</num></titleproper>
+        <author>Billy McCarthy</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <p><date>2024-01-31</date></p>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline>Business Number: 617-523-0470</addressline>
+          <addressline>info@14beacon.org</addressline>
+          <addressline>URL: <extptr xlink:href="http://www.CongregationalLibrary.org"
+              xlink:show="new" xlink:title="http://www.CongregationalLibrary.org"
+              xlink:type="simple"/></addressline>
+        </address>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>This finding aid was produced using ArchivesSpace on <date>2024-02-02 19:42:42
+          +0000</date>.</creation>
+      <langusage>English</langusage>
+      <descrules>DACS 2019.0.3</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <repository>
+        <corpname>Congregational Library &amp; Archives</corpname>
+      </repository>
+      <unittitle>Berkeley, CA. Grace North Church records, 1891-2016.</unittitle>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">North Congregational Church (Berkeley,
+          Calif.)</corpname>
+      </origination>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">Congregational Church of North Berkeley (Berkeley,
+          Calif.)</corpname>
+      </origination>
+      <origination label="Creator">
+        <corpname>Grace North Church (Berkeley, Calif.)</corpname>
+      </origination>
+      <unitid>RG5473</unitid>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">5.31 Cubic Feet</extent>
+        <extent altrender="carrier">(7 boxes)</extent>
+      </physdesc>
+      <unitdate calendar="gregorian" datechar="creation" normal="1891/2016" type="inclusive"
+        >1891-2016</unitdate>
+      <abstract >The North Grace Church's origins begin
+        at a meeting on June 28, 1892 with twenty-four "charter members." The newly formed church,
+        then called the Congregational Church of North Berkeley, would be led by Rev. David F.
+        Taylor. The church would close as North Congregational Church in 1992. The church would make
+        a return in 1995 as Grace North Church and remain open until 2023. This collection contains
+        various records from across Grace North Church and includes topics like vital statistics,
+        church reports and meeting minutes, auxiliary organizations, finances, histories and
+        publications, and church buildings.</abstract>
+      <langmaterial>
+        <language langcode="eng">English</language> . </langmaterial>
+    </did>
+    <accessrestrict >
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict >
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite >
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Berkeley, CA. Grace North Church records, 1891-2016,
+        RG5473. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo >
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by Ric Reed, secretary
+        of North Grace Church in August 2023; 2023-38.</p>
+    </acqinfo>
+    <processinfo >
+      <head>Processing Information</head>
+      <p>Collection was processed in January 2024 by Billy McCarthy using DACS Second Edition.</p>
+    </processinfo>
+    <bioghist >
+      <head>Historical Note</head>
+      <p>The North Grace Church's origins begin at a meeting on June 28, 1892, moderated by Rev.
+        J.K. McLean and Rev. E.F. Dinsmore as the scribe. At this meeting, articles of faith and a
+        covenant were accepted by twenty-six members. Two people would drop shortly after, leaving
+        the new church with twenty-four "charter members." The newly formed church, then called the
+        Congregational Church of North Berkeley, would be led by Rev. David F. Taylor. A new church
+        building would be dedicated on May 21, 1893, at the southwest corner of Cedar and Oxford
+        Streets. </p>
+      <p>The Church would be officially incorporated in California on September 25, 1895. The
+        church's membership would be around 147 members in 1904, twelve years after being formed.
+        The following year, the church building was moved to the rear of the lot and elevated to
+        house Sunday School rooms, pastor's study, and parlor. Out of this Sunday School grew the
+        Chinese branch of North Church which would go on to become Berkeley Chines Church in 1914. </p>
+      <p>The now called North Church steadily moved through the Depression and into the 1940s. On
+        September 7, 1944, the church building was destroyed in a fire. The congregation would meet
+        at various other locations for a couple of years until a new building was completed on
+        January 16, 1949. Much of the process was led by Rev. Eugene Haynes alongside numerous other
+        members of the community. </p>
+      <p>In 1960, the North Congregational Church decided to join the United Church of Christ. This
+        membership would last until 1968, when the church would join the National Association of
+        Congregational Christian Churches. The church would progress through the 1970s, closing
+        their Sunday School in 1975 due to low attendance. The church's overall membership would see
+        decline through the 1980s, though benevolent giving continued to be strong. Continued
+        decline in membership led to the church agreeing to close its doors in 1992, giving the land
+        over to the National Association of Congregational Christian Churches. </p>
+      <p>The closure in 1992 was not the end of the story and in 1995 fourteen former members of the
+        North Congregational Church asked the Grace Institute to join and form a new church which
+        would eventually be called Grace North Church. The Institute was filled with former members
+        of the North Congregational Church and worshipped in the same building. Thus, the legacy of
+        North Congregational Church was taken on by the Grace North Church. They rejoined the
+        National Association of Congregational Christian Churches in June of 1995. This Grace North
+        Church would continue to serve the community until it officially closed in 2023.</p>
+    </bioghist>
+    <scopecontent >
+      <head>Scope and Contents</head>
+      <p>This collection contains various records from across Grace North Church and includes topics
+        like vital statistics, church reports and meeting minutes, auxiliary organizations,
+        finances, histories and publications, and church buildings.</p>
+    </scopecontent>
+    <arrangement >
+      <head>Arrangement</head>
+      <p>This collection has been arranged into five series from the Grace North Church. The Church
+        Reports and Meeting Minutes series and the Auxiliary Organizations series have been further
+        divdied into subseries. All of the series and subseries have been arranged into
+        chronological order.</p>
+      <p><emph render="bold">Series 1:</emph> Vital Statistics, 1891-2016</p>
+      <p><emph render="bold">Series 2:</emph> Church Reports and Meeting Minutes, 1892-2010</p>
+      <p><emph render="italic">Sub-series 1:</emph> Meeting Minutes, 1892-2010</p>
+      <p><emph render="italic">Sub-series 2:</emph> Reports, 1914-2005</p>
+      <p><emph render="bold">Series 3:</emph> Auxiliary Organizations, 1899-1955, 1989-1996</p>
+      <p><emph render="italic">Sub-series 1:</emph> Ladies' Aid Society, 1899-1924</p>
+      <p><emph render="italic">Sub-series 2:</emph> Bay Association, 1921-1955</p>
+      <p><emph render="bold">Series 4:</emph> Finances, 1937-1973</p>
+      <p><emph render="bold">Series 5:</emph> Histories and Publications, 1942-1959, 1990-1998</p>
+      <p><emph render="bold">Series 6:</emph> Building and Architecture, 1948-1966, 1995-2010</p>
+    </arrangement>
+    <bibliography >
+      <head>Bibliography</head>
+      <p>North Congregational Church: A History of 75 Years. Berkeley: Andlyn Press, 1967.</p>
+    </bibliography>
+    <controlaccess>
+      <subject authfilenumber="sh2001006720" source="lcsh">Guest books.</subject>
+      <subject authfilenumber="sh85147343" source="lcsh">Women -- Societies and clubs.</subject>
+      <subject authfilenumber="sh85025741" source="lcsh">Church records and registers.</subject>
+      <subject authfilenumber="sh85025606" source="lcsh">Church finance.</subject>
+      <subject authfilenumber="sh85025619" source="lcsh">Church history.</subject>
+      <subject authfilenumber="sh85025649" source="lcsh">Church membership.</subject>
+      <subject authfilenumber="sh85025854" source="lcsh">Church buildings.</subject>
+      <subject authfilenumber="sh85025042" source="lcsh">Christian education.</subject>
+      <subject authfilenumber="sh89002058" source="lcsh">Baptismal records.</subject>
+      <corpname>Grace North Church (Berkeley, Calif.)</corpname>
+      <corpname rules="rda" source="local">Congregational Church of North Berkeley (Berkeley,
+        Calif.)</corpname>
+      <corpname rules="rda" source="local">North Congregational Church (Berkeley, Calif.)</corpname>
+      <corpname authfilenumber="n79046046" source="lcnaf">Berkeley (Calif.) -- Church
+        history.</corpname>
+    </controlaccess>
+    <dsc>
+      <c  level="series">
+        <did>
+          <unittitle>Vital Statistics</unittitle>
+          <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">19
+              Items</extent><extent altrender="carrier">(2 folders, 17 volumes)</extent></physdesc>
+          <unitdate calendar="gregorian" datechar="creation" normal="1891/2016" type="inclusive"
+            >1891-2016</unitdate>
+        </did>
+        <scopecontent >
+          <head>Scope and Contents</head>
+          <p>This series contains the vital statistics from the church and include baptisms,
+            admissions, dismissions, memorials and various guest books.</p>
+        </scopecontent>
+        <c  level="file">
+          <did>
+            <unittitle>Vital Statistics and Meeting Minutes</unittitle>
+            <unitdate datechar="creation" normal="1891/1906" type="inclusive">1891-1906</unitdate>
+            <container  label="Volumes" type="box"
+              >1</container>
+            <container 
+               type="volume">6</container>
+          </did>
+        </c>
+        <c  level="file">
+          <did>
+            <unittitle>Admissions and Dismissions</unittitle>
+            <unitdate datechar="creation" normal="1892/1926" type="inclusive">1892-1926</unitdate>
+            <container  label="Mixed Materials"
+              type="box">7</container>
+            <container 
+               type="folder">2</container>
+          </did>
+        </c>
+        <c  level="file">
+          <did>
+            <unittitle>Membership</unittitle>
+            <unitdate calendar="gregorian" datechar="creation" normal="1892/1926" type="inclusive"
+              >1892-1926</unitdate>
+            <container  label="Volumes" type="box"
+              >3</container>
+            <container 
+               type="volume">4</container>
+          </did>
+        </c>
+        <c  level="file">
+          <did>
+            <unittitle>Memorial records</unittitle>
+            <unitdate calendar="gregorian" datechar="creation" normal="1897/1971" type="inclusive"
+              >1897, 1948-1971</unitdate>
+            <container  label="Mixed Materials"
+              type="box">3</container>
+            <container 
+               type="folder">7</container>
+          </did>
+        </c>
+        <c  level="file">
+          <did>
+            <unittitle>Vital Statistics and Meeting Minutes</unittitle>
+            <unitdate datechar="creation" normal="1907/1914" type="inclusive">1907-1914</unitdate>
+            <container  label="Volumes" type="box"
+              >1</container>
+            <container 
+               type="volume">7</container>
+          </did>
+        </c>
+        <c  level="file">
+          <did>
+            <unittitle>Vital Statistics and Meeting Minutes</unittitle>
+            <unitdate datechar="creation" normal="1915/1926" type="inclusive">1915-1926</unitdate>
+            <container  label="Volumes" type="box"
+              >1</container>
+            <container 
+               type="volume">8</container>
+          </did>
+        </c>
+        <c  level="file">
+          <did>
+            <unittitle>Vital Statistics and Meeting Minutes</unittitle>
+            <unitdate datechar="creation" normal="1927/1945" type="inclusive">1927-1945</unitdate>
+            <container  label="Volumes" type="box"
+              >1</container>
+            <container 
+               type="volume">9</container>
+          </did>
+        </c>
+        <c  level="file">
+          <did>
+            <unittitle>Guest Book</unittitle>
+            <unitdate calendar="gregorian" datechar="creation" normal="1938/1949" type="inclusive"
+              >1938-1949</unitdate>
+            <container  label="Volumes" type="box"
+              >3</container>
+            <container 
+               type="volume">1</container>
+          </did>
+        </c>
+        <c  level="file">
+          <did>
+            <unittitle>Vital Statistics and Meeting Minutes</unittitle>
+            <unitdate datechar="creation" normal="1945/1960" type="inclusive">1945-1960</unitdate>
+            <container  label="Volumes" type="box"
+              >1</container>
+            <container 
+               type="volume">10</container>
+          </did>
+        </c>
+        <c  level="file">
+          <did>
+            <unittitle>Guest Book</unittitle>
+            <unitdate datechar="creation" normal="1949/1954" type="inclusive">1949-1954</unitdate>
+            <container  label="Volumes" type="box"
+              >1</container>
+            <container 
+               type="volume">1</container>
+          </did>
+        </c>
+        <c  level="file">
+          <did>
+            <unittitle>Vital Statistics</unittitle>
+            <unitdate calendar="gregorian" datechar="creation" normal="1949/1959" type="inclusive"
+              >1949-1959</unitdate>
+            <container  label="Volumes" type="box"
+              >3</container>
+            <container 
+               type="volume">5</container>
+          </did>
+        </c>
+        <c  level="file">
+          <did>
+            <unittitle>Guest Book</unittitle>
+            <unitdate datechar="creation" normal="1954/1960" type="inclusive">1954-1960</unitdate>
+            <container  label="Volumes" type="box"
+              >1</container>
+            <container 
+               type="volume">2</container>
+          </did>
+        </c>
+        <c  level="file">
+          <did>
+            <unittitle>Vital Statistics and Meeting Minutes</unittitle>
+            <unitdate datechar="creation" normal="1960/1968" type="inclusive">1960-1968</unitdate>
+            <container  label="Volumes" type="box"
+              >1</container>
+            <container 
+               type="volume">11</container>
+          </did>
+        </c>
+        <c  level="file">
+          <did>
+            <unittitle>Guest Book</unittitle>
+            <unitdate datechar="creation" normal="1960/1970" type="inclusive">1960-1970</unitdate>
+            <container  label="Volumes" type="box"
+              >1</container>
+            <container 
+               type="volume">3</container>
+          </did>
+        </c>
+        <c  level="file">
+          <did>
+            <unittitle>Vital Statistics and Meeting Minutes</unittitle>
+            <unitdate datechar="creation" normal="1968/1986" type="inclusive">1968-1986</unitdate>
+            <container  label="Volumes" type="box"
+              >1</container>
+            <container 
+               type="volume">12</container>
+          </did>
+        </c>
+        <c  level="file">
+          <did>
+            <unittitle>Guest Book</unittitle>
+            <unitdate datechar="creation" normal="1970/1975" type="inclusive">1970-1975</unitdate>
+            <container  label="Volumes" type="box"
+              >1</container>
+            <container 
+               type="volume">4</container>
+          </did>
+        </c>
+        <c  level="file">
+          <did>
+            <unittitle>Memorial records</unittitle>
+            <unitdate datechar="creation" normal="1971/1991" type="inclusive">1971-1991</unitdate>
+            <container  label="Volumes" type="box"
+              >1</container>
+            <container 
+               type="volume">5</container>
+          </did>
+        </c>
+        <c  level="file">
+          <did>
+            <unittitle>Guest Book</unittitle>
+            <unitdate calendar="gregorian" datechar="creation" normal="2006/2010" type="inclusive"
+              >2006-2010</unitdate>
+            <container  label="Volumes" type="box"
+              >3</container>
+            <container 
+               type="volume">2</container>
+          </did>
+        </c>
+        <c  level="file">
+          <did>
+            <unittitle>Baptismal Register</unittitle>
+            <unitdate datechar="creation" normal="2006/2016" type="inclusive">2006-2016</unitdate>
+            <container  label="Volumes" type="box"
+              >7</container>
+            <container 
+               type="volume">1</container>
+          </did>
+        </c>
+      </c>
+      <c  level="series">
+        <did>
+          <unittitle>Church Reports and Meeting Minutes</unittitle>
+          <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">38
+              Items</extent><extent altrender="carrier">(24 folders, 14 volumes)</extent></physdesc>
+          <unitdate calendar="gregorian" datechar="creation" normal="1892/2010" type="inclusive"
+            >1892-2010</unitdate>
+        </did>
+        <scopecontent >
+          <head>Scope and Contents</head>
+          <p>This series contains church reports, annual reports, and meeting minutes from a variety
+            of different boards and committees.</p>
+        </scopecontent>
+        <c  level="subseries">
+          <did>
+            <unittitle>Meeting Minutes</unittitle>
+            <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">24
+                Items</extent><extent altrender="carrier">(11 folders, 13
+              volumes)</extent></physdesc>
+            <unitdate calendar="gregorian" datechar="creation" normal="1892/2010" type="inclusive"
+              >1892-2010</unitdate>
+          </did>
+          <scopecontent >
+            <head>Scope and Contents</head>
+            <p>This subseries contains meeting minutes from the Board of Trustees, Board of
+              Directors, Mission Society, Advisory Committee, Parish Meetings, and a special meeting
+              on disbanding the North Congregational Church.</p>
+          </scopecontent>
+          <c  level="file">
+            <did>
+              <unittitle>Board of Trustee minutes</unittitle>
+              <unitdate datechar="creation" normal="1892/1895" type="inclusive">1892-1895</unitdate>
+              <container  label="Mixed Materials"
+                type="box">4</container>
+              <container 
+                 type="folder">1</container>
+            </did>
+          </c>
+          <c  level="file">
+            <did>
+              <unittitle>Board of Directors minutes</unittitle>
+              <unitdate calendar="gregorian" datechar="creation" normal="1899/1902" type="inclusive"
+                >1899-1902</unitdate>
+              <container  label="Volumes" type="box"
+                >2</container>
+              <container 
+                 type="volume">1</container>
+            </did>
+          </c>
+          <c  level="file">
+            <did>
+              <unittitle>Mission Society records</unittitle>
+              <unitdate calendar="gregorian" datechar="creation" normal="1900/1908" type="inclusive"
+                >1900-1908</unitdate>
+              <container  label="Volumes" type="box"
+                >3</container>
+              <container 
+                 type="volume">6</container>
+            </did>
+          </c>
+          <c  level="file">
+            <did>
+              <unittitle>Board of Trustees minutes</unittitle>
+              <unitdate calendar="gregorian" datechar="creation" normal="1903/1910" type="inclusive"
+                >1903-1910</unitdate>
+              <container  label="Volumes" type="box"
+                >2</container>
+              <container 
+                 type="volume">2</container>
+            </did>
+          </c>
+          <c  level="file">
+            <did>
+              <unittitle>Board of Trustees minutes</unittitle>
+              <unitdate calendar="gregorian" datechar="creation" normal="1911/1915" type="inclusive"
+                >1911-1915</unitdate>
+              <container  label="Volumes" type="box"
+                >2</container>
+              <container 
+                 type="volume">3</container>
+            </did>
+          </c>
+          <c  level="file">
+            <did>
+              <unittitle>Board of Trustees minutes</unittitle>
+              <unitdate calendar="gregorian" datechar="creation" normal="1915/1924" type="inclusive"
+                >1915-1924</unitdate>
+              <container  label="Volumes" type="box"
+                >2</container>
+              <container 
+                 type="volume">4</container>
+            </did>
+          </c>
+          <c  level="file">
+            <did>
+              <unittitle>Advisory Committee</unittitle>
+              <unitdate calendar="gregorian" datechar="creation" normal="1916/1927" type="inclusive"
+                >1916-1927</unitdate>
+              <container  label="Mixed Materials"
+                type="box">3</container>
+              <container 
+                 type="folder">8</container>
+            </did>
+          </c>
+          <c  level="file">
+            <did>
+              <unittitle>Correspondences</unittitle>
+              <unitdate datechar="creation" normal="1916/1933" type="inclusive">1916-1933</unitdate>
+              <container  label="Mixed Materials"
+                type="box">7</container>
+              <container 
+                 type="folder">1</container>
+            </did>
+          </c>
+          <c  level="file">
+            <did>
+              <unittitle>Board of Trustees minutes</unittitle>
+              <unitdate calendar="gregorian" datechar="creation" normal="1924/1938" type="inclusive"
+                >1924-1938</unitdate>
+              <container  label="Volumes" type="box"
+                >2</container>
+              <container 
+                 type="volume">5</container>
+            </did>
+          </c>
+          <c  level="file">
+            <did>
+              <unittitle>Board of Directors minutes</unittitle>
+              <unitdate calendar="gregorian" datechar="creation" normal="1939/1948" type="inclusive"
+                >1939-1948</unitdate>
+              <container  label="Volumes" type="box"
+                >2</container>
+              <container 
+                 type="volume">6</container>
+            </did>
+          </c>
+          <c  level="file">
+            <did>
+              <unittitle>Board of Directors minutes</unittitle>
+              <unitdate calendar="gregorian" datechar="creation" normal="1949/1956" type="inclusive"
+                >1949-1956</unitdate>
+              <container  label="Volumes" type="box"
+                >2</container>
+              <container 
+                 type="volume">7</container>
+            </did>
+          </c>
+          <c  level="file">
+            <did>
+              <unittitle>Board of Directors minutes</unittitle>
+              <unitdate calendar="gregorian" datechar="creation" normal="1957/1960" type="inclusive"
+                >1957-1960</unitdate>
+              <container  label="Volumes" type="box"
+                >2</container>
+              <container 
+                 type="volume">8</container>
+            </did>
+          </c>
+          <c  level="file">
+            <did>
+              <unittitle>Board of Directors minutes</unittitle>
+              <unitdate calendar="gregorian" datechar="creation" normal="1960/1965" type="inclusive"
+                >1960-1965</unitdate>
+              <container  label="Volumes" type="box"
+                >2</container>
+              <container 
+                 type="volume">9</container>
+            </did>
+          </c>
+          <c  level="file">
+            <did>
+              <unittitle>Board of Directors minutes</unittitle>
+              <unitdate calendar="gregorian" datechar="creation" normal="1966/1968" type="inclusive"
+                >1966-1968</unitdate>
+              <container  label="Volumes" type="box"
+                >2</container>
+              <container 
+                 type="volume">10</container>
+            </did>
+          </c>
+          <c  level="file">
+            <did>
+              <unittitle>Board of Directors minutes</unittitle>
+              <unitdate calendar="gregorian" datechar="creation" normal="1969/1972" type="inclusive"
+                >1969-1972</unitdate>
+              <container  label="Volumes" type="box"
+                >2</container>
+              <container 
+                 type="volume">11</container>
+            </did>
+          </c>
+          <c  level="file">
+            <did>
+              <unittitle>Board of Directors minutes</unittitle>
+              <unitdate calendar="gregorian" datechar="creation" normal="1972/1979" type="inclusive"
+                >1972-1979</unitdate>
+              <container  label="Volumes" type="box"
+                >2</container>
+              <container 
+                 type="volume">12</container>
+            </did>
+          </c>
+          <c  level="file">
+            <did>
+              <unittitle>Board of Directors minutes</unittitle>
+              <unitdate calendar="gregorian" datechar="creation" normal="1992-07-01/1992-07-31"
+                type="inclusive">July 1992</unitdate>
+              <container  label="Mixed Materials"
+                type="box">4</container>
+              <container 
+                 type="folder">3</container>
+            </did>
+          </c>
+          <c  level="file">
+            <did>
+              <unittitle>Meeting on disbanding North Congregational Church</unittitle>
+              <unitdate datechar="creation" normal="1992/1992">1992</unitdate>
+              <container  label="Mixed Materials"
+                type="box">4</container>
+              <container 
+                 type="folder">4</container>
+            </did>
+          </c>
+          <c  level="file">
+            <did>
+              <unittitle>Regular meeting minutes</unittitle>
+              <unitdate datechar="creation" normal="1997/1999" type="inclusive">1997-1999</unitdate>
+              <container  label="Mixed Materials"
+                type="box">4</container>
+              <container 
+                 type="folder">5</container>
+            </did>
+          </c>
+          <c  level="file">
+            <did>
+              <unittitle>Regular meeting minutes</unittitle>
+              <unitdate datechar="creation" normal="1999/1999">1999</unitdate>
+              <container  label="Mixed Materials"
+                type="box">4</container>
+              <container 
+                 type="folder">6</container>
+            </did>
+          </c>
+          <c  level="file">
+            <did>
+              <unittitle>Regular meeting minutes</unittitle>
+              <unitdate datechar="creation" normal="2000/2002" type="inclusive">2000-2002</unitdate>
+              <container  label="Mixed Materials"
+                type="box">4</container>
+              <container 
+                 type="folder">7</container>
+            </did>
+          </c>
+          <c  level="file">
+            <did>
+              <unittitle>Parish meeting minutes</unittitle>
+              <unitdate datechar="creation" normal="2006/2010" type="inclusive">2006-2010</unitdate>
+              <container  label="Mixed Materials"
+                type="box">4</container>
+              <container 
+                 type="folder">8</container>
+            </did>
+          </c>
+          <c  level="file">
+            <did>
+              <unittitle>Quarterly Winter Parish Meeting</unittitle>
+              <unitdate datechar="creation" normal="1992">January 25,
+                2009</unitdate>
+              <container  label="Mixed Materials"
+                type="box">4</container>
+              <container 
+                 type="folder">9</container>
+            </did>
+          </c>
+          <c  level="file">
+            <did>
+              <unittitle>Trustees meeting minutes</unittitle>
+              <unitdate datechar="creation" normal="2009/2010" type="inclusive">2009-2010</unitdate>
+              <container  label="Mixed Materials"
+                type="box">4</container>
+              <container 
+                 type="folder">10</container>
+            </did>
+          </c>
+        </c>
+        <c  level="subseries">
+          <did>
+            <unittitle>Reports</unittitle>
+            <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">14
+                Items</extent><extent altrender="carrier">(13 folders, 1 volume)</extent></physdesc>
+            <unitdate calendar="gregorian" datechar="creation" normal="1914/2005" type="inclusive"
+              >1914-2005</unitdate>
+          </did>
+          <scopecontent >
+            <head>Scope and Contents</head>
+            <p>This subseries contains church and annual reports, as well as a single report from
+              the 2005 National Association of Congregational Christian Churches meeting held in
+              Kansas City</p>
+          </scopecontent>
+          <c  level="file">
+            <did>
+              <unittitle>Church reports</unittitle>
+              <unitdate datechar="creation" normal="1914/1919" type="inclusive">1914-1919</unitdate>
+              <container  label="Mixed Materials"
+                type="box">7</container>
+              <container 
+                 type="folder">5</container>
+            </did>
+          </c>
+          <c  level="file">
+            <did>
+              <unittitle>Church reports</unittitle>
+              <unitdate datechar="creation" normal="1920/1922" type="inclusive">1920-1922</unitdate>
+              <container  label="Mixed Materials"
+                type="box">7</container>
+              <container 
+                 type="folder">6</container>
+            </did>
+          </c>
+          <c  level="file">
+            <did>
+              <unittitle>Church reports</unittitle>
+              <unitdate datechar="creation" normal="1923/1927" type="inclusive">1923-1927</unitdate>
+              <container  label="Mixed Materials"
+                type="box">7</container>
+              <container 
+                 type="folder">7</container>
+            </did>
+          </c>
+          <c  level="file">
+            <did>
+              <unittitle>Church reports</unittitle>
+              <unitdate datechar="creation" normal="1928/1930" type="inclusive">1928-1930</unitdate>
+              <container  label="Mixed Materials"
+                type="box">7</container>
+              <container 
+                 type="folder">8</container>
+            </did>
+          </c>
+          <c  level="file">
+            <did>
+              <unittitle>Church reports</unittitle>
+              <unitdate datechar="creation" normal="1931/1932" type="inclusive">1931-1932</unitdate>
+              <container  label="Mixed Materials"
+                type="box">7</container>
+              <container 
+                 type="folder">9</container>
+            </did>
+          </c>
+          <c  level="file">
+            <did>
+              <unittitle>Annual Report</unittitle>
+              <unitdate calendar="gregorian" datechar="creation" normal="1944/1944">1944</unitdate>
+              <container  label="Mixed Materials"
+                type="box">4</container>
+              <container 
+                 type="folder">2</container>
+            </did>
+          </c>
+          <c  level="file">
+            <did>
+              <unittitle>Annual Report</unittitle>
+              <unitdate calendar="gregorian" datechar="creation" normal="1949/1950" type="inclusive"
+                >1949-1950</unitdate>
+              <container  label="Mixed Materials"
+                type="box">3</container>
+              <container 
+                 type="folder">1</container>
+            </did>
+          </c>
+          <c  level="file">
+            <did>
+              <unittitle>Annual Report</unittitle>
+              <unitdate calendar="gregorian" datechar="creation" normal="1950/1959" type="inclusive"
+                >1950-1959</unitdate>
+              <container  label="Volumes" type="box"
+                >3</container>
+              <container 
+                 type="volume">3</container>
+            </did>
+          </c>
+          <c  level="file">
+            <did>
+              <unittitle>Annual Report</unittitle>
+              <unitdate calendar="gregorian" datechar="creation" normal="1960/1964" type="inclusive"
+                >1960-1964</unitdate>
+              <container  label="Mixed Materials"
+                type="box">3</container>
+              <container 
+                 type="folder">2</container>
+            </did>
+          </c>
+          <c  level="file">
+            <did>
+              <unittitle>Annual Report</unittitle>
+              <unitdate calendar="gregorian" datechar="creation" normal="1965/1970" type="inclusive"
+                >1965-1970</unitdate>
+              <container  label="Mixed Materials"
+                type="box">3</container>
+              <container 
+                 type="folder">3</container>
+            </did>
+          </c>
+          <c  level="file">
+            <did>
+              <unittitle>Annual Report</unittitle>
+              <unitdate calendar="gregorian" datechar="creation" normal="1971/1976" type="inclusive"
+                >1971-1976</unitdate>
+              <container  label="Mixed Materials"
+                type="box">3</container>
+              <container 
+                 type="folder">4</container>
+            </did>
+          </c>
+          <c  level="file">
+            <did>
+              <unittitle>Annual Report</unittitle>
+              <unitdate calendar="gregorian" datechar="creation" normal="1977/1983" type="inclusive"
+                >1977-1983</unitdate>
+              <container  label="Mixed Materials"
+                type="box">3</container>
+              <container 
+                 type="folder">5</container>
+            </did>
+          </c>
+          <c  level="file">
+            <did>
+              <unittitle>Annual Report</unittitle>
+              <unitdate calendar="gregorian" datechar="creation" normal="1984/1990" type="inclusive"
+                >1984-1990</unitdate>
+              <container  label="Mixed Materials"
+                type="box">3</container>
+              <container 
+                 type="folder">6</container>
+            </did>
+          </c>
+          <c  level="file">
+            <did>
+              <unittitle>Report from Kansas City NACCC meeting</unittitle>
+              <unitdate calendar="gregorian" datechar="creation" normal="2005-06-26/2005-06-26">June
+                26, 2005</unitdate>
+              <container  label="Mixed Materials"
+                type="box">3</container>
+              <container 
+                 type="folder">15</container>
+            </did>
+          </c>
+        </c>
+      </c>
+      <c  level="series">
+        <did>
+          <unittitle>Auxiliary Organizations</unittitle>
+          <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">7
+              Items</extent><extent altrender="carrier">(4 folders, 3 volumes)</extent></physdesc>
+          <unitdate calendar="gregorian" datechar="creation" normal="1899/1996" type="inclusive"
+            >1899-1955, 1989-1996</unitdate>
+        </did>
+        <scopecontent >
+          <head>Scope and Contents</head>
+          <p>This series contains records for several auxiliary organizations of the Grace North
+            Church, such as the Ladies' Aid Society, the Bay Association, and the Grace Institute of
+            Religious Learning.</p>
+        </scopecontent>
+        <c  level="subseries">
+          <did>
+            <unittitle>Ladies' Aid Society</unittitle>
+            <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">2
+                Items</extent><extent altrender="carrier">(2 volumes)</extent></physdesc>
+            <unitdate calendar="gregorian" datechar="creation" normal="1899/1924" type="inclusive"
+              >1899-1924</unitdate>
+          </did>
+          <scopecontent >
+            <head>Scope and Contents</head>
+            <p>This subseries contains meeting minutes and finances for the Ladies' Aid Society for
+              the Grace North Church.</p>
+          </scopecontent>
+          <c  level="file">
+            <did>
+              <unittitle>Ladies' Aid Meeting Minutes</unittitle>
+              <unitdate calendar="gregorian" datechar="creation" normal="1899/1907" type="inclusive"
+                >1899-1907</unitdate>
+              <container  label="Volumes" type="box"
+                >3</container>
+              <container 
+                 type="volume">7</container>
+            </did>
+          </c>
+          <c  level="file">
+            <did>
+              <unittitle>Ladies' Aid Society finances</unittitle>
+              <unitdate calendar="gregorian" datechar="creation" normal="1911/1924" type="inclusive"
+                >1911-1924</unitdate>
+              <container  label="Volumes" type="box"
+                >3</container>
+              <container 
+                 type="volume">8</container>
+            </did>
+          </c>
+        </c>
+        <c  level="subseries">
+          <did>
+            <unittitle>Bay Association</unittitle>
+            <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">1
+                Item</extent><extent altrender="carrier">(1 volume)</extent></physdesc>
+            <unitdate calendar="gregorian" datechar="creation" normal="1921/1955" type="inclusive"
+              >1921-1955</unitdate>
+          </did>
+          <scopecontent >
+            <head>Scope and Contents</head>
+            <p>This subseries contains meeting minutes for the Bay Association of the Grace North
+              Church.</p>
+          </scopecontent>
+          <c  level="file">
+            <did>
+              <unittitle>Bay Association meeting minutes</unittitle>
+              <unitdate calendar="gregorian" datechar="creation" normal="1921/1955" type="inclusive"
+                >1921-1955</unitdate>
+              <container  label="Volumes" type="box"
+                >2</container>
+              <container 
+                 type="volume">13</container>
+            </did>
+          </c>
+        </c>
+        <c  level="subseries">
+          <did>
+            <unittitle>Grace Institute of Religious Learning</unittitle>
+            <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">4
+                Items</extent><extent altrender="carrier">(4 folders)</extent></physdesc>
+            <unitdate calendar="gregorian" datechar="creation" normal="1989/1996" type="inclusive"
+              >1989-1996</unitdate>
+          </did>
+          <scopecontent >
+            <head>Scope and Contents</head>
+            <p>This subseries contains the finances, bylaws, exemption applications, and the records
+              of Rev. Richard Mapplebeckpalmer.</p>
+          </scopecontent>
+          <c  level="file">
+            <did>
+              <unittitle>Grace Institute of Religious Learning finance reports and
+                budget</unittitle>
+              <unitdate datechar="creation" normal="1989/1994" type="inclusive">1989-1994</unitdate>
+              <container  label="Mixed Materials"
+                type="box">4</container>
+              <container 
+                 type="folder">19</container>
+            </did>
+          </c>
+          <c  level="file">
+            <did>
+              <unittitle>Grace Institute of Religious Learning bylaws</unittitle>
+              <unitdate datechar="creation" normal="1991/1991">1991</unitdate>
+              <container  label="Mixed Materials"
+                type="box">4</container>
+              <container 
+                 type="folder">20</container>
+            </did>
+          </c>
+          <c  level="file">
+            <did>
+              <unittitle>Grace Institute of Religious Learning exemption application</unittitle>
+              <unitdate datechar="creation" normal="1994/1994">1994</unitdate>
+              <container  label="Mixed Materials"
+                type="box">4</container>
+              <container 
+                 type="folder">21</container>
+            </did>
+          </c>
+          <c  level="file">
+            <did>
+              <unittitle>Grace Institute of Religious Learning records of Rev. Richard
+                Mapplebeckpalmer</unittitle>
+              <unitdate calendar="gregorian" datechar="creation" normal="1996/1996">1996</unitdate>
+              <container  label="Mixed Materials"
+                type="box">3</container>
+              <container 
+                 type="folder">16</container>
+            </did>
+          </c>
+        </c>
+      </c>
+      <c  level="series">
+        <did>
+          <unittitle>Finances</unittitle>
+          <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">5
+              Items</extent><extent altrender="carrier">(5 volumes)</extent></physdesc>
+          <unitdate calendar="gregorian" datechar="creation" normal="1937/1973" type="inclusive"
+            >1937-1973</unitdate>
+        </did>
+        <scopecontent >
+          <head>Scope and Contents</head>
+          <p>This series contains financial ledgers from the church.</p>
+        </scopecontent>
+        <c  level="file">
+          <did>
+            <unittitle>Financial Ledger</unittitle>
+            <unitdate calendar="gregorian" datechar="creation" normal="1937/1944" type="inclusive"
+              >1937-1944</unitdate>
+            <container  label="Volumes" type="box"
+              >6</container>
+            <container 
+               type="volume">1</container>
+          </did>
+        </c>
+        <c  level="file">
+          <did>
+            <unittitle>Financial Ledger</unittitle>
+            <unitdate calendar="gregorian" datechar="creation" normal="1944/1950" type="inclusive"
+              >1944-1950</unitdate>
+            <container  label="Volumes" type="box"
+              >6</container>
+            <container 
+               type="volume">2</container>
+          </did>
+        </c>
+        <c  level="file">
+          <did>
+            <unittitle>Financial Ledger</unittitle>
+            <unitdate calendar="gregorian" datechar="creation" normal="1950/1956" type="inclusive"
+              >1950-1956</unitdate>
+            <container  label="Volumes" type="box"
+              >6</container>
+            <container 
+               type="volume">3</container>
+          </did>
+        </c>
+        <c  level="file">
+          <did>
+            <unittitle>Financial Ledger</unittitle>
+            <unitdate calendar="gregorian" datechar="creation" normal="1967/1971" type="inclusive"
+              >1967-1971</unitdate>
+            <container  label="Volumes" type="box"
+              >5</container>
+            <container 
+               type="volume">2</container>
+          </did>
+        </c>
+        <c  level="file">
+          <did>
+            <unittitle>Financial Ledger</unittitle>
+            <unitdate calendar="gregorian" datechar="creation" normal="1972/1973" type="inclusive"
+              >1972-1973</unitdate>
+            <container  label="Volumes" type="box"
+              >5</container>
+            <container 
+               type="volume">3</container>
+          </did>
+        </c>
+      </c>
+      <c  level="series">
+        <did>
+          <unittitle>Histories and Publications</unittitle>
+          <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">9
+              Items</extent><extent altrender="carrier">(8 folders, 1 volumes)</extent></physdesc>
+          <unitdate calendar="gregorian" datechar="creation" normal="1942/1998" type="inclusive"
+            >1942-1959, 1990-1998</unitdate>
+        </did>
+        <c  level="file">
+          <did>
+            <unittitle>Scrapbook</unittitle>
+            <unitdate calendar="gregorian" datechar="creation" normal="1942/1949" type="inclusive"
+              >1942-1949</unitdate>
+            <container  label="Volumes" type="box"
+              >5</container>
+            <container 
+               type="volume">1</container>
+          </did>
+        </c>
+        <c  level="file">
+          <did>
+            <unittitle>North Star Volume 8</unittitle>
+            <unitdate calendar="gregorian" datechar="creation" normal="1956/1956">1956</unitdate>
+            <container  label="Mixed Materials"
+              type="box">3</container>
+            <container 
+               type="folder">12</container>
+          </did>
+        </c>
+        <c  level="file">
+          <did>
+            <unittitle>North Star Volume 9</unittitle>
+            <unitdate calendar="gregorian" datechar="creation" normal="1957/1957">1957</unitdate>
+            <container  label="Mixed Materials"
+              type="box">3</container>
+            <container 
+               type="folder">13</container>
+          </did>
+        </c>
+        <c  level="file">
+          <did>
+            <unittitle>North Star Volume 11</unittitle>
+            <unitdate calendar="gregorian" datechar="creation" normal="1959/1959">1959</unitdate>
+            <container  label="Mixed Materials"
+              type="box">3</container>
+            <container 
+               type="folder">14</container>
+          </did>
+        </c>
+        <c  level="file">
+          <did>
+            <unittitle>History of Grace North Church with Exhibits</unittitle>
+            <unitdate datechar="creation" normal="1990/1998" type="inclusive">1990-1998</unitdate>
+            <container  label="Mixed Materials"
+              type="box">4</container>
+            <container 
+               type="folder">15</container>
+          </did>
+        </c>
+        <c  level="file">
+          <did>
+            <unittitle>Formation of North Grace Church</unittitle>
+            <unitdate calendar="gregorian" datechar="creation" normal="1992/1996" type="inclusive"
+              >1992-1996</unitdate>
+            <container  label="Mixed Materials"
+              type="box">3</container>
+            <container 
+               type="folder">17</container>
+          </did>
+        </c>
+        <c  level="file">
+          <did>
+            <unittitle>Celebrating the Centenary</unittitle>
+            <unitdate datechar="creation" normal="1992/1992">1992</unitdate>
+            <container  label="Mixed Materials"
+              type="box">4</container>
+            <container 
+               type="folder">16</container>
+          </did>
+        </c>
+        <c  level="file">
+          <did>
+            <unittitle>Last 25 Years of the North Congregational Church</unittitle>
+            <unitdate datechar="creation" normal="1992/1992">1992</unitdate>
+            <container  label="Mixed Materials"
+              type="box">4</container>
+            <container 
+               type="folder">17</container>
+          </did>
+        </c>
+        <c  level="file">
+          <did>
+            <unittitle>Brief histories of the church</unittitle>
+            <unitdate datechar="creation" type="inclusive">undated</unitdate>
+            <container  label="Mixed Materials"
+              type="box">4</container>
+            <container 
+               type="folder">18</container>
+          </did>
+        </c>
+      </c>
+      <c  level="series">
+        <did>
+          <unittitle>Building and Architecture</unittitle>
+          <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">9
+              Items</extent><extent altrender="carrier">(9 folders)</extent></physdesc>
+          <unitdate calendar="gregorian" datechar="creation" normal="1948/2010" type="inclusive"
+            >1948-1966, 1995-2010</unitdate>
+        </did>
+        <c  level="file">
+          <did>
+            <unittitle>Congregational Church Building Society loans</unittitle>
+            <unitdate datechar="creation" normal="1948/1966" type="inclusive">1948-1966</unitdate>
+            <container  label="Mixed Materials"
+              type="box">7</container>
+            <container 
+               type="folder">3</container>
+          </did>
+        </c>
+        <c  level="file">
+          <did>
+            <unittitle>Correspondence on Returning Title to North Grace Chruch</unittitle>
+            <unitdate datechar="creation" normal="1995/1995">1995</unitdate>
+            <container  label="Mixed Materials"
+              type="box">4</container>
+            <container 
+               type="folder">11</container>
+          </did>
+        </c>
+        <c  level="file">
+          <did>
+            <unittitle>Lease Agreements with National Association of Congregational Christian
+              Churches</unittitle>
+            <unitdate datechar="creation" normal="1995/2001" type="inclusive">1995-2001</unitdate>
+            <container  label="Mixed Materials"
+              type="box">4</container>
+            <container 
+               type="folder">12</container>
+          </did>
+        </c>
+        <c  level="file">
+          <did>
+            <unittitle>Application for Landmark Status</unittitle>
+            <unitdate datechar="creation" normal="1998">December 6, 1998</unitdate>
+            <container  label="Mixed Materials"
+              type="box">4</container>
+            <container 
+               type="folder">13</container>
+          </did>
+        </c>
+        <c  level="file">
+          <did>
+            <unittitle>Landmark Status Application</unittitle>
+            <unitdate datechar="creation" normal="1998/1998">1998</unitdate>
+            <container  label="Mixed Materials"
+              type="box">4</container>
+            <container 
+               type="folder">14</container>
+          </did>
+        </c>
+        <c  level="file">
+          <did>
+            <unittitle>Sale of Church Building (1 of 4)</unittitle>
+            <unitdate calendar="gregorian" datechar="creation" normal="2009/2010" type="inclusive"
+              >2009-2010</unitdate>
+            <container  label="Mixed Materials"
+              type="box">3</container>
+            <container 
+               type="folder">9</container>
+          </did>
+        </c>
+        <c  level="file">
+          <did>
+            <unittitle>Sale of Church Building (2 of 4)</unittitle>
+            <unitdate calendar="gregorian" datechar="creation" normal="2009/2010" type="inclusive"
+              >2009-2010</unitdate>
+            <container  label="Mixed Materials"
+              type="box">3</container>
+            <container 
+               type="folder">10</container>
+          </did>
+        </c>
+        <c  level="file">
+          <did>
+            <unittitle>Sale of Church Building (3 of 4)</unittitle>
+            <unitdate calendar="gregorian" datechar="creation" normal="2009/2010" type="inclusive"
+              >2009-2010</unitdate>
+            <container  label="Mixed Materials"
+              type="box">3</container>
+            <container 
+               type="folder">11</container>
+          </did>
+        </c>
+        <c  level="file">
+          <did>
+            <unittitle>Sale of Church Building (4 of 4)</unittitle>
+            <unitdate datechar="creation" normal="2009/2010" type="inclusive">2009-2010</unitdate>
+            <container  label="Mixed Materials"
+              type="box">7</container>
+            <container 
+               type="folder">4</container>
+          </did>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
