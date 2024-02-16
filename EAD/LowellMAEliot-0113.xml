@@ -1,0 +1,1249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/&lt;Replace with EAD ID&gt;.xml"
+      >LowellMAEliot-0113</recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/default/files/FindingAids/LowellMAEliot-0113.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Lowell, Mass. Eliot Union Church records, 1830-1969.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2024-02-13</date>
+        <num>RG0113</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2024-02-15T20:58:55+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Thursday February 15,
+          2024 at 20:58</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Lowell, Mass. Eliot Union Church records, 1830-1969.</unittitle>
+      <unitid>RG0113</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>5.94</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(8 boxes)</physdesc>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1830">1830</fromdate>
+          <todate standarddate="1969">1969</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1830-1969</unitdate>
+      <abstract>The Appleton Congregational Church in Lowell, Massachusetts, was organized in 1830.
+        In 1873, the church building was sold to the First Presbyterian Church and the church moved
+        to a new building along Eliot Street to become the Eliot Street Church. The Kirk Street
+        Church was organized in 1845. In 1919, the Eliot and Kirk Street Churches merged to form the
+        Eliot Union Church. In 1955, the Eliot Union Church merged with the First Presbyterian
+        Church to form the Eliot Presbyterian Church. The collection contains church administrative
+        records, membership records, auxiliary group records, and scrapbooks.</abstract>
+      <origination label="Creator">
+        <corpname identifier="n97121011" source="lcnaf">
+          <part>Appleton Street Church (Lowell, Mass.)</part>
+        </corpname>
+      </origination>
+      <origination label="Creator">
+        <corpname identifier="n97121014" source="lcnaf">
+          <part>Eliot Church (Lowell, Mass.)</part>
+        </corpname>
+      </origination>
+      <origination label="Creator">
+        <corpname identifier="n97121017" source="lcnaf">
+          <part>Eliot Union Church (Lowell, Mass.)</part>
+        </corpname>
+      </origination>
+      <origination label="Creator">
+        <corpname identifier="n97121022" source="lcnaf">
+          <part>First Presbyterian Church (Lowell, Mass.)</part>
+        </corpname>
+      </origination>
+      <origination label="Creator">
+        <corpname identifier="n97121018" source="lcnaf">
+          <part>Kirk Street Church (Lowell, Mass.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Conditions Governing Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Conditions Governing Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Lowell, Mass. Eliot Union Church records, 1830-1969,
+        RG0113. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Some Kirk Street Church materials were deposited at an undetermined date before 1981. The
+        majority of the collection was donated to the Congregational Library &amp; Archive by the
+        Eliot Presbyterian Church in November, 1991; no accession number.</p>
+    </acqinfo>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>This collection was initially processed circa 1995. The collection was reprocessed by
+        Zachary Bodnar, February 2024, according to Describing Archives: A Content Standard.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>The Appleton Congregational Church in Lowell, Massachusetts, also known as the Second
+        Congregational Church, was organized in 1830. The church's meeting house was located along
+        Appleton Street. In 1873 the church building was sold to the First Presbyterian Church and a
+        new church building was constructed at the corner of Eliot and Summer Streets. At this
+        point, the church changed its name to Eliot Church.</p>
+      <p>The Kirk Street Church, also known as the Fourth Congregational Church, was organized in
+        1845. The church was initially poor with a fairly young membership. The church building was
+        given to the town of Lowell to make way for a high school in 1916.</p>
+      <p>The Eliot Church and Kirk Street Church merged in 1919 to form the Eliot Union Church. This
+        church continued to worship at the Eliot Street location. In 1955 the Eliot Union Church
+        merged with the First Presbyterian Church to form the Eliot Presbyterian Church. The old
+        Appleton Street Church was given to the Salvation Army after the merger of First
+        Presbyterian and Eliot Union Church.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains the records of the Eliot Union Church, in Lowell, Massachusetts,
+        as well as the records of the two churches that merged to form the Eliot Union Church: the
+        Eliot Church and the Kirk Street Church. The collection contains church administrative
+        records, such as financial records and meeting minutes, membership records, including
+        baptismal records and marriage records, auxiliary group records, and scrapbooks that
+        document the weekly activities of the church.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>This series has been arranged into the three series listed below. The Kirk Street Church
+        records series has been further divided into three subseries. The collection has generally
+        been arranged into chronological order. Some closely related materials, and materials which
+        begin where a previous item ended, have been topically grouped together within the
+        chronological order to assist discoverability.</p>
+      <p><emph render="bold">Series 1:</emph> Eliot Church records, 1830-1918</p>
+      <p><emph render="bold">Series 2:</emph> Kirk Street Church records, 1845-1919</p>
+      <p><emph render="italic">Subseries 1:</emph> Administrative records, 1845-1919</p>
+      <p><emph render="italic">Subseries 2:</emph> Membership and auxiliary group records,
+        1845-1919</p>
+      <p><emph render="italic">Subseries 3:</emph> Scrapbooks, 1879-1917</p>
+      <p><emph render="bold">Series 3:</emph> Eliot Union Church records, 1857-1969</p>
+    </arrangement>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025606" source="lcsh">
+        <part>Church finance.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <subject identifier="sh85100506" source="lcsh">
+        <part>Pews and pew rights.</part>
+      </subject>
+      <subject identifier="sh85118923" source="lcsh">
+        <part>Scrapbooks.</part>
+      </subject>
+      <subject identifier="sh85147343" source="lcsh">
+        <part>Women -- Societies and clubs.</part>
+      </subject>
+      <subject identifier="sh85148573" source="lcsh">
+        <part>Worship programs.</part>
+      </subject>
+      <corpname identifier="n97121020" source="lcnaf">
+        <part>Eliot Presbyterian Church (Lowell, Mass.)</part>
+      </corpname>
+      <corpname identifier="n79027238" source="lcnaf">
+        <part>Lowell (Mass.) -- Church history.</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="series">
+        <did>
+          <unittitle>Eliot Church records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1830">1830</fromdate>
+              <todate standarddate="1918">1918</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1830-1918</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This subseries contains the records of the Eliot Church. These records include church
+            records, membership records, records relating to a pastor's Bible class, an address
+            authored by John M. Greene, records for the King's Daughters auxiliary group (continued
+            in the Eliot Union Church records), and a leaflet that describes the value of the
+            church's building.</p>
+        </scopecontent>
+        <c level="item">
+          <did>
+            <unittitle>Membership records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1830">1830</fromdate>
+                <todate standarddate="1919">1919</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1830-1919</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">1</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Church records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1830">1830</fromdate>
+                <todate standarddate="1859">1859</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1830-1859</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="volume">1</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Membership records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1853">1853</fromdate>
+                <todate standarddate="1914">1914</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1853-1914</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="volume">2</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Church records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1856">1856</fromdate>
+                <todate standarddate="1875">1875</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1856-1875</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">2</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Pastor's Bible class records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1887">1887</fromdate>
+                <todate standarddate="1907">1907</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1887-1907</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">3</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>John M. Greene address</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1901">1901</fromdate>
+              </daterange>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">1</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>King's Daughters records</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1916">1916</fromdate>
+                <todate standarddate="1918">1918</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1916-1918</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">4</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Church value leaflet</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">2</container>
+          </did>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unittitle>Kirk Street Church records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1845">1845</fromdate>
+              <todate standarddate="1919">1919</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1845-1919</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains the records of the Kirk Street Church. The records include
+            administrative records, such as church records and financial records, membership
+            records, including vital records, Sunday school records, auxiliary group records, and
+            scrapbooks. The scrapbooks document weekly activities at the church.</p>
+        </scopecontent>
+        <c level="series">
+          <did>
+            <unittitle>Administrative records</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1845">1845</fromdate>
+                <todate standarddate="1919">1919</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1845-1919</unitdate>
+          </did>
+          <scopecontent>
+            <head>Scope and Contents</head>
+            <p>This subseries contains records related to the administration of the Kirk Street
+              Church and contains both church records and financial records. The church records
+              largely document the administrative history of the church and contain meeting minutes.
+              The financial records document the finances of the church and also include records
+              related to the church building and pews.</p>
+          </scopecontent>
+          <c level="item">
+            <did>
+              <unittitle>Church records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1845">1845</fromdate>
+                  <todate standarddate="1888">1888</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1845-1888</unitdate>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="volume">1</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Church records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1888">1888</fromdate>
+                  <todate standarddate="1919">1919</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1888-1919</unitdate>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="volume">2</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Financial records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1845">1845</fromdate>
+                  <todate standarddate="1875">1875</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1845-1875</unitdate>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="volume">6</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Financial records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1876">1876</fromdate>
+                  <todate standarddate="1901">1901</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1876-1901</unitdate>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="volume">7</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Financial records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1901">1901</fromdate>
+                  <todate standarddate="1919">1919</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1901-1919</unitdate>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="volume">8</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Subscriptions and collections</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1845">1845</fromdate>
+                  <todate standarddate="1881">1881</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1845-1881</unitdate>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="volume">4</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Pew records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1845">1845</fromdate>
+                  <todate standarddate="1887">1887</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1845-1887</unitdate>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="volume">5</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Proprietors records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1845">1845</fromdate>
+                  <todate standarddate="1916">1916</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1845-1865, 1916</unitdate>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="volume">3</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Sermon notes</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1858">1858</fromdate>
+                  <todate standarddate="1861">1861</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1858-1861</unitdate>
+              <container label="Mixed Materials" localtype="box">1</container>
+              <container localtype="volume">9</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Thirtieth anniversary sermon</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <datesingle standarddate="1875">1875</datesingle>
+              </unitdatestructured>
+              <container label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">3</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Manual</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <datesingle standarddate="1888">1888</datesingle>
+              </unitdatestructured>
+              <container label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">4</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Service programs</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1899">1899</fromdate>
+                  <todate standarddate="1919">1919</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1899-1919</unitdate>
+              <container label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">5</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Cash book</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1904">1904</fromdate>
+                  <todate standarddate="1919">1919</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1904-1919</unitdate>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="volume">9</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Letter to mayor</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <datesingle standarddate="1916">1916</datesingle>
+              </unitdatestructured>
+              <container label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">6</container>
+            </did>
+          </c>
+        </c>
+        <c level="series">
+          <did>
+            <unittitle>Membership and auxiliary group records</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1845">1845</fromdate>
+                <todate standarddate="1919">1919</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1845-1919</unitdate>
+          </did>
+          <scopecontent>
+            <head>Scope and Contents</head>
+            <p>This subseries contains records related to the membership, and member activities, of
+              the Kirk Street Church. This subseries also contains records related to the Kirk
+              Street Sunday school and Christian Endeavour auxiliary group. The membership records
+              contain marriage records, baptismal records, and records of admission and dismission.
+              The Sunday school records contain information about students as well as records about
+              the administration of the Sunday school. The Christian Endeavour records contain the
+              meeting minutes for the group.</p>
+          </scopecontent>
+          <c level="item">
+            <did>
+              <unittitle>Membership and baptismal records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1845">1845</fromdate>
+                  <todate standarddate="1874">1874</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1845-1874</unitdate>
+              <container label="Mixed Materials" localtype="box">1</container>
+              <container localtype="volume">5</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Membership records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1845">1845</fromdate>
+                  <todate standarddate="1911">1911</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1845-1911</unitdate>
+              <container label="Mixed Materials" localtype="box">1</container>
+              <container localtype="volume">6</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Membership records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1857">1857</fromdate>
+                  <todate standarddate="1914">1914</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1857-1914</unitdate>
+              <container label="Mixed Materials" localtype="box">1</container>
+              <container localtype="volume">7</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Membership records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1899">1899</fromdate>
+                  <todate standarddate="1919">1919</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1899-1919</unitdate>
+              <container label="Mixed Materials" localtype="box">1</container>
+              <container localtype="volume">8</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Sunday school records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1869">1869</fromdate>
+                  <todate standarddate="1871">1871</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1869-1871</unitdate>
+              <container label="Mixed Materials" localtype="box">1</container>
+              <container localtype="volume">10</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Sunday school records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1872">1872</fromdate>
+                  <todate standarddate="1873">1873</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1872-1873</unitdate>
+              <container label="Mixed Materials" localtype="box">1</container>
+              <container localtype="volume">11</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Sunday school records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1875">1875</fromdate>
+                  <todate standarddate="1914">1914</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1875-1914</unitdate>
+              <container label="Mixed Materials" localtype="box">1</container>
+              <container localtype="volume">12</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Sunday school records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1883">1883</fromdate>
+                  <todate standarddate="1890">1890</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1883-1890</unitdate>
+              <container label="Mixed Materials" localtype="box">1</container>
+              <container localtype="volume">13</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Sunday school register</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1888">1888</fromdate>
+                  <todate standarddate="1889">1889</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1888-1889</unitdate>
+              <container label="Mixed Materials" localtype="box">1</container>
+              <container localtype="volume">14</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Sunday school register</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1889">1889</fromdate>
+                  <todate standarddate="1890">1890</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1889-1890</unitdate>
+              <container label="Mixed Materials" localtype="box">1</container>
+              <container localtype="volume">15</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Christian Endeavor records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1883">1883</fromdate>
+                  <todate standarddate="1890">1890</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1883-1890</unitdate>
+              <container label="Mixed Materials" localtype="box">1</container>
+              <container localtype="volume">16</container>
+            </did>
+          </c>
+        </c>
+        <c level="series">
+          <did>
+            <unittitle>Scrapbooks</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1879">1879</fromdate>
+                <todate standarddate="1917">1917</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1879-1917</unitdate>
+          </did>
+          <scopecontent>
+            <head>Scope and Contents</head>
+            <p>This subseries contains scrapbooks created by the Kirk Street Church. These
+              scrapbooks document the near weekly activities and happenings at the church. The
+              scrapbooks primarily contain newspaper clippings and Sunday service programs. The
+              scrapbooks also contain various ephemera created for various programs, events, and
+              gatherings held at the church.</p>
+          </scopecontent>
+          <c level="item">
+            <did>
+              <unittitle>Scrapbook</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1879">1879</fromdate>
+                  <todate standarddate="1886">1886</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1879-1886</unitdate>
+              <container label="Mixed Materials" localtype="box">6</container>
+              <container localtype="volume">1</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Scrapbook</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1888">1888</fromdate>
+                  <todate standarddate="1890">1890</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1888-1890</unitdate>
+              <container label="Mixed Materials" localtype="box">6</container>
+              <container localtype="volume">3</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Scrapbook</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1890">1890</fromdate>
+                  <todate standarddate="1896">1896</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1890-1896</unitdate>
+              <container label="Mixed Materials" localtype="box">6</container>
+              <container localtype="volume">5</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Scrapbook</unittitle>
+              <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1896">1896</fromdate>
+                  <todate standarddate="1898">1898</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+                >1896-1898</unitdate>
+              <container label="Mixed Materials" localtype="box">8</container>
+              <container localtype="volume">2</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Scrapbook</unittitle>
+              <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1898">1898</fromdate>
+                  <todate standarddate="1900">1900</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+                >1898-1900</unitdate>
+              <container label="Mixed Materials" localtype="box">8</container>
+              <container localtype="volume">1</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Scrapbook</unittitle>
+              <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1900">1900</fromdate>
+                  <todate standarddate="1902">1902</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+                >1900-1902</unitdate>
+              <container label="Mixed Materials" localtype="box">8</container>
+              <container localtype="volume">3</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Scrapbook</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1903">1903</fromdate>
+                  <todate standarddate="1904">1904</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1903-1904</unitdate>
+              <container label="Mixed Materials" localtype="box">7</container>
+              <container localtype="volume">3</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Scrapbook</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1904">1904</fromdate>
+                  <todate standarddate="1906">1906</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1904-1906</unitdate>
+              <container label="Mixed Materials" localtype="box">5</container>
+              <container localtype="volume">2</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Scrapbook</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <datesingle standarddate="1907">1907</datesingle>
+              </unitdatestructured>
+              <container label="Mixed Materials" localtype="box">6</container>
+              <container localtype="volume">2</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Scrapbook</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1908">1908</fromdate>
+                  <todate standarddate="1909">1909</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1908-1909</unitdate>
+              <container label="Mixed Materials" localtype="box">6</container>
+              <container localtype="volume">4</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Scrapbook</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <datesingle standarddate="1910">1910</datesingle>
+              </unitdatestructured>
+              <container label="Mixed Materials" localtype="box">5</container>
+              <container localtype="volume">3</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Scrapbook</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <datesingle standarddate="1911">1911</datesingle>
+              </unitdatestructured>
+              <container label="Mixed Materials" localtype="box">5</container>
+              <container localtype="volume">4</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Scrapbook</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1912">1912</fromdate>
+                  <todate standarddate="1913">1913</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1912-1913</unitdate>
+              <container label="Mixed Materials" localtype="box">7</container>
+              <container localtype="volume">4</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Scrapbook</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1914">1914</fromdate>
+                  <todate standarddate="1915">1915</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1914-1915</unitdate>
+              <container label="Mixed Materials" localtype="box">7</container>
+              <container localtype="volume">5</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Scrapbook</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1915">1915</fromdate>
+                  <todate standarddate="1917">1917</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1915-1917</unitdate>
+              <container label="Mixed Materials" localtype="box">7</container>
+              <container localtype="volume">6</container>
+            </did>
+          </c>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unittitle>Eliot Union Church records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1857">1857</fromdate>
+              <todate standarddate="1969">1969</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1857-1969</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains the records of the Eliot Union Church. The records largely start
+            in 1919, when the Eliot and Kirk Street churches merged, but a few record books begin
+            prior to the merger. The membership records, in particular, appear to contain copies of
+            earlier records. This series contains church and administrative records, membership
+            records, auxiliary group records, as well as miscellaneous ephemera.</p>
+        </scopecontent>
+        <c level="item">
+          <did>
+            <unittitle>Membership records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1857">1857</fromdate>
+                <todate standarddate="1952">1952</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1857-1952</unitdate>
+            <container label="Mixed Materials" localtype="box">4</container>
+            <container localtype="volume">1</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>First Presbyterian Church materials</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1897">1897</fromdate>
+                <todate standarddate="1969">1969</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1897-1969</unitdate>
+            <container label="Mixed Materials" localtype="box">4</container>
+            <container localtype="folder">1</container>
+          </did>
+          <scopecontent>
+            <head>Scope and Contents</head>
+            <p>This folder contains ephemera related to the First Presbyterian Church in Lowell. The
+              First Presbyterian Church and Eliot Union Church merged in 1956. The folder contains
+              two photographs in glass of the church's exterior, a 1933 service of dedication
+              program, a seventy-fifth anniversary program, a one hundredth anniversary program, an
+              in memoriam for Rev. Robert Court, and an explainer, with photographs, for the
+              "Historic Windows" of the church.</p>
+          </scopecontent>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>King's Daughters programs</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1911">1911</fromdate>
+                <todate standarddate="1937">1937</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1911-1937</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">8</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>King's Daughters records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1918">1918</fromdate>
+                <todate standarddate="1920">1920</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1918-1920</unitdate>
+            <container label="Mixed Materials" localtype="box">4</container>
+            <container localtype="volume">2</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>King's Daughters records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1920">1920</fromdate>
+                <todate standarddate="1922">1922</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1920-1922</unitdate>
+            <container label="Mixed Materials" localtype="box">4</container>
+            <container localtype="volume">3</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>King's Daughters records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1922">1922</fromdate>
+                <todate standarddate="1925">1925</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1922-1925</unitdate>
+            <container label="Mixed Materials" localtype="box">5</container>
+            <container localtype="volume">1</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>King's Daughters records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1930">1930</fromdate>
+                <todate standarddate="1940">1940</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1930-1940</unitdate>
+            <container label="Mixed Materials" localtype="box">4</container>
+            <container localtype="volume">4</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Church records</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1919">1919</fromdate>
+                <todate standarddate="1953">1953</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1919-1953</unitdate>
+            <container label="Mixed Materials" localtype="box">7</container>
+            <container localtype="volume">1</container>
+          </did>
+          <separatedmaterial>
+            <head>Separated Materials</head>
+            <p>The "Miscellaneous church records, 1931-1954" were removed from this volume for
+              preservation purposes. The item was removed from the back of the book.</p>
+          </separatedmaterial>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Girls Service Club records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1919">1919</fromdate>
+                <todate standarddate="1928">1928</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1919-1928</unitdate>
+            <container label="Mixed Materials" localtype="box">4</container>
+            <container localtype="volume">5</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Girls Service Club records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1928">1928</fromdate>
+                <todate standarddate="1929">1929</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1928-1929</unitdate>
+            <container label="Mixed Materials" localtype="box">4</container>
+            <container localtype="volume">6</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Church committee records</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1921">1921</fromdate>
+                <todate standarddate="1928">1928</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1921-1928</unitdate>
+            <container label="Mixed Materials" localtype="box">7</container>
+            <container localtype="volume">2</container>
+          </did>
+          <separatedmaterial>
+            <head>Separated Materials</head>
+            <p>The "Poems, undated" were removed from this volume for preservation purposes. The
+              item was removed from page 55.</p>
+          </separatedmaterial>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Miscellaneous church records</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1931">1931</fromdate>
+                <todate standarddate="1954">1954</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1931-1954</unitdate>
+            <container label="Mixed Materials" localtype="box">7</container>
+            <container localtype="folder">1</container>
+          </did>
+          <separatedmaterial>
+            <head>Separated Materials</head>
+            <p>Materials in this folder were removed from the "Church records, 1919-1953" for
+              preservation purposes. This item was found in the very back of that record book.</p>
+          </separatedmaterial>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Joachim M. Reis testimonial</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1945">1945</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">7</container>
+            <container localtype="folder">2</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>John W. MacNeil resignation clipping</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1949">1949</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">7</container>
+            <container localtype="folder">3</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Eliot Service League records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1950">1950</fromdate>
+                <todate standarddate="1955">1955</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1950-1955</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">7</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Historical sketch and window history</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">9</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Poems</unittitle>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >undated</unitdate>
+            <container label="Mixed Materials" localtype="box">5</container>
+            <container localtype="folder">1</container>
+          </did>
+          <separatedmaterial>
+            <head>Separated Materials</head>
+            <p>Materials in this folder were removed from the "Committee records, 1921-1928" for
+              preservation purposes. This item was found on page 55 of that record book.</p>
+          </separatedmaterial>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
