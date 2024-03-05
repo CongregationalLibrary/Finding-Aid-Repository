@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/SpringfieldMAEast-5490/EAD/.xml"
+      >SpringfieldMAEast-5490</recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/all/files/SpringfieldMAEast-5490.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Springfield, Mass. East Congregational Church records, 1925-2019.</titleproper>
+        <author>Rachel Groh</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2024-03-05</date>
+        <num>RG5490</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2024-03-05T14:36:57+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Tuesday March 5, 2024
+          at 14:36</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Springfield, Mass. East Congregational Church records, 1925-2019.</unittitle>
+      <unitid>RG5490</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>0.53</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(2 boxes)</physdesc>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1925">1925</fromdate>
+          <todate standarddate="2019">2019</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1925-2019</unitdate>
+      <abstract>East Congregational Church began in Springfield, Massachusetts in 1921 under the
+        leadership of Reverend Dr. Orville T. Fletcher. Four years later in May of 1925, the first
+        service at East Congregational Church was held, led by Rev. Myron Fowell. The church was
+        originally operating on the second floor of the Central Hall building from 1925-1929, and
+        relocated to their new Community House upon its completion in 1929. Rev. Donald Simpson was
+        called to service in 1948, and during his time he led numerous religious education
+        initiatives and events for the community. The new church building was completed in 1957,
+        where the church continued to serve its community until its closure. This collection
+        contains records of baptisms, marriages, deaths, and church membership from the East
+        Congregational church. The records include meeting records, and accounts of the
+        establishment of the church in 1925.</abstract>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">
+          <part>East Congregational Church (Springfield, Mass)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Springfield, Mass. East Congregational Church records,
+        1925-2019, RG5490. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by the Southern New
+        England United Church of Christ in January 2024; ACC# 2024-04.</p>
+    </acqinfo>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Processed by Rachel Groh, February 2024, using DACS.</p>
+    </processinfo>
+    <bioghist>
+      <head>Biographical / Historical</head>
+      <p>East Congregational Church began in Springfield, Massachusetts in 1921 under the leadership
+        of Reverend Dr. Orville T. Fletcher. Rev. Fletcher, who was the Pastor of the Park
+        Congregational Church in Springfield, had originally began a Sunday school in East
+        Springfield that amplified the area's existing need for a church. Four years later in May of
+        1925, the first service at East Congregational Church was held, led by Rev. Myron Fowell.
+        The church was originally operating on the second floor of the Central Hall building from
+        1925-1929, and relocated to their new Community House upon its completion in 1929.</p>
+      <p>The Community House was central to the church, as it housed their Sunday school that
+        continued to grow in attendance over the years. The Sunday school started by admitting first
+        grade through high school aged children, with the addition of a kindergarten class started
+        under Rev. Donald Simpson, who was called to service in 1948. Rev. Simpson also initiated a
+        Pastor's class on weekdays for those under 13, which was continued in the following decades
+        by instructors from the church. While their focus remained on involving children in
+        religious education, in the late 1950's, Rev. Simpson started an educational program for
+        adults called "Through the Bible in a Year", which aimed to increase the biblical knowledge
+        of the adult members of the church.</p>
+      <p>During the year of 1956, the kindergarten and nursery were relocated to the nearby Bowles
+        School temporarily while the new church was being built. The new church was later completed
+        in 1957.</p>
+      <p>The church utilized Pilgrim Press materials belonging to their own denomination in the
+        early years of the church. Later, they opted to use "Faith and Life Curriculum of the
+        Westminster Press", of which materials were organized around three central themes of Jesus
+        Christ, The Bible, and The Church. In 1960, they switched to the United Church Curriculum
+        that was promoted by the Christian Education Committee, with the goal of finding curriculum
+        suitable for children of all ages. As of 1975, the church stated that they were using a more
+        Bible central curriculum in comparison to that of the United Church Curriculum. The church
+        continued to serve its community in Springfield until the time of its closure</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains records of baptisms, marriages, deaths, and church membership from
+        the East Congregational church in Springfield, Massachusetts. The records include meeting
+        records, and accounts of the establishment of the church in 1925.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>Materials have been arranged in chronological order by start date.</p>
+    </arrangement>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <subject identifier="sh85090572" source="lcsh">
+        <part>Necrologies.</part>
+      </subject>
+      <corpname rules="rda" source="local">
+        <part>East Congregational Church (Springfield, Mass)</part>
+      </corpname>
+      <corpname identifier="n79065976" source="lcnaf">
+        <part>Springfield (Mass.) -- Church history.</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="item">
+        <did>
+          <unittitle>Church register </unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1925">1925</fromdate>
+              <todate standarddate="1947">1947</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1925-1947</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">1</container>
+        </did>
+        <separatedmaterial>
+          <head>Separated Materials</head>
+          <p>The "Materials from church register, 1926-1950, undated" were removed from this volume
+            for preservation. Materials were removed from pages 29, 93, 99, 125, and 257.</p>
+        </separatedmaterial>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Materials from church register</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1926">1926</fromdate>
+              <todate standarddate="1950">1950</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1926-1950,
+            undated</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">1</container>
+        </did>
+        <separatedmaterial>
+          <head>Separated Materials</head>
+          <p>These materials were removed from the volume "Church register, 1925-1947" for
+            preservation. Materials were removed from pages 29, 93, 99, 125, and 257.</p>
+        </separatedmaterial>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Donald A. Simpson pastoral record</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1944">1944</fromdate>
+              <todate standarddate="2001">2001</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1944-2001</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">2</container>
+        </did>
+        <separatedmaterial>
+          <head>Separated Materials</head>
+          <p>The "Materials from Donald A. Simpson pastoral record, 1961-2000" were removed from
+            this volume for preservation. Materials were removed from pages 129, 145, and 221.</p>
+        </separatedmaterial>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Church register</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1945">1945</fromdate>
+              <todate standarddate="1962">1962</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1945-1962</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">3</container>
+        </did>
+        <separatedmaterial>
+          <head>Separated Materials</head>
+          <p>The "Materials from Church register, 1949-undated" were removed from this volume for
+            preservation. Materials were removed from pages 1, 5, and 216.</p>
+        </separatedmaterial>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Materials from church register</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1949">1949-undated</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">2</container>
+        </did>
+        <separatedmaterial>
+          <head>Separated Materials</head>
+          <p>Materials in this folder were removed from the volume "Church register, 1945-1962" for
+            preservation. Materials were removed from pages 1, 5, and 216.</p>
+        </separatedmaterial>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Materials from Donald A. Simpson pastoral record</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1961">1961</fromdate>
+              <todate standarddate="2000">2000</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1961-2000</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">3</container>
+        </did>
+        <separatedmaterial>
+          <head>Separated Materials</head>
+          <p>Materials in this folder were removed from the volume "Donald A. Simpson Pastoral
+            record, 1944-2001" for preservation. Materials were removed from pages 129, 145, and
+            221.</p>
+        </separatedmaterial>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Church register</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1963">1963</fromdate>
+              <todate standarddate="2019">2019</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1963-2019</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="volume">1</container>
+        </did>
+        <separatedmaterial>
+          <head>Separated Materials</head>
+          <p>The "Materials from Church register, 1971-undated" were removed from this volume for
+            preservation. The materials were removed from pages 1 and 261.</p>
+        </separatedmaterial>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Materials from church register</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1971">1971-undated</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">4</container>
+        </did>
+        <separatedmaterial>
+          <head>Separated Materials</head>
+          <p>Materials in this folder were removed from the volume "Church register, 1963-2019" for
+            preservation. Materials were found on pages 1 and 261.</p>
+        </separatedmaterial>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Church register</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1995">1995</fromdate>
+              <todate standarddate="2001">2001</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1995-2001</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="volume">2</container>
+        </did>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
