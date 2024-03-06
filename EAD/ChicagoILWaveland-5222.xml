@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="completed"
+    langencoding="iso639-2b" repositoryencoding="iso15511">
+    <eadid countrycode="US" mainagencycode="US-MBC">ChicagoILWaveland-5222</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Chicago, Ill. Waveland Avenue Congregational Church records, 1876-1980.
+            <num>RG5222</num></titleproper>
+        <author>Billy McCarthy</author>
+      </titlestmt>
+      <editionstmt>
+        <p>This version of the finding aid was created after adding additional material found in
+          RG5121, which is a collection containing multiple individual churches.</p>
+      </editionstmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <p><date>2024-03-06</date></p>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline>Business Number: 617-523-0470</addressline>
+          <addressline>info@14beacon.org</addressline>
+          <addressline>URL: <extptr xlink:href="http://www.CongregationalLibrary.org"
+              xlink:show="new" xlink:title="http://www.CongregationalLibrary.org"
+              xlink:type="simple"/></addressline>
+        </address>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>This finding aid was produced using ArchivesSpace on <date>2024-03-06 14:38:16
+          +0000</date>.</creation>
+      <langusage>Description is written in: <language langcode="eng" scriptcode="Latn">English,
+          Latin script</language>.</langusage>
+      <descrules>DACS2 - 2013</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <repository>
+        <corpname>Congregational Library &amp; Archives</corpname>
+      </repository>
+      <unittitle>Chicago, Ill. Waveland Avenue Congregational Church records, 1876-1980.</unittitle>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">Waveland Avenue Congregational Church (Chicago,
+          Ill.)</corpname>
+      </origination>
+      <unitid>RG5222</unitid>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1.09 Cubic Feet</extent>
+        <extent altrender="carrier">(1 box)</extent>
+      </physdesc>
+      <unitdate calendar="gregorian" datechar="creation" normal="1876/1980" type="inclusive"
+        >1876-1980</unitdate>
+      <abstract >The church was first gathered in 1876
+        under the leadership of Andrew Brotherstone. In 1894, the Waveland Avenue Congregationalist
+        Church officially joined the associated Chicago area Congregationalist churches. In 1961,
+        the church joined the United Church of Christ. The church served its community until 1982
+        when it permanently closed. The collection includes board reports, financial records, and
+        administrative records.</abstract>
+      <langmaterial>
+        <language langcode="eng">English</language> . </langmaterial>
+    </did>
+    <accessrestrict >
+      <head> Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict >
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite >
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Chicago, Ill. Waveland Avenue Congregational Church
+        records, 1876-1980, RG5222. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo >
+      <head>Acquisition Information</head>
+      <p>Gift from the Chicago Theological Seminary in 2014; Accession: 2014-69.</p>
+    </acqinfo>
+    <processinfo >
+      <head>Processing Information</head>
+      <p>Processed by Billy McCarthy, March 2017, using DACS Second Edition. Additional changes made
+        by Billy McCarthy in March 2024 after finding relevant material in another collection
+        (RG5121).</p>
+    </processinfo>
+    <bioghist >
+      <head>Historical Note</head>
+      <p>The church was first gathered in 1876 under the leadership of Andrew Brotherstone. In 1894,
+        the Waveland Avenue Congregationalist Church officially joined the associated Chicago area
+        Congregationalist churches. In 1961, the church joined the United Church of Christ. The
+        church served its community until 1982 when it permanently closed.</p>
+    </bioghist>
+    <scopecontent >
+      <head>Scope and Contents</head>
+      <p>The Waveland Avenue Congregational Church records include board reports, meeting minutes of
+        the prudential committee, financial records, church meeting minutes and administrative
+        records, church calendars and scheduling information, and the church's constitution.</p>
+    </scopecontent>
+    <arrangement >
+      <head>Arrangement</head>
+      <p>This collection has been arranged chronologically.</p>
+    </arrangement>
+    <bibliography >
+      <head>Bibliography</head>
+      <p>Taylor, Richard H. <emph render="italic">Congregational and Plan of Union Churches in the
+          Great Lakes States</emph>. Vol. 5. Providence: Richard H. Taylor Publishing, 2009.
+        [9.3.246]</p>
+    </bibliography>
+    <controlaccess>
+      <subject authfilenumber="sh85025741" source="lcsh">Church records and registers.</subject>
+      <subject authfilenumber="sh85025606" source="lcsh">Church finance.</subject>
+      <subject authfilenumber="sh85025619" source="lcsh">Church history.</subject>
+      <subject authfilenumber="sh85025070" source="lcsh">Christian education of children.</subject>
+      <corpname authfilenumber="n78086438" source="lcnaf">Chicago (Ill.) -- Church
+        history.</corpname>
+      <corpname rules="rda" source="local">Waveland Avenue Congregational Church (Chicago,
+        Ill.)</corpname>
+    </controlaccess>
+    <dsc>
+      <c  level="file">
+        <did>
+          <unittitle>Meeting minutes with Constitution</unittitle>
+          <unitdate datechar="creation" normal="1876/1897" type="inclusive">1876-1897</unitdate>
+          <container  label="Mixed Materials" type="box"
+            >1</container>
+          <container 
+             type="folder">23</container>
+        </did>
+      </c>
+      <c  level="file">
+        <did>
+          <unittitle>Board of trustees record book</unittitle>
+          <unitdate datechar="creation" normal="1898/1905" type="inclusive">1898-1905</unitdate>
+          <container  label="Mixed Materials" type="box"
+            >1</container>
+          <container 
+             type="folder">22</container>
+        </did>
+      </c>
+      <c  level="file">
+        <did>
+          <unittitle>Church calendar</unittitle>
+          <unitdate datechar="creation" normal="1904/1905" type="inclusive">1904-1905</unitdate>
+          <container  label="Mixed Materials" type="box"
+            >1</container>
+          <container 
+             type="folder">7</container>
+        </did>
+      </c>
+      <c  level="file">
+        <did>
+          <unittitle>Newsletters</unittitle>
+          <unitdate datechar="creation" normal="1909/1975" type="inclusive">1909-1975</unitdate>
+          <container  label="Mixed Materials" type="box"
+            >1</container>
+          <container 
+             type="folder">6</container>
+        </did>
+      </c>
+      <c  level="file">
+        <did>
+          <unittitle>Finances</unittitle>
+          <unitdate datechar="creation" normal="1910/1922" type="inclusive">1910-1922</unitdate>
+          <container  label="Mixed Materials" type="box"
+            >1</container>
+          <container 
+             type="folder">25</container>
+        </did>
+      </c>
+      <c  level="file">
+        <did>
+          <unittitle>Prudential committee minutes</unittitle>
+          <unitdate datechar="creation" normal="1916/1923" type="inclusive">1916-1923</unitdate>
+          <container  label="Mixed Materials" type="box"
+            >1</container>
+          <container 
+             type="folder">26</container>
+        </did>
+      </c>
+      <c  level="file">
+        <did>
+          <unittitle>Meeting minutes</unittitle>
+          <unitdate datechar="creation" normal="1924/1945" type="inclusive">1924-1945</unitdate>
+          <container  label="Mixed Materials" type="box"
+            >1</container>
+          <container 
+             type="folder">21</container>
+        </did>
+      </c>
+      <c  level="file">
+        <did>
+          <unittitle>Prudential committee minutes</unittitle>
+          <unitdate datechar="creation" normal="1924/1930" type="inclusive">1924-1930</unitdate>
+          <container  label="Mixed Materials" type="box"
+            >1</container>
+          <container 
+             type="folder">24</container>
+        </did>
+      </c>
+      <c  level="file">
+        <did>
+          <unittitle>Clerk Reports</unittitle>
+          <unitdate datechar="creation" normal="1924/1929" type="inclusive">1924-1929</unitdate>
+          <container  label="Mixed Materials" type="box"
+            >1</container>
+          <container 
+             type="folder">9</container>
+        </did>
+      </c>
+      <c  level="file">
+        <did>
+          <unittitle>Alphabetized Correspondences</unittitle>
+          <unitdate datechar="creation" normal="1925/1931" type="inclusive">1925-1931</unitdate>
+          <container  label="Mixed Materials" type="box"
+            >1</container>
+          <container 
+             type="folder">18</container>
+        </did>
+      </c>
+      <c  level="file">
+        <did>
+          <unittitle>Annual Reports</unittitle>
+          <unitdate datechar="creation" normal="1937/1937">1937</unitdate>
+          <container  label="Mixed Materials" type="box"
+            >1</container>
+          <container 
+             type="folder">4</container>
+        </did>
+      </c>
+      <c  level="file">
+        <did>
+          <unittitle>Memorial Gifts and donations</unittitle>
+          <unitdate datechar="creation" normal="1952/1968" type="inclusive">1952-1968</unitdate>
+          <container  label="Mixed Materials" type="box"
+            >1</container>
+          <container 
+             type="folder">19</container>
+        </did>
+      </c>
+      <c  level="file">
+        <did>
+          <unittitle>History of Waveland Sunday School</unittitle>
+          <unitdate datechar="creation" normal="1956/1959" type="inclusive">1956-1959</unitdate>
+          <container  label="Mixed Materials" type="box"
+            >1</container>
+          <container 
+             type="folder">17</container>
+        </did>
+      </c>
+      <c  level="file">
+        <did>
+          <unittitle>Schedule and Calendar Book</unittitle>
+          <unitdate datechar="creation" normal="1956/1977" type="inclusive">1956-1977</unitdate>
+          <container  label="Mixed Materials" type="box"
+            >1</container>
+          <container 
+             type="folder">13</container>
+        </did>
+      </c>
+      <c  level="file">
+        <did>
+          <unittitle>Board of Trustee's Minutes</unittitle>
+          <unitdate datechar="creation" normal="1958/1962" type="inclusive">1958-1962</unitdate>
+          <container  label="Mixed Materials" type="box"
+            >1</container>
+          <container 
+             type="folder">10</container>
+        </did>
+      </c>
+      <c  level="file">
+        <did>
+          <unittitle>Church Council meeting minutes</unittitle>
+          <unitdate datechar="creation" normal="1959/1964" type="inclusive">1959-1964</unitdate>
+          <container  label="Mixed Materials" type="box"
+            >1</container>
+          <container 
+             type="folder">11</container>
+        </did>
+      </c>
+      <c  level="file">
+        <did>
+          <unittitle>Confirmations</unittitle>
+          <unitdate datechar="creation" normal="1964/1978" type="inclusive">1964-1978</unitdate>
+          <container  label="Mixed Materials" type="box"
+            >1</container>
+          <container 
+             type="folder">20</container>
+        </did>
+      </c>
+      <c  level="file">
+        <did>
+          <unittitle>Church Council meeting minutes</unittitle>
+          <unitdate datechar="creation" normal="1966/1969" type="inclusive">1966-1969</unitdate>
+          <container  label="Mixed Materials" type="box"
+            >1</container>
+          <container 
+             type="folder">12</container>
+        </did>
+      </c>
+      <c  level="file">
+        <did>
+          <unittitle>Annual Reports</unittitle>
+          <unitdate datechar="creation" normal="1967/1971" type="inclusive">1967-1971</unitdate>
+          <container  label="Mixed Materials" type="box"
+            >1</container>
+          <container 
+             type="folder">1</container>
+        </did>
+      </c>
+      <c  level="file">
+        <did>
+          <unittitle>United Church of Christ reports</unittitle>
+          <unitdate datechar="creation" normal="1968/1978" type="inclusive">1968-1978</unitdate>
+          <container  label="Mixed Materials" type="box"
+            >1</container>
+          <container 
+             type="folder">16</container>
+        </did>
+      </c>
+      <c  level="file">
+        <did>
+          <unittitle>Annual Reports</unittitle>
+          <unitdate datechar="creation" normal="1972/1974" type="inclusive">1972-1974</unitdate>
+          <container  label="Mixed Materials" type="box"
+            >1</container>
+          <container 
+             type="folder">2</container>
+        </did>
+      </c>
+      <c  level="file">
+        <did>
+          <unittitle>Annual Reports</unittitle>
+          <unitdate datechar="creation" normal="1975/1978" type="inclusive">1975-1978</unitdate>
+          <container  label="Mixed Materials" type="box"
+            >1</container>
+          <container 
+             type="folder">3</container>
+        </did>
+      </c>
+      <c  level="file">
+        <did>
+          <unittitle>Centennial Celebration and Preparation</unittitle>
+          <unitdate datechar="creation" normal="1976/1976">1976</unitdate>
+          <container  label="Mixed Materials" type="box"
+            >1</container>
+          <container 
+             type="folder">8</container>
+        </did>
+      </c>
+      <c  level="file">
+        <did>
+          <unittitle>Annual Reports</unittitle>
+          <unitdate datechar="creation" normal="1980/1980">1980</unitdate>
+          <container  label="Mixed Materials" type="box"
+            >1</container>
+          <container 
+             type="folder">5</container>
+        </did>
+      </c>
+      <c  level="file">
+        <did>
+          <unittitle>History and Reminiscences</unittitle>
+          <unitdate datechar="creation" type="inclusive">undated</unitdate>
+          <container  label="Mixed Materials" type="box"
+            >1</container>
+          <container 
+             type="folder">14</container>
+        </did>
+      </c>
+      <c  level="file">
+        <did>
+          <unittitle>Fabric from Goodrich Girls' School in China</unittitle>
+          <unitdate datechar="creation" type="inclusive">undated</unitdate>
+          <container  label="Physical Object" type="box"
+            >1</container>
+          <container 
+             type="folder">15</container>
+        </did>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
