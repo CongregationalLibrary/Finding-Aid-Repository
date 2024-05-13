@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/ScottMarionN-5427.xml"
+      >ScottMarionN-5427</recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/all/files/ScottMarionN-5427.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Marion N. Scott's vital records of the Trinitarian Congregational Church in
+          Northfield, Mass., 1878-2019.</titleproper>
+        <author>Patrick Riordan</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2022-05-10</date>
+        <num>MS5427</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2022-05-10T17:28:16+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.8.1</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Tuesday May 10, 2022
+          at 17:28</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Marion N. Scott's vital records of the Trinitarian Congregational Church in
+        Northfield, Mass., 1878-2019.</unittitle>
+      <unitid>MS5427</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>4</quantity>
+        <unittype>Folders</unittype>
+      </physdescstructured>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1878">1878</fromdate>
+          <todate standarddate="2019">2019</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1878-2019</unitdate>
+      <unitdatestructured calendar="gregorian" datechar="record_keeping" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="2018">2018</fromdate>
+          <todate standarddate="2019">2019</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="record_keeping" unitdatetype="inclusive"
+        >2018-2019</unitdate>
+      <abstract>This collection of the Trinitarian Congregational Church of Northfield,
+        Massachusetts was composed by Marion N. Scott between 2018 and 2019. The vital records
+        attempt to preserve the history of the church through records of deaths, marriages,
+        baptisms, and membership between 1878 and 2019.</abstract>
+      <origination label="Creator">
+        <persname rules="rda" source="local">
+          <part>Scott, Marion</part>
+        </persname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in Marion N. Scott's vital records of the Trinitarian
+        Congregational Church in Northfield, Mass., 1878-2019. MS5427. The Congregational Library
+        &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by Marion N. Scott in
+        December 2019; 2019-31.</p>
+    </acqinfo>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Processed by Patrick Riordan, May 2022, using DACS 2019.03.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>This collection of vital records was composed by Marion N. Scott between 2018 and 2019 to
+        record the deaths, marriages, baptisms, and membership of the Trinitarian Congregational
+        Church of Northfield, Massachusetts, between 1878 and 2019. The church, originally founded
+        as the Second Congregational Society in 1825, burned down in 1968, and all records at the
+        time were lost. These records were produced from questionnaires sent to members as well as
+        annual reports following 1968. The Trinitarian Congregational Church continues to serve
+        Northfield today.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection records the membership of the Trinitarian Congregational Church of
+        Northfield, Massachusetts between 1878 and 2019 through records of marriages, baptisms,
+        deaths, and membership.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>Items in this collection are arranged in alphabetical order.</p>
+    </arrangement>
+    <controlaccess>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <subject identifier="sh85090572" source="lcsh">
+        <part>Necrologies.</part>
+      </subject>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <corpname identifier="nr96002301" rules="rda" source="lcnaf">
+        <part>Second Congregational Society (Northfield, Mass.)</part>
+      </corpname>
+      <corpname identifier="nr93049522" rules="dacs" source="lcnaf">
+        <part>Northfield (Mass.) -- Church history.</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 level="file">
+        <did>
+          <unittitle>Trinitarian vital records - baptisms</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1885">1885</fromdate>
+              <todate standarddate="2019">2019</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1885-2019</unitdate>
+          <unitdatestructured calendar="gregorian" datechar="record_keeping"
+            unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="2018">2018</fromdate>
+              <todate standarddate="2019">2019</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="record_keeping" unitdatetype="inclusive"
+            >2018-2019</unitdate>
+          <langmaterial>
+            <languageset>
+              <language langcode="eng">English</language>
+              <script scriptcode="Latn">Latin</script>
+            </languageset>
+          </langmaterial>
+          <container label="Mixed Materials" localtype="box">Small 7</container>
+          <container localtype="folder">2</container>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>Trinitarian vital records - deaths</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1878">1878</fromdate>
+              <todate standarddate="2019">2019</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1878-2019</unitdate>
+          <unitdatestructured calendar="gregorian" datechar="record_keeping"
+            unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="2018">2018</fromdate>
+              <todate standarddate="2019">2019</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="record_keeping" unitdatetype="inclusive"
+            >2018-2019</unitdate>
+          <langmaterial>
+            <languageset>
+              <language langcode="eng">English</language>
+              <script scriptcode="Latn">Latin</script>
+            </languageset>
+          </langmaterial>
+          <container label="Mixed Materials" localtype="box">Small 7</container>
+          <container localtype="folder">3</container>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>Trinitarian vital records - marriages</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1900">1900</fromdate>
+              <todate standarddate="2019">2019</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1900-2019</unitdate>
+          <unitdatestructured calendar="gregorian" datechar="record_keeping"
+            unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="2018">2018</fromdate>
+              <todate standarddate="2019">2019</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="record_keeping" unitdatetype="inclusive"
+            >2018-2019</unitdate>
+          <langmaterial>
+            <languageset>
+              <language langcode="eng">English</language>
+              <script scriptcode="Latn">Latin</script>
+            </languageset>
+          </langmaterial>
+          <container label="Mixed Materials" localtype="box">Small 7</container>
+          <container localtype="folder">4</container>
+        </did>
+      </c01>
+      <c01 level="file">
+        <did>
+          <unittitle>Trinitarian vital records - membership</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1898">1898</fromdate>
+              <todate standarddate="2019">2019</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1898-2019</unitdate>
+          <unitdatestructured calendar="gregorian" datechar="record_keeping"
+            unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="2018">2018</fromdate>
+              <todate standarddate="2019">2019</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="record_keeping" unitdatetype="inclusive"
+            >2018-2019</unitdate>
+          <langmaterial>
+            <languageset>
+              <language langcode="eng">English</language>
+              <script scriptcode="Latn">Latin</script>
+            </languageset>
+          </langmaterial>
+          <container label="Mixed Materials" localtype="box">Small 7</container>
+          <container localtype="folder">5</container>
+        </did>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
