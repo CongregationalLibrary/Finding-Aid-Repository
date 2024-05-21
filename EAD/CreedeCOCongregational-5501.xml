@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/CreedeCOCongregational-5501.xml"
+      >CreedeCOCongregational-5501</recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/default/files/FindingAids/CreedeCOCongregational-5501.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Creede, Colo. Creede Congregational Church records, 1892-1954.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline>
+            <ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref>
+          </addressline>
+        </address>
+        <date>2024-05-20</date>
+        <num>RG5501</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2024-05-21T19:21:59+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Tuesday May 21, 2024
+          at 19:21</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Creede, Colo. Creede Congregational Church records, 1892-1954.</unittitle>
+      <unitid>RG5501</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>0.18</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(1 box)</physdesc>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1892">1892</fromdate>
+          <todate standarddate="1954">1954</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1892-1954</unitdate>
+      <abstract>In 1892, the town of Creede was incorporated. Rev. Horace Sanderson, a missionary
+        minister from the Congregational Home Missions office, delivered the first sermon in town on
+        January 10, 1892. Under Rev. William T. Patchell, the church was formally incorporated on
+        August 5, 1894. The first cornerstone for the first church building was laid on May 30, 1905
+        and "The Red Church" had its dedication on June 30, 1912. The Creede Community Church, is a
+        member of the United Church of Christ and continues to serve the community today. This
+        collection contains the earliest administrative records for the Congregational church in
+        Creede, Colorado, and includes meeting minutes, membership records, and baptismal
+        records.</abstract>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">
+          <part>Creede Congregational Church (Creede, Colo.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Creede, Colo. Creede Congregational Church records,
+        1892-1954, RG5501. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by the Rocky Mountain
+        Conference, August 2021; accession 2021-07.</p>
+    </acqinfo>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Processed by Zachary Bodnar, May 2024, using Describing Archives: A Content Standard.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>The history of Creede, Colorado, as a town, begins between 1889 and 1891 when the discovery
+        of rich mineral deposits resulted in the settlement's population increasing from 600 to more
+        than 10,000. In 1892, the town of Creede was incorporated. Rev. Horace Sanderson, a
+        missionary minister from the Congregational Home Missions office, delivered the first sermon
+        in town on January 10, 1892. Almost a year later, the first baptism was recorded on November
+        20, 1892, by Rev. Milton M. Frantz. On June 10, 1893, Rev. William T. Patchell preached his
+        first sermon. Under Patchell, the church was formally incorporated on August 5, 1894.</p>
+      <p>The first cornerstone for the first church building was laid on May 30, 1905. The sanctuary
+        was in use by the following winter and the dedication service for the church building was
+        held on June 30, 1912. "The Red Church" building has been the Creede Congregational Church's
+        sole church building. The Creede Congregational Church, now known as the Creede Community
+        Church, is a member of the United Church of Christ and continues to serve the community
+        today.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains the earliest administrative records for the Congregational church
+        in Creede, Colorado. The church records contain meeting minutes, a history of the first 20
+        years of the church, baptismal records, membership records, correspondence related to the
+        Sunday school, and a letter related to the 50th anniversary of the church building's
+        cornerstone laying.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>Materials have been arranged in chronological order.</p>
+    </arrangement>
+    <bibliography>
+      <head>Bibliography</head>
+      <p>"About Us." Creed Community Church, UCC. Accessed May 20.
+        https://www.creedecommunitychurch.org/about-us</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025584" source="lcsh">
+        <part>Church charities.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <corpname rules="rda" source="local">
+        <part>Creede Congregational Church (Creede, Colo.)</part>
+      </corpname>
+      <corpname identifier="n82225402" source="lcnaf">
+        <part>Creede (Colo.) -- Church history.</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1892">1892</fromdate>
+              <todate standarddate="1902">1902</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1892-1902</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">1</container>
+        </did>
+        <separatedmaterial>
+          <head>Separated Materials</head>
+          <p>Loose materials from between pages 74 and 75 of this volume were removed and placed in
+            the folder "50th anniversary letter, 1954" for preservation purposes.</p>
+        </separatedmaterial>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1902">1902</fromdate>
+              <todate standarddate="1919">1919</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1902-1919</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">2</container>
+        </did>
+        <separatedmaterial>
+          <head>Separated Materials</head>
+          <p>Loose materials from the back of this volume were removed and placed in the folder
+            "Sunday school correspondence, 1920-1921" for preservation purposes.</p>
+        </separatedmaterial>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Sunday school correspondence</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1920">1920</fromdate>
+              <todate standarddate="1921">1921</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1920-1921</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">1</container>
+        </did>
+        <separatedmaterial>
+          <head>Separated Materials</head>
+          <p>Materials in this folder were removed from the back of the "Church records, 1902-1919"
+            for preservation purposes.</p>
+        </separatedmaterial>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>50th anniversary letter</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1954">1954</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">2</container>
+        </did>
+        <separatedmaterial>
+          <head>Separated Materials</head>
+          <p>Materials in this folder were removed from between pages 74 and 75 of the "Church
+            records, 1892-1902" for preservation purposes.</p>
+        </separatedmaterial>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
