@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/&lt;Replace with EAD ID&gt;.xml"
+      >GoldenCOApplewoods-5502</recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/default/files/FindingAids/GoldenCOApplewoods-5502.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Golden, Colo. United Church of the Applewoods membership records,
+          1961-1971.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline>
+            <ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref>
+          </addressline>
+        </address>
+        <date>2024-05-23</date>
+        <num>RG5502</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2024-05-22T15:55:02+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday May 22,
+          2024 at 15:55</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Golden, Colo. United Church of the Applewoods membership records,
+        1961-1971.</unittitle>
+      <unitid>RG5502</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>1</quantity>
+        <unittype>Folder</unittype>
+      </physdescstructured>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1961">1961</fromdate>
+          <todate standarddate="1971">1971</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1961-1971</unitdate>
+      <abstract>The establishment date for the United Church of the Applewoods in Golden, Colorado,
+        is unknown, though it existed in the late 1950s. In 1968, the church agreed to share the
+        building with the Jefferson Unitarian Church and in 1973 the church building was given
+        completely to the Unitarian Church, likely marking the formal dissolution of the United
+        Church of the Applewoods. The collection contains a single ledger containing both vital
+        records and membership records for the church.</abstract>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">
+          <part>United Church of the Applewoods (Golden, Colo.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Golden, Colo. United Church of the Applewoods membership
+        records, 1961-1971, RG5502. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by the Rocky Mountain
+        Conference, August 2021; accession 2021-07.</p>
+    </acqinfo>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Processed by Zachary Bodnar, May 2024, using Describing Archives: A Content Standard.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>The establishment date for the United Church of the Applewoods in Golden, Colorado, is
+        unknown. The church building was likely designed by Roger J. Easton and constructed in 1963,
+        though a version of the church building may have been constructed in the late 1950s. In
+        1968, the church entered into an arrangement with the Jefferson Unitarian Church to share
+        facilities. In 1973, the Jefferson Unitarian Church took over control of the property. It is
+        likely that the United Church of the Applewoods dissolved between 1971 and 1973. The
+        Jefferson Unitarian Church continues to serve the Golden community today and continues to
+        worship in the same building.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains a ledger of vital records for the United Church of the Applewoods
+        in Golden, Colorado. The ledger contains records of baptisms, marriages, and deaths. The
+        ledger also contains membership records, such as lists of members admitted and members
+        dismissed.</p>
+    </scopecontent>
+    <bibliography>
+      <head>Bibliography</head>
+      <p>United Church of Applewoods, 14350 W. 32nd, Golden, Colorado, 1963, Box: 1, Folder: 35.
+        Devon M. Carlson collection, COU:299. University of Colorado Boulder Libraries, Rare and
+        Distinctive Collections.</p>
+      <p>Greer, Jane. "Colorado congregation enjoys increased space." <emph render="italic"
+          >UUWorld</emph>, March 17, 2015.
+        https://www.uuworld.org/articles/colorado-congregation-grows-builds.</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <subject identifier="sh85090572" source="lcsh">
+        <part>Necrologies.</part>
+      </subject>
+      <corpname identifier="n79089912" source="lcnaf">
+        <part>Golden (Colo.) -- Church history.</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>United Church of the Applewoods (Golden, Colo.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="file">
+        <did>
+          <unittitle>Membership records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1961">1961</fromdate>
+              <todate standarddate="1971">1971</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1961-1971</unitdate>
+          <container label="Mixed Materials" localtype="box">Small 10</container>
+          <container localtype="folder">1</container>
+        </did>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
