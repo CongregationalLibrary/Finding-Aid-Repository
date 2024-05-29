@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/CrippleCreekCOUnion-5504.xml"
+      >CrippleCreekCOUnion-5504</recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/default/files/FindingAids/CrippleCreekCOUnion-5504.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Cripple Creek, Colo. The Union Church records, 1892-1945.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline>
+            <ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref>
+          </addressline>
+        </address>
+        <date>2024-05-29</date>
+        <num>RG5504</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2024-05-29T17:52:58+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday May 29,
+          2024 at 17:52</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Cripple Creek, Colo. The Union Church records, 1892-1945.</unittitle>
+      <unitid>RG5504</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>4</quantity>
+        <unittype>Folders</unittype>
+      </physdescstructured>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1892">1892</fromdate>
+          <todate standarddate="1945">1945</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1892-1945</unitdate>
+      <abstract>The city of Cripple Creek, Colorado, was incorporated in 1892, the same year that
+        the First Congregational Church in Cripple Creek was gathered. The church was known as The
+        Union Church by the 1940s and in later years it would be known as The United Church. The
+        church was dissolved in 1983. This collection contains the administrative and vital
+        membership records for The Union Church, previously named the First Congregational Church,
+        in Cripple Creek, Colorado.</abstract>
+      <origination label="Creator">
+        <corpname identifier="70178150" source="snac">
+          <part>First Congregational Church (Cripple Creek, Colo.)</part>
+        </corpname>
+      </origination>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">
+          <part>The Union Church (Cripple Creek, Colo.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Cripple Creek, Colo. The Union Church records, 1892-1945,
+        RG5504. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by the Rocky Mountain
+        Conference, August 2021; accession 2021-07.</p>
+    </acqinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>The region around the base of Pikes Peak was originally inhabited by the Ute people.
+        Cripple Creek was largely settled by Americans during the last of Colorado's gold rushes in
+        the early 1890s. The city of Cripple Creek, Colorado, was incorporated in 1892, the same
+        year that the First Congregational Church in Cripple Creek was gathered. The church was
+        known as The Union Church by the 1940s and in later years it would be known as The United
+        Church. The church joined the United Church of Christ in 1962. The church was dissolved in
+        1983.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains the administrative and vital membership records for The Union
+        Church, previously named the First Congregational Church, in Cripple Creek, Colorado. These
+        records include membership records, marriage records, baptismal records, correspondence
+        related to membership, meeting minutes, reports, financial records and receipts, and
+        miscellaneous records.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>Materials have been arranged into chronological order.</p>
+    </arrangement>
+    <relatedmaterial>
+      <head>Related Materials</head>
+      <p><ref
+          href="https://pikp.ent.sirsi.net/client/en_US/PPLD/search/detailnonmodal/ent:$002f$002fSD_ILS$002f0$002fSD_ILS:462680/email?qu=First+Congregational+Church+Cripple+Creek&amp;d=ent%3A%2F%2FSD_ILS%2F0%2FSD_ILS%3A462680%7E%7E0&amp;te=ILS"
+          linktitle="View catalog record online">Records, [manuscript] 1898-1912,</ref> MSS 0163
+          <ref href="https://ppld.org/" linktitle="Pikes Peak Library District">Pikes Peak Library
+          District</ref>.</p>
+    </relatedmaterial>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025606" source="lcsh">
+        <part>Church finance.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <corpname identifier="n79062837" source="lcnaf">
+        <part>Cripple Creek (Colo.) -- Church history.</part>
+      </corpname>
+      <corpname identifier="70178150" source="snac">
+        <part>First Congregational Church (Cripple Creek, Colo.)</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>The Union Church (Cripple Creek, Colo.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1892">1892</fromdate>
+              <todate standarddate="1903">1903</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1892-1903</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">1</container>
+        </did>
+        <separatedmaterial>
+          <head>Separated Materials</head>
+          <p>Loose materials from within this volume were removed and placed into the folder labeled
+            " Miscellaneous records and membership records, 1901-1939" and "Membership letter, 1913"
+            for preservation purposes.</p>
+        </separatedmaterial>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Miscellaneous records and membership records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1901">1901</fromdate>
+              <todate standarddate="1939">1939</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1901-1939</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">1</container>
+        </did>
+        <separatedmaterial>
+          <head>Separated Materials</head>
+          <p>Materials in this folder were removed from volume of "Church records, 1892-1903" for
+            preservation purposes. The first three leaves in the folder were removed from between
+            pages 150 and 151 while the remaining were removed from the back of the volume.</p>
+        </separatedmaterial>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1903">1903</fromdate>
+              <todate standarddate="1940">1940</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1903-1940</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">2</container>
+        </did>
+        <separatedmaterial>
+          <head>Separated Materials</head>
+          <p>Loose materials have been removed from this volume and placed into the folders labeled
+            "Miscellaneous records and membership records, 1921-1945" and "Baptismal record request,
+            1943" for preservation purposes.</p>
+        </separatedmaterial>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Membership letter</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1913">1913</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">2</container>
+        </did>
+        <separatedmaterial>
+          <head>Separated Materials</head>
+          <p>This letter was removed from between pages 104 and 105 of the volume of "Church
+            records, 1892-1903" for preservation purposes.</p>
+        </separatedmaterial>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Miscellaneous records and membership records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1921">1921</fromdate>
+              <todate standarddate="1945">1945</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1921-1945</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">3</container>
+        </did>
+        <separatedmaterial>
+          <head>Separated Materials</head>
+          <p>Materials in this folder were removed from the volume of "Church records, 1903-1940"
+            for preservation purposes. The majority of this folder was removed from the back of the
+            volume. A few items were removed from between various pages, though there was no clear
+            connection between the loose materials and the content found on those pages.</p>
+        </separatedmaterial>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Baptismal record request</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1943">1943</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">4</container>
+        </did>
+        <separatedmaterial>
+          <head>Separated Materials</head>
+          <p>Materials in this folder were removed from between pages 26 and 27 in the volume of
+            "Church records, 1903-1940" for preservation purposes.</p>
+        </separatedmaterial>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
