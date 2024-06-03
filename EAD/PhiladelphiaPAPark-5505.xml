@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/PhiladelphiaPAPark-5505.xml"
+      >PhiladelphiaPAPark-5505</recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/default/files/FindingAids/PhiladelphiaPAPark-5505.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Philadelphia, Pa. Park Congregational Church records, 1946-1982.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline>
+            <ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref>
+          </addressline>
+        </address>
+        <date>2024-05-31</date>
+        <num>RG5505</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2024-06-03T19:48:10+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Monday June 3, 2024
+          at 19:48</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Philadelphia, Pa. Park Congregational Church records, 1946-1982.</unittitle>
+      <unitid>RG5505</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+        <quantity>0.35</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(1 box)</physdesc>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1946">1946</fromdate>
+          <todate standarddate="1982">1982</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1946-1982</unitdate>
+      <abstract>The Park Congregational Church of Philadelphia, Pennsylvania, was established in
+        1893. The church moved to a new building in 1926. The sanctuary of that building was
+        renovated in 1954. The church was dissolved by 1982. This collection contains various
+        records from the Park Congregational Church including meeting minutes, annual reports, and
+        records relating the church's dissolution.</abstract>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">
+          <part>Park Congregational Church (Philadelphia, Pa.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>Materials in this collection have been arranged in chronological order.</p>
+    </arrangement>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>The Park Congregational Church was established in 1893 at 32nd Street and Montgomery Avenue
+        in Philadelphia, Pennsylvania. The church moved into a different building at the
+        intersection of Midvale Avenue and McMichael Street in 1926. That building had been
+        constructed in 1915 as an Episcopal Mission and had served as the Church of the Good
+        Shepherd. The sanctuary was refurbished in 1954. The process of dissolving the church began
+        in 1977 and was concluded by 1982.</p>
+    </bioghist>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by the Rocky Mountain
+        Conference, August 2021; accession 2021-10.</p>
+    </acqinfo>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Philadelphia, Pa. Park Congregational Church records,
+        1946-1982, RG5505. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Processed by Zachary Bodnar, May 2024, using Describing Archives: A Content Standard.</p>
+    </processinfo>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains various records from the Park Congregational Church in
+        Philadelphia, Pennsylvania, including meeting minutes, annual reports, a brief history of
+        the church, statistics for multiple years of worship services, and records relating to the
+        dissolution of the church.</p>
+    </scopecontent>
+    <controlaccess>
+      <subject identifier="sh85025577" source="lcsh">
+        <part>Church attendance.</part>
+      </subject>
+      <subject identifier="sh85025854" source="lcsh">
+        <part>Church buildings.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <corpname rules="rda" source="local">
+        <part>Park Congregational Church (Philadelphia, Pa.)</part>
+      </corpname>
+      <corpname identifier="n78095520" source="lcnaf">
+        <part>Philadelphia (Pa.) -- Church history.</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="file">
+        <did>
+          <unittitle>Church history</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1946">1946</fromdate>
+              <todate standarddate="1954">1954</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1946-1954,
+            undated</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">5</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Worship service statistics</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1958">1958</fromdate>
+              <todate standarddate="1964">1964</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1958-1964</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">6</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Miscellaneous records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1965">1965</fromdate>
+              <todate standarddate="1968">1968</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1965-1968</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">7</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Meeting minutes</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1968">1968</fromdate>
+              <todate standarddate="1969">1969</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1968-1969</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">8</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Annual reports</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1968">1968</fromdate>
+              <todate standarddate="1969">1969</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1968-1969</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">9</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Dissolution records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1977">1977</fromdate>
+              <todate standarddate="1982">1982</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1977-1982</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">10</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Church building photograph</unittitle>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >undated</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">11</container>
+        </did>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
