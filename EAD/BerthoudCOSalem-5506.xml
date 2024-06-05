@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/BerthoudCOSalem-5506.xml"
+      >BerthoudCOSalem-5506</recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/default/files/FindingAids/BerthoudCOSalem-5506.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Berthoud, Colo. Salem Congregational Church records, 1909-1960.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline>
+            <ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref>
+          </addressline>
+        </address>
+        <date>2024-06-05</date>
+        <num>RG5506</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2024-06-05T18:19:49+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday June 5,
+          2024 at 18:19</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Berthoud, Colo. Salem Congregational Church records, 1909-1960.</unittitle>
+      <unitid>RG5506</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+        <languageset>
+          <language langcode="ger">German</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>2</quantity>
+        <unittype>Folders</unittype>
+      </physdescstructured>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1909">1909</fromdate>
+          <todate standarddate="1960">1960</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1909-1960</unitdate>
+      <abstract>"German Russians" first immigrated to Berthoud and Northern Colorado around 1900. In
+        1908, these German-speaking immigrants formed the German Congregational Church. In 1917, a
+        portion of the members of the German Congregational Church left to form the Bethlehem
+        Congregational Church. In 1921, the name of the German Congregational Church was changed to
+        First Congregational Church. In 1926, the First Congregational Church and Bethlehem
+        Congregational Church merged to form the Salem Congregational Church. The church was
+        dissolved in 1962. This collection contains registers of vital records for the Salem
+        Congregational Church and include membership lists, lists of baptisms, marriages, and
+        deaths, and lists of confirmations.</abstract>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">
+          <part>Salem Congregational Church (Berthoud, Colo.)</part>
+        </corpname>
+      </origination>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">
+          <part>First Congregational Church (Berthoud, Colo.)</part>
+        </corpname>
+      </origination>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">
+          <part>German Congregational Church (Berthoud, Colo.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Philadelphia, Pa. Park Congregational Church records,
+        1946-1982, RG5505. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by the Rocky Mountain
+        Conference, August 2021; accession 2021-10.</p>
+    </acqinfo>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Processed by Zachary Bodnar, June 2024, using Describing Archives: A Content Standard.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>German immigration into Colorado begin during the 1870s and 1880s, but it was not until
+        about 1900 that the first "German Russians" arrived in Northern Colorado. Though these
+        immigrants technically came from within Russia's geopolitical borders, they had long
+        maintained their German culture and language. They first came to the Berthoud area as
+        seasonal workers, but many ultimately settled in the area and began their own farms. In
+        1908, these German-speaking immigrants formed the German Congregational Church. On December
+        1, 1908, the trustees of the church bought land for the construction of a church and by
+        December 20, 1908, a frame church building and belfry were ready for their inaugural worship
+        service.</p>
+      <p>In 1917, owing to a rift within the church, a portion of the members of the German
+        Congregational Church left to form the Bethlehem Congregational Church. In 1921, owing to
+        anti-German sentiments after World War I, the name of the German Congregational Church was
+        changed to First Congregational Church and worship services were no longer held in German.
+        In 1926, the First Congregational Church and Bethlehem Congregational Church merged to form
+        the Salem Congregational Church. The church continued out of the same 1908 church building
+        until 1962 when the congregation dissolved and the building was sold to the Church of
+        Christ.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains registers of vital records for the Salem Congregational Church in
+        Berthoud, Colorado. The registers each contain detailed membership lists, lists of baptisms,
+        marriages, and deaths, and lists of confirmations. The record books both contain German and
+        English records, largely dependent on when the records were created.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>Materials in this collection have been arranged in chronological order.</p>
+    </arrangement>
+    <bibliography>
+      <head>Bibliography</head>
+      <p>French, Mark. "Congregational Church on Sixth Street founded by Russian Germans." <emph
+          render="italic">Berthoud Weekly Surveyer</emph>, March 22, 2018.
+        https://berthoudsurveyor.com/congregational-church-on-sixth-street-founded-by-russian-germans/</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85030953" source="lcsh">
+        <part>Confirmation records.</part>
+      </subject>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <subject identifier="sh85090572" source="lcsh">
+        <part>Necrologies.</part>
+      </subject>
+      <corpname rules="rda" source="local">
+        <part>Bethlehem Congregational Church (Berthoud, Colo.)</part>
+      </corpname>
+      <corpname identifier="n87846390" source="lcnaf">
+        <part>Berthoud (Colo.) -- Church history.</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>First Congregational Church (Berthoud, Colo.)</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>German Congregational Church (Berthoud, Colo.)</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>Salem Congregational Church (Berthoud, Colo.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="file">
+        <did>
+          <unittitle>Church register</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1909">1909</fromdate>
+              <todate standarddate="1947">1947</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1909-1947</unitdate>
+          <container label="Mixed Materials" localtype="box">Small 10</container>
+          <container localtype="folder">2</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Church register</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1925">1925</fromdate>
+              <todate standarddate="1960">1960</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1925-1960</unitdate>
+          <container label="Mixed Materials" localtype="box">Small 10</container>
+          <container localtype="folder">3</container>
+        </did>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
