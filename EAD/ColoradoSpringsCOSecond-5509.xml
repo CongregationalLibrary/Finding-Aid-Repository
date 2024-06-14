@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/ColoradoSpringsCOSecond-5509.xml"
+      >ColoradoSpringsCOSecond-5509</recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/default/files/FindingAids/ColoradoSpringsCOSecond-5509.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Colorado Springs, Colo. Second Congregational Church records,
+          1889-1966.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline>
+            <ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref>
+          </addressline>
+        </address>
+        <date>2024-06-14</date>
+        <num>RG5509</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2024-06-14T14:54:17+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Friday June 14, 2024
+          at 14:54</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Colorado Springs, Colo. Second Congregational Church records,
+        1889-1966.</unittitle>
+      <unitid>RG5509</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>6</quantity>
+        <unittype>Folders</unittype>
+      </physdescstructured>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1889">1889</fromdate>
+          <todate standarddate="1966">1966</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1889-1966</unitdate>
+      <abstract>With the help of Rev. James B. Gregg and Rev. George C. Woodruff, a Sunday school
+        was established in the south side of Colorado Springs in 1888. From the Sunday school, the
+        Second Congregational Church was established in 1889 and a building for the church was
+        constructed in 1890. The Second Congregational Church closed in 1948 and its building became
+        the Our Lady of Guadalupe Church. This collection contains administrative and vital records
+        and includes meeting minutes, membership records, baptismal records, and marriage
+        records.</abstract>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">
+          <part>Second Congregational Church (Colorado Springs, Colo.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Colorado Springs, Colo. Second Congregational Church
+        records, 1889-1966, RG5509. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by the Rocky Mountain
+        Conference, August 2021; accession 2021-07.</p>
+    </acqinfo>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Processed by Zachary Bodnar, June 2024, using Describing Archives: A Content Standard.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>When the First Congregational Church of Colorado Springs, Colorado, moved to the north side
+        of the city in 1888, Rev. James B. Gregg, minister of the First Congregational Church, and
+        Rev. George C. Woodruff, a superintendent for Sunday Schools for the Congregational Sunday
+        School and Publishing Society, agreed to organize a Sunday School in the south side of the
+        city. The intention was that a new church would develop out of the Sunday School and in 1889
+        the Second Congregational Church was established. The first minister for the church was
+        Manley Dayton Ormes. A building for the church was erected in 1890 at 407 South Tejon
+        Street.</p>
+      <p>The Second Congregational Church continued to serve its community until 1948 when the
+        church closed. The building was sold to Theatine priests and the first Catholic Mass at the
+        new Our Lady of Guadalupe Church was held on September 19, 1948. The church building was
+        again sold in 1984. The building currently still stands and is currently being used for
+        commercial office space.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains administrative and vital records for the Second Congregational
+        Church in Colorado Springs, Colorado. The records include meeting minutes, copies of the
+        church's constitution and other governance documents, baptismal records, marriage records,
+        membership records, records for charitable donations, and Sunday school statistics records.
+        The collection also contains a manual for the church, which has significant marginalia
+        relating to the church's membership, and a letter from 1966 which describes how the
+        collection came to be held by the Rocky Mountain Conference.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>Materials in this collection have been arranged into chronological order by start date.</p>
+    </arrangement>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025606" source="lcsh">
+        <part>Church finance.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <subject identifier="sh85130524" source="lcsh">
+        <part>Sunday schools.</part>
+      </subject>
+      <corpname identifier="n79084870" source="lcnaf">
+        <part>Colorado Springs (Colo.) -- Church history.</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>Second Congregational Church (Colorado Springs, Colo.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="file">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1889">1889</fromdate>
+              <todate standarddate="1894">1894</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1889-1894</unitdate>
+          <container label="Mixed Materials" localtype="box">Small 9</container>
+          <container localtype="folder">16</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1894">1894</fromdate>
+              <todate standarddate="1913">1913</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1894-1913</unitdate>
+          <container label="Mixed Materials" localtype="box">Small 9</container>
+          <container localtype="folder">17</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Membership records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1902">1902</fromdate>
+              <todate standarddate="1935">1935</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1902-1935</unitdate>
+          <container label="Mixed Materials" localtype="box">Small 9</container>
+          <container localtype="folder">18</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Church manual</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1918">1918</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">Small 9</container>
+          <container localtype="folder">19</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1937">1937</fromdate>
+              <todate standarddate="1943">1943</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1937-1943</unitdate>
+          <container label="Mixed Materials" localtype="box">Small 9</container>
+          <container localtype="folder">20</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Letter about records deposit</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1966">1966</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">Small 9</container>
+          <container localtype="folder">21</container>
+        </did>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
