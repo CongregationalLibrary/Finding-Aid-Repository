@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/CopeCOPhotographs-5510.xml"
+      >CopeCOPhotographs-5510</recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/default/files/FindingAids/CopeCOPhotographs-5510.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Cope Colorado photographs, 1925.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline>
+            <ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref>
+          </addressline>
+        </address>
+        <date>2024-06-17</date>
+        <num>RG5510</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2024-06-18T12:18:12+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Tuesday June 18, 2024
+          at 12:18</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Cope Colorado photographs, 1925.</unittitle>
+      <unitid>RG5510</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>1</quantity>
+        <unittype>Folder</unittype>
+      </physdescstructured>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <datesingle standarddate="1925">1925</datesingle>
+      </unitdatestructured>
+      <abstract>Cope, Colorado, was named after Johnathan C. Cope, an officer of the Burlington
+        Railroad Company. The Cope Congregational Church, according to Richard Taylor, was founded
+        in 1896 and closed in 1910 and Taylor states that Happy Valley Congregational Church was
+        founded in 1917 and closed in 1919. This collection contains a series of photographs that
+        depict various buildings from in and around Cope, Colorado.</abstract>
+      <origination label="source">
+        <corpname rules="rda" source="local">
+          <part>Cope Congregational Church (Cope, Colo.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Colorado Springs, Colo. Second Congregational Church
+        records, 1889-1966, RG5509. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by the Rocky Mountain
+        Conference, August 2021; accession 2021-07.</p>
+    </acqinfo>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Processed by Zachary Bodnar, June 2024, using Describing Archives: A Content Standard.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>Cope, Colorado, was named after Johnathan C. Cope, an officer of the Burlington Railroad
+        Company who was sent by the company to the area to homestead a railroad terminal site. Cope
+        Colorado has had an operational post office since 1889. The Cope Congregational Church,
+        according to Richard Taylor, was founded in 1896 and closed in 1910. Also, according to
+        Taylor, there was a Happy Valley Congregational Church in Cope from 1917 to 1919. These
+        churches may have been succeeded by the Cope Community Church which is active today.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains a series of photographs that depict various buildings from in and
+        around Cope, Colorado. There is also a photograph that depicts the exterior of the First
+        Congregational Church in Stratton, Congregational. Every photograph has a caption. There is
+        a note with the photographs that suggests that the photographs came from a Church in Cope,
+        however, the Congregational Churches in Cope had closed before the dates on the photographs.
+        As such, the exact provenance of the collection is questionable.</p>
+    </scopecontent>
+    <controlaccess>
+      <subject identifier="sh85101195" source="lcsh">
+        <part>Photographs. </part>
+      </subject>
+      <corpname relator="fmo" rules="rda" source="local">
+        <part>Cope Congregational Church (Cope, Colo.)</part>
+      </corpname>
+      <corpname identifier="n88254091" source="lcnaf">
+        <part>Cope (Colo.)</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>Cope Congregational Church (Cope, Colo.)</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>First Congregational Church (Stratton, Colo.)</part>
+      </corpname>
+      <corpname source="lcnaf">
+        <part>Stratton (Colo.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="file">
+        <did>
+          <unittitle>Photographs</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1925">1925</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">Small 9</container>
+          <container localtype="folder">22</container>
+        </did>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
