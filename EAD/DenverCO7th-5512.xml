@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/DenverCO7th-5512.xml"
+      >DenverCO7th-5512</recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/default/files/FindingAids/DenverCO7th-5512.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Denver, Colo. Seventh Avenue Congregational Church records,
+          1884-1999.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline>
+            <ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref>
+          </addressline>
+        </address>
+        <date>2024-06-24</date>
+        <num>RG5512</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2024-06-24T15:15:40+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Monday June 24, 2024
+          at 15:15</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Denver, Colo. Seventh Avenue Congregational Church records, 1884-1999.</unittitle>
+      <unitid>RG5512</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>0.79</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(2 boxes, 1 folder)</physdesc>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1884">1884</fromdate>
+          <todate standarddate="1999">1999</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1884-1999</unitdate>
+      <abstract>The Villa Park Congregational Church was organized, with the help of Rev. George
+        Rose, in 1890 and construction on the first church building was completed by October of that
+        year. In 1913, land was purchased at the intersection of West Seventh Avenue and King
+        Street, in the Barnum neighborhood, for the purpose of constructing a new church building.
+        That same year, the church formally voted to become the Seventh Avenue Congregational
+        Church. The church struggled to flourish in the following decades. While the church grew in
+        the wake of World War II, demographic and economic changes in West Denver negatively
+        affected church membership after the 1960s. The church joined with the United Church of
+        Christ in 1957. The church continued to serve its community through 2016 when the church
+        building was sold to Church of the Advent. This collection contains records related to the
+        history, activities, and administrations of the church and its members. A significant
+        portion of the collection is three historical scrapbooks which document the history of the
+        church through documents, clippings, and photographs.</abstract>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">
+          <part>Seventh Avenue Congregational Church (Denver, Colo.)</part>
+        </corpname>
+      </origination>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">
+          <part>Villa Park Congregational Church (Denver, Colo.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Denver, Colo. Seventh Avenue Congregational Church
+        records, 1884-1999, RG5512. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by the Rocky Mountain
+        Conference, August 2021; accession 2021-07.</p>
+    </acqinfo>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Processed by Zachary Bodnar, June 2024, using Describing Archives: A Content Standard.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>Congregationalists first began to gather and worship together within the Villa Park
+        neighborhood in Denver in 1884. These Congregationalists gathered in people's homes rather
+        than a formal church. The Villa Park Congregational Church was formally organized, with the
+        help of Rev. George Rose, in 1890 and plans were immediately put into place to build a
+        church building. Construction on that building was completed by October, 1890, and Rev.
+        Chester Clark oversaw the dedication service for the new church. The church's membership
+        steadily grew as the Villa Park, Barnum, and West Barnum neighborhoods slowly developed. By
+        1912, shortly after Rev. Robert Allingham was installed pastor, a committee was set up to
+        investigate plans for a new, larger, church building. In 1913, land was purchased at the
+        intersection of West Seventh Avenue and King Street, in the Barnum neighborhood, and the
+        church formally voted to become the Seventh Avenue Congregational Church. The dedication
+        service for the new church building was held on September 7, 1913.</p>
+      <p>The church struggled to flourish in the following decades and membership waxed and waned.
+        In 1946, the church purchased and installed a Hammond organ. The church's Women's
+        Association, a successor to the Ladies Aid Society which had been active within the church
+        since the beginning, was formed in 1948; by around 1952 it had become the Women's
+        Fellowship. The church was also legally incorporated in 1948. The church saw increased
+        membership and activity during the late 40s and into the 50s. However, much of that growth
+        faltered in the 60s due to economic and demographic changes in West Denver. The church
+        joined with the United Church of Christ in 1957. Between 1967 and 1972, a new parsonage was
+        constructed.</p>
+      <p>The church continued to serve its community through 2016 when the church building was sold
+        to Church of the Advent.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains records related to the history and activities of the Seventh
+        Avenue Congregational Church, originally the Villa Park Congregational Church. The church
+        records include meeting minutes, baptismal records, and membership records while the
+        trustee's records contain meeting minutes, often relating to financial matters. The records
+        of the Ladies' Cooperative Guild and Women's Fellowship document the activities of the women
+        who supported the church. The collection also contains three historical scrapbooks which
+        document the history of the church through documents, clippings, and photographs.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>Materials in this collection have been arranged in chronological order by start date.</p>
+    </arrangement>
+    <phystech>
+      <head>Physical Access</head>
+      <p>The historical scrapbooks contain many documents which have been glued into place on
+        backing boards, often in ways which obscure significant portions of the document's text. The
+        CLA can provide access to the scrapbooks, however, documents glued into the scrapbook may
+        not be available to flip through or view in their entierety.</p>
+    </phystech>
+    <relatedmaterial>
+      <head>Related Materials</head>
+      <p><ref href="https://archives.denverlibrary.org/repositories/3/resources/9537"
+          linktitle="View finding aid online">7th Avenue Congregational Church of Christ
+          Records</ref>, WH2513, Western History Collection, <ref
+          href="https://www.denverlibrary.org/" linktitle="Visit the Denver Public Library">The
+          Denver Public Library</ref>.</p>
+    </relatedmaterial>
+    <bibliography>
+      <head>Bibliography</head>
+      <p>Feltner, George. <emph render="italic">Our First Hundred Years.</emph> Denver: 1984.
+        17.11.1 D43.88 SEVACC</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025606" source="lcsh">
+        <part>Church finance.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85118923" source="lcsh">
+        <part>Scrapbooks.</part>
+      </subject>
+      <subject identifier="sh85147343" source="lcsh">
+        <part>Women -- Societies and clubs.</part>
+      </subject>
+      <corpname rules="rda" source="local">
+        <part>Seventh Avenue Congregational Church (Denver, Colo.)</part>
+      </corpname>
+      <corpname identifier="n79055157" source="lcnaf">
+        <part>Denver (Colo.) -- Church history.</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>Villa Park Congregational Church (Denver, Colo.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="item">
+        <did>
+          <unittitle>Church records and history</unittitle>
+          <unitdatestructured datechar="record_keeping" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1884">1884</fromdate>
+              <todate standarddate="1984">1984</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="record_keeping" unitdatetype="inclusive">1884-1984</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">1</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Historical scrapbook</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1896">1896</fromdate>
+              <todate standarddate="1992">1992</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1896-1992</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">1</container>
+        </did>
+        <separatedmaterial>
+          <head>Separated Materials</head>
+          <p>The materials found in the folder "Blueprints, 1956" were removed from this folder and
+            placed into that folder for preservation purposes.</p>
+        </separatedmaterial>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Trustees records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1912">1912</fromdate>
+              <todate standarddate="1922">1922</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1912-1922</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">2</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Ladies' Cooperative Guild records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1937">1937</fromdate>
+              <todate standarddate="1940">1940</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1937-1940</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">2</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Historical scrapbook</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1943">1943</fromdate>
+              <todate standarddate="1999">1999</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1943-1999</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">3</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Historical scrapbook</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1946">1946</fromdate>
+              <todate standarddate="1990">1990</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1946-1990</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">1</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Women's Fellowship history</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1949">1949</fromdate>
+              <todate standarddate="1961">1961</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1949-1961</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">4</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Blueprints</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1956">1956</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="folder">5</container>
+        </did>
+        <separatedmaterial>
+          <head>Separated Materials</head>
+          <p>Materials in this folder were separated from the materials found within the folder
+            "Historical scrapbook, 1896-1992" and placed into this folder for preservation
+            purposes.</p>
+        </separatedmaterial>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
