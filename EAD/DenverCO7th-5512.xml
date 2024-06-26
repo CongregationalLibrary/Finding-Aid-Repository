@@ -333,6 +333,20 @@
       </c>
       <c level="file">
         <did>
+          <unittitle>Women's Fellowship meeting minutes</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1955">1955</fromdate>
+              <todate standarddate="1963">1963</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1955-1963</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">5</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
           <unittitle>Blueprints</unittitle>
           <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
             <datesingle standarddate="1956">1956</datesingle>
