@@ -275,6 +275,20 @@
           <container localtype="volume">2</container>
         </did>
       </c>
+      <c level="file">
+        <did>
+          <unittitle>Trustees records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1934">1934</fromdate>
+              <todate standarddate="1939">1939</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1934-1939</unitdate>
+          <container label="Mixed Materials" localtype="box">3</container>
+          <container localtype="folder">1</container>
+        </did>
+      </c>
       <c level="item">
         <did>
           <unittitle>Church records and history</unittitle>
