@@ -305,6 +305,20 @@
       </c>
       <c level="file">
         <did>
+          <unittitle>Ladies' guild records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1940">1940</fromdate>
+              <todate standarddate="1946">1946</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1940-1946</unitdate>
+          <container label="Mixed Materials" localtype="box">3</container>
+          <container localtype="volume">2</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
           <unittitle>Historical scrapbook</unittitle>
           <unitdatestructured datechar="creation" unitdatetype="inclusive">
             <daterange>
