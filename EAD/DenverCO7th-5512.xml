@@ -275,6 +275,20 @@
           <container localtype="volume">2</container>
         </did>
       </c>
+      <c level="item">
+        <did>
+          <unittitle>Church records and history</unittitle>
+          <unitdatestructured datechar="record keepping" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1935">1935</fromdate>
+              <todate standarddate="1957">1957</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="record keeping" unitdatetype="inclusive">1935-1957</unitdate>
+          <container label="Mixed Materials" localtype="box">3</container>
+          <container localtype="volume">1</container>
+        </did>
+      </c>
       <c level="file">
         <did>
           <unittitle>Ladies' Cooperative Guild records</unittitle>
