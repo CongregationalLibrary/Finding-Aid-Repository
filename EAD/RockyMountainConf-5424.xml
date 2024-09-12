@@ -1,0 +1,1296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/RockyMountainConf-5424.xml"
+      >RockyMountainConf-5424</recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/default/files/FindingAids/RockyMountainConf-5424.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Rocky Mountain Conference records, 1876-2010.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline>
+            <ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref>
+          </addressline>
+        </address>
+        <date>2024-09-11</date>
+        <num>RG5424</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2024-09-12T14:37:03+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Thursday September
+          12, 2024 at 14:37</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Rocky Mountain Conference records, 1876-2010.</unittitle>
+      <unitid>RG5424</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+        <languageset>
+          <language langcode="ger">German</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>3.37</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(4 boxes)</physdesc>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1876">1876</fromdate>
+          <todate standarddate="2010">2010</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1876-2010</unitdate>
+      <abstract>The Colorado Congregational Conference was founded in the 19th century and
+        functioned as the primary state-level Congregational organization within Colorado. Numerous
+        ministerial associations formed within Colorado and included the Eastern Association, the
+        Arkansas Valley Association, the Denver Association, the Northwestern Association, and the
+        Western Colorado Association. During the 1960s, the Colorado Conference merged with state
+        level conferences from Utah and Wyoming to form the Rocky Mountain Conference of the United
+        Church of Christ. This collection contains records related to the Rocky Mountain Conference,
+        its predecessor conferences, especially the Colorado Congregational Conference, related
+        state Congregational conferences, and regional associations within Colorado. The majority of
+        records are meeting minutes for conferences and associations, programs for conference and
+        association activities, financial records, correspondence and communications, and legal
+        records.</abstract>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">
+          <part>Colorado Congregational Conference</part>
+        </corpname>
+      </origination>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">
+          <part>United Church of Christ. Rocky Mountain Conference</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Rocky Mountain Conference records, 1876-2010, RG5424. The
+        Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by the Rocky Mountain
+        Conference, August 2021; 2021-07, 2021-10.</p>
+    </acqinfo>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Processed by Zachary Bodnar, September 2024, using Describing Archives: A Content
+        Standard.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>The Colorado Congregational Conference was founded in the 19th century and functioned as
+        the primary state-level Congregational organization within Colorado. The Colorado
+        Congregational Conference also worked closely with the Board of Home Missions and the
+        Extension Board to support and supply the churches within Colorado. Numerous ministerial
+        associations formed within Colorado and included the Eastern Association, the Arkansas
+        Valley Association, the Denver Association, the Northwestern Association, and the Western
+        Colorado Association. The Colorado Conference also included numerous German Background
+        Congregational churches. During the 1960s, the Colorado Conference merged with state level
+        conferences from Utah and Wyoming to form the Rocky Mountain Conference of the United Church
+        of Christ. The Rocky Mountain Conference continues today and has its headquarters in Denver.
+        Under the Rocky Mountain Conference are modern day equivalents to the associations that
+        existed in the past: the Metro Denver Association, the Platte Valley Association, the
+        Western Colorado Association, the Southeast Association, and the Intermountain
+        Association.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains records related to the Rocky Mountain Conference, its predecessor
+        conferences, especially the Colorado Congregational Conference, related state Congregational
+        conferences, and regional associations within Colorado. The records document the proceedings
+        of these conferences and associations. The majority of records are meeting minutes for
+        conferences and associations, programs for conference and association activities, financial
+        records, correspondence and communications, and legal records. The collection contains
+        records specifically related to the German Congregational churches within Colorado. The
+        collection also contains a scrapbook documenting the local activities of the women's
+        fellowship of the Rocky Mountain Conference.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>Materials within this collection have been arranged into the three series listed below.
+        Materials within the Colorado Congregational Conference records have been further organized
+        into three subseries. Within each series, materials have generally been organized into
+        chronological order. Directly related materials have been arranged together. Original order
+        has largely been maintained for materials within each folder; as a result, contents within
+        folders are rarely in chronological order.</p>
+      <p><emph render="bold">Series 1:</emph> Colorado Congregational Conference records,
+        1877-2010</p>
+      <p><emph render="italic">Subseries 1:</emph> Colorado State Conference records, 1877-1967</p>
+      <p><emph render="italic">Subseries 2:</emph> Regional association records, 1901-1962</p>
+      <p><emph render="italic">Subseries 3:</emph> German Congregational records, 1908-2010</p>
+      <p><emph render="bold">Series 2:</emph> Other state conferences and associations,
+        1892-1983</p>
+      <p><emph render="bold">Series 3:</emph> Rocky Mountain Conference records, 1969-2000</p>
+    </arrangement>
+    <controlaccess>
+      <subject identifier="sh85026972" source="lcsh">
+        <part>Clergy conferences.</part>
+      </subject>
+      <subject identifier="sh85118923" source="lcsh">
+        <part>Scrapbooks.</part>
+      </subject>
+      <corpname rules="rda" source="local">
+        <part>Colorado Congregational Conference</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>United Church of Christ. Rocky Mountain Conference</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="series">
+        <did>
+          <unittitle>Colorado Congregational Conference records</unittitle>
+          <physdescstructured coverage="part" physdescstructuredtype="materialtype">
+            <quantity>8</quantity>
+            <unittype>Volumes</unittype>
+          </physdescstructured>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>45</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1876">1876</fromdate>
+              <todate standarddate="2010">2010</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1876-2010</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains records related to the Colorado Congregational Conference as well
+            as the regional Associations that worked under the state Conference. The series also
+            contains records specifically related to the German Background churches which were a
+            part of the Colorado Congregational Conference. The collection contains meeting minutes,
+            reports, correspondence, and programs.</p>
+        </scopecontent>
+        <c level="subseries">
+          <did>
+            <unittitle>Colorado State Conference records</unittitle>
+            <physdescstructured coverage="part" physdescstructuredtype="materialtype">
+              <quantity>3</quantity>
+              <unittype>Volumes</unittype>
+            </physdescstructured>
+            <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+              <quantity>27</quantity>
+              <unittype>Folders</unittype>
+            </physdescstructured>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1876">1876</fromdate>
+                <todate standarddate="1967">1967</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1876-1967</unitdate>
+          </did>
+          <scopecontent>
+            <head>Scope and Contents</head>
+            <p>This subseries contains records related to the Colorado Congregational Conference,
+              and some other state-level Congregational records for the state of Colorado. This
+              subseries contains meeting minutes, reports, board of directors' records, financial
+              records, legal records, especially land deeds, records from the Colorado Home
+              Missionary Society, records from the Extension Board, and communications with some
+              churches.</p>
+          </scopecontent>
+          <c level="file">
+            <did>
+              <unittitle>Colorado Congregational Conference programs</unittitle>
+              <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1876">1876</fromdate>
+                  <todate standarddate="1958">1958</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+                >1876-1958</unitdate>
+              <container label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">27</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Colorado Congregational Association meeting clipping</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <datesingle standarddate="1877">1877</datesingle>
+              </unitdatestructured>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">26</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Colorado leagal records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1883">1883</fromdate>
+                  <todate standarddate="1963">1963</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1883-1963</unitdate>
+              <container label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">8</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Colorado legal records</unittitle>
+              <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+                <datesingle standarddate="1893">1893-1919</datesingle>
+              </unitdatestructured>
+              <container label="Mixed Materials" localtype="folder">6</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Colorado Congregational Association Board of Directors records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1895">1895</fromdate>
+                  <todate standarddate="1917">1917</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1895-1917</unitdate>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="volume">1</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Colorado Congregational Association annual meeting minutes</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <datesingle standarddate="1901">1901</datesingle>
+              </unitdatestructured>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">24</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Colorado Home Missionary Society records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1905">1905</fromdate>
+                  <todate standarddate="1913">1913</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1905-1913</unitdate>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="volume">3</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Third Church, Denver, communications and clippings</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1911">1911</fromdate>
+                  <todate standarddate="1942">1942</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1911, 1936-1942</unitdate>
+              <container label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">13</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Colorado Conference State Board minutes</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1913">1913</fromdate>
+                  <todate standarddate="1927">1927</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1913-1927</unitdate>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">1</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Extension Board schedules for work</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1919">1919</fromdate>
+                  <todate standarddate="1930">1930</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1919-1930</unitdate>
+              <container label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">15</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Second Church, Denver, communications and clippings</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1926">1926</fromdate>
+                  <todate standarddate="1955">1955</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1926-1955</unitdate>
+              <container label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">14</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Colorado Congregational Conference meeting minutes</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1926">1926</fromdate>
+                  <todate standarddate="1928">1928</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1926-1928</unitdate>
+              <container label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">1</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Colorado Congregational Conference meeting minutes</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1928">1928</fromdate>
+                  <todate standarddate="1931">1931</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1928-1931</unitdate>
+              <container label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">2</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Colorado Congregational Conference meeting minutes</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1931">1931</fromdate>
+                  <todate standarddate="1933">1933</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1931-1933</unitdate>
+              <container label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">3</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Colorado Congregational Conference meeting minutes</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1933">1933</fromdate>
+                  <todate standarddate="1936">1936</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1933-1936</unitdate>
+              <container label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">4</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Colorado Congregational Conference meeting minutes</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1936">1936</fromdate>
+                  <todate standarddate="1938">1938</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1936-1938</unitdate>
+              <container label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">5</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Colorado Congregational Conference meeting minutes</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1938">1938</fromdate>
+                  <todate standarddate="1940">1940</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1938-1940</unitdate>
+              <container label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">6</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Extension Board applications for aid</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1927">1927</fromdate>
+                  <todate standarddate="1941">1941</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1927-1941</unitdate>
+              <container label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">1</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>History committee records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1931">1931</fromdate>
+                  <todate standarddate="1965">1965</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1931-1965</unitdate>
+              <container label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">2</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Colorado State Conference reports</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1933">1933</fromdate>
+                  <todate standarddate="1938">1938</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1933-1938</unitdate>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">2</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Synodical record book</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1937">1937</fromdate>
+                  <todate standarddate="1963">1963</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1937-1963</unitdate>
+              <container label="Mixed Materials" localtype="box">4</container>
+              <container localtype="volume">3</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Colorado Congregational Conference records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1940">1940</fromdate>
+                  <todate standarddate="1947">1947</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1940-1947</unitdate>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">3</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Colorado Conference board of directors minutes</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1941">1941</fromdate>
+                  <todate standarddate="1965">1965</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1941-1965</unitdate>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">4</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>McCoy Community Church communications</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1942">1942</fromdate>
+                  <todate standarddate="1945">1945</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1942-1945</unitdate>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">23</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Colorado Congregational Conference reports</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <datesingle standarddate="1943">1943</datesingle>
+              </unitdatestructured>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">5</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Colorado Congregational Conference annual report</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <datesingle standarddate="1946">1946</datesingle>
+              </unitdatestructured>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">6</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Colorado Congregational Conference meeting minutes</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1946">1946</fromdate>
+                  <todate standarddate="1955">1955</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1946-1955</unitdate>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">7</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Colorado Congregational Conference treasurer's reports</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1947">1947</fromdate>
+                  <todate standarddate="1952">1952</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1947-1952</unitdate>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">8</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Commission on the Ministry minutes</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <datesingle standarddate="1966">1966</datesingle>
+              </unitdatestructured>
+              <container label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">4</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Colorado Conference annual reports</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <datesingle standarddate="1967">1967</datesingle>
+              </unitdatestructured>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">9</container>
+            </did>
+          </c>
+        </c>
+        <c level="subseries">
+          <did>
+            <unittitle>Regional association records</unittitle>
+            <physdescstructured coverage="part" physdescstructuredtype="materialtype">
+              <quantity>2</quantity>
+              <unittype>Volumes</unittype>
+            </physdescstructured>
+            <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+              <quantity>14</quantity>
+              <unittype>Folders</unittype>
+            </physdescstructured>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1901">1901</fromdate>
+                <todate standarddate="1962">1962</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1901-1962</unitdate>
+          </did>
+          <scopecontent>
+            <head>Scope and Contents</head>
+            <p>This subseries contains records from the regional associations that functioned under
+              the Colorado Congregational Conference. The associations represented in this subseries
+              include the Arkansas Valley Association, Denver Association, Eastern Association,
+              Northwestern Association, and Western Association. The records largely contain meeting
+              minutes, programs, reports, and a significant collection of correspondence from the
+              Denver Association.</p>
+          </scopecontent>
+          <c level="item">
+            <did>
+              <unittitle>Eastern Association records</unittitle>
+              <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1901">1901</fromdate>
+                  <todate standarddate="1959">1959</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+                >1901-1959</unitdate>
+              <container label="Mixed Materials" localtype="box">1</container>
+              <container localtype="volume">1</container>
+            </did>
+            <separatedmaterial>
+              <head>Separated Materials</head>
+              <p>Loose materials found within this volume were removed and placed into the folder
+                titled "Northwestern Association records, 1933-1956" for preservation purposes.</p>
+            </separatedmaterial>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Arkansas Valley Association programs</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1910">1910</fromdate>
+                  <todate standarddate="1927">1927</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1910-1927</unitdate>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">18</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Denver Association of Congregational Churches and Ministers
+                records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1912">1912</fromdate>
+                  <todate standarddate="1940">1940</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1912-1940</unitdate>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">10</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Arkansas Valley Association records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1913">1913</fromdate>
+                  <todate standarddate="1943">1943</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1913-1943</unitdate>
+              <container label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">9</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Arkansas Valley Association records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1944">1944</fromdate>
+                  <todate standarddate="1961">1961</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1944-1961</unitdate>
+              <container label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">10</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Colorado Western Association of Congregational Ministers and Churches
+                records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1924">1924</fromdate>
+                  <todate standarddate="1951">1951</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1924-1951</unitdate>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="volume">4</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Denver association records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1924">1924</fromdate>
+                  <todate standarddate="1954">1954</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1924-1954</unitdate>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">11</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Denver Association annual meeting programs</unittitle>
+              <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1926">1926</fromdate>
+                  <todate standarddate="1938">1938</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+                >1926-1939</unitdate>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">12</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Northwestern Association programs</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1927">1927</fromdate>
+                  <todate standarddate="1932">1932</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1927-1932</unitdate>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">19</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Northwestern Association records</unittitle>
+              <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1933">1933</fromdate>
+                  <todate standarddate="1956">1956</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+                >1933-1956</unitdate>
+              <container label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">11</container>
+            </did>
+            <separatedmaterial>
+              <head>Separated Materials</head>
+              <p>Materials within this folder were removed from the volume titled "Eastern
+                Association records, 1901-1959" for preservation purposes.</p>
+            </separatedmaterial>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Western Colorado Association records: Union Congregational Church on
+                Montrose</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1946">1946</fromdate>
+                  <todate standarddate="1950">1950</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1946, 1950</unitdate>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">20</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Denver Association correspondence: miscellaneous</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1946">1946</fromdate>
+                  <todate standarddate="1948">1948</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1946-1948</unitdate>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">13</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Denver Association correspondence: A-C</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1949">1949</fromdate>
+                  <todate standarddate="1955">1955</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1949-1955</unitdate>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">14</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Denver Association correspondence: D-M</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1946">1946</fromdate>
+                  <todate standarddate="1953">1953</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1946-1953</unitdate>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">15</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Denver Association correspondence: N-W</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1946">1946</fromdate>
+                  <todate standarddate="1953">1953</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1946-1953</unitdate>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">16</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Denver Association correspondence</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1955">1955</fromdate>
+                  <todate standarddate="1962">1962</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1955-1962</unitdate>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">17</container>
+            </did>
+          </c>
+        </c>
+        <c level="subseries">
+          <did>
+            <unittitle>German Congregational records</unittitle>
+            <physdescstructured coverage="part" physdescstructuredtype="materialtype">
+              <quantity>3</quantity>
+              <unittype>Volumes</unittype>
+            </physdescstructured>
+            <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+              <quantity>4</quantity>
+              <unittype>Folders</unittype>
+            </physdescstructured>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1908">1908</fromdate>
+                <todate standarddate="2010">2010</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1908-2010</unitdate>
+          </did>
+          <scopecontent>
+            <head>Scope and Contents</head>
+            <p>This subseries contains records specifically related to the German Background
+              churches which were a part of the Colorado Congregational Conference. The subseries
+              also contains communications with the Zion German Church in Montrose, Colorado, as
+              well as records related to mission work with the German background churches.</p>
+          </scopecontent>
+          <c level="item">
+            <did>
+              <unittitle>Colorado Congregational Church (German background) records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1908">1908</fromdate>
+                  <todate standarddate="1930">1930</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1908-1930</unitdate>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="volume">2</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Zion German Church, Montrose, communications</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1929">1929</fromdate>
+                  <todate standarddate="1940">1940</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1929-1940</unitdate>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">22</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Colorado German Congregational Conference records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1931">1931</fromdate>
+                  <todate standarddate="1952">1952</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1931-1952</unitdate>
+              <container label="Mixed Materials" localtype="box">1</container>
+              <container localtype="volume">2</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Northeastern association of the Colorado Conference annual
+                reports</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1952">1952</fromdate>
+                  <todate standarddate="1966">1966</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1952-1966</unitdate>
+              <container label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">12</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Northeastern Association financial records</unittitle>
+              <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1952">1952</fromdate>
+                  <todate standarddate="2010">2010</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+                >1952-2010</unitdate>
+              <container label="Mixed Materials" localtype="box">4</container>
+              <container localtype="volume">2</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Colorado Conference German mission work</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1957">1957</fromdate>
+                  <todate standarddate="1962">1962</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1957-1962</unitdate>
+              <container label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">3</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Colorado Congregational Conference (German Background Churches)
+                minutes</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <datesingle standarddate="1963">1963</datesingle>
+              </unitdatestructured>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">21</container>
+            </did>
+          </c>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unittitle>Other state conferences and associations</unittitle>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>1</quantity>
+            <unittype>Volume</unittype>
+          </physdescstructured>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>10</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1892">1892</fromdate>
+              <todate standarddate="1983">1983</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1892-1983</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains records of Congregational conferences and associations from Idaho,
+            Oregon, Utah, and Wyoming. The Rocky Mountain Conference of the UCC today includes
+            Colorado, Utah, Wyoming. This series includes legal records, especially land deeds,
+            financial records, records of conference and association meetings, constitutions, and
+            programs.</p>
+        </scopecontent>
+        <c level="file">
+          <did>
+            <unittitle>Oregon legal records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1892">1892</fromdate>
+                <todate standarddate="1912">1912</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1892-1912</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">19</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Utah legal records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1909">1909</fromdate>
+                <todate standarddate="1956">1956</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1909-1914, 1956</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">20</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Idaho legal records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1912">1912</fromdate>
+                <todate standarddate="1934">1934</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1912-1934</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">16</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Wyoming Conference constitution and incorporation</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1944">1944</fromdate>
+                <todate standarddate="1956">1956</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1944, 1956</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">22</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Wyoming Conference programs</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1945">1945</fromdate>
+                <todate standarddate="1983">1983</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1945-1983</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">5</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Idaho subsidary account book</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1946">1946</fromdate>
+                <todate standarddate="1947">1947</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1946-1947</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">3</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Rocky Mountain Synod minutes</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1946">1946</fromdate>
+                <todate standarddate="1959">1959</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1946-1959</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">6</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Idaho and Utah Conference financial records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1947">1947</fromdate>
+                <todate standarddate="1952">1952</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1947-1952</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">17</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Intermountain Conference records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1953">1953</fromdate>
+                <todate standarddate="1974">1974</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1953-1974</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">21</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Idaho Conference constitution</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1954">1954</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">18</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Rocky Mountain Synod program</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1954">1954</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">25</container>
+          </did>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unittitle>Rocky Mountain Conference records</unittitle>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>1</quantity>
+            <unittype>Folder</unittype>
+          </physdescstructured>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>1</quantity>
+            <unittype>Volume</unittype>
+          </physdescstructured>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>1</quantity>
+            <unittype>Object</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1969">1969</fromdate>
+              <todate standarddate="2000">2000</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1969-2000</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains records related to the Rocky Mountain Conference. The series
+            includes one volume of financial records, a scrapbook documenting the local activities,
+            at the church level, of the Women's Fellowship of the Rocky Mountain Conference, and a
+            gavel related to the Women's Fellowship.</p>
+        </scopecontent>
+        <c level="file">
+          <did>
+            <unittitle>Financial records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1969">1969</fromdate>
+                <todate standarddate="1983">1983</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1969-1983</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">7</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Women's Fellowship scrapbook</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1975">1975</fromdate>
+                <todate standarddate="2000">2000</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1975-2000</unitdate>
+            <container label="Mixed Materials" localtype="box">4</container>
+            <container localtype="volume">1</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Women's Fellowship gavel</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container label="Mixed Materials" localtype="box">4</container>
+            <container localtype="object">1</container>
+          </did>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
