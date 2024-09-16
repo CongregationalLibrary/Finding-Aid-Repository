@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/CampTalahi-5527.xml"
+      >CampTalahi-5527</recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/default/files/FindingAids/CampTalahi-5527.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Camp Talahi records, 1949-1985.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline>
+            <ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref>
+          </addressline>
+        </address>
+        <date>2024-09-13</date>
+        <num>RG5527</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2024-09-13T19:59:27+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Friday September 13,
+          2024 at 19:59</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Camp Talahi records, 1949-1985.</unittitle>
+      <unitid>RG5527</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>0.22</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(1 box, 1 folder)</physdesc>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1949-1985</unitdate>
+      <abstract>The land that became Camp Talahi, in Howell, Michigan, was purchased from the Young
+        Women's Christian Association of Detroit in 1949. A nonprofit trust was created in 1951 by
+        the Congregational Association of Detroit and the Michigan-Indiana Synod of the Evangelical
+        and Reformed Church to manage and operate the campground. This nonprofit organization
+        managed the campground until 1965 when the Michigan Conference of the United Church of
+        Christ began directly managing Camp Talahi. The camp is still operational and now known as
+        the Camp Talahi Retreat and Nature Center. The majority of the records within this
+        collection are meeting minutes and reports from the committees which together managed the
+        campgrounds. The records also contain legal records related to the purchase of the
+        campground lands and the incorporation of Camp Talahi.</abstract>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">
+          <part>Camp Talahi</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Camp Talahi records, 1949-1985, RG5527. The Congregational
+        Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by the Rocky Mountain
+        Conference, August 2021; accession 2021-10.</p>
+    </acqinfo>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Processed by Zachary Bodnar, September 2024, using Describing Archives: A Content
+        Standard.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>The land that became Camp Talahi was purchased from the Young Women's Christian Association
+        of Detroit in 1949 for $35,000 by the Congregational Association of Detroit. The land was
+        located in Howell, Michigan, adjacent to Lake Chenago. A nonprofit trust was created in 1951
+        by the Congregational Association of Detroit and the Michigan-Indiana Synod of the
+        Evangelical and Reformed Church to manage and operate the campground. This nonprofit
+        organization, Camp Talahi, Inc., managed the campground until 1965 when the Detroit
+        Metropolitan Association, the successor to the Congregational Association of Detroit,
+        relinquished control of the camp to the Michigan Conference of the United Church of Christ.
+        The Michigan Conference solely supported and operated the campground until 2012. The camp
+        operates today as the Camp Talahi Retreat and Nature Center and is managed by Camp Talahi, a
+        nonprofit organization formed by a consortium of Michigan United Church of Christ members
+        and ministers in 2013.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains records related to the administration and management of Camp
+        Talahi in Howell, Michigan. The majority of records are meeting minutes and reports from the
+        various committees and boards which together managed the campgrounds. The records also
+        contain legal records related to the purchase of the campground lands, the incorporation of
+        Camp Talahi, and the operation of the nonprofit organization that managed the campgrounds.
+        The records also contain pamphlets, descriptions of the camp, a job description and blank
+        employment contract, a blueprint of the dining hall, and a large drawing of the
+        campgrounds.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>Materials within this collection have been arranged in chronological order. Original order,
+        which appears to have been chronological order, has been maintained within each folder.</p>
+    </arrangement>
+    <controlaccess>
+      <subject identifier="sh85112619" source="lcsh">
+        <part>Church camps.</part>
+      </subject>
+      <corpname rules="rda" source="local">
+        <part>Congregational Association of Detroit</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>Detroit Metropolitan Association</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>Evangelical and Reformed Church. Michigan-Indiana Synod</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>United Church of Christ. Michigan Conference</part>
+      </corpname>
+      <corpname identifier="n92073948" source="lcnaf">
+        <part>Young Women's Christian Association of Metropolitan Detroit</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="file">
+        <did>
+          <unittitle>Legal records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1949">1949</fromdate>
+              <todate standarddate="1960">1960</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1949-1960</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">1</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Meetings and reports</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1949">1949</fromdate>
+              <todate standarddate="1957">1957</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1949-1957</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">2</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Meetings and reports</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1958">1958</fromdate>
+              <todate standarddate="1985">1985</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1958-1965, 1985</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">3</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Brochures, pamphlets, and handouts</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1980">1980, undated</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">4</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Camp descriptions</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">5</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Employment records</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">6</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Dining hall blueprint and campground layout</unittitle>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >undated</unitdate>
+          <container label="Mixed Materials" localtype="folder">7</container>
+        </did>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
