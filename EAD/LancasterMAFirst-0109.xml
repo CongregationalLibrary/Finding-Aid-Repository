@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/LancasterMAFirst-0109.xml"
+      >LancasterMAFirst-0109</recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/default/files/FindingAids/LancasterMAFirst-0109.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Lancaster, Mass. First Church of Christ letter of complaint,
+          1779.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline>
+            <ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref>
+          </addressline>
+        </address>
+        <date>2024-10-29</date>
+        <num>RG0109</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2024-10-29T17:11:28+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Tuesday October 29,
+          2024 at 17:11</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Lancaster, Mass. First Church of Christ letter of complaint, 1779.</unittitle>
+      <unitid>RG0109</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>1</quantity>
+        <unittype>Folder</unittype>
+      </physdescstructured>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <datesingle standarddate="1779">1779</datesingle>
+      </unitdatestructured>
+      <abstract>The town of Lancaster and the First Congregational Church in Lancaster were
+        established on November 28, 1653. The second meeting house was constructed in 1684 and the
+        third meeting house was constructed in 1706. The fourth meeting house was constructed in
+        1743. Rev. Timothy Thayer was ordained in 1793; a member of the Unitarian movement, he
+        liberalized the church during his pastorate resulting in some members withdrawing to form
+        the Evangelical Congregational Church in 1839. The fifth meeting house was constructed in
+        1816; it was entered into the National Register of Historic Places in 1970. The First Church
+        of Christ joined the Unitarian Universalist Christian Fellowship in 1970. The First Church
+        of Christ, Unitarian, in Lancaster continues to serve the local community today. This
+        collection contains a single signed letter of complaint from three members of the First
+        Church of Christ in Lancaster against the minister, Timothy Harrington.</abstract>
+      <origination label="Creator">
+        <corpname identifier="n92106522" source="lcnaf">
+          <part>First Church of Christ (Lancaster, Mass.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Conditions Governing Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Conditions Governing Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Lancaster, Mass. First Church of Christ letter of
+        complaint, 1779, RG0109. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>No acquisition information is available for this collection.</p>
+    </acqinfo>
+    <altformavail>
+      <head>Digital Copies</head>
+      <p>Records within this collection were digitized by Liz Shuga. Digital reproductions may be
+        accessed online through our <ref
+          href="https://congregationallibrary.quartexcollections.com/manuscript-collections/browse-the-first-church-of-christ-records-in-pittsfield-massachusetts"
+          >digital archive</ref>.</p>
+    </altformavail>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Processed by Zachary Bodnar, October 2024, using Describing Archives: A Content
+        Standard.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>The town of Lancaster and the First Congregational Church in Lancaster were established on
+        November 28, 1653, with the signing of a civil covenant by the town's first settlers. In
+        1654, the town called Joseph Rowlandson, a recent graduate of Harvard, to be the first
+        minister. He married Mary White, the daughter of a wealthy settler, in 1656 and was
+        officially ordained in 1660. The first meeting house and parsonage were also quickly
+        constructed following the installation of Rowlandson. In 1676, as part of King Phillip's
+        War, Native Americans attacked the Lancaster garrison. During the attack 12 were killed and
+        12 more captured, including Mary Rowlandson, and a number of buildings were burned including
+        the meeting house. After 11 weeks, Mary Rowlandson was ransomed back to her family and an
+        account of her captivity was published in 1682.</p>
+      <p>The second meeting house was constructed in 1684 on the same location as the first. It did
+        not survive long as it too was razed during an attack carried out by Native Americans in
+        1704 as part of ongoing hostilities between France and England. A third meeting house was
+        constructed in 1706 and the first minister to preach in the new building was Rev. John
+        Prentice who was installed in 1708. During the First Great Awakening, Rev. Prentice kept the
+        Lancaster Church aligned more closely with the traditionalist "Old Lights" than with the
+        revivalist "New Lights." The third meeting house was torn down in 1743 and swiftly replaced
+        by the fourth meeting house that same year. Rev. Timothy Harrington was the minister of the
+        Lancaster church during the American Revolution. In 1777 he was accused of being a Loyalist
+        in part because "he was in charity with a professed Roman Catholick." The chargers were
+        dropped after Harrington gave an impassioned defense in which he pointed to the principals
+        of religious freedom.</p>
+      <p>Due to the advanced age and failing health of Rev. Harrington, the town voted to settle a
+        junior minister in 1792. In 1793 the town voted to accept Timothy Thayer as the new minister
+        and he was ordained in the summer of that year. Rev. Thayer was a member of the Unitarian
+        movement and almost immediately began to liberalize the church and make membership into the
+        church significantly easier. Due to the move towards Unitarianism, some members of the
+        church withdrew and formed the Evangelical Congregational Church of Lancaster in 1839. The
+        fifth, and final, meeting house was built in 1816 on the Lancaster green and on January 1,
+        1817 a dedication ceremony was held. The meeting house was designed by Charles Bulfinch, one
+        of the earliest American-born professional architects, and was entered into the National
+        Register of Historic Places and designated a National Historic Landmark in 1970.</p>
+      <p>The First Congregational Church and Society were legally incorporated into a single legal
+        entity, the First Church of Christ, around 1908. Beginning in 1918, the First Church of
+        Christ and Evangelical Church held three union services annually, though the practice was
+        discontinued in 1976 at the behest of the Evangelical Church. In 1952, the Rev. Dr.
+        Alexander St. Ivanyi was ordained as the minister of the First Church of Christ. Before
+        joining the church, Ivanyi had been part of the Hungarian anti-Nazi resistance during World
+        War II, was a member of the Hungarian Parliament after the war, as well as the bishop-vicar
+        of the Hungarian Unitarian Church. He was forced to leave flee Hungary after the communist
+        takeover of the state. In 1970, during Rev. Ivanyi's tenure, the First Church of Christ
+        voted to join the Unitarian Universalist Christian Fellowship. Rev. Tom Wintle, who served
+        as minister from 1975-1995, also helped create the Lancaster Historical Society. The First
+        Church of Christ, Unitarian, in Lancaster continues to serve the local community today.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains a single signed letter of complaint from three members of the
+        First Church of Christ in Lancaster against the minister, Timothy Harrington. In the
+        complaint, the three members, William Dunsmoor, Joshua Fletcher, and Hannah Dunsmoor, accuse
+        Harrington of being a loyalist and sympathetic to Catholics.</p>
+    </scopecontent>
+    <relatedmaterial>
+      <head>Related Materials</head>
+      <p>The Congregational Library &amp; Archives digitized materials currently held by the First
+        Church of Lancaster, Unitarian Universalist. These materials may be viewed online: <ref
+          href="https://congregationallibrary.quartexcollections.com/manuscript-collections/browse-the-first-congregational-church-records-in-lancaster-massachusetts"
+          linktitle="view this collection online">Lancaster, Massachusetts. First Congregational
+          Church records, 1708-1846.</ref></p>
+    </relatedmaterial>
+    <controlaccess>
+      <subject identifier="sh85004364" source="lcsh">
+        <part>American loyalists.</part>
+      </subject>
+      <subject identifier="sh85025590" source="lcsh">
+        <part>Church controversies.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Clergy -- Correspondence.</part>
+      </subject>
+      <geogname identifier="sh85140139" source="lcsh">
+        <part>United States -- History -- Revolution, 1775-1783.</part>
+      </geogname>
+      <corpname identifier="n92106522" source="lcnaf">
+        <part>First Church of Christ (Lancaster, Mass.)</part>
+      </corpname>
+      <persname identifier="n85198586" source="lcnaf">
+        <part>Harrington, Timothy, 1715-1795</part>
+      </persname>
+      <corpname identifier="n82152210" source="lcnaf">
+        <part>Lancaster (Mass.) -- Church history.</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="item">
+        <did>
+          <unittitle>Letter of complaint against Timothy Harrington</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1779">1779</datesingle>
+          </unitdatestructured>
+          <container
+            altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+            label="Mixed Materials" localtype="box">Small 1</container>
+          <container localtype="folder">32</container>
+        </did>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
