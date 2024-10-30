@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/HydeParkMAClarendon-0102.xml"
+      >HydeParkMAClarendon-0102</recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/default/files/FindingAids/HydeParkMAClarendon-0102.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Hyde Park, Boston, Mass. Clarendon Congregational Church records,
+          1878-1960.</titleproper>
+        <author>Katrina Kowalczyk</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2024-10-30</date>
+        <num>RG0102</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2024-10-30T14:28:51+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday October 30,
+          2024 at 14:28</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Hyde Park, Boston, Mass. Clarendon Congregational Church records,
+        1878-1960.</unittitle>
+      <unitid>RG0102</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>2.18</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(2 boxes) </physdesc>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1878">1878</fromdate>
+          <todate standarddate="1960">1960</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1878-1960</unitdate>
+      <abstract>Clarendon Congregational Church was located in Hyde Park Boston, Massachusetts. The
+        church was organized in 1880 and dissolved circa 1964. This collection houses administrative
+        records including church records, meeting minutes, and scrapbooks from Clarendon
+        Congregational Church.</abstract>
+      <origination label="Creator">
+        <corpname identifier="n95075209" source="lcnaf">
+          <part>Clarendon Congregational Church (Hyde Park, Boston, Mass.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head> Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Hyde Park, Boston, Mass. Clarendon Congregational Church
+        records, 1878-1960., RG0102. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by Francis A. Troy in
+        March 1983 and Elizabeth A Spinello in June 1994; 1994-03.</p>
+    </acqinfo>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Originally minimally processed in 1994. Re-processed by Katrina Kowalczyk, October 2024,
+        using DACS Second Edition.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>Clarendon Congregational Church was organized in 1880. Rev. Samuel Dana Hosmer was the
+        first acting pastor from September 1879 to his resignment in April of 1882. Rev. Hosmer
+        graduated from Harvard in 1850 and Andover Newton Theological School in 1856. Clarendon
+        Congregational Church incorporated in 1890. In 1930, the church celebrated its 50th
+        anniversary by unveiling a stained-glass window titled "The Transfiguration". This artwork
+        was inspired by the 12th century windows of the same name that resides in the Cathédrale de
+        Chartres, France. The Clarendon Congregational Church dissolved circa 1964.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection houses administrative records from the Clarendon Congregational Church in
+        Hyde Park Boston, Massachusetts. The collection includes church records, meeting minutes,
+        church school meeting minutes as well as scrapbooks containing various programs, orders of
+        service, circulars, and photographs.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>Materials have been arranged in chronological order by start date.</p>
+    </arrangement>
+    <controlaccess>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85101196" source="lcsh">
+        <part>Photograph albums.</part>
+      </subject>
+      <subject identifier="sh85118923" source="lcsh">
+        <part>Scrapbooks.</part>
+      </subject>
+      <subject identifier="sh85130524" source="lcsh">
+        <part>Sunday schools.</part>
+      </subject>
+      <subject identifier="sh85148573" source="lcsh">
+        <part>Worship programs.</part>
+      </subject>
+      <corpname identifier="n95075209" source="lcnaf">
+        <part>Clarendon Congregational Church (Hyde Park, Boston, Mass.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="item">
+        <did>
+          <unittitle>Building records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1878">1878</fromdate>
+              <todate standarddate="1912">1912</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1878-1912</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">1</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Register</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1880">1880</fromdate>
+              <todate standarddate="1960">1960</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1880-1960</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">3</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Programs and circulars</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1885">1885</fromdate>
+              <todate standarddate="1929">1929</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1885-1929</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">1</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Pictorial records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1892">1892</fromdate>
+              <todate standarddate="1930">1930</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1892-1930</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="volume">1</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1902">1902</fromdate>
+              <todate standarddate="1928">1928</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1902-1928</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">4</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Church school records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1923">1923</fromdate>
+              <todate standarddate="1938">1938</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1923-1938</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">7</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1928">1928</fromdate>
+              <todate standarddate="1937">1937</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1928-1937</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">5</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Programs and circulars</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1929">1929</fromdate>
+              <todate standarddate="1935">1935</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1929-1935</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">2</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Pictorial records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1930">1930</fromdate>
+              <todate standarddate="1948">1948</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1930-1948</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="volume">2</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Programs and circulars</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1935">1935</fromdate>
+              <todate standarddate="1939">1939</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1935-1939</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="volume">4</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1938">1938</fromdate>
+              <todate standarddate="1950">1950</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1938-1950</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">6</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Orders of service</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1943">1943</fromdate>
+              <todate standarddate="1950">1950</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1943-1950</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">8</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Pictorial records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1949">1949</fromdate>
+              <todate standarddate="1956">1956</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1949-1956</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="volume">3</container>
+        </did>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
