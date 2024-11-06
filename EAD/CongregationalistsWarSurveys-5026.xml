@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/CongregationalistsWarSurveys-5026.xml"
+      >CongregationalistsWarSurveys-5026</recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/default/files/FindingAids/CongregationalistsWarSurveys-5026.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>The Congregationalists in the War surveys, 1919.</titleproper>
+        <author>Katrina Kowalczyk</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline>
+            <ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref>
+          </addressline>
+        </address>
+        <date>2024-11-04</date>
+        <num>RG5026</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2024-11-06T14:08:55+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday November 6,
+          2024 at 14:08</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>The Congregationalists in the War surveys, 1919.</unittitle>
+      <unitid>RG5026</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>0.56</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(1 Box)</physdesc>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <datesingle standarddate="1919">1919</datesingle>
+      </unitdatestructured>
+      <abstract>An unknown congregationalist organization sent out surveys to many of the
+        congregational churches across the contiguous 48 states to record levels of patriotism post
+        World War I. These surveys contain details of congregational church participation and
+        support of the American war efforts, and what their post war transition looked
+        like.</abstract>
+    </did>
+    <accessrestrict>
+      <head> Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the The Congregationalists in the War surveys, 1919, RG5026.
+        The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by the Chicago
+        Theological Seminary in 2011; Acc# 2011-63.</p>
+    </acqinfo>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Processed by Katrina Kowalczyk, November 2024, using DACS Second Edition.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>Word War I, also known as The Great War, started in 1914 between the Allied forces (Great
+        Britan and France) versus the Central Powers (Germany and Austria). America's eventual
+        introduction into the war in 1917 helped lead to the Allied victory over the Central Powers
+        in November of 1918. An unknown national congregational organization sent out surveys in
+        early 1919 to potentially record levels of patriotism from the congregation. Many churches
+        had provided support to the wartime efforts through time, money, or active service
+        members.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>The Congregationalist in the War surveys are a collection of surveys sent to Congregational
+        churches across the contiguous 48 states post World War I. These surveys contain details of
+        Congregational church participation and support of the American war efforts, and what their
+        post war transition looked like. The two volumes are bound in alphabetical order by state
+        and then city.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>Materials have been arranged alphabetically by state and then city.</p>
+    </arrangement>
+    <controlaccess>
+      <subject identifier="sh2008113843" source="lcsh">
+        <part>World War, 1914-1918 -- Religious aspects.</part>
+      </subject>
+      <subject identifier="sh85031108" source="lcsh">
+        <part>Congregational churches.</part>
+      </subject>
+      <subject identifier="sh85025528" source="lcsh">
+        <part>Church and social problems.</part>
+      </subject>
+    </controlaccess>
+    <dsc>
+      <c level="item">
+        <did>
+          <unittitle>Surveys</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1919">1919</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">1</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Surveys</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="other" unitdatetype="inclusive">
+            <datesingle standarddate="1919">1919</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">2</container>
+        </did>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
