@@ -1,0 +1,2302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="completed"
+    langencoding="iso639-2b" repositoryencoding="iso15511">
+    <eadid countrycode="US" mainagencycode="US-MBC"
+      url="Z:\DATA\Draft_File_Structure_ZNuke\CLACollections\Archives\Collections\GardnerMAFirst-5486"
+      >GardnerMAFirst_5486</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Gardner, Mass. First Congregational Church records, 1786-2023.
+            <num>RG5486</num></titleproper>
+        <author>Billy McCarthy</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <p><date>2024-11-15</date></p>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline>Business Number: 617-523-0470</addressline>
+          <addressline>info@14beacon.org</addressline>
+          <addressline>URL: <extptr xlink:href="http://www.CongregationalLibrary.org"
+              xlink:show="new" xlink:title="http://www.CongregationalLibrary.org"
+              xlink:type="simple"/></addressline>
+        </address>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>This finding aid was produced using ArchivesSpace on <date>2024-11-15 16:55:18
+          +0000</date>.</creation>
+      <langusage>Description is written in: <language langcode="eng" scriptcode="Latn">English,
+          Latin script</language>.</langusage>
+      <descrules>DACS 2019.0.3</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <repository>
+        <corpname>Congregational Library &amp; Archives</corpname>
+      </repository>
+      <unittitle>Gardner, Mass. First Congregational Church records, 1786-2023.</unittitle>
+      <origination audience="internal" label="Creator">
+        <corpname rules="rda" source="local">First Congregational Church (Gardner, Mass.)</corpname>
+      </origination>
+      <unitid>RG5486</unitid>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">6.98 Cubic Feet</extent>
+        <extent altrender="carrier">(7 boxes)</extent>
+      </physdesc>
+      <unitdate calendar="gregorian" datechar="creation" normal="1786/2023" type="inclusive"
+        >1786-2023</unitdate>
+      <abstract >In February 1786, thirty-three members
+        would form the First Congregational Church of Gardner, led by town physician Rev. Jonathan
+        Osgood. In 1830, there was a split in the congregation which resulted in a separate,
+        Evangelical Church. They would form together again in 1846, adopting the creed of the
+        Evangelical Church. In the 1880s, the church started to take part in the Christian Endeavor
+        movement and the Young Ladies' Missionary Society began teaching English to the rising
+        population of non-English speakers in Gardner. In the 1950s, Rev. Daniel Leavitt would
+        arrive and breathe new life into the church, including modernizing the Parish House and
+        renovating many of its features. The church would make the decision to close for good in
+        2023. This collection contains various records related to the entire history of the First
+        Congregational Church. This includes meeting minutes, annual reports, auxiliary groups,
+        vital statistics, photographs, scrapbooks, and building records.</abstract>
+      <langmaterial>
+        <language langcode="eng" scriptcode="Latn">English</language> . </langmaterial>
+    </did>
+    <userestrict >
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </userestrict>
+    <userestrict >
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite >
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Gardner, Mass. First Congregational Church records,
+        1786-2023, RG5486. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo >
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational &amp; Library and Archives by the First
+        Congregational Church in October 2023, 2023-52.</p>
+    </acqinfo>
+    <processinfo >
+      <head>Processing Information</head>
+      <p>Processed by Billy McCarthy, November 2024, using Describing Archives: A Content
+        Standard.</p>
+    </processinfo>
+    <bioghist >
+      <head>Historical Note</head>
+      <p>The town of Gardner, Mass, was incorporated in June of 1785 and four months later at the
+        third town meeting, talks began to start building a meeting-house. In February of 1786,
+        thirty-three members would form the First Congregational Church of Gardner. The first
+        meeting-house would be raised on June 27, 1787. The first minister, who also happened to be
+        the first physician of Gardner, was Dr. Jonathan Osgood. Dr. Osgood would remain a central
+        part of the church and the town of Gardner until his death in 1822.</p>
+      <p>Starting around 1830, a divide started to form that would be common in many other areas of
+        the country. More liberal minded members would begin to call themselves Unitarian while the
+        more conservative called themselves Orthodox. The orthodox members, alongside the current
+        minister Rev. Increase Summer Lincoln, would form the Evangelical Congregational Church.
+        Both groups did agree to share many items needed for worship and equally divided what money
+        was on hand at the time.</p>
+      <p>First Congregational Church would see increased membership over the next decade and in
+        1846, the church would reunite with the Evangelical Congregational Church. They kept the
+        First Congregational Church name, the creed of the Evangelical Church, and worshipped in the
+        Evangelical Church's building. A parsonage was built in 1875 and a brand-new church was
+        dedicated in 1879. In the 1880s the church started to take part in the Christian Endeavor
+        movement and the Young Ladies' Missionary Society began teaching English to the rising
+        population of non-English speakers in Gardner.</p>
+      <p>Rev. Burton S. Gilman would serve as the pastor from 1897-1920 and was known as an eloquent
+        and convincing speaker, loved amongst the community. After a series of short-lived
+        pastorates, Rev. Baldwin W. Callahan would lead the church up through 1949. Under his
+        pastorate, the Evening Guild, Men's Club, and Married Couples' Group would form, and the
+        Woman's Association would form out of two previously separate groups. In the 1950s, Rev.
+        Daniel Leavitt would arrive and breathe new life into the church, including modernizing the
+        Parish House and renovating many of its features.</p>
+      <p>The church would continue to engage in its works and mission and led by ministers such as
+        Rev John Condor, Rev. Edgar Kemp, Jr., Rev. Frank McKenzie and more. The church would make
+        the decision to close for good in 2023. At its final service on October 1st, they were led
+        by transitional minister Rev. Stacey Kullgren. The history of the First Congregational
+        Church is entwined with the history of Gardner and its impact will always be felt.</p>
+    </bioghist>
+    <scopecontent >
+      <head>Scope and Contents</head>
+      <p>This collection contains various records related to the entire history of the First
+        Congregational Church. This includes meeting minutes, annual reports, auxiliary groups,
+        vital statistics, photographs, scrapbooks, and building records.</p>
+    </scopecontent>
+    <arrangement >
+      <head>Arrangement</head>
+      <p>This collection has been arranged into the six series and seven subseries as listed below.
+        Within each series and subseries, materials have been arranged in chronological order. When
+        appropriate, some material is arranged by topic.</p>
+      <p><emph render="bold">Series 1:</emph> Church records, 1786-2022</p>
+      <p><emph render="italic">Subseries 1:</emph> Meeting minutes and reports, 1786-2022</p>
+      <p><emph render="italic">Subseries 2:</emph> Newsletters, 1894, 1957-1968</p>
+      <p><emph render="italic">Subseries 3:</emph> History and Events, 1936-2008, undated</p>
+      <p><emph render="bold">Series 2:</emph> Ministerial records, 1847-2023</p>
+      <p><emph render="bold">Series 3:</emph> Auxiliary groups, 1848-2010</p>
+      <p><emph render="italic">Subseries 1:</emph> Women's Groups, 1848-1975</p>
+      <p><emph render="italic">Subseries 2:</emph> Educational Groups, 1886-2010</p>
+      <p><emph render="italic">Subseries 3:</emph> Massachusetts Conference records, 1905-1999</p>
+      <p><emph render="italic">Subseries 4:</emph> Diaconate records, 1967-2006</p>
+      <p><emph render="bold">Series 4:</emph> Vital Statistics, 1862-2020</p>
+      <p><emph render="bold">Series 5:</emph> Visual material, 1883-1961, undated</p>
+      <p><emph render="bold">Series 6:</emph> Building records, 1890-2011</p>
+    </arrangement>
+    <controlaccess>
+      <subject authfilenumber="sh85143949" source="lcsh">Vital statistics.</subject>
+      <subject authfilenumber="sh85025666" source="lcsh">Church newsletters.</subject>
+      <subject authfilenumber="sh85118923" source="lcsh">Scrapbooks.</subject>
+      <subject authfilenumber="sh85101195" source="lcsh">Photographs. </subject>
+      <subject authfilenumber="sh85147565" source="lcsh">Women in church work.</subject>
+      <subject authfilenumber="sh85025070" source="lcsh">Christian education of children.</subject>
+      <subject authfilenumber="sh85025591" source="lcsh">Church correspondence.</subject>
+      <subject authfilenumber="sh85026945" source="lcsh">Clergy -- Appointment, call, and
+        election.</subject>
+      <subject authfilenumber="sh85036023" source="lcsh">Deacons -- Congregational
+        churches.</subject>
+      <corpname audience="internal" rules="rda" source="local">First Congregational Church (Gardner,
+        Mass.)</corpname>
+      <corpname audience="internal" authfilenumber="n81086371" source="lcnaf">Gardner (Mass.) --
+        Church history.</corpname>
+    </controlaccess>
+    <dsc>
+      <c01  level="series">
+        <did>
+          <unittitle>Church records</unittitle>
+          <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">46
+              Folders</extent></physdesc>
+          <unitdate calendar="gregorian" datechar="creation" normal="1786/2022" type="inclusive"
+            >1786-2022</unitdate>
+        </did>
+        <scopecontent >
+          <head>Scope and Contents</head>
+          <p>This series contains information related to church records and includes meeting
+            minutes, reports, historical information, events, and newsletters.</p>
+        </scopecontent>
+        <c02  level="subseries">
+          <did>
+            <unittitle>Meeting minutes and reports</unittitle>
+            <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">31
+                Folders</extent></physdesc>
+            <unitdate calendar="gregorian" datechar="creation" normal="1786/2022" type="inclusive"
+              >1786-2022</unitdate>
+          </did>
+          <scopecontent >
+            <head>Scope and Contents</head>
+            <p>This subseries contains meeting minutes are reports related to core operations of the
+              First Congregational Church. These include annual reports, church meeting minutes,
+              treasurer's reports, church correspondences, board of Trustees meeting minutes, church
+              council meeting minutes, and more.</p>
+          </scopecontent>
+          <c03  level="file">
+            <did>
+              <unittitle>Church meeting minutes</unittitle>
+              <unitdate datechar="creation" normal="1786/1857" type="inclusive">1786-1857</unitdate>
+              <container  label="Mixed Materials"
+                type="box">6</container>
+              <container 
+                 type="folder">1</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Treasurer's reports and records</unittitle>
+              <unitdate datechar="creation" normal="1896/1919" type="inclusive">1896-1919</unitdate>
+              <container  label="Mixed Materials"
+                type="box">7</container>
+              <container 
+                 type="folder">5</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Calls for meetings</unittitle>
+              <unitdate datechar="creation" normal="1900/1910" type="inclusive">1900-1910</unitdate>
+              <container  label="Mixed Materials"
+                type="box">7</container>
+              <container 
+                 type="folder">8</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Parish committee meeting minutes</unittitle>
+              <unitdate datechar="creation" normal="1906/1925" type="inclusive">1906-1925</unitdate>
+              <container  label="Mixed Materials"
+                type="box">7</container>
+              <container 
+                 type="folder">6</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Prudential committee meeting minutes</unittitle>
+              <unitdate datechar="creation" normal="1916/1921" type="inclusive">1916-1921</unitdate>
+              <container  label="Mixed Materials"
+                type="box">5</container>
+              <container 
+                 type="folder">9</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Church records (book 2)</unittitle>
+              <unitdate datechar="creation" normal="1922/1937" type="inclusive">1922-1937</unitdate>
+              <container  label="Mixed Materials"
+                type="box">5</container>
+              <container 
+                 type="folder">5</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Church clerk correspondences</unittitle>
+              <unitdate datechar="creation" normal="1923/1931" type="inclusive">1923-1931</unitdate>
+              <container  label="Mixed Materials"
+                type="box">7</container>
+              <container 
+                 type="folder">2</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Organizational reports</unittitle>
+              <unitdate datechar="creation" normal="1937/1946" type="inclusive">1937-1976</unitdate>
+              <container  label="Mixed Materials"
+                type="box">7</container>
+              <container 
+                 type="folder">1</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Annual reports</unittitle>
+              <unitdate datechar="creation" normal="1938/1965" type="inclusive">1938-1965</unitdate>
+              <container  label="Mixed Materials"
+                type="box">6</container>
+              <container 
+                 type="folder">2</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>UCC presents "Our Church"</unittitle>
+              <unitdate calendar="gregorian" datechar="creation" normal="1959-09-12/1959-09-12"
+                >September 12, 1959</unitdate>
+              <container  label="Mixed Materials"
+                type="box">6</container>
+              <container 
+                 type="folder">30</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Annual report</unittitle>
+              <unitdate datechar="creation" normal="1961/1961">1961</unitdate>
+              <container  label="Mixed Materials"
+                type="box">2</container>
+              <container 
+                 type="folder">6</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Church records (book 4)</unittitle>
+              <unitdate datechar="creation" normal="1966/2009" type="inclusive">1966-2009</unitdate>
+              <container  label="Mixed Materials"
+                type="box">5</container>
+              <container 
+                 type="folder">6</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Treasurer's reports</unittitle>
+              <unitdate calendar="gregorian" datechar="creation" normal="1967/1971" type="inclusive"
+                >1967-1971</unitdate>
+              <container  label="Mixed Materials"
+                type="box">6</container>
+              <container 
+                 type="folder">25</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Various church correspondences</unittitle>
+              <unitdate datechar="creation" normal="1968/1980" type="inclusive">1968-1980</unitdate>
+              <container  label="Mixed Materials"
+                type="box">5</container>
+              <container 
+                 type="folder">14</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Annual reports</unittitle>
+              <unitdate datechar="creation" normal="1972/1982" type="inclusive">1972-1982</unitdate>
+              <container  label="Mixed Materials"
+                type="box">2</container>
+              <container 
+                 type="folder">7</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Various church correspondences</unittitle>
+              <unitdate datechar="creation" normal="1973/2001" type="inclusive">1973-2001</unitdate>
+              <container  label="Mixed Materials"
+                type="box">6</container>
+              <container 
+                 type="folder">3</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Census report</unittitle>
+              <unitdate calendar="gregorian" datechar="creation" normal="1980/1980">1980</unitdate>
+              <container  label="Mixed Materials"
+                type="box">6</container>
+              <container 
+                 type="folder">31</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Long range planning committee</unittitle>
+              <unitdate datechar="creation" normal="1980/1980">1980</unitdate>
+              <container  label="Mixed Materials"
+                type="box">5</container>
+              <container 
+                 type="folder">15</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Annual reports</unittitle>
+              <unitdate datechar="creation" normal="1982/1992" type="inclusive">1982-1992</unitdate>
+              <container  label="Mixed Materials"
+                type="box">2</container>
+              <container 
+                 type="folder">8</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Clerk's reports</unittitle>
+              <unitdate datechar="creation" normal="1988/1997" type="inclusive">1988-1997</unitdate>
+              <container  label="Mixed Materials"
+                type="box">5</container>
+              <container 
+                 type="folder">18</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Annual reports</unittitle>
+              <unitdate datechar="creation" normal="1992/2004" type="inclusive">1992-2004</unitdate>
+              <container  label="Mixed Materials"
+                type="box">2</container>
+              <container 
+                 type="folder">9</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Special committee to address church concerns</unittitle>
+              <unitdate datechar="creation" normal="1999/2001" type="inclusive">1999-2001</unitdate>
+              <container  label="Mixed Materials"
+                type="box">5</container>
+              <container 
+                 type="folder">19</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Safe church policy draft</unittitle>
+              <unitdate datechar="creation" normal="2004/2004">2004</unitdate>
+              <container  label="Mixed Materials"
+                type="box">6</container>
+              <container 
+                 type="folder">7</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Annual reports</unittitle>
+              <unitdate datechar="creation" normal="2005/2012" type="inclusive">2005-2012</unitdate>
+              <container  label="Mixed Materials"
+                type="box">2</container>
+              <container 
+                 type="folder">10</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Annual reports</unittitle>
+              <unitdate datechar="creation" normal="2013/2022" type="inclusive">2013-2022</unitdate>
+              <container  label="Mixed Materials"
+                type="box">2</container>
+              <container 
+                 type="folder">11</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Church council meeting minutes</unittitle>
+              <unitdate datechar="creation" normal="2015/2015">2015</unitdate>
+              <container  label="Mixed Materials"
+                type="box">2</container>
+              <container 
+                 type="folder">1</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Church council meeting minutes</unittitle>
+              <unitdate datechar="creation" normal="2016/2016">2016</unitdate>
+              <container  label="Mixed Materials"
+                type="box">2</container>
+              <container 
+                 type="folder">2</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Church council meeting minutes</unittitle>
+              <unitdate datechar="creation" normal="2017/2017">2017</unitdate>
+              <container  label="Mixed Materials"
+                type="box">2</container>
+              <container 
+                 type="folder">3</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Church council meeting minutes</unittitle>
+              <unitdate datechar="creation" normal="2018/2019" type="inclusive">2018-2019</unitdate>
+              <container  label="Mixed Materials"
+                type="box">2</container>
+              <container 
+                 type="folder">4</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Church council meeting minutes</unittitle>
+              <unitdate datechar="creation" normal="2020/2022" type="inclusive">2020-2022</unitdate>
+              <container  label="Mixed Materials"
+                type="box">2</container>
+              <container 
+                 type="folder">5</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Board of Trustees meeting minutes</unittitle>
+              <unitdate datechar="creation" normal="1952/1960" type="inclusive">1952-1960</unitdate>
+              <container  label="Mixed Materials"
+                type="box">3</container>
+              <container 
+                 type="folder">13</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Board of Trustees meeting minutes</unittitle>
+              <unitdate datechar="creation" normal="1959/1990" type="inclusive">1959-1990</unitdate>
+              <container  label="Mixed Materials"
+                type="box">3</container>
+              <container 
+                 type="folder">14</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Board of Trustees meeting minutes (1 of 2)</unittitle>
+              <unitdate datechar="creation" normal="1964/1968" type="inclusive">1964-1968</unitdate>
+              <container  label="Mixed Materials"
+                type="box">3</container>
+              <container 
+                 type="folder">15</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Board of Trustees meeting minutes (2 of 2)</unittitle>
+              <unitdate datechar="creation" normal="1964/1968" type="inclusive">1964-1968</unitdate>
+              <container  label="Mixed Materials"
+                type="box">3</container>
+              <container 
+                 type="folder">16</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Board of Trustees meeting minutes</unittitle>
+              <unitdate datechar="creation" normal="1973/1977" type="inclusive">1973-1977</unitdate>
+              <container  label="Mixed Materials"
+                type="box">3</container>
+              <container 
+                 type="folder">17</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Board of Trustees meeting minutes</unittitle>
+              <unitdate datechar="creation" normal="1978/1984" type="inclusive">1978-1984</unitdate>
+              <container  label="Mixed Materials"
+                type="box">3</container>
+              <container 
+                 type="folder">18</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Board of Trustees meeting minutes</unittitle>
+              <unitdate datechar="creation" normal="2003/2005" type="inclusive">2003-2005</unitdate>
+              <container  label="Mixed Materials"
+                type="box">3</container>
+              <container 
+                 type="folder">19</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Board of Trustees meeting minutes</unittitle>
+              <unitdate datechar="creation" normal="2018/2019" type="inclusive">2018-2019</unitdate>
+              <container  label="Mixed Materials"
+                type="box">3</container>
+              <container 
+                 type="folder">20</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Values and faith evaluation</unittitle>
+              <unitdate calendar="gregorian" datechar="creation" type="inclusive">undated</unitdate>
+              <container  label="Mixed Materials"
+                type="box">6</container>
+              <container 
+                 type="folder">23</container>
+            </did>
+          </c03>
+        </c02>
+        <c02  level="subseries">
+          <did>
+            <unittitle>Newsletters</unittitle>
+            <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">4
+                Folders</extent></physdesc>
+            <unitdate calendar="gregorian" datechar="creation" normal="1894/1968" type="inclusive"
+              >1894, 1957-1968</unitdate>
+          </did>
+          <scopecontent >
+            <head>Scope and Contents</head>
+            <p>This subseries contains newsletters produced by the First Congregational Church,
+              including the Gardner journal, the Tower Times, and Tidings.</p>
+          </scopecontent>
+          <c03  level="file">
+            <did>
+              <unittitle>Gardner journal</unittitle>
+              <unitdate calendar="gregorian" datechar="creation" normal="1894/1894">1894</unitdate>
+              <container  label="Mixed Materials"
+                type="box">6</container>
+              <container 
+                 type="folder">38</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>The Tower Times newsletter</unittitle>
+              <unitdate datechar="creation" normal="1957/1966" type="inclusive">1957-1966</unitdate>
+              <container  label="Mixed Materials"
+                type="box">3</container>
+              <container 
+                 type="folder">22</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>The Tower Times newsletter</unittitle>
+              <unitdate datechar="creation" normal="1967/1972" type="inclusive">1967-1972</unitdate>
+              <container  label="Mixed Materials"
+                type="box">3</container>
+              <container 
+                 type="folder">23</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Tidings newsletter</unittitle>
+              <unitdate datechar="creation" normal="1968/1968">1968</unitdate>
+              <container  label="Mixed Materials"
+                type="box">3</container>
+              <container 
+                 type="folder">21</container>
+            </did>
+          </c03>
+        </c02>
+        <c02  level="subseries">
+          <did>
+            <unittitle>History and Events</unittitle>
+            <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">11
+                Folders</extent></physdesc>
+            <unitdate calendar="gregorian" datechar="creation" normal="1936/2008" type="inclusive"
+              >1936-2008, undated</unitdate>
+          </did>
+          <scopecontent >
+            <head>Scope and Contents</head>
+            <p>This subseries contains records related to events and the history of the First
+              Congregational Church, including constitution and bylaws, a church times, and records
+              related to church anniversaries.</p>
+          </scopecontent>
+          <c03  level="file">
+            <did>
+              <unittitle>Celebration of the 150th anniversary</unittitle>
+              <unitdate datechar="creation" normal="1936/1936">1936</unitdate>
+              <container  label="Mixed Materials"
+                type="box">6</container>
+              <container 
+                 type="folder">16</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Constitution and by-laws</unittitle>
+              <unitdate datechar="creation" normal="1951/1954" type="inclusive">1951-1954</unitdate>
+              <container  label="Mixed Materials"
+                type="box">6</container>
+              <container 
+                 type="folder">4</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Gardner tercentenary program</unittitle>
+              <unitdate datechar="creation" normal="1961/1961">1961</unitdate>
+              <container  label="Mixed Materials"
+                type="box">6</container>
+              <container 
+                 type="folder">15</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Affiliation with the UCC</unittitle>
+              <unitdate datechar="creation" normal="1976/1977" type="inclusive">1976-1977</unitdate>
+              <container  label="Mixed Materials"
+                type="box">6</container>
+              <container 
+                 type="folder">11</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Forbearer's Day</unittitle>
+              <unitdate calendar="gregorian" datechar="creation" normal="1979-06-01/1979-06-30"
+                type="inclusive">June 1979</unitdate>
+              <container  label="Mixed Materials"
+                type="box">6</container>
+              <container 
+                 type="folder">36</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Bicentennial committee</unittitle>
+              <unitdate datechar="creation" normal="1985/1987" type="inclusive">1985-1987</unitdate>
+              <container  label="Mixed Materials"
+                type="box">5</container>
+              <container 
+                 type="folder">16</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>200th anniversary</unittitle>
+              <unitdate datechar="creation" normal="1986/1986">1986</unitdate>
+              <container  label="Mixed Materials"
+                type="box">6</container>
+              <container 
+                 type="folder">18</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Church by-laws</unittitle>
+              <unitdate datechar="creation" normal="2003/2007" type="inclusive">2003-2007</unitdate>
+              <container  label="Mixed Materials"
+                type="box">6</container>
+              <container 
+                 type="folder">5</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Church timeline</unittitle>
+              <unitdate datechar="creation" normal="2008/2008">2008</unitdate>
+              <container  label="Mixed Materials"
+                type="box">6</container>
+              <container 
+                 type="folder">6</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>The Church Raising: a play</unittitle>
+              <unitdate datechar="creation" type="inclusive">undated</unitdate>
+              <container  label="Mixed Materials"
+                type="box">6</container>
+              <container 
+                 type="folder">10</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Survey on the history of Gardner</unittitle>
+              <unitdate datechar="creation" type="inclusive">undated</unitdate>
+              <container  label="Mixed Materials"
+                type="box">6</container>
+              <container 
+                 type="folder">14</container>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01  level="series">
+        <did>
+          <unittitle>Ministerial records</unittitle>
+          <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">31
+              Folders</extent></physdesc>
+          <unitdate calendar="gregorian" datechar="creation" normal="1847/2023" type="inclusive"
+            >1847-2023</unitdate>
+        </did>
+        <scopecontent >
+          <head>Scope and Contents</head>
+          <p>This series contains records related to the many ministers of First Congregational
+            Church and includes correspondences, sermons, call agreements, and information on the
+            final service of the church.</p>
+        </scopecontent>
+        <c02  level="file">
+          <did>
+            <unittitle>Pastoral calls and resignations</unittitle>
+            <unitdate datechar="creation" normal="1847/1897" type="inclusive">1847-1897</unitdate>
+            <container  label="Mixed Materials"
+              type="box">7</container>
+            <container 
+               type="folder">3</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Biography of Rev. Burton Smith Gilman</unittitle>
+            <unitdate datechar="creation" normal="1849/1864" type="inclusive">1849-1864</unitdate>
+            <container  label="Mixed Materials"
+              type="box">4</container>
+            <container 
+               type="folder">14</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Sermons (1 of 10)</unittitle>
+            <unitdate datechar="creation" normal="1896/1905" type="inclusive">1896,1905,
+              undated</unitdate>
+            <container  label="Mixed Materials"
+              type="box">4</container>
+            <container 
+               type="folder">1</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Sermons (2 of 10)</unittitle>
+            <unitdate datechar="creation" normal="1896/1905" type="inclusive">1896,1905,
+              undated</unitdate>
+            <container  label="Mixed Materials"
+              type="box">4</container>
+            <container 
+               type="folder">2</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Sermons (3 of 10)</unittitle>
+            <unitdate datechar="creation" normal="1896/1905" type="inclusive">1896,1905,
+              undated</unitdate>
+            <container  label="Mixed Materials"
+              type="box">4</container>
+            <container 
+               type="folder">3</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Sermons (4 of 10)</unittitle>
+            <unitdate datechar="creation" normal="1896/1905" type="inclusive">1896,1905,
+              undated</unitdate>
+            <container  label="Mixed Materials"
+              type="box">4</container>
+            <container 
+               type="folder">4</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Sermons (5 of 10)</unittitle>
+            <unitdate datechar="creation" normal="1896/1905" type="inclusive">1896,1905,
+              undated</unitdate>
+            <container  label="Mixed Materials"
+              type="box">4</container>
+            <container 
+               type="folder">5</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Sermons (6 of 10)</unittitle>
+            <unitdate datechar="creation" normal="1896/1905" type="inclusive">1896,1905,
+              undated</unitdate>
+            <container  label="Mixed Materials"
+              type="box">4</container>
+            <container 
+               type="folder">6</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Sermons (7 of 10)</unittitle>
+            <unitdate datechar="creation" normal="1896/1905" type="inclusive">1896,1905,
+              undated</unitdate>
+            <container  label="Mixed Materials"
+              type="box">4</container>
+            <container 
+               type="folder">7</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Sermons (8 of 10)</unittitle>
+            <unitdate datechar="creation" normal="1896/1905" type="inclusive">1896,1905,
+              undated</unitdate>
+            <container  label="Mixed Materials"
+              type="box">4</container>
+            <container 
+               type="folder">8</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Sermons (9 of 10)</unittitle>
+            <unitdate datechar="creation" normal="1896/1905" type="inclusive">1896,1905,
+              undated</unitdate>
+            <container  label="Mixed Materials"
+              type="box">4</container>
+            <container 
+               type="folder">9</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Sermons (10 of 10)</unittitle>
+            <unitdate datechar="creation" normal="1896/1905" type="inclusive">1896,1905,
+              undated</unitdate>
+            <container  label="Mixed Materials"
+              type="box">4</container>
+            <container 
+               type="folder">10</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>A sermon on hope by Rev. Burton Smith Gilman</unittitle>
+            <unitdate datechar="creation" normal="1898/1898">1898</unitdate>
+            <container  label="Mixed Materials"
+              type="box">4</container>
+            <container 
+               type="folder">15</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Various sermons</unittitle>
+            <unitdate datechar="creation" normal="1904/1905" type="inclusive">1904-1905</unitdate>
+            <container  label="Mixed Materials"
+              type="box">4</container>
+            <container 
+               type="folder">11</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Nomination committee records</unittitle>
+            <unitdate datechar="creation" normal="1933/1936" type="inclusive">1933-1936</unitdate>
+            <container  label="Mixed Materials"
+              type="box">5</container>
+            <container 
+               type="folder">11</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Rev. Edward Barry records</unittitle>
+            <unitdate datechar="creation" normal="1956/1956">1956-1972</unitdate>
+            <container  label="Mixed Materials"
+              type="box">4</container>
+            <container 
+               type="folder">16</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Rev. Daniel Leavitt records</unittitle>
+            <unitdate datechar="creation" normal="1958/1958">1958-1962</unitdate>
+            <container  label="Mixed Materials"
+              type="box">4</container>
+            <container 
+               type="folder">17</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Sermons in living glass</unittitle>
+            <unitdate datechar="creation" normal="1960-02-14/1960-02-14">February 14,
+              1960</unitdate>
+            <container  label="Mixed Materials"
+              type="box">4</container>
+            <container 
+               type="folder">12</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>God's gift and out response - a sermon in five parts</unittitle>
+            <unitdate datechar="creation" normal="1999-08-01/1999-08-31" type="inclusive">August
+              1966</unitdate>
+            <container  label="Mixed Materials"
+              type="box">4</container>
+            <container 
+               type="folder">13</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Rev. John Condon records</unittitle>
+            <unitdate datechar="creation" normal="1972/1972">1972-1983</unitdate>
+            <container  label="Mixed Materials"
+              type="box">4</container>
+            <container 
+               type="folder">18</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Rev. Baldwin Callahan records</unittitle>
+            <unitdate datechar="creation" normal="1972/1972" type="inclusive">1972,
+              undated</unitdate>
+            <container  label="Mixed Materials"
+              type="box">4</container>
+            <container 
+               type="folder">19</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Interim pastoral records</unittitle>
+            <unitdate datechar="creation" normal="1986/1986">1986</unitdate>
+            <container  label="Mixed Materials"
+              type="box">4</container>
+            <container 
+               type="folder">20</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Rev. Sandra Hartman records</unittitle>
+            <unitdate datechar="creation" normal="1986/1988" type="inclusive">1986-1988</unitdate>
+            <container  label="Mixed Materials"
+              type="box">4</container>
+            <container 
+               type="folder">21</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Rev. Edgar Kemp, Jr. records</unittitle>
+            <unitdate datechar="creation" normal="1988/1992" type="inclusive">1988-1992</unitdate>
+            <container  label="Mixed Materials"
+              type="box">4</container>
+            <container 
+               type="folder">22</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Rev. Charles B. Mansfield records</unittitle>
+            <unitdate datechar="creation" normal="1991/2001" type="inclusive">1991-2001</unitdate>
+            <container  label="Mixed Materials"
+              type="box">4</container>
+            <container 
+               type="folder">23</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Rev. Janet Skagerlind call agreement</unittitle>
+            <unitdate datechar="creation" normal="2004/2004">2004</unitdate>
+            <container  label="Mixed Materials"
+              type="box">4</container>
+            <container 
+               type="folder">24</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Rev. Francis McKenzie call agreement</unittitle>
+            <unitdate datechar="creation" normal="2014/2014">2014</unitdate>
+            <container  label="Mixed Materials"
+              type="box">4</container>
+            <container 
+               type="folder">25</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Rev. Holly MillerShank call agreement</unittitle>
+            <unitdate datechar="creation" normal="2017/2017">2017</unitdate>
+            <container  label="Mixed Materials"
+              type="box">4</container>
+            <container 
+               type="folder">26</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Karen Hodges call agreement</unittitle>
+            <unitdate datechar="creation" normal="2017/2017">2017</unitdate>
+            <container  label="Mixed Materials"
+              type="box">4</container>
+            <container 
+               type="folder">27</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Final worship</unittitle>
+            <unitdate datechar="creation" normal="2023-10-01/2023-10-01">October 1, 2023</unitdate>
+            <container  label="Mixed Materials"
+              type="box">4</container>
+            <container 
+               type="folder">28</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Hymns and prayers</unittitle>
+            <unitdate calendar="gregorian" datechar="creation" type="inclusive">undated</unitdate>
+            <container  label="Mixed Materials"
+              type="box">6</container>
+            <container 
+               type="folder">33</container>
+          </did>
+        </c02>
+      </c01>
+      <c01  level="series">
+        <did>
+          <unittitle>Auxiliary groups</unittitle>
+          <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">55
+              Folders</extent></physdesc>
+          <unitdate calendar="gregorian" datechar="creation" normal="1848/2010" type="inclusive"
+            >1848-2010</unitdate>
+        </did>
+        <scopecontent >
+          <head>Scope and Contents</head>
+          <p>This series contains various records related to various auxiliary groups from the First
+            Congregational Church, including educational groups, Women's groups, the Massachusetts
+            Conference, and from the Diaconate.</p>
+        </scopecontent>
+        <c02  level="subseries">
+          <did>
+            <unittitle>Women's Groups</unittitle>
+            <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">21
+                Folders</extent></physdesc>
+            <unitdate calendar="gregorian" datechar="creation" normal="1848/1975" type="inclusive"
+              >1848-1975</unitdate>
+          </did>
+          <scopecontent >
+            <head>Scope and Contents</head>
+            <p>This subseries contains records related to various Women's groups part of the First
+              Congregational Church, including the Ladies' social circle, Ladies' sewing society,
+              Women's fellowship, Women's missionary society, Women's missionary society and Women's
+              Association.</p>
+          </scopecontent>
+          <c03  level="file">
+            <did>
+              <unittitle>Ladies' social circle records</unittitle>
+              <unitdate datechar="creation" normal="1902/1911" type="inclusive">1902-1911</unitdate>
+              <container  label="Mixed Materials"
+                type="box">3</container>
+              <container 
+                 type="folder">1</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Ladies' social and benevolent circle treasurer's reports</unittitle>
+              <unitdate datechar="creation" normal="1910/1931" type="inclusive">1910-1931</unitdate>
+              <container  label="Mixed Materials"
+                type="box">2</container>
+              <container 
+                 type="folder">19</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Ladies' social circle records</unittitle>
+              <unitdate datechar="creation" normal="1911/1922" type="inclusive">1911-1922</unitdate>
+              <container  label="Mixed Materials"
+                type="box">3</container>
+              <container 
+                 type="folder">2</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Ladies' social circle records</unittitle>
+              <unitdate datechar="creation" normal="1921/1931" type="inclusive">1921-1931</unitdate>
+              <container  label="Mixed Materials"
+                type="box">3</container>
+              <container 
+                 type="folder">3</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Ladies' sewing society records</unittitle>
+              <unitdate datechar="creation" normal="1848/1866" type="inclusive">1848-1866</unitdate>
+              <container  label="Mixed Materials"
+                type="box">2</container>
+              <container 
+                 type="folder">20</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Ladies' sewing society records</unittitle>
+              <unitdate datechar="creation" normal="1848/1866" type="inclusive">1870-1880</unitdate>
+              <container  label="Mixed Materials"
+                type="box">2</container>
+              <container 
+                 type="folder">21</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Ladies' sewing society records</unittitle>
+              <unitdate datechar="creation" normal="1848/1866" type="inclusive">1886-1898</unitdate>
+              <container  label="Mixed Materials"
+                type="box">2</container>
+              <container 
+                 type="folder">22</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Women's Fellowship reports</unittitle>
+              <unitdate datechar="creation" normal="1956/1969" type="inclusive">1956-1969</unitdate>
+              <container  label="Mixed Materials"
+                type="box">5</container>
+              <container 
+                 type="folder">3</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Women's Fellowship records (1 of 3)</unittitle>
+              <unitdate datechar="creation" normal="1963/1975" type="inclusive">1963-1975</unitdate>
+              <container  label="Mixed Materials"
+                type="box">4</container>
+              <container 
+                 type="folder">29</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Women's Fellowship records (2 of 3)</unittitle>
+              <unitdate datechar="creation" normal="1963/1975" type="inclusive">1963-1975</unitdate>
+              <container  label="Mixed Materials"
+                type="box">4</container>
+              <container 
+                 type="folder">30</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Women's Fellowship records (3 of 3)</unittitle>
+              <unitdate datechar="creation" normal="1963/1975" type="inclusive">1963-1975</unitdate>
+              <container  label="Mixed Materials"
+                type="box">4</container>
+              <container 
+                 type="folder">31</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Women's Missionary Society records (1 of 4)</unittitle>
+              <unitdate datechar="creation" normal="1880/1889" type="inclusive">1880-1889</unitdate>
+              <container  label="Mixed Materials"
+                type="box">4</container>
+              <container 
+                 type="folder">32</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Women's Missionary Society records (2 of 4)</unittitle>
+              <unitdate datechar="creation" normal="1880/1889" type="inclusive">1880-1889</unitdate>
+              <container  label="Mixed Materials"
+                type="box">4</container>
+              <container 
+                 type="folder">33</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Women's Missionary Society records (3 of 4)</unittitle>
+              <unitdate datechar="creation" normal="1880/1889" type="inclusive">1880-1889</unitdate>
+              <container  label="Mixed Materials"
+                type="box">4</container>
+              <container 
+                 type="folder">34</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Women's Missionary Society records (4 of 4)</unittitle>
+              <unitdate datechar="creation" normal="1880/1889" type="inclusive">1880-1889</unitdate>
+              <container  label="Mixed Materials"
+                type="box">4</container>
+              <container 
+                 type="folder">35</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Auxiliary Women Board of Missions finances</unittitle>
+              <unitdate datechar="creation" normal="1896/1912" type="inclusive">1896-1912</unitdate>
+              <container  label="Mixed Materials"
+                type="box">4</container>
+              <container 
+                 type="folder">36</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Home Department of the Women's Missionary Society reports</unittitle>
+              <unitdate datechar="creation" normal="1902/1916" type="inclusive">1902-1916</unitdate>
+              <container  label="Mixed Materials"
+                type="box">4</container>
+              <container 
+                 type="folder">37</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Women's Missionary Society records</unittitle>
+              <unitdate datechar="creation" normal="1922/1931" type="inclusive">1922-1931</unitdate>
+              <container  label="Mixed Materials"
+                type="box">4</container>
+              <container 
+                 type="folder">38</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Women's Missionary Society finances</unittitle>
+              <unitdate datechar="creation" normal="1924/1931" type="inclusive">1924-1931</unitdate>
+              <container  label="Mixed Materials"
+                type="box">4</container>
+              <container 
+                 type="folder">39</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Women's Association menu book</unittitle>
+              <unitdate datechar="creation" normal="1931/1942" type="inclusive">1931-1942</unitdate>
+              <container  label="Mixed Materials"
+                type="box">5</container>
+              <container 
+                 type="folder">1</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Women's Association record book</unittitle>
+              <unitdate datechar="creation" normal="1949/1963" type="inclusive">1949-1963</unitdate>
+              <container  label="Mixed Materials"
+                type="box">5</container>
+              <container 
+                 type="folder">2</container>
+            </did>
+          </c03>
+        </c02>
+        <c02  level="subseries">
+          <did>
+            <unittitle>Educational Groups</unittitle>
+            <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">20
+                Folders</extent></physdesc>
+            <unitdate calendar="gregorian" datechar="creation" normal="1886/2010" type="inclusive"
+              >1886-2010</unitdate>
+          </did>
+          <scopecontent >
+            <head>Scope and Contents</head>
+            <p>This subseries contains records related to the various educational groups of the
+              First Congregational Church, including the Christian Endeavor meeting minutes, Bible
+              study, Sunday School, Christian education society, Fellowship committee, and more.</p>
+          </scopecontent>
+          <c03  level="file">
+            <did>
+              <unittitle>Christian endeavor records</unittitle>
+              <unitdate calendar="gregorian" datechar="creation" normal="1886/1896" type="inclusive"
+                >1886-1896</unitdate>
+              <container  label="Mixed Materials"
+                type="box">3</container>
+              <container 
+                 type="folder">4</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Christian endeavor membership and by-laws</unittitle>
+              <unitdate datechar="creation" normal="1896/1896">1896</unitdate>
+              <container  label="Mixed Materials"
+                type="box">3</container>
+              <container 
+                 type="folder">5</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Christian endeavor records</unittitle>
+              <unitdate datechar="creation" normal="1896/1906" type="inclusive">1896-1906</unitdate>
+              <container  label="Mixed Materials"
+                type="box">3</container>
+              <container 
+                 type="folder">6</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Christian endeavor records</unittitle>
+              <unitdate datechar="creation" normal="1904/1911" type="inclusive">1904-1911</unitdate>
+              <container  label="Mixed Materials"
+                type="box">3</container>
+              <container 
+                 type="folder">7</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Christian endeavor meeting minutes</unittitle>
+              <unitdate datechar="creation" normal="1906/1911" type="inclusive">1906-1911</unitdate>
+              <container  label="Mixed Materials"
+                type="box">5</container>
+              <container 
+                 type="folder">4</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Christian endeavor records (1 of 2)</unittitle>
+              <unitdate calendar="gregorian" datechar="creation" normal="1920/1925" type="inclusive"
+                >1920-1925</unitdate>
+              <container  label="Mixed Materials"
+                type="box">3</container>
+              <container 
+                 type="folder">8</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Christian endeavor records (2 of 2)</unittitle>
+              <unitdate datechar="creation" normal="1920/1925" type="inclusive">1920-1925</unitdate>
+              <container  label="Mixed Materials"
+                type="box">3</container>
+              <container 
+                 type="folder">9</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Christian endeavor meeting minutes</unittitle>
+              <unitdate datechar="creation" normal="1925/1931" type="inclusive">1925-1931</unitdate>
+              <container  label="Mixed Materials"
+                type="box">3</container>
+              <container 
+                 type="folder">10</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Christian endeavor meeting minutes</unittitle>
+              <unitdate datechar="creation" normal="1936/1937" type="inclusive">1936-1937</unitdate>
+              <container  label="Mixed Materials"
+                type="box">3</container>
+              <container 
+                 type="folder">11</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Christian endeavor membership and by-laws</unittitle>
+              <unitdate datechar="creation" type="inclusive">undated</unitdate>
+              <container  label="Mixed Materials"
+                type="box">3</container>
+              <container 
+                 type="folder">12</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Bible study department</unittitle>
+              <unitdate datechar="creation" normal="1903/1908" type="inclusive">1903-1908</unitdate>
+              <container  label="Mixed Materials"
+                type="box">5</container>
+              <container 
+                 type="folder">7</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Sunday school reports</unittitle>
+              <unitdate datechar="creation" normal="1906/1913" type="inclusive">1906-1913</unitdate>
+              <container  label="Mixed Materials"
+                type="box">5</container>
+              <container 
+                 type="folder">8</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Young people's society records</unittitle>
+              <unitdate datechar="creation" normal="1930/1934" type="inclusive">1930-1934</unitdate>
+              <container  label="Mixed Materials"
+                type="box">5</container>
+              <container 
+                 type="folder">10</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Church school council secretary's minutes</unittitle>
+              <unitdate datechar="creation" normal="1939/1940" type="inclusive">1939-1940</unitdate>
+              <container  label="Mixed Materials"
+                type="box">5</container>
+              <container 
+                 type="folder">12</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Music committee records</unittitle>
+              <unitdate datechar="creation" normal="1965/1984" type="inclusive">1965-1984</unitdate>
+              <container  label="Mixed Materials"
+                type="box">5</container>
+              <container 
+                 type="folder">13</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Grace A. Howe sacred concert series</unittitle>
+              <unitdate datechar="creation" normal="1978/1989" type="inclusive">1978-1989</unitdate>
+              <container  label="Mixed Materials"
+                type="box">6</container>
+              <container 
+                 type="folder">12</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Mission council meeting minutes</unittitle>
+              <unitdate datechar="creation" normal="2003/2005" type="inclusive">2003-2005</unitdate>
+              <container  label="Mixed Materials"
+                type="box">5</container>
+              <container 
+                 type="folder">22</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Christian education meeting minutes</unittitle>
+              <unitdate datechar="creation" normal="2003/2006" type="inclusive">2003-2006</unitdate>
+              <container  label="Mixed Materials"
+                type="box">5</container>
+              <container 
+                 type="folder">23</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Fellowship committee meeting minutes</unittitle>
+              <unitdate datechar="creation" normal="2004/2006" type="inclusive">2004-2006</unitdate>
+              <container  label="Mixed Materials"
+                type="box">5</container>
+              <container 
+                 type="folder">20</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Fellowship committee meeting minutes</unittitle>
+              <unitdate datechar="creation" normal="2006/2010" type="inclusive">2006-2010</unitdate>
+              <container  label="Mixed Materials"
+                type="box">5</container>
+              <container 
+                 type="folder">21</container>
+            </did>
+          </c03>
+        </c02>
+        <c02  level="subseries">
+          <did>
+            <unittitle>Massachusetts Conference records</unittitle>
+            <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">7
+                Folders</extent></physdesc>
+            <unitdate calendar="gregorian" datechar="creation" normal="1905/1999" type="inclusive"
+              >1905-1999</unitdate>
+          </did>
+          <scopecontent >
+            <head>Scope and Contents</head>
+            <p>This subseries contains records relating to interactions between the Massachusetts
+              Conference and the First Congregational Church, including meeting minutes, yearbook
+              applications, and annual reports</p>
+          </scopecontent>
+          <c03  level="file">
+            <did>
+              <unittitle>Yearbook applications</unittitle>
+              <unitdate calendar="gregorian" datechar="creation" normal="1905/1943" type="inclusive"
+                >1905-1943</unitdate>
+              <container  label="Mixed Materials"
+                type="box">6</container>
+              <container 
+                 type="folder">34</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Massachusetts Congregational Conference at First Congregational
+                Church</unittitle>
+              <unitdate calendar="gregorian" datechar="creation" normal="1936-05-01/1936-05-31"
+                type="inclusive">May 1936</unitdate>
+              <container  label="Mixed Materials"
+                type="box">6</container>
+              <container 
+                 type="folder">32</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Yearbook applications</unittitle>
+              <unitdate calendar="gregorian" datechar="creation" normal="1945/1999" type="inclusive"
+                >1945-1999</unitdate>
+              <container  label="Mixed Materials"
+                type="box">6</container>
+              <container 
+                 type="folder">35</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Central Association of Massachusetts Conference records (1 of
+                2)</unittitle>
+              <unitdate datechar="creation" normal="1965/1972" type="inclusive">1965-1972</unitdate>
+              <container  label="Mixed Materials"
+                type="box">3</container>
+              <container 
+                 type="folder">24</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Central Association of Massachusetts Conference records (2 of
+                2)</unittitle>
+              <unitdate datechar="creation" normal="1965/1972" type="inclusive">1965-1972</unitdate>
+              <container  label="Mixed Materials"
+                type="box">3</container>
+              <container 
+                 type="folder">25</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Massachusetts Conference records</unittitle>
+              <unitdate datechar="creation" normal="1968/1988" type="inclusive">1968-1988</unitdate>
+              <container  label="Mixed Materials"
+                type="box">7</container>
+              <container 
+                 type="folder">7</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Central Association of Massachusetts Conference annual reports</unittitle>
+              <unitdate datechar="creation" normal="1977/1990" type="inclusive">1977-1980,
+                1990</unitdate>
+              <container  label="Mixed Materials"
+                type="box">3</container>
+              <container 
+                 type="folder">26</container>
+            </did>
+          </c03>
+        </c02>
+        <c02  level="subseries">
+          <did>
+            <unittitle>Diaconate records</unittitle>
+            <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">7
+                Folders</extent></physdesc>
+            <unitdate calendar="gregorian" datechar="creation" normal="1967/2006" type="inclusive"
+              >1967-2006</unitdate>
+          </did>
+          <scopecontent >
+            <head>Scope and Contents</head>
+            <p>This subseries contains meeting minutes and reports from both Deacons and
+              Deaconesses.</p>
+          </scopecontent>
+          <c03  level="file">
+            <did>
+              <unittitle>Board of deacons' reports</unittitle>
+              <unitdate datechar="creation" normal="1964/1968" type="inclusive">1964-1968</unitdate>
+              <container  label="Mixed Materials"
+                type="box">2</container>
+              <container 
+                 type="folder">12</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Deacon and Deaconess meeting minutes</unittitle>
+              <unitdate calendar="gregorian" datechar="creation" normal="1964/1974" type="inclusive"
+                >1964-1974</unitdate>
+              <container  label="Mixed Materials"
+                type="box">2</container>
+              <container 
+                 type="folder">13</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Diaconate meeting minutes</unittitle>
+              <unitdate datechar="creation" normal="1971/1976" type="inclusive">1971-1976</unitdate>
+              <container  label="Mixed Materials"
+                type="box">2</container>
+              <container 
+                 type="folder">14</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Diaconate meeting minutes</unittitle>
+              <unitdate datechar="creation" normal="1977/1988" type="inclusive">1977-1988</unitdate>
+              <container  label="Mixed Materials"
+                type="box">2</container>
+              <container 
+                 type="folder">15</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Deacons' workshop</unittitle>
+              <unitdate datechar="creation" normal="1985-09-26/1985-09-26">October 26,
+                1985</unitdate>
+              <container  label="Mixed Materials"
+                type="box">2</container>
+              <container 
+                 type="folder">17</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Diaconate meeting minutes</unittitle>
+              <unitdate datechar="creation" normal="1988/1990" type="inclusive">1988-1990</unitdate>
+              <container  label="Mixed Materials"
+                type="box">2</container>
+              <container 
+                 type="folder">16</container>
+            </did>
+          </c03>
+          <c03  level="file">
+            <did>
+              <unittitle>Deacon meeting minutes</unittitle>
+              <unitdate datechar="creation" normal="2004/2006" type="inclusive">2004-2006</unitdate>
+              <container  label="Mixed Materials"
+                type="box">2</container>
+              <container 
+                 type="folder">18</container>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01  level="series">
+        <did>
+          <unittitle>Vital Statistics</unittitle>
+          <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">33
+              Folders</extent></physdesc>
+          <unitdate calendar="gregorian" datechar="creation" normal="1862/2020" type="inclusive"
+            >1862-2020</unitdate>
+        </did>
+        <scopecontent >
+          <head>Scope and Contents</head>
+          <p>This series contains various vital statistics from the First Congregational Church and
+            includes baptisms, deaths, marriages, membership, letters of dismission, and letters of
+            transfer.</p>
+        </scopecontent>
+        <c02  level="file">
+          <did>
+            <unittitle>Baptism lists</unittitle>
+            <unitdate datechar="creation" normal="1905/1984" type="inclusive">1905-1984</unitdate>
+            <container  label="Mixed Materials"
+              type="box">1</container>
+            <container 
+               type="folder">6</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Baptisms</unittitle>
+            <unitdate datechar="creation" normal="1972/1979" type="inclusive">1972-1979</unitdate>
+            <container  label="Mixed Materials"
+              type="box">1</container>
+            <container 
+               type="folder">7</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Baptisms</unittitle>
+            <unitdate datechar="creation" normal="1980/2002" type="inclusive">1980-2002</unitdate>
+            <container  label="Mixed Materials"
+              type="box">1</container>
+            <container 
+               type="folder">8</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Baptisms</unittitle>
+            <unitdate datechar="creation" normal="2003/2010" type="inclusive">2003-2010</unitdate>
+            <container  label="Mixed Materials"
+              type="box">1</container>
+            <container 
+               type="folder">9</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Baptisms</unittitle>
+            <unitdate datechar="creation" normal="2011/2014" type="inclusive">2011-2014</unitdate>
+            <container  label="Mixed Materials"
+              type="box">1</container>
+            <container 
+               type="folder">10</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Baptisms</unittitle>
+            <unitdate datechar="creation" normal="2015/2019" type="inclusive">2015-2019</unitdate>
+            <container  label="Mixed Materials"
+              type="box">1</container>
+            <container 
+               type="folder">11</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Death records</unittitle>
+            <unitdate datechar="creation" normal="1989/1993" type="inclusive">1989-1993</unitdate>
+            <container  label="Mixed Materials"
+              type="box">1</container>
+            <container 
+               type="folder">12</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Deaths</unittitle>
+            <unitdate datechar="creation" normal="1994/1998" type="inclusive">1994-1998</unitdate>
+            <container  label="Mixed Materials"
+              type="box">1</container>
+            <container 
+               type="folder">1</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Deaths</unittitle>
+            <unitdate datechar="creation" normal="1999/2005" type="inclusive">1999-2005</unitdate>
+            <container  label="Mixed Materials"
+              type="box">1</container>
+            <container 
+               type="folder">2</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Deaths</unittitle>
+            <unitdate datechar="creation" normal="2006/2014" type="inclusive">2006-2014</unitdate>
+            <container  label="Mixed Materials"
+              type="box">1</container>
+            <container 
+               type="folder">3</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Deaths</unittitle>
+            <unitdate datechar="creation" normal="2015/2018" type="inclusive">2015-2018</unitdate>
+            <container  label="Mixed Materials"
+              type="box">1</container>
+            <container 
+               type="folder">4</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Death notices</unittitle>
+            <unitdate datechar="creation" type="inclusive">undated</unitdate>
+            <container  label="Mixed Materials"
+              type="box">1</container>
+            <container 
+               type="folder">5</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Marriages</unittitle>
+            <unitdate datechar="creation" normal="1900/2004" type="inclusive">1900,
+              1980-2004</unitdate>
+            <container  label="Mixed Materials"
+              type="box">1</container>
+            <container 
+               type="folder">13</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Marriages</unittitle>
+            <unitdate datechar="creation" normal="2005/2007" type="inclusive">2005-2007</unitdate>
+            <container  label="Mixed Materials"
+              type="box">1</container>
+            <container 
+               type="folder">14</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Marriages</unittitle>
+            <unitdate datechar="creation" normal="2008/2020" type="inclusive">2008-2020</unitdate>
+            <container  label="Mixed Materials"
+              type="box">1</container>
+            <container 
+               type="folder">15</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Letters of dismission</unittitle>
+            <unitdate datechar="creation" normal="1893/1937" type="inclusive">1893-1937</unitdate>
+            <container  label="Mixed Materials"
+              type="box">1</container>
+            <container 
+               type="folder">25</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Letters of dismission</unittitle>
+            <unitdate datechar="creation" normal="1909/1920" type="inclusive">1909-1920</unitdate>
+            <container  label="Mixed Materials"
+              type="box">1</container>
+            <container 
+               type="folder">26</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Letters of dismission</unittitle>
+            <unitdate datechar="creation" normal="1920/1928" type="inclusive">1920-1928</unitdate>
+            <container  label="Mixed Materials"
+              type="box">1</container>
+            <container 
+               type="folder">27</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Memberships</unittitle>
+            <unitdate datechar="creation" normal="2005/2018" type="inclusive">2005-2018</unitdate>
+            <container  label="Mixed Materials"
+              type="box">1</container>
+            <container 
+               type="folder">16</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Correspondences related to membership</unittitle>
+            <unitdate datechar="creation" normal="1862/1915" type="inclusive">1862-1915</unitdate>
+            <container  label="Mixed Materials"
+              type="box">1</container>
+            <container 
+               type="folder">28</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Church records and membership</unittitle>
+            <unitdate datechar="creation" normal="1867/1880" type="inclusive">1867-1880</unitdate>
+            <container  label="Mixed Materials"
+              type="box">1</container>
+            <container 
+               type="folder">24</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Living members who joined from 1920-1930</unittitle>
+            <unitdate datechar="creation" type="inclusive">undated</unitdate>
+            <container  label="Mixed Materials"
+              type="box">1</container>
+            <container 
+               type="folder">21</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>List of service members</unittitle>
+            <unitdate calendar="gregorian" datechar="creation" normal="1944-09-18/1944-09-18"
+              >September 18, 1944</unitdate>
+            <container  label="Mixed Materials"
+              type="box">6</container>
+            <container 
+               type="folder">37</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Church sign-in book</unittitle>
+            <unitdate datechar="creation" normal="1947/1974" type="inclusive">1947-1974</unitdate>
+            <container  label="Mixed Materials"
+              type="box">1</container>
+            <container 
+               type="folder">17</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Church sign-in book</unittitle>
+            <unitdate datechar="creation" normal="1948/2001" type="inclusive">1948-2001</unitdate>
+            <container  label="Mixed Materials"
+              type="box">1</container>
+            <container 
+               type="folder">18</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Vital statistics</unittitle>
+            <unitdate datechar="creation" normal="1952/1961" type="inclusive">1952-1961</unitdate>
+            <container  label="Mixed Materials"
+              type="box">1</container>
+            <container 
+               type="folder">19</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Church meeting minutes and membership</unittitle>
+            <unitdate datechar="creation" normal="1957/1967" type="inclusive">1957-1967</unitdate>
+            <container  label="Mixed Materials"
+              type="box">1</container>
+            <container 
+               type="folder">29</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Yearbook and directories</unittitle>
+            <unitdate datechar="creation" normal="1958/1999" type="inclusive">1958, 1999,
+              undated</unitdate>
+            <container  label="Mixed Materials"
+              type="box">1</container>
+            <container 
+               type="folder">32</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Membership and transfers</unittitle>
+            <unitdate datechar="creation" normal="1862/1989" type="inclusive">1962-1989</unitdate>
+            <container  label="Mixed Materials"
+              type="box">1</container>
+            <container 
+               type="folder">30</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Resident membership lists</unittitle>
+            <unitdate datechar="creation" normal="1970/1988" type="inclusive">1970-1988</unitdate>
+            <container  label="Mixed Materials"
+              type="box">1</container>
+            <container 
+               type="folder">31</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Resident membership mailing list</unittitle>
+            <unitdate datechar="creation" normal="1981/1986" type="inclusive">1981-1986</unitdate>
+            <container  label="Mixed Materials"
+              type="box">1</container>
+            <container 
+               type="folder">20</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Membership committee reports (1 of 2)</unittitle>
+            <unitdate datechar="creation" normal="2000/2006" type="inclusive">2000-2006</unitdate>
+            <container  label="Mixed Materials"
+              type="box">1</container>
+            <container 
+               type="folder">22</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Membership committee reports (2 of 2)</unittitle>
+            <unitdate datechar="creation" normal="2000/2006" type="inclusive">2000-2006</unitdate>
+            <container  label="Mixed Materials"
+              type="box">1</container>
+            <container 
+               type="folder">23</container>
+          </did>
+        </c02>
+      </c01>
+      <c01  level="series">
+        <did>
+          <unittitle>Visual material</unittitle>
+          <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">4
+              Folders</extent></physdesc>
+          <unitdate calendar="gregorian" datechar="creation" normal="1883/1961" type="inclusive"
+            >1883-1961, undated</unitdate>
+        </did>
+        <scopecontent >
+          <head>Scope and Contents</head>
+          <p>The series contains visual materials like photographs and scrapbooks.</p>
+        </scopecontent>
+        <c02  level="file">
+          <did>
+            <unittitle>Scrapbook</unittitle>
+            <unitdate calendar="gregorian" datechar="creation" normal="1883/1985" type="inclusive"
+              >1883-1985</unitdate>
+            <container  label="Mixed Materials"
+              type="box">6</container>
+            <container 
+               type="folder">29</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Scrapbook on church visit to Puerto Rico</unittitle>
+            <unitdate calendar="gregorian" datechar="creation" normal="1939/1961" type="inclusive"
+              >1939-1961</unitdate>
+            <container  label="Mixed Materials"
+              type="box">6</container>
+            <container 
+               type="folder">39</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Assorted photographs</unittitle>
+            <unitdate calendar="gregorian" datechar="creation" type="inclusive">undated</unitdate>
+            <container  label="Mixed Materials"
+              type="box">6</container>
+            <container 
+               type="folder">13</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Assorted photographs</unittitle>
+            <unitdate datechar="creation" type="inclusive">undated</unitdate>
+            <container  label="Mixed Materials"
+              type="box">6</container>
+            <container 
+               type="folder">19</container>
+          </did>
+        </c02>
+      </c01>
+      <c01  level="series">
+        <did>
+          <unittitle>Building records</unittitle>
+          <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">13
+              Folders</extent></physdesc>
+          <unitdate calendar="gregorian" datechar="creation" normal="1890/2011" type="inclusive"
+            >1890-2011</unitdate>
+        </did>
+        <scopecontent >
+          <head>Scope and Contents</head>
+          <p>This series contains records related to the operation of the church building and
+            includes renovation material, inventories, alterations, maintenance, and more.</p>
+        </scopecontent>
+        <c02  level="file">
+          <did>
+            <unittitle>Building records</unittitle>
+            <unitdate datechar="creation" normal="1890/1972" type="inclusive">1890-1972</unitdate>
+            <container  label="Mixed Materials"
+              type="box">7</container>
+            <container 
+               type="folder">9</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Swedish match stocks</unittitle>
+            <unitdate datechar="creation" normal="1949/1949">1949</unitdate>
+            <container  label="Mixed Materials"
+              type="box">7</container>
+            <container 
+               type="folder">4</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Six year plan</unittitle>
+            <unitdate datechar="creation" normal="1954-01-01/1954-01-31" type="inclusive">January
+              1954</unitdate>
+            <container  label="Mixed Materials"
+              type="box">6</container>
+            <container 
+               type="folder">8</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Memorial fund</unittitle>
+            <unitdate datechar="creation" normal="1957/1974" type="inclusive">1957-1974</unitdate>
+            <container  label="Mixed Materials"
+              type="box">6</container>
+            <container 
+               type="folder">9</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Alterations to the First Congregational Church</unittitle>
+            <unitdate datechar="creation" normal="1958-09-19/1958-09-19">September 19,
+              1958</unitdate>
+            <container  label="Mixed Materials"
+              type="box">6</container>
+            <container 
+               type="folder">20</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Renovations</unittitle>
+            <unitdate datechar="creation" normal="1958/1966" type="inclusive">1958-1966</unitdate>
+            <container  label="Mixed Materials"
+              type="box">6</container>
+            <container 
+               type="folder">17</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Audits</unittitle>
+            <unitdate calendar="gregorian" datechar="creation" normal="1965/1973" type="inclusive"
+              >1965-1973</unitdate>
+            <container  label="Mixed Materials"
+              type="box">6</container>
+            <container 
+               type="folder">28</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Church inventories</unittitle>
+            <unitdate calendar="gregorian" datechar="creation" normal="1973/1973">1973</unitdate>
+            <container  label="Mixed Materials"
+              type="box">6</container>
+            <container 
+               type="folder">24</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Handbell choir records</unittitle>
+            <unitdate datechar="creation" normal="1985/1993" type="inclusive">1985-1993</unitdate>
+            <container  label="Mixed Materials"
+              type="box">6</container>
+            <container 
+               type="folder">21</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Parish planning inventory</unittitle>
+            <unitdate datechar="creation" normal="1986/1986">1986</unitdate>
+            <container  label="Mixed Materials"
+              type="box">5</container>
+            <container 
+               type="folder">17</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Building maintenance records</unittitle>
+            <unitdate calendar="gregorian" datechar="creation" normal="2010/2011" type="inclusive"
+              >2010-2011</unitdate>
+            <container  label="Mixed Materials"
+              type="box">6</container>
+            <container 
+               type="folder">27</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Symbols in our sanctuary</unittitle>
+            <unitdate calendar="gregorian" datechar="creation" type="inclusive">undated</unitdate>
+            <container  label="Mixed Materials"
+              type="box">6</container>
+            <container 
+               type="folder">26</container>
+          </did>
+        </c02>
+        <c02  level="file">
+          <did>
+            <unittitle>Preparations and guidelines for church events</unittitle>
+            <unitdate calendar="gregorian" datechar="creation" type="inclusive">undated</unitdate>
+            <container  label="Mixed Materials"
+              type="box">6</container>
+            <container 
+               type="folder">22</container>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
