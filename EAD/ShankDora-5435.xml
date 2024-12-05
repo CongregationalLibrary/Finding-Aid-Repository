@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/ShankDora-5435.xml"
+      >ShankDora-5435</recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/default/files/FindingAids/ShankDora-5435.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Dora Shank papers, 1929-1940.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline>
+            <ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref>
+          </addressline>
+        </address>
+        <date>2024-12-04</date>
+        <num>MS5435</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2024-12-05T17:13:38+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Thursday December 5,
+          2024 at 17:13</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Dora Shank papers, 1929-1940.</unittitle>
+      <unitid>MS5435</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>0.18</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(1 box)</physdesc>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1929">1929</fromdate>
+          <todate standarddate="1940">1940</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1929-1940</unitdate>
+      <abstract>Dora F. Shank was born in 1898 to Calvin L. Shank and Annie M. Shank. In 1929, Dora
+        F. Shank joined the Turkey mission of the American Board of Commissioners for Foreign
+        Missions to work at the American Hospital in Istanbul. She married Albert Dewey who led the
+        Azariah Smith Memorial Hospital in Gaziantep, Turkey, in 1942. The two retired from
+        missionary work in 1959 and Dora died in 1980. This collection contains a diary and
+        photographs from Dora Shank which document her journey to Turkey and her time as a nurse at
+        the American Hospital. The diary and photographs also specifically document her humanitarian
+        work in the aftermath of the Erzincan earthquake.</abstract>
+      <origination label="Creator">
+        <persname rules="rda" source="local">
+          <part>Shank, Dora, 1898-1980</part>
+        </persname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Dora Shank papers, 1929-1940, MS5435. The Congregational
+        Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by Helen Dewey in April
+        2022; 2022-08.</p>
+    </acqinfo>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Processed by Zachary Bodnar, December 2024, using Describing Archives: A Content
+        Standard.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>Dora F. Shank was born in 1898 in Maryland to Calvin L. Shank and Annie M. Shank (née
+        Farron). Dora trained as a nurse and became a registered nurse from the Philadelphia
+        Hospital. In 1929, Dora F. Shank joined the Turkey mission of the American Board of
+        Commissioners for Foreign Missions (ABCFM) to work at the American Hospital in Istanbul. She
+        became the superintendent of nurses while working at the American Hospital. In 1940, she
+        participated in humanitarian aid efforts following the 1939 Erzincan earthquake. She married
+        Albert Dewey, another ABCFM missionary, who led the Azariah Smith Memorial Hospital in
+        Gaziantep, Turkey, in 1942. The two retired from missionary work in 1959. Dora died on June
+        2, 1980 and Albert died on December 28, 1980.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains a diary and photographs from Dora Shank. The diary documents
+        Dora's journey to Turkey as a missionary and covers some of her time while working at the
+        American Hospital in Istanbul. The diary also specifically documents her humanitarian work
+        in the aftermath of the Erzincan earthquake which devastated the region. The photographs in
+        the collection all appear to have been taken during her travels to, and work in,
+        Erzincan.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>This collection has been arranged into chronological order by start date.</p>
+    </arrangement>
+    <relatedmaterial>
+      <head>Related Materials</head>
+      <p>Albert Dewey Papers (RG 161), Special Collections, Yale Divinity Library. <ref
+          href="https://archives.yale.edu/repositories/4/resources/116"
+          linktitle="Albert Dewey Paper"
+          >https://archives.yale.edu/repositories/4/resources/116</ref></p>
+    </relatedmaterial>
+    <controlaccess>
+      <subject identifier="sh85037601" source="lcsh">
+        <part>Diaries.</part>
+      </subject>
+      <subject identifier="sh2021012151" source="lcsh">
+        <part>Erzincan Earthquake, Turkey, 1939</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Missionaries -- Turkey.</part>
+      </subject>
+      <corpname identifier="no2009067265" source="lcnaf">
+        <part>Vehbi Koç Vakfı Amerikan Hastanesi</part>
+      </corpname>
+      <corpname identifier="n50060748" source="lcnaf">
+        <part>American Board of Commissioners for Foreign Missions</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="file">
+        <did>
+          <unittitle>Diary</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1929">1929</fromdate>
+              <todate standarddate="1940">1940</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1929-1940</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">1</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Photographs</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1940">1940</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">2</container>
+        </did>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
