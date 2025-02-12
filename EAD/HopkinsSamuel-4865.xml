@@ -8,7 +8,7 @@
       instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/HopkinsSamuel-4865.xml"
       >HopkinsSamuel-4865</recordid>
     <representation localtype="pdf"
-      href="https://www.congregationallibrary.org/sites/all/files/HopkinsSamuel-4865.pdf"/>
+      href="https://www.congregationallibrary.org/sites/default/files/FindingAids/HopkinsSamuel-4865.pdf"/>
     <filedesc>
       <titlestmt>
         <titleproper>Samuel Hopkins correspondence, 1766-1767, 1803.</titleproper>
@@ -22,9 +22,11 @@
           <addressline>Boston, MA 02108</addressline>
           <addressline localtype="business">617-523-0470</addressline>
           <addressline localtype="email">info@14beacon.org</addressline>
-          <addressline><ref href="http://www.CongregationalLibrary.org"
+          <addressline>
+            <ref href="http://www.CongregationalLibrary.org"
               linktitle="http://www.CongregationalLibrary.org" show="new"
-              >http://www.CongregationalLibrary.org</ref></addressline>
+              >http://www.CongregationalLibrary.org</ref>
+          </addressline>
         </address>
         <date>2019-06-21</date>
         <num>MS4865</num>
@@ -41,7 +43,7 @@
     </maintenanceagency>
     <languagedeclaration>
       <language langcode="eng">English</language>
-      <script scriptcode="lat">Latin</script>
+      <script scriptcode="Latn">Latin</script>
       <descriptivenote>
         <p>English</p>
       </descriptivenote>
@@ -56,11 +58,19 @@
     <maintenancehistory>
       <maintenanceevent>
         <eventtype value="derived"/>
-        <eventdatetime>2023-12-21T18:50:41+00:00</eventdatetime>
+        <eventdatetime>2025-02-12T16:10:45+00:00</eventdatetime>
         <agenttype value="machine"/>
         <agent>ArchivesSpace v3.2.0</agent>
-        <eventdescription>This finding aid was produced using ArchivesSpace on Thursday December 21,
-          2023 at 18:50</eventdescription>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday February
+          12, 2025 at 16:10</eventdescription>
+      </maintenanceevent>
+      <maintenanceevent>
+        <eventtype value="revised"/>
+        <eventdatetime>2025-02-12</eventdatetime>
+        <agenttype value="human"/>
+        <agent/>
+        <eventdescription>Accrual to the collection processed and added to the finding aid.
+          Controlled vocabulary terms explanded.</eventdescription>
       </maintenanceevent>
     </maintenancehistory>
   </control>
@@ -74,7 +84,10 @@
         </corpname>
       </repository>
       <langmaterial>
-        <language langcode="eng">English</language>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
       </langmaterial>
       <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
         <quantity>1</quantity>
@@ -128,8 +141,17 @@
     </prefercite>
     <acqinfo>
       <head>Acquisition Information</head>
-      <p>No acquisition information is available for this collection.</p>
+      <p>No acquisition information is available for letters one through three. The letter to Andrew
+        Fuller was donated to the Congregational Library &amp; Archives by Diane Power in May 2022;
+        2022-11.</p>
     </acqinfo>
+    <altformavail>
+      <head>Digital Copies</head>
+      <p>Records within this collection were digitized as part of the New England's Hidden Histories
+        project. Digital reproductions may be accessed online through our <ref
+          href="https://congregationallibrary.quartexcollections.com/manuscript-collections/browse-the-samuel-hopkins-correspondence"
+          >digital archive</ref>.</p>
+    </altformavail>
     <processinfo>
       <head>Processing Information</head>
       <p>Originally processed by Anderson Boone, September 2014, using DACS Second Edition.
@@ -153,10 +175,12 @@
     </bioghist>
     <scopecontent>
       <head>Scope and Contents</head>
-      <p>This collection contains three letters written by Samuel Hopkins. Two are written to
+      <p>This collection contains four letters written by Samuel Hopkins. Two are written to
         Ebenezer Little, a family friend, thanking Little and his family for their hospitality
         during Hopkins travels. The third letter is written to British minister Andrew Fuller
-        (1754-1815) and includes some of Hopkins' theological arguments.</p>
+        (1754-1815) and includes some of Hopkins' theological arguments. The fourth letter is
+        written to Stephen West in Stockbridge, Massachusetts, and mostly discusses Hopkins's poor
+        health.</p>
     </scopecontent>
     <arrangement>
       <head>Arrangement</head>
@@ -164,18 +188,13 @@
     </arrangement>
     <phystech>
       <head>Technical Requirements</head>
-      <p>To access digital user's copies via online-interface, a java-enabled web browser is
-        required. Internet Explorer 8.x and later, Firefox 5.x and later, Opera 12 and later, Safari
-        5.x and later, or any version of Google Chrome are recommended.</p>
+      <p>To access digital materials on Quartex, it is strongly recommended that you use the latest
+        available version of Microsoft Edge, Google Chrome, Mozilla Firefox, or Safari (Apple).</p>
     </phystech>
-    <altformavail>
-      <head>Digital Copies</head>
-      <p>Records within this collection were digitized as part of the New England's Hidden Histories
-        project. Digital reproductions may be accessed online through our <ref
-          href="https://congregationallibrary.quartexcollections.com/manuscript-collections/browse-the-samuel-hopkins-correspondence"
-          >digital archive</ref>.</p>
-    </altformavail>
     <controlaccess>
+      <subject source="lcsh">
+        <part>Clergy -- Correspondence.</part>
+      </subject>
       <subject identifier="sh94001813" source="lcsh">
         <part>New Divinity theology.</part>
       </subject>
@@ -186,7 +205,16 @@
         <part>Fuller, Andrew, 1754-1815</part>
       </persname>
       <persname identifier="n85024934" source="lcnaf">
-        <part>Hopkins, Samuel, 1721-1803 -- Correspondence.</part>
+        <part>Hopkins, Samuel, 1721-1803</part>
+      </persname>
+      <persname identifier="n2021014060" source="lcnaf">
+        <part>Little, Ebenezer, 1716-1768</part>
+      </persname>
+      <persname identifier="n85277198" source="lcnaf">
+        <part>Parsons, Jonathan, 1705-1776</part>
+      </persname>
+      <persname identifier="n85173471" source="lcnaf">
+        <part>West, Stephen, 1735-1819</part>
       </persname>
     </controlaccess>
     <dsc>
@@ -194,7 +222,7 @@
         <did>
           <unittitle>Corresppondence</unittitle>
           <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
-            <quantity>3</quantity>
+            <quantity>4</quantity>
             <unittype>Items</unittype>
           </physdescstructured>
           <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
@@ -205,14 +233,16 @@
           </unitdatestructured>
           <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1766-1767,
             1803</unitdate>
-          <container label="Mixed Materials" localtype="box">NEHH-Small 1</container>
+          <container
+            altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+            label="Mixed Materials" localtype="box">NEHH-Small 1</container>
           <container localtype="folder">20</container>
         </did>
         <c level="item">
           <did>
-            <unittitle>Hopkins to Little</unittitle>
+            <unittitle>Samuel Hopkins to Ebenezer Little</unittitle>
             <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
-              <datesingle standarddate="1766">1766</datesingle>
+              <datesingle standarddate="1766-07-1766">1766 July 18</datesingle>
             </unitdatestructured>
             <container
               altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
@@ -220,13 +250,6 @@
             <container localtype="folder">20</container>
             <container localtype="Item">1</container>
           </did>
-          <altformavail>
-            <head>Digital Copies</head>
-            <p>This letter was digitized as part of the New England's Hidden Histories project.
-              Digital reproductions are <ref actuate="onrequest"
-                href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/HopkinsSamuel/viewer/Letter20to20Little2C201766/1"
-                linktitle="available to view online" show="new">available to view online</ref>.</p>
-          </altformavail>
           <scopecontent>
             <head>Scope and Contents</head>
             <p>This letter written by Rev. Samuel Hopkins was addressed to Ebenezer Little in
@@ -239,9 +262,9 @@
         </c>
         <c level="item">
           <did>
-            <unittitle>Hopkins to Little</unittitle>
+            <unittitle>Samuel Hopkins to Ebenezer Little</unittitle>
             <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
-              <datesingle standarddate="1767">1767</datesingle>
+              <datesingle standarddate="1767-01-09">1767 January 9</datesingle>
             </unitdatestructured>
             <container
               altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
@@ -249,26 +272,32 @@
             <container localtype="folder">20</container>
             <container localtype="Item">2</container>
           </did>
-          <altformavail>
-            <head>Digital Copies</head>
-            <p>This letter was digitized as part of the New England's Hidden Histories project.
-              Digital reproductions are <ref actuate="onrequest"
-                href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/HopkinsSamuel/viewer/Letter20to20Little2C201767/1"
-                linktitle="available to view online" show="new">available to view online</ref>.</p>
-          </altformavail>
           <scopecontent>
             <head>Scope and Contents</head>
             <p>This letter written by Rev. Samuel Hopkins was addressed to Ebenezer Little in
               Newbury, Massachusetts. Hopkins thanks Little again for his hospitality after another
               visit to Newbury. Rev. Hopkins mentioned Ebenezer Little, his wife, their daughter,
-              and Mr. Parsons, a mutual acquaintance, within the letter.</p>
+              and Rev. Jonathan Parsons, a mutual acquaintance, within the letter.</p>
           </scopecontent>
         </c>
         <c level="item">
           <did>
-            <unittitle>Hopkins to Fuller</unittitle>
+            <unittitle>Samuel Hopkins to Stephen West</unittitle>
             <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
-              <datesingle standarddate="1803">1803</datesingle>
+              <datesingle standarddate="1803-07-28">1803 July 28</datesingle>
+            </unitdatestructured>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+              label="Mixed Materials" localtype="box">NEHH-Small 1</container>
+            <container localtype="folder">20</container>
+            <container localtype="Item">4</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Samuel Hopkins to Andrew Fuller</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1803-10-18">1803 October 18</datesingle>
             </unitdatestructured>
             <container
               altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
@@ -276,19 +305,12 @@
             <container localtype="folder">20</container>
             <container localtype="Item">3</container>
           </did>
-          <altformavail>
-            <head>Digital Copies</head>
-            <p>This letter was digitized as part of the New England's Hidden Histories project.
-              Digital reproductions are <ref actuate="onrequest"
-                href="http://nehh-viewer.s3-website-us-east-1.amazonaws.com/#/content/HopkinsSamuel/viewer/Letter20to20Fuller2C201803/1"
-                linktitle="available to view online" show="new">available to view online</ref>.</p>
-          </altformavail>
           <scopecontent>
             <head>Scope and Contents</head>
             <p>This letter, likely dictated by Rev Samuel Hopkins to a scribe, was likely addressed
-              to the British Andrew Fuller (1754-1815). The letter opens with a statement about
+              to Andrew Fuller (1754-1815) of Britain. The letter opens with a statement about
               Hopkins declining health. The majority of the letter is a theological argument on how
-              determine what a true Christian is, how to think about faith, and how an individual
+              to determine what a true Christian is, how to think about faith, and how an individual
               may go to heaven. The letter includes notes and edits and is unsigned indicating this
               was likely a draft letter.</p>
           </scopecontent>
