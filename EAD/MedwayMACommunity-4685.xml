@@ -78,7 +78,7 @@
         <quantity>0.63</quantity>
         <unittype>Cubic Feet</unittype>
       </physdescstructured>
-      <physdesc localtype="container_summary">(2 boxes)</physdesc>
+      <physdesc localtype="container_summary">(2 boxes, 2 folder)</physdesc>
       <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
         <daterange>
           <fromdate standarddate="1750">1750</fromdate>
@@ -128,8 +128,8 @@
     </userestrict>
     <prefercite>
       <head>Preferred Citation</head>
-      <p>[Identification of item], in the West Medway, Mass. West Medway Community Church records,
-        1750-1901, RG4685. The Congregational Library &amp; Archives, Boston, MA.</p>
+      <p>[Identification of item], in the Medway, Mass. The Community Church records, 1750-1978,
+        RG4685. The Congregational Library &amp; Archives, Boston, MA.</p>
     </prefercite>
     <acqinfo>
       <head>Acquisition Information</head>
