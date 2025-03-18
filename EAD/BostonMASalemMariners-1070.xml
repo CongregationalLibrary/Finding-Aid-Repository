@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/BostonMASalemMariners-1070.xml"
+      >BostonMASalemMariners-1070</recordid>
+    <representation localtype="pdf" href="https://www.congregationallibrary.org/sites/default/files/FindingAids/BostonMASalemMariners-1070.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Boston, Mass. Salem and Mariners' Church records, 1827-1879.</titleproper>
+        <author>Liv Murphy</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2025/02/25</date>
+        <num>RG1070</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2025-03-18T15:26:52+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Tuesday March 18,
+          2025 at 15:26</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Boston, Mass. Salem and Mariners' Church records, 1827-1879.</unittitle>
+      <unitid>RG1070</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>1.09</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(1 box)</physdesc>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1827">1827</fromdate>
+          <todate standarddate="1879">1879</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1827-1879</unitdate>
+      <abstract>When the Salem Street Church formed from the Hanover Church in 1822, there were 98
+        members. The building was dedicated in 1827, and then George Blagden became the first
+        minister of the Salem Street Church around 1830. During his term as minister, 275 people
+        joined the congregation; during Joseph Towne's term as minister, 153 people joined as well.
+        While Edward Beecher was minister, the Salem Street Church underwent numerous renovations,
+        and after he left the church, there were discussions of selling the church. Mariners' Church
+        was formed in 1823, and also struggled with retaining a permanent minister. The two churches
+        merged in 1871, and became the Salem and Mariners' Church. The church occupied the Methodist
+        House on Hanover Street until it dissolved in 1879. Within this collection there is member
+        information, correspondence between clergy members, notes on voting sessions, meeting
+        minutes, and treasury reports.</abstract>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">
+          <part>Salem and Mariners' Church (Boston, Mass.)</part>
+        </corpname>
+      </origination>
+      <origination label="Creator">
+        <corpname identifier="n92082840" source="lcnaf">
+          <part>Mariners' Church (Boston, Mass.)</part>
+        </corpname>
+      </origination>
+      <origination label="Creator">
+        <corpname identifier="n97059101" source="lcnaf">
+          <part>Salem Street Church (Boston, Mass.)</part>
+        </corpname>
+      </origination>
+      <origination label="Creator">
+        <persname identifier="n97073289" source="lcnaf">
+          <part>Tenney, Samuel, 1777-1854</part>
+        </persname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head> Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>Identification of item], in the Boston, Mass. Salem and Mariners' Church records,
+        1827-1879., RG 1070. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>No acquisition information is available for this collection.</p>
+    </acqinfo>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Processed by Liv Murphy on February 25, 2025.</p>
+    </processinfo>
+    <bioghist>
+      <head>Biographical / Historical</head>
+      <p>The Hanover church was organized in 1822, and out of that grew the Salem Street church.
+        Salem church had 32 male and 66 female members, of these 77 came from the Hanover Church.
+        The building was dedicated in 1827, measured 74 by 71 feet, with 134 pews on the lower floor
+        and 32 in the gallery. They were at a disadvantage to other churches in the Boston area
+        because they did not have a permanent clergyman to lead them, until George Blagden finally
+        accepted their offer, possibly in 1830.</p>
+      <p>During Reverend Blagden's almost six-year term at the Salem Street Church, the congregation
+        grew by 275 people. His wife started the juvenile society and maternal meetings at the
+        church. After his term in 1837, a new pastor was elected, Joseph H. Towne. In 1842 alone,
+        153 people were welcomed into the church under Towne's pastorship. Edward Beecher was then
+        installed as pastor in 1844.</p>
+      <p>During Edward Beecher's pastorship, the church building underwent a series of renovations
+        from 1844-1852, and cost $13,500. There was no pastor for a while after his resignation, but
+        then George W. Field took the pulpit from 1856-1862. After the renovations were completed,
+        there were discussions about selling the church in 1866, because there was no permanent
+        minister to lead the services.</p>
+      <p>Mariners' Church was formed in 1823, and they too had trouble keeping a permanent pastor.
+        It was renamed to the Green Street Church in 1826, and then renamed again back to the
+        Mariners Church in 1830. There were 4 ministers that represented the Mariners' Church;
+        William Jenks, Stephen Bailey, Jonathan Greenleaf, and D. M. Lord.</p>
+      <p>The Salem Street Church finally merged with the Mariners' Church in January of 1871, and
+        together formed the Salem and Mariners' Church. They sold the building to The First
+        Methodist Episcopal Church for the cost of the renovations, which totaled $13,500.</p>
+      <p>After the merger, the Salem and Mariners' Church occupied the Methodist House on Hanover
+        Street. The church dissolved in 1879.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>Within this collection, there are multiple different volumes of information on church
+        members, as well as historical context for the church building. There are many meeting
+        minutes, treasury reports, and voting sessions present in this collection. Correspondence
+        between clergymen and church members is also abundant, as well as information about church
+        services. Ecclesiastical council meetings between different churches in the Boston area that
+        include the Salem Street and Mariners' Church(es) are also present in this collection.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>This collection has been arranged into 3 series, one containing Salem Street Church
+        records, one containing Mariners' Church records, and one containing Salem and Mariners'
+        Church records. Each of these series are arranged chronologically by start date.</p>
+      <p><emph render="bold">Series 1:</emph> Salem Street Church records, 1827-1868</p>
+      <p><emph render="bold">Series 2:</emph> Mariners' Church Records, 1837-1867</p>
+      <p><emph render="bold">Series 3:</emph> Salem and Mariners' Church records, 1868-1879</p>
+    </arrangement>
+    <bibliography>
+      <head>Bibliography</head>
+      <p>Hayes, Stephen H. Memorial Volume of Salem Church. Boston, Massachusetts: Committee,
+        1874.</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh85025591" source="lcsh">
+        <part>Church correspondence.</part>
+      </subject>
+      <subject identifier="sh85025606" source="lcsh">
+        <part>Church finance.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85026972" source="lcsh">
+        <part>Clergy conferences.</part>
+      </subject>
+      <subject identifier="sh85033612" source="lcsh">
+        <part>Covenants (Church polity).</part>
+      </subject>
+      <subject identifier="sh85100506" source="lcsh">
+        <part>Pews and pew rights.</part>
+      </subject>
+      <persname identifier="n50008136" source="lcnaf">
+        <part>Beecher, Edward, 1803-1895</part>
+      </persname>
+      <persname identifier="nr90027976" source="lcnaf">
+        <part>Blagden, George W. (George Washington), 1802-1884</part>
+      </persname>
+      <corpname identifier="n79045553" source="lcnaf">
+        <part>Boston (Mass.) -- Church history.</part>
+      </corpname>
+      <corpname identifier="n92082840" source="lcnaf">
+        <part>Mariners' Church (Boston, Mass.)</part>
+      </corpname>
+      <corpname identifier="n97059101" source="lcnaf">
+        <part>Salem Street Church (Boston, Mass.)</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>Salem and Mariners' Church (Boston, Mass.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="series">
+        <did>
+          <unittitle>Salem Street Church records</unittitle>
+          <physdescstructured coverage="part" physdescstructuredtype="materialtype">
+            <quantity>8</quantity>
+            <unittype>Volumes</unittype>
+          </physdescstructured>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>6</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1827">1827</fromdate>
+              <todate standarddate="1868">1868</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1827-1868</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains lists of active and inactive church members, policies of church
+            membership, form of admission for members, voting sessions, and budgetary reports. The
+            series also contains historical context for the church, plans for the church building,
+            clerk notes, and meeting minutes. The series also contains correspondence between clergy
+            members and members, sermons and reports delivered by reverends, and financial treasury
+            information.</p>
+        </scopecontent>
+        <c level="item">
+          <did>
+            <unittitle>Articles of faith, covenant, and membership</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1827">1827</fromdate>
+                <todate standarddate="1864">1864</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1827-1864</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">1</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>A History by Tenney</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1827">1827</fromdate>
+                <todate standarddate="1855">1855</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1827-1846,
+              1855</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">2</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>List of members</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1827">1827</fromdate>
+                <todate standarddate="1853">1853</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1827-1853</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">3</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Records</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1827">1827</fromdate>
+                <todate standarddate="1847">1847</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1827-1847</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">4</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Order of services and dedication</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1828">1828</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">1</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Financial records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1830">1830</fromdate>
+                <todate standarddate="1844">1844</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1830-1844</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">5</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Congregational society records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1833">1833</fromdate>
+                <todate standarddate="1867">1867</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1833-1867</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">6</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Report</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1834">1834</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">2</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Pew records</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1835">1835</fromdate>
+                <todate standarddate="1846">1846</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1835,
+              1846</unitdate>
+            <container label="Mixed Materials" localtype="folder">6</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Examining committee</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1838">1838</fromdate>
+                <todate standarddate="1846">1846</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1838-1846</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">7</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Meeting minutes</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1847">1847</fromdate>
+                <todate standarddate="1867">1867</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1847-1867</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">8</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Treasury reports</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1854">1854</fromdate>
+                <todate standarddate="1864">1864</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1854-1864, undated</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">3</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1855">1855</fromdate>
+                <todate standarddate="1862">1862</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1855-1862, undated</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">4</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1863">1863</fromdate>
+                <todate standarddate="1868">1868</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1863-1868, undated</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">5</container>
+          </did>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unittitle>Mariners' Church records</unittitle>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>1</quantity>
+            <unittype>Volume</unittype>
+          </physdescstructured>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>1</quantity>
+            <unittype>Folder</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1837">1837</fromdate>
+              <todate standarddate="1867">1867</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1837-1867</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>The series contains confessions of faith, a list of members, and meeting minutes. The
+            series also contains a letter from Mary Jane Nelson requesting to be dismissed from the
+            church.</p>
+        </scopecontent>
+        <c level="item">
+          <did>
+            <unittitle>Mariners' Church Records</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1837">1837</fromdate>
+                <todate standarddate="1865">1865</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1837-1865</unitdate>
+            <langmaterial>
+              <languageset>
+                <language langcode="eng">English</language>
+                <script scriptcode="Latn">Latin</script>
+              </languageset>
+            </langmaterial>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">10</container>
+          </did>
+          <separatedmaterial>
+            <head>Separated Materials</head>
+            <p>The item Mary Jane Nelson dismission request, 1867 was removed from this volume. We
+              did this because of preservation concerns and content differences.</p>
+          </separatedmaterial>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Mary Jane Nelson dismission request</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1867">1867</datesingle>
+            </unitdatestructured>
+            <langmaterial>
+              <languageset>
+                <language langcode="eng">English</language>
+                <script scriptcode="Latn">Latin</script>
+              </languageset>
+            </langmaterial>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">6</container>
+          </did>
+          <separatedmaterial>
+            <head>Separated Materials</head>
+            <p>This item was removed from the last page of text of Mariners Church Records,
+              1837-1865. We did this because of preservation concerns and content differences.</p>
+          </separatedmaterial>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unittitle>Salem and Mariners' Church records</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>1</quantity>
+            <unittype>Volume</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1868">1868</fromdate>
+              <todate standarddate="1879">1879</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1868-1879</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>The volume in this series contains a list of active and inactive church members, plans
+            for the churches, clerk notes on the sabbath and prayer services.</p>
+        </scopecontent>
+        <c level="item">
+          <did>
+            <unittitle>Records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1868">1868</fromdate>
+                <todate standarddate="1879">1879</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1868-1879</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">9</container>
+          </did>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
