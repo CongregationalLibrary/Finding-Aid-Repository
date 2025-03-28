@@ -1,0 +1,2414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/MWHMU-0122.xml"
+      >MWHMU-0122</recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/default/files/FindingAids/MWHMU-0122.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Massachusetts Woman's Home Missionary Union records, 1880-1990.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2025-03-28</date>
+        <num>RG0122</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2025-03-28T17:29:09+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Friday March 28, 2025
+          at 17:29</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Massachusetts Woman's Home Missionary Union records, 1880-1990.</unittitle>
+      <unitid>RG0122</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>5.25</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(6 boxes)</physdesc>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1880">1880</fromdate>
+          <todate standarddate="1990">1990</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1880-1990</unitdate>
+      <abstract>The first meeting of the Woman's Home Missionary Association was held on November 4,
+        1879 and the organization was formally chartered on September 28, 1881. The association was
+        founded to support the needs of women and children and was supported by both individual
+        membership and auxiliary groups. The association supported mission-based work in
+        Massachusetts and beyond, especially in the post-war South. After the Massachusetts
+        Congregational Conference merged men's and women's missionary work into the singular
+        Massachusetts Missionary Society in the 1920s, the association was reformed as the
+        Massachusetts Woman's Home Missionary Union in 1924. The union continues to operate today.
+        This collection contains the administrative and financial records of the Massachusetts
+        Woman's Home Missionary Union and includes meeting minutes and reports, correspondence,
+        ledgers, histories, newspaper clippings, and photographs.</abstract>
+      <origination label="Creator">
+        <corpname identifier="n98091933" source="lcnaf">
+          <part>Massachusetts Woman's Home Missionary Union</part>
+        </corpname>
+      </origination>
+      <origination label="Creator">
+        <corpname identifier="n99030921" source="lcnaf">
+          <part>Woman's Home Missionary Association (Mass.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Massachusetts Woman's Home Missionary Union records,
+        1880-1990, RG0122. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Immediate Source of Acquisition</head>
+      <p>Materials donated to the Congregational Library &amp; Archives by the Massachusetts Woman's
+        Home Missionary Union in May 1982; no accession number. Additional materials were donated by
+        the Massachusetts Woman's Home Missionary Union in September 1995; 1995-03.</p>
+    </acqinfo>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Materials in this collection were initially processed in 1996. The collection was
+        reprocessed by Zachary Bodnar, March 2025, adhering to the rules of Describing Archives: A
+        Content Standard.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>The first meeting of the group that would one day become the Massachusetts Woman's Home
+        Missionary Union was held in the vestry of the Park Street Church in Boston on November 4,
+        1879. The following year, a constitution for the organization of women was adopted and the
+        Woman's Home Missionary Association was formally chartered on September 28, 1881. The
+        association was founded to "promote the spiritual and temporal welfare of those in need,
+        especially women and children…" and the purpose of the association was "to engage all
+        churchwomen in home mission work and to collect money towards that end." The group was
+        supported both by direct membership and by auxiliary organizations, such as the Suffolk
+        Alliance of the Woman's Home Missionary Association, throughout the whole of
+        Massachusetts.</p>
+      <p>The Woman's Home Missionary Association was successful at raising funds, with annual gifts
+        increasing from $2,500 in the first year to $29,000 in the tenth. The funds were used to
+        support many initiatives and missionaries throughout the years. For example, the association
+        supported Almira Steele's work in the post-war South as the associations first missionary,
+        Lilla Davis and the Cotton Valley School for African-American women in Alabama, the Santee
+        Indian School in Nebraska, the Tuskegee Normal School in Alabama, the Bethlehem Readers Home
+        in Ohio, which later became Schauffler College and eventually Oberlin College, and the
+        French Protestant College in Massachusetts.</p>
+      <p>The Woman's Home Missionary Association worked closely with the Massachusetts
+        Congregational Conference during the association's early years. Then, in the early 1920s,
+        the Massachusetts Congregational Conference merged the previously separate men's and women's
+        missionary groups into the singular Massachusetts Missionary Society. Due to this merger, a
+        Massachusetts court ordered that the bequests and money held specifically for women and
+        children must be kept separate and administered separately from the Massachusetts Missionary
+        Society. To adhere to this order, the Woman's Home Missionary Association was reorganized as
+        the Massachusetts Woman's Home Missionary Union in 1924. By around 1927, many of the
+        auxiliary groups previously associated with the union were moved under the umbrella of the
+        Massachusetts Missionary Society.</p>
+      <p>The Massachusetts Woman's Home Missionary Union continues to operate today. The union is
+        affiliated with the Southern New England Conferences of the United Church of Christ and
+        annually disburses invested income as grants from an endowment of over $1 million.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains the administrative and financial records of the Massachusetts
+        Woman's Home Missionary Union. The collection contains board reports and minutes, annual
+        reports, by-laws and related founding documents, correspondence, grant records and
+        correspondence, financial ledgers for internal finances, investments, and named funds,
+        histories and biographies, newspaper clippings, addresses and speeches, and photographs.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>This collection has been arranged into the five series listed below. Series 2 and series 4
+        have been further divided into three and six subseries respectively. Series and subseries
+        have been arranged chronologically. Materials within each series and subseries have been
+        arranged in chronological order, generally, and by topic, when warranted.</p>
+      <p><emph render="bold">Series 1:</emph> Administrative records, 1880-1988</p>
+      <p><emph render="bold">Series 2:</emph> Financial records, 1881-1990</p>
+      <p><emph render="italic">Subseries 1:</emph> General financial records, 1881-1990</p>
+      <p><emph render="italic">Subseries 2:</emph> Bequest, trust, and gift records, 1892-1967</p>
+      <p><emph render="italic">Subseries 3:</emph> Investment records, 1913-1986</p>
+      <p><emph render="bold">Series 3:</emph> Histories and supplementary records, 1892-1982</p>
+      <p><emph render="bold">Series 4:</emph> Grant and named fund records, 1896-1990</p>
+      <p><emph render="italic">Subseries 1:</emph> Mary W. Hyde and Lucy H. Banister funds records,
+        1896-1903</p>
+      <p><emph render="italic">Subseries 2:</emph> Grant records, 1898-1990</p>
+      <p><emph render="italic">Subseries 3:</emph> General named funds records, 1903-1938</p>
+      <p><emph render="italic">Subseries 4:</emph> Travis scholarship fund records, 1908-1982</p>
+      <p><emph render="italic">Subseries 5:</emph> Joseph Hardy and Rosina Towne fund records,
+        1912-1933</p>
+      <p><emph render="italic">Subseries 6:</emph> Golden anniversary fund records, 1925-1930</p>
+      <p><emph render="bold">Series 5:</emph> Board of directors records, 1918-1990</p>
+    </arrangement>
+    <relatedmaterial>
+      <head>Related Materials</head>
+      <p>Materials related to the Suffolk District, the successor organization of the Suffolk
+        Alliance, and other similarly related materials, may be found within the Massachusetts
+        Conference records, 1799-2012, RG5335, held by the Congregational Library &amp;
+        Archives.</p>
+    </relatedmaterial>
+    <bibliography>
+      <head>Bibliography</head>
+      <p>"History." Massachusetts Woman's Home Missionary Union. Accessed March 28, 2025. <ref
+          href="https://www.mwhmu.org/history">https://www.mwhmu.org/history</ref>.</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh85022652" source="lcsh">
+        <part>Charitable bequests.</part>
+      </subject>
+      <subject identifier="sh85025584" source="lcsh">
+        <part>Church charities.</part>
+      </subject>
+      <subject identifier="sh85043107" source="lcsh">
+        <part>Endowments.</part>
+      </subject>
+      <subject identifier="sh85086075" source="lcsh">
+        <part>Home missions.</part>
+      </subject>
+      <subject identifier="sh85147560" source="lcsh">
+        <part>Women in charitable work.</part>
+      </subject>
+      <subject identifier="sh85147592" source="lcsh">
+        <part>Women in missionary work.</part>
+      </subject>
+      <persname identifier="n79021791" source="lcnaf">
+        <part>Carter, Jimmy, 1924-2024</part>
+      </persname>
+      <corpname rules="AACR2" source="local">
+        <part>Franklinton Center.</part>
+      </corpname>
+      <corpname identifier="n98091933" source="lcnaf">
+        <part>Massachusetts Woman's Home Missionary Union</part>
+      </corpname>
+      <corpname identifier="n83229681" source="lcnaf">
+        <part>Northland College (Ashland, Wis.)</part>
+      </corpname>
+      <corpname identifier="n93007692" source="lcnaf">
+        <part>Schauffler Missionary Training School (Cleveland, Ohio)</part>
+      </corpname>
+      <corpname identifier="n84053026" source="lcnaf">
+        <part>Talladega College</part>
+      </corpname>
+      <corpname identifier="n99030921" source="lcnaf">
+        <part>Woman's Home Missionary Association (Mass.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="series">
+        <did>
+          <unittitle>Administrative records</unittitle>
+          <physdescstructured coverage="part" physdescstructuredtype="materialtype">
+            <quantity>8</quantity>
+            <unittype>Volumes</unittype>
+          </physdescstructured>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>18</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1880">1880</fromdate>
+              <todate standarddate="1988">1988</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1880-1988</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains records related to the active day-to-day administration of the
+            Massachusetts Woman's Home Missionary Union. The series includes annual reports,
+            correspondence, by-laws and other founding documents, documents related to the 1924 name
+            change, secretary records, and insurance documents.</p>
+        </scopecontent>
+        <c level="file">
+          <did>
+            <unittitle>First annual meeting minutes</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1880">1880</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">16</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Charters, constitutions, and by-laws</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1880">1880</fromdate>
+                <todate standarddate="1957">1957</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1880-1957</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">17</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Correspondence</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1880">1880</fromdate>
+                <todate standarddate="1983">1983</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1880-1933, 1982-1983</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">18</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Annual reports</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1880">1880</fromdate>
+                <todate standarddate="1889">1889</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1880-1889</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">1</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Annual reports</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1890">1890</fromdate>
+                <todate standarddate="1899">1899</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1890-1899</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">2</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Annual reports</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1900">1900</fromdate>
+                <todate standarddate="1909">1909</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1900-1909</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">3</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Annual reports</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1910">1910</fromdate>
+                <todate standarddate="1920">1920</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1910-1920</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">4</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Annual reports</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1921">1921</fromdate>
+                <todate standarddate="1927">1927</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1921-1927</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">5</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Secretary book</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1879">1879</fromdate>
+                <todate standarddate="1881">1881</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1879-1881</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">6</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Secretary book</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1881">1881</fromdate>
+                <todate standarddate="1908">1908</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1881-1908</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">7</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Annual reports</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1950">1950</fromdate>
+                <todate standarddate="1955">1955</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1950-1955</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">1</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Annual reports</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1956">1956</fromdate>
+                <todate standarddate="1960">1960</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1956-1960</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">2</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Annual reports</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1961">1961</fromdate>
+                <todate standarddate="1965">1965</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1961-1965</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">3</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Annual reports</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1966">1966</fromdate>
+                <todate standarddate="1970">1970</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1966-1970</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">4</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Annual reports</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1971">1971</fromdate>
+                <todate standarddate="1975">1975</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1971-1975</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">5</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Annual reports</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1976">1976</fromdate>
+                <todate standarddate="1980">1980</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1976-1980</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">6</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Annual reports</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1981">1981</fromdate>
+                <todate standarddate="1988">1988</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1981-1988</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">7</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Agreement of association</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1881">1881</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">5</container>
+            <container localtype="folder">1</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Suffolk Alliance of the Women's Home Missionary Association
+              records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1920">1920</fromdate>
+                <todate standarddate="1927">1927</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1920-1927</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="volume">1</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Rhode Island neighborhood of auxiliaries sepparation</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1923">1923</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">23</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Plan of work</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1924">1924</fromdate>
+                <todate standarddate="1925">1925</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1924-1925</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">24</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Name change documentation</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1924">1924</fromdate>
+                <todate standarddate="1925">1925</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1924-1925</unitdate>
+            <container label="Mixed Materials" localtype="box">5</container>
+            <container localtype="folder">5</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Annual report</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1927">1927</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">25</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Suffolk Alliance yearbook</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1927">1927</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">4</container>
+            <container localtype="folder">40</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Insurance documents</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1960">1960</fromdate>
+                <todate standarddate="1987">1987</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1960-1987</unitdate>
+            <container label="Mixed Materials" localtype="box">5</container>
+            <container localtype="folder">6</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Charter revival correspondence</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1981">1981</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">34</container>
+          </did>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unittitle>Financial records</unittitle>
+          <physdescstructured coverage="part" physdescstructuredtype="materialtype">
+            <quantity>11</quantity>
+            <unittype>Volumes</unittype>
+          </physdescstructured>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>36</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1881">1881</fromdate>
+              <todate standarddate="1990">1990</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1881-1990</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains records related to the internal finances of the Massachusetts
+            Woman's Home Missionary Union. The series includes ledgers, correspondence, newspaper
+            clippings, reports, committee minutes, and budgets.</p>
+        </scopecontent>
+        <c level="subseries">
+          <did>
+            <unittitle>General financial records</unittitle>
+            <physdescstructured coverage="part" physdescstructuredtype="materialtype">
+              <quantity>8</quantity>
+              <unittype>Volumes</unittype>
+            </physdescstructured>
+            <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+              <quantity>16</quantity>
+              <unittype>Folders</unittype>
+            </physdescstructured>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1881">1881</fromdate>
+                <todate standarddate="1990">1990</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1881-1990</unitdate>
+          </did>
+          <scopecontent>
+            <head>Scope and Contents</head>
+            <p>This subseries contains records generally related to the finances of the
+              Massachusetts Woman's Home Missionary Union. This subseries includes ledgers,
+              financial reports, budgets, auditors reports, and records of the finance
+              committee.</p>
+          </scopecontent>
+          <c level="file">
+            <did>
+              <unittitle>Financial correspondence</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1881">1881</fromdate>
+                  <todate standarddate="1938">1938</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1881-1938</unitdate>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">39</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Finance committee records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1897">1897</fromdate>
+                  <todate standarddate="1916">1916</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1897-1916</unitdate>
+              <container label="Mixed Materials" localtype="box">4</container>
+              <container localtype="volume">3</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Finance committee minutes</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1897">1897</fromdate>
+                  <todate standarddate="1928">1928</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1897-1928</unitdate>
+              <container label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">24</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Ledger</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1918">1918</fromdate>
+                  <todate standarddate="1962">1962</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1918-1962</unitdate>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">43</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Financial reports and budgets</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1926">1926</fromdate>
+                  <todate standarddate="1959">1959</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1926-1959</unitdate>
+              <container label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">18</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Financial reports and budgets</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1960">1960</fromdate>
+                  <todate standarddate="1974">1974</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1960-1974</unitdate>
+              <container label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">19</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Financial reports and budgets</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1975">1975</fromdate>
+                  <todate standarddate="1990">1990</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1975-1990</unitdate>
+              <container label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">20</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Financial journal</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1938">1938</fromdate>
+                  <todate standarddate="1965">1965</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1938-1965</unitdate>
+              <container label="Mixed Materials" localtype="box">1</container>
+              <container localtype="volume">12</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Cash book</unittitle>
+              <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1946">1946</fromdate>
+                  <todate standarddate="1963">1963</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+                >1946-1963</unitdate>
+              <container label="Mixed Materials" localtype="box">6</container>
+              <container localtype="volume">1</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Cash book</unittitle>
+              <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1964">1964</fromdate>
+                  <todate standarddate="1977">1977</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+                >1964-1977</unitdate>
+              <container label="Mixed Materials" localtype="box">6</container>
+              <container localtype="volume">2</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Franklinton center correspondence</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1951">1951</fromdate>
+                  <todate standarddate="1986">1986</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1951-1986</unitdate>
+              <container label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">32</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Auditor's reports</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1953">1953</fromdate>
+                  <todate standarddate="1967">1967</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1953-1967</unitdate>
+              <container label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">21</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Financial correspondence</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1960">1960</fromdate>
+                  <todate standarddate="1972">1972</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1960-1972</unitdate>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">40</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Financial correspondence</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1973">1973</fromdate>
+                  <todate standarddate="1980">1980</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1973-1980</unitdate>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">41</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Financial correspondence</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1981">1981</fromdate>
+                  <todate standarddate="1987">1987</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1981-1987</unitdate>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">42</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Miscellaneous financial records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1965">1965</fromdate>
+                  <todate standarddate="1988">1988</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1965-1988</unitdate>
+              <container label="Mixed Materials" localtype="box">5</container>
+              <container localtype="folder">7</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Ledger</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1966">1966</fromdate>
+                  <todate standarddate="1985">1985</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1966-1985</unitdate>
+              <container label="Mixed Materials" localtype="box">1</container>
+              <container localtype="volume">14</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Auditor's reports</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1968">1968</fromdate>
+                  <todate standarddate="1986">1986</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1968-1986</unitdate>
+              <container label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">22</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Income register</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1970">1970</fromdate>
+                  <todate standarddate="1977">1977</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1970-1977</unitdate>
+              <container label="Mixed Materials" localtype="box">4</container>
+              <container localtype="volume">5</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Ledger</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1974">1974</fromdate>
+                  <todate standarddate="1985">1985</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1974-1985</unitdate>
+              <container label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">16</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Cash receipts </unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1978">1978</fromdate>
+                  <todate standarddate="1981">1981</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1978-1981</unitdate>
+              <container label="Mixed Materials" localtype="box">4</container>
+              <container localtype="volume">6</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Income register</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1978">1978</fromdate>
+                  <todate standarddate="1982">1982</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1978-1982</unitdate>
+              <container label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">20</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Cash disbursements</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1982">1982</fromdate>
+                  <todate standarddate="1988">1988</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1982-1988</unitdate>
+              <container label="Mixed Materials" localtype="box">1</container>
+              <container localtype="volume">15</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Income register</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1983">1983</fromdate>
+                  <todate standarddate="1985">1985</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1983-1985</unitdate>
+              <container label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">19</container>
+            </did>
+          </c>
+        </c>
+        <c level="subseries">
+          <did>
+            <unittitle>Bequest, trust, and gift records</unittitle>
+            <physdescstructured coverage="part" physdescstructuredtype="materialtype">
+              <quantity>2</quantity>
+              <unittype>Volumes</unittype>
+            </physdescstructured>
+            <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+              <quantity>12</quantity>
+              <unittype>Folders</unittype>
+            </physdescstructured>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1892">1892</fromdate>
+                <todate standarddate="1967">1967</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1892-1967</unitdate>
+          </did>
+          <scopecontent>
+            <head>Scope and Contents</head>
+            <p>This subseries contains records related to gifts and legacy giving to the
+              Massachusetts Woman's Home Missionary Union. The subseries contains correspondence,
+              newspaper clippings, wills and similar legal documents, ledgers, and a history of
+              legacies.</p>
+          </scopecontent>
+          <c level="file">
+            <did>
+              <unittitle>Bequest envelopes</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1892">1892</fromdate>
+                  <todate standarddate="1938">1938</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1892-1938</unitdate>
+              <container label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">9</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Gifts ledger</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1898">1898</fromdate>
+                  <todate standarddate="1899">1899</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1898-1899</unitdate>
+              <container label="Mixed Materials" localtype="box">1</container>
+              <container localtype="volume">8</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Bequests and legacies correspondence</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1900">1900</fromdate>
+                  <todate standarddate="1919">1919</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1900-1919</unitdate>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">36</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Bequests and legacies correspondence</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1924">1924</fromdate>
+                  <todate standarddate="1935">1935</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1924-1935</unitdate>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">37</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Bequests and legacies correspondence</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1936">1936</fromdate>
+                  <todate standarddate="1967">1967</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1936-1967</unitdate>
+              <container label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">38</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Bequest documents (S-Z)</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1909">1909</fromdate>
+                  <todate standarddate="1951">1951</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1909-1951</unitdate>
+              <container label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">12</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Bequest documents (P-R)</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1920">1920</fromdate>
+                  <todate standarddate="1927">1927</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1920-1927</unitdate>
+              <container label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">11</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Bequest documents (A-N)</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1917">1917</fromdate>
+                  <todate standarddate="1964">1964</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1917-1964</unitdate>
+              <container label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">10</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Probate court clippings</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1911">1911</fromdate>
+                  <todate standarddate="1942">1942</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1911-1942</unitdate>
+              <container label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">25</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Conditional gifts</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <datesingle standarddate="1915">1915</datesingle>
+              </unitdatestructured>
+              <container label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">27</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Conditional gifts ledger</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <datesingle standarddate="1915">1915</datesingle>
+              </unitdatestructured>
+              <container label="Mixed Materials" localtype="box">1</container>
+              <container localtype="volume">11</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Sara P. Chamberlain trust</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <datesingle standarddate="1917">1917</datesingle>
+              </unitdatestructured>
+              <container label="Mixed Materials" localtype="box">5</container>
+              <container localtype="folder">4</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Bequest investment income receipts</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1928">1928</fromdate>
+                  <todate standarddate="1931">1931</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1928-1931</unitdate>
+              <container label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">13</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Legacies history report</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <datesingle standarddate="1933">1933</datesingle>
+              </unitdatestructured>
+              <container label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">30</container>
+            </did>
+          </c>
+        </c>
+        <c level="subseries">
+          <did>
+            <unittitle>Investment records</unittitle>
+            <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+              <quantity>1</quantity>
+              <unittype>Volume</unittype>
+            </physdescstructured>
+            <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+              <quantity>8</quantity>
+              <unittype>Folders</unittype>
+            </physdescstructured>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1913">1913</fromdate>
+                <todate standarddate="1986">1986</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1913-1986</unitdate>
+          </did>
+          <scopecontent>
+            <head>Scope and Contents</head>
+            <p>This subseries contains records related to investments held by the Massachusetts
+              Woman's Home Missionary Union. The records include ledgers, newspaper clippings,
+              reports on investments, lists of securities held, and documents related to stock
+              transactions.</p>
+          </scopecontent>
+          <c level="file">
+            <did>
+              <unittitle>Stock transactions</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1913">1913</fromdate>
+                  <todate standarddate="1932">1932</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1913-1932</unitdate>
+              <container label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">26</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Chicago, Milwaukee and St. Paul Railway Company clippings</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1925">1925</fromdate>
+                  <todate standarddate="1932">1932</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1925-1932</unitdate>
+              <container label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">29</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Investments ledger</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1936">1936</fromdate>
+                  <todate standarddate="1984">1984</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1936-1984</unitdate>
+              <container label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">23</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Securities ledger</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1957">1957</fromdate>
+                  <todate standarddate="1969">1969</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1957-1969</unitdate>
+              <container label="Mixed Materials" localtype="box">1</container>
+              <container localtype="volume">13</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Investments ledger</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1958">1958</fromdate>
+                  <todate standarddate="1986">1986</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1958-1986</unitdate>
+              <container label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">17</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Lists of securities</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1968">1968</fromdate>
+                  <todate standarddate="1977">1977</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1968-1977</unitdate>
+              <container label="Mixed Materials" localtype="box">5</container>
+              <container localtype="folder">8</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Investments</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1972">1972</fromdate>
+                  <todate standarddate="1985">1985</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1972-1985</unitdate>
+              <container label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">33</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Lists of securities</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1978">1978</fromdate>
+                  <todate standarddate="1984">1984</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1978-1984</unitdate>
+              <container label="Mixed Materials" localtype="box">5</container>
+              <container localtype="folder">9</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Investments ledger</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1980">1980</fromdate>
+                  <todate standarddate="1986">1986</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1980-1986</unitdate>
+              <container label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">18</container>
+            </did>
+          </c>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unittitle>Histories and supplementary records</unittitle>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>11</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>1</quantity>
+            <unittype>Object</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1892">1892</fromdate>
+              <todate standarddate="1982">1982</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1892-1982</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains histories, biographies, and other documents which document the
+            history of the Massachusetts Woman's Home Missionary Union. The series also includes
+            newspaper clippings, anniversary programs, memorials, speaker lists, speeches and
+            addresses, and a congratulatory letter from Jimmy Carter.</p>
+        </scopecontent>
+        <c level="file">
+          <did>
+            <unittitle>Clippings and newspapers</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1892">1892</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">5</container>
+            <container localtype="folder">2</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Sermons and addresses</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1892">circa 1892</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">19</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Copyright form</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1900">1900</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">21</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Anniversaries</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1904">1904</fromdate>
+                <todate standarddate="1930">1930</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1904-1930</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">22</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Almira S. Steele biography</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1920">1920</fromdate>
+                <todate standarddate="1921">1921</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1920-1921</unitdate>
+            <container label="Mixed Materials" localtype="box">4</container>
+            <container localtype="folder">35</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Other women's home mission histories</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1928">1928, undated</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">4</container>
+            <container localtype="folder">36</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Memorials</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1929">1929</fromdate>
+                <todate standarddate="1964">1964</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1929-1964</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">27</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Speakers list</unittitle>
+            <unitdatestructured datechar="record_keeping" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1941">1941</fromdate>
+                <todate standarddate="1975">1975</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="record_keeping" unitdatetype="inclusive">1941-1975</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">29</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>A Brief History of the Massachusetts Woman's Home Missionary
+              Union</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1979">1979</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">32</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Jimmy Carter congratulatory letter</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1979">1979</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">33</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Kip Tiernan speech</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1982">1982</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">20</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Embosser</unittitle>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >undated</unitdate>
+            <container label="Mixed Materials" localtype="box">4</container>
+            <container localtype="object">1</container>
+          </did>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unittitle>Grant and named fund records</unittitle>
+          <physdescstructured coverage="part" physdescstructuredtype="materialtype">
+            <quantity>5</quantity>
+            <unittype>Volumes</unittype>
+          </physdescstructured>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>37</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1896">1896</fromdate>
+              <todate standarddate="1990">1990</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1896-1990</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains records related to how the Massachusetts Woman's Home Missionary
+            Union disbursed funds through named funds and scholarships as well as grants. The series
+            includes ledger books, correspondence, and some histories.</p>
+        </scopecontent>
+        <c level="subseries">
+          <did>
+            <unittitle>Mary W. Hyde and Lucy H. Banister funds records</unittitle>
+            <physdescstructured coverage="whole" physdescstructuredtype="materialtype">
+              <quantity>2</quantity>
+              <unittype>Volumes</unittype>
+            </physdescstructured>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1896">1896</fromdate>
+                <todate standarddate="1903">1903</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1896-1903</unitdate>
+          </did>
+          <scopecontent>
+            <head>Scope and Contents</head>
+            <p>This subseries contains ledger books related to the Mary W. Hyde and Lucy H. Banister
+              funds of the Massachusetts Woman's Home Missionary Union.</p>
+          </scopecontent>
+          <c level="item">
+            <did>
+              <unittitle>Mary W. Hyde records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <datesingle standarddate="1896">1896</datesingle>
+              </unitdatestructured>
+              <container label="Mixed Materials" localtype="box">4</container>
+              <container localtype="volume">1</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Mary W. Hyde and Lucy H. Banister funds book</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1897">1897</fromdate>
+                  <todate standarddate="1903">1903</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1897-1903</unitdate>
+              <container label="Mixed Materials" localtype="box">4</container>
+              <container localtype="volume">2</container>
+            </did>
+          </c>
+        </c>
+        <c level="subseries">
+          <did>
+            <unittitle>Grant records</unittitle>
+            <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+              <quantity>22</quantity>
+              <unittype>Folders</unittype>
+            </physdescstructured>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1898">1898</fromdate>
+                <todate standarddate="1990">1990</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1898-1990</unitdate>
+          </did>
+          <scopecontent>
+            <head>Scope and Contents</head>
+            <p>This subseries contains records related to grants offered by the Massachusetts
+              Woman's Home Missionary Union. The subseries largely includes correspondence but also
+              includes photographs and documents describing the amounts awarded to various
+              benevolent organizations.</p>
+          </scopecontent>
+          <c level="file">
+            <did>
+              <unittitle>Pledged work</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1898">1898</fromdate>
+                  <todate standarddate="1920">1920</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1898-1920</unitdate>
+              <container label="Mixed Materials" localtype="box">5</container>
+              <container localtype="folder">3</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Talladega College photographs</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <datesingle standarddate="1970">1970</datesingle>
+              </unitdatestructured>
+              <container label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">37</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Grant correspondence</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1971">1971</fromdate>
+                  <todate standarddate="1972">1972</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1971-1972</unitdate>
+              <container label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">1</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Grant correspondence</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1973">1973</fromdate>
+                  <todate standarddate="1974">1974</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1973-1974</unitdate>
+              <container label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">2</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Grant correspondence</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1975">1975</fromdate>
+                  <todate standarddate="1976">1976</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1975-1976</unitdate>
+              <container label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">3</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Grant schedules</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1975">1975</fromdate>
+                  <todate standarddate="1983">1983</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1975-1983</unitdate>
+              <container label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">34</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Grant correspondence</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <datesingle standarddate="1977">1977</datesingle>
+              </unitdatestructured>
+              <container label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">4</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Grant correspondence</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <datesingle standarddate="1978">1978</datesingle>
+              </unitdatestructured>
+              <container label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">5</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Grant correspondence</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <datesingle standarddate="1979">1979</datesingle>
+              </unitdatestructured>
+              <container label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">6</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Grant correspondence</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <datesingle standarddate="1980">1980</datesingle>
+              </unitdatestructured>
+              <container label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">7</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Grant correspondence</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <datesingle standarddate="1981">1981</datesingle>
+              </unitdatestructured>
+              <container label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">8</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Grant correspondence</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <datesingle standarddate="1982">1982</datesingle>
+              </unitdatestructured>
+              <container label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">9</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Grant correspondence</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <datesingle standarddate="1983">1983</datesingle>
+              </unitdatestructured>
+              <container label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">10</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Grant correspondence</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <datesingle standarddate="1984">1984</datesingle>
+              </unitdatestructured>
+              <container label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">11</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Grant correspondence</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <datesingle standarddate="1985">1985</datesingle>
+              </unitdatestructured>
+              <container label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">12</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Grant correspondence</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <datesingle standarddate="1986">1986</datesingle>
+              </unitdatestructured>
+              <container label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">13</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Grant correspondence</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <datesingle standarddate="1987">1987</datesingle>
+              </unitdatestructured>
+              <container label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">14</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Grant correspondence</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <datesingle standarddate="1988">1988</datesingle>
+              </unitdatestructured>
+              <container label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">15</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Grant correspondence</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <datesingle standarddate="1989">1989</datesingle>
+              </unitdatestructured>
+              <container label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">16</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Massachusetts Indian Association grant recipiant photographs</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <datesingle standarddate="1989">1989</datesingle>
+              </unitdatestructured>
+              <container label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">38</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Grant correspondence</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <datesingle standarddate="1990">1990</datesingle>
+              </unitdatestructured>
+              <container label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">17</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Congregational medical service car photographs</unittitle>
+              <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+              <container label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">39</container>
+            </did>
+          </c>
+        </c>
+        <c level="subseries">
+          <did>
+            <unittitle>General named funds records</unittitle>
+            <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+              <quantity>1</quantity>
+              <unittype>Volume</unittype>
+            </physdescstructured>
+            <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+              <quantity>4</quantity>
+              <unittype>Folders</unittype>
+            </physdescstructured>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1903">1903</fromdate>
+                <todate standarddate="1938">1938</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1903-1938</unitdate>
+          </did>
+          <scopecontent>
+            <head>Scope and Contents</head>
+            <p>This subseries contains ledgers and histories for various and named funds controlled
+              by the Massachusetts Woman's Home Missionary Union.</p>
+          </scopecontent>
+          <c level="item">
+            <did>
+              <unittitle>Funds account book</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1903">1903</fromdate>
+                  <todate standarddate="1916">1916</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1903-1916</unitdate>
+              <container label="Mixed Materials" localtype="box">1</container>
+              <container localtype="volume">9</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Funds ledger book</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1906">1906</fromdate>
+                  <todate standarddate="1934">1934</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1906-1934</unitdate>
+              <container label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">14</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Administration fund books</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1909">1909</fromdate>
+                  <todate standarddate="1938">1938</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1909-1938</unitdate>
+              <container label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">15</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Fund balances</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1921">1921</fromdate>
+                  <todate standarddate="1938">1938</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1921, 1938</unitdate>
+              <container label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">28</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>"Story of the Funds"</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <datesingle standarddate="1937">1937</datesingle>
+              </unitdatestructured>
+              <container label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">31</container>
+            </did>
+          </c>
+        </c>
+        <c level="subseries">
+          <did>
+            <unittitle>Travis scholarship fund records</unittitle>
+            <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+              <quantity>8</quantity>
+              <unittype>Folders</unittype>
+            </physdescstructured>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1908">1908</fromdate>
+                <todate standarddate="1982">1982</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1908-1982</unitdate>
+          </did>
+          <scopecontent>
+            <head>Scope and Contents</head>
+            <p>This subseries contains records related to the Travis scholarship fund of the
+              Massachusetts Woman's Home Missionary Union. The records include correspondence,
+              photographs, ledgers, and histories.</p>
+          </scopecontent>
+          <c level="file">
+            <did>
+              <unittitle>Edith Babcock Travis in memoriam book</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <datesingle standarddate="1908">circa 1908</datesingle>
+              </unitdatestructured>
+              <container label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">2</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Travis income fund</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1918">1918</fromdate>
+                  <todate standarddate="1921">1921</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1918-1921</unitdate>
+              <container label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">1</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Travis scholarship fund</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1920">1920</fromdate>
+                  <todate standarddate="1924">1924</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1920-1924</unitdate>
+              <container label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">3</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Travis memorial fund history</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1923">1923</fromdate>
+                  <todate standarddate="1965">1965</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1923-1965</unitdate>
+              <container label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">4</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Travis scholarship fund correspondence</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1944">1944</fromdate>
+                  <todate standarddate="1957">1957</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1944-1957</unitdate>
+              <container label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">5</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Travis scholarship fund correspondence</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1958">1958</fromdate>
+                  <todate standarddate="1965">1965</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1958-1965</unitdate>
+              <container label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">6</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Travis scholarship fund correspondence</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1966">1966</fromdate>
+                  <todate standarddate="1982">1982</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1966-1982</unitdate>
+              <container label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">7</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Travis scholarship fund photographs</unittitle>
+              <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+              <container label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">8</container>
+            </did>
+          </c>
+        </c>
+        <c level="subseries">
+          <did>
+            <unittitle>Joseph Hardy and Rosina Towne fund records</unittitle>
+            <physdescstructured coverage="whole" physdescstructuredtype="materialtype">
+              <quantity>2</quantity>
+              <unittype>Volumes</unittype>
+            </physdescstructured>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1912">1912</fromdate>
+                <todate standarddate="1933">1933</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1912-1933</unitdate>
+          </did>
+          <scopecontent>
+            <head>Scope and Contents</head>
+            <p>This subseries contains records related to Joseph Hardy and Rosina Towne fund of the
+              Massachusetts Woman's Home Missionary Union. The subseries includes two fund
+              books.</p>
+          </scopecontent>
+          <c level="item">
+            <did>
+              <unittitle>Joseph Hardy and Rosina Towne fund book</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1912">1912</fromdate>
+                  <todate standarddate="1916">1916</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1912-1916</unitdate>
+              <container label="Mixed Materials" localtype="box">4</container>
+              <container localtype="volume">4</container>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unittitle>Joseph Hardy and Rosina Towne fund book</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1912">1912</fromdate>
+                  <todate standarddate="1933">1933</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1912-1933</unitdate>
+              <container label="Mixed Materials" localtype="box">1</container>
+              <container localtype="volume">10</container>
+            </did>
+          </c>
+        </c>
+        <c level="subseries">
+          <did>
+            <unittitle>Golden anniversary fund records</unittitle>
+            <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+              <quantity>3</quantity>
+              <unittype>Folders</unittype>
+            </physdescstructured>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1925">1925</fromdate>
+                <todate standarddate="1930">1930</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1925-1930</unitdate>
+          </did>
+          <scopecontent>
+            <head>Scope and Contents</head>
+            <p>This subseries contains records related to the Golden Anniversary Fund of the
+              Massachusetts Women's Home Missionary Union. The subseries includes correspondence and
+              other materials related to the fund and fundraising.</p>
+          </scopecontent>
+          <c level="file">
+            <did>
+              <unittitle>Golden anniversary fund correspondence</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1925">1925</fromdate>
+                  <todate standarddate="1930">1930</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1925-1930</unitdate>
+              <container label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">21</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Golden anniversary fund records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1925">1925</fromdate>
+                  <todate standarddate="1930">1930</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1925-1930</unitdate>
+              <container label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">22</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Golden anniversary fund materials</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1926">1926</fromdate>
+                  <todate standarddate="1929">1929</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1926-1929</unitdate>
+              <container label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">23</container>
+            </did>
+          </c>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unittitle>Board of directors records</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>13</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1918">1918</fromdate>
+              <todate standarddate="1990">1990</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1918-1990</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains records by and about the board of directors of the Massachusetts
+            Woman's Home Missionary Union. The series includes board of directors meeting minutes,
+            agendas, officer lists, and the records of a nominating committee.</p>
+        </scopecontent>
+        <c level="file">
+          <did>
+            <unittitle>Board of directors minutes</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1918">1918</fromdate>
+                <todate standarddate="1922">1922</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1918-1922</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">8</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Board of directors minutes</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1923">1923</fromdate>
+                <todate standarddate="1925">1925</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1923-1925</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">9</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Board of directors minutes</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1934">1934</fromdate>
+                <todate standarddate="1944">1944</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1934-1944</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">10</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Board of directors minutes</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1945">1945</fromdate>
+                <todate standarddate="1954">1954</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1945-1954</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">11</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Board of directors minutes</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1955">1955</fromdate>
+                <todate standarddate="1964">1964</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1955-1964</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">12</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Board of directors minutes</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1965">1965</fromdate>
+                <todate standarddate="1970">1970</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1965-1970</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">13</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Board of directors minutes</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1972">1972</fromdate>
+                <todate standarddate="1980">1980</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1972-1980</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">14</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Board of directors minutes</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1981">1981</fromdate>
+                <todate standarddate="1990">1990</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1981-1990</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">15</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Officers lists</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1928">1928</fromdate>
+                <todate standarddate="1959">1959</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1928-1959</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">26</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Officers lists</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1960">1960</fromdate>
+                <todate standarddate="1989">1989</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1960-1989</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">30</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Officers lists</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">35</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Board agendas</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1937">1937</fromdate>
+                <todate standarddate="1990">1990</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1937-1990</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">28</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Nominating committee records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1970">1970</fromdate>
+                <todate standarddate="1987">1987</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1970-1987</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">31</container>
+          </did>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
