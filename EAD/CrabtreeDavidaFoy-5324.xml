@@ -1,0 +1,1101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/CrabtreeDavidaFoy-5324.xml"
+      >CrabtreeDavidaFoy-5324</recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/default/files/FindingAids/CrabtreeDavidaFoy-5324.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Davida Foy Crabtree papers, 1883-2022.</titleproper>
+        <author>Jessica Steytler</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>May 2017</date>
+        <num>MS5324</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+      <descriptivenote>
+        <p>English</p>
+      </descriptivenote>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2025-04-04T20:45:08+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Friday April 4, 2025
+          at 20:45</eventdescription>
+      </maintenanceevent>
+      <maintenanceevent>
+        <eventtype value="revised"/>
+        <eventdatetime>2025-04-04</eventdatetime>
+        <agenttype value="human"/>
+        <agent/>
+        <eventdescription>Accrual to the collection processed and added to the finding aid. Some
+          descriptive and administrative fields revised.</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Davida Foy Crabtree papers, 1952-2022.</unittitle>
+      <unitid>MS5324</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>4.71</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(5 boxes)</physdesc>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1883">1883</fromdate>
+          <todate standarddate="2022">2022</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1883-2022</unitdate>
+      <abstract>Davida Foy was born in 1944 to Davida and Alfred Foy. She attended Marietta College
+        in Ohio from 1963-1967, followed by Andover Newton Theological School from 1968-1972. She
+        became the director of the Prudence Crandall Center for Women (PCCW) in New Britain,
+        Connecticut. In 1980, she was called to serve the Colchester Federated Church in
+        Connecticut, where she served for 11 years. She took on the role of conference minister for
+        the UCC's Southern California Conference until she returned to serve as Connecticut's
+        conference minister in 1996. She retired from that position in 2010. The collection includes
+        personal and professional writing, academic work, sermons, correspondence, and records
+        generated as part of Crabtree's ministerial work.</abstract>
+      <origination label="Creator">
+        <persname identifier="98106828" rules="AACR2" source="naf">
+          <part>Crabtree, Davida Foy</part>
+        </persname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Davida Foy Crabtree papers, 1883-2022, MS5324. The
+        Congregational Library &amp; Archive, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by Davida Foy Crabtree
+        in January 2017; accession 2017-01. Additional materials were donated in January 2024
+        (accession 2024-02) and March 2025 (accession 2025-07).</p>
+    </acqinfo>
+    <accruals>
+      <head>Accruals</head>
+      <p>Further accruals are expected.</p>
+    </accruals>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Processed by Jessica Steytler, May 2017, using Describing Archives: A Content Standard.
+        Accruals added to the collection April, 2025, by Zachary Bodnar.</p>
+    </processinfo>
+    <bioghist>
+      <head>Biographical / Historical</head>
+      <p>Davida Foy was born in 1944 to Davida and Alfred Foy. She attended Litchfield High School
+        and was active as a teenager with the newly-formed United Church of Christ's statewide youth
+        Pilgrim Fellowship. She served as editor for their publication, Yankee Reporter. After
+        graduating, she attended Marietta College in Ohio from 1963-1967, followed by Andover Newton
+        Theological School from 1968-1972. She married Robert Crabtree in 1968 while still in
+        seminary. Both trained for the Peace Corps in Libya but didn't go before completing their
+        work at Andover Newton.</p>
+      <p>As a student in the late 1960s and early 1970s, she was deeply involved in the social
+        change movements prevalent to this era. Much of the material she retained for this
+        collection includes articles about social and political events and her involvement in them.
+        Crabtree's focus as a young adult centered on spirituality, religion, and feminism. She
+        blended this work as the director of the Prudence Crandall Center for Women (PCCW) in New
+        Britain, Connecticut. While working as campus minister at Central Connecticut State
+        University, Crabtree saw a pressing need for a women's center and so founded PCCW to provide
+        a haven for those living through domestic violence. During this time, she also served on the
+        United Church of Christ's Executive Council where she also championed women's issues.</p>
+      <p>In 1980, she was called to serve the Colchester Federated Church in Connecticut, where she
+        served for 11 years. She married David T. Hindinger in 1982, becoming stepmother to his two
+        children, Elizabeth and Todd. While serving Colchester, she attended Hartford Seminary for
+        her Doctor of Ministry degree. Following her tenure at Colchester, she took on the role of
+        conference minister for the UCC's Southern California Conference until she returned to serve
+        as Connecticut's conference minister in 1996. Crabtree retired from the post in 2010.
+        Following that, she has served as senior consultant to the officers of the national UCC
+        (2011-13); interim senior advancement officer for Andover Newton (2011); acting conference
+        minister for Missouri Midsouth Conference (2013); interim conference minister for Florida
+        Conference (2013-2014); and interim vice president for institutional advancement at Andover
+        Newton (2016-2017).</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection is comprised of the personal paper of Davida Foy Crabtree. The collection
+        includes personal writing and professional writing, academic work, sermons, correspondence,
+        calendars, articles and newsletters pertaining to Crabtree's career, records related to
+        advocacy and activism, United Church of Christ committee records, and records generated
+        while working for the Prudence Crandall Center for Women, the Connecticut Conference of the
+        UCC, the Southern California Conference of the UCC, and the Colchester Federated Church in
+        Connecticut.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>The original order of the collection was strictly chronological. During processing, some
+        divisions were made to indicate topic or subject, however the order remains in chronological
+        order.</p>
+    </arrangement>
+    <controlaccess>
+      <subject identifier="sh85047743" source="lcsh">
+        <part>Feminism -- Religious aspects.</part>
+      </subject>
+      <subject identifier="sh85120263" source="lcsh">
+        <part>Sermons, American.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Clergy -- Correspondence.</part>
+      </subject>
+      <corpname rules="rda" source="naf">
+        <part>World Council of Churches.</part>
+      </corpname>
+      <corpname rules="rda" source="naf">
+        <part>Andover Newton Theological School </part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="file">
+        <did>
+          <unittitle>Antoinette Brown Blackwell signature</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1883">1883</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">5</container>
+          <container localtype="folder">6</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Annette Gray records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1904">1904</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">5</container>
+          <container localtype="folder">7</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>American Board of Commissioners for Foreign Missions missionary vessel
+            certificate</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1904">1904</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">5</container>
+          <container localtype="folder">8</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Childhood, academic and personal writing</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1952-1960</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">2</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Pilgrim Fellowship, Yankee Reporter</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1958-1963</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">3-4</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Diary</unittitle>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1959-1960</unitdate>
+          <container label="Volumes" localtype="box">5</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Diary</unittitle>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1961</unitdate>
+          <container label="Volumes" localtype="box">5</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Correspondence and personal writing</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1961-1964</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">5</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Magazine and newspaper articles</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1961">1961</fromdate>
+              <todate standarddate="1982">1982</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1961-1982</unitdate>
+          <container label="Mixed Materials" localtype="box">5</container>
+          <container localtype="folder">9</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Yearbook</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1962</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">6</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Marietta College, general and academic work</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1963-1967</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">7</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Calendars</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1963-1966</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">8</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Correspondence and personal writing</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1965-1967</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">9</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Book reviews and correspondence</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1967">1967</fromdate>
+              <todate standarddate="2007">2007</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1967-2007</unitdate>
+          <container label="Mixed Materials" localtype="box">5</container>
+          <container localtype="folder">10</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Andover Newton Theological Seminary academic work</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1968-1972</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">10</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Davida and Robert Crabtree wedding</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1968</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">11</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Peace Corps</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1968</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">12</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Church and activism with related newsletters and articles</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1969</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">13</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>United Churchmen for Change</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1969-1970</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">14</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Calendars</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1969-1971</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">17</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Activism, activities, correspondence</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1970</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">15</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Newsletters, articles, current events</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1970-1971</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">16</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Community organizing project</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1970</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">18</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Women's caucus, Massachusetts Conference UCC</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1971</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">19</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>UCC Synod</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1971</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">20</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Activism, activities, correspondence</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1971</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">21</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>World Council of Christian Education (WCCE) World Assembly</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1971</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">22</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Women Exploring Theology at Grailville</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1972</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">23</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Calendars</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1971-1973</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">25</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Newsletters, articles, current events</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1972-1973</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">24</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Activism, activities, correspondence, including ordination</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1972</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">26-27</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Task force on women in church and society</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1972-1974</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">28</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Planning and correlation committee records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1973">1973</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">5</container>
+          <container localtype="folder">11</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Newsletters, articles, including installation</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1973-1974</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">2</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Paulo Freire- Learning and change workshop</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1973</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">3</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Activities, correspondence, including installation</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1973</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">1</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Planning and correlation committee oft he executive council, UCC</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1974</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">4</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>National Council of Churches board analysis</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1974">1974</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">5</container>
+          <container localtype="folder">12</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Prudence Crandall Center for Women, New Beginnings</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1974</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">5</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Prudence Crandall Center for Women (PCCW) records</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1974-1975</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">6</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Activities, writings, correspondence</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1974-1975</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">7-8</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>PCCW- "Bottled Up Woman" - alcoholism and women</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1975</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">9</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Outrage service</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1975</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">10</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>UCC - Advisory committee on women</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1975-1976</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">17</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Women in the city course material and notes</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1976</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">11-12</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Prudence Crandal Center for Women, recognition</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1976</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">13</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Activities, writing, correspondence</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1976</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">14</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Newsletters, articles</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1976</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">15</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Robert V. Moss</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1976</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">16</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Personnel committee- executive council</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1976-1977</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">18</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Overseas seminar</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1976</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">19</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Rajendra (Raju) K. Sail</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1970s-1980</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">20</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Calendars</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1976-1979</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">21</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Activities, writings, correspondence</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1977-1978</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">22-23</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Leadership development</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1979</unitdate>
+          <container label="Mixed Materials" localtype="box">3</container>
+          <container localtype="folder">1</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Activities, writings, correspondence</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1979</unitdate>
+          <container label="Mixed Materials" localtype="box">3</container>
+          <container localtype="folder">2</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>United Church of Christ advisory commission on woman artwork</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1979">1979</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">5</container>
+          <container localtype="folder">13</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Newsletters, articles, current events</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1979-1980</unitdate>
+          <container label="Mixed Materials" localtype="box">3</container>
+          <container localtype="folder">3</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Diary</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1979">1979</fromdate>
+              <todate standarddate="1982">1982</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1979-1982</unitdate>
+          <container label="Mixed Materials" localtype="box">5</container>
+          <container localtype="folder">14</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Inclusive language</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1979-1990</unitdate>
+          <container label="Mixed Materials" localtype="box">3</container>
+          <container localtype="folder">4-5</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Calendars</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1979-1986</unitdate>
+          <container label="Mixed Materials" localtype="box">3</container>
+          <container localtype="folder">6</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Activities, writings, correspondence, including installation at
+            Colchester</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1980</unitdate>
+          <container label="Mixed Materials" localtype="box">3</container>
+          <container localtype="folder">7</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Activities, writings, sermons, correspondence</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1981</unitdate>
+          <container label="Mixed Materials" localtype="box">3</container>
+          <container localtype="folder">8</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Activities, writings, sermons, correspondence including marriage to David
+            Hindiger</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1982</unitdate>
+          <container label="Mixed Materials" localtype="box">3</container>
+          <container localtype="folder">9</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Addresses, prayers, and sermons</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1982">1982</fromdate>
+              <todate standarddate="2022">2022</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1982-2022</unitdate>
+          <container label="Mixed Materials" localtype="box">5</container>
+          <container localtype="folder">15</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Activities, writings, sermons, correspondence</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1983-1986</unitdate>
+          <container label="Mixed Materials" localtype="box">3</container>
+          <container localtype="folder">10-13</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Doctor of ministry, Hartford Seminary, papers</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1986-1988</unitdate>
+          <container label="Mixed Materials" localtype="box">3</container>
+          <container localtype="folder">14</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Calendars</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1987-1990</unitdate>
+          <container label="Mixed Materials" localtype="box">3</container>
+          <container localtype="folder">15</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Activities, writings, sermons, correspondence</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1987-1988</unitdate>
+          <container label="Mixed Materials" localtype="box">3</container>
+          <container localtype="folder">16-17</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>East Africa seminar</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1988</unitdate>
+          <container label="Mixed Materials" localtype="box">3</container>
+          <container localtype="folder">18</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Implications of development for parish ministry</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1988">1988</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">5</container>
+          <container localtype="folder">16</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Activities, writings, sermons, correspondence</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1989</unitdate>
+          <container label="Mixed Materials" localtype="box">3</container>
+          <container localtype="folder">19</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Re-imagining Redemption Symposium essays</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1989</unitdate>
+          <container label="Mixed Materials" localtype="box">3</container>
+          <container localtype="folder">20</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Life Styles Inventory self development guide and test results</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1989">circa 1989</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">5</container>
+          <container localtype="folder">17</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Activities, writings, sermons, correspondence</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1990</unitdate>
+          <container label="Mixed Materials" localtype="box">3</container>
+          <container localtype="folder">21</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Calendars</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1991-1993</unitdate>
+          <container label="Mixed Materials" localtype="box">3</container>
+          <container localtype="folder">22</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Activities, writings, sermons, correspondence including S. California
+            Conference Minister work</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1991</unitdate>
+          <container label="Mixed Materials" localtype="box">4</container>
+          <container localtype="folder">1</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Conference work, sermons, correspondence</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1992</unitdate>
+          <container label="Mixed Materials" localtype="box">4</container>
+          <container localtype="folder">2</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>El Salvador delegation</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1992</unitdate>
+          <container label="Mixed Materials" localtype="box">4</container>
+          <container localtype="folder">3</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Personal career development profile</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1992">1992</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">5</container>
+          <container localtype="folder">18</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Activities, writings, sermons, correspondenceActivities, writings, sermons,
+            correspondence</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1993</unitdate>
+          <container label="Mixed Materials" localtype="box">4</container>
+          <container localtype="folder">4</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Calendars</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1994-1997</unitdate>
+          <container label="Mixed Materials" localtype="box">4</container>
+          <container localtype="folder">5</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Activities, writings, sermons, correspondence</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1994-1995</unitdate>
+          <container label="Mixed Materials" localtype="box">4</container>
+          <container localtype="folder">7-8</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Connecticut Conference Minister</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1996</unitdate>
+          <container label="Mixed Materials" localtype="box">4</container>
+          <container localtype="folder">9</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Activities, writings, sermons, correspondence</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1996-1997</unitdate>
+          <container label="Mixed Materials" localtype="box">4</container>
+          <container localtype="folder">10-11</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Growing in Authority, Cecelia Hahn, interview and book</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1997</unitdate>
+          <container label="Mixed Materials" localtype="box">4</container>
+          <container localtype="folder">6</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Calendars</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1997-2000</unitdate>
+          <container label="Mixed Materials" localtype="box">4</container>
+          <container localtype="folder">12</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Activities, writings, sermons, correspondence</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">1998-2000</unitdate>
+          <container label="Mixed Materials" localtype="box">4</container>
+          <container localtype="folder">13</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Calendars</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">2000-2004</unitdate>
+          <container label="Mixed Materials" localtype="box">4</container>
+          <container localtype="folder">14</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Activities, writings, sermons, correspondence</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">2001-2003</unitdate>
+          <container label="Mixed Materials" localtype="box">4</container>
+          <container localtype="folder">15</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Colombia delegation, CT Conference</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">2002</unitdate>
+          <container label="Mixed Materials" localtype="box">4</container>
+          <container localtype="folder">16</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Activities, writings, sermons, correspondence</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">2003-2005</unitdate>
+          <container label="Mixed Materials" localtype="box">4</container>
+          <container localtype="folder">17</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Calendars</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">2005-2012</unitdate>
+          <container label="Mixed Materials" localtype="box">4</container>
+          <container localtype="folder">18</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Activities, writings, sermons, correspondence, Colombia delegation</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">2006</unitdate>
+          <container label="Mixed Materials" localtype="box">4</container>
+          <container localtype="folder">19</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>UCC 50th anniversary</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">2007</unitdate>
+          <container label="Mixed Materials" localtype="box">4</container>
+          <container localtype="folder">20</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Activities, writings, sermons, correspondence</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">2008-2009</unitdate>
+          <container label="Mixed Materials" localtype="box">4</container>
+          <container localtype="folder">21</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Activities, writing, correspondence, including David Hindinger's
+            death</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">2009-2010</unitdate>
+          <container label="Mixed Materials" localtype="box">5</container>
+          <container localtype="folder">1</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Retirement celebration</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">2010</unitdate>
+          <container label="Mixed Materials" localtype="box">5</container>
+          <container localtype="folder">2</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Activities, writing, correspondence</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">2010-2013</unitdate>
+          <container label="Mixed Materials" localtype="box">5</container>
+          <container localtype="folder">3</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>19th Antoinetter Brown Award presentation booklet</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="2011">2011</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">5</container>
+          <container localtype="folder">19</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Andover Newton archives donation</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">2012</unitdate>
+          <container label="Mixed Materials" localtype="box">5</container>
+          <container localtype="folder">4</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Activities, writing, correspondence</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">2014-2016</unitdate>
+          <container label="Mixed Materials" localtype="box">5</container>
+          <container localtype="folder">5</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Annotated index to collection written by Crabtree</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">2016</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">1</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Pins and medalions</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+          <container label="Mixed Materials" localtype="box">4</container>
+          <container localtype="folder">22</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>A prayer for the installation of Davida Foy Crabtree</unittitle>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >undated</unitdate>
+          <container label="Mixed Materials" localtype="folder">7</container>
+        </did>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
