@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/LivoniaMIPilgrim-5544.xml"
+      >LivoniaMIPilgrim-5544</recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/default/files/FindingAids/LivoniaMIPilgrim-5544.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Livonia, Mich. Pilgrim United Church of Christ records,
+          1913-1980.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2025-04-10</date>
+        <num>RG5544</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2025-04-11T13:35:25+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Friday April 11, 2025
+          at 13:35</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Livonia, Mich. Pilgrim United Church of Christ records, 1913-1980.</unittitle>
+      <unitid>RG5544</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>1.09</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1913">1913</fromdate>
+          <todate standarddate="1980">1980</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1913-1980</unitdate>
+      <abstract>The Brewster Congregational Church in Detroit, Michigan, was gathered in 1894. It
+        merged with the Pilgrim Congregational Church in 1924 to form the Brewster Pilgrim
+        Congregational Church. The church moved to Livonia, Michigan, in 1957 and reformed as the
+        Pilgrim Congregational Church. By 1969, the church was renamed to Pilgrim United Church of
+        Christ. The church dissolved in 1979. This collection contains, primarily, vital records,
+        such a membership records, marriage records, and baptismal records, as well as a smaller
+        amount of administrative records.</abstract>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">
+          <part>Pilgrim United Church of Christ (Livonia, Mich.)</part>
+        </corpname>
+      </origination>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">
+          <part>Brewster Congregational Church (Detroit, Mich.)</part>
+        </corpname>
+      </origination>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">
+          <part>Brewster Pilgrim Congregational Church (Detroit, Mich.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Livonia, Mich. Pilgrim United Church of Christ records,
+        1913-1980, RG5544. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by the Evangelical and
+        Reformed Historical Society in March 2021; accession 2021-04.</p>
+      <p>The contents of the "Ministerial search documents, 1958" folder were originally found in
+        the Detroit, MI: Brewster Congregational Church. (1907) local church history file (17.11.1
+        D48.5 B7) and transfered to the archives in April, 2025.</p>
+    </acqinfo>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Processed by Zachary Bodnar, April 2025, according to the rules of Describing Archives: A
+        Content Standard.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>The Brewster Congregational Church in Detroit, Michigan, was gathered in 1894. In 1924, the
+        Brewster Congregational Church merged with the Pilgrim Congregational Church, gathered in
+        1915, to form the Brewster Pilgrim Congregational Church. In 1957, the Brewster Pilgrim
+        Congregational Church partnered with the Mount Hope Congregational Church, gathered 1889, to
+        form the Pilgrim Congregational Church of Greater Detroit. This combined entity sold the
+        Brewster Pilgrim Congregational Church building in 1957 and purchased a new building in
+        Livonia, Michigan, which became the home of the newly reformed Pilgrim Congregational
+        Church.</p>
+      <p>The exact relationship between Mount Hope Congregational Church and the Pilgrim
+        Congregational Church after 1958 is unclear; the churches seem to have operated
+        independently after this point. The Mount Hope Congregational Church moved to Livonia in
+        1964 and continues to serve the community today. The Pilgrim Congregational Church joined
+        the United Church of Christ and between 1967 and 1969, the church was renamed to Pilgrim
+        United Church of Christ. In 1969, the church federated with the Livonia Christian Church
+        (Disciples of Christ). The Pilgrim United Church of Christ dissolved in 1979; in 1980 the
+        church building was sold to the Livonia Christian Church.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains the records of the Pilgrim United Church of Christ, Livonia,
+        Michigan, and its various predecessor churches. The majority of this collection is vital
+        records, such as Baptismal records, Marriage records, and membership records. The collection
+        also contains some administrative records, including meeting minutes, correspondence, and
+        legal records.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>Materials in this collection have been arranged into the three series listed below.
+        Materials within each series have been arranged in chronological order by start date.</p>
+      <p><emph render="bold">Series 1:</emph> Brewster Congregational Church records, 1913-1925</p>
+      <p><emph render="bold">Series 2:</emph> Brewster Pilgrim Congregational Church records,
+        1922-1957</p>
+      <p><emph render="bold">Series 3:</emph> Pilgrim United Church of Christ records, 1956-1980</p>
+    </arrangement>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <corpname rules="rda" source="local">
+        <part>Brewster Congregational Church (Detroit, Mich.)</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>Brewster Pilgrim Congregational Church (Detroit, Mich.)</part>
+      </corpname>
+      <corpname identifier="n79045539" source="lcnaf">
+        <part>Detroit (Mich.) -- Church history.</part>
+      </corpname>
+      <corpname identifier="n82268584" source="lcnaf">
+        <part>Livonia (Mich.) -- Church history.</part>
+      </corpname>
+      <corpname>
+        <part>Mount Hope Congregational Church (Livonia, Mich.)</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>Pilgrim United Church of Christ (Livonia, Mich.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="series">
+        <did>
+          <unittitle>Brewster Congregational Church records</unittitle>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>1</quantity>
+            <unittype>Volume</unittype>
+          </physdescstructured>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>2</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1913">1913</fromdate>
+              <todate standarddate="1925">1925</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1913-1925</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains vital records related to the Brewster Congregational Church. The
+            series includes marriage records, baptismal records, and membership records.</p>
+        </scopecontent>
+        <c level="item">
+          <did>
+            <unittitle>Church register</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1913">1913</fromdate>
+                <todate standarddate="1924">1924</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1913-1924</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="volume">1</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Marriage register</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1922">1922</fromdate>
+                <todate standarddate="1925">1925</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1922-1925</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">1</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Baptismal records</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1922">1922</fromdate>
+                <todate standarddate="1925">1925</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1922-1925</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">2</container>
+          </did>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unittitle>Brewster Pilgrim Congregational Church records</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>8</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1922">1922</fromdate>
+              <todate standarddate="1957">1957</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1922-1957</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains vital records related to the Brewster Pilgrim Congregational
+            Church. The series includes baptismal records, marriage records, membership records, a
+            memorial scrapbook, and a church magazine.</p>
+        </scopecontent>
+        <c level="file">
+          <did>
+            <unittitle>Baptismal records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1922">1922</fromdate>
+                <todate standarddate="1936">1936</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1922-1936</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">3</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Memorial scrapbook</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1926">1926</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">4</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Marriage register</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1926">1926</fromdate>
+                <todate standarddate="1938">1938</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1926-1938</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">5</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Baptismal records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1932">1932</fromdate>
+                <todate standarddate="1939">1939</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1932-1939</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">1</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Baptismal records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1936">1936</fromdate>
+                <todate standarddate="1952">1952</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1936-1952</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">2</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Brewster Pilgrim Messenger magazine</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1938">1938</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">3</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Membership transfers</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1953">1953</fromdate>
+                <todate standarddate="1957">1957</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1953-1957</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">4</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Dismissions</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1954">1954</fromdate>
+                <todate standarddate="1956">1956</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1954-1956</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">5</container>
+          </did>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unittitle>Pilgrim United Church of Christ records</unittitle>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>1</quantity>
+            <unittype>Volume</unittype>
+          </physdescstructured>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>8</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1956">1956</fromdate>
+              <todate standarddate="1980">1980</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1956-1980</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains records related to the Pilgrim United Church of Christ, which had
+            previously been known as the Pilgrim Congregational Church and formed out of the
+            Brewster-Pilgrim Congregational Church. The Series contains membership records, church
+            records and communications, clippings, and directories.</p>
+        </scopecontent>
+        <c level="file">
+          <did>
+            <unittitle>Dismissions</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1956">1956</fromdate>
+                <todate standarddate="1970">1970</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1956-1970</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">6</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Membership records</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1957">1957</fromdate>
+                <todate standarddate="1967">1967</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1957-1967</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">6</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Ministerial search documents</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1958">1958</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">7</container>
+          </did>
+          <scopecontent>
+            <head>Scope and Contents</head>
+            <p>This folder contains a document titled "The Story of Pilgrim Congregational Church of
+              Greater Detroit" and filled questionnaire from the Congregational board of Pastoral
+              Supply.</p>
+          </scopecontent>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Church records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1958">1958</fromdate>
+                <todate standarddate="1980">1980</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1958-1980</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">1</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Church register</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1960">1960</fromdate>
+                <todate standarddate="1965">1965</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1960-1965</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">1</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Membership records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1960">1960</fromdate>
+                <todate standarddate="1978">1978</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1960-1978</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">2</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Clippings</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1961">1961</fromdate>
+                <todate standarddate="1970">1970</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1961-1970, undated</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">3</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Pilgrim Progress newsletter</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1962">1962</fromdate>
+                <todate standarddate="1978">1978</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1962-1978</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">4</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Directories</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1963">1963</fromdate>
+                <todate standarddate="1977">1977</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1963-1977</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">5</container>
+          </did>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>

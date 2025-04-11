@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection xmlns="http://www.loc.gov/MARC21/slim" xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+  <record>
+    <leader>00000npcaa2200000 u 4500</leader>
+    <controlfield tag="008">250407i18811903xxu                 eng d</controlfield>
+    <datafield ind1=" " ind2=" " tag="040">
+      <subfield code="a">MBC</subfield>
+      <subfield code="b">eng</subfield>
+      <subfield code="c">MBC</subfield>
+      <subfield code="e">DACS 2019.0.3</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="041">
+      <subfield code="a">eng</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="049">
+      <subfield code="a">MBC</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="099">
+      <subfield code="a">RG5543</subfield>
+    </datafield>
+    <datafield ind1="2" ind2=" " tag="110">
+      <subfield code="a">Plymouth Congregational Church,</subfield>
+      <subfield code="e">creator,</subfield>
+      <subfield code="g">(Detroit, Mich.)</subfield>
+    </datafield>
+    <datafield ind1="1" ind2="0" tag="245">
+      <subfield code="a">Detroit, Mich. Plymouth Congregational Church, 1881-1903.,</subfield>
+      <subfield code="f">1881-1903</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="300">
+      <subfield code="a">3</subfield>
+      <subfield code="f">Folders</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="351">
+      <subfield code="a">Materials in this collection have been arranged into chronological order, by start date.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="500">
+      <subfield code="a">Processing Information: Processed by Zachary Bodnar, April 2025, adhering to the rules of Describing Archives: A Content Standard.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="506">
+      <subfield code="a">Access to this collection is unrestricted and open to the public.</subfield>
+    </datafield>
+    <datafield ind1="3" ind2=" " tag="520">
+      <subfield code="a">The Trumbull Avenue Congregational Church was gathered in 1868 and the name changed to Plymouth Congregational Church after the building moved in 1881. The Church remained active until 1903. This collection contains administrative records and includes trustee meeting minutes, an act of incorporation, and a document related to the sale of church property.</subfield>
+    </datafield>
+    <datafield ind1="2" ind2=" " tag="520">
+      <subfield code="a">This collection contains administrative records from the Plymouth Congregational Church in Detroit, Michigan. The collection contains a record book of church records which primarily includes the meeting minutes of the trustees, articles of incorporation, and a document related of the sale of church property to the Detroit Congregational Union.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="524">
+      <subfield code="a">[Identification of item], in the Detroit, Mich. Plymouth Congregational Church, 1881-1903, RG5543. The Congregational Library &amp; Archives, Boston, MA.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="540">
+      <subfield code="a">Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the researcher to determine the copyright status of collection items and to secure any permissions necessary for their reproduction and publication. Requests for permission to publish material must be discussed with the archivist or librarian.</subfield>
+    </datafield>
+    <datafield ind1="1" ind2=" " tag="541">
+      <subfield code="a">Materials donated to the Congregational Library &amp; Archives by the Evangelical and Reformed Historical Society, March 2021; accession 2021-04.</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="545">
+      <subfield code="a">The Trumbull Avenue Congregational Church was gathered in 1868. In 1881, the church building was moved to the northeast corner of the intersection of Trumbull Avenue and Baker Street in the Corktown neighborhood of Detroit. After moving to the new location, the church changed its name to Plymouth Congregational Church. The church remained active until 1903 when the church’s property was sold to the Detroit Congregational Union.</subfield>
+    </datafield>
+    <datafield ind1="2" ind2="0" tag="610">
+      <subfield code="a">Detroit,</subfield>
+      <subfield code="g">(Mich.)</subfield>
+      <subfield code="x">Church history.</subfield>
+    </datafield>
+    <datafield ind1="2" ind2="7" tag="610">
+      <subfield code="a">Detroit Congregational Union.</subfield>
+      <subfield code="2">local</subfield>
+    </datafield>
+    <datafield ind1="2" ind2="7" tag="610">
+      <subfield code="a">Plymouth Congregational Church,</subfield>
+      <subfield code="g">(Detroit, Mich.)</subfield>
+      <subfield code="2">local</subfield>
+    </datafield>
+    <datafield ind1="2" ind2="7" tag="610">
+      <subfield code="a">Trumbull Avenue Congregational Church,</subfield>
+      <subfield code="g">(Detroit, Mich.)</subfield>
+      <subfield code="2">local</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="0" tag="650">
+      <subfield code="a">Articles of incorporation.</subfield>
+      <subfield code="0">sh85008152</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="0" tag="650">
+      <subfield code="a">Church property.</subfield>
+      <subfield code="0">sh85025732</subfield>
+    </datafield>
+    <datafield ind1=" " ind2="0" tag="650">
+      <subfield code="a">Church records and registers.</subfield>
+      <subfield code="0">sh85025741</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="852">
+      <subfield code="a">MBC</subfield>
+    </datafield>
+    <datafield ind1="4" ind2="2" tag="856">
+      <subfield code="z">Finding aid online:</subfield>
+      <subfield code="u">https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/DetroitMIPlymouth-5543.xml</subfield>
+    </datafield>
+  </record>
+</collection>
+
