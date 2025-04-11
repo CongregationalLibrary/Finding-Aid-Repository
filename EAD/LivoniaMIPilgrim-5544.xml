@@ -74,9 +74,10 @@
         </languageset>
       </langmaterial>
       <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
-        <quantity>1.09</quantity>
+        <quantity>0.85</quantity>
         <unittype>Cubic Feet</unittype>
       </physdescstructured>
+      <physdesc localtype="container_summary">(3 boxes)</physdesc>
       <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
         <daterange>
           <fromdate standarddate="1913">1913</fromdate>
