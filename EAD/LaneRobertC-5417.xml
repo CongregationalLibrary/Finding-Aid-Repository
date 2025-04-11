@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/LaneRobertC-5417.xml"
+      >LaneRobertC-5417</recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/all/files/LaneRobertC-5417.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Robert Chase Lane ministerial log book, 1952-2008.</titleproper>
+        <author>Patrick Riordan</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2022-05-10</date>
+        <num>MS5417</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2022-05-10T17:29:26+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v2.8.1</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Tuesday May 10, 2022
+          at 17:29</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Robert Chase Lane ministerial log book, 1952-2008.</unittitle>
+      <unitid>MS5417</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>1</quantity>
+        <unittype>Folder</unittype>
+      </physdescstructured>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1952">1952</fromdate>
+          <todate standarddate="2008">2008</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1952-2008</unitdate>
+      <abstract>Rev. Robert C. Lane served as minister in Baraboo, WI in 1952, North Branford, CT in
+        1957, and Enfield, CT between 1967 and 1990, when he retired. During his retirement, he was
+        an active member in the First Church of Windsor where he worked to make the church more
+        welcoming to LGBT individuals. This collection records his work through the marital records
+        he produced as a pastor.</abstract>
+      <origination label="Creator">
+        <persname rules="rda" source="local">
+          <part>Lane, Robert C., 1925-2016</part>
+        </persname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in Robert Chase Lane ministerial log book, 1952-2008. MS5417. The
+        Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by Janet Lane in
+        September 2021; 2020-14.</p>
+    </acqinfo>
+    <originalsloc>
+      <head>Location of Originals</head>
+      <p>The original copy of this item is held by the archives of the Hartford International
+        University for Religion and Peace, along with some other materials relating to Rev. Robert
+        Lane.</p>
+    </originalsloc>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Processed by Patrick Riordan, May 2022, using DACS 2019.03.</p>
+    </processinfo>
+    <bioghist>
+      <head>Biographical Note</head>
+      <p>Rev. Robert Lane was born in Milford, NH on November 23, 1925. He majored in math at
+        Amherst College. During World War II, he enlisted into the army and was stationed in Japan
+        for two years. Afterwards, he trained for the ministry at the Hartford Seminary (now the
+        Hartford International University for Religion and Peace) and was ordained in 1952. Robert
+        Lane served as minister in Baraboo, WI, in 1952, North Branford, CT, in 1957, and Enfield,
+        CT, between 1967 and 1990, when he retired. During his retirement, he was an active member
+        in the First Church of Windsor where he worked to make the church more welcoming to LGBT
+        individuals, leading the process for 30 Connecticut churches to earn the "Open and
+        Affirming" title. He died in 2016 at the age of 90.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection records the work of Rev. Robert Lane through the marital records he
+        produced as a pastor.</p>
+    </scopecontent>
+    <controlaccess>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <persname rules="rda" source="local">
+        <part>Lane, Robert C., 1925-2016</part>
+      </persname>
+    </controlaccess>
+    <dsc>
+      <c01 level="file">
+        <did>
+          <unittitle>Ministerial log book</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1952">1952</fromdate>
+              <todate standarddate="2008">2008</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1952-2008</unitdate>
+          <langmaterial>
+            <languageset>
+              <language langcode="eng">English</language>
+              <script scriptcode="Latn">Latin</script>
+            </languageset>
+          </langmaterial>
+          <container label="Mixed Materials" localtype="box">Small 7</container>
+          <container localtype="folder">6</container>
+        </did>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
