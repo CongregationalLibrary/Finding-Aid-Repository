@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="completed"
+    langencoding="iso639-2b" repositoryencoding="iso15511">
+    <eadid countrycode="US" mainagencycode="US-MBC">ScottMarjorieA-5483</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Marjorie Ann Scott papers, 1979-2023. <num>MS5483</num></titleproper>
+        <author>Billy McCarthy</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <p><date>April 2025</date></p>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline>Business Number: 617-523-0470</addressline>
+          <addressline>info@14beacon.org</addressline>
+          <addressline>URL: <extptr xlink:href="http://www.CongregationalLibrary.org"
+              xlink:show="new" xlink:title="http://www.CongregationalLibrary.org"
+              xlink:type="simple"/></addressline>
+        </address>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>This finding aid was produced using ArchivesSpace on <date>2025-04-14 14:41:58
+          +0000</date>.</creation>
+      <langusage>Description is written in: <language langcode="eng" scriptcode="Latn">English,
+          Latin script</language>.</langusage>
+      <descrules>DACS 2019.0.3</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <repository>
+        <corpname>Congregational Library &amp; Archives</corpname>
+      </repository>
+      <unittitle>Marjorie Ann Scott papers, 1979-2023.</unittitle>
+      <origination label="source">
+        <persname authfilenumber="n83040046" role="dnr" source="lcnaf">Gerlach, Barbara</persname>
+      </origination>
+      <origination label="Creator">
+        <persname rules="rda">Scott, Marjorie Ann (1947-2009)</persname>
+      </origination>
+      <origination label="Creator">
+        <persname>Perry, Faith</persname>
+      </origination>
+      <unitid>MS5483</unitid>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">0.18 Cubic Feet</extent>
+        <extent altrender="carrier">(1 box)</extent>
+      </physdesc>
+      <unitdate calendar="gregorian" datechar="creation" normal="1979/2023" type="inclusive"
+        >1979-2023</unitdate>
+      <abstract >Marjorie Ann Scott was born in Bedford,
+        Virginia, on December 1st, 1947. In 1989, Marjorie would become an ordained minister of the
+        United Church of Christ for the Church of the Covenant in Boston. Marjorie would pass away
+        at the age of 61 on January 28th, 2009. This collection contains material from the life of
+        Marjorie Ann Scott and includes autobiographical writing, poems, sermons, letters,
+        remembrances, and more.</abstract>
+      <langmaterial>
+        <language langcode="eng">English</language> . </langmaterial>
+    </did>
+    <accessrestrict >
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict >
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite >
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Marjorie Ann Scott papers, 1979-2023, MS5483. The
+        Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo >
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by Barbara Gerlach in
+        September 2023; 2023-48.</p>
+    </acqinfo>
+    <processinfo >
+      <head>Processing Information</head>
+      <p>Collection was processed by Billy McCarthy, April 2025, using Describing Archives: A
+        Content Standard.</p>
+    </processinfo>
+    <bioghist >
+      <head>Biographical Note</head>
+      <p>Marjorie Ann Scott was born in Bedford, Virginia, on December 1st, 1947. She would go on to
+        graduate from Westhampton College of the University of Richmond, Duke University, and the
+        Andover Newton Theological Seminary. In 1989, Marjorie would become an ordained minister of
+        the United Church of Christ for the Church of the Covenant in Boston. Others places where
+        she would work include the Boston City Mission Society, Elizabeth Stone House, Assistant
+        Pastor at Grace Church Federated in East Boston, and as an Associate Pastor at the North
+        Prospect Church in Medford. Marjorie would pass away at the age of 61 on January 28th,
+        2009.</p>
+    </bioghist>
+    <scopecontent >
+      <head>Scope and Contents</head>
+      <p>This collection contains material from the life of Marjorie Ann Scott and includes
+        autobiographical writing, poems, sermons, letters, remembrances, and more.</p>
+    </scopecontent>
+    <controlaccess>
+      <subject authfilenumber="sh85120261" source="lcsh">Sermons.</subject>
+      <subject authfilenumber="sh85010050" source="lcsh">Autobiography.</subject>
+      <subject authfilenumber="sh85103704" source="lcsh">Poetry.</subject>
+      <subject authfilenumber="sh85076240" source="lcsh">Letters.</subject>
+      <subject authfilenumber="sh85025666" source="lcsh">Church newsletters.</subject>
+      <persname authfilenumber="n83040046" role="dnr" source="lcnaf">Gerlach, Barbara</persname>
+    </controlaccess>
+    <dsc>
+      <c  level="file">
+        <did>
+          <unittitle>Obituary and service of worship</unittitle>
+          <unitdate datechar="creation" type="inclusive">undated</unitdate>
+          <container  label="Mixed Materials" type="box"
+            >1</container>
+          <container 
+             type="folder">1</container>
+        </did>
+      </c>
+      <c  level="file">
+        <did>
+          <unittitle>Resume</unittitle>
+          <unitdate datechar="creation" type="inclusive">undated</unitdate>
+          <container  label="Mixed Materials" type="box"
+            >1</container>
+          <container 
+             type="folder">2</container>
+        </did>
+      </c>
+      <c  level="file">
+        <did>
+          <unittitle>Recollections by Faith Perry</unittitle>
+          <unitdate datechar="creation" normal="2023/2023">2023</unitdate>
+          <container  label="Mixed Materials" type="box"
+            >1</container>
+          <container 
+             type="folder">3</container>
+        </did>
+      </c>
+      <c  level="file">
+        <did>
+          <unittitle>Commencement Address</unittitle>
+          <unitdate datechar="creation" normal="1979/1979">1979</unitdate>
+          <container  label="Mixed Materials" type="box"
+            >1</container>
+          <container 
+             type="folder">4</container>
+        </did>
+      </c>
+      <c  level="file">
+        <did>
+          <unittitle>Reflections</unittitle>
+          <unitdate datechar="creation" type="inclusive">March 15, 2000</unitdate>
+          <container  label="Mixed Materials" type="box"
+            >1</container>
+          <container 
+             type="folder">5</container>
+        </did>
+      </c>
+      <c  level="file">
+        <did>
+          <unittitle>Vision: Healing and Hope</unittitle>
+          <unitdate datechar="creation" type="inclusive">undated</unitdate>
+          <container  label="Mixed Materials" type="box"
+            >1</container>
+          <container 
+             type="folder">6</container>
+        </did>
+      </c>
+      <c  level="file">
+        <did>
+          <unittitle>North Prospect Church newsletter</unittitle>
+          <unitdate datechar="creation" type="inclusive">undated</unitdate>
+          <container  label="Mixed Materials" type="box"
+            >1</container>
+          <container 
+             type="folder">7</container>
+        </did>
+      </c>
+      <c  level="file">
+        <did>
+          <unittitle>A Christmas Story</unittitle>
+          <unitdate datechar="creation" type="inclusive">undated</unitdate>
+          <container  label="Mixed Materials" type="box"
+            >1</container>
+          <container 
+             type="folder">8</container>
+        </did>
+      </c>
+      <c  level="file">
+        <did>
+          <unittitle>And Grace Will Lead Us Home</unittitle>
+          <unitdate datechar="creation" normal="1996/1996">1996</unitdate>
+          <container  label="Mixed Materials" type="box"
+            >1</container>
+          <container 
+             type="folder">9</container>
+        </did>
+      </c>
+      <c  level="file">
+        <did>
+          <unittitle>Letters</unittitle>
+          <unitdate datechar="creation" type="inclusive">undated</unitdate>
+          <container  label="Mixed Materials" type="box"
+            >1</container>
+          <container 
+             type="folder">10</container>
+        </did>
+      </c>
+      <c  level="file">
+        <did>
+          <unittitle>Arise, Shine for Your Light Has Come</unittitle>
+          <unitdate datechar="creation" type="inclusive">undated</unitdate>
+          <container  label="Mixed Materials" type="box"
+            >1</container>
+          <container 
+             type="folder">11</container>
+        </did>
+      </c>
+      <c  level="file">
+        <did>
+          <unittitle>The Sacred, the Demonic, and Imagination</unittitle>
+          <unitdate datechar="creation" type="inclusive">undated</unitdate>
+          <container  label="Mixed Materials" type="box"
+            >1</container>
+          <container 
+             type="folder">12</container>
+        </did>
+      </c>
+      <c  level="file">
+        <did>
+          <unittitle>Sermons</unittitle>
+          <unitdate datechar="creation" type="inclusive">undated</unitdate>
+          <container  label="Mixed Materials" type="box"
+            >1</container>
+          <container 
+             type="folder">13</container>
+        </did>
+      </c>
+      <c  level="file">
+        <did>
+          <unittitle>Poems</unittitle>
+          <unitdate datechar="creation" type="inclusive">undated</unitdate>
+          <container  label="Mixed Materials" type="box"
+            >1</container>
+          <container 
+             type="folder">14</container>
+        </did>
+      </c>
+      <c  level="file">
+        <did>
+          <unittitle>Remembrance by Barbara Gerlach</unittitle>
+          <unitdate datechar="creation">August 21, 2023</unitdate>
+          <container  label="Mixed Materials" type="box"
+            >1</container>
+          <container 
+             type="folder">15</container>
+        </did>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
