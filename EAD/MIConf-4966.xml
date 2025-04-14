@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/MIConf-4966.xml"
+      >MIConf-4966</recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/default/files/FindingAids/MIConf-4966.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Michigan Conference of Congregational Christian Churches records,
+          1908-1964.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2025-04-14</date>
+        <num>RG4966</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2025-04-14T14:33:29+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Monday April 14, 2025
+          at 14:33</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Michigan Conference of Congregational Christian Churches records,
+        1908-1964.</unittitle>
+      <unitid>RG4966</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>1.09</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(1 box)</physdesc>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1908">1908</fromdate>
+          <todate standarddate="1964">1964</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1908-1964</unitdate>
+      <abstract>The General Association of the Congregational Ministers and Churches of Michigan was
+        formed on October 12, 1842. In 1908, it became known as the Michigan Conference. In 1932,
+        the conference became known as the Michigan Conference of Congregational Christian Churches
+        and in 1964 it became known as the Michigan Conference UCC. This collection includes trustee
+        minutes and annual meeting minutes for the Congregational Association of Detroit as well as
+        the records of women's missionary societies in the Congregational Association of Detroit and
+        the Michigan Conference of Congregational Christian Churches.</abstract>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">
+          <part>Michigan Conference of Congregational Christian Churches</part>
+        </corpname>
+      </origination>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">
+          <part>Congregational Association of Detroit</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head> Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Michigan Conference of Congregational Christian Churches
+        records, 1908-1964, RG4966. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by the Michigan
+        Conference UCC, August 2011; accession 2011-4.</p>
+      <p>Additional materials donated to the Congregational Library &amp; Archives by the
+        Evangelical and Reformed Historical Society, March 2021; accession 2021-04.</p>
+    </acqinfo>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Processed by Jessica Steyler, January 2012, using DACS Second Edition. Finding aid was
+        adapted for ArchivesSpace, April 2025, by Zachary Bodnar, with some significant changes to
+        the collection's description and arrangement.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>The General Association of the Congregational Ministers and Churches of Michigan was formed
+        on October 12, 1842. In 1908, the name of the statewide association was changed to
+        "conference" while the regional conferences formally became "associations." As a result, the
+        statewide association became the Michigan Congregational Conference. Likewise, the
+        conference that covered the Detroit metropolitan, which had been in existence since 1887,
+        became the Congregational Association of Detroit. In 1932, following the formation of the
+        General Council of the Congregational Christian Churches at the national level in 1931, the
+        Michigan Conference was renamed to the Michigan Conference of Congregational Christian
+        Churches (also sometimes called Michigan Congregational and Christian Conference). In 1964,
+        following the formation of the United Church of Christ at the national level in 1957, the
+        Michigan Conference reformed as the Michigan Conference UCC. As a part of that process, the
+        Detroit Association formally joined with the Michigan Conference UCC and became known as the
+        Detroit Metropolitan Association. Both Conference and Association continue to exist
+        today.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains records related to the Congregational Association of Detroit and
+        the Michigan Congregational Christian Conference. The bulk of the records are related to the
+        Congregational Association of Detroit and include annual meeting minutes, trustee meeting
+        minutes, and the records of the Women's Union, Women's Missionary Union, and Women's
+        Fellowship. A smaller portion of records are from the Michigan Congregational Christian
+        Conference (sometimes also called the Michigan Congregational and Christian Conference, the
+        Michigan Congregational Conference, or the Michigan Congregational Association) and this
+        portion includes records from Women's missionary organizations, clippings related to the
+        merger, and a folder of financial records for the Century Fund.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>Materials in this collection have been arranged into the two series listed below. Within
+        each series, materials have been arranged in chronological order by start date.</p>
+      <p><emph render="bold">Series 1:</emph> Congregational Association of Detroit records,
+        1908-1964</p>
+      <p><emph render="bold">Series 1:</emph> Michigan Congregational Christian Conference records,
+        1936-1963</p>
+    </arrangement>
+    <relatedmaterial>
+      <head>Related Materials</head>
+      <p>Wenstrom, Donald A. <ref
+          href="https://congregationallibrary.softlinkliberty.net:443/liberty/OpacLogin?mode=BASIC&amp;openDetail=true&amp;corporation=CLA&amp;action=search&amp;queryTerm=uuid%3D%2273dfe6b7c0a8e10100927cb0001c177a%22&amp;editionUuid=73dfe6b7c0a8e10100927cb0001c177a&amp;operator=OR&amp;url=%2Fopac%2Fsearch.do"
+          >A history of the Michigan Conference United Church of Christ and its parent
+          denominations, 1842-1992</ref>. Michigan Conference, UCC: 2001. Call number 9.3.282</p>
+      <p><ref
+          href="https://congregationallibrary.softlinkliberty.net:443/liberty/OpacLogin?mode=BASIC&amp;openDetail=true&amp;corporation=CLA&amp;action=search&amp;queryTerm=uuid%3D%2274392eafc0a8e10100d380b80046bd77%22&amp;editionUuid=74392eafc0a8e10100d380b80046bd77&amp;operator=OR&amp;url=%2Fopac%2Fsearch.do"
+          >Detroit Congregational Union records, 1908-1937</ref>. RG 4973</p>
+      <p><ref
+          href="https://congregationallibrary.softlinkliberty.net:443/liberty/OpacLogin?mode=BASIC&amp;openDetail=true&amp;corporation=CLA&amp;action=search&amp;queryTerm=uuid%3D%2225fc40c20a0a00092e20160d0038cac7%22&amp;editionUuid=25fc40c20a0a00092e20160d0038cac7&amp;operator=OR&amp;url=%2Fopac%2Fsearch.do"
+          >Detroit Metropolitan Association mortgage, 1968</ref>. RG5421</p>
+    </relatedmaterial>
+    <controlaccess>
+      <subject identifier="sh85026972" source="lcsh">
+        <part>Clergy conferences.</part>
+      </subject>
+      <subject identifier="sh85086075" source="lcsh">
+        <part>Home missions.</part>
+      </subject>
+      <subject identifier="sh85147565" source="lcsh">
+        <part>Women in church work.</part>
+      </subject>
+      <corpname rules="rda" source="local">
+        <part>Michigan Conference of Congregational Christian Churches</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>Congregational Association of Detroit</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="series">
+        <did>
+          <unittitle>Congregational Association of Detroit records</unittitle>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>1</quantity>
+            <unittype>Volume</unittype>
+          </physdescstructured>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>24</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1908">1908</fromdate>
+              <todate standarddate="1964">1964</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1908-1964</unitdate>
+        </did>
+        <c level="file">
+          <did>
+            <unittitle>Women's Missionary Union minutes</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1908">1908</fromdate>
+                <todate standarddate="1925">1925</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1908-1925</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">22</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Women's Missionary Union records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1926">1926</fromdate>
+                <todate standarddate="1938">1938</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1926-1938</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">24</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Financial ledger</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1926">1926</fromdate>
+                <todate standarddate="1942">1942</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1926-1942</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">1</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Women's Union records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1927">1927</fromdate>
+                <todate standarddate="1938">1938</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1927-1938</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">18</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Women's Union executive committee records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1928">1928</fromdate>
+                <todate standarddate="1933">1933</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1928-1933</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">21</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Women's Missionary Union registration book</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1929">1929</fromdate>
+                <todate standarddate="1944">1944</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1929-1944</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">23</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Women's Union records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1933">1933</fromdate>
+                <todate standarddate="1937">1937</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1933-1937</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">17</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Trustee meetings and annual meetings</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1935">1935</fromdate>
+                <todate standarddate="1937">1937</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1935-1937</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">3</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Trustee minutes</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1937">1937</fromdate>
+                <todate standarddate="1940">1940</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1937-1940</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">4</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Women's Union records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1937">1937</fromdate>
+                <todate standarddate="1941">1941</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1937-1941</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">19</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Annual meetings</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1938">1938</fromdate>
+                <todate standarddate="1946">1946</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1938-1946</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">1</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Trustee minutes</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1941">1941</fromdate>
+                <todate standarddate="1946">1946</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1941-1946</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">5</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Women's Union records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1941">1941</fromdate>
+                <todate standarddate="1947">1947</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1941-1947</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">20</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Education committee records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1941">1941</fromdate>
+                <todate standarddate="1948">1948</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1941-1948</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">12</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Annual meetings</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1946">1946</fromdate>
+                <todate standarddate="1957">1957</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1946-1957</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">2</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Trustee minutes</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1947">1947</fromdate>
+                <todate standarddate="1949">1949</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1947-1949</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">6</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Women's Fellowship minutes</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1947">1947</fromdate>
+                <todate standarddate="1950">1950</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1947-1950</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">25</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Trustee minutes</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1950">1950</fromdate>
+                <todate standarddate="1952">1952</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1950-1952</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">7</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Education committee records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1950">1950</fromdate>
+                <todate standarddate="1952">1952</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1950-1952</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">13</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Women's Fellowship constitution and meeting minutes</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1950">1950</fromdate>
+                <todate standarddate="1955">1955</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1950-1955</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">27</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Women's Fellowship minutes</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1951">1951</fromdate>
+                <todate standarddate="1952">1952</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1951-1952</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">26</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Trustee minutes</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1953">1953</fromdate>
+                <todate standarddate="1956">1956</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1953-1956</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">8</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Trustee minutes</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1957">1957</fromdate>
+                <todate standarddate="1962">1962</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1957-1962</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">9</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Trustee minutes</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1962">1962</fromdate>
+                <todate standarddate="1964">1964</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1962-1964</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">10</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Official actions</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1961">1961</fromdate>
+                <todate standarddate="1962">1962</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1961-1962</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">11</container>
+          </did>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unittitle>Michigan Congregational Christian Conference records</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>5</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1936">1936</fromdate>
+              <todate standarddate="1963">1963</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1936-1963</unitdate>
+        </did>
+        <c level="file">
+          <did>
+            <unittitle>Women's Department records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1936">1936</fromdate>
+                <todate standarddate="1938">1938</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1936-1938</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">15</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Century fund records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1938">1938</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">14</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Women's Work annual reports</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1938">1938</fromdate>
+                <todate standarddate="1939">1939</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1938-1939</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">16</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Women's Fellowship manual and meeting minutes</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1955">1955</fromdate>
+                <todate standarddate="1963">1963</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1955-1963</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">28</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Merger clippings</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1963">1963, undated</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">29</container>
+          </did>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
