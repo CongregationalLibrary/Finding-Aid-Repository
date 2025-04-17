@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/ProvidenceRIElmwood-5545.xml"
+      >ProvidenceRIElmwood-5545</recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/default/files/FindingAids/ProvidenceRIElmwood-5545.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Providence, R.I. Elmwood Christian Church records, 1834-1955.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2025-04-17</date>
+        <num>RG5545</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2025-04-17T17:55:11+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Thursday April 17,
+          2025 at 17:55</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Providence, R.I. Elmwood Christian Church records, 1834-1955.</unittitle>
+      <unitid>RG5545</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>0.88</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(2 boxes)</physdesc>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1834">1834</fromdate>
+          <todate standarddate="1955">1955</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1834-1955</unitdate>
+      <abstract>A Christian Connection church was gathered in 1834 in Providence, Rhode Island, and
+        by 1871 it was known as the Broad Street Christian Church. The Elmwood Congregational Church
+        was first gathered in 1851 and in 1895 it was reformed as the Elmwood Temple Congregational
+        Church in Providence. In 1912, the two churches merged to form the Elmwood Christian Church.
+        The church closed in 1955. This collection includes vital membership records, church records
+        and meeting minutes, legal documents, and programs.</abstract>
+      <origination label="Creator">
+        <corpname identifier="n96058905" source="lcnaf">
+          <part>Elmwood Christian Church (Providence, R.I.)</part>
+        </corpname>
+      </origination>
+      <origination label="Creator">
+        <corpname identifier="n96058895" source="lcnaf">
+          <part>Broad Street Christian Church (Providence, R.I.)</part>
+        </corpname>
+      </origination>
+      <origination label="Creator">
+        <corpname identifier="n96058903" source="lcnaf">
+          <part>Elmwood Temple Congregational Church (Providence, R.I.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Providence, R.I. Elmwood Christian Church records,
+        1834-1955., RG5545. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by the Rhode Island
+        Conference of the United Church of Christ in April 1984; no accession number.</p>
+    </acqinfo>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Processed by Zachary Bodnar, April 2025, according to the rules of Describing Archives: A
+        Content Standard.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>A Christian Connection church was gathered in 1834 in Providence, Rhode Island. By 1841,
+        the church had a building on Pawtuxet street and was known as the Pawtuxet Street Christian
+        Church. Around 1871, the church moved to a new building on Broad Street and was thereafter
+        known as the Broad Street Christian Church.</p>
+      <p>The Elmwood Congregational Church, built along Elmwood Avenue, was gathered in 1851 in
+        Cranston, Rhode Island, before moving a short distance North to Providence in 1854. The
+        church reformed as the Elmwood Temple Congregational Church in 1895.</p>
+      <p>In 1912, the Broad Street Christian Church and the Elmwood Congregational Church merged to
+        form the Elmwood Christian Church. The Broad Street church building was sold and the money
+        was used to build a new church building along Elmwood Avenue. The new building was an
+        English Tudor Revival-style building designed by local architect Gorham Henshaw and
+        construction on the building was completed in 1915. At first, the Elmwood Christian Church
+        was solely a part of the Christian denomination, but by 1934, after the 1931 merger of the
+        Christian and Congregational denominations, the church identified itself as
+        "Congregational-Christian." The church closed between 1954 and 1955. The building has
+        remained a church ever since, first serving as a home to a Presbyterian congregation, then
+        as a home for the Providence Assembly of God, and now as the home for the Impact Center
+        Providence church.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains the records of Elwood Christian Church, In Providence, Rhode
+        Island, and the two churches that merged to form it: The Broad Street Christian Church and
+        the Elwood Temple Congregational Church. The collection includes vital membership records,
+        church records and meeting minutes, legal documents, a pew plan, programs, and
+        clippings.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>This collection has been arranged into the three series listed below. Materials within each
+        series have been arranged into chronological order by start date.</p>
+      <p><emph render="bold">Series 1:</emph> Broad Street Christian Church records, 1834-1882</p>
+      <p><emph render="bold">Series 2:</emph> Elmwood Temple Congregational Church records,
+        1895-1912</p>
+      <p><emph render="bold">Series 3:</emph> Elmwood Christian Church records, 1912-1955</p>
+    </arrangement>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <subject identifier="sh85100506" source="lcsh">
+        <part>Pews and pew rights.</part>
+      </subject>
+      <corpname identifier="n96058895" source="lcnaf">
+        <part>Broad Street Christian Church (Providence, R.I.)</part>
+      </corpname>
+      <corpname identifier="n96058905" source="lcnaf">
+        <part>Elmwood Christian Church (Providence, R.I.)</part>
+      </corpname>
+      <corpname identifier="n96058903" source="lcnaf">
+        <part>Elmwood Temple Congregational Church (Providence, R.I.)</part>
+      </corpname>
+      <corpname identifier="n79043372" source="lcnaf">
+        <part>Providence (R.I.) -- Church history.</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="series">
+        <did>
+          <unittitle>Broad Street Christian Church records</unittitle>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>1</quantity>
+            <unittype>Volume</unittype>
+          </physdescstructured>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>5</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1834">1834</fromdate>
+              <todate standarddate="1882">1882</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1834-1882</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains records related to the Broad Street Christian Church and includes
+            vital membership records, church records, a pew plan, legal records, and programs.</p>
+        </scopecontent>
+        <c level="item">
+          <did>
+            <unittitle>Church records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1834">1834</fromdate>
+                <todate standarddate="1882">1882</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1834-1882</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">1</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Committee minutes</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1841">1841</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">1</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Pew plan</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1841">1841</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">2</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Mortgage deed</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1871">1871</fromdate>
+                <todate standarddate="1884">1884</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1871-1884</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">3</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Pamphlets, programs, and clippings</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1889">1889</fromdate>
+                <todate standarddate="1941">1941</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1889-1912, 1941</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">4</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Membership roll</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1898">1898</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">5</container>
+          </did>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unittitle>Elmwood Temple Congregational Church records</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>1</quantity>
+            <unittype>Volume</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1895">1895</fromdate>
+              <todate standarddate="1912">1912</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1895-1912</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains a membership roll for the Elmwood Temple Congregational
+            Church.</p>
+        </scopecontent>
+        <c level="item">
+          <did>
+            <unittitle>Membership roll</unittitle>
+            <unitdatestructured datechar="record_keeping" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1898">1898</fromdate>
+                <todate standarddate="1912">1912</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="record_keeping" unitdatetype="inclusive">1895-1912</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">2</container>
+          </did>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unittitle>Elmwood Christian Church records</unittitle>
+          <physdescstructured coverage="part" physdescstructuredtype="materialtype">
+            <quantity>2</quantity>
+            <unittype>Volumes</unittype>
+          </physdescstructured>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>10</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1912">1912</fromdate>
+              <todate standarddate="1955">1955</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1912-1955</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains records related to the Elmwood Christian Church. The series
+            contains vital membership records, church administrative records, the church's charter,
+            and programs.</p>
+        </scopecontent>
+        <c level="item">
+          <did>
+            <unittitle>Constitution and by-laws</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1912">1912</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">6</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Merger documents</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1912">1912</fromdate>
+                <todate standarddate="1913">1913</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1912-1913</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">7</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Programs</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1913">1913</fromdate>
+                <todate standarddate="1919">1919</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1913-1919</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">8</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Charter</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1913">1913</fromdate>
+                <todate standarddate="1930">1930</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1913, 1930</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">9</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Member register</unittitle>
+            <unitdatestructured datechar="record_keeping" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1925">1925</fromdate>
+                <todate standarddate="1949">1949</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="record_keeping" unitdatetype="inclusive">1925-1949</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">3</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Pilgrim Fellowship records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1945">1945</fromdate>
+                <todate standarddate="1951">1951</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1945-1951</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">10</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Needs survey</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1948">1948</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">11</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Church records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1948">1948</fromdate>
+                <todate standarddate="1951">1951</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1948-1951</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">12</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Member register</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1949">1949</fromdate>
+                <todate standarddate="1954">1954</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1949-1954</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="volume">1</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Programs and clippings</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1949">1949</fromdate>
+                <todate standarddate="1955">1955</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1949-1955</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">13</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Rhode Island city church survey</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1950">1950</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">14</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Church records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1951">1951</fromdate>
+                <todate standarddate="1955">1955</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1951-1955</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">15</container>
+          </did>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
