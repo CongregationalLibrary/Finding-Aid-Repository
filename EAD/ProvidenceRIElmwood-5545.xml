@@ -49,11 +49,11 @@
     <maintenancehistory>
       <maintenanceevent>
         <eventtype value="derived"/>
-        <eventdatetime>2025-04-17T17:55:11+00:00</eventdatetime>
+        <eventdatetime>2025-04-23T19:35:59+00:00</eventdatetime>
         <agenttype value="machine"/>
         <agent>ArchivesSpace v3.2.0</agent>
-        <eventdescription>This finding aid was produced using ArchivesSpace on Thursday April 17,
-          2025 at 17:55</eventdescription>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday April 23,
+          2025 at 19:35</eventdescription>
       </maintenanceevent>
     </maintenancehistory>
   </control>
@@ -126,7 +126,7 @@
     <acqinfo>
       <head>Acquisition Information</head>
       <p>Materials were donated to the Congregational Library &amp; Archives by the Rhode Island
-        Conference of the United Church of Christ in April 1984; no accession number.</p>
+        Conference of the United Church of Christ in April 1984 and February 2025; 2025-04.</p>
     </acqinfo>
     <processinfo>
       <head>Processing Information</head>
@@ -139,13 +139,14 @@
         the church had a building on Pawtuxet street and was known as the Pawtuxet Street Christian
         Church. Around 1871, the church moved to a new building on Broad Street and was thereafter
         known as the Broad Street Christian Church.</p>
-      <p>The Elmwood Congregational Church, built along Elmwood Avenue, was gathered in 1851 in
-        Cranston, Rhode Island, before moving a short distance North to Providence in 1854. The
-        church reformed as the Elmwood Temple Congregational Church in 1895.</p>
-      <p>In 1912, the Broad Street Christian Church and the Elmwood Congregational Church merged to
-        form the Elmwood Christian Church. The Broad Street church building was sold and the money
-        was used to build a new church building along Elmwood Avenue. The new building was an
-        English Tudor Revival-style building designed by local architect Gorham Henshaw and
+      <p>The Elmwood Temple, built along Elmwood Avenue, was gathered in 1851 in Cranston, Rhode
+        Island, before moving a short distance North to Providence in 1854. The church reformed as
+        the Elmwood Temple Congregational Church in 1895 and joined the Rhode Island Conference at
+        that time.</p>
+      <p>In 1912, the Broad Street Christian Church and the Elmwood Temple Congregational Church
+        merged to form the Elmwood Christian Church. The Broad Street church building was sold and
+        the money was used to build a new church building along Elmwood Avenue. The new building was
+        an English Tudor Revival-style building designed by local architect Gorham Henshaw and
         construction on the building was completed in 1915. At first, the Elmwood Christian Church
         was solely a part of the Christian denomination, but by 1934, after the 1931 merger of the
         Christian and Congregational denominations, the church identified itself as
@@ -159,7 +160,7 @@
       <p>This collection contains the records of Elwood Christian Church, In Providence, Rhode
         Island, and the two churches that merged to form it: The Broad Street Christian Church and
         the Elwood Temple Congregational Church. The collection includes vital membership records,
-        church records and meeting minutes, legal documents, a pew plan, programs, and
+        church records and meeting minutes, legal documents, a pew plan, programs, images, and
         clippings.</p>
     </scopecontent>
     <arrangement>
@@ -168,7 +169,7 @@
         series have been arranged into chronological order by start date.</p>
       <p><emph render="bold">Series 1:</emph> Broad Street Christian Church records, 1834-1882</p>
       <p><emph render="bold">Series 2:</emph> Elmwood Temple Congregational Church records,
-        1895-1912</p>
+        1865-1912</p>
       <p><emph render="bold">Series 3:</emph> Elmwood Christian Church records, 1912-1955</p>
     </arrangement>
     <controlaccess>
@@ -302,24 +303,77 @@
       <c level="series">
         <did>
           <unittitle>Elmwood Temple Congregational Church records</unittitle>
-          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
             <quantity>1</quantity>
             <unittype>Volume</unittype>
           </physdescstructured>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>1</quantity>
+            <unittype>Folder</unittype>
+          </physdescstructured>
           <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
             <daterange>
-              <fromdate standarddate="1895">1895</fromdate>
+              <fromdate standarddate="1865">1865</fromdate>
               <todate standarddate="1912">1912</todate>
             </daterange>
           </unitdatestructured>
           <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
-            >1895-1912</unitdate>
+            >1865-1912</unitdate>
         </did>
         <scopecontent>
           <head>Scope and Contents</head>
-          <p>This series contains a membership roll for the Elmwood Temple Congregational
-            Church.</p>
+          <p>This series contains a membership roll for the Elmwood Temple Congregational Church. a
+            1865 sketch of the exterior of the "Elmwood Temple", legal records, annual reports,
+            programs, and images.</p>
         </scopecontent>
+        <c level="file">
+          <did>
+            <unittitle>Elmwood Temple sketch</unittitle>
+            <unitdatestructured calendar="gregorian" certainty="questionable" datechar="creation"
+              unitdatetype="inclusive">
+              <datesingle standarddate="1865">circa 1865</datesingle>
+            </unitdatestructured>
+          </did>
+          <scopecontent>
+            <head>Scope and Contents</head>
+            <p>This sketch of the exterior of the "Elmwood Temple" was produced by Sarah Elizabeth
+              Arnold (1849-1913) circa 1865.</p>
+          </scopecontent>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Legal records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1895">1895</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">1</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Sunday school library catalog</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1895">1895</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">2</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Financial reports</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1895">1895</fromdate>
+                <todate standarddate="1900">1900</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1895, 1900</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">3</container>
+          </did>
+        </c>
         <c level="item">
           <did>
             <unittitle>Membership roll</unittitle>
@@ -332,6 +386,34 @@
             <unitdate datechar="record_keeping" unitdatetype="inclusive">1895-1912</unitdate>
             <container label="Mixed Materials" localtype="box">1</container>
             <container localtype="volume">2</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Annual reports</unittitle>
+            <unitdatestructured datechar="record_keeping" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1896">1896</fromdate>
+                <todate standarddate="1907">1907</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="record_keeping" unitdatetype="inclusive">1896-1907</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">16</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Programs, clippings, and images</unittitle>
+            <unitdatestructured datechar="record_keeping" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1898">1898</fromdate>
+                <todate standarddate="1906">1906</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="record_keeping" unitdatetype="inclusive">1898-1906</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">4</container>
           </did>
         </c>
       </c>
