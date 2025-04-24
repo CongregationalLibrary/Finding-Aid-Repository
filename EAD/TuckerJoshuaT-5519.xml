@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="completed"
+    langencoding="iso639-2b" repositoryencoding="iso15511">
+    <eadid countrycode="US" mainagencycode="US-MBC">TuckerJoshuaT-5519 </eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>J. T. Tucker Civil War sermons, 1861-1865. <num>MS5519</num></titleproper>
+        <author>Rebecca Arabian</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <p><date>2025-04-24</date></p>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline>Business Number: 617-523-0470</addressline>
+          <addressline>info@14beacon.org</addressline>
+          <addressline>URL: <extptr xlink:href="http://www.CongregationalLibrary.org"
+              xlink:show="new" xlink:title="http://www.CongregationalLibrary.org"
+              xlink:type="simple"/></addressline>
+        </address>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>This finding aid was produced using ArchivesSpace on <date>2025-04-24 18:07:52
+          +0000</date>.</creation>
+      <langusage>Description is written in: <language langcode="eng" scriptcode="Latn">English,
+          Latin script</language>.</langusage>
+      <descrules>DACS 2019.0.3</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <repository>
+        <corpname>Congregational Library &amp; Archives</corpname>
+      </repository>
+      <unittitle>J. T. Tucker Civil War sermons, 1861-1865.</unittitle>
+      <unitid>MS5519</unitid>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 Volume</extent>
+      </physdesc>
+      <unitdate calendar="gregorian" datechar="creation" normal="1861/1865" type="inclusive"
+        >1861-1865</unitdate>
+      <abstract >Joshua Thomas Tucker (commonly referred
+        to as "J.T. Tucker") was an American minister from Massachusetts. This collection contains a
+        volume of twenty-five manuscript sermons written by Tucker while he was a minister in
+        Holliston, Massachusetts from 1861 to 1865, coinciding with the American Civil
+        War.</abstract>
+      <langmaterial>
+        <language langcode="eng" scriptcode="Latn">English</language> . </langmaterial>
+    </did>
+    <accessrestrict >
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict >
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite >
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the J. T. Tucker Civil War sermons, 1861-1865, MS5519. The
+        Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo >
+      <head>Acquisition Information</head>
+      <p>No acquisition information is available for this collection. Previously held by the
+        library; transferred to the archives in August 2024. Original accession number: 2024-25.</p>
+    </acqinfo>
+    <processinfo >
+      <head>Processing Information</head>
+      <p>This collection was processed in April 2025 by Rebecca Arabian.</p>
+    </processinfo>
+    <bioghist >
+      <head>Biographical Note</head>
+      <p>Joshua Thomas Tucker (commonly referred to as "J.T. Tucker") was an American minister from
+        Massachusetts. He was born on September 20, 1812, to Wealthy Thomas and Joshua Tucker. In
+        adulthood, Tucker was ordained by the Presbytery of Alton, Illinois in 1837 and, in that
+        same year, married his first wife, Mary Oland Stibbs. Together they had four children. Mary
+        died in 1844, and Tucker remarried to Annie Deborah Shackford in 1845, with whom he had one
+        son. </p>
+      <p>Between 1840 and 1848, Tucker worked and lived in Missouri until being installed as pastor
+        at Holliston, Massachusetts in 1849. There, Tucker preached throughout the entirety of the
+        American Civil War (1861-1865). His sermons from this time remarked on current events
+        surrounding the war, which had begun due to rising tensions between Northern and Southern
+        states over slavery and its role as westward expansion of the country increased. Tucker also
+        spoke of both the inauguration and assassination of President Abraham Lincoln. </p>
+      <p>Having grown up and preached in Massachusetts, J.T. Tucker eventually died there in 1897,
+        at the age of 84. </p>
+    </bioghist>
+    <scopecontent >
+      <head>Scope and Contents</head>
+      <p>This collection contains a volume of twenty-five manuscript sermons from J.T. Tucker while
+        he was a minister in Holliston, Massachusetts. The sermons, also called "discourses," were
+        written and preached between 1861 and 1865.</p>
+    </scopecontent>
+    <bibliography >
+      <head>Bibliography</head>
+      <p>"Civil War." History.com, February 27, 2025.
+        https://www.history.com/articles/american-civil-war-history#After-the-Emancipation-Proclamation-(1863-4). </p>
+      <p>"Rev Joshua Thomas Tucker (1812-1897)." Find a Grave. Accessed April 24, 2025.
+        https://www.findagrave.com/memorial/122619421/joshua_thomas-tucker. </p>
+      <p>Tucker, Ephraim. 1895. "Genealogy of the Tucker family." Boston, Massachusetts. Boston
+        Public Library Local and Family History Collection. Available via Internet Archive,
+        https://archive.org/details/genealogyoftucke00tuck_0.</p>
+    </bibliography>
+    <controlaccess>
+      <subject authfilenumber="sh85120263" source="lcsh">Sermons, American.</subject>
+      <geogname authfilenumber="sh2020006175" source="lcsh">United States--History--Civil War,
+        1861-1865--Religious aspects--Congregational churches</geogname>
+      <corpname authfilenumber="n83310427" source="lcnaf">Holliston (Mass.)</corpname>
+      <persname authfilenumber="n79006779" source="lcnaf">Lincoln, Abraham, 1809-1865</persname>
+    </controlaccess>
+    <dsc>
+      <c  level="file">
+        <did>
+          <unittitle>Sermons</unittitle>
+          <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">1
+              Volume</extent></physdesc>
+          <unitdate calendar="gregorian" datechar="creation" normal="1861/1865" type="inclusive"
+            >1861-1865</unitdate>
+          <container  label="Mixed Materials" type="box"
+            >Small 9</container>
+          <container 
+             type="folder">24</container>
+        </did>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
