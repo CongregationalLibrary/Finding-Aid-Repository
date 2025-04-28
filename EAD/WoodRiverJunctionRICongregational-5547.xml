@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/WoodRiverJunctionRICongregational-5547.xml"
+      >WoodRiverJunctionRICongregational-5547</recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/default/files/FindingAids/WoodRiverJunctionRICongregational-5547.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Wood River Junction, R.I. Wood River Junction Congregational Church records,
+          1895-1935.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2025-04-28</date>
+        <num>RG5547</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2025-04-28T17:23:36+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Monday April 28, 2025
+          at 17:23</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Wood River Junction, R.I. Wood River Junction Congregational Church records,
+        1895-1935.</unittitle>
+      <unitid>RG5547</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>0.22</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(1 box)</physdesc>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1895">1895</fromdate>
+          <todate standarddate="1935">1935</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1895-1935</unitdate>
+      <abstract>The Wood River Junction Congregational Church in Wood River Junction, Rhode Island,
+        was gathered in 1895. The church closed in 1935. In 1941, the church building was used as a
+        medical station by the federal government. The church building was sold by the Rhode Island
+        Conference in 1951. The collection includes meeting minutes, financial records, a clipping,
+        and a list of members.</abstract>
+      <origination label="Creator">
+        <corpname identifier="n96058879" source="lcnaf">
+          <part>Wood River Junction Congregational Church (Wood River Junction, R.I.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Wood River Junction, R.I. Wood River Junction
+        Congregational Church records, 1895-1935, RG5547. The Congregational Library &amp; Archives,
+        Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by the Rhode Island
+        Conference of the United Church of Christ in April 1984; no acquisition information.</p>
+    </acqinfo>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Processed by Zachary Bodnar, April 2025, according to the rules of Describing Archives: A
+        Content Standard.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>The Wood River Junction Congregational Church in Wood River Junction, Rhode Island, was
+        gathered in 1895. The church closed in 1935. After the closure of the church, the church
+        building was controlled by the Rhode Island Conference. In 1941, the church building was
+        repurposed by the federal government to be used as a medical station. It continued to serve
+        that role for a number of years. In 1951, the conference sold the church building. In 2015,
+        the church was purchased by its current owners who converted the building into a performance
+        space for house and chamber concerts.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains administrative and financial records for the Wood River Junction
+        Congregational Church in Wood River Junction, Rhode Island. The collection includes meeting
+        minutes, financial records, a clipping from a funeral, and a list of members based on
+        someone's recollection.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>Materials in this collection have been arranged in chronological order, by start date.</p>
+    </arrangement>
+    <bibliography>
+      <head>Bibliography</head>
+      <p>SwitchArts. Accessed April 28, 2025. <ref
+          href="https://www.switcharts.mindeartheart.org/default.html"
+          >https://www.switcharts.mindeartheart.org/default.html</ref>.</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh85025606" source="lcsh">
+        <part>Church finance.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <corpname identifier="n84131742" source="lcnaf">
+        <part>Wood River Junction (R.I.) -- Church history.</part>
+      </corpname>
+      <corpname identifier="n96058879" source="lcnaf">
+        <part>Wood River Junction Congregational Church (Wood River Junction, R.I.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="item">
+        <did>
+          <unittitle>Meeting minutes</unittitle>
+          <unitdatestructured datechar="record_keeping" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1895">1895</fromdate>
+              <todate standarddate="1911">1911</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="record_keeping" unitdatetype="inclusive">1895-1911</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">1</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Treasurer's accounts</unittitle>
+          <unitdatestructured datechar="record_keeping" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1895">1895</fromdate>
+              <todate standarddate="1932">1932</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="record_keeping" unitdatetype="inclusive">1895-1932</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">2</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Clerks records</unittitle>
+          <unitdatestructured datechar="record_keeping" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1932">1932</fromdate>
+              <todate standarddate="1935">1935</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="record_keeping" unitdatetype="inclusive">1932-1935</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">3</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Meeting Minutes</unittitle>
+          <unitdatestructured datechar="record_keeping" unitdatetype="inclusive">
+            <datesingle standarddate="1933">1933</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">1</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Remembered members list</unittitle>
+          <unitdate datechar="record_keeping" unitdatetype="inclusive">undated</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">2</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Mary E. W. Root funeral clipping</unittitle>
+          <unitdate datechar="record_keeping" unitdatetype="inclusive">undated</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">3</container>
+        </did>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
