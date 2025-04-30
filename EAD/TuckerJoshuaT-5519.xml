@@ -7,12 +7,12 @@
     <eadid countrycode="US" mainagencycode="US-MBC">TuckerJoshuaT-5519 </eadid>
     <filedesc>
       <titlestmt>
-        <titleproper>J. T. Tucker Civil War sermons, 1861-1865. <num>MS5519</num></titleproper>
-        <author>Rebecca Arabian</author>
+        <titleproper>J. T. Tucker papers, 1847-1894. <num>MS5519</num></titleproper>
+        <author>Rebecca Arabian, Billy McCarthy</author>
       </titlestmt>
       <publicationstmt>
         <publisher>Congregational Library &amp; Archives</publisher>
-        <p><date>2025-04-24</date></p>
+        <p><date>2025-04-30</date></p>
         <address>
           <addressline>14 Beacon Street</addressline>
           <addressline>Suite 200</addressline>
@@ -26,7 +26,7 @@
       </publicationstmt>
     </filedesc>
     <profiledesc>
-      <creation>This finding aid was produced using ArchivesSpace on <date>2025-04-24 18:07:52
+      <creation>This finding aid was produced using ArchivesSpace on <date>2025-04-30 14:29:48
           +0000</date>.</creation>
       <langusage>Description is written in: <language langcode="eng" scriptcode="Latn">English,
           Latin script</language>.</langusage>
@@ -38,47 +38,55 @@
       <repository>
         <corpname>Congregational Library &amp; Archives</corpname>
       </repository>
-      <unittitle>J. T. Tucker Civil War sermons, 1861-1865.</unittitle>
+      <unittitle>J. T. Tucker papers, 1847-1894.</unittitle>
       <unitid>MS5519</unitid>
       <physdesc altrender="whole">
-        <extent altrender="materialtype spaceoccupied">1 Volume</extent>
+        <extent altrender="materialtype spaceoccupied">3 Volumes</extent>
+        <extent altrender="carrier">(1 box)</extent>
       </physdesc>
-      <unitdate calendar="gregorian" datechar="creation" normal="1861/1865" type="inclusive"
-        >1861-1865</unitdate>
-      <abstract >Joshua Thomas Tucker (commonly referred
-        to as "J.T. Tucker") was an American minister from Massachusetts. This collection contains a
-        volume of twenty-five manuscript sermons written by Tucker while he was a minister in
-        Holliston, Massachusetts from 1861 to 1865, coinciding with the American Civil
-        War.</abstract>
+      <unitdate calendar="gregorian" datechar="creation" normal="1847/1894" type="inclusive"
+        >1847-1894</unitdate>
+      <abstract>Joshua Thomas Tucker (commonly referred to as "J.T. Tucker") was an American
+        minister from Massachusetts. This collection contains a volume of twenty-five manuscript
+        sermons from J.T. Tucker during the Civil War while he was a minister in Holliston,
+        Massachusetts. Also included is an autobiographical memoranda and a theological common-place
+        book.</abstract>
       <langmaterial>
         <language langcode="eng" scriptcode="Latn">English</language> . </langmaterial>
     </did>
-    <accessrestrict >
+    <accessrestrict>
       <head>Restrictions on Access</head>
       <p>Access to this collection is unrestricted and open to the public.</p>
     </accessrestrict>
-    <userestrict >
+    <userestrict>
       <head>Restrictions on Use</head>
       <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
         researcher to determine the copyright status of collection items and to secure any
         permissions necessary for their reproduction and publication. Requests for permission to
         publish material must be discussed with the archivist or librarian.</p>
     </userestrict>
-    <prefercite >
+    <prefercite>
       <head>Preferred Citation</head>
-      <p>[Identification of item], in the J. T. Tucker Civil War sermons, 1861-1865, MS5519. The
-        Congregational Library &amp; Archives, Boston, MA.</p>
+      <p>[Identification of item], in the J. T. Tucker papers, 1847-1894, MS5519. The Congregational
+        Library &amp; Archives, Boston, MA.</p>
     </prefercite>
-    <acqinfo >
+    <acqinfo>
       <head>Acquisition Information</head>
-      <p>No acquisition information is available for this collection. Previously held by the
-        library; transferred to the archives in August 2024. Original accession number: 2024-25.</p>
+      <p>No acquisition information is available for this collection. Civil War sermons held by the
+        library; transferred to the archives in August 2024. Original accession number: 2024-25.
+        Autobiographical memoranda and Theological common-place book were in a separate archival
+        collection and merged into MS5519 on 4/30/25.</p>
     </acqinfo>
-    <processinfo >
+    <custodhist>
+      <head>Custodial History</head>
+      <p>The volume of Civil War sermons was an internal transfer from the Library side in 2024.</p>
+    </custodhist>
+    <processinfo>
       <head>Processing Information</head>
-      <p>This collection was processed in April 2025 by Rebecca Arabian.</p>
+      <p>This collection was processed in April 2025 by Rebecca Arabian. Additional updates made by
+        Billy McCarthy in April 2025.</p>
     </processinfo>
-    <bioghist >
+    <bioghist>
       <head>Biographical Note</head>
       <p>Joshua Thomas Tucker (commonly referred to as "J.T. Tucker") was an American minister from
         Massachusetts. He was born on September 20, 1812, to Wealthy Thomas and Joshua Tucker. In
@@ -95,13 +103,13 @@
       <p>Having grown up and preached in Massachusetts, J.T. Tucker eventually died there in 1897,
         at the age of 84. </p>
     </bioghist>
-    <scopecontent >
+    <scopecontent>
       <head>Scope and Contents</head>
-      <p>This collection contains a volume of twenty-five manuscript sermons from J.T. Tucker while
-        he was a minister in Holliston, Massachusetts. The sermons, also called "discourses," were
-        written and preached between 1861 and 1865.</p>
+      <p>This collection contains a volume of twenty-five manuscript sermons from J.T. Tucker during
+        the Civil War while he was a minister in Holliston, Massachusetts. Also included is an
+        autobiographical memoranda and a theological common-place book.</p>
     </scopecontent>
-    <bibliography >
+    <bibliography>
       <head>Bibliography</head>
       <p>"Civil War." History.com, February 27, 2025.
         https://www.history.com/articles/american-civil-war-history#After-the-Emancipation-Proclamation-(1863-4). </p>
@@ -115,21 +123,42 @@
       <subject authfilenumber="sh85120263" source="lcsh">Sermons, American.</subject>
       <geogname authfilenumber="sh2020006175" source="lcsh">United States--History--Civil War,
         1861-1865--Religious aspects--Congregational churches</geogname>
+      <subject authfilenumber="sh85010050" source="lcsh">Autobiography.</subject>
+      <subject authfilenumber="sh85029002" source="lcsh">Commonplace books.</subject>
       <corpname authfilenumber="n83310427" source="lcnaf">Holliston (Mass.)</corpname>
       <persname authfilenumber="n79006779" source="lcnaf">Lincoln, Abraham, 1809-1865</persname>
     </controlaccess>
     <dsc>
-      <c  level="file">
+      <c level="file">
         <did>
-          <unittitle>Sermons</unittitle>
-          <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">1
-              Volume</extent></physdesc>
+          <unittitle>Theological common-place book</unittitle>
+          <unitdate calendar="gregorian" datechar="record_keeping" normal="1847/1888"
+            type="inclusive">1847-1888</unitdate>
+          <container
+            altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=565&amp;cat=597&amp;searchname=&amp;searchid=10370ab&amp;searchtype=C&amp;cart=147464750710027746"
+            label="Mixed Materials" type="box">1</container>
+          <container type="volume">1</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Civil War sermons</unittitle>
           <unitdate calendar="gregorian" datechar="creation" normal="1861/1865" type="inclusive"
             >1861-1865</unitdate>
-          <container  label="Mixed Materials" type="box"
-            >Small 9</container>
-          <container 
-             type="folder">24</container>
+          <container
+            altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=565&amp;cat=597&amp;searchname=&amp;searchid=10370ab&amp;searchtype=C&amp;cart=147464750710027746"
+            label="Mixed Materials" type="box">1</container>
+          <container type="volume">2</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Autobiographical memoranda</unittitle>
+          <unitdate calendar="gregorian" datechar="creation" normal="1894/1894">1894</unitdate>
+          <container
+            altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=565&amp;cat=597&amp;searchname=&amp;searchid=10370ab&amp;searchtype=C&amp;cart=147464750710027746"
+            label="Mixed Materials" type="box">1</container>
+          <container type="volume">3</container>
         </did>
       </c>
     </dsc>
