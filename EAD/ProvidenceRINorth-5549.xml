@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/ProvidenceRINorth-5549.xml"
+      >ProvidenceRINorth-5549</recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/default/files/FindingAids/ProvidenceRINorth-5549.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Providence, R.I. North Congregational Church records, 1895-1916.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2025-04-30</date>
+        <num>RG5549</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2025-04-30T14:48:19+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday April 30,
+          2025 at 14:48</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Providence, R.I. North Congregational Church of Providence records,
+        1895-1916.</unittitle>
+      <unitid>RG5549</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>4</quantity>
+        <unittype>Folders</unittype>
+      </physdescstructured>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1895">1895</fromdate>
+          <todate standarddate="1916">1916</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1895-1916</unitdate>
+      <abstract>The Charles Street Congregational Society in North Providence, Rhode Island, later
+        the North Congregational Society, was gathered in 1865. In 1882, construction on the Charles
+        Street Chapel was completed and in 1885 the church was renamed to the North Congregational
+        Church. Due to declining membership, the church building was given to the Rhode Island Home
+        Missionary Society in 1912. The collection includes meeting minutes and reports, letters of
+        dismission, and a rejected proposal for the transfer of the building.</abstract>
+      <origination label="Creator">
+        <corpname identifier="n96058880" source="lcnaf">
+          <part>North Congregational Church (Providence, R.I.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Providence, R.I. North Congregational Church records,
+        1895-1916, RG5549. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by the Rhode Island
+        Conference of the United Church of Christ in April 1984; no acquisition information.</p>
+    </acqinfo>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Processed by Zachary Bodnar, April 2025, according to the rules of Describing Archives: A
+        Content Standard.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>The Charles Street Congregational Society in North Providence, Rhode Island, was gathered
+        in 1865. In 1880, the society's name changed to the North Congregational Society in
+        Providence. In 1882, construction on the Charles Street Chapel was completed. In 1895, the
+        church name was changed to the North Congregational Church in Providence. Membership in the
+        church declined through the first decade of the 1900s until it became inevitable that the
+        existing membership could not maintain the church building. In 1912, the church building was
+        given to the Rhode Island Home Missionary Society. Members of the now extinct North
+        Congregational Church may have founded the Peoples Congregational Church in 1917; that
+        church went extinct in 1923.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains the administrative records of the North Congregational Church in
+        Providence, Rhode Island. The collection includes meeting minutes and reports, letters of
+        dismissions, and a rejected proposal related to the church's property and the Rhode Island
+        Home Missionary Society.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>Materials in this collection have been arranged in chronological order, by start date.</p>
+    </arrangement>
+    <controlaccess>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025732" source="lcsh">
+        <part>Church property.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <corpname identifier="n96058880" source="lcnaf">
+        <part>North Congregational Church (Providence, R.I.)</part>
+      </corpname>
+      <corpname identifier="n96058818" source="lcnaf">
+        <part>Rhode Island Home Missionary Society</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="file">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1895">1895</fromdate>
+              <todate standarddate="1909">1909</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1895-1909</unitdate>
+          <container label="Mixed Materials" localtype="box">Small 10</container>
+          <container localtype="folder">10</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Letters of dismission</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1904">1904</fromdate>
+              <todate standarddate="1916">1916</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1904-1916</unitdate>
+          <container label="Mixed Materials" localtype="box">Small 10</container>
+          <container localtype="folder">11</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Meeting minutes and reports</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1909">1909</fromdate>
+              <todate standarddate="1911">1911</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1909-1911</unitdate>
+          <container label="Mixed Materials" localtype="box">Small 10</container>
+          <container localtype="folder">12</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Plan of settlement of differences</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1912">1912</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">Small 10</container>
+          <container localtype="folder">13</container>
+        </did>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
