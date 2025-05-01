@@ -22,11 +22,9 @@
           <addressline>Boston, MA 02108</addressline>
           <addressline localtype="business">617-523-0470</addressline>
           <addressline localtype="email">info@14beacon.org</addressline>
-          <addressline>
-            <ref href="http://www.CongregationalLibrary.org"
+          <addressline><ref href="http://www.CongregationalLibrary.org"
               linktitle="http://www.CongregationalLibrary.org" show="new"
-              >http://www.CongregationalLibrary.org</ref>
-          </addressline>
+              >http://www.CongregationalLibrary.org</ref></addressline>
         </address>
         <date>2025-01-06</date>
         <num>MS5410</num>
@@ -51,11 +49,19 @@
     <maintenancehistory>
       <maintenanceevent>
         <eventtype value="derived"/>
-        <eventdatetime>2025-01-06T18:44:03+00:00</eventdatetime>
+        <eventdatetime>2025-05-01T18:27:26+00:00</eventdatetime>
         <agenttype value="machine"/>
         <agent>ArchivesSpace v3.2.0</agent>
-        <eventdescription>This finding aid was produced using ArchivesSpace on Monday January 6,
-          2025 at 18:44</eventdescription>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Thursday May 1, 2025
+          at 18:27</eventdescription>
+      </maintenanceevent>
+      <maintenanceevent>
+        <eventtype value="revised"/>
+        <eventdatetime>2025-05-01</eventdatetime>
+        <agenttype value="human"/>
+        <agent/>
+        <eventdescription>Zachary Bodnar: Accrual to the collection processed and added to the
+          finding aid.</eventdescription>
       </maintenanceevent>
     </maintenancehistory>
   </control>
@@ -123,7 +129,7 @@
     <acqinfo>
       <head>Acquisition Information</head>
       <p>Materials were donated to the Congregational Library and Archive by Ellen B. Clark in
-        February 2020 and September 2022; 2020-03, 2022-19.</p>
+        February 2020, September 2022, and April 2025; 2020-03, 2022-19, 2025-11.</p>
     </acqinfo>
     <processinfo>
       <head>Processing Information</head>
@@ -172,10 +178,10 @@
       <subject identifier="sh85025741" source="lcsh">
         <part>Church records and registers.</part>
       </subject>
-      <corpname identifier="n50055208" source="lcnaf">
+      <corpname identifier="n50055208 " source="lcnaf">
         <part>American Congregational Association.</part>
       </corpname>
-      <corpname identifier="no2001089738" source="lcnaf">
+      <corpname identifier="2001089738" source="lcnaf">
         <part>Central Congregational Church (Jamaica Plain, Boston, Mass.)</part>
       </corpname>
       <corpname rules="rda" source="local">
@@ -188,7 +194,7 @@
         <part>First Congregational Church (East Longmeadow, Mass.)</part>
       </corpname>
       <corpname rules="rda" source="local">
-        <part>First Congregational Church (Gardner, Mass.)</part>
+        <part>First Congregational Church ((Gardner, Mass.))</part>
       </corpname>
       <corpname rules="rda" source="local">
         <part>First Congregational Church (Hyde Park, Boston, Mass.)</part>
@@ -267,6 +273,17 @@
         </scopecontent>
         <c level="file">
           <did>
+            <unittitle>Junior high guidebook</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1960">circa 1960</datesingle>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">circa 1960</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">32</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
             <unittitle>Pilgrim United Church of Christ (New Bedford) merger records</unittitle>
             <unitdatestructured datechar="creation" unitdatetype="inclusive">
               <daterange>
@@ -281,12 +298,56 @@
         </c>
         <c level="file">
           <did>
+            <unittitle>Pinewood junior high conference records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1962">1962</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">33</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Camp photographs</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1962">1962</fromdate>
+                <todate standarddate="1964">1964</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">circa 1962-1964</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">34</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
             <unittitle>Shrewsbury: A Church Extension Analysis</unittitle>
             <unitdatestructured datechar="creation" unitdatetype="inclusive">
               <datesingle standarddate="1963">1963</datesingle>
             </unitdatestructured>
             <container label="Mixed Materials" localtype="box">1</container>
             <container localtype="folder">2</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Camp Chimney Corners records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1963">1963</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">35</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Deering junior high conference records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1964">1964</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">36</container>
           </did>
         </c>
         <c level="file">
