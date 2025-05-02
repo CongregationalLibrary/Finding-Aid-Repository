@@ -7,10 +7,11 @@
     <recordid
       instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/ACA-4360.xml"
       >ACA-4360</recordid>
-    <representation localtype="pdf" href="https://www.congregationallibrary.org/sites/all/files/ACA-4360.pdf"/>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/default/files/FindingAids/ACA-4360.pdf"/>
     <filedesc>
       <titlestmt>
-        <titleproper>American Congregational Association records, 1846-2022.</titleproper>
+        <titleproper>American Congregational Association records, 1846-2022. </titleproper>
         <author>Zachary Bodnar</author>
       </titlestmt>
       <publicationstmt>
@@ -43,10 +44,10 @@
       <citation>Describing Archives: A Content Standard</citation>
     </conventiondeclaration>
     <rightsdeclaration>
-      <citation href="https://creativecommons.org/publicdomain/zero/1.0/">This record is made
-        available under a Universal 1.0 Public Domain Dedication Creative Commons
-        license.</citation>
       <abbr>public_domain</abbr>
+      <citation href="https://creativecommons.org/publicdomain/zero/1.0/">This record is made
+        available under an Universal 1.0 Public Domain Dedication Creative Commons
+        license.</citation>
       <descriptivenote>
         <p>The Congregational Library &amp; Archives makes all bibliographic records, and the
           metadata contained therein, freely available to the public, and are considered to be in
@@ -59,11 +60,19 @@
     <maintenancehistory>
       <maintenanceevent>
         <eventtype value="derived"/>
-        <eventdatetime>2023-04-14T13:14:06+00:00</eventdatetime>
+        <eventdatetime>2025-05-02T14:06:23+00:00</eventdatetime>
         <agenttype value="machine"/>
         <agent>ArchivesSpace v3.2.0</agent>
-        <eventdescription>This finding aid was produced using ArchivesSpace on Friday April 14, 2023
-          at 13:14</eventdescription>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Friday May 2, 2025 at
+          14:06</eventdescription>
+      </maintenanceevent>
+      <maintenanceevent>
+        <eventtype value="revised"/>
+        <eventdatetime>2025-05-02</eventdatetime>
+        <agenttype value="human"/>
+        <agent/>
+        <eventdescription>Zachary Bodnar: Additional architectural drawings and plans related to the
+          2019 renovation added to the collection.</eventdescription>
       </maintenanceevent>
     </maintenancehistory>
   </control>
@@ -109,7 +118,7 @@
         of Directors, the Finances of the Association, the management of the Association's building
         portfolio, and the management of the Congregational Library &amp; Archives.</abstract>
       <origination label="Creator">
-        <corpname identifier="n 50055208 " rules="rda" source="naf">
+        <corpname identifier="n50055208 " source="lcnaf">
           <part>American Congregational Association.</part>
         </corpname>
       </origination>
@@ -129,8 +138,8 @@
         </corpname>
       </origination>
       <origination label="Creator">
-        <persname rules="AACR2" source="naf">
-          <part>Langworthy, Isaac P. (Isaac Pendleton)</part>
+        <persname identifier="n90639044" rules="rda" source="lcnaf">
+          <part>Langworthy, Isaac P. (Isaac Pendleton), 1806-1888</part>
         </persname>
       </origination>
       <origination label="Creator">
@@ -164,9 +173,9 @@
       <p>This collection is the internal permanent collection of the American Congregational
         Association, and by relation, the Congregational Library &amp; Archives. Records for this
         collection have been gathered over the history of Library as part of the Library's records
-        management duties. Additional records have been provided to for inclusion into the
-        collection by board members after they have stepped down from board duties. The collection
-        regularly receives accruals of additional materials.</p>
+        management duties. Additional records have been provided for inclusion into the collection
+        by board members after they have stepped down from board duties. The collection regularly
+        receives accruals of additional materials.</p>
     </acqinfo>
     <accruals>
       <head>Accruals</head>
@@ -465,7 +474,7 @@
       <subject identifier="sh85113044" source="lcsh">
         <part>Research libraries</part>
       </subject>
-      <corpname identifier="n 50055208 " rules="rda" source="naf">
+      <corpname identifier="n50055208 " source="lcnaf">
         <part>American Congregational Association.</part>
       </corpname>
       <corpname rules="rda" source="naf">
@@ -474,8 +483,8 @@
       <corpname rules="AACR2" source="naf">
         <part>Congregational Library Association.</part>
       </corpname>
-      <persname rules="AACR2" source="naf">
-        <part>Langworthy, Isaac P. (Isaac Pendleton)</part>
+      <persname identifier="n90639044" rules="rda" source="lcnaf">
+        <part>Langworthy, Isaac P. (Isaac Pendleton), 1806-1888</part>
       </persname>
       <persname rules="rda" source="local">
         <part>Worthley, Harold Field</part>
@@ -7275,10 +7284,24 @@
           <c level="file">
             <did>
               <unittitle>Renovation project drawings</unittitle>
-              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="2018">2018</fromdate>
+                  <todate standarddate="2020">2020</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+                >2018-2020</unitdate>
+              <container label="Mixed Materials" localtype="folder">25</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Approved 100% construction documents/bid set</unittitle>
+              <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
                 <datesingle standarddate="2019">2019</datesingle>
               </unitdatestructured>
-              <container label="Mixed Materials" localtype="folder">25</container>
+              <container label="Mixed Materials" localtype="folder">26</container>
             </did>
           </c>
           <c level="file">
