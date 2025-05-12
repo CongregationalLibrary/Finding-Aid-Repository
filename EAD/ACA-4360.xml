@@ -332,7 +332,7 @@
         </defitem>
         <defitem>
           <label>Series 3:</label>
-          <item>Building records, 1846-2019</item>
+          <item>Building records, 1846-2020</item>
         </defitem>
         <defitem>
           <label>Subseries 1:</label>
@@ -356,7 +356,7 @@
         </defitem>
         <defitem>
           <label>Subseries 6:</label>
-          <item>Architectural drawings, 1897-2019</item>
+          <item>Architectural drawings, 1897-2020</item>
         </defitem>
         <defitem>
           <label>Subseries 7:</label>
@@ -5835,7 +5835,7 @@
         <did>
           <unittitle>Building records</unittitle>
           <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
-            <quantity>165</quantity>
+            <quantity>167</quantity>
             <unittype>Folders</unittype>
           </physdescstructured>
           <physdescstructured coverage="part" physdescstructuredtype="materialtype">
@@ -5849,11 +5849,11 @@
           <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
             <daterange>
               <fromdate standarddate="1846">1846</fromdate>
-              <todate standarddate="2019">2019</todate>
+              <todate standarddate="2020">2020</todate>
             </daterange>
           </unitdatestructured>
           <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
-            >1846-2019</unitdate>
+            >1846-2020</unitdate>
         </did>
         <scopecontent>
           <head>Scope and Contents</head>
@@ -6998,8 +6998,8 @@
         <c level="subseries">
           <did>
             <unittitle>Architectural drawings</unittitle>
-            <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
-              <quantity>30</quantity>
+            <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+              <quantity>32</quantity>
               <unittype>Folders</unittype>
             </physdescstructured>
             <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
@@ -7009,11 +7009,11 @@
             <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
               <daterange>
                 <fromdate standarddate="1897">1897</fromdate>
-                <todate standarddate="2019">2019</todate>
+                <todate standarddate="2020">2020</todate>
               </daterange>
             </unitdatestructured>
             <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
-              >1897-2019</unitdate>
+              >1897-2020</unitdate>
           </did>
           <scopecontent>
             <head>Scope and Contents</head>
@@ -7293,6 +7293,15 @@
               <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
                 >2018-2020</unitdate>
               <container label="Mixed Materials" localtype="folder">25</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Schematic design sett</unittitle>
+              <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+                <datesingle standarddate="2018">2018</datesingle>
+              </unitdatestructured>
+              <container label="Mixed Materials" localtype="folder">27</container>
             </did>
           </c>
           <c level="file">
