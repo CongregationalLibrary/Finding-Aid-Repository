@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/ProvidenceRIPlymouthUnion-5552.xml"
+      >ProvidenceRIPlymouthUnion-5552</recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/default/files/FindingAids/ProvidenceRIPlymouthUnion-5552.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Providence, R.I. Plymouth-Union Congregational Church records,
+          1870-1932.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2025-05-12</date>
+        <num>RG5552</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2025-05-13T18:42:34+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Tuesday May 13, 2025
+          at 18:42</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Providence, R.I. Plymouth-Union Congregational Church records,
+        1870-1932.</unittitle>
+      <unitid>RG5552</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>3</quantity>
+        <unittype>Folders</unittype>
+      </physdescstructured>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1870">1870</fromdate>
+          <todate standarddate="1932">1932</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1870-1932</unitdate>
+      <abstract>The Plymouth Congregational Church was formed in 1878 and the Union Congregational
+        Church was formed in 1871. Construction on the Plymouth Church was completed in 1919. Both
+        churches merged in 1927 to form the Plymouth-Union Congregational Church. Due to decreased
+        membership, the church dissolved in 1971. The church building was transferred to the Holy
+        Cross Church of God in Christ in 1971 and then to Iglesia Visión Evangélica in 2016. In
+        2021, the church building was added to the National Register of Historic Places. This
+        collection contains three folders of historical items related to the Plymouth-Union
+        Congregational Church in Providence, Rhode Island, and its two predecessor churches, the
+        Plymouth Congregational Church and the Union Congregational Church. The folders contain
+        clippings, directories, photographs, and meeting minutes.</abstract>
+      <origination label="Creator">
+        <corpname identifier="n96058881" source="lcnaf">
+          <part>Plymouth-Union Congregational Church (Providence, R.I.)</part>
+        </corpname>
+      </origination>
+      <origination label="Creator">
+        <corpname identifier="n96058885" source="lcnaf">
+          <part>Plymouth Congregational Church (Providence, R.I.)</part>
+        </corpname>
+      </origination>
+      <origination label="Creator">
+        <corpname identifier="n96058886" source="lcnaf">
+          <part>Union Congregational Church (Providence, R.I.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Providence, R.I. Plymouth-Union Congregational Church
+        records, 1870-1932, RG5552. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by the Rhode Island
+        Conference of the United Church of Christ in April 1984; no acquisition information.</p>
+    </acqinfo>
+    <custodhist>
+      <head>Custodial History</head>
+      <p>The contents of this collection were organized and documented by Rev. J. Wesley Prince in
+        1979 before they were given to the Rhode Island Conference of the United Church of Christ.
+        It is likely that some, if not all, of the materials were originally kept in scrapbooks
+        prior to their current arrangement.</p>
+    </custodhist>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Processed by Zachary Bodnar, May 2025, according to the rules of Describing Archives: A
+        Content Standard.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>The Plymouth Congregational Church was formed in 1878, though a chapel for the community
+        had been around since 1871. The first church building was constructed on Richardson Street,
+        now Pennsylvania Avenue, in South Providence, Rhode Island. Construction on a new church
+        building began in 1915 and was completed in 1919. The building was designed by George F.
+        Newton of Boston. The church and building continued to serve the community until 1927 when
+        the Plymouth Congregational Church and Union Congregational Church merged to form the
+        Plymouth-Union Congregational Church.</p>
+      <p>The Union Congregational Church was formed in 1871 with the merging of the Richmond Street
+        and High Street Churches. Construction on a new church building for the Union Congregational
+        Church on Broad Street was completed in 1872. By the 1920s, membership at the Union
+        Congregational Church had declined significantly. By 1927, it was agreed that the Plymouth
+        and Union Congregational Churches would merge to form the Plymouth-Union Congregational
+        Church. The Union Congregational Church's building was sold in favor of keeping the Plymouth
+        Church's building.</p>
+      <p>In 1928, Dr. Samuel T. Clifton became the Plymouth-Union Congregational Church's first
+        minister. In 1944, a stained-glass window designed by Hiemer &amp; Co. was installed in the
+        south wall of the church building. J. Wesley Prince was installed as minister of the church
+        in 1946. Membership in the church began to decline during the 1940s and continued to decline
+        through the 50s and 60s, largely due to changes in the demographics of South Providence.
+        During this time, the church building was shared with the Central Christian Church of
+        Warwick and the South Baptist Church of Providence. J. Wesley Prince remained minister at
+        the church until 1969. In 1971, the church was dissolved and the church building was
+        transferred to the Rhode Island Conference of the United Church of Christ.</p>
+      <p>The building was then transferred to the Holy Cross Church of God in Christ, an
+        historically black congregation that had previously been firebombed at its previous location
+        in Providence, on December 26, 1971. The Holy Cross Church of God in Christ closed in 2015
+        and in 2016 the Plymouth Church building was transferred to Iglesia Visión Evangélica. The
+        church building was added to the National Register of Historic Places in March 2021; the
+        nomination was significant as the first bilingual nomination to be submitted to the
+        NHRP.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains three folders of historical items related to the Plymouth-Union
+        Congregational Church in Providence, Rhode Island, and its two predecessor churches, the
+        Plymouth Congregational Church and the Union Congregational Church. The titles of the
+        folders were derived from titles created by Rev. J. Wesley Prince, however, the contents of
+        the folders seem to include materials from potentially all three churches. It is likely that
+        the contents of the folders were once kept in scrapbooks before their current arrangement.
+        The folders contain worship bulletins, clippings, directories, financial records,
+        photographs, meeting minutes, reports, mortgage documents, and anniversary brochures.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>Materials in this collection have been arranged into chronological order by start date.</p>
+    </arrangement>
+    <relatedmaterial>
+      <head>Related Materials</head>
+      <p><ref href="https://www.rihs.org/mssinv/Mss139.htm" linktitle="View finding aid">Plymouth
+          Union Congregational Church Records, 1720-1974, MSS 139</ref>. <ref
+          href="https://www.rihs.org/locations/mary-elizabeth-robinson-research-center/"
+          linktitle="visit the Mary Elizabeth Robinson Research Center">Mary Elizabeth Robinson
+          Research Center</ref>, Rhode Island Historical Society.</p>
+    </relatedmaterial>
+    <controlaccess>
+      <subject identifier="sh85025606" source="lcsh">
+        <part>Church finance.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85087395" source="lcsh">
+        <part>Mortgages.</part>
+      </subject>
+      <subject identifier="sh85101195" source="lcsh">
+        <part>Photographs. </part>
+      </subject>
+      <subject identifier="sh85118923" source="lcsh">
+        <part>Scrapbooks.</part>
+      </subject>
+      <corpname identifier="n96058885" source="lcnaf">
+        <part>Plymouth Congregational Church (Providence, R.I.)</part>
+      </corpname>
+      <corpname identifier="n96058881" source="lcnaf">
+        <part>Plymouth-Union Congregational Church (Providence, R.I.)</part>
+      </corpname>
+      <corpname identifier="n79043372" source="lcnaf">
+        <part>Providence (R.I.) -- Church history.</part>
+      </corpname>
+      <corpname identifier="n96058886" source="lcnaf">
+        <part>Union Congregational Church (Providence, R.I.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="file">
+        <did>
+          <unittitle>Historical items from the history of Union Congregational Church</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1870">1870</fromdate>
+              <todate standarddate="1932">1932</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1870-1932</unitdate>
+          <container label="Mixed Materials" localtype="box">Small 9</container>
+          <container localtype="folder">24</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Historical items from the history of the Plymouth Congregational
+            Church</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1871">1871</fromdate>
+              <todate standarddate="1903">1903</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1871-1903</unitdate>
+          <container label="Mixed Materials" localtype="box">Small 9</container>
+          <container localtype="folder">25</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Historical items from the history of the Plymouth Union church</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1903">1903</fromdate>
+              <todate standarddate="1928">1928</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1903-1928</unitdate>
+          <container label="Mixed Materials" localtype="box">Small 9</container>
+          <container localtype="folder">26</container>
+        </did>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
