@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid instanceurl="TBD">MCCS-0120</recordid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Massachusetts Congregational Charitable Society records, 1786-1954. </titleproper>
+        <author>Jenny Giri</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2025-10-20</date>
+        <num>RG0120</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>translation missing: en.enumerations.resource_finding_aid_description_rules.DACS
+        2019.0.3</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2025-10-20T20:02:41+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Monday October 20,
+          2025 at 20:02</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Massachusetts Congregational Charitable Society records, 1786-1954.</unittitle>
+      <unitid>RG0120</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>.97</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(3 boxes)</physdesc>
+      <unitdatestructured calendar="gregorian" certainty="approximate" datechar="creation"
+        unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1786">1786</fromdate>
+          <todate standarddate="1954">1954</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" certainty="approximate" datechar="creation"
+        unitdatetype="inclusive">1786-1954</unitdate>
+      <abstract>This collection contains various records from The Massachusetts Congregational
+        Charitable Society which formed on March 24, 1786, when their Act of Incorporation was
+        passed and signed. The Society served and continues to serve as financial support for widows
+        and children of deceased Congregational ministers, and this is reflected in the collection
+        in the form of grant applications, correspondence with beneficiaries, and financial
+        statements.</abstract>
+      <origination label="Creator">
+        <corpname rules="AACR2" source="naf">
+          <part>Massachusetts Congregational Charitable Society</part>
+        </corpname>
+      </origination>
+      <origination label="Creator">
+        <corpname rules="rda">
+          <part>Maine Congregational Charitable Society</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head> Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item] in the Massachusetts Congregational Charitable Society records,
+        1786-1954, RG0120. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>No acquisition information is available for this collection.</p>
+    </acqinfo>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Originally processed in June 1992. Re-processed by Jenny Giri, October 2025, using DACS
+        Second Edition.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>Beginning as a fund within the Massachusetts Convention of Congregational Ministers, The
+        Massachusetts Congregational Charitable Society formed on March 24, 1786, when their Act of
+        Incorporation was passed and signed. After incorporation, the Society maintained a close
+        relationship to the Convention who continued to contribute funds to the Society. The aim of
+        the Society was to provide annual financial relief for widows and children of deceased
+        Congregational ministers.</p>
+      <p>In the early 19th century, Congregationalism in New England split into two distinct wings.
+        The Charitable Society continued to serve both without interruption, and still currently
+        serve both the families of Unitarian Universalist and United Church of Christ ministers.
+        Shortly after 1820 when Maine achieved statehood, a separate Maine Congregational Charitable
+        Society was incorporated, although today the funds from the Massachusetts Society support
+        families in both states.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains various records created by the Massachusetts Congregational
+        Charitable Society from its inception in 1786. It is comprised of financial and
+        administrative records.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>The Massachusetts Congregational Charitable Society records have been arranged into the two
+        series listed below. Within each series materials have been primarily arranged in
+        chronological order by start date. When appropriate, similar and continuous materials have
+        been grouped together.</p>
+      <p><emph render="italic">Series 1:</emph> Finances, 1787-1917</p>
+      <p><emph render="italic">Series 2:</emph> Administration, 1786-1954</p>
+    </arrangement>
+    <relatedmaterial>
+      <head>Related Materials</head>
+      <p>Additional records related to the Massachusetts Congregational Charitable Society can be
+        found at the Harvard Divinity School Library, bMS 00504 and the Massachusetts Historical
+        Society, Ms. N-511.</p>
+    </relatedmaterial>
+    <bibliography>
+      <head>Bibliography</head>
+      <p>"An historical sketch of the Convention of the Congregational Ministers in Massachusetts :
+        with an account of its funds, its connexion with the Massachusetts Congregational Charitable
+        Society, and its rules and regulations, MDCCCXXI. (1821), 9.3 2047. The Congregational
+        Library &amp; Archives, Boston, MA."</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh 85022672" source="lcsh">
+        <part>Charity</part>
+      </subject>
+      <subject identifier="sh85025766" source="lcsh">
+        <part>Church societies.</part>
+      </subject>
+      <subject identifier="dg2015060401" source="lcsh">
+        <part>Clergy</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Congregationalism--New England</part>
+      </subject>
+      <subject identifier="sh85032905" source="lcsh">
+        <part>Corporate minutes.</part>
+      </subject>
+      <subject identifier="sh85033035" source="lcsh">
+        <part>Correspondence.</part>
+      </subject>
+      <genreform identifier="sh 85048313 " source="lcsh">
+        <part>Financial Statements</part>
+      </genreform>
+      <subject source="lcsh">
+        <part>Widows--United States--Economic conditions</part>
+      </subject>
+      <corpname rules="AACR2" source="naf">
+        <part>Massachusetts Congregational Charitable Society</part>
+      </corpname>
+      <corpname rules="rda">
+        <part>Maine Congregational Charitable Society</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 level="series">
+        <did>
+          <unittitle>Finances</unittitle>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>14</quantity>
+            <unittype>Items</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" certainty="approximate" datechar="creation"
+            unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1787">1787</fromdate>
+              <todate standarddate="1917">1917</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" certainty="approximate" datechar="creation"
+            unitdatetype="inclusive">1787-1917</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains financial records in the form of both paper reports and 2 volumes.
+            This includes Treasurer's Reports, donation information, and beneficiary
+            information.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>Bequest Information</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1787">1787</fromdate>
+                <todate standarddate="1857">1857</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1787-1857</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">2</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Financial Statements</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1810">1810</fromdate>
+                <todate standarddate="1821">1821</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1810-1821</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">2</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Financial Statements</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1822">1822</fromdate>
+                <todate standarddate="1839">1839</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1822-1839</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">3</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Financial Statements</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1841">1841</fromdate>
+                <todate standarddate="1860">1860</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1841-1860</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">4</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Financial Statements</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1861">1861</fromdate>
+                <todate standarddate="1875">1875</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1861-1875</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">5</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Financial Statements</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1877">1877</fromdate>
+                <todate standarddate="1896">1896</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1877-1896</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">6</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Financial Statements</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1896">1896</fromdate>
+                <todate standarddate="1917">1917</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1896-1917</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">7</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Beneficiary Information</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1817">1817</fromdate>
+                <todate standarddate="1856">1856</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1817-1856</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">8</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Beneficiary Information</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1858">1858</fromdate>
+                <todate standarddate="1873">1873</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1858-1873</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">9</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Beneficiary Information</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1867">1867</fromdate>
+                <todate standarddate="1871">1871</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1867-1871</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">10</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Beneficiary Information</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1880">1880</fromdate>
+                <todate standarddate="1885">1885</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1880-1885</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="volume">2</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Beneficiary Information</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1886">1886</fromdate>
+                <todate standarddate="1899">1899</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1886-1899</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">11</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Beneficiary Information</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1886">1886</fromdate>
+                <todate standarddate="1903">1903</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1886-1903</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="volume">1</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Beneficiary Information</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1901">1901</fromdate>
+                <todate standarddate="1917">1917</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1901-1917</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">12</container>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Administration</unittitle>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>17</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" certainty="approximate" datechar="creation"
+            unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1786">1786</fromdate>
+              <todate standarddate="1954">1954</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" certainty="approximate" datechar="creation"
+            unitdatetype="inclusive">1786-1954</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains internal administrative records such as committee reports, acts of
+            incorporation, by-laws, and meeting minutes. It also contains all correspondence with
+            beneficiaries and members, including grant applications sent by families of deceased
+            ministers.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>Internal Policies &amp; Membership</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1786">1786</fromdate>
+                <todate standarddate="1889">1889</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1786-1889</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">1</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Miscellaneous</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1807">1807</fromdate>
+                <todate standarddate="1813">1813</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1807, 1813</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">10</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Assorted Meeting Minutes</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1820">1820</fromdate>
+                <todate standarddate="1829">1829</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1820, 1829</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">6</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Correspondence with Maine Congregational Charitable Society</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1821">1821</fromdate>
+                <todate standarddate="1839">1839</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1821-1839</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">3</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Committee Reports</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1851">1851</fromdate>
+                <todate standarddate="1862">1862</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1851-1852, 1862</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">7</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Internal Administration</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1860">1860</fromdate>
+                <todate standarddate="1903">1903</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1860-1903</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">4</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Administrative Correspondence</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1867">1867</fromdate>
+                <todate standarddate="1903">1903</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1867-1903</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">5</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Correspondence with Massachusetts Convention of Congregational
+              Ministers</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1868">1868</fromdate>
+                <todate standarddate="1893">1893</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1868-1893</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">13</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Applications</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1948">1948</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">1</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Applications</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1949">1949</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">2</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Applications</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1950">1950</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">3</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Applications</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1951">1951</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">4</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Applications</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1952">1952</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">5</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Applications</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1953">1953</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">6</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Applications</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1954">1954</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">1</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Committee Reports</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">8</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Death Notices</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">9</container>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
