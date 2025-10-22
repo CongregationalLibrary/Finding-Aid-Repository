@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/PhiladelphiaPAFirstChristian-5488.xml"
+      >PhiladelphiaPAFirstChristian-5488</recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/default/files/FindingAids/PhiladelphiaPAFirstChristian-5488.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Philadelphia, Pa. First Christian Church records, 1835-1974.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2025-10-22</date>
+        <num>RG5488</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2025-10-22T19:34:49+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday October 22,
+          2025 at 19:34</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Philadelphia, Pa. First Christian Church records, 1835-1974.</unittitle>
+      <unitid>RG5488</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>1.09</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(1 box, 1 oversize folder)</physdesc>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1835">1835</fromdate>
+          <todate standarddate="1974">1974</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1835-1974</unitdate>
+      <abstract>The First Church of the Disciples of Christ in Philadelphia was chartered in 1841.
+        In 1912, Irving S. Chenoweth became the past of the First Christian Church and under his
+        leadership a new church building was constructed in 1917. The church joined with the United
+        Church of Christ after 1957. This collection contains membership and administrative records
+        and includes meeting minutes, newsletters, and vital membership records.</abstract>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">
+          <part>First Christian Church (Philadelphia, Pa.)</part>
+        </corpname>
+      </origination>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">
+          <part>First Church of Disciples (Philadelphia, Pa.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Philadelphia, Pa. First Christian Church records,
+        1835-1974, RG5488. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by the Evangelival
+        &amp; Reformed Library &amp; Archives in January 2024; 2024-01.</p>
+    </acqinfo>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Processed for the CLA by Zachary Bodnar, October 2025, according to Describing Archives: A
+        Content Standard.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>The First Church of the Disciples of Christ in Philadelphia was chartered in 1841, though
+        the church's membership roll dates back to 1835. By the twentieth century, the church was
+        more commonly called the First Christian Church. The church was located at the intersection
+        of Berks and Marvine Streets. The church was evidently struggling in 1912 when Irving S.
+        Chenoweth became pastor. Chenoweth was born in 1883 and graduated from the Union Theological
+        Seminary in 1911. Under Chenowith's leadership, the struggling church changed locations to
+        one at the intersections of Tenth Street and Boulevard. First services at the new location
+        were held on May 21, 1917. At some point after 1957, the church joined the United Church of
+        Christ. It is unclear if the church continues to exist today in some form or fashion.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains membership and administrative records for the First Christian
+        Church in Philadelphia, Pennsylvania. The collection includes baptismal records, membership
+        records, marriage records, records of deaths, church and board meeting minutes, newsletters,
+        ladies aid society records, and an 1841 charter for the church.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>This collection has been arranged into chronological order, by start date, with like and
+        continuous materials grouped together.</p>
+    </arrangement>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <subject identifier="sh85090572" source="lcsh">
+        <part>Necrologies.</part>
+      </subject>
+      <subject identifier="sh85091572" source="lcsh">
+        <part>Newsletters.</part>
+      </subject>
+      <persname rules="rda" source="local">
+        <part>Chenoweth, Irving S.</part>
+      </persname>
+      <corpname rules="rda" source="local">
+        <part>First Christian Church (Philadelphia, Pa.)</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>First Church of Disciples (Philadelphia, Pa.)</part>
+      </corpname>
+      <corpname identifier="n78095520" source="lcnaf">
+        <part>Philadelphia (Pa.) -- Church history</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="file">
+        <did>
+          <unittitle>Membership records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1835">1835</fromdate>
+              <todate standarddate="1938">1938</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1835-1938</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">1</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>First Church of Disciples charter</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1841">1841</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="folder">6</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1867">1867</fromdate>
+              <todate standarddate="1885">1885</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1867-1885</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">6</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1892">1892</fromdate>
+              <todate standarddate="1912">1912</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1892-1912</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">7</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Ladies aid society minutes</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1904">1904</fromdate>
+              <todate standarddate="1923">1923</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1904-1923</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">14</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1911">1911</fromdate>
+              <todate standarddate="1920">1920</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1911-1920</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">8</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Board records and minutes</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1920">1920</fromdate>
+              <todate standarddate="1923">1923</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1920-1923</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">9</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Board records and minutes</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1939">1939</fromdate>
+              <todate standarddate="1942">1942</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1939-1942</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">10</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Board records and minutes</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1943">1943</fromdate>
+              <todate standarddate="1956">1956</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1943-1956</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">11</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Board records and minutes</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1954">1954</fromdate>
+              <todate standarddate="1974">1974</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1954-1974</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">12</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Newsletters</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1921">1921</fromdate>
+              <todate standarddate="1922">1922</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1921-1922</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">15</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Newsletters</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1922">1922</fromdate>
+              <todate standarddate="1923">1923</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1922-1923</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">16</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Newsletters</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1923">1923</fromdate>
+              <todate standarddate="1924">1924</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1923-1924</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">17</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Newsletters</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1924">1924</fromdate>
+              <todate standarddate="1926">1926</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1924-1926</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">18</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Newsletters</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1926">1926</fromdate>
+              <todate standarddate="1928">1928</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1926-1928</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">19</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Newsletters</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1928">1928</fromdate>
+              <todate standarddate="1929">1929</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1928-1929</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">20</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Newsletters</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1929">1929</fromdate>
+              <todate standarddate="1930">1930</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1929-1930</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">21</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Historic Memoir: Irving S. Chenoweth and the First Christian Church of
+            Philadelphia</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1930">1930</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">5</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Baptismal records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1938">1938</fromdate>
+              <todate standarddate="1965">1965</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1938-1965</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">2</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Cradle roll</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1943">1943</fromdate>
+              <todate standarddate="1967">1967</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1943-1967</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">4</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Church meeting minutes</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1943">1943</fromdate>
+              <todate standarddate="1974">1974</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1943-1974</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">13</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Membership records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1954">1954</fromdate>
+              <todate standarddate="1968">1968</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1954-1968</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">3</container>
+        </did>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
