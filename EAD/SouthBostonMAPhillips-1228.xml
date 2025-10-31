@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/SouthBostonMAPhillips-1228.xml"
+      >SouthBostonMAPhillips-1228</recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/default/files/FindingAids/SouthBostonMAPhillips-1228.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>South Boston, Boston, Mass. Phillips Church records, 1823-2003.</titleproper>
+        <author>Randall Seder</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2025-10-31</date>
+        <num>RG1228</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2025-10-31T19:56:00+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Friday October 31,
+          2025 at 19:56</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>South Boston, Boston, Mass. Phillips Church records, 1823-2003.</unittitle>
+      <unitid>RG1228</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>2.25</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(3 boxes; 1 oversized file folder)</physdesc>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1823">1823</fromdate>
+          <todate standarddate="2003">2003</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1823-2003</unitdate>
+      <abstract>Phillips Church was founded on December 10, 1823, under the name of "The Evangelical
+        Congregational Church of South Boston" by an Ecclesiastical council of thirteen original
+        members. Services were held in Union Hall on Fourth Street, between B and C Streets, until
+        March 9, 1924, when a small brick church was erected at the corner of Broadway and A street.
+        On March 25, 1834, the church was incorporated. It was named after the first mayor of
+        Boston, John Phillips. A larger wooden church was built in 1836 at the same location on
+        Broadway and A Street. Services were held there until the building was sold in 1858. A new
+        building was erected on Broadway, near Dorchester Street, and the first service was held on
+        November 5, 1858. In 1879, the Church's location on Broadway underwent extensive
+        renovations, and the new edifice was rededicated on December 10. The Phillips Church joined
+        with Conservative Congregational Christian Conference (CCCC) in 1960. The Phillips Church
+        was dissolved circa 2003. The Phillips Church Records collection includes bound volumes of
+        church records, administrative and financial documents, and two scrapbooks containing
+        promotional materials such as programs, correspondence, news clippings, and
+        yearbooks.</abstract>
+      <origination label="Creator">
+        <corpname identifier="n98023768" source="lcnaf">
+          <part>Phillips Church (South Boston, Boston, Mass.)</part>
+        </corpname>
+      </origination>
+      <origination label="Creator">
+        <corpname identifier="n98023773" source="lcnaf">
+          <part>Evangelical Congregational Church (South Boston, Boston, Mass.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the South Boston, Boston, Mass. Phillips Church records,
+        1823-2003, RG1228. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were acquired by the Congregational Library &amp; Archives prior to August 1963.
+        The Phillips Congregational Church donated two photographs in May 1997. A further aquisition
+        of materials was likely deposited in 2003.</p>
+    </acqinfo>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>An inventory was created by Lisa Plato in 1997. The collection was processed by Jess
+        Steytler in 2008. The collection was re-processed by Randall Seder in October 2025.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>Phillips Church was founded on December 10, 1823, under the name of "The Evangelical
+        Congregational Church of South Boston" by an Ecclesiastical council of thirteen members. The
+        council consisted of three pastors and ten delegates of the Old South, Park Street, and
+        Union Churches of Boston, the First Church of Charlestown, and the Second Church of
+        Dorchester. Rev. Prince Hawes of Glastonbury, Connecticut was appointed as the church's fist
+        pastor and served the church from 1824-1827.</p>
+      <p>During the Summer of 1823, services were held in Union Hall on Fourth Street, between B and
+        C Streets. The church worshipped there until March 9, 1824, when a small brick church was
+        erected at the corner of Broadway and A street with the financial help of other local
+        churches. The property was held by twelve trustees, four each from Park Street, Old South,
+        and Union Churches.</p>
+      <p>On March 25, 1834, the Phillips Church Society was incorporated. The name was adopted
+        because it was believed that A Street would soon be renamed Phillips Street, after the first
+        mayor of Boston, John Phillips. The change was never affected, but the church's name
+        remained.</p>
+      <p>In 1836, a larger wooden church was built at the same location on Broadway and A Street.
+        There was considerable growth of services and membership after relocating to Broadway and A
+        Street. However, on June 13, 1845, the church dismissed fifty-seven members to form the
+        Payson Church. Later, on July 10, 1857, the church dismissed seventy-two members to form the
+        Church of Unity. These churches were later unified into the E Street Church. A Phillips
+        Church member council was formed to discuss the issue of decreasing membership and
+        ultimately decided against dissolution due to the loyalty of existing members. The Broadway
+        and A Street building was sold in 1858. The last service at this location was on July 27,
+        1958. A new building was erected on Broadway, near Dorchester Street, and the first services
+        were held on November 5, 1858. In 1879, the Church's location on Broadway underwent
+        extensive renovations and the new edifice was rededicated on December 10.</p>
+      <p>The Phillips Church joined with Conservative Congregational Christian Conference (CCCC) in
+        1960. The Phillips Church was dissolved circa 2003.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection focusses on administrative and promotional topics. Administrative records
+        include by-laws, statements of faith, correspondence, meeting minutes, recommendations,
+        disciplinary records, membership lists and resignations, treasurer's records, pew deeds, IRS
+        exemption information, title reports, financial records, budget reports, and audits.
+        Promotional materials include a history of Phillips Church, and two scrapbooks containing
+        programs, correspondence, news clippings, concert posters, holiday service notices,
+        conference and lecture announcements, calendars, yearbooks, and business cards.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>The Phillips Church records have been arranged into the two series listed below. Records in
+        each series have been arranged chronologically by date created. When appropriate, similiar
+        and continuous materials have been grouped together.</p>
+      <p><emph render="bold">Series 1:</emph> Administrative records, 1823-2003</p>
+      <p><emph render="bold">Series 2:</emph> Promotional materials, 1826-1928</p>
+    </arrangement>
+    <bibliography>
+      <head>Bibliography</head>
+      <p><emph render="italic">Articles of Faith and Form of Covenant, adopted by the Phillips
+          Church in South Boston. Together with the Names of The Members</emph>. "Formation." Kidder
+        and Wright, 1841. 17.11.1 B65.5 PhiCC.</p>
+      <p><emph render="italic">Articles of Faith and Form of Covenant, adopted by the Phillips
+          Church of South Boston, Together with The Names of The Members</emph>. "History of
+        Phillips Church." Wright &amp; Potter, Printers, 1860. 17.11.1 B65.5 PhiCC.</p>
+      <p><emph render="italic">Manual of the Phillips Church, Boston</emph>. "Historical Sketch."
+        Alfred Mudge &amp; Sons, Printers, 1882. 17.11.1 B65.5 PhiCC.</p>
+      <p><emph render="italic">Seventy-Fifth Anniversary of Phillips Congregational Church, South
+          Boston, Mass</emph>. "Historical Address" and "Anniversary Sermon." 1898. 17.11.1 B65.5
+        PhiCC.</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh85025591" source="lcsh">
+        <part>Church correspondence.</part>
+      </subject>
+      <subject identifier="sh85025597" source="lcsh">
+        <part>Church discipline.</part>
+      </subject>
+      <subject identifier="sh85025606" source="lcsh">
+        <part>Church finance.</part>
+      </subject>
+      <subject identifier="sh85025646" source="lcsh">
+        <part>Church management.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85100506" source="lcsh">
+        <part>Pews and pew rights.</part>
+      </subject>
+      <subject identifier="sh85118923" source="lcsh">
+        <part>Scrapbooks.</part>
+      </subject>
+      <corpname identifier="n98023773" source="lcnaf">
+        <part>Evangelical Congregational Church (South Boston, Boston, Mass.)</part>
+      </corpname>
+      <corpname identifier="n98023768" source="lcnaf">
+        <part>Phillips Church (South Boston, Boston, Mass.)</part>
+      </corpname>
+      <corpname identifier="n97022695" source="lcnaf">
+        <part>South Boston (Boston, Mass.) -- Church history</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="series">
+        <did>
+          <unittitle>Administrative records</unittitle>
+          <physdescstructured coverage="part" physdescstructuredtype="materialtype">
+            <quantity>8</quantity>
+            <unittype>Volumes</unittype>
+          </physdescstructured>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>13</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1823">1823</fromdate>
+              <todate standarddate="2003">2003</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1823-2003</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>The administrative records series contains church records, by-laws, statements of
+            faith, correspondence, meeting minutes, recommendations, disciplinary records,
+            membership lists and resignations, treasurer's records, pew deeds, IRS exemption
+            information, financial records, budget reports, and audits.</p>
+        </scopecontent>
+        <c level="item">
+          <did>
+            <unittitle>Church records</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1823">1823</fromdate>
+                <todate standarddate="1942">1942</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1823-1842</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">1</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Church records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1843">1843</fromdate>
+                <todate standarddate="1860">1860</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1843-1860</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">2</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Church records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1860">1860</fromdate>
+                <todate standarddate="1878">1878</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1860-1878</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">3</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Church records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1878">1878</fromdate>
+                <todate standarddate="1892">1892</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1878-1892</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">4</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Church records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1892">1892</fromdate>
+                <todate standarddate="1911">1911</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1892-1911</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">5</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>List of subscribers</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1858">1858</fromdate>
+                <todate standarddate="1866">1866</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1858-1866</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">1</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Pew deed map</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1859">1859</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="folder">5</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Pew deeds</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1859">1859</fromdate>
+                <todate standarddate="1911">1911</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1859-1880</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">6</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Treasurer's records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1860">1860</fromdate>
+                <todate standarddate="1890">1890</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1860-1890</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">7</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Treasurer's records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1882">1882</fromdate>
+                <todate standarddate="1888">1888</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1882-1888</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">8</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Miscellaneous church records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1891">1891</datesingle>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1891</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">2</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Financial records</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1954">1954</fromdate>
+                <todate standarddate="2003">2003</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1954,
+              1981-2003</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">3</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>IRS exemption information</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1966">1966</fromdate>
+                <todate standarddate="1983">1983</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1966, 1983</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">4</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Disciplinary records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1982">1982</datesingle>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1982</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">5</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Meeting minutes, recommendations</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1982">1982</fromdate>
+                <todate standarddate="1997">1997</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1982, 1997</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">6</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Membership lists</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1983">1983</fromdate>
+                <todate standarddate="1985">1985</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1983-1985</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">7</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Financial records, budget reports, audits</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1991">1991</fromdate>
+                <todate standarddate="1998">1998</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1991-1998</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">8</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Church records correspondence</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1996">1996</fromdate>
+                <todate standarddate="1998">1998</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1996-1998</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">9</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>By-laws, statements of faith</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1997">1997</datesingle>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1997</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">10</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Membership resignations</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1997">1997</fromdate>
+                <todate standarddate="1998">1998</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1997-1998</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">11</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Title report</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1998">1998</datesingle>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1998</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">12</container>
+          </did>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unittitle>Promotional materials</unittitle>
+          <physdescstructured coverage="part" physdescstructuredtype="materialtype">
+            <quantity>2</quantity>
+            <unittype>Volumes</unittype>
+          </physdescstructured>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>1</quantity>
+            <unittype>Folder</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1826">1826</fromdate>
+              <todate standarddate="1928">1928</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1826-1928</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>The Promotional materials series contains a history of Phillips Church and two
+            scrapbooks containing programs, correspondence, news clippings, concert posters, holiday
+            service notices, conference and lecture announcements, calendars, yearbooks, and
+            business cards.</p>
+        </scopecontent>
+        <c level="item">
+          <did>
+            <unittitle>Scrapbook</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1826">1826</fromdate>
+                <todate standarddate="1905">1905</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1826-1905</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Scrapbook</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1906">1906</fromdate>
+                <todate standarddate="1913">1913</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1906-1913</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>History of Phillips Church</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1928">1928</datesingle>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1928</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">13</container>
+          </did>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
