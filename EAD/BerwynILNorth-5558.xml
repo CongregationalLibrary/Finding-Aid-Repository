@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/BerwynILNorth-5558.xml"
+      >BerwynILNorth-5558</recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/default/files/FindingAids/BerwynILNorth-5558.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Berwyn, Ill. North Berwyn Congregational Church records,
+          1910-1999.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2025-11-13</date>
+        <num>RG5558</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2025-11-14T16:38:04+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Friday November 14,
+          2025 at 16:38</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Berwyn, Ill. North Berwyn Congregational Church records, 1910-1999.</unittitle>
+      <unitid>RG5558</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>1.79</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(3 boxes)</physdesc>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1910">1910</fromdate>
+          <todate standarddate="1999">1999</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1910-1999</unitdate>
+      <abstract>On February 8, 1910, the North Berwyn Congregational Church was formally
+        established. It was initially supported, financially, by the First Church of Oak Park before
+        being supported by the Chicago Congregational Union, later known as the Chicago City
+        Missionary Society. After nearly closing during the Great Depression, the church building
+        was expanded in 1938. A new church building was constructed in 1956 and this building too
+        received an expansion almost a decade later. The church joined with the United Church of
+        Christ. Membership declined after the North Berwyn community changed during the 1970s. The
+        church dissolved circa 2008. This collection contains both administrative and membership
+        related materials and includes church records, annual reports, council records, newsletters,
+        histories, and membership records.</abstract>
+      <origination label="Creator">
+        <corpname rules="dacs" source="local">
+          <part>North Berwyn Congregational Church (Berwyn, Ill.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Berwyn, Ill. North Berwyn Congregational Church records,
+        1910-1999, RG5558. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by the Illinois
+        Conference of the United Church of Christ in December 2024; accession number 2024-46.</p>
+    </acqinfo>
+    <custodhist>
+      <head>Custodial History</head>
+      <p>The materials in this collection were given to the Illinois Conference of the United Church
+        of Christ, likely around the time of the church's dissolution. There is no further
+        documentation on how the materials arrived at the Illinois Conference.</p>
+    </custodhist>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>This collection was processed by Zachary Bodnar, December 2025, according to the rules of
+        Describing Archives: A Content Standard.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>By 1906, the First Church of Oak Park was involved in multiple home missionary projects
+        within the growing community of northern Berwyn, a Chicago suburb. These projects including
+        supporting a Sunday School and a Women's Aid Society in the community. In 1909, Rev. F. V.
+        Bastel was called to become the leader of these missionary efforts. At this time, serious
+        thought was put into establishing a permanent church in the neighborhood. In December 1909,
+        a petition of more than 30 persons was presented to the First Church of Oak Park requesting
+        the formal establishment of the North Berwyn Congregational Church. On February 8, 1910, the
+        church was formally established and the First Church of Oak Park was the primary financial
+        source for the church until 1914. After the establishment of the church, Rev. George Milne
+        was called to become the church's pastor.</p>
+      <p>After 1914, financial support for the church was transferred to the Chicago Congregational
+        Union, later known as the Chicago City Missionary Society. The church nearly closed, as the
+        suggestion of the Chicago Congregational Union, during the Great Depression, but the small
+        numbers of members at the time managed to keep the church active. The church saw growth
+        again after the great depression and expanded their church building in response with the
+        dedication for the expansion held in May 1938.</p>
+      <p>The church continued to see growth throughout the 1940s and 1950s. By the mid-1950s, the
+        church saw the need for a new church building. A new church building was constructed in 1956
+        with the dedication in October of that year. At the same time, the church became financially
+        solvent and no longer needed financial assistance from the Chicago City Missionary Society.
+        The church building saw another extension in the 1960s. The church also joined with the
+        United Church of Christ following the denominations formation in 1957.</p>
+      <p>By 1970, the population of North Berwyn had seen significant changes, with many moving
+        further out to the suburbs and the Catholic community growing. Between 1971 and 1974, the
+        North Berwyn Congregational Church shared a pastor with the Plymouth Congregational Church
+        in Maywood. In 1979, the church fully payed off the mortgage and celebrated with a mortgage
+        burning. During the 1980s and beyond, the church worked closely with the wider North Berwyn
+        community, participating in ecumenical events and opening up the church as a space for
+        community and secular groups to gather. The North Berwyn Congregational Church dissolved
+        circa 2008.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains the administrative records of the North Berwyn Congregational
+        Church as well as records documenting the activities of church's members. The collection
+        contains church records and meeting minutes, council records and meeting minutes, annual
+        reports, building and financial records, newsletters, church histories, a historical
+        scrapbook, and membership records.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>This collection has been arranged into the two series listed below. Materials within each
+        series have been arranged primarily by chronological order, with continuous materials
+        grouped together.</p>
+      <p><emph render="bold">Series 1:</emph> Administrative records, 1910-1992</p>
+      <p><emph render="bold">Series 1:</emph> Membership and church activities, 1921-1999</p>
+    </arrangement>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025666" source="lcsh">
+        <part>Church newsletters.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <subject identifier="sh85090572" source="lcsh">
+        <part>Necrologies.</part>
+      </subject>
+      <subject identifier="sh85147343" source="lcsh">
+        <part>Women -- Societies and clubs.</part>
+      </subject>
+      <corpname identifier="n82010511" source="lcnaf">
+        <part>Berwyn (Ill.) -- Church history.</part>
+      </corpname>
+      <corpname rules="dacs" source="local">
+        <part>North Berwyn Congregational Church (Berwyn, Ill.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="series">
+        <did>
+          <unittitle>Administrative records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1910">1910</fromdate>
+              <todate standarddate="1992">1992</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1910-1992</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains records related to the governance and daily business of the North
+            Berwyn Congregational Church. This series includes church records and meeting minutes,
+            board of deacons records and meeting minutes, council records and meeting minutes,
+            committee records, annual reports, and financial records.</p>
+        </scopecontent>
+        <c level="file">
+          <did>
+            <unittitle>Ecclesiastical council letter missive</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1910">1910</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">1</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Church records</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1910">1910</fromdate>
+                <todate standarddate="1931">1931</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1910-1931</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">1</container>
+          </did>
+          <separatedmaterial>
+            <head>Separated Materials</head>
+            <p>Loose materials in this volume were removed and placed in the folder labeled
+              "Membership records, 1921-1937" for preservation purposes.</p>
+          </separatedmaterial>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Church records</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1932">1932</fromdate>
+                <todate standarddate="1942">1942</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1932-1942</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">2</container>
+          </did>
+          <separatedmaterial>
+            <head>Separated Materials</head>
+            <p>Loose materials were removed from this volume and placed into the folders labeled
+              "Miscellaneous records, 1938-1957" and "Church cabinet meeting minutes, 1935-1936" for
+              preservation purposes.</p>
+          </separatedmaterial>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Church records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1942">1942</fromdate>
+                <todate standarddate="1947">1947</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1942-1947</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">3</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Church records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1946">1946</fromdate>
+                <todate standarddate="1952">1952</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1946-1952</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">4</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Church records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1952">1952</fromdate>
+                <todate standarddate="1958">1958</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1952-1958</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">5</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Church cabinet meeting minutes</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1935">1935</fromdate>
+                <todate standarddate="1936">1936</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1935-1936</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">3</container>
+          </did>
+          <separatedmaterial>
+            <head>Separated Materials</head>
+            <p>These materials were removed from the "Church records, 1932-1942" volume for
+              preservation purposes.</p>
+          </separatedmaterial>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Building and financial records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1937">1937-1939</datesingle>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1937-1939</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">2</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Miscellaneous records</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1938">1938</fromdate>
+                <todate standarddate="1957">1957</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1938-1957</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">1</container>
+          </did>
+          <separatedmaterial>
+            <head>Separated Materials</head>
+            <p>These materials were removed from the "Church records, 1932-1942" volume for
+              preservation purposes.</p>
+          </separatedmaterial>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>financial graphs</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1941">1941</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">10</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Board of deacons and deaconesses minutes</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1941">1941</fromdate>
+                <todate standarddate="1944">1944</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1941-1944</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">6</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Board of deacons records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1942">1942</fromdate>
+                <todate standarddate="1949">1949</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1942, 1945-1949</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">4</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Board of deacons records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1955">1955</fromdate>
+                <todate standarddate="1964">1964</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1955-1964</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">5</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Board of deacons records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1958">1958</fromdate>
+                <todate standarddate="1962">1962</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1958-1962</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">6</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Board of trustees records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1941">1941</fromdate>
+                <todate standarddate="1954">1954</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1941-1954</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">7</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Board of trustees records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1955">1955</fromdate>
+                <todate standarddate="1958">1958</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1955-1958</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">2</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Annual reports</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1942">1942</fromdate>
+                <todate standarddate="1991">1991</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1942, 1954, 1989, 1991</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">3</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Building committee records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1950">1950</fromdate>
+                <todate standarddate="1954">1954</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1950-1954</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">7</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Year book report</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1960">1960</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">11</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Various church and committee records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1967">1967</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">4</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Various church and committee records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1968">1968</fromdate>
+                <todate standarddate="1970">1970</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1968-1970</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">5</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Constitutions</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1968">1968, undated</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">6</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Council records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1968">1968</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">8</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Council records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1969">1969</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">9</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Council records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1970">1970</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">7</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Council meeting minutes</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1972">1972</fromdate>
+                <todate standarddate="1974">1974</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1972-1974</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">8</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Council meeting minutes</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1990">1990</fromdate>
+                <todate standarddate="1992">1992</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1990, 1992</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">9</container>
+          </did>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unittitle>Membership and church activities</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1921">1921</fromdate>
+              <todate standarddate="1999">1999</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1921-1999</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains records related to the activities of members of the North Berwyn
+            Congregational Church. The series includes newsletters, men's club records, women's
+            society records, photographs, church histories, and a historical scrapbook.</p>
+        </scopecontent>
+        <c level="file">
+          <did>
+            <unittitle>History scrapbook</unittitle>
+            <unitdatestructured datechar="record_keeping" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1902">1902</fromdate>
+                <todate standarddate="1999">1999</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="record_keeping" unitdatetype="inclusive">1902-1999</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">1</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Confirmation class lists</unittitle>
+            <unitdatestructured datechar="record_keeping" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1913">1913</fromdate>
+                <todate standarddate="1955">1955</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="record_keeping" unitdatetype="inclusive">1913-1955</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">7</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Membership records</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="record_keeping"
+              unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1921">1921</fromdate>
+                <todate standarddate="1937">1937</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="record_keeping" unitdatetype="inclusive"
+              >1921-1937</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">8</container>
+          </did>
+          <separatedmaterial>
+            <head>Separated Materials</head>
+            <p>These materials were removed from the "Church records, 1910-1931" volume for
+              preservation purposes.</p>
+          </separatedmaterial>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Women's Society records</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="record_keeping"
+              unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1922">1922</fromdate>
+                <todate standarddate="1952">1952</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="record_keeping" unitdatetype="inclusive"
+              >1922-1952</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">9</container>
+          </did>
+          <separatedmaterial>
+            <head>Separated Materials</head>
+            <p>These materials were removed from the "Women's society minutes, 1941-1953" volume for
+              preservation purposes.</p>
+          </separatedmaterial>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>The Messenger newsletter</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1925">1925</fromdate>
+                <todate standarddate="1928">1928</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1925-1928</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">2</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>The Messenger newsletter</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1929">1929</fromdate>
+                <todate standarddate="1932">1932</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1929-1932</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">3</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Church histories</unittitle>
+            <unitdatestructured datechar="record_keeping" unitdatetype="inclusive">
+              <datesingle standarddate="1936">1936, undated</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">11</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Men's club records</unittitle>
+            <unitdatestructured datechar="record_keeping" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1936">1936</fromdate>
+                <todate standarddate="1940">1940</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="record_keeping" unitdatetype="inclusive">1936, 1940</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">12</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Neighborhood News newsletter</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1937">1937</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">4</container>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unittitle>Women's society minutes</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1941">1941</fromdate>
+                <todate standarddate="1953">1953</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1941-1953</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">8</container>
+          </did>
+          <separatedmaterial>
+            <head>Separated Materials</head>
+            <p>Loose materials were removed from this volume and placed into the folder labeled
+              "Women's Society records, 1922-1952" for preservation purposes.</p>
+          </separatedmaterial>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Special events and anniversaries</unittitle>
+            <unitdatestructured datechar="record_keeping" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1941">1941</fromdate>
+                <todate standarddate="1963">1963</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="record_keeping" unitdatetype="inclusive">1941-1963</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">15</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>N.B.C.C. Broadcaster newsletter</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1944">1944</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">5</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Women's society history</unittitle>
+            <unitdatestructured datechar="record_keeping" unitdatetype="inclusive">
+              <datesingle standarddate="1950">1950</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">10</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Pilgrim fellowship meeting minutes</unittitle>
+            <unitdatestructured datechar="record_keeping" unitdatetype="inclusive">
+              <datesingle standarddate="1957">1957</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">13</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Membership list</unittitle>
+            <unitdatestructured datechar="record_keeping" unitdatetype="inclusive">
+              <datesingle standarddate="1962">1962</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">14</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Congrenews newsletter</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1964">1964</fromdate>
+                <todate standarddate="1966">1966</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1964-1966</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">6</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Photos of lots 30 and 31 at corner of Oak Park Avenue and 13th
+              Street</unittitle>
+            <unitdate datechar="record_keeping" unitdatetype="inclusive">undated</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">16</container>
+          </did>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
