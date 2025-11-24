@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="completed"
+    langencoding="iso639-2b" repositoryencoding="iso15511">
+    <eadid countrycode="US" mainagencycode="US-MBC">CongregationalClub-1039</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Congregational Club records, 1869-1961. <num>RG1039</num></titleproper>
+        <author>Jenny Giri</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <p><date>2025-11-10</date></p>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline>Business Number: 617-523-0470</addressline>
+          <addressline>info@14beacon.org</addressline>
+          <addressline>URL: <extptr xlink:href="http://www.CongregationalLibrary.org"
+              xlink:show="new" xlink:title="http://www.CongregationalLibrary.org"
+              xlink:type="simple"/></addressline>
+        </address>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>This finding aid was produced using ArchivesSpace on <date>2025-11-24 14:20:17
+          +0000</date>.</creation>
+      <langusage>Description is written in: <language langcode="eng" scriptcode="Latn">English,
+          Latin script</language>.</langusage>
+      <descrules>DACS 2019.0.3</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <repository>
+        <corpname>Congregational Library &amp; Archives</corpname>
+      </repository>
+      <unittitle>Congregational Club records, 1869-1961.</unittitle>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">Congregational Club (Boston, Mass.)</corpname>
+      </origination>
+      <unitid>RG1039</unitid>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1.79 Cubic Feet</extent>
+        <extent altrender="carrier">(4 boxes)</extent>
+      </physdesc>
+      <unitdate calendar="gregorian" datechar="creation" normal="1869/1961" type="inclusive"
+        >1869-1961</unitdate>
+      <abstract>This collection contains the records of the Congregational Club, fully established
+        in April of 1869. This club served to create cameraderie between members of the
+        Congregational community. This collection contains records through 1947, but the club
+        continued to exist until it was disbanded at some point between 1978 and 1981. The
+        collection contains event-related materials, administrative records, and
+        necrologies.</abstract>
+      <langmaterial>
+        <language langcode="eng">English</language> . </langmaterial>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Congregational Club records 1869-1961, RG1039. The
+        Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>No acquisition information is available for this collection.</p>
+    </acqinfo>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Proceswsed by Jenny Giri, November 2025, using DACS Second Edition.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>On February 22, 1869 Rev. J. W. Wellman, D.D brought the idea of the Congregational Club to
+        a Pastor's Meeting in Boston, Massachusetts. The club was fully established, with a
+        constitution and officers, by April 20th of the same year. The goal of the club was to
+        "energize Congregationalism" by encouraging cameraderie and cooperation among
+        Congregationalists, particularly in the Boston area. The club fostered this community with
+        monthly discussions, and formal social gatherings such as their Annual Festival and
+        Forefathers' Day.</p>
+      <p>This collection contains records through 1947, but the club continued to exist until it was
+        disbanded at some point between 1978 and 1981.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains records documenting the activity of the Congregational Club from
+        its inception in 1869 to 1961. It contains records relating to administration, events held
+        by the club, and necrologies.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>The Congregational Club records have been arranged into the three series listed below.
+        Within each series materials have been primarily arranged in chronological order by start
+        date. When appropriate, similar and continuous materials have been grouped together.</p>
+      <p><emph render="italic">Series 1:</emph> Administration, 1869-1961</p>
+      <p><emph render="italic">Series 2:</emph> Necrologies, 1870-1916</p>
+      <p><emph render="italic">Series 3:</emph> Events, 1871-1944</p>
+    </arrangement>
+    <relatedmaterial>
+      <head>Related Materials</head>
+      <p>Additional records related to the Congregational Club can be found in the Roslindale,
+        Boston, Mass. Highland Congregational Church records, 1869-2006, RG4824.</p>
+    </relatedmaterial>
+    <bibliography>
+      <head>Bibliography</head>
+      <p>"Rev. Rice, Congregational Club Boston 1972-1981 in the Roslindale, Boston, Mass. Highland
+        Congregational Church records, 1869-2006, RG4824. The Congregational Library &amp; Archives,
+        Boston, MA."</p>
+    </bibliography>
+    <controlaccess>
+      <subject authfilenumber="sh85025766" source="lcsh">Church societies.</subject>
+      <subject source="lcsh">Congregationalism--New England</subject>
+      <subject authfilenumber="sh85032905" source="lcsh">Corporate minutes.</subject>
+      <subject authfilenumber="sh85090572" source="lcsh">Necrologies.</subject>
+      <corpname rules="rda" source="local">Congregational Club (Boston, Mass.)</corpname>
+      <persname source="lcnaf">Wellman, Joshua W. (Joshua Wyman) (1821-1915)</persname>
+    </controlaccess>
+    <dsc>
+      <c01 level="series">
+        <did>
+          <unittitle>Administration</unittitle>
+          <physdesc altrender="part"><extent altrender="materialtype spaceoccupied">6
+              Folders</extent></physdesc>
+          <physdesc altrender="part"><extent altrender="materialtype spaceoccupied">34
+              Items</extent></physdesc>
+          <physdesc altrender="part"><extent altrender="materialtype spaceoccupied">5
+              Volumes</extent></physdesc>
+          <unitdate calendar="gregorian" datechar="creation" normal="1869/1961" type="inclusive"
+            >1869-1961</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains the Congregational Club's administrative records including meeting
+            records, member lists, a constitution, bylaws, manuals, ballots, and reports.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>Meeting Records</unittitle>
+            <unitdate datechar="copyright" normal="1869/1877" type="inclusive">1869-1877</unitdate>
+            <container label="Mixed Materials" type="box">3</container>
+            <container type="volume">2</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Meeting Records</unittitle>
+            <unitdate datechar="copyright" normal="1877/1890" type="inclusive">1877-1890</unitdate>
+            <container label="Mixed Materials" type="box">3</container>
+            <container type="volume">3</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Meeting Records</unittitle>
+            <unitdate datechar="copyright" normal="1890/1904" type="inclusive">1890-1904</unitdate>
+            <container label="Mixed Materials" type="box">3</container>
+            <container type="volume">4</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Meeting Records</unittitle>
+            <unitdate datechar="copyright" normal="1908/1923" type="inclusive">1908-1923</unitdate>
+            <container label="Mixed Materials" type="box">3</container>
+            <container type="volume">5</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Manuals</unittitle>
+            <unitdate calendar="gregorian" datechar="creation" normal="1884/1927" type="inclusive"
+              >1884-1927</unitdate>
+            <container label="Mixed Materials" type="box">4</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Constitution &amp; Bylaws</unittitle>
+            <unitdate datechar="creation" normal="1869/1877" type="inclusive">1869, 1877</unitdate>
+            <container label="Mixed Materials" type="box">2</container>
+            <container type="folder">1</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Meeting Announcements and Ballots</unittitle>
+            <unitdate datechar="creation" normal="1871/1947" type="inclusive">1871-1947</unitdate>
+            <container label="Mixed Materials" type="box">1</container>
+            <container type="folder">1</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Reports</unittitle>
+            <unitdate datechar="creation" normal="1872/1919" type="inclusive">1872-1919</unitdate>
+            <container label="Mixed Materials" type="box">2</container>
+            <container type="folder">4</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Member Lists</unittitle>
+            <unitdate datechar="creation" normal="1872/1945" type="inclusive">1872, 1945</unitdate>
+            <container label="Mixed Materials" type="box">2</container>
+            <container type="folder">2</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Committee on Christian Work</unittitle>
+            <unitdate datechar="creation" normal="1908/1908">1908</unitdate>
+            <container label="Mixed Materials" type="box">2</container>
+            <container type="folder">14</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Correspondence</unittitle>
+            <unitdate calendar="gregorian" datechar="creation" normal="1961/1961">1961</unitdate>
+            <container label="Mixed Materials" type="box">2</container>
+            <container type="folder">17</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Constitution, Bylaws, Member List</unittitle>
+            <unitdate datechar="creation">undated</unitdate>
+            <container label="Mixed Materials" type="box">1</container>
+            <container type="volume">1</container>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Necrologies</unittitle>
+          <physdesc altrender="whole"><extent altrender="materialtype spaceoccupied">7
+              Items</extent></physdesc>
+          <unitdate calendar="gregorian" datechar="creation" normal="1870/1916" type="inclusive"
+            >1870-1916</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains obituaries, necrologies, and biographies of deceased members of
+            the community.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>Necrologies &amp; Biographer Reports</unittitle>
+            <unitdate datechar="creation" normal="1872/1916" type="inclusive">1872-1916</unitdate>
+            <container label="Mixed Materials" type="box">2</container>
+            <container type="folder">3</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Biographical Notes for the Deceased</unittitle>
+            <unitdate datechar="copyright" normal="1870/1875" type="inclusive">1870-1875</unitdate>
+            <container label="Mixed Materials" type="box">3</container>
+            <container type="folder">1</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Biographical Notes for the Deceased</unittitle>
+            <unitdate datechar="copyright" normal="1879/1880" type="inclusive">1879-1880</unitdate>
+            <container label="Mixed Materials" type="box">3</container>
+            <container type="folder">2</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Biographical Notes for the Deceased</unittitle>
+            <unitdate datechar="creation" normal="1881/1881">1881</unitdate>
+            <container label="Mixed Materials" type="box">2</container>
+            <container type="folder">6</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Biographical Notes for the Deceased</unittitle>
+            <unitdate datechar="creation" normal="1882/1882">1882</unitdate>
+            <container label="Mixed Materials" type="box">2</container>
+            <container type="folder">7</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Biographical Notes for the Deceased</unittitle>
+            <unitdate datechar="creation" normal="1883/1883">1883</unitdate>
+            <container label="Mixed Materials" type="box">2</container>
+            <container type="folder">8</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Biographical Notes for the Deceased</unittitle>
+            <unitdate datechar="creation" normal="1884/1884">1884</unitdate>
+            <container label="Mixed Materials" type="box">2</container>
+            <container type="folder">9</container>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Events</unittitle>
+          <physdesc altrender="part"><extent altrender="materialtype spaceoccupied">1
+              Volume</extent></physdesc>
+          <physdesc altrender="part"><extent altrender="materialtype spaceoccupied">7
+              Folders</extent></physdesc>
+          <unitdate calendar="gregorian" datechar="creation" normal="1871/1944" type="inclusive"
+            >1871-1944</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series includes records relating to various events held by the Congregational Club
+            such as event announcements, tickets, programs, addresses, and a scrapbook.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>Event Tickets</unittitle>
+            <unitdate calendar="gregorian" datechar="creation" normal="1871/1944" type="inclusive"
+              >1871-1944</unitdate>
+            <container label="Mixed Materials" type="box">2</container>
+            <container type="folder">16</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Forefathers' Night Programs &amp; Announcements</unittitle>
+            <unitdate datechar="creation" normal="1873/1942" type="inclusive">1873-1942</unitdate>
+            <container label="Mixed Materials" type="box">2</container>
+            <container type="folder">5</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Miscellanies Scrapbook</unittitle>
+            <unitdate datechar="copyright" normal="1882/1887" type="inclusive">1882-1887</unitdate>
+            <container label="Mixed Materials" type="box">3</container>
+            <container type="volume">1</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Our Present Movement in Theology</unittitle>
+            <unitdate calendar="gregorian" datechar="creation" normal="1883/1883">1883</unitdate>
+            <container label="Mixed Materials" type="box">2</container>
+            <container type="folder">10</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Ladies' Night &amp; May Festival</unittitle>
+            <unitdate datechar="creation" normal="1880/1945" type="inclusive">1890-1945</unitdate>
+            <container label="Mixed Materials" type="box">2</container>
+            <container type="folder">11</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Congregationalism in Boston - Its Present Condition</unittitle>
+            <unitdate calendar="gregorian" datechar="creation" normal="1892/1892">1892</unitdate>
+            <container label="Mixed Materials" type="box">2</container>
+            <container type="folder">12</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Assorted Events</unittitle>
+            <unitdate datechar="creation" normal="1893/1944" type="inclusive">1893-1944</unitdate>
+            <container label="Mixed Materials" type="box">2</container>
+            <container type="folder">13</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Annual Meetings</unittitle>
+            <unitdate datechar="creation" normal="1932/1940" type="inclusive">1932-1940</unitdate>
+            <container label="Mixed Materials" type="box">2</container>
+            <container type="folder">15</container>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
