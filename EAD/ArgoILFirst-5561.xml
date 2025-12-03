@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/ArgoILFirst-5561.xml"
+      >ArgoILFirst-5561</recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/default/files/FindingAids/ArgoILFirst.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Summit, Ill. First Congregational Church of Argo records,
+          1912-2010.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2025-12-2</date>
+        <num>RG5561</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2025-12-03T13:28:59+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday December 3,
+          2025 at 13:28</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Summit, Ill. First Congregational Church of Argo records, 1912-2010.</unittitle>
+      <unitid>RG5561</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>0.35</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(1 box)</physdesc>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1912">1912</fromdate>
+          <todate standarddate="2010">2010</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1912-2010</unitdate>
+      <abstract>The First Congregational Church in Argo, Illinois, was gathered in 1913 and
+        construction on its church building was completed in 1916. The church underwent renovations
+        in 1938 and in the 1960s with an addition to the church built in 1960. The church joined
+        with the United Church of Christ. The church likely closed sometime between 2011 and 2018.
+        This collection contains membership records, including baptismal and marriage records, as
+        well as early records related to the formation of the church and the construction of its
+        building.</abstract>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">
+          <part>First Congregational Church of Argo (Summit, Ill.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Argo, Ill. First Congregational Church records, 1912-2010,
+        RG5561. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by the Illinois
+        Conference of the United Church of Christ in December 2024; accession number 2024-46.</p>
+    </acqinfo>
+    <custodhist>
+      <head>Custodial History</head>
+      <p>The materials in this collection were given to the Illinois Conference of the United Church
+        of Christ, likely around the time of the church's dissolution. There is no further
+        documentation on how the materials arrived at the Illinois Conference.</p>
+    </custodhist>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>This collection was processed by Zachary Bodnar, December 2025, according to the rules of
+        Describing Archives: A Content Standard.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>The Ladies Society of Argo was founded, with help from the Congregational Sunday School and
+        Publishing Society, on May 5, 1911. From its formation, the goal of the Ladies Society was
+        to form a church in the Argo community, which by 1911 had been anexed by the city of Summit.
+        That effort had multiple starts but eventually resulted in the gathering of the First
+        Congregational Church of Argo in 1913. Construction on a church building began in 1915 and
+        the church dedication took place on May 7, 1916.</p>
+      <p>The church grew during the 1920s and by 1934 the mortgage for the building was paid off.
+        The church building was renovated in 1938. The church underwent another renovation in the
+        early 1960s and an addition to the church to support educational and recreational purposes
+        was completed on November 6, 1960. The church joined with the United Church of Christ after
+        the denomination's formation in 1957. The church likely closed sometime between 2011 and
+        2018.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains both administrative and membership records for the First
+        Congregational Church in Argo, Illinois. The records include marriage records, baptismal
+        records, membership records, remembrances, building records, an account book, a year book
+        from the Women's Association, a church constitution, and a document declaring the formation
+        of the church.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>This collection has been arranged in chronological order by start date.</p>
+    </arrangement>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025854" source="lcsh">
+        <part>Church buildings.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <corpname rules="rda" source="local">
+        <part>First Congregational Church of Argo (Summit, Ill.)</part>
+      </corpname>
+      <corpname identifier="n88080020" source="lcnaf">
+        <part>Summit (Ill.) -- Church history.</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="file">
+        <did>
+          <unittitle>Declaration of church formation</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1912">1912</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">1</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Account book</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1912">circa 1912</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">2</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Building records and deeds</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1912">1912</fromdate>
+              <todate standarddate="1967">1967</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1912-1967</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">3</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Constitution and by-laws</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1913">circa 1913</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">4</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Church register</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1955">1955</fromdate>
+              <todate standarddate="1993">1993</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1955-1993</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="box">1</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Women's association year book</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1958">1958</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">5</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>50th anniversary program</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1963">1963</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">6</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Marriage records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1985">1985</fromdate>
+              <todate standarddate="2007">2007</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1985-2007</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">7</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Baptismal records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1985">1985</fromdate>
+              <todate standarddate="2010">2010</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1985-2010</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">8</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Membership records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1988">1988</fromdate>
+              <todate standarddate="2010">2010</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1988-2010</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">9</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Remembrances</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1996">1996</fromdate>
+              <todate standarddate="2001">2001</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1996-2001</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">10</container>
+        </did>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
