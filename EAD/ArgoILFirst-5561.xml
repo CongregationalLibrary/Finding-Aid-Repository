@@ -234,7 +234,7 @@
           </unitdatestructured>
           <unitdate datechar="creation" unitdatetype="inclusive">1955-1993</unitdate>
           <container label="Mixed Materials" localtype="box">1</container>
-          <container localtype="box">1</container>
+          <container localtype="volume">1</container>
         </did>
       </c>
       <c level="file">
