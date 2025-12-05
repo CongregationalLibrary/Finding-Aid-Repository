@@ -1,96 +1,134 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
-  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="completed"
-    langencoding="iso639-2b" repositoryencoding="iso15511">
-    <eadid countrycode="US" mainagencycode="US-MBC">BostonMAYoungMen's-1073</eadid>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/BostonMAYoungMen's-1073.xml"
+      >BostonMAYoungMen's-1073</recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/default/files/FindingAids/BostonMAYoungMen's-1073.pdf"/>
     <filedesc>
       <titlestmt>
-        <titleproper>Young Men's Congregational Club records, 1896-1912.
-          <num>RG1073</num></titleproper>
+        <titleproper>Boston, Mass. Young Men's Congregational Club records, 1896-1912.</titleproper>
         <author>Randall Seder</author>
       </titlestmt>
       <publicationstmt>
         <publisher>Congregational Library &amp; Archives</publisher>
-        <p><date>2025-11-21</date></p>
         <address>
           <addressline>14 Beacon Street</addressline>
           <addressline>Suite 200</addressline>
           <addressline>Boston, MA 02108</addressline>
-          <addressline>Business Number: 617-523-0470</addressline>
-          <addressline>info@14beacon.org</addressline>
-          <addressline>URL: <extptr xlink:href="http://www.CongregationalLibrary.org"
-              xlink:show="new" xlink:title="http://www.CongregationalLibrary.org"
-              xlink:type="simple"/></addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
         </address>
+        <date>2025-11-21</date>
+        <num>RG1073</num>
       </publicationstmt>
     </filedesc>
-    <profiledesc>
-      <creation>This finding aid was produced using ArchivesSpace on <date>2025-11-21 18:23:21
-          +0000</date>.</creation>
-      <langusage>Description is written in: <language langcode="eng" scriptcode="Latn">English,
-          Latin script</language>.</langusage>
-      <descrules>DACS 2019.0.3</descrules>
-    </profiledesc>
-  </eadheader>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2025-12-05T13:55:11+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Friday December 5,
+          2025 at 13:55</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
   <archdesc level="collection">
     <did>
-      <repository>
-        <corpname>Congregational Library &amp; Archives</corpname>
-      </repository>
       <unittitle>Boston, Mass. Young Men's Congregational Club records, 1896-1912.</unittitle>
-      <origination label="Creator">
-        <corpname rules="rda" source="local">Young Men's Congregational Club (Boston,
-          Mass.)</corpname>
-      </origination>
       <unitid>RG1073</unitid>
-      <physdesc altrender="whole">
-        <extent altrender="materialtype spaceoccupied">1.09 Cubic Feet</extent>
-        <extent altrender="carrier">(1 box)</extent>
-      </physdesc>
-      <unitdate calendar="gregorian" datechar="creation" normal="1896/1912" type="inclusive"
-        >1896-1912</unitdate>
-      <abstract  label="Abstract">The Young Men's
-        Congregational Club was founded in 1896 with the goal of advancing Congregationalism in the
-        greater Boston area through monthly meetings addressing current social, moral, and religious
-        issues facing the community. The first meeting was held at the American House on November
-        11, 1896, and following meetings were held on the first Wednesday evening of every month, 7
-        months out of the year. Dates for this collection span 1896-1912, but it is unknown whether
-        the club continued or dissolved after the latest date appearing in this collection. The
-        Young Men's Congregational Club records include bound volumes of club records, including
-        club constitution and by-laws, membership lists, meeting minutes, attendance lists, ballots,
-        correspondence, and a copy of the club's charter. Among the bound volumes are two scrapbooks
-        containing those materials, as well as news clippings, event and lecture programs, meeting
-        menus, membership cards and applications, and treasurer reports.</abstract>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
       <langmaterial>
-        <language langcode="eng" scriptcode="Latn">English</language> . </langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>1.09</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(1 box)</physdesc>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1896">1896</fromdate>
+          <todate standarddate="1912">1912</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1896-1912</unitdate>
+      <abstract>The Young Men's Congregational Club was founded in 1896 with the goal of advancing
+        Congregationalism in the greater Boston area through monthly meetings addressing current
+        social, moral, and religious issues facing the community. The first meeting was held at the
+        American House on November 11, 1896, and following meetings were held on the first Wednesday
+        evening of every month, 7 months out of the year. Dates for this collection span 1896-1912,
+        but it is unknown whether the club continued or dissolved after the latest date appearing in
+        this collection. The Young Men's Congregational Club records include bound volumes of club
+        records, including club constitution and by-laws, membership lists, meeting minutes,
+        attendance lists, ballots, correspondence, and a copy of the club's charter. Among the bound
+        volumes are two scrapbooks containing those materials, as well as news clippings, event and
+        lecture programs, meeting menus, membership cards and applications, and treasurer
+        reports.</abstract>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">
+          <part>Young Men's Congregational Club (Boston, Mass.)</part>
+        </corpname>
+      </origination>
     </did>
-    <accessrestrict >
+    <accessrestrict>
       <head> Restrictions on Access</head>
       <p>Access to this collection is unrestricted and open to the public.</p>
     </accessrestrict>
-    <userestrict >
+    <userestrict>
       <head>Restrictions on Use</head>
       <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
         researcher to determine the copyright status of collection items and to secure any
         permissions necessary for their reproduction and publication. Requests for permission to
         publish material must be discussed with the archivist or librarian.</p>
     </userestrict>
-    <prefercite >
+    <prefercite>
       <head>Preferred Citation</head>
       <p>[Identification of item], in the Boston, Mass. Young Men's Congregational Club, 1896-1912,
         RG1073. The Congregational Library &amp; Archives, Boston, MA.</p>
     </prefercite>
-    <acqinfo >
+    <acqinfo>
       <head>Acquisition Information</head>
       <p>No acquisition information is available for this collection.</p>
     </acqinfo>
-    <processinfo >
+    <processinfo>
       <head>Processing Information</head>
-      <p>The collection was processed by Randall Seder in November 2025.</p>
+      <p>The collection was processed by Randall Seder in November 2025 using Describing Archives: A
+        Content Standard.</p>
     </processinfo>
-    <bioghist >
+    <bioghist>
       <head>Historical Note</head>
       <p>The Young Men's Congregational Club was founded in 1896 with the goal of advancing
         Congregationalism in the greater Boston area through monthly meetings addressing current
@@ -103,13 +141,13 @@
         leadership roles including president, vice president, secretary, treasurer, and auditor, and
         had several committers such has Executive Committee, The Membership Committee, the Outlook
         Committee, and the Social Committee. Club membership was restricted to male members of
-        Trinitarian Congregational church over the age of 21, and membership was considered upon
+        Trinitarian Congregational tradition over the age of 21, and membership was considered upon
         formal proposal at previous meetings and recommendation by the Membership Committee.
-        Membership was limited to a total of 150 members. </p>
+        Membership was limited to a total of 150 members.</p>
       <p>Dates for this collection span 1896-1912, but it is unknown whether the club continued or
         dissolved after the latest date appearing in this collection.</p>
     </bioghist>
-    <scopecontent >
+    <scopecontent>
       <head>Scope and Contents</head>
       <p>The Young Men's Congregational Club records include bound volumes of club records,
         including club constitution and by-laws, membership lists, meeting minutes, attendance
@@ -117,123 +155,166 @@
         are two scrapbooks containing those materials, as well as news clippings, event and lecture
         programs, meeting menus, membership cards and applications, and treasurer reports.</p>
     </scopecontent>
-    <arrangement >
+    <arrangement>
       <head>Arrangement</head>
       <p>The materials have been arranged chronologically by date created.</p>
     </arrangement>
-    <bibliography >
+    <bibliography>
       <head>Bibliography</head>
       <p>Scapbook, 1896-1906, in the Boston, Mass. Young Men's Congregational Club, 1896-1912,
         RG1073. The Congregational Library &amp; Archives, Boston, MA.</p>
     </bibliography>
     <controlaccess>
-      <subject authfilenumber="sh85033035" source="lcsh">Correspondence.</subject>
-      <subject authfilenumber="sh2009003342" source="lcsh">Private clubs.</subject>
-      <subject authfilenumber="sh93005169" source="lcsh">Programs</subject>
-      <subject authfilenumber="sh85118923" source="lcsh">Scrapbooks.</subject>
-      <corpname authfilenumber="n79045553" source="lcnaf">Boston (Mass.) -- Church
-        history.</corpname>
-      <corpname rules="rda" source="local">Young Men's Congregational Club (Boston,
-        Mass.)</corpname>
+      <subject identifier="sh85033035" source="lcsh">
+        <part>Correspondence.</part>
+      </subject>
+      <subject identifier="sh2009003342" source="lcsh">
+        <part>Private clubs.</part>
+      </subject>
+      <subject identifier="sh93005169" source="lcsh">
+        <part>Programs</part>
+      </subject>
+      <subject identifier="sh85118923" source="lcsh">
+        <part>Scrapbooks.</part>
+      </subject>
+      <corpname identifier="n79045553" source="lcnaf">
+        <part>Boston (Mass.) -- Church history.</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>Young Men's Congregational Club (Boston, Mass.)</part>
+      </corpname>
     </controlaccess>
     <dsc>
-      <c01  level="file">
+      <c level="file">
         <did>
           <unittitle>Miscellaneous programs</unittitle>
-          <unitdate calendar="gregorian" datechar="creation" normal="1896/1896">1896,
-            undated</unitdate>
-          <container  label="Mixed Materials" type="box"
-            >1</container>
-          <container 
-             type="folder">1</container>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1896">1896, undated</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">1</container>
         </did>
-      </c01>
-      <c01  level="item">
+      </c>
+      <c level="item">
         <did>
           <unittitle>Club records</unittitle>
-          <unitdate calendar="gregorian" datechar="creation" normal="1896/1902" type="inclusive"
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1896">1896</fromdate>
+              <todate standarddate="1902">1902</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
             >1896-1902</unitdate>
-          <container  label="Mixed Materials" type="box"
-            >1</container>
-          <container 
-             type="volume">1</container>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">1</container>
         </did>
-        <separatedmaterial >
+        <separatedmaterial>
           <head>Separated Materials</head>
           <p>Items were removed from this volume and placed in folders titled "Attendance Lists
             1899-1902" (B1, F2) and "Constitution and by-laws, undated" (B1/F3) for preservation
             purposes.</p>
         </separatedmaterial>
-      </c01>
-      <c01  level="item">
+      </c>
+      <c level="item">
         <did>
           <unittitle>Scrapbook</unittitle>
-          <unitdate calendar="gregorian" datechar="creation" normal="1896/1906" type="inclusive"
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1896">1896</fromdate>
+              <todate standarddate="1906">1906</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
             >1896-1906</unitdate>
-          <container  label="Mixed Materials" type="box"
-            >1</container>
-          <container 
-             type="volume">2</container>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">2</container>
         </did>
-      </c01>
-      <c01  level="item">
+      </c>
+      <c level="item">
         <did>
           <unittitle>Club records</unittitle>
-          <unitdate calendar="gregorian" datechar="creation" normal="1869/1911" type="inclusive"
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1869">1869</fromdate>
+              <todate standarddate="1911">1911</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
             >1896-1911</unitdate>
-          <container  label="Mixed Materials" type="box"
-            >1</container>
-          <container 
-             type="volume">3</container>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">3</container>
         </did>
-        <separatedmaterial >
+        <separatedmaterial>
           <head>Separated Materials</head>
           <p>Items were removed from this volume and placed in folder titled "Attendance Lists
             1899-1902" (B1, F2) for preservation purposes.</p>
         </separatedmaterial>
-      </c01>
-      <c01  level="item">
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Attendance lists</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1899">1899</fromdate>
+              <todate standarddate="1902">1902</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            1899-1902</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">2</container>
+        </did>
+      </c>
+      <c level="item">
         <did>
           <unittitle>Roll book</unittitle>
-          <unitdate calendar="gregorian" datechar="creation" normal="1902/1908" type="inclusive"
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1902">1902</fromdate>
+              <todate standarddate="1908">1908</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
             >1902-1908</unitdate>
-          <container  label="Mixed Materials" type="box"
-            >1</container>
-          <container 
-             type="volume">4</container>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">4</container>
         </did>
-      </c01>
-      <c01  level="item">
+      </c>
+      <c level="item">
         <did>
           <unittitle>Scrapbook</unittitle>
-          <unitdate calendar="gregorian" datechar="creation" normal="1906/1912" type="inclusive"
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1906">1906</fromdate>
+              <todate standarddate="1912">1912</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
             >1906-1912</unitdate>
-          <container  label="Mixed Materials" type="box"
-            >1</container>
-          <container 
-             type="volume">5</container>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">5</container>
         </did>
-      </c01>
-      <c01  level="item">
+      </c>
+      <c level="item">
         <did>
           <unittitle>Club records</unittitle>
-          <unitdate calendar="gregorian" datechar="creation" normal="1911/1911">1911</unitdate>
-          <container  label="Mixed Materials" type="box"
-            >1</container>
-          <container 
-             type="volume">6</container>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1911">1911</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">6</container>
         </did>
-      </c01>
-      <c01  level="file">
+      </c>
+      <c level="file">
         <did>
           <unittitle>Constitution and by-laws</unittitle>
-          <unitdate calendar="gregorian" datechar="creation" type="inclusive">undated</unitdate>
-          <container  label="Mixed Materials" type="box"
-            >1</container>
-          <container 
-             type="folder">3</container>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >undated</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">3</container>
         </did>
-      </c01>
+      </c>
     </dsc>
   </archdesc>
 </ead>
