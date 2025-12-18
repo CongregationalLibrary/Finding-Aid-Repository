@@ -1,58 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
-  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="completed"
-    langencoding="iso639-2b" repositoryencoding="iso15511">
-    <eadid countrycode="US" mainagencycode="US-MBC">TuckerJoshuaT-5519 </eadid>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/TuckerJoshuaT-5519.xml"
+      >TuckerJoshuaT-5519 </recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/default/files/FindingAids/TuckerJoshuaT-5519.pdf"/>
     <filedesc>
       <titlestmt>
-        <titleproper>J. T. Tucker papers, 1847-1894. <num>MS5519</num></titleproper>
+        <titleproper>J. T. Tucker papers, 1847-1894.</titleproper>
         <author>Rebecca Arabian, Billy McCarthy</author>
       </titlestmt>
       <publicationstmt>
         <publisher>Congregational Library &amp; Archives</publisher>
-        <p><date>2025-04-30</date></p>
         <address>
           <addressline>14 Beacon Street</addressline>
           <addressline>Suite 200</addressline>
           <addressline>Boston, MA 02108</addressline>
-          <addressline>Business Number: 617-523-0470</addressline>
-          <addressline>info@14beacon.org</addressline>
-          <addressline>URL: <extptr xlink:href="http://www.CongregationalLibrary.org"
-              xlink:show="new" xlink:title="http://www.CongregationalLibrary.org"
-              xlink:type="simple"/></addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
         </address>
+        <date>2025-04-30</date>
+        <num>MS5519</num>
       </publicationstmt>
     </filedesc>
-    <profiledesc>
-      <creation>This finding aid was produced using ArchivesSpace on <date>2025-04-30 14:29:48
-          +0000</date>.</creation>
-      <langusage>Description is written in: <language langcode="eng" scriptcode="Latn">English,
-          Latin script</language>.</langusage>
-      <descrules>DACS 2019.0.3</descrules>
-    </profiledesc>
-  </eadheader>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2025-12-18T14:15:55+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Thursday December 18,
+          2025 at 14:15</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
   <archdesc level="collection">
     <did>
-      <repository>
-        <corpname>Congregational Library &amp; Archives</corpname>
-      </repository>
       <unittitle>J. T. Tucker papers, 1847-1894.</unittitle>
       <unitid>MS5519</unitid>
-      <physdesc altrender="whole">
-        <extent altrender="materialtype spaceoccupied">3 Volumes</extent>
-        <extent altrender="carrier">(1 box)</extent>
-      </physdesc>
-      <unitdate calendar="gregorian" datechar="creation" normal="1847/1894" type="inclusive"
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>.35</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(1 box)</physdesc>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1847">1847</fromdate>
+          <todate standarddate="1894">1894</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
         >1847-1894</unitdate>
       <abstract>Joshua Thomas Tucker (commonly referred to as "J.T. Tucker") was an American
         minister from Massachusetts. This collection contains a volume of twenty-five manuscript
         sermons from J.T. Tucker during the Civil War while he was a minister in Holliston,
         Massachusetts. Also included is an autobiographical memoranda and a theological common-place
         book.</abstract>
-      <langmaterial>
-        <language langcode="eng" scriptcode="Latn">English</language> . </langmaterial>
+      <origination label="Creator">
+        <persname identifier="nr98004342" rules="rda" source="lcnaf">
+          <part>Tucker, J. T. (Joshua Thomas), 1812-1897</part>
+        </persname>
+      </origination>
     </did>
     <accessrestrict>
       <head>Restrictions on Access</head>
@@ -93,15 +135,15 @@
         adulthood, Tucker was ordained by the Presbytery of Alton, Illinois in 1837 and, in that
         same year, married his first wife, Mary Oland Stibbs. Together they had four children. Mary
         died in 1844, and Tucker remarried to Annie Deborah Shackford in 1845, with whom he had one
-        son. </p>
+        son.</p>
       <p>Between 1840 and 1848, Tucker worked and lived in Missouri until being installed as pastor
         at Holliston, Massachusetts in 1849. There, Tucker preached throughout the entirety of the
         American Civil War (1861-1865). His sermons from this time remarked on current events
         surrounding the war, which had begun due to rising tensions between Northern and Southern
         states over slavery and its role as westward expansion of the country increased. Tucker also
-        spoke of both the inauguration and assassination of President Abraham Lincoln. </p>
+        spoke of both the inauguration and assassination of President Abraham Lincoln.</p>
       <p>Having grown up and preached in Massachusetts, J.T. Tucker eventually died there in 1897,
-        at the age of 84. </p>
+        at the age of 84.</p>
     </bioghist>
     <scopecontent>
       <head>Scope and Contents</head>
@@ -112,53 +154,74 @@
     <bibliography>
       <head>Bibliography</head>
       <p>"Civil War." History.com, February 27, 2025.
-        https://www.history.com/articles/american-civil-war-history#After-the-Emancipation-Proclamation-(1863-4). </p>
+        https://www.history.com/articles/american-civil-war-history#After-the-Emancipation-Proclamation-(1863-4).</p>
       <p>"Rev Joshua Thomas Tucker (1812-1897)." Find a Grave. Accessed April 24, 2025.
-        https://www.findagrave.com/memorial/122619421/joshua_thomas-tucker. </p>
+        https://www.findagrave.com/memorial/122619421/joshua_thomas-tucker.</p>
       <p>Tucker, Ephraim. 1895. "Genealogy of the Tucker family." Boston, Massachusetts. Boston
         Public Library Local and Family History Collection. Available via Internet Archive,
         https://archive.org/details/genealogyoftucke00tuck_0.</p>
     </bibliography>
     <controlaccess>
-      <subject authfilenumber="sh85120263" source="lcsh">Sermons, American.</subject>
-      <geogname authfilenumber="sh2020006175" source="lcsh">United States--History--Civil War,
-        1861-1865--Religious aspects--Congregational churches</geogname>
-      <subject authfilenumber="sh85010050" source="lcsh">Autobiography.</subject>
-      <subject authfilenumber="sh85029002" source="lcsh">Commonplace books.</subject>
-      <corpname authfilenumber="n83310427" source="lcnaf">Holliston (Mass.)</corpname>
-      <persname authfilenumber="n79006779" source="lcnaf">Lincoln, Abraham, 1809-1865</persname>
+      <subject identifier="sh85120263" source="lcsh">
+        <part>Sermons, American.</part>
+      </subject>
+      <geogname identifier="sh2020006175" source="lcsh">
+        <part>United States--History--Civil War, 1861-1865--Religious aspects--Congregational
+          churches</part>
+      </geogname>
+      <subject identifier="sh85010050" source="lcsh">
+        <part>Autobiography.</part>
+      </subject>
+      <subject identifier="sh85029002" source="lcsh">
+        <part>Commonplace books.</part>
+      </subject>
+      <corpname identifier="n83310427" source="lcnaf">
+        <part>Holliston (Mass.)</part>
+      </corpname>
+      <persname identifier="n79006779" source="lcnaf">
+        <part>Lincoln, Abraham, 1809-1865</part>
+      </persname>
     </controlaccess>
     <dsc>
       <c level="file">
         <did>
           <unittitle>Theological common-place book</unittitle>
-          <unitdate calendar="gregorian" datechar="record_keeping" normal="1847/1888"
-            type="inclusive">1847-1888</unitdate>
-          <container
-            altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=565&amp;cat=597&amp;searchname=&amp;searchid=10370ab&amp;searchtype=C&amp;cart=147464750710027746"
-            label="Mixed Materials" type="box">1</container>
-          <container type="volume">1</container>
+          <unitdatestructured calendar="gregorian" datechar="record_keeping"
+            unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1847">1847</fromdate>
+              <todate standarddate="1888">1888</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="record_keeping" unitdatetype="inclusive"
+            >1847-1888</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">1</container>
         </did>
       </c>
       <c level="file">
         <did>
           <unittitle>Civil War sermons</unittitle>
-          <unitdate calendar="gregorian" datechar="creation" normal="1861/1865" type="inclusive"
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1861">1861</fromdate>
+              <todate standarddate="1865">1865</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
             >1861-1865</unitdate>
-          <container
-            altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=565&amp;cat=597&amp;searchname=&amp;searchid=10370ab&amp;searchtype=C&amp;cart=147464750710027746"
-            label="Mixed Materials" type="box">1</container>
-          <container type="volume">2</container>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">2</container>
         </did>
       </c>
       <c level="file">
         <did>
           <unittitle>Autobiographical memoranda</unittitle>
-          <unitdate calendar="gregorian" datechar="creation" normal="1894/1894">1894</unitdate>
-          <container
-            altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=565&amp;cat=597&amp;searchname=&amp;searchid=10370ab&amp;searchtype=C&amp;cart=147464750710027746"
-            label="Mixed Materials" type="box">1</container>
-          <container type="volume">3</container>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1894">1894</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">3</container>
         </did>
       </c>
     </dsc>

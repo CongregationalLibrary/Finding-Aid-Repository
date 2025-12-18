@@ -1,76 +1,173 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
       type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<ead xmlns="http://ead3.archivists.org/schema/"><control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924"><recordid instanceurl="">ConstantiaNYConstantia-5523</recordid><filedesc><titlestmt><titleproper>Constantia, NY. Constantia Congregational Church records, 1946-1978. </titleproper><author>Jenny Giri</author></titlestmt><publicationstmt><publisher>Congregational Library &amp; Archives</publisher><address><addressline>14 Beacon Street</addressline><addressline>Suite 200</addressline><addressline>Boston, MA 02108</addressline><addressline localtype="business">617-523-0470</addressline><addressline localtype="email">info@14beacon.org</addressline><addressline><ref href="http://www.CongregationalLibrary.org" linktitle="http://www.CongregationalLibrary.org" show="new">http://www.CongregationalLibrary.org</ref></addressline></address><date>2025-12-08</date><num>RG5523</num></publicationstmt></filedesc><maintenancestatus value="derived"/><maintenanceagency countrycode="US"><agencycode>US-MBC</agencycode><agencyname>Congregational Library &amp; Archives</agencyname></maintenanceagency><languagedeclaration><language langcode="eng">English</language><script scriptcode="Latn">Latin</script></languagedeclaration><conventiondeclaration><abbr>DACS 2019.0.3</abbr><citation>translation missing: en.enumerations.resource_finding_aid_description_rules.DACS 2019.0.3</citation></conventiondeclaration><localcontrol localtype="findaidstatus"><term>completed</term></localcontrol><maintenancehistory><maintenanceevent><eventtype value="derived"/><eventdatetime>2025-12-08T16:53:33+00:00</eventdatetime><agenttype value="machine"/><agent>ArchivesSpace v3.2.0</agent><eventdescription>This finding aid was produced using ArchivesSpace on Monday December  8, 2025 at 16:53</eventdescription></maintenanceevent></maintenancehistory></control><archdesc level="collection">
-  <did>
-    <unittitle>Constantia, NY. Constantia Congregational Church records, 1946-1978.</unittitle>
-    <unitid>RG5523</unitid>
-    <repository>
-      <corpname>
-        <part>Congregational Library &amp; Archives</part>
-      </corpname>
-    </repository>
-    <langmaterial>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/ConstantiaNYConstantia-5523.xml"
+      >ConstantiaNYConstantia-5523</recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/default/files/FindingAids/ConstantiaNYConstantia-5523.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Constantia, NY. Constantia Congregational Church records,
+          1946-1978.</titleproper>
+        <author>Jenny Giri</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2025-12-08</date>
+        <num>RG5523</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
       <language langcode="eng">English</language>
-    </langmaterial>
-    <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
-      <quantity>1</quantity>
-      <unittype>Volume</unittype>
-    </physdescstructured>
-    <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
-      <daterange>
-        <fromdate standarddate="1946">1946</fromdate>
-        <todate standarddate="1978">1978</todate>
-      </daterange>
-    </unitdatestructured>
-    <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1946-1978</unitdate>
-    <abstract >The Constantia Congregational Church was founed in Oswego County, New York, in 1946 and last appeared in the United Church of Christ Year Book in 2008. The records in this collection span from 1946 to 1978 and consist of meeting minutes, and lists of financial receipts, and vital statistics.</abstract>
-    <origination label="source">
-      <persname relator="dnr" rules="rda" source="local">
-        <part>Gaewski, David</part>
-      </persname>
-    </origination>
-    <origination label="Creator">
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2025-12-18T14:23:56+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Thursday December 18,
+          2025 at 14:23</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Constantia, NY. Constantia Congregational Church records, 1946-1978.</unittitle>
+      <unitid>RG5523</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>1</quantity>
+        <unittype>Volume</unittype>
+      </physdescstructured>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1946">1946</fromdate>
+          <todate standarddate="1978">1978</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1946-1978</unitdate>
+      <abstract>The Constantia Congregational Church was founed in Oswego County, New York, in 1946
+        and last appeared in the United Church of Christ Year Book in 2008. The records in this
+        collection span from 1946 to 1978 and consist of meeting minutes, and lists of financial
+        receipts, and vital statistics.</abstract>
+      <origination label="source">
+        <persname relator="dnr" rules="rda" source="local">
+          <part>Gaewski, David</part>
+        </persname>
+      </origination>
+      <origination label="Creator">
+        <corpname>
+          <part>Constantia Congregational Church (Constantia, NY)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Constantia, NY. Constantia Congregational Church records,
+        1946-1978, RG5523. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by David Gaewski in
+        August 2024; 2024-30.</p>
+    </acqinfo>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Processed by Jenny Giri in December 2025, using DACS Second Edition.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>The Constantia Congregational Church at the intersection of Frederick Street and Railroad
+        Street was founded in Oswego County, New York, in 1946 and last appeared in the United
+        Church of Christ Year Book in 2008.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains a church register produced by the Constantia Congregational
+        Church. Within this volume are meeting minutes, lists of financial receipts, and vital
+        statistics such as membership and officer lists, baptisms, marriages, and deaths.</p>
+    </scopecontent>
+    <controlaccess>
+      <subject identifier="sh85143949" source="lcsh">
+        <part>Vital statistics.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85032905" source="lcsh">
+        <part>Corporate minutes.</part>
+      </subject>
       <corpname>
         <part>Constantia Congregational Church (Constantia, NY)</part>
       </corpname>
-    </origination>
-  </did>
-  <accessrestrict >
-    <head>Restrictions on Access</head>
-<p>Access to this collection is unrestricted and open to the public.</p>  </accessrestrict>
-  <userestrict >
-    <head>Restrictions on Use</head>
-<p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the researcher to determine the copyright status of collection items and to secure any permissions necessary for their reproduction and publication. Requests for permission to publish material must be discussed with the archivist or librarian.</p>  </userestrict>
-  <prefercite >
-    <head>Preferred Citation</head>
-<p>[Identification of item], in the Constantia, NY. Constantia Congregational Church records, 1946-1978, RG5523. The Congregational Library &amp; Archives, Boston, MA.</p>  </prefercite>
-  <acqinfo >
-    <head>Acquisition Information</head>
-<p>Materials were donated to the Congregational Library &amp; Archives by David Gaewski in August 2024; 2024-30.</p>  </acqinfo>
-  <processinfo >
-    <head>Processing Information</head>
-<p>Processed by Jenny Giri in December 2025, using DACS Second Edition.</p>  </processinfo>
-  <bioghist >
-    <head>Historical Note</head>
-<p>The Constantia Congregational Church at the intersection of Frederick Street and Railroad Street was founded in Oswego County, New York, in 1946 and last appeared in the United Church of Christ Year Book in 2008.</p>  </bioghist>
-  <scopecontent >
-    <head>Scope and Contents</head>
-<p>This collection contains a church register produced by the Constantia Congregational Church.  Within this volume are meeting minutes, lists of financial receipts, and vital statistics such as membership and officer lists, baptisms, marriages, and deaths.</p>  </scopecontent>
-  <controlaccess>
-    <subject identifier="sh85143949" source="lcsh">
-      <part>Vital statistics.</part>
-    </subject>
-    <subject identifier="sh85025741" source="lcsh">
-      <part>Church records and registers.</part>
-    </subject>
-    <subject identifier="sh85032905" source="lcsh">
-      <part>Corporate minutes.</part>
-    </subject>
-    <corpname>
-      <part>Constantia Congregational Church (Constantia, NY)</part>
-    </corpname>
-  </controlaccess>
-  <dsc><c01  level="item"><did><unittitle>Church register</unittitle><physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied"><quantity>1</quantity><unittype>Volume</unittype></physdescstructured><unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive"><daterange><fromdate standarddate="1946">1946</fromdate><todate standarddate="1978">1978</todate></daterange></unitdatestructured><unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1946-1978</unitdate><container  label="Mixed Materials" localtype="box">Small 9</container><container  localtype="folder" >27</container></did></c01></dsc>
-</archdesc>
+    </controlaccess>
+    <dsc>
+      <c level="item">
+        <did>
+          <unittitle>Church register</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>1</quantity>
+            <unittype>Volume</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1946">1946</fromdate>
+              <todate standarddate="1978">1978</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1946-1978</unitdate>
+          <container label="Mixed Materials" localtype="box">Small 9</container>
+          <container localtype="folder">27</container>
+        </did>
+      </c>
+    </dsc>
+  </archdesc>
 </ead>
