@@ -76,6 +76,7 @@
         <quantity>1.21</quantity>
         <unittype>Cubic Feet</unittype>
       </physdescstructured>
+      <physdesc localtype="container_summary">(3 boxes)</physdesc>
       <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
         <daterange>
           <fromdate standarddate="1895">1895</fromdate>
