@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/ArlingtonHeightsILCUCC-5587.xml"
+      >ArlingtonHeightsILCUCC-5587</recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/default/files/FindingAids/ArlingtonHeightsILCUCC-5587.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Arlington Heights, Ill. Congregational United Church of Christ records,
+          1959-2024.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2026-02-04</date>
+        <num>RG5587</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2026-02-05T14:21:38+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Thursday February 5,
+          2026 at 14:21</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Arlington Heights, Ill. Congregational United Church of Christ records,
+        1959-2024.</unittitle>
+      <unitid>RG5587</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>1.09</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(1 box)</physdesc>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1959">1959</fromdate>
+          <todate standarddate="2024">2024</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1959-2024</unitdate>
+      <abstract>The Congregational Church of Arlington Heights, Illinois, was gathered in 1959. The
+        church was seeded, initially, by the Church Extension Committee of the Illinois Conference
+        of the United Church of Christ. Construction of the church's sole building was completed in
+        1963. In 1964, the name of the church was changed to the Congregational United Church of
+        Christ. Throughout the church's history, the church was focused on mission work. The church
+        underwent a restructuring process starting in 1998 that was completed in 2000. The church
+        became Open and Affirming in the early 2000s. The church closed in 2024. The collection
+        contains both administrative records and vital membership records and includes a church
+        register and an accompanying index, constitutions, building legal records, membership lists,
+        baptismal records, and marriage records.</abstract>
+      <origination label="Creator">
+        <corpname rules="rda" source="lcnaf">
+          <part>Congregational United Church of Christ (Arlington Heights, Ill.)</part>
+        </corpname>
+      </origination>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">
+          <part>Congregational Church of Arlington Heights (Ill.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Arlington Heights, Ill. Congregational United Church of
+        Christ records, 1959-2024, RG5587. The Congregational Library &amp; Archives, Boston,
+        MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by the Illinois
+        Conference of the United Church of Christ in December 2024; accession number 2024-46.</p>
+    </acqinfo>
+    <custodhist>
+      <head>Custodial History</head>
+      <p>Materials in this collection were given to the Illinois Conference of the United Church of
+        Christ in 2024 following the closure of the church. This information is documented on a
+        piece of correspondence that is stored within the collection's accession folder.</p>
+    </custodhist>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>This collection was processed by Zachary Bodnar, February 2026, according to the rules of
+        Describing Archives: A Content Standard.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>The Congregational Church of Arlington Heights, Illinois, was gathered in 1959 with Rev. W.
+        Rowland Koch serving as the first minister. The church was seeded, initially, by the Church
+        Extension Committee of the Illinois Conference of the United Church of Christ. Koch moved to
+        Arlington Heights in January of 1959 and began work to gather a church. A steering committee
+        was formed in April and the first service for the church was held on May 3, 1959. Worship
+        was originally held at the Pioneer Park Fieldhouse and then at the South Junior High School
+        until September of 1963 when construction on a church building was completed. In 1964 the
+        name of the church was changed to Congregational United Church of Christ.</p>
+      <p>During Rev. Koch's pastorate, the church became very involved in mission-based work with
+        the formation of the Missions and Stewardship, Social Action, Women's Fellowship, and
+        Pilgrim Fellowship committees. Some of the mission work included the sponsoring of a Cuban
+        refugee family and the Vietnamese Boat People, the Pleasant Valley Farm venture, and Casa
+        Central in Chicago. Rev. Koch served alone until 1980 when Rev. Nan Conser was hired as an
+        associate pastor. Rev. Koch pulled back from pastoral duties in 1985 due to illness and both
+        he and Rev. Conser retired from the church in 1987.</p>
+      <p>They were succeeded by Rev. Howard Bowman in 1988. His pastorate ended in 1997 and he
+        followed by Pastor Jeffrey Phillips, an openly gay clergyman. During his short tenure at the
+        church, Pastor Jeffrey proposed a restructuring of the church from committees into Ministry
+        teams. That work was taken up by the Revisioning Committee. In 1999, Rev. David Russel
+        became the minister of the church and the work of the Revisioning Committee was completed in
+        2000.</p>
+      <p>The 2000s saw the church's mission work focus on the local community. The church's back
+        property was converted into a community garden and the church held frequent choir concerts
+        open to all. The church also took on the Open and Affirming status in the early 2000s. The
+        church continued to serve the Arlington Heights community until 2024 when it dissolved.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains both administrative records and vital membership records for the
+        Congregational United Church of Christ in Arlington Heights, Illinois. The collection
+        includes a church register and an accompanying index, worship bulletins and programs for
+        special events, constitutions, policy documents, building legal records, membership lists,
+        baptismal records, transfer certificates, and marriage records.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>This collection has been arranged into the two series listed below. Materials within each
+        series have been arranged first by chronological order, by start date, and then by groupings
+        of continuous materials.</p>
+      <p><emph render="bold">Series 1:</emph> Administrative records, 1959-2024</p>
+      <p><emph render="bold">Series 2:</emph> Membership records, 1959-2023</p>
+    </arrangement>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025854" source="lcsh">
+        <part>Church buildings.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <subject identifier="sh85090572" source="lcsh">
+        <part>Necrologies.</part>
+      </subject>
+      <corpname identifier="n79069721" source="lcnaf">
+        <part>Arlington Heights (Ill.) -- Church history.</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>Congregational Church of Arlington Heights (Ill.)</part>
+      </corpname>
+      <corpname rules="rda" source="lcnaf">
+        <part>Congregational United Church of Christ (Arlington Heights, Ill.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="series">
+        <did>
+          <unittitle>Administrative records</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>12</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1959">1959</fromdate>
+              <todate standarddate="2024">2024</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1959-2024</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains records related to the administration of the Congregational United
+            Church of Christ of Arlington Heights, Illinois. The series also contains programs and
+            bulletins for special services and events in the church's history. This series includes
+            constitutions, policy documents, histories, anniversary-related documents, committee
+            reports, and legal records related to the church building.</p>
+        </scopecontent>
+        <c level="file">
+          <did>
+            <unittitle>Special programs and worship bulletins</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1959">1959</fromdate>
+                <todate standarddate="2022">2022</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1959-2022</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">1</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Church structure</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1960">circa 1960</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">2</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Histories</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1960">1960</fromdate>
+                <todate standarddate="2008">2008</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1960-2008</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">3</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>First annual meeting</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1960">1960</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">4</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Constitutions</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1960">1960</fromdate>
+                <todate standarddate="1964">1964</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1960, 1964</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">29</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Policies</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1962">1962</fromdate>
+                <todate standarddate="1991">1991</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1962, 1991</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">5</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Building legal records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1963">1963</fromdate>
+                <todate standarddate="2022">2022</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1963-2022</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">6</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Miscellaneous administrative records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1965">1965</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">7</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Fact finding committee report</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1967">1967</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">8</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>25th anniversary records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1985">1985</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">9</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Final worship service programs</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="2024">2024</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">11</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Church exterior architectural image</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">12</container>
+          </did>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unittitle>Membership records</unittitle>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>1</quantity>
+            <unittype>Volume</unittype>
+          </physdescstructured>
+          <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+            <quantity>17</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1959">1959</fromdate>
+              <todate standarddate="2023">2023</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1959-2023</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains records related to the membership of the Congregational United
+            Church of Christ in Arlington Heights, Illinois. The series includes baptismal records,
+            marriage records, transfer records and certificates, membership lists and related
+            records, and the church's register as well as a 2004 index for the register compiled by
+            church members.</p>
+        </scopecontent>
+        <c level="item">
+          <did>
+            <unittitle>Church register</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1959">1959</fromdate>
+                <todate standarddate="2024">2024</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1959-2024</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">1</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Charter members</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1959">1959</fromdate>
+                <todate standarddate="1960">1960</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1959-1960</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">13</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Book of the covenant</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1959">1959</fromdate>
+                <todate standarddate="1999">1999</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1959-1999</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">14</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Book of the covenant</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1999">1999</fromdate>
+                <todate standarddate="2020">2020</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1999-2020</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">15</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Child baptism records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1959">1959</fromdate>
+                <todate standarddate="1972">1972</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1959-1972</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">16</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Adult baptism records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1959">1959</fromdate>
+                <todate standarddate="1981">1981</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1959-1981</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">17</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Membership certificates</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1959">1959</fromdate>
+                <todate standarddate="1963">1963</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1959-1963</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">18</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Membership certificates</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1963">1963</fromdate>
+                <todate standarddate="1969">1969</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1963-1969</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">19</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Membership certificates</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1969">1969</fromdate>
+                <todate standarddate="1977">1977</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1969-1977</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">20</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Membership certificates</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1977">1977</fromdate>
+                <todate standarddate="1986">1986</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1977-1986</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">21</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Marriage records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1967">1967</fromdate>
+                <todate standarddate="1997">1997</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1967-1997</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">22</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Transfer certificates</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1975">1975</fromdate>
+                <todate standarddate="1980">1980</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1975-1980</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">23</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Rosemary Ann Kimpel seminary recommendation</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1992">1992</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">24</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Index of records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="2004">2004</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">10</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Transfers from church</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="2004">2004</fromdate>
+                <todate standarddate="2023">2023</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">2004-2023</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">25</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Transfers to church</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="2006">2006</fromdate>
+                <todate standarddate="2019">2019</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">2006-2019</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">26</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Membership list labels</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="2008">2008</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">27</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Non-member vital records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="2009">2009</fromdate>
+                <todate standarddate="2018">2018</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">2009-2018</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">28</container>
+          </did>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
