@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/OakParkILHarvard-5588.xml"
+      >OakParkILHarvard-5588</recordid>
+    <representation localtype="pdf"
+      href="https://www.congregationallibrary.org/sites/default/files/FindingAids/OakParkILHarvard-5588.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Oak Park, Ill. Harvard Congregational Church records, 1907-1997.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2026-02-11</date>
+        <num>RG5588</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2026-02-11T20:30:40+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday February
+          11, 2026 at 20:30</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Oak Park, Ill. Harvard Congregational Church records, 1907-1997.</unittitle>
+      <unitid>RG5588</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>1.14</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(3 boxes)</physdesc>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1907">1907</fromdate>
+          <todate standarddate="1997">1997</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1907-1997</unitdate>
+      <abstract>The first meeting of the Harvard Chapel was held on January 20th, 1907, and the
+        church was formally named the Harvard Congregational Church on February 5th, 1907. The first
+        church building was destroyed by fire in 1916 and replaced a year later. The church joined
+        with the United Church of Christ after the denomination's formation. In 2005, the church
+        merged with the Family of Faith church to form the Harvard Family United Church of Christ.
+        The church remains open today. The collection contain membership and auxiliary group records
+        and includes trustees' records, auxiliary group records, especially from the women's group,
+        World War II related records, Sunday school records, and photographs.</abstract>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">
+          <part>Harvard Congregational Church (Oak Park, Ill.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Oak Park, Ill. Harvard Congregational Church records,
+        1907-1997, RG5588. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by the Illinois
+        Conference of the United Church of Christ in December 2024; accession number 2024-46.</p>
+    </acqinfo>
+    <custodhist>
+      <head>Custodial History</head>
+      <p>Materials in this collection were given to the Illinois Conference of the United Church of
+        Christ at an unknown time. There is no further documentation on how the materials arrived at
+        the Illinois Conference.</p>
+    </custodhist>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>This collection was processed by Zachary Bodnar, February 2026, according to the rules of
+        Describing Archives: A Content Standard.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>The story of the Harvard Congregational Church in Oak Park, Illinois, began on Thanksgiving
+        Day, 1905, when Rev. William E. Barton found an undeveloped lot at the intersection of
+        Harvard Street and Kenilworth Avenue and declared that "upon this rock will I build my
+        church." In 1906, the lot was purchased by a Joint Conference Committee and the first
+        religious service on the lot was held on June 24 of that year. Ground broke on a church
+        building in October with William Barton breaking the first ground. The first meeting of the
+        Harvard Chapel was held on January 20th, 1907, and the church was formally named the Harvard
+        Congregational Church on February 5th.</p>
+      <p>Rev. O. C. Grauer was the first minister of the newly formed church. He was quickly
+        followed by Rev. C. Arthur Jevne in October, 1907. Jevne remained pastor until 1915. He was
+        followed by Rev. Edward J. Ridings. On December 13, 1916, the church was destroyed by a
+        fire. Following the disaster, the church met in the Circle Masonic Temple. Construction on a
+        new church building was begun in April 1917 and the new building was dedicated on December
+        9th of that year. Rev. William H. Hill became the fourth pastor of the church in 1926.</p>
+      <p>After the formation of the United Church of Christ, the Harvard Congregational Church
+        joined the denomination. In 2005, the church merged with the Family of Faith church to form
+        the Harvard Family United Church of Christ. The church continues to serve the Oak Park
+        community today.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains, primarily, membership and auxiliary group records for the Harvard
+        Congregational Church in Oak Park, Illinois. The collection includes building records,
+        trustees' minutes, Woman's Benevolent Society records, Five Point Club records, newsletters
+        and a "diary" related to World War II, Sunday school records, a history scrapbook,
+        photographs and a postcard, and the church's memorial book.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>Materials in this collection have been arranged into chronological, with contiguous
+        materials grouped together.</p>
+    </arrangement>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025854" source="lcsh">
+        <part>Church buildings.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <subject identifier="sh85090572" source="lcsh">
+        <part>Necrologies.</part>
+      </subject>
+      <subject identifier="sh85118923" source="lcsh">
+        <part>Scrapbooks.</part>
+      </subject>
+      <subject identifier="sh85147343" source="lcsh">
+        <part>Women -- Societies and clubs.</part>
+      </subject>
+      <corpname rules="rda" source="local">
+        <part>Harvard Congregational Church (Oak Park, Ill.)</part>
+      </corpname>
+      <corpname identifier="n79054951" source="lcnaf">
+        <part>Oak Park (Ill.) -- Church history.</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="item">
+        <did>
+          <unittitle>Woman's benevolent society records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1907">1907</fromdate>
+              <todate standarddate="1913">1913</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1907-1913</unitdate>
+          <container label="Mixed Materials" localtype="box">3</container>
+          <container localtype="volume">2</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Women's benevolent society records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1913">1913</fromdate>
+              <todate standarddate="1919">1919</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1913-1919</unitdate>
+          <container label="Mixed Materials" localtype="box">3</container>
+          <container localtype="volume">3</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Photographs</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1907">1907, undated</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">13</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Board of trustees minutes</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1910">1910-1916</datesingle>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1910-1916</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">1</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Anniversary and special programs</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1912">1912</fromdate>
+              <todate standarddate="1967">1967</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1912-1967</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">1</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Daily light circle king's daughters records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1913">1913</fromdate>
+              <todate standarddate="1936">1936</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1913-1936</unitdate>
+          <container label="Mixed Materials" localtype="box">3</container>
+          <container localtype="volume">1</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Cornerstone time capsule contents list</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1917">1917</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">2</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Building records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1917">1917</fromdate>
+              <todate standarddate="1918">1918</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1917-1918</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">3</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Woman's benevolent society yearbooks</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1925">1925</fromdate>
+              <todate standarddate="1965">1965</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1925, 1952-1965</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">1</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Yearbooks</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1927">1927</fromdate>
+              <todate standarddate="1967">1967</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1927-1967</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">4</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Oak Park facts and figures</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1930">1930</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">5</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Memorial book</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1935">1935</fromdate>
+              <todate standarddate="1981">1981</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1935-1981</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">6</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Board of trustees minutes</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1937">1937</fromdate>
+              <todate standarddate="1938">1938</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1937-1938</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">7</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Board of trustees minutes</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1938">1938</fromdate>
+              <todate standarddate="1941">1941</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1938-1941</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">8</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Woman's benevolent society poem</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1940">1940</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">2</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Five point club records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1942">1942</fromdate>
+              <todate standarddate="1944">1944</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1942-1944</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="volume">1</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Five point club records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1945">1945</fromdate>
+              <todate standarddate="1946">1946</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1945-1946</unitdate>
+          <container label="Mixed Materials" localtype="box">3</container>
+          <container localtype="volume">5</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Record of weddings and baptisms</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1944">1944</fromdate>
+              <todate standarddate="1997">1997</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1944-1997</unitdate>
+          <container label="Mixed Materials" localtype="box">3</container>
+          <container localtype="volume">4</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Neil Hanson anniversary banquet speech</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1945">1945</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">9</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Victory in Europe Day service program</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1945">1945</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">10</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Victory in Europe Day and Victory over Japan Day newsletters</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1945">1945</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">11</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Sunday school records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1951">1951</fromdate>
+              <todate standarddate="1958">1958</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1951-1958</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">11</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>History scrapbook</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1954">1954</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">12</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Woman's benevolent society records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1955">1955</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">3</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Woman's benevolent society records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1956">1956</fromdate>
+              <todate standarddate="1959">1959</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1956-1959</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">4</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Woman's benevolent society reports</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1957">1957</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">5</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Woman's benevolent society reports</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1959">1959</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">6</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Woman's benevolent society records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1960">1960</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">7</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Woman's benevolent society records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1961">1961</fromdate>
+              <todate standarddate="1965">1965</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1961-1965</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">8</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Woman's benevolent society records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1963">1963</fromdate>
+              <todate standarddate="1968">1968</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1963-1968</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">9</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Woman's benevolent society records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1968">1968</fromdate>
+              <todate standarddate="1971">1971</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1968-1971</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">10</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Constitution</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1967">circa 1967</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">12</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>World War II servicemen "diary"</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="volume">2</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Church building exterior postcard</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">14</container>
+        </did>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
