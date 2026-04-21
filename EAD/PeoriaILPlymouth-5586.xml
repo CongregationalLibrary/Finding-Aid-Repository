@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/PeoriaILPlymouth-5586.xml"
+      >PeoriaILPlymouth-5586</recordid>
+    <representation localtype="pdf"
+      href="https://congregationallibrary.org/wp-content/uploads/2026/04/PeoriaILPlymouth-5586.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Peoria, Ill. Plymouth Congregational Church records, 1889-1899. </titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline>
+            <ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref>
+          </addressline>
+        </address>
+        <date>2026-04-15</date>
+        <num>RG5586</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2026-04-21T14:21:03+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Tuesday April 21,
+          2026 at 14:21</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Peoria, Ill. Plymouth Congregational Church records, 1889-1899.</unittitle>
+      <unitid>RG5586</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>1</quantity>
+        <unittype>Volume</unittype>
+      </physdescstructured>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1889">1889</fromdate>
+          <todate standarddate="1899">1899</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1889-1899</unitdate>
+      <abstract>In 1869, the First Congregational Church of Peoria established a Sunday School,
+        named the Plymouth Mission. The Plymouth Congregational Church was organized out of the
+        Plymouth Mission on June 2, 1889, with Rev. Charles Clark Harrah as its first minister. In
+        1896, the church constructed a new brick edifice on the same site. The church dissolved in
+        1919. This collection contains a single church record volume which documents both vital
+        member records and the minutes of meetings.</abstract>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">
+          <part>Plymouth Congregational Church (Peoria, Ill.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Peoria, Ill. Plymouth Congregational Church records,
+        1889-1899, RG5586. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by the Illinois
+        Conference of the United Church of Christ in December 2024; accession number 2024-46.</p>
+    </acqinfo>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>This collection was processed by Zachary Bodnar, April 2026, according to the rules of
+        Describing Archives: A Content Standard.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>In 1869, the First Congregational Church of Peoria established a Sunday School, named the
+        Plymouth Mission, at the corner of Fourth and Spencer Streets. The school was successful and
+        by the end of 1888, talk had begun on the establishment of a church. With supporting funds
+        for a church secured, Rev. Charles Clark Harrah was called to become minister of the church.
+        The Plymouth Congregational Church was formally organized on June 2, 1889.</p>
+      <p>The early years of the church saw multiple ministers called to serve. Rev. David Brainard
+        Spencer was called in 1890, Rev. Stafford William Meeks in 1894, Rev. Frank G. Smith in
+        1898, and John William Nelson in 1990. In 1896, the church constructed a new brick edifice
+        on the same site as the old site.</p>
+      <p>The church dissolved in 1919.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains a single church record volume which documents the church's
+        membership, includes baptismal records for infants and adults, and records minutes for the
+        first ten years of the church's existence. A small manuscript celebrating the fifth
+        anniversary of the church is inserted into the volume.</p>
+    </scopecontent>
+    <bibliography>
+      <head>Bibliography</head>
+      <p>Bateman, Newton, Paul Selby, and David McCulloch. <emph render="italic">Historical
+          Encyclopedia of Illinois and History of Peoria County</emph>. Chicago and Peoria: Munsell
+        Publishing Company, 1902. <ref
+          href="https://genealogytrails.com/ill/peoria/church/EarlyChurches.htm"
+          >https://genealogytrails.com/ill/peoria/church/EarlyChurches.htm</ref>.</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <corpname identifier="n79091623" source="lcnaf">
+        <part>Peoria (Ill.) -- Church history.</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>Plymouth Congregational Church (Peoria, Ill.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="file">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1889">1889</fromdate>
+              <todate standarddate="1899">1899</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1889-1899</unitdate>
+          <container label="Mixed Materials" localtype="box">Small 9</container>
+          <container localtype="folder">28</container>
+        </did>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
