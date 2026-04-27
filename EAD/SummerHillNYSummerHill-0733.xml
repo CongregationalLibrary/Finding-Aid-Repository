@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/SummerHillNYSummerHill-0733.xml"
+      >SummerHillNYSummerHill-0733</recordid>
+    <representation localtype="pdf" href="https://congregationallibrary.org/wp-content/uploads/2026/04/SummerHillNYSummerHill-0733.pdf"/> 
+    <filedesc>
+      <titlestmt>
+        <titleproper>Summer Hill, N.Y. Summer Hill Congregational Church records, 1831-1977.</titleproper>
+        <author>Flint McColgan</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline>
+            <ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref>
+          </addressline>
+        </address>
+        <date>2026-04-27</date>
+        <num>RG0733</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="und">Undetermined</language>
+      <script scriptcode="Zyyy">Code for undetermined script</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2026-04-27T15:08:07+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Monday April 27, 2026
+          at 15:08</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Summer Hill, N.Y. Summer Hill Congregational Church records, 1831-1977.</unittitle>
+      <unitid>RG0733</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>1.53</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(2 boxes)</physdesc>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1831">1831</fromdate>
+          <todate standarddate="1977">1977</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1831-1977</unitdate>
+      <abstract id="aspace_2b4bd59c05f49510c7ed4651ba0e011c">The Summer Hill Congregational Church
+        of Summer Hill, N.Y., was founded in 1827. The church dissolved in 1974. This collection
+        contains administrative records of the church some and records of the Cortland-Summer Hill
+        Parish, of which the church was a member, and that parish's two predecessors, the Tri-County
+        Parish and the Cortland Larger Parish.</abstract>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">
+          <part>Summer Hill Congregational Church (Summer Hill, N.Y.)</part>
+        </corpname>
+      </origination>
+      <origination label="Creator">
+        <corpname source="local">
+          <part>Cortland-Summer Hill Parish</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict id="aspace_da153f19403945484d77f2880d926dcb">
+      <head> Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict id="aspace_a2b0db5c959f69e5ccab5b1f20631167">
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite id="aspace_0563437a50682ed5f3acc619926255f8">
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Summer Hill, N.Y. Summer Hill Congregational Church
+        records, 1831-1977, RG0733. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo id="aspace_b5eeab52210d9e36bc393ba5e36a6ca3">
+      <head>Acquisition Information</head>
+      <p>No acquisition information is available for this collection.</p>
+    </acqinfo>
+    <processinfo id="aspace_115f6620b4eb148c1dcddd3007a0b588">
+      <head>Processing Information</head>
+      <p>This collection was processed by Johanna Carll and Virginia Hunt, December 1998. This
+        collection was re-processed by Flint McColgan, April 2026, according to the rules of DACS
+        Second Edition.</p>
+    </processinfo>
+    <bioghist id="aspace_fc19b3b8c3de72423614fc74ee2dd137">
+      <head>Historical note</head>
+      <p>The Summer Hill Congregational Church was founded on April 17, 1827, with seventy members
+        and had begun earlier that year as The East Church of Locke and the East Congregational
+        Society of Locke. Fire claimed the original church building in January of 1841 but the
+        church quickly built a new building and dedicated it in September of that year. That new
+        building served the church on the Homer-Locke Highway, Route 90, for the remainder of its
+        history. The church was rededicated in May 1896. The church is also known as the one-word
+        variant "Summerhill," as is the town it served.</p>
+      <p>The church was part of a local consortium of churches known as the Cortland Larger Parish,
+        formed in 1925, that also included the Second Congregational Church of Cortland and the
+        Congregational Church of Groton. The Cortland Larger Parish dissolved with the exit of the
+        Cortland church in 1947 and was replaced by an entity known as the Tri-County Parish,
+        comprising churches in the counties of Cortland, Cayuga, and Tompkins. The church's final
+        affiliation was part of the Cortland-Summer Hill Parish.</p>
+      <p>Members of a single family served as clerk for Summer Hill Congregational Church for more
+        than a century, 1835 to 1838. The legacy began with Winslow Hamblin, who was followed by his
+        son-in-law, George Allen, who was in turn followed by his son, J. Gurnsey Allen, who held
+        the post for 41 years.</p>
+      <p>Members of the church voted to close the church permanently and sell its assets on May 5,
+        1974. The church held its last service on September 29, 1974.</p>
+    </bioghist>
+    <scopecontent id="aspace_ab9a940fa4800528c152c30564740b2e">
+      <head>Scope and Contents</head>
+      <p>This collection contains administrative records of the Summer Hill, N.Y., Congregational
+        Church and records of the Cortland-Summer Hill Parish, of which the church was a member.</p>
+    </scopecontent>
+    <arrangement id="aspace_83c51cadbe7bde7fdafc884c19b8c172">
+      <head>Arrangement</head>
+      <p>The collection is arranged into two series. Records in each series have been arranged
+        chronologically by start date.</p>
+      <p><emph render="bold">Series 1:</emph> Summer Hill Congregational Church records,
+        1831-1977</p>
+      <p><emph render="bold">Series 2:</emph> Cortland-Summer Hill Parish records, 1940-1955</p>
+    </arrangement>
+    <relatedmaterial id="aspace_1d0f739818621437df20f030783ee992">
+      <head>Related Materials</head>
+      <p>Additional materials related to the Summer Hill Congregational Church, N.Y. are located at
+        the Cornell University Library's Division of Rare and Manuscript Collections, #6275.</p>
+    </relatedmaterial>
+    <controlaccess>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <geogname identifier="n99021744-781" source="lcsh">
+        <part>New York (State)--Summer Hill</part>
+      </geogname>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025606" source="lcsh">
+        <part>Church finance.</part>
+      </subject>
+      <subject identifier="sh85075742" source="lcsh">
+        <part>Legal documents.</part>
+      </subject>
+      <subject identifier="sh85147343" source="lcsh">
+        <part>Women -- Societies and clubs.</part>
+      </subject>
+      <subject identifier="sh2004003103" source="lcsh">
+        <part>Church closures</part>
+      </subject>
+      <corpname rules="rda" source="local">
+        <part>Summer Hill Congregational Church (Summer Hill, N.Y.)</part>
+      </corpname>
+      <corpname source="local">
+        <part>Cortland-Summer Hill Parish</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c id="aspace_39b567fcac6266b38052c774b53bfc8c" level="series">
+        <did>
+          <unittitle>Summer Hill Congregational Church records</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>40</quantity>
+            <unittype>Items</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1831">1831</fromdate>
+              <todate standarddate="1977">1977</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1831-1977</unitdate>
+        </did>
+        <scopecontent id="aspace_0082bb7d506fbe4c0698e9e794ad0c81">
+          <head>Scope and Contents</head>
+          <p>This series includes transfer and dismission correspondence, meeting minutes, financial
+            reports, committee and pastor's reports, and activity records of clubs and auxiliary
+            groups. Notable documents include the "List of Strays" notebook recording farm animals
+            escaping their pens in the immediate area, wills and bequests of some church members,
+            and documentation of the church's closure.</p>
+        </scopecontent>
+        <c id="aspace_2267e077e727a52795cb91eff6325504" level="file">
+          <did>
+            <unittitle>Church records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1831">1831</fromdate>
+                <todate standarddate="1957">1957</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1831-1957</unitdate>
+            <container id="aspace_0be837b2f42b92b50cf0bec88ddcb69a" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_eca395605b9657d9e407f295f4773328" localtype="volume"
+              parent="aspace_0be837b2f42b92b50cf0bec88ddcb69a">1</container>
+          </did>
+        </c>
+        <c id="aspace_4366dc984859c92482f682041bcc3373" level="file">
+          <did>
+            <unittitle>List of strays</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1833">1833</fromdate>
+                <todate standarddate="1902">1902</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1833-1902</unitdate>
+            <container id="aspace_1bc48550ec758233b0860c5d127f2f0d" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_6cae73fbb6bff24d04c84310cd423e7c" localtype="volume"
+              parent="aspace_1bc48550ec758233b0860c5d127f2f0d">1</container>
+          </did>
+        </c>
+        <c id="aspace_b7b37653e55edabea9c6242a123c0ebf" level="file">
+          <did>
+            <unittitle>Lists of voters and electors</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1861">1861</fromdate>
+                <todate standarddate="1866">1866</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1861-1866</unitdate>
+            <container id="aspace_f097d8bd8a96095d615867ee7c2c67ee" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_c4cac27db0b53a2fc8dcf5bbbdf669da" localtype="folder"
+              parent="aspace_f097d8bd8a96095d615867ee7c2c67ee">1</container>
+          </did>
+        </c>
+        <c id="aspace_734584710aebd2c673f6667446c546a0" level="file">
+          <did>
+            <unittitle>Ladies Heart and Hand Society records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1886">1886</fromdate>
+                <todate standarddate="1909">1909</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1886-1909</unitdate>
+            <container id="aspace_ba8f58f63699d594323b8e865a1b0db0" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_d344fed59fcaf625a14d6f602edbeb18" localtype="volume"
+              parent="aspace_ba8f58f63699d594323b8e865a1b0db0">2</container>
+          </did>
+        </c>
+        <c id="aspace_ab24cb47c4ea142071ad4c0d682091c2" level="file">
+          <did>
+            <unittitle>Dismissal receipts</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1886">1886</fromdate>
+                <todate standarddate="1967">1967</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1886-1967</unitdate>
+            <container id="aspace_ed48f9005d8db16f0e132736461217fc" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_3fd91792881d54be570d4c0765c85a2a" localtype="folder"
+              parent="aspace_ed48f9005d8db16f0e132736461217fc">1</container>
+          </did>
+        </c>
+        <c id="aspace_aa3cd20bd4ebaff4c98d314d601fb756" level="file">
+          <did>
+            <unittitle>Young People's Society records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1887">1887</fromdate>
+                <todate standarddate="1893">1893</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1887-1893</unitdate>
+            <container id="aspace_7437d5a33f68d099fa92c4874ebf4054" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_edde7133ec5e85a1f141716748247689" localtype="volume"
+              parent="aspace_7437d5a33f68d099fa92c4874ebf4054">3</container>
+          </did>
+        </c>
+        <c id="aspace_b614dc816e74ec1038978e053c8ffdbd" level="file">
+          <did>
+            <unittitle>Church records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1887">1887</fromdate>
+                <todate standarddate="1938">1938</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1887-1938</unitdate>
+            <container id="aspace_7dc4ac18b0bc70c0af9c06fed376d127" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_0e1a3e47a4679245984d5ba0f15c10dc" localtype="volume"
+              parent="aspace_7dc4ac18b0bc70c0af9c06fed376d127">4</container>
+          </did>
+        </c>
+        <c id="aspace_48434841b25abf60080a83c56162307f" level="file">
+          <did>
+            <unittitle>Letters of transfer/dismissal</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1887">1887</fromdate>
+                <todate standarddate="1950">1950</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1887-1950</unitdate>
+            <container id="aspace_40885b3a9f2b4b8e1314b9409443e65d" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_7c06aa6873a4613551e22ad9dd039be7" localtype="folder"
+              parent="aspace_40885b3a9f2b4b8e1314b9409443e65d">2</container>
+          </did>
+        </c>
+        <c id="aspace_c2f174ef825d50a93f4dd2f0ace100b5" level="file">
+          <did>
+            <unittitle>Ecclesiastical Council minutes</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1892">1892</datesingle>
+            </unitdatestructured>
+            <container id="aspace_0fc8bb4de8afdee73b24ec1fe8cb5d30" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_51ac4327752019a108e2c0953219ff5c" localtype="folder"
+              parent="aspace_0fc8bb4de8afdee73b24ec1fe8cb5d30">3</container>
+          </did>
+        </c>
+        <c id="aspace_2a60ab3c141f35afad9f9674a1b157e8" level="file">
+          <did>
+            <unittitle>Requests for dismissal</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1894">1894</fromdate>
+                <todate standarddate="1974">1974</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1894, 1942-1974,
+              undated</unitdate>
+            <container id="aspace_58983d4c8fc93cc0c751e3828e34c87a" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_322676b75d42db7b5dc49c4567586d85" localtype="folder"
+              parent="aspace_58983d4c8fc93cc0c751e3828e34c87a">4</container>
+          </did>
+        </c>
+        <c id="aspace_1e4b7210004c7dbda62593b49281028a" level="file">
+          <did>
+            <unittitle>Church history and special events programs</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1896">1896</fromdate>
+                <todate standarddate="1974">1974</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1896-1974</unitdate>
+            <container id="aspace_edba4fa42388303a6f3a55d601e19164" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_44605600cce9a6697fa27a88c5e5e860" localtype="folder"
+              parent="aspace_edba4fa42388303a6f3a55d601e19164">5</container>
+          </did>
+        </c>
+        <c id="aspace_0f331984743de35c89817f0d7f4ecc33" level="file">
+          <did>
+            <unittitle>General correspondence</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1896">1896</fromdate>
+                <todate standarddate="1976">1976</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1896, 1947-1976</unitdate>
+            <container id="aspace_43937562492d969db4915176950e4a3d" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_f470ffa35f01e0d25f97384e1ac27bc9" localtype="folder"
+              parent="aspace_43937562492d969db4915176950e4a3d">6</container>
+          </did>
+        </c>
+        <c id="aspace_6abb2067598c6f3e7f9068b2d29a2a8f" level="file">
+          <did>
+            <unittitle>Treasurer's account book</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1900">1900</fromdate>
+                <todate standarddate="1937">1937</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1900-1937</unitdate>
+            <container id="aspace_cd7d8af33af0b967ea7fb956013ca132" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_fa42f4e7541a8f67b20ad94ace75b987" localtype="volume"
+              parent="aspace_cd7d8af33af0b967ea7fb956013ca132">5</container>
+          </did>
+        </c>
+        <c id="aspace_1af0f631ea8392594e82979e894ad925" level="file">
+          <did>
+            <unittitle>Contracts and legal documents</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1905">1905</fromdate>
+                <todate standarddate="1975">1975</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1905-1975</unitdate>
+            <container id="aspace_1f1250f4dc1de04ff3d4a692ceca870f" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_29ecb6399ca591441306a24fe68211e7" localtype="folder"
+              parent="aspace_1f1250f4dc1de04ff3d4a692ceca870f">2</container>
+          </did>
+        </c>
+        <c id="aspace_38538943b575aa14c6b9d3cde6abadc6" level="file">
+          <did>
+            <unittitle>Wills and bequests</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1905">1905</fromdate>
+                <todate standarddate="1975">1975</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1905-1975</unitdate>
+            <container id="aspace_b4c6ba1c1e98663660dcf0c4d55a54a4" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_d8d63c88e78019d4573d572d67d864f2" localtype="folder"
+              parent="aspace_b4c6ba1c1e98663660dcf0c4d55a54a4">3</container>
+          </did>
+        </c>
+        <c id="aspace_0b579164383e8491a254f94d5e4a935a" level="file">
+          <did>
+            <unittitle>Ladies Aid and Home and Foreign Ministry records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1914">1914</fromdate>
+                <todate standarddate="1935">1935</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1914-1935</unitdate>
+            <container id="aspace_6cc5ed47291552b44539bd9d83c07d12" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_50c25ce361a46c20225cdc40dd244dc5" localtype="volume"
+              parent="aspace_6cc5ed47291552b44539bd9d83c07d12">2</container>
+          </did>
+        </c>
+        <c id="aspace_559009f258c7fd0c32cb501940d09337" level="file">
+          <did>
+            <unittitle>Letters of resignation</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1926">1926</fromdate>
+                <todate standarddate="1966">1966</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1926-1966</unitdate>
+            <container id="aspace_80209766ab3c1e4995a16feeac1dd2f4" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_c5eeb7fd4629404bba1d56d91353e0f4" localtype="folder"
+              parent="aspace_80209766ab3c1e4995a16feeac1dd2f4">7</container>
+          </did>
+        </c>
+        <c id="aspace_8088c374484019574c6c22a6fb89e8e8" level="file">
+          <did>
+            <unittitle>Pledge books</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1927">1927</fromdate>
+                <todate standarddate="1946">1946</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1927-1946</unitdate>
+            <container id="aspace_a587303c37df92464269c33a940f391d" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_771a35d13c04f6df751a69330cc8bacf" localtype="folder"
+              parent="aspace_a587303c37df92464269c33a940f391d">8</container>
+          </did>
+        </c>
+        <c id="aspace_33021a124f0ee83d1cebe6d7c572b0e7" level="file">
+          <did>
+            <unittitle>Board of Trustees meeting minutes</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1927">1927</fromdate>
+                <todate standarddate="1976">1976</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1927-1976</unitdate>
+            <container id="aspace_f2889694763e6edb9f6d708be4be7a3e" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_131628ed714d00fe0e2161f203676fe0" localtype="folder"
+              parent="aspace_f2889694763e6edb9f6d708be4be7a3e">9</container>
+          </did>
+        </c>
+        <c id="aspace_05cf36c98905cb4766122e915cd1f14e" level="file">
+          <did>
+            <unittitle>Bank pass books</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1929">1929</fromdate>
+                <todate standarddate="1977">1977</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1929-1977</unitdate>
+            <container id="aspace_8c54f31a346200e4a935e61b46b50f78" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_8cf34b1fa5bd6933d47ad4777b59802d" localtype="folder"
+              parent="aspace_8c54f31a346200e4a935e61b46b50f78">10</container>
+          </did>
+        </c>
+        <c id="aspace_cd07a61fd2906b17576542292ed864f6" level="file">
+          <did>
+            <unittitle>Society of Congregational Christian Women records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1937">1937</fromdate>
+                <todate standarddate="1948">1948</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1937-1948</unitdate>
+            <container id="aspace_3a2f1043bafd306b141bfff5e2a184f8" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_a24be4465561e56c0aba5501ebc612e5" localtype="volume"
+              parent="aspace_3a2f1043bafd306b141bfff5e2a184f8">3</container>
+          </did>
+        </c>
+        <c id="aspace_23b79542b93cb7f895a586dfcb1c396b" level="file">
+          <did>
+            <unittitle>Treasurer's account book</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1938">1938</fromdate>
+                <todate standarddate="1977">1977</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1938-1977</unitdate>
+            <container id="aspace_9789af59519df5d4bc86c82bcf959777" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_4b8f0d1e03579c6bba5a6c91ccecb9f9" localtype="volume"
+              parent="aspace_9789af59519df5d4bc86c82bcf959777">6</container>
+          </did>
+        </c>
+        <c id="aspace_b16a3f7f50a6db7656030a38669a15ed" level="file">
+          <did>
+            <unittitle>Church records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1939">1939</fromdate>
+                <todate standarddate="1974">1974</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1939-1974</unitdate>
+            <container id="aspace_41093b406a1e53ea2552f94070114347" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_c2867d3485628b1b3b6ee9caeee6e6ea" localtype="volume"
+              parent="aspace_41093b406a1e53ea2552f94070114347">7</container>
+          </did>
+        </c>
+        <c id="aspace_8aec5a4de2250051cc4cf02c95a00b99" level="file">
+          <did>
+            <unittitle>Congregational Yearbook reports</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1940">1940</fromdate>
+                <todate standarddate="1961">1961</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1940-1961</unitdate>
+            <container id="aspace_61355eb8ff3b8292dc3189812ea4c98f" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_06906f69c1079d3a5d9cb47ae8d7169e" localtype="folder"
+              parent="aspace_61355eb8ff3b8292dc3189812ea4c98f">11</container>
+          </did>
+        </c>
+        <c id="aspace_a45e47405eacacb41d2b6c17c2a052bd" level="file">
+          <did>
+            <unittitle>Legal correspondence</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1941">1941</fromdate>
+                <todate standarddate="1972">1972</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1941-1972</unitdate>
+            <container id="aspace_82a62bcba5105dab10678543eb509cda" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_da01ab30dbc5f60bbc30c4276eb6c5fe" localtype="folder"
+              parent="aspace_82a62bcba5105dab10678543eb509cda">12</container>
+          </did>
+        </c>
+        <c id="aspace_1cda57c8ae16cba02f10ae673625af65" level="file">
+          <did>
+            <unittitle>Sunday school records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1945">1945</fromdate>
+                <todate standarddate="1948">1948</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1945-1948, undated</unitdate>
+            <container id="aspace_1538c4391eaf3d17fd5738f0af536ed6" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_c9cf2a9495f2c25f04f4085c6d916d4b" localtype="folder"
+              parent="aspace_1538c4391eaf3d17fd5738f0af536ed6">13</container>
+          </did>
+        </c>
+        <c id="aspace_c145d6ad0d0e6e92cb178d441ac2f938" level="file">
+          <did>
+            <unittitle>Pilgrim Fellowship report</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1947">1947</datesingle>
+            </unitdatestructured>
+            <container id="aspace_e84a02ad92f64f032c410de26d16f90b" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_0e8ad1c4e4dac5c15d2964ed11d55398" localtype="folder"
+              parent="aspace_e84a02ad92f64f032c410de26d16f90b">14</container>
+          </did>
+        </c>
+        <c id="aspace_54a7ae29ed0e399cba43e86019c43301" level="file">
+          <did>
+            <unittitle>Church attendance and membership reports</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1947">1947</fromdate>
+                <todate standarddate="1959">1959</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1947-1959</unitdate>
+            <container id="aspace_292c987f9eef77729a5920bab8fe5df8" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_f72587c4eaabdaac13a0e2050183d88b" localtype="folder"
+              parent="aspace_292c987f9eef77729a5920bab8fe5df8">15</container>
+          </did>
+        </c>
+        <c id="aspace_cf6c48f26f7fb2600bbfd67b64ef687c" level="file">
+          <did>
+            <unittitle>Ministers, Missionary, and Widows Old Age Fund reports</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1948">1948</datesingle>
+            </unitdatestructured>
+            <container id="aspace_208d0cbb75bfa8f864c214f606d4ca82" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_fd60800d960bafe57b5772b6159ab879" localtype="folder"
+              parent="aspace_208d0cbb75bfa8f864c214f606d4ca82">16</container>
+          </did>
+        </c>
+        <c id="aspace_351fdce8c9bd1b6bff738a1daafb4883" level="file">
+          <did>
+            <unittitle>Treasurer's account book</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1948">1948</fromdate>
+                <todate standarddate="1951">1951</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1948-1951</unitdate>
+            <container id="aspace_03f81b7a68fdbb3fdab8aa086a155fe3" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_61d43765b6641781eac739aa3138fcb4" localtype="folder"
+              parent="aspace_03f81b7a68fdbb3fdab8aa086a155fe3">17</container>
+          </did>
+        </c>
+        <c id="aspace_901828784297e6a180a6dfcd05f193d5" level="file">
+          <did>
+            <unittitle>Financial documents</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1948">1948</fromdate>
+                <todate standarddate="1976">1976</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1948-1976</unitdate>
+            <container id="aspace_e5fb604178f89754252b624583e34cd6" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_fe94157914a1467b57aa8853cb5b92ba" localtype="folder"
+              parent="aspace_e5fb604178f89754252b624583e34cd6">18</container>
+          </did>
+        </c>
+        <c id="aspace_217f22b63626cfd838d487219d20b404" level="file">
+          <did>
+            <unittitle>Society of Congregational Christian Women records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1949">1949</fromdate>
+                <todate standarddate="1962">1962</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1949-1962</unitdate>
+            <container id="aspace_bc7511808e7e1f1637a2e5698fdb84d1" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_37ef5e18da0fd34695d0cedeb113927e" localtype="volume"
+              parent="aspace_bc7511808e7e1f1637a2e5698fdb84d1">4</container>
+          </did>
+        </c>
+        <c id="aspace_80e557d821f8abc8208bd1709fa60e87" level="file">
+          <did>
+            <unittitle>Society of Congregational Christian Women records</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1951">1951</fromdate>
+                <todate standarddate="1960">1960</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1951-1960</unitdate>
+            <container id="aspace_946b8185ef36584235643082d3f7a923" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_44ec8c65772112f393fc93fec107f200" localtype="folder"
+              parent="aspace_946b8185ef36584235643082d3f7a923">19</container>
+          </did>
+        </c>
+        <c id="aspace_4c1a9c9b82ea3ed4c33774b524260929" level="file">
+          <did>
+            <unittitle>Ordination of Rev. Griffiths</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1952">1952</datesingle>
+            </unitdatestructured>
+            <container id="aspace_dc278bbbe5aa66014aad5944703379fc" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_e20f5e01aec153da143ce710b9bb63a3" localtype="folder"
+              parent="aspace_dc278bbbe5aa66014aad5944703379fc">20</container>
+          </did>
+        </c>
+        <c id="aspace_d4e8bb228ec8d752f607674e7ca117bb" level="file">
+          <did>
+            <unittitle>Financial secretary's reports</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1955">1955</fromdate>
+                <todate standarddate="1956">1956</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1955-1956</unitdate>
+            <container id="aspace_6167708ce849558c5834e076cfecf080" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_3042d96f4d4fac66522802c5d41492f2" localtype="folder"
+              parent="aspace_6167708ce849558c5834e076cfecf080">21</container>
+          </did>
+        </c>
+        <c id="aspace_936cdf0d7eaca4ce5e6bcd086bc8480c" level="file">
+          <did>
+            <unittitle>Annual meeting minutes</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1961">1961</fromdate>
+                <todate standarddate="1974">1974</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1961-1974</unitdate>
+            <container id="aspace_83188f660b4505eb6202b4a6133fdcbf" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_bf6466e5fe367d2b8019cbba703e7a31" localtype="folder"
+              parent="aspace_83188f660b4505eb6202b4a6133fdcbf">22</container>
+          </did>
+        </c>
+        <c id="aspace_500ab5f785172578fac887000f72a8c3" level="file">
+          <did>
+            <unittitle>Account book</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1969">1969</fromdate>
+                <todate standarddate="1977">1977</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1969-1977</unitdate>
+            <container id="aspace_7b012621d360c2cd56f860b0ff5c68c7" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_a23a1b1e95dc8632c416036d3801d237" localtype="folder"
+              parent="aspace_7b012621d360c2cd56f860b0ff5c68c7">23</container>
+          </did>
+        </c>
+        <c id="aspace_613c2f660e6e75ad7b515758ca397672" level="file">
+          <did>
+            <unittitle>Bank statements</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1969">1969</fromdate>
+                <todate standarddate="1977">1977</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1969-1977</unitdate>
+            <container id="aspace_413c112e3ffd5dd87642fc944bae3c92" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_c952e07ed7767853866efa767ef04e05" localtype="folder"
+              parent="aspace_413c112e3ffd5dd87642fc944bae3c92">24</container>
+          </did>
+        </c>
+        <c id="aspace_adac024bcdf1078fd5a7dae6123a9eb6" level="file">
+          <did>
+            <unittitle>Documents pertaining to church closing</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1974">1974</datesingle>
+            </unitdatestructured>
+            <container id="aspace_8cad4be7f86cabf85b5cf603bef26d09" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_d931a35027313571e6a26fb528c2182f" localtype="folder"
+              parent="aspace_8cad4be7f86cabf85b5cf603bef26d09">25</container>
+          </did>
+        </c>
+        <c id="aspace_cfebad92c5249f6c824e7131d9ecb22d" level="file">
+          <did>
+            <unittitle>Photographs</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container id="aspace_254993ecd043ab8c7607b94c1021f10c" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_0e18d7aa83eca3d1a63e15517f004c1a" localtype="folder"
+              parent="aspace_254993ecd043ab8c7607b94c1021f10c">26</container>
+          </did>
+        </c>
+      </c>
+      <c id="aspace_ddce4e0b84442f56980a56b90b206102" level="series">
+        <did>
+          <unittitle>Cortland-Summer Hill Parish records</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>4</quantity>
+            <unittype>Items</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1940">1940</fromdate>
+              <todate standarddate="1955">1955</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1940-1955</unitdate>
+        </did>
+        <scopecontent id="aspace_f1c8307554dc8d6518c7dca55cb9dd9b">
+          <head>Scope and Contents</head>
+          <p>This series includes records pertaining to the Cortland-Summer Hill Parish, including
+            financial records, pastor's reports, mortgage documents, and cabinet minutes.</p>
+        </scopecontent>
+        <c id="aspace_10377b81fc2898aa6bc0f10b2fa024e4" level="file">
+          <did>
+            <unittitle>Cortland Larger Parish financial records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1940">1940</fromdate>
+                <todate standarddate="1948">1948</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1940-1948</unitdate>
+            <container id="aspace_5d9a46f7156039ed08abe2e99e7bb3f9" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_101a2c7f12be2f354d38ec13d851bc84" localtype="folder"
+              parent="aspace_5d9a46f7156039ed08abe2e99e7bb3f9">27</container>
+          </did>
+        </c>
+        <c id="aspace_84cd1dc1efdb877b8de41e2f0bf23a5b" level="file">
+          <did>
+            <unittitle>Pastor's annual reports</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1940">1940</fromdate>
+                <todate standarddate="1952">1952</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1940-1952</unitdate>
+            <container id="aspace_1b99d14767fa474c2db965fb9da08f0a" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_ac4b7b9cfb27714527a86cb081f2afab" localtype="folder"
+              parent="aspace_1b99d14767fa474c2db965fb9da08f0a">28</container>
+          </did>
+        </c>
+        <c id="aspace_be3277bbc5650213abf6eaa98364deec" level="file">
+          <did>
+            <unittitle>Cortland-Summer Hill Parish mortgage document</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1942">1942</datesingle>
+            </unitdatestructured>
+            <container id="aspace_66caf8fc6b43f5b4712681d8e6f8eb47" label="Mixed Materials"
+              localtype="box">2</container>
+            <container id="aspace_3f22120a3dba1bc165ce35d3a0bc65c9" localtype="folder"
+              parent="aspace_66caf8fc6b43f5b4712681d8e6f8eb47">4</container>
+          </did>
+        </c>
+        <c id="aspace_9980197f5b443868da0c636d8630144e" level="file">
+          <did>
+            <unittitle>Cortland-Summer Hill Parish cabinet minutes</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1945">1945</fromdate>
+                <todate standarddate="1955">1955</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1945-1955</unitdate>
+            <container id="aspace_8ea8312b2a8575411cfa4cb0902550fe" label="Mixed Materials"
+              localtype="box">1</container>
+            <container id="aspace_3d1be9e488e753b88902d62d42dd93d5" localtype="folder"
+              parent="aspace_8ea8312b2a8575411cfa4cb0902550fe">29</container>
+          </did>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
