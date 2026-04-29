@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/ChicagoILGrandAvenue-5256.xml"
+      >ChicagoILGrandAvenue-5256</recordid>
+    <representation localtype="pdf"
+      href="https://congregationallibrary.org/wp-content/uploads/2026/05/ChicagoILGrandAvenue-5256.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Chicago, Ill. Grand Avenue Congregational Church records,
+          1911-1929.</titleproper>
+        <author>Flint McColgan</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline>
+            <ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref>
+          </addressline>
+        </address>
+        <date>2026-04-29</date>
+        <num>RG5262</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2026-04-29T17:08:25+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday April 29,
+          2026 at 17:08</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Chicago, Ill. Grand Avenue Congregational Church records, 1911-1929.</unittitle>
+      <unitid>RG5262</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>.22</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(1 box)</physdesc>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1911">1911</fromdate>
+          <todate standarddate="1929">1929</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1911-1929</unitdate>
+      <abstract>The Grand Avenue Congregational Church began as the Central Sunday School at Grand
+        and Lawndale avenues in Chicago circa 1890. On March 6, 1929, the church voted to absorb the
+        Pacific Congregational Church. The church merged with fellow Chicago church Pilgrim German
+        Congregational Church to form the United Congregational Church in 1943, which itself closed
+        in 1976. Included in this collection are meeting minutes, listings of church officers, a
+        brief church history, and membership records.</abstract>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">
+          <part>Grand Avenue Congregational Church (Chicago, Ill.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head> Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Chicago, Ill. Grand Avenue Congregational Church records,
+        1911-1929, RG5262. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by by the Chicago
+        Theological Seminary in April 2014; accession number 2014-109.</p>
+    </acqinfo>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>This collection was processed by Flint McColgan, April 2026, according to the rules of DACS
+        Second Edition.</p>
+    </processinfo>
+    <bioghist>
+      <head>Biographical / Historical</head>
+      <p>The Grand Avenue Congregational Church began as the Central Sunday School at Grand and
+        Lawndale avenues in Chicago circa 1890. It began holding Sunday services above a feed store
+        on that same corner in September 1892, under the leadership of Chicago Congregational
+        Theological Seminary student J. U. Stotts. In 1894, the church rented and rehabilitated an
+        abandoned store building nearby. The church would obtain a permanent location in the next
+        decade when it purchased a lot in 1907 and built a building there. The church dedicated the
+        completed building on June 4, 1911. The church, experiencing significant growth, constructed
+        a new addition called the Church House beginning in 1923. On March 6, 1929, the church voted
+        to absorb the Pacific Congregational Church. The church merged with fellow Chicago church
+        Pilgrim German Congregational Church to form the United Congregational Church in 1943. The
+        United Congregational Church closed in 1976.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>These church records consist of a single volume and six loose pages which include meeting
+        minutes, listings of church officers, a brief church history, and membership records.</p>
+    </scopecontent>
+    <controlaccess>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85025619" source="lcsh">
+        <part>Church history.</part>
+      </subject>
+      <subject identifier="sh85130524" source="lcsh">
+        <part>Sunday schools.</part>
+      </subject>
+      <corpname rules="rda" source="local">
+        <part>Grand Avenue Congregational Church (Chicago, Ill.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="file">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1911">1911</fromdate>
+              <todate standarddate="1929">1929</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1911-1929</unitdate>
+          <langmaterial>
+            <language langcode="ang">English, Old (ca.450-1100)</language>
+          </langmaterial>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">1</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Removed from church records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1911">1911</fromdate>
+              <todate standarddate="1929">1929</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1911-1929</unitdate>
+          <langmaterial>
+            <language langcode="ang">English, Old (ca.450-1100)</language>
+          </langmaterial>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">1</container>
+        </did>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
