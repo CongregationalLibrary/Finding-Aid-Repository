@@ -8,7 +8,7 @@
       instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/CarterMinnieE-5530.xml"
       >CarterMinnieE-5530</recordid>
     <representation localtype="pdf"
-      href="https://congregationallibrary.org/wp-content/uploads/2026/04/CarterMinnieE-5530"/>
+      href="https://congregationallibrary.org/wp-content/uploads/2026/05/CarterMinnieE-5530.pdf"/>
     <filedesc>
       <titlestmt>
         <titleproper>Minnie E. Carter papers, 1869, 1911-1986.</titleproper>
@@ -51,11 +51,11 @@
     <maintenancehistory>
       <maintenanceevent>
         <eventtype value="derived"/>
-        <eventdatetime>2026-04-23T15:54:21+00:00</eventdatetime>
+        <eventdatetime>2026-05-01T14:34:36+00:00</eventdatetime>
         <agenttype value="machine"/>
         <agent>ArchivesSpace v3.2.0</agent>
-        <eventdescription>This finding aid was produced using ArchivesSpace on Thursday April 23,
-          2026 at 15:54</eventdescription>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Friday May 1, 2026 at
+          14:34</eventdescription>
       </maintenanceevent>
     </maintenancehistory>
   </control>
@@ -297,6 +297,16 @@
             <unitdate datechar="creation" unitdatetype="inclusive">1924-1981</unitdate>
             <container label="Mixed Materials" localtype="box">2</container>
             <container localtype="folder">4</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Inanda Newspaper Article</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1927-07-02">July 2, 1927</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="Drawer">8</container>
+            <container localtype="folder">2</container>
           </did>
         </c>
         <c level="file">
@@ -668,6 +678,15 @@
             <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
             <container label="Mixed Materials" localtype="box">1</container>
             <container localtype="folder">32</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Oversized photos</unittitle>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >undated</unitdate>
+            <container label="Mixed Materials" localtype="Drawer">8</container>
+            <container localtype="folder">1</container>
           </did>
         </c>
       </c>
