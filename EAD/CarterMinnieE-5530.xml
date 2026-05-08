@@ -22,11 +22,9 @@
           <addressline>Boston, MA 02108</addressline>
           <addressline localtype="business">617-523-0470</addressline>
           <addressline localtype="email">info@14beacon.org</addressline>
-          <addressline>
-            <ref href="http://www.CongregationalLibrary.org"
+          <addressline><ref href="http://www.CongregationalLibrary.org"
               linktitle="http://www.CongregationalLibrary.org" show="new"
-              >http://www.CongregationalLibrary.org</ref>
-          </addressline>
+              >http://www.CongregationalLibrary.org</ref></addressline>
         </address>
         <date>2026-04-23</date>
         <num>MS5530</num>
@@ -51,11 +49,11 @@
     <maintenancehistory>
       <maintenanceevent>
         <eventtype value="derived"/>
-        <eventdatetime>2026-05-01T14:34:36+00:00</eventdatetime>
+        <eventdatetime>2026-05-08T17:02:39+00:00</eventdatetime>
         <agenttype value="machine"/>
         <agent>ArchivesSpace v3.2.0</agent>
-        <eventdescription>This finding aid was produced using ArchivesSpace on Friday May 1, 2026 at
-          14:34</eventdescription>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Friday May 8, 2026 at
+          17:02</eventdescription>
       </maintenanceevent>
     </maintenancehistory>
   </control>
@@ -78,7 +76,7 @@
         <quantity>1.44</quantity>
         <unittype>Cubic Feet</unittype>
       </physdescstructured>
-      <physdesc localtype="container_summary">(2 boxes)</physdesc>
+      <physdesc localtype="container_summary">(2 boxes, 2 Folders)</physdesc>
       <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
         <daterange>
           <fromdate standarddate="1922">1922</fromdate>
@@ -102,7 +100,7 @@
         Foreign Missions from 1917-1957.</abstract>
       <origination label="Creator">
         <persname rules="rda" source="local">
-          <part>Carter, Minnie, E</part>
+          <part>Carter, Minnie E.</part>
         </persname>
       </origination>
     </did>
@@ -175,8 +173,8 @@
       <p><emph render="bold">Series 2:</emph> Photographs, undated</p>
     </arrangement>
     <controlaccess>
-      <subject identifier="sh85147592" source="lcsh">
-        <part>Women in missionary work.</part>
+      <subject identifier="sh85033035" source="lcsh">
+        <part>Correspondence.</part>
       </subject>
       <subject identifier="sh85086052" source="lcsh">
         <part>Missions -- Study and teaching.</part>
@@ -184,9 +182,12 @@
       <subject identifier="sh85101195" source="lcsh">
         <part>Photographs. </part>
       </subject>
-      <subject identifier="sh85033035" source="lcsh">
-        <part>Correspondence.</part>
+      <subject identifier="sh85147592" source="lcsh">
+        <part>Women in missionary work.</part>
       </subject>
+      <persname rules="rda" source="local">
+        <part>Carter, Minnie E.</part>
+      </persname>
       <corpname rules="AACR2" source="naf">
         <part>Inanda Seminary (Inanda, South Africa)</part>
       </corpname>
