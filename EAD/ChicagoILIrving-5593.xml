@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/ChicagoILIrving-5593.xml"
+      >ChicagoILIrving-5593</recordid>
+    <representation localtype="pdf"
+      href="https://congregationallibrary.org/wp-content/uploads/2026/05/ChicagoILIrving-5593.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Chicago, Ill. Irving Park Immanuel Congregational Church records,
+          1906-1984.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline>
+            <ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref>
+          </addressline>
+        </address>
+        <date>2026-01-23</date>
+        <num>RG5593</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2026-05-08T19:21:00+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Friday May 8, 2026 at
+          19:21</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Chicago, Ill. Irving Park Immanuel Congregational Church records,
+        1906-1984.</unittitle>
+      <unitid>RG5593</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>0.44</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(1 box)</physdesc>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1906">1906</fromdate>
+          <todate standarddate="1984">1984</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1906-1984</unitdate>
+      <abstract>The Irving Park Immanuel Congregational Church was established in 1905 and Rev. Ira
+        Milton Grey served as the church's first minister. The church building was constructed
+        between 1907 and 1925. A parsonage was purchased in 1950. The church joined the United
+        Church of Christ. The church dissolved in 1998. This collection contains membership records
+        and administrative records and includes meeting minutes, vital membership records, and
+        correspondence.</abstract>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">
+          <part>Irving Park Immanuel Congregational Church (Chicago, Ill.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Chicago, Ill. Irving Park Immanuel Congregational Church
+        records, 1906-1984, RG5593. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by the Illinois
+        Conference of the United Church of Christ in December 2024; accession number 2024-46.</p>
+    </acqinfo>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>This collection was processed by Zachary Bodnar, April 2026, according to the rules of
+        Describing Archives: A Content Standard.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>The history of the Irving Park Immanuel Congregational Church in Chicago's East Irving Park
+        district began with the establishment of a Sunday school in 1896. The Sunday school was
+        established by Rev. Jesse Brooks, then the pastor of the Irving Park Reformed Church. From
+        the Sunday school community arose a desire to establish a Congregational Church and in 1905
+        the Irving Park Immanuel Congregational Church was established. 35 founding members signed
+        the church's charter in 1906. Rev. Ira Milton Grey served as the church's first
+        minister.</p>
+      <p>The church building was constructed at the corner of West Berteau Avenue and North Troy
+        Street. At first the congregation inhabited a temporary structure on the lot from 1907 until
+        1910. In 1910, the basement of the permanent building was completed and the congregation
+        used that space for worship services until the building's construction was completed in
+        1925. In 1928, an Austin organ was installed in the church. The building underwent
+        renovations between 1947 and 1949 and a parsonage was purchased at 4122 North Richmond
+        Street in 1950.</p>
+      <p>The church joined the United Church of Christ after the denomination's formation in 1957.
+        The church dissolved in 1998. The church building is still used as a church today.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains membership records and some administrative records related to the
+        Irving Park Immanuel Congregational Church in Chicago, Illinois. The collection includes
+        meeting minutes, membership registers, baptismal records, marriage records, death records,
+        and correspondence.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>Materials in this collection have been arranged in chronological order by start date.</p>
+    </arrangement>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <subject identifier="sh85090572" source="lcsh">
+        <part>Necrologies.</part>
+      </subject>
+      <subject identifier="sh85146810" source="lcsh">
+        <part>Wills.</part>
+      </subject>
+      <corpname identifier="n78086438" source="lcnaf">
+        <part>Chicago (Ill.) -- Church history.</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>Irving Park Immanuel Congregational Church (Chicago, Ill.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1906">1906</fromdate>
+              <todate standarddate="1929">1929</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1906-1929</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">1</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Church register</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1930">1930</fromdate>
+              <todate standarddate="1950">1950</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1930-1950</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">2</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Board of deacons records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1940">1940</fromdate>
+              <todate standarddate="1946">1946</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1940-1946</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">3</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Church register</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1950">1950</fromdate>
+              <todate standarddate="1960">1960</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1950-1960</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">4</container>
+        </did>
+      </c>
+      <c level="item">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1961">1961</fromdate>
+              <todate standarddate="1984">1984</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1961-1984</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">5</container>
+        </did>
+        <separatedmaterial>
+          <head>Separated Materials</head>
+          <p>Loose materials found at the start of this volume were sepparated and moved into a
+            folder titled "Miscellaneous membership records, 1964, 1980-1984" for preservation
+            purposes.</p>
+        </separatedmaterial>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Miscellaneous membership records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1964">1964</fromdate>
+              <todate standarddate="1984">1984</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1964,
+            1980-1984</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">1</container>
+        </did>
+        <separatedmaterial>
+          <head>Separated Materials</head>
+          <p>Materials in this folder were removed from the front of the volume titled "Church
+            records, 1961-1984" for preservation purposes.</p>
+        </separatedmaterial>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Telephone directory</unittitle>
+          <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">2</container>
+        </did>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
