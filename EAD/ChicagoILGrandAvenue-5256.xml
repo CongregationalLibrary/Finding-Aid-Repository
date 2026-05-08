@@ -23,11 +23,9 @@
           <addressline>Boston, MA 02108</addressline>
           <addressline localtype="business">617-523-0470</addressline>
           <addressline localtype="email">info@14beacon.org</addressline>
-          <addressline>
-            <ref href="http://www.CongregationalLibrary.org"
+          <addressline><ref href="http://www.CongregationalLibrary.org"
               linktitle="http://www.CongregationalLibrary.org" show="new"
-              >http://www.CongregationalLibrary.org</ref>
-          </addressline>
+              >http://www.CongregationalLibrary.org</ref></addressline>
         </address>
         <date>2026-04-29</date>
         <num>RG5262</num>
@@ -52,11 +50,11 @@
     <maintenancehistory>
       <maintenanceevent>
         <eventtype value="derived"/>
-        <eventdatetime>2026-04-29T17:08:25+00:00</eventdatetime>
+        <eventdatetime>2026-05-08T16:13:40+00:00</eventdatetime>
         <agenttype value="machine"/>
         <agent>ArchivesSpace v3.2.0</agent>
-        <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday April 29,
-          2026 at 17:08</eventdescription>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Friday May 8, 2026 at
+          16:13</eventdescription>
       </maintenanceevent>
     </maintenancehistory>
   </control>
@@ -145,16 +143,20 @@
       <p>These church records consist of a single volume and six loose pages which include meeting
         minutes, listings of church officers, a brief church history, and membership records.</p>
     </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>Materials in this collection have been arranged in chonological order by start date.</p>
+    </arrangement>
     <controlaccess>
       <subject identifier="sh85025741" source="lcsh">
         <part>Church records and registers.</part>
       </subject>
-      <subject identifier="sh85025619" source="lcsh">
-        <part>Church history.</part>
-      </subject>
       <subject identifier="sh85130524" source="lcsh">
         <part>Sunday schools.</part>
       </subject>
+      <corpname identifier="n78086438" source="lcnaf">
+        <part>Chicago (Ill.) -- Church history.</part>
+      </corpname>
       <corpname rules="rda" source="local">
         <part>Grand Avenue Congregational Church (Chicago, Ill.)</part>
       </corpname>
@@ -163,13 +165,14 @@
       <c level="file">
         <did>
           <unittitle>Church records</unittitle>
-          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
             <daterange>
               <fromdate standarddate="1911">1911</fromdate>
               <todate standarddate="1929">1929</todate>
             </daterange>
           </unitdatestructured>
-          <unitdate datechar="creation" unitdatetype="inclusive">1911-1929</unitdate>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1911-1929</unitdate>
           <container label="Mixed Materials" localtype="box">1</container>
           <container localtype="volume">1</container>
         </did>
@@ -177,13 +180,14 @@
       <c level="file">
         <did>
           <unittitle>Removed from church records</unittitle>
-          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
             <daterange>
               <fromdate standarddate="1911">1911</fromdate>
               <todate standarddate="1929">1929</todate>
             </daterange>
           </unitdatestructured>
-          <unitdate datechar="creation" unitdatetype="inclusive">1911-1929</unitdate>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1911-1929</unitdate>
           <container label="Mixed Materials" localtype="box">1</container>
           <container localtype="folder">1</container>
         </did>
