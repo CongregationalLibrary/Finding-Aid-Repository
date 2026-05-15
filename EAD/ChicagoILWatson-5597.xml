@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/ChicagoILWatson-5597.xml"
+      >ChicagoILWatson-5597</recordid>
+    <representation localtype="pdf"
+      href="https://congregationallibrary.org/wp-content/uploads/2026/05/ChicagoILWatson-5597.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Chicago, Ill. Watson Park Church records, 1917-2001.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline>
+            <ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref>
+          </addressline>
+        </address>
+        <date>2026-05-12</date>
+        <num>RG5597</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2026-05-15T14:42:02+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Friday May 15, 2026
+          at 14:42</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Chicago, Ill. Watson Park Church records, 1917-2001.</unittitle>
+      <unitid>RG5597</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>0.53</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(2 boxes)</physdesc>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1917">1917</fromdate>
+          <todate standarddate="2001">2001</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1917-2001</unitdate>
+      <abstract>The Watson Park Church was gathered in 1912 in the Dunning neighborhood of Chicago,
+        Illinois. The church dissolved around 2014 or 2015. The collection contains vital membership
+        records such as baptismal records, confirmation records, a membership register, wedding
+        records, and funeral remembrances.</abstract>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">
+          <part>Watson Park Church (Chicago, Ill.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Chicago, Ill. Watson Park Church records, 1917-2001,
+        RG5597. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by the Illinois
+        Conference of the United Church of Christ in December 2024; accession number 2024-46.</p>
+    </acqinfo>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>This collection was processed by Zachary Bodnar, May 2026, according to the rules of
+        Describing Archives: A Content Standard.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>The Watson Park Church, also known as the Watson Park Congregational Church, was gathered
+        in 1912 in the Dunning neighborhood of Chicago, Illinois. It was located at 6337 West
+        Cornelia Avenue. The church joined with the United Church of Christ after the denomination's
+        formation in 1957. The church dissolved around 2014 or 2015.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains vital membership records for the Watson Park Church in Chicago,
+        Illinois. The collection includes an early church register, membership records, baptismal
+        records, marriage records, records of deaths and remembrances, programs for baptismal and
+        wedding services, confirmation records, and a proposed constitution.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>Materials in this collection have been arranged into chronological order by start date.
+        Materials which are contiguous between folders have been grouped together.</p>
+    </arrangement>
+    <controlaccess>
+      <subject identifier="sh89002058" source="lcsh">
+        <part>Baptismal records.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85030953" source="lcsh">
+        <part>Confirmation records.</part>
+      </subject>
+      <subject identifier="sh85081512" source="lcsh">
+        <part>Marriage records.</part>
+      </subject>
+      <subject identifier="sh85090572" source="lcsh">
+        <part>Necrologies.</part>
+      </subject>
+      <corpname identifier="n78086438" source="lcnaf">
+        <part>Chicago (Ill.) -- Church history.</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>Watson Park Church (Chicago, Ill.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="item">
+        <did>
+          <unittitle>Church register</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1917">1917</fromdate>
+              <todate standarddate="1947">1947</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1917-1947</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="volume">1</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Confirmation service programs</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1930">1930</fromdate>
+              <todate standarddate="1951">1951</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1930-1951</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">1</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Congregational Church Building Society application materials</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1931">1931</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">2</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Miscellaneous membership records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1951">1951</fromdate>
+              <todate standarddate="2001">2001</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1951-2001</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">3</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Proposed constitution </unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1958">1958</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">4</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Membership lists</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1961">1961</fromdate>
+              <todate standarddate="1965">1965</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1961-1965</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">5</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Marriage records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1976">1976</fromdate>
+              <todate standarddate="1989">1989</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1976-1989</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">6</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Marriage records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1990">1990</fromdate>
+              <todate standarddate="1993">1993</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1990-1993</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">7</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Marriage records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1994">1994</fromdate>
+              <todate standarddate="1997">1997</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1994-1997</unitdate>
+          <container label="Mixed Materials" localtype="box">1</container>
+          <container localtype="folder">8</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Confirmations and picture</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1977">1977</fromdate>
+              <todate standarddate="1987">1987</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1977, 1987, undated</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">1</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Baptismal records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1978">1978</fromdate>
+              <todate standarddate="1989">1989</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1978-1989</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">2</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Baptismal records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1990">1990</fromdate>
+              <todate standarddate="1997">1997</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1990-1997</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">3</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Wedding service programs</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1979">1979</fromdate>
+              <todate standarddate="1988">1988</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1979-1988</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">4</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Baptismal records</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1979">1979</fromdate>
+              <todate standarddate="1992">1992</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1979-1992</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">5</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Baptismal service programs</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1985">1985</fromdate>
+              <todate standarddate="1997">1997</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1985-1997</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">6</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Remembrances</unittitle>
+          <unitdatestructured datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1985">1985</fromdate>
+              <todate standarddate="2001">2001</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate datechar="creation" unitdatetype="inclusive">1985-2001</unitdate>
+          <container label="Mixed Materials" localtype="box">2</container>
+          <container localtype="folder">7</container>
+        </did>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
