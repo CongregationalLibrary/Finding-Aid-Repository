@@ -7,8 +7,7 @@
     <recordid
       instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/ChicagoILEsperanza-5344.xml"
       >ChicagoILEsperanza-5344</recordid>
-    <representation localtype="pdf"
-      href="https://www.congregationallibrary.org/sites/default/files/FindingAids/ChicagoILEsperanza-5344.pdf"/>
+    <representation/>
     <filedesc>
       <titlestmt>
         <titleproper>Chicago, Ill. Iglesia Nueva Esperanza records, 1875-2007.</titleproper>
@@ -22,9 +21,11 @@
           <addressline>Boston, MA 02108</addressline>
           <addressline localtype="business">617-523-0470</addressline>
           <addressline localtype="email">info@14beacon.org</addressline>
-          <addressline><ref href="http://www.CongregationalLibrary.org"
+          <addressline>
+            <ref href="http://www.CongregationalLibrary.org"
               linktitle="http://www.CongregationalLibrary.org" show="new"
-              >http://www.CongregationalLibrary.org</ref></addressline>
+              >http://www.CongregationalLibrary.org</ref>
+          </addressline>
         </address>
         <date>2026-01-02</date>
         <num>RG5344</num>
@@ -46,11 +47,18 @@
     <maintenancehistory>
       <maintenanceevent>
         <eventtype value="derived"/>
-        <eventdatetime>2026-01-02T19:24:53+00:00</eventdatetime>
+        <eventdatetime>2026-05-19T14:51:35+00:00</eventdatetime>
         <agenttype value="machine"/>
         <agent>ArchivesSpace v3.2.0</agent>
-        <eventdescription>This finding aid was produced using ArchivesSpace on Friday January 2,
-          2026 at 19:24</eventdescription>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Tuesday May 19, 2026
+          at 14:51</eventdescription>
+      </maintenanceevent>
+      <maintenanceevent>
+        <eventtype value="revised"/>
+        <eventdatetime>2026-05-19</eventdatetime>
+        <agenttype value="unknown"/>
+        <agent/>
+        <eventdescription>Additional materials added to the collection.</eventdescription>
       </maintenanceevent>
     </maintenancehistory>
   </control>
@@ -70,10 +78,10 @@
         </languageset>
       </langmaterial>
       <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
-        <quantity>3.41</quantity>
+        <quantity>3.63</quantity>
         <unittype>Cubic Feet</unittype>
       </physdescstructured>
-      <physdesc localtype="container_summary">(5 boxes)</physdesc>
+      <physdesc localtype="container_summary">(6 boxes)</physdesc>
       <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
         <daterange>
           <fromdate standarddate="1875">1875</fromdate>
@@ -139,9 +147,9 @@
     </custodhist>
     <processinfo>
       <head>Processing Information</head>
-      <p>The initial collection was processed by Billy McCarthy in 2017. This collection was reprocessed by
-        Zachary Bodnar, January 2026, according to the rules of Describing Archives: A Content
-        Standard.</p>
+      <p>The initial collection was processed by Billy McCarthy, 2017. This collection was
+        reprocessed by Zachary Bodnar, January 2026, according to the rules of Describing Archives:
+        A Content Standard.</p>
     </processinfo>
     <bioghist>
       <head>Historical Note</head>
@@ -810,6 +818,34 @@
         </c>
         <c level="file">
           <did>
+            <unittitle>Financial records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1955">1955</fromdate>
+                <todate standarddate="1959">1959</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1955-1959</unitdate>
+            <container label="Mixed Materials" localtype="box">6</container>
+            <container localtype="folder">1</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Reports</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1957">1957</fromdate>
+                <todate standarddate="1995">1995</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1957-1958, 1995</unitdate>
+            <container label="Mixed Materials" localtype="box">6</container>
+            <container localtype="folder">2</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
             <unittitle>Miscellaneous reports</unittitle>
             <unitdatestructured datechar="creation" unitdatetype="inclusive">
               <daterange>
@@ -956,6 +992,16 @@
         </c>
         <c level="file">
           <did>
+            <unittitle>Grant mortgage</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1990">1990</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">6</container>
+            <container localtype="folder">7</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
             <unittitle>Miscellaneous meeting minutes</unittitle>
             <unitdatestructured datechar="creation" unitdatetype="inclusive">
               <daterange>
@@ -1022,6 +1068,14 @@
             <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
             <container label="Mixed Materials" localtype="box">5</container>
             <container localtype="folder">4</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Inventories</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container label="Mixed Materials" localtype="box">6</container>
+            <container localtype="folder">10</container>
           </did>
         </c>
       </c>
@@ -1279,6 +1333,48 @@
         </c>
         <c level="file">
           <did>
+            <unittitle>Baptismal records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1962">1962</fromdate>
+                <todate standarddate="1988">1988</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1962-1988</unitdate>
+            <container label="Mixed Materials" localtype="box">6</container>
+            <container localtype="folder">3</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Marriage records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1967">1967</fromdate>
+                <todate standarddate="1984">1984</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1967-1984</unitdate>
+            <container label="Mixed Materials" localtype="box">6</container>
+            <container localtype="folder">4</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Membership certificates</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1968">1968</fromdate>
+                <todate standarddate="1979">1979</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1968-1979</unitdate>
+            <container label="Mixed Materials" localtype="box">6</container>
+            <container localtype="folder">5</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
             <unittitle>Churches in transitions covenant</unittitle>
             <unitdatestructured datechar="creation" unitdatetype="inclusive">
               <daterange>
@@ -1481,6 +1577,16 @@
         </c>
         <c level="file">
           <did>
+            <unittitle>Certificate of thanks</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1988">1988</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">6</container>
+            <container localtype="folder">6</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
             <unittitle>Little Village Resource Center lease</unittitle>
             <unitdatestructured datechar="creation" unitdatetype="inclusive">
               <daterange>
@@ -1553,6 +1659,22 @@
             <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
             <container label="Mixed Materials" localtype="box">2</container>
             <container localtype="folder">51</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Member directory</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container label="Mixed Materials" localtype="box">6</container>
+            <container localtype="folder">8</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Histories</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container label="Mixed Materials" localtype="box">6</container>
+            <container localtype="folder">9</container>
           </did>
         </c>
       </c>
