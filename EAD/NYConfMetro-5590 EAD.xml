@@ -1,0 +1,3239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/NYConfMetro-5590.xml"
+      >NYConfMetro-5590</recordid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Metropolitan Association New York Conference United Church of Christ records,
+          1850-2025 </titleproper>
+        <author>Madison Bellew</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline>
+            <ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref>
+          </addressline>
+        </address>
+        <date>2026-05-27</date>
+        <num>RG5590</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>translation missing: en.enumerations.resource_finding_aid_description_rules.DACS
+        2019.0.3</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2026-05-27T19:23:26+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday May 27,
+          2026 at 19:23</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Metropolitan Association New York Conference United Church of Christ records,
+        1850-2025</unittitle>
+      <unitid>RG5590</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+        <languageset>
+          <language langcode="spa">Spanish; Castilian</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+        <languageset>
+          <language langcode="chi">Chinese</language>
+          <script scriptcode="Hani">Han (Hanzi, Kanji, Hanja)</script>
+        </languageset>
+        <languageset>
+          <language langcode="tam">Tamil</language>
+          <script scriptcode="Taml">Tamil</script>
+        </languageset>
+        <languageset>
+          <language langcode="kor">Korean</language>
+          <script scriptcode="Kore">Korean (alias for Hangul + Han)</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>6.11</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(7 boxes)</physdesc>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1850">1850</fromdate>
+          <todate standarddate="2025">2025</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1850-2025</unitdate>
+      <abstract>The Metropolitan Association of the New York Conference of the United Church of
+        Christ formed from the renaming of the New York City Congregational Church Association in
+        1963. The latter formed from the merger of the Congregational Church Extension Society of
+        New York City and Brooklyn, which began 1892 to support and establish NYC churches, and the
+        New York City Congregational Church Association, which succeeded the Manhattan-Brooklyn
+        Conference in 1910. The Metropolitan Association and its predecessors aided their member
+        churches and clergy by providing advice, financial assistance, licensure, building
+        ownership, and other support as needed by the very diverse congregations and communities in
+        NYC. This collection includes records related to or created by the Metropolitan Association
+        and its predecessors with the majority concerning the member churches of the association.
+        The records include correspondence, financial records, legal records, property records,
+        reports, photographs, directories, histories, constitutions, and other documents from or for
+        the association.</abstract>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">
+          <part>Metropolitan Association New York Conference United Church of Christ</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is fully restricted. Permission to access any portion of the
+        collection must be acquired, in writing, from the president of the Metropolitan Association
+        New York Conference United Church of Christ.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Metropolitan Association New York Conference United Church
+        of Christ records, 1850-2025, RG5590. The Congregational Library &amp; Archives, Boston,
+        MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by the Metropolitan
+        Association of the New York Conference, United Church of Christ in April 2026; accession
+        number 2026-15.</p>
+    </acqinfo>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>This collection was processed by Madison Bellew, May 2026, according to the rules of
+        Describing Archives: A Content Standard.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>The Metropolitan Association of the New York Conference of the United Church of Christ was
+        formed from a series of mergers and name changes of congregational associations in New York
+        City with the current association beginning in 1963. In 1841, the Manhattan Congregational
+        Association was formed, and meetings were held until 1846 when they decided to form a new
+        association. In 1847, the Manhattan Association was dissolved, and the Congregational
+        Association of New York and Brooklyn was formed with the latter eventually changing its name
+        to the New York and Brooklyn Association of Congregational Churches. The New York and
+        Brooklyn Association merged with the Manhattan Conference in 1895 to become the
+        Manhattan-Brooklyn Conference which was succeeded by the New York City Congregational Church
+        Association in 1910. The New York City Congregational Church Association was then
+        incorporated January 16, 1922, before it consolidated with the Congregational Church
+        Extension Society of New York City and Brooklyn on April 15, 1924 as the New York City
+        Congregational Church Association. The Congregational Church Extension Society of New York
+        City and Brooklyn began October 1892 to support and establish churches in New York and
+        Brooklyn and the surrounding areas before it merged with the New York City Congregational
+        Church Association. On November 26th, 1963, the New York City Congregational Church
+        Association renamed itself as the Metropolitan Association of the New York Conference of the
+        United Church of Christ.</p>
+      <p>Throughout its history, the Metropolitan Association and its predecessors supported and
+        advised New York City's churches, licensed and supported congregational ministers, provided
+        financial assistance, and attended significant church events. The association also owned
+        various properties when churches were unable to do so themselves along with the Deer Hill
+        Conference Center which was used for church and ministerial retreats. Many of the church
+        properties were sold either to the church when possible or on the market when the conference
+        could no longer sustain them, with the Deer Hill property being sold in 1989. Due to the
+        historical role and population makeup of New York City, the association and its member
+        churches witnessed and were involved in various social movements and significant events, and
+        they ministered to and dealt with very ethnically and racially diverse congregations and
+        communities. Unfortunately, as church memberships and finances changed or declined over
+        time, many churches closed or merged with other congregations while others joined other
+        denominations or unaffiliated themselves from the Metropolitan Association for various
+        reasons, but there were also new churches formed and affiliated with the association as it
+        entered the twenty-first century.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains records relating to and created by the Metropolitan Association of
+        the New York Conference of the United Church of Christ and its predecessor associations with
+        the majority of the records related to the member churches of the association. The records
+        include communications with or about the member churches or personnel connected to the
+        churches and association, legal concerns and documents involving the association or the
+        member churches, materials from the administration of the association, and other records
+        sent to or created by the association. The collection includes correspondence, reports,
+        histories, legal documents, financial statements, photographs, directories, minutes,
+        constitutions, by-laws, aid applications, mortgages, building plans, and other
+        documents.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>The collection is arranged into two series with one series for association specific records
+        and one for records relating to the churches within the association. The church records
+        series is further arranged into seven subseries based on the regions or counties within the
+        Metropolitan Association. Series 1: Association records is arranged chronologically by start
+        date while Series 2: Church records is arranged alphabetically.</p>
+      <p><emph render="bold">Series 1:</emph> Association records, 1931-2019</p>
+      <p><emph render="bold">Series 2:</emph> Church records, 1850-2025</p>
+      <p><emph render="italic">Subseries 1:</emph> Bronx, 1903-2020</p>
+      <p><emph render="italic">Subseries 2:</emph> Brooklyn/Staten Island, 1883-2025</p>
+      <p><emph render="italic">Subseries 3:</emph> Manhattan, 1850-2018</p>
+      <p><emph render="italic">Subseries 4:</emph> Nassau, 1926-2025</p>
+      <p><emph render="italic">Subseries 5:</emph> Queens, 1928-2024</p>
+      <p><emph render="italic">Subseries 6:</emph> Suffolk, 1994-2000</p>
+      <p><emph render="italic">Subseries 7:</emph> Westchester, 1908-2025</p>
+    </arrangement>
+    <relatedmaterial>
+      <head>Related Materials</head>
+      <p>Additional records may be held by individual church archives such as those at Plymouth
+        Church and the Riverside Church Archives. Records relating to the East Harlem Protestant
+        Parish and the churches involved can be found in the <ref
+          href="https://findingaids.library.columbia.edu/archives/cul-4492445#administrative-information"
+          >East Harlem Protestant Parish records, 1942 -- 2007</ref> collection at the Burke Library
+        at Union Theological Seminary, Columbia University in the City of New York.</p>
+    </relatedmaterial>
+    <odd>
+      <head>Content Warning</head>
+      <p>This collection includes content and language that may be upsetting or triggering. These
+        records reflect the language and attitudes of the historical period in which they were
+        created; many of these terms are unacceptable today. The Congregational Library &amp;
+        Archives works to preserve Congregational history and stories while acknowledging that
+        sometimes that history is problematic or questionable. We do this to preserve,
+        contextualize, and reflect on the past so that we may learn from it.</p>
+    </odd>
+    <controlaccess>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85025591" source="lcsh">
+        <part>Church correspondence.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Clergy -- Correspondence.</part>
+      </subject>
+      <subject identifier="sh85025606" source="lcsh">
+        <part>Church finance.</part>
+      </subject>
+      <subject identifier="sh85025854" source="lcsh">
+        <part>Church buildings.</part>
+      </subject>
+      <subject identifier="sh85025528" source="lcsh">
+        <part>Church and social problems.</part>
+      </subject>
+      <subject identifier="sh85101195" source="lcsh">
+        <part>Photographs. </part>
+      </subject>
+      <subject identifier="sh85075742" source="lcsh">
+        <part>Legal documents.</part>
+      </subject>
+      <subject identifier="sh2008020053" source="lcsh">
+        <part>Corporation reports -- Religious aspects.</part>
+      </subject>
+      <subject identifier="sh85025646" source="lcsh">
+        <part>Church management.</part>
+      </subject>
+      <corpname rules="rda" source="local">
+        <part>Metropolitan Association New York Conference United Church of Christ</part>
+      </corpname>
+      <corpname identifier="2012102858" source="lcnaf">
+        <part>Congregational Church Extension Society of New York and Brooklyn (New York,
+          N.Y.)</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>New York City Congregational Church Association</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c01 level="series">
+        <did>
+          <unittitle>Association records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1931">1931</fromdate>
+              <todate standarddate="2019">2019</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1931-2019</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains records related to the Metropolitan Association and its
+            adminstration including correspondence, photographs, directories, property records,
+            by-laws, financial records, minutes, and other documents.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>Association directory</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+              label="Mixed Materials" localtype="box">4</container>
+            <container localtype="folder">31</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Church building photos</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container altrender="Slim Legal Document Case" label="Mixed Materials" localtype="box"
+              >7</container>
+            <container localtype="folder">5</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Miscellaneous photos</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+              label="Mixed Materials" localtype="box">4</container>
+            <container localtype="folder">32</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Miscellaneous church records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1914">1914</fromdate>
+                <todate standarddate="2017">2017</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1914-2017</unitdate>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+              label="Mixed Materials" localtype="box">4</container>
+            <container localtype="folder">47</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>"Fragments of history"</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1931">1931</fromdate>
+                <todate standarddate="1981">1981</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1931-1981</unitdate>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+              label="Mixed Materials" localtype="box">4</container>
+            <container localtype="folder">33</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Deer Hill conference center records and sale</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1959">1959</fromdate>
+                <todate standarddate="1989">1989</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1959-1989</unitdate>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+              label="Mixed Materials" localtype="box">4</container>
+            <container localtype="folder">34</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Correspondence</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1960">1960</fromdate>
+                <todate standarddate="2012">2012</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1960-2012</unitdate>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+              label="Mixed Materials" localtype="box">4</container>
+            <container localtype="folder">44</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>By-laws</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1963">1963</fromdate>
+                <todate standarddate="1991">1991</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1963-1991</unitdate>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+              label="Mixed Materials" localtype="box">4</container>
+            <container localtype="folder">35</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Wall Street ministry records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1966">1966</fromdate>
+                <todate standarddate="1970">1970</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1966-1970</unitdate>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+              label="Mixed Materials" localtype="box">4</container>
+            <container localtype="folder">36</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Tax and financial records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1966">1966</fromdate>
+                <todate standarddate="2018">2018</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1966-2018</unitdate>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+              label="Mixed Materials" localtype="box">4</container>
+            <container localtype="folder">37</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Miscellaneous records</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1976">1976</fromdate>
+                <todate standarddate="2011">2011</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1976-2011</unitdate>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+              label="Mixed Materials" localtype="box">4</container>
+            <container localtype="folder">45</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Board members and deans</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1995">1995</fromdate>
+                <todate standarddate="2019">2019</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1995-2019</unitdate>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+              label="Mixed Materials" localtype="box">4</container>
+            <container localtype="folder">38</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Ordination and ministerial standing committee</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1996">1996</fromdate>
+                <todate standarddate="2009">2009</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1996-2009</unitdate>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+              label="Mixed Materials" localtype="box">4</container>
+            <container localtype="folder">40</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Miscellaneous photos</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="2001">2001</fromdate>
+                <todate standarddate="2003">2003</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">2001-2003</unitdate>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+              label="Mixed Materials" localtype="box">4</container>
+            <container localtype="folder">39</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>International day of prayer and Herman Mendoza</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="2005">2005</fromdate>
+                <todate standarddate="2007">2007</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">2005-2007</unitdate>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+              label="Mixed Materials" localtype="box">4</container>
+            <container localtype="folder">46</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Boundary awareness training</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="2008">2008</fromdate>
+                <todate standarddate="2013">2013</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">2008-2013</unitdate>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+              label="Mixed Materials" localtype="box">4</container>
+            <container localtype="folder">41</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Board of directors</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="2009">2009</fromdate>
+                <todate standarddate="2011">2011</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">2009-2011</unitdate>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+              label="Mixed Materials" localtype="box">4</container>
+            <container localtype="folder">42</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Association directory</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="2018">2018</datesingle>
+            </unitdatestructured>
+            <container
+              altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+              label="Mixed Materials" localtype="box">4</container>
+            <container localtype="folder">43</container>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1850">1850</fromdate>
+              <todate standarddate="2025">2025</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1850-2025</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains records relating to the churches within the Metropolitan
+            Association including correspondence, financial and property records, minister records,
+            directories, reports, histories, newsletters, legal documents, photographs,
+            constitutions and by-laws, minutes, newspapers, and other documents.</p>
+        </scopecontent>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Bronx</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1903">1903</fromdate>
+                <todate standarddate="2020">2020</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1903-2020</unitdate>
+          </did>
+          <scopecontent>
+            <head>Scope and Contents</head>
+            <p>This subseries contains records relating to member churches located in the borough of
+              Bronx, NY.</p>
+          </scopecontent>
+          <c03 level="file">
+            <did>
+              <unittitle>Bedford Park records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1906">1906</fromdate>
+                  <todate standarddate="2001">2001</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1906-2001</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">1</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Bronx Spanish Evangelical financial records and reports</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1956">1956</fromdate>
+                  <todate standarddate="1997">1997</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1956-1997</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">2</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Bronx Spanish Evangelical minister records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1963">1963</fromdate>
+                  <todate standarddate="1995">1995</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1963-1995</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">3</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Bronx Spanish Evangelical records and correspondence</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1956">1956</fromdate>
+                  <todate standarddate="2013">2013</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1956-2013</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">4</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Christ Church Bronx lawsuit and records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="2017">2017</fromdate>
+                  <todate standarddate="2018">2018</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">2017-2018</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">5</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Edgehill church and minister records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1939">1939</fromdate>
+                  <todate standarddate="1997">1997</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1939-1997</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">6</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Edgehill financial records and reports</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1940">1940</fromdate>
+                  <todate standarddate="2001">2001</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1940-2001</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">7</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Edgehill newspapers</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1962">1962</fromdate>
+                  <todate standarddate="1998">1998</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1962-1998</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">8</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>First of Morrisania records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1905">1905</fromdate>
+                  <todate standarddate="2018">2018</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1905-2018</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">9</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Grace UCC church and financial records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1998">1998</fromdate>
+                  <todate standarddate="2001">2001</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1998-2001</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">10</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>North New York building and financial records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1903">1903</fromdate>
+                  <todate standarddate="2020">2020</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1903-2020</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">11</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>North New York minister records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1953">1953</fromdate>
+                  <todate standarddate="2019">2019</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1953-2019</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">12</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>North New York records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1959">1959</fromdate>
+                  <todate standarddate="2020">2020</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1959-2020</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">13</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>North New York reports</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1958">1958</fromdate>
+                  <todate standarddate="1982">1982</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1958-1982</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">14</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Pilgrim UCC Bronx building and financial records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1961">1961</fromdate>
+                  <todate standarddate="2017">2017</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1961-2017</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">5</container>
+              <container localtype="folder">1-2</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Pilgrim UCC Bronx records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1966">1966</fromdate>
+                  <todate standarddate="2010">2010</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1966-2010</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">5</container>
+              <container localtype="folder">3</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Revival Christian church and financial records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1976">1976</fromdate>
+                  <todate standarddate="2012">2012</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1976-2012</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">15</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>St. Paul's Ev. Lutheran church and minister records</unittitle>
+              <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1943">1943</fromdate>
+                  <todate standarddate="2006">2006</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+                >1943-2006</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">16</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>St. Paul's Ev. Lutheran financial records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1985">1985</fromdate>
+                  <todate standarddate="1997">1997</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1985-1997</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">5</container>
+              <container localtype="folder">4</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Swedish Finnish Bethlehem records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1906">1906</fromdate>
+                  <todate standarddate="1915">1915</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1906-1915</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">17</container>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Brooklyn/Staten Island</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1883">1883</fromdate>
+                <todate standarddate="2025">2025</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1883-2025</unitdate>
+          </did>
+          <scopecontent>
+            <head>Scope and Contents</head>
+            <p>This subseries contains records relating to member churches located in the boroughs
+              of Brooklyn, NY and Staten Island, NY.</p>
+          </scopecontent>
+          <c03 level="file">
+            <did>
+              <unittitle>Abundant Life association affiliation</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <datesingle standarddate="2017">2017</datesingle>
+              </unitdatestructured>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">18</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>All Souls Bethlehem financial and minister records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1966">1966</fromdate>
+                  <todate standarddate="2018">2018</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1966-2018</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">19</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>All Souls Bethlehem records and mergers</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1965">1965</fromdate>
+                  <todate standarddate="1997">1997</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1965-1997</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">5</container>
+              <container localtype="folder">5</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Church of Lord building, financial, and church records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1977">1977</fromdate>
+                  <todate standarddate="2018">2018</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1977-2018</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">5</container>
+              <container localtype="folder">6</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Church of Lord photos</unittitle>
+              <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">20</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Church of Lord records and correspondence</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1977">1977</fromdate>
+                  <todate standarddate="2018">2018</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1977-2018</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">21</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Church of the Evangel financial and building records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1907">1907</fromdate>
+                  <todate standarddate="2018">2018</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1907-2018</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">5</container>
+              <container localtype="folder">7-8</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Church of the Evangel minister records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1960">1960</fromdate>
+                  <todate standarddate="2003">2003</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1960-2003</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">22</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Church of the Evangel records and correspondence</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1907">1907</fromdate>
+                  <todate standarddate="2012">2012</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1907-2012</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">5</container>
+              <container localtype="folder">9</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Church of the Evangel reports</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1959">1959</fromdate>
+                  <todate standarddate="1971">1971</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1959-1971</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">5</container>
+              <container localtype="folder">10</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Hyde Park minister records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1954">1954</fromdate>
+                  <todate standarddate="1997">1997</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1954-1997</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">23</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Hyde Park ministerial behavior</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <datesingle standarddate="1997">1997</datesingle>
+              </unitdatestructured>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">24</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Hyde Park records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1938">1938</fromdate>
+                  <todate standarddate="1997">1997</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1938-1997</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">25</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Immanuel Union church and minister records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1961">1961</fromdate>
+                  <todate standarddate="2008">2008</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1961-2008</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">26</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Nazarene church and minister records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1883">1883</fromdate>
+                  <todate standarddate="2008">2008</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1883-2008</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">5</container>
+              <container localtype="folder">11</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Nazarene financial records and correspondence</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1902">1902</fromdate>
+                  <todate standarddate="2018">2018</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1902-2018</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">5</container>
+              <container localtype="folder">12</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Nazarene reports</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1958">1958</fromdate>
+                  <todate standarddate="1996">1996</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1958-1996</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">5</container>
+              <container localtype="folder">13</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Plymouth church and minister records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1951">1951</fromdate>
+                  <todate standarddate="2004">2004</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1951-2004</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">27</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Plymouth correspondence and financial records</unittitle>
+              <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1950">1950</fromdate>
+                  <todate standarddate="2006">2006</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+                >1950-2006</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">28</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Rockaway Avenue financial and property records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1943">1943</fromdate>
+                  <todate standarddate="1959">1959</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1943-1959</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">5</container>
+              <container localtype="folder">14</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Sacred Fellowship records and affiliation</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="2014">2014</fromdate>
+                  <todate standarddate="2025">2025</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">2014-2025</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">29</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>South Congregational correspondence and financial records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1924">1924</fromdate>
+                  <todate standarddate="1999">1999</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1924-1999</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">30</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>South Congregational minister records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1911">1911</fromdate>
+                  <todate standarddate="1989">1989</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1911-1989</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">31</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>South Congregational records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1936">1936</fromdate>
+                  <todate standarddate="1993">1993</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1936-1993</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">32</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>South Congregational reports</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1944">1944</fromdate>
+                  <todate standarddate="1968">1968</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1944-1968</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">33</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>St. Luke's association dissolution</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1978">1978</fromdate>
+                  <todate standarddate="1996">1996</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1978-1996</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">34</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>St. Luke's of Brownsville financial records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1943">1943</fromdate>
+                  <todate standarddate="2012">2012</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1943-2012</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">5</container>
+              <container localtype="folder">15</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>St. Luke's of Brownsville governing documents</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1959">1959</fromdate>
+                  <todate standarddate="2010">2010</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1959-2010</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">5</container>
+              <container localtype="folder">16</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>St. Luke's of Brownsville minister records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1965">1965</fromdate>
+                  <todate standarddate="2008">2008</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1965-2008</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">1</container>
+              <container localtype="folder">35</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>St. Luke's of Brownsville Osborn Street property dispute</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1994">1994</fromdate>
+                  <todate standarddate="2009">2009</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1994-2009</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">1</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>St. Luke's of Brownsville property and financial records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1956">1956</fromdate>
+                  <todate standarddate="2012">2012</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1956-2012</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">2-3</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>St. Luke's of Brownsville records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1959">1959</fromdate>
+                  <todate standarddate="2012">2012</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1959-2012</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">4</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>St. Luke's of Brownsville reports</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1943">1943</fromdate>
+                  <todate standarddate="1974">1974</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1943-1974</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">5</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>St. Luke's of Brownsville vs Autar injury lawsuit</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="2006">2006</fromdate>
+                  <todate standarddate="2008">2008</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">2006-2008</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">6</container>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Manhattan</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1850">1850</fromdate>
+                <todate standarddate="2018">2018</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1850-2018</unitdate>
+          </did>
+          <scopecontent>
+            <head>Scope and Contents</head>
+            <p>This subseries contains records relating to member churches located in the borough of
+              Manhattan, NY.</p>
+          </scopecontent>
+          <c03 level="file">
+            <did>
+              <unittitle>Broadway UCC records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="2006">2006</fromdate>
+                  <todate standarddate="2012">2012</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">2006-2012</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">48</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Camp Memorial church property correspondence</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <datesingle standarddate="1925">1925</datesingle>
+              </unitdatestructured>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">7</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Chinese Community church records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1969">1969</fromdate>
+                  <todate standarddate="1995">1995</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1969-1995</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">8</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Church of Resurrection and East Harlem Parish records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1959">1959</fromdate>
+                  <todate standarddate="1996">1996</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1959-1996</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">5</container>
+              <container localtype="folder">17</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Church of Resurrection minister records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1965">1965</fromdate>
+                  <todate standarddate="1990">1990</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1965-1990</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">9</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Church of the Living Lord records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1969">1969</fromdate>
+                  <todate standarddate="1995">1995</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1969-1995</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">10</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Finnish Evangelical ecclesiastical council</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1902">1902</fromdate>
+                  <todate standarddate="1911">1911</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1902-1911</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">11</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Galilee Congregational church records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1940">1940</fromdate>
+                  <todate standarddate="1976">1976</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1940-1976</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">12</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Grace Congregational and George Bundy Smith</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1991">1991</fromdate>
+                  <todate standarddate="1993">1993</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1991-1993</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">13</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Grace Congregational church and financial records</unittitle>
+              <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="2000">2000</fromdate>
+                  <todate standarddate="2011">2011</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+                >2000-2011</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">14</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Grace Congregational financial and minister records and lawsuit</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="2009">2009</fromdate>
+                  <todate standarddate="2010">2010</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">2009-2010</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">15</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Judson Memorial church and financial records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1952">1952</fromdate>
+                  <todate standarddate="2018">2018</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1952-2018</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">5</container>
+              <container localtype="folder">18</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>King of Kings' proposal</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1978">1978</fromdate>
+                  <todate standarddate="1980">1980</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1978-1980</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">16</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Park Avenue Christian records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1850">1850</fromdate>
+                  <todate standarddate="2018">2018</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1850, 1992-2018</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">17</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Rauschenbusch Memorial correspondence and records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1982">1982</fromdate>
+                  <todate standarddate="1995">1995</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1982-1995</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">18</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Rivers of Living Water church records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="2011">2011</fromdate>
+                  <todate standarddate="2017">2017</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">2011-2017</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">19</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Riverside and NY metro association</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1952">1952</fromdate>
+                  <todate standarddate="1996">1996</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1952-1996</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">20</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Riverside financial records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1963">1963</fromdate>
+                  <todate standarddate="2018">2018</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1963-2018</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">21</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Riverside minister records and Fosdick convocation</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1964">1964</fromdate>
+                  <todate standarddate="2001">2001</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1964-2001</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">22</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Riverside records and correspondence</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1953">1953</fromdate>
+                  <todate standarddate="2009">2009</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1953-2009</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">23</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>San Romero affiliation packet</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <datesingle standarddate="2003">2003</datesingle>
+              </unitdatestructured>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">24</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>San Romero founding, affiliation, and records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1999">1999</fromdate>
+                  <todate standarddate="2013">2013</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1999-2013</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">25</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Union Congregational Manhattan financial and building records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1926">1926</fromdate>
+                  <todate standarddate="2018">2018</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1926-2018</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">5</container>
+              <container localtype="folder">19</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Union Congregational Manhattan records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1933">1933</fromdate>
+                  <todate standarddate="2017">2017</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1933-2017</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">26</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>United West Side Parish records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1958">1958</fromdate>
+                  <todate standarddate="1977">1977</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1958-1977</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">5</container>
+              <container localtype="folder">20</container>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Nassau</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1926">1926</fromdate>
+                <todate standarddate="2025">2025</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1926-2025</unitdate>
+          </did>
+          <scopecontent>
+            <head>Scope and Contents</head>
+            <p>This subseries contains record relating to member churches located in Nassau County,
+              NY.</p>
+          </scopecontent>
+          <c03 level="file">
+            <did>
+              <unittitle>Bethany church and minister records</unittitle>
+              <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1951">1951</fromdate>
+                  <todate standarddate="2018">2018</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+                >1951-2018</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">27</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Community Church of Syosset correspondence and financial
+                records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1963">1963</fromdate>
+                  <todate standarddate="2020">2020</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1963-2020</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">28</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Community Church of Syosset minister and Nassau clergy recordsq</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1962">1962</fromdate>
+                  <todate standarddate="2020">2020</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1962-2020</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">29</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Community Church of Syosset records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1961">1961</fromdate>
+                  <todate standarddate="2018">2018</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1961-2018</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">30</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>CSI Jubilee Memorial records and affiliation</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1996">1996</fromdate>
+                  <todate standarddate="2025">2025</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1996-2025</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">31</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>CSI Malayalam of Greater NY affiliation</unittitle>
+              <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1991">1991</fromdate>
+                  <todate standarddate="2025">2025</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1991-1997,
+                2025</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">32</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>CSI Malayalam of Greater NY records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1997">1997</fromdate>
+                  <todate standarddate="2014">2014</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1997-2014</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">33</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Garden City minister records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1961">1961</fromdate>
+                  <todate standarddate="1997">1997</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1961-1997</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">34</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Garden City records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1950">1950</fromdate>
+                  <todate standarddate="2019">2019</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1950-2019</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=565&amp;cat=597"
+                label="Mixed Materials" localtype="box">6</container>
+              <container localtype="folder">1</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Manhasset church and minister records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1982">1982</fromdate>
+                  <todate standarddate="1994">1994</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1982-1994</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">35</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Manhasset correspondence and financial records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1980">1980</fromdate>
+                  <todate standarddate="2018">2018</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1980-2018</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">36</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>New Hyde Park records and closing</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="2002">2002</fromdate>
+                  <todate standarddate="2008">2008</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">2002-2008</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">37</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Rockville Centre minister concerns and affiliation</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1995">1995</fromdate>
+                  <todate standarddate="1997">1997</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1995-1997</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">2</container>
+              <container localtype="folder">38</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Rockville Centre photos </unittitle>
+              <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">1</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Rockville Centre records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1926">1926</fromdate>
+                  <todate standarddate="2005">2005</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1926, 1973-2005</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=565&amp;cat=597"
+                label="Mixed Materials" localtype="box">6</container>
+              <container localtype="folder">2</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>South Hempstead financial and building records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1947">1947</fromdate>
+                  <todate standarddate="2014">2014</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1947-2014</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=565&amp;cat=597"
+                label="Mixed Materials" localtype="box">6</container>
+              <container localtype="folder">3-4</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>South Hempstead records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1953">1953</fromdate>
+                  <todate standarddate="2015">2015</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1953-2015</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">2</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>South Hempstead situational support and records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1995">1995</fromdate>
+                  <todate standarddate="2017">2017</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1995-2017</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">3-4</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Westbury minister records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1967">1967</fromdate>
+                  <todate standarddate="2011">2011</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1967-2011</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">5</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Westbury records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1964">1964</fromdate>
+                  <todate standarddate="2000">2000</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1964-2000</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">6</container>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Queens</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1928">1928</fromdate>
+                <todate standarddate="2024">2024</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1928-2024</unitdate>
+          </did>
+          <scopecontent>
+            <head>Scope and Contents</head>
+            <p>This subseries contains records relating to member churches located in the borough of
+              Queens, NY.</p>
+          </scopecontent>
+          <c03 level="file">
+            <did>
+              <unittitle>Bowne Street minister and governing board records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1995">1995</fromdate>
+                  <todate standarddate="2015">2015</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1995-2015</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">7</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Bowne Street records</unittitle>
+              <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1941">1941</fromdate>
+                  <todate standarddate="2017">2017</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+                >1941-2017</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">8</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Christ Congregational church and minister records</unittitle>
+              <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1981">1981</fromdate>
+                  <todate standarddate="2014">2014</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+                >1981-2014</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">9</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Christhava Tamil Koil building and financial records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1957">1957</fromdate>
+                  <todate standarddate="2018">2018</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1957-2018</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">10-11</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Christhava Tamil Koil minister records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1991">1991</fromdate>
+                  <todate standarddate="2019">2019</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1991-2019</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">12</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Christhava Tamil Koil records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1985">1985</fromdate>
+                  <todate standarddate="2018">2018</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1985-2018</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">13</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Church in the Gardens records and reports</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1983">1983</fromdate>
+                  <todate standarddate="2020">2020</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1983-2020</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">14</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Community Church of Elmhurst disbandment</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="2002">2002</fromdate>
+                  <todate standarddate="2003">2003</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">2002-2003</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=565&amp;cat=597"
+                label="Mixed Materials" localtype="box">6</container>
+              <container localtype="folder">5</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Community Church of Elmhurst governing and property records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1940">1940</fromdate>
+                  <todate standarddate="1966">1966</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1940-1966</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=565&amp;cat=597"
+                label="Mixed Materials" localtype="box">6</container>
+              <container localtype="folder">6</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Corona financial and building records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1928">1928</fromdate>
+                  <todate standarddate="2018">2018</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1928-2018</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=565&amp;cat=597"
+                label="Mixed Materials" localtype="box">6</container>
+              <container localtype="folder">7</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Corona minister records and concerns</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1948">1948</fromdate>
+                  <todate standarddate="2008">2008</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1948-2008</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">15</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Corona ministerial concerns</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1988">1988</fromdate>
+                  <todate standarddate="1993">1993</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1988-1993</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">16-17</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Corona records and correspondence</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1953">1953</fromdate>
+                  <todate standarddate="2016">2016</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1953-2016</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=565&amp;cat=597"
+                label="Mixed Materials" localtype="box">6</container>
+              <container localtype="folder">8</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Corona reports</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1995">1995</fromdate>
+                  <todate standarddate="1997">1997</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1995-1997</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">18</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Emanuel records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1948">1948</fromdate>
+                  <todate standarddate="2018">2018</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1984-2018</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">19</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Filipino American records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1991">1991</fromdate>
+                  <todate standarddate="2014">2014</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1991-2014</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=565&amp;cat=597"
+                label="Mixed Materials" localtype="box">6</container>
+              <container localtype="folder">9</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>First of Rockaway Beach minister and trustees records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1962">1962</fromdate>
+                  <todate standarddate="2006">2006</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1962-2006</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">20</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>First of Rockaway Beach records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1940">1940</fromdate>
+                  <todate standarddate="2018">2018</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1940-2018</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=565&amp;cat=597"
+                label="Mixed Materials" localtype="box">6</container>
+              <container localtype="folder">10</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Hollis Avenue church and minister records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1980">1980</fromdate>
+                  <todate standarddate="2007">2007</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1980-2007</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">21</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Hollis Woods affiliation, ministers, and records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1969">1969</fromdate>
+                  <todate standarddate="2010">2010</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1969-2010</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">22</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Iglesia Cristiana la Palabra records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1994">1994</fromdate>
+                  <todate standarddate="2012">2012</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1994-2012</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">23</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Lemuel Haynes correspondence and records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1960">1960</fromdate>
+                  <todate standarddate="2017">2017</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1960-2017</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">24</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Lemuel Haynes financial and building records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1955">1955</fromdate>
+                  <todate standarddate="2018">2018</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1955-2018</unitdate>
+              <container altrender="Slim Legal Document Case" label="Mixed Materials"
+                localtype="box">7</container>
+              <container localtype="folder">1</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Lemuel Haynes minister records and personnel concerns</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1959">1959</fromdate>
+                  <todate standarddate="2017">2017</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1959-2017</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">25</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>New York Yeram affiliation</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="2008">2008</fromdate>
+                  <todate standarddate="2011">2011</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">2008-2011</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">26</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Pilgrim Congregational Richmond Hill records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1980">1980</fromdate>
+                  <todate standarddate="2018">2018</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1980-2018</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">27</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Safe Haven records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1996">1996</fromdate>
+                  <todate standarddate="2019">2019</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1996-2019</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">28</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>St. Albans minister records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1986">1986</fromdate>
+                  <todate standarddate="2019">2019</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1986-2019</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">3</container>
+              <container localtype="folder">29</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>St. Albans photos</unittitle>
+              <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">1</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>St. Albans property and financial records and correspondence</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1957">1957</fromdate>
+                  <todate standarddate="2024">2024</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1957-2024</unitdate>
+              <container altrender="Slim Legal Document Case" label="Mixed Materials"
+                localtype="box">7</container>
+              <container localtype="folder">2</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>St. Albans records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1955">1955</fromdate>
+                  <todate standarddate="2018">2018</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1955-2018</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">2</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>St. Marks church and minister records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1973">1973</fromdate>
+                  <todate standarddate="2018">2018</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1973-2018</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">3</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Union Congregational Richmond Hill church and minister records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1982">1982</fromdate>
+                  <todate standarddate="2018">2018</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1982-2018</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">4</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Victoria church and minister records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1961">1961</fromdate>
+                  <todate standarddate="2018">2018</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1961-2018</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">5</container>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Suffolk</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1994">1994</fromdate>
+                <todate standarddate="2000">2000</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1994-2000</unitdate>
+          </did>
+          <scopecontent>
+            <head>Scope and Contents</head>
+            <p>This subseries contains records relating to member churches located in Suffolk
+              County, NY.</p>
+          </scopecontent>
+          <c03 level="file">
+            <did>
+              <unittitle>Bayshore First minister records</unittitle>
+              <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="2000">2000</fromdate>
+                  <todate standarddate="2006">2006</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+                >2000-2006</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">6</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>First of Riverhead records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <datesingle standarddate="1994">1994</datesingle>
+              </unitdatestructured>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">7</container>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Westchester</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1908">1908</fromdate>
+                <todate standarddate="2025">2025</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1908-2025</unitdate>
+          </did>
+          <separatedmaterial>
+            <head>Separated Materials</head>
+            <p>This subseries contains records relating to member churches located in Westchester
+              County, NY.</p>
+          </separatedmaterial>
+          <c03 level="file">
+            <did>
+              <unittitle>Briarcliff minister records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1970">1970</fromdate>
+                  <todate standarddate="2003">2003</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1970-2003</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">8</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Briarcliff records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1971">1971</fromdate>
+                  <todate standarddate="2018">2018</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1971-2018</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">9</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Chatterton Hill church and minister records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1979">1979</fromdate>
+                  <todate standarddate="2020">2020</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1979-2020</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">10</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Church in the Highlands minister records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1963">1963</fromdate>
+                  <todate standarddate="1997">1997</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1963-1997</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">11</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Church in the Highlands records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1937">1937</fromdate>
+                  <todate standarddate="2018">2018</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1937-2018</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">12</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Community Church at the Circle church and minister records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1950">1950</fromdate>
+                  <todate standarddate="1996">1996</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1950-1996</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">13</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>CSI Hudson Valley records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1998">1998</fromdate>
+                  <todate standarddate="2002">2002</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1998-2002</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">14</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>First of Chappaqua minister records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1975">1975</fromdate>
+                  <todate standarddate="2006">2006</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1975-2006</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">15</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>First of Chappaqua records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1976">1976</fromdate>
+                  <todate standarddate="2015">2015</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1976-2015</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">16</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>First of Mount Vernon minister records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <datesingle standarddate="1905">1905</datesingle>
+              </unitdatestructured>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">17</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Mount Vernon Heights financial records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1916">1916</fromdate>
+                  <todate standarddate="2000">2000</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1916-2000</unitdate>
+              <container altrender="Slim Legal Document Case" label="Mixed Materials"
+                localtype="box">7</container>
+              <container localtype="folder">3</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Mount Vernon Heights minister records and personnel concerns</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1908">1908</fromdate>
+                  <todate standarddate="1999">1999</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1908-1999</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">18</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Mount Vernon Heights records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1920">1920</fromdate>
+                  <todate standarddate="2025">2025</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1920-2025</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">19</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Mount Zion minister records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1982">1982</fromdate>
+                  <todate standarddate="1983">1983</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1982-1983</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">20</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Pelhams Community church and minister records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1978">1978</fromdate>
+                  <todate standarddate="2018">2018</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1978-2018</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">21</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Ridgeview financial and church records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1977">1977</fromdate>
+                  <todate standarddate="2000">2000</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1977-2000</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">22</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Ridgeview minister records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1981">1981</fromdate>
+                  <todate standarddate="2017">2017</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1981-2017</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">23</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Scarsdale correspondence and financial records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1960">1960</fromdate>
+                  <todate standarddate="2018">2018</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1960-2018</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">24</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Scarsdale minister records and profile</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1951">1951</fromdate>
+                  <todate standarddate="2003">2003</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1951-2003</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">25</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Spring Valley correspondence and financial records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1952">1952</fromdate>
+                  <todate standarddate="2018">2018</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1954-2018</unitdate>
+              <container altrender="Slim Legal Document Case" label="Mixed Materials"
+                localtype="box">7</container>
+              <container localtype="folder">4</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Spring Valley minister records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1954">1954</fromdate>
+                  <todate standarddate="1994">1994</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1954-1994</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">26</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Spring Valley union</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1977">1977</fromdate>
+                  <todate standarddate="1980">1980</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1977-1980</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">27</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>West Center church and financial records</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1959">1959</fromdate>
+                  <todate standarddate="2018">2018</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1959-2018</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">28</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>West Center minister records and staff concerns</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1960">1960</fromdate>
+                  <todate standarddate="2019">2019</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1960-2019</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">29</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Westchester district correspondence</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1992">1992</fromdate>
+                  <todate standarddate="1996">1996</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1992-1996</unitdate>
+              <container
+                altrender="http://www.hollingermetaledge.com/modules/store/index.html?dept=566&amp;cat=592&amp;searchname=&amp;searchid=rsb-12&amp;searchtype=C&amp;cart=14743065204309327"
+                label="Mixed Materials" localtype="box">4</container>
+              <container localtype="folder">30</container>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
