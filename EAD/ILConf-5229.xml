@@ -52,11 +52,11 @@
     <maintenancehistory>
       <maintenanceevent>
         <eventtype value="derived"/>
-        <eventdatetime>2026-04-10T15:37:21+00:00</eventdatetime>
+        <eventdatetime>2026-06-04T15:53:47+00:00</eventdatetime>
         <agenttype value="machine"/>
         <agent>ArchivesSpace v3.2.0</agent>
-        <eventdescription>This finding aid was produced using ArchivesSpace on Friday April 10, 2026
-          at 15:37</eventdescription>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Thursday June 4, 2026
+          at 15:53</eventdescription>
       </maintenanceevent>
       <maintenanceevent>
         <eventtype value="revised"/>
@@ -67,6 +67,14 @@
           adjustments to the structure of the finding aid, though contents of individual series is
           largely untouched. Some changes to the finding aid's description, including a change to
           the finding aid's title.</eventdescription>
+      </maintenanceevent>
+      <maintenanceevent>
+        <eventtype value="revised"/>
+        <eventdatetime>2026-06-04</eventdatetime>
+        <agenttype value="unknown"/>
+        <agent/>
+        <eventdescription>Zachary Bodnar: Added additional materials from accession 2024-46 that
+          were missed.</eventdescription>
       </maintenanceevent>
     </maintenancehistory>
   </control>
@@ -86,10 +94,10 @@
         </languageset>
       </langmaterial>
       <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
-        <quantity>16.79</quantity>
+        <quantity>17.14</quantity>
         <unittype>Cubic Feet</unittype>
       </physdescstructured>
-      <physdesc localtype="container_summary">(32 boxes)</physdesc>
+      <physdesc localtype="container_summary">(33 boxes)</physdesc>
       <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
         <daterange>
           <fromdate standarddate="1834">1834</fromdate>
@@ -457,7 +465,7 @@
             <unittype>Volumes</unittype>
           </physdescstructured>
           <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
-            <quantity>224</quantity>
+            <quantity>243</quantity>
             <unittype>Folders</unittype>
           </physdescstructured>
           <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
@@ -848,7 +856,7 @@
           <did>
             <unittitle>Church files</unittitle>
             <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
-              <quantity>172</quantity>
+              <quantity>191</quantity>
               <unittype>Folders</unittype>
             </physdescstructured>
             <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
@@ -878,12 +886,40 @@
           </arrangement>
           <c level="file">
             <did>
+              <unittitle>Abingdon: First Congregational Church</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1988">1988</fromdate>
+                  <todate standarddate="1994">1994</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1988-1994</unitdate>
+              <container label="Mixed Materials" localtype="box">33</container>
+              <container localtype="folder">1</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
               <unittitle>Alto Pass: Congregational Christian Church</unittitle>
               <unitdatestructured datechar="creation" unitdatetype="inclusive">
                 <datesingle standarddate="1962">1962</datesingle>
               </unitdatestructured>
               <container label="Mixed Materials" localtype="box">28</container>
               <container localtype="folder">1</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Argo: First Congregational Church</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1953">1953</fromdate>
+                  <todate standarddate="1979">1979</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1953-1979</unitdate>
+              <container label="Mixed Materials" localtype="box">33</container>
+              <container localtype="folder">2</container>
             </did>
           </c>
           <c level="file">
@@ -922,6 +958,20 @@
               <unitdate datechar="creation" unitdatetype="inclusive">1963-2006</unitdate>
               <container label="Mixed Materials" localtype="box">28</container>
               <container localtype="folder">4</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Atwood: United Church of Atwood</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1960">1960</fromdate>
+                  <todate standarddate="2012">2012</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1960-2012</unitdate>
+              <container label="Mixed Materials" localtype="box">33</container>
+              <container localtype="folder">3</container>
             </did>
           </c>
           <c level="file">
@@ -992,6 +1042,20 @@
               <unitdate datechar="creation" unitdatetype="inclusive">1967-1969</unitdate>
               <container label="Mixed Materials" localtype="box">28</container>
               <container localtype="folder">9</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Brookfield: First Congregational Church</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1964">1964</fromdate>
+                  <todate standarddate="2021">2021</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1964-2021</unitdate>
+              <container label="Mixed Materials" localtype="box">33</container>
+              <container localtype="folder">4</container>
             </did>
           </c>
           <c level="file">
@@ -1090,6 +1154,20 @@
               <unitdate datechar="creation" unitdatetype="inclusive">1961-1968</unitdate>
               <container label="Mixed Materials" localtype="box">28</container>
               <container localtype="folder">16</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Chicago: Addison Street Community Church</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1960">1960</fromdate>
+                  <todate standarddate="2015">2015</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1960-2015</unitdate>
+              <container label="Mixed Materials" localtype="box">33</container>
+              <container localtype="folder">5</container>
             </did>
           </c>
           <c level="file">
@@ -1324,6 +1402,20 @@
           </c>
           <c level="file">
             <did>
+              <unittitle>Chicago: Fourth Congregational Church</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1960">1960</fromdate>
+                  <todate standarddate="1992">1992</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1960-1992</unitdate>
+              <container label="Mixed Materials" localtype="box">33</container>
+              <container localtype="folder">6</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
               <unittitle>Chicago: Galewood Community Church</unittitle>
               <unitdatestructured datechar="creation" unitdatetype="inclusive">
                 <datesingle standarddate="1956">1956</datesingle>
@@ -1412,6 +1504,20 @@
           </c>
           <c level="file">
             <did>
+              <unittitle>Chicago: Samil United Church of Christ</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1999">1999</fromdate>
+                  <todate standarddate="2007">2007</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1999-2007</unitdate>
+              <container label="Mixed Materials" localtype="box">33</container>
+              <container localtype="folder">7</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
               <unittitle>Chicago: Sauganash Community Church</unittitle>
               <unitdatestructured datechar="creation" unitdatetype="inclusive">
                 <daterange>
@@ -1469,13 +1575,14 @@
           <c level="file">
             <did>
               <unittitle>Chicago: Summerdale Community Church</unittitle>
-              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
                 <daterange>
                   <fromdate standarddate="1965">1965</fromdate>
-                  <todate standarddate="1979">1979</todate>
+                  <todate standarddate="2016">2016</todate>
                 </daterange>
               </unitdatestructured>
-              <unitdate datechar="creation" unitdatetype="inclusive">1965-1979</unitdate>
+              <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+                >1965-2016</unitdate>
               <container label="Mixed Materials" localtype="box">28</container>
               <container localtype="folder">45</container>
             </did>
@@ -1674,6 +1781,20 @@
               <unitdate datechar="creation" unitdatetype="inclusive">1961-1977</unitdate>
               <container label="Mixed Materials" localtype="box">28</container>
               <container localtype="folder">59</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>El Paso: Good Shepherd Community Church</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1963">1963</fromdate>
+                  <todate standarddate="2008">2008</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1963-2008</unitdate>
+              <container label="Mixed Materials" localtype="box">33</container>
+              <container localtype="folder">8</container>
             </did>
           </c>
           <c level="file">
@@ -1914,6 +2035,20 @@
           </c>
           <c level="file">
             <did>
+              <unittitle>Gridley: First United Church</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1964">1964</fromdate>
+                  <todate standarddate="2006">2006</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1964-2006</unitdate>
+              <container label="Mixed Materials" localtype="box">33</container>
+              <container localtype="folder">9</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
               <unittitle>Harrison: Harrison Congregational Church</unittitle>
               <unitdatestructured datechar="creation" unitdatetype="inclusive">
                 <daterange>
@@ -2094,6 +2229,20 @@
           </c>
           <c level="file">
             <did>
+              <unittitle>Lacon: Lacon Congregational Church</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1960">1960</fromdate>
+                  <todate standarddate="2019">2019</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1960-2019</unitdate>
+              <container label="Mixed Materials" localtype="box">33</container>
+              <container localtype="folder">10</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
               <unittitle>Ladd: Ladd Congregational Christian Church</unittitle>
               <unitdatestructured datechar="creation" unitdatetype="inclusive">
                 <daterange>
@@ -2204,6 +2353,20 @@
           </c>
           <c level="file">
             <did>
+              <unittitle>Marshall: First Congregational Church</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1960">1960</fromdate>
+                  <todate standarddate="1976">1976</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1960-1976</unitdate>
+              <container label="Mixed Materials" localtype="box">33</container>
+              <container localtype="folder">11</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
               <unittitle>Mattoon: Union Congregational Church</unittitle>
               <unitdatestructured datechar="creation" unitdatetype="inclusive">
                 <daterange>
@@ -2257,13 +2420,14 @@
           <c level="file">
             <did>
               <unittitle>Mendon: First Congregational Church</unittitle>
-              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
                 <daterange>
-                  <fromdate standarddate="1975">1975</fromdate>
+                  <fromdate standarddate="1961">1961</fromdate>
                   <todate standarddate="2016">2016</todate>
                 </daterange>
               </unitdatestructured>
-              <unitdate datechar="creation" unitdatetype="inclusive">1975-2016</unitdate>
+              <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+                >1961-2016</unitdate>
               <container label="Mixed Materials" localtype="box">29</container>
               <container localtype="folder">17</container>
             </did>
@@ -2557,15 +2721,44 @@
           <c level="file">
             <did>
               <unittitle>Payson: Bluff Hall United Church of Christ</unittitle>
-              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
                 <daterange>
                   <fromdate standarddate="1972">1972</fromdate>
-                  <todate standarddate="2007">2007</todate>
+                  <todate standarddate="2008">2008</todate>
                 </daterange>
               </unitdatestructured>
-              <unitdate datechar="creation" unitdatetype="inclusive">1972, 2007</unitdate>
+              <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+                >1972-2008</unitdate>
               <container label="Mixed Materials" localtype="box">29</container>
               <container localtype="folder">39</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Peoria: New Church United Church of Christ</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1998">1998</fromdate>
+                  <todate standarddate="2009">2009</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1998-2009</unitdate>
+              <container label="Mixed Materials" localtype="box">33</container>
+              <container localtype="folder">12</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Peoria: Parkview United Church of Christ</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1970">1970</fromdate>
+                  <todate standarddate="2012">2012</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1970-1975-2012</unitdate>
+              <container label="Mixed Materials" localtype="box">30</container>
+              <container localtype="folder">38</container>
             </did>
           </c>
           <c level="file">
@@ -2608,6 +2801,20 @@
           </c>
           <c level="file">
             <did>
+              <unittitle>Pierson: Pierson United Church of Christ</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1989">1989</fromdate>
+                  <todate standarddate="1996">1996</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1989-1996</unitdate>
+              <container label="Mixed Materials" localtype="box">33</container>
+              <container localtype="folder">13</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
               <unittitle>Poplar Grove: Poplar Grove Federated Church</unittitle>
               <unitdatestructured datechar="creation" unitdatetype="inclusive">
                 <daterange>
@@ -2646,6 +2853,20 @@
               <unitdate datechar="creation" unitdatetype="inclusive">1960-2005</unitdate>
               <container label="Mixed Materials" localtype="box">29</container>
               <container localtype="folder">45</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Princeville: Stark Congregational Church</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1961">1961</fromdate>
+                  <todate standarddate="2008">2008</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1961-2008</unitdate>
+              <container label="Mixed Materials" localtype="box">33</container>
+              <container localtype="folder">14</container>
             </did>
           </c>
           <c level="file">
@@ -2873,13 +3094,14 @@
           <c level="file">
             <did>
               <unittitle>Springfield: Plymouth Congregational Church</unittitle>
-              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
                 <daterange>
                   <fromdate standarddate="1960">1960</fromdate>
-                  <todate standarddate="1978">1978</todate>
+                  <todate standarddate="2014">2014</todate>
                 </daterange>
               </unitdatestructured>
-              <unitdate datechar="creation" unitdatetype="inclusive">1960-1978</unitdate>
+              <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+                >1960-2014</unitdate>
               <container label="Mixed Materials" localtype="box">29</container>
               <container localtype="folder">63</container>
             </did>
@@ -2980,6 +3202,20 @@
               <unitdate datechar="creation" unitdatetype="inclusive">1960-2001</unitdate>
               <container label="Mixed Materials" localtype="box">29</container>
               <container localtype="folder">84</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Table Grove: Table Grove Community UCC</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1981">1981</fromdate>
+                  <todate standarddate="2001">2001</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1981-2001</unitdate>
+              <container label="Mixed Materials" localtype="box">33</container>
+              <container localtype="folder">15</container>
             </did>
           </c>
           <c level="file">
@@ -3106,6 +3342,34 @@
           </c>
           <c level="file">
             <did>
+              <unittitle>West Chicago: First Congregational Church</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1960">1960</fromdate>
+                  <todate standarddate="2019">2019</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1960-2019</unitdate>
+              <container label="Mixed Materials" localtype="box">33</container>
+              <container localtype="folder">16</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>West Chicago: St. Michael's Church</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="1998">1998</fromdate>
+                  <todate standarddate="2015">2015</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">1998-2015</unitdate>
+              <container label="Mixed Materials" localtype="box">33</container>
+              <container localtype="folder">17</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
               <unittitle>Westville: Trinity United Church of Christ</unittitle>
               <unitdatestructured datechar="creation" unitdatetype="inclusive">
                 <daterange>
@@ -3168,6 +3432,20 @@
               <unitdate datechar="creation" unitdatetype="inclusive">1962-1966</unitdate>
               <container label="Mixed Materials" localtype="box">29</container>
               <container localtype="folder">83</container>
+            </did>
+          </c>
+          <c level="file">
+            <did>
+              <unittitle>Church removals</unittitle>
+              <unitdatestructured datechar="creation" unitdatetype="inclusive">
+                <daterange>
+                  <fromdate standarddate="2004">2004</fromdate>
+                  <todate standarddate="2008">2008</todate>
+                </daterange>
+              </unitdatestructured>
+              <unitdate datechar="creation" unitdatetype="inclusive">2004-2008</unitdate>
+              <container label="Mixed Materials" localtype="box">30</container>
+              <container localtype="folder">37</container>
             </did>
           </c>
         </c>
