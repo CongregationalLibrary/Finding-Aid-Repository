@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/BrooklynNYBeecher-5607.xml"
+      >BrooklynNYBeecher-5607</recordid>
+    <representation localtype="pdf"
+      href="https://congregationallibrary.org/wp-content/uploads/2026/08/BrooklynNYBeecher-5607.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Brooklyn, New York, N.Y. Beecher Memorial Congregational Church records,
+          1888-1896.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline>
+            <ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref>
+          </addressline>
+        </address>
+        <date>2026-08-14</date>
+        <num>RG5607</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2026-08-18T18:35:46+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Tuesday August 18,
+          2026 at 18:35</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Brooklyn, New York, N.Y. Beecher Memorial Congregational Church records,
+        1888-1896.</unittitle>
+      <unitid>RG5607</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>1</quantity>
+        <unittype>Folders</unittype>
+      </physdescstructured>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1888">1888</fromdate>
+          <todate standarddate="1896">1896</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1888-1896</unitdate>
+      <abstract>The Tabernacle Congregational Church of Brooklyn, New York, New York was gathered in
+        1888 and by 1890 it was known as the Beecher Memorial Congregational Church. A church
+        building was constructed in the Ocean Hill neighborhood between 1890 and 1891. In 1893, the
+        Orient Avenue Union Congregational Church merged into the Beecher Memorial Church. The
+        church dissolved in 1920. This collection contains a single volume of trustees meeting
+        minutes and financial records.</abstract>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">
+          <part>Beecher Memorial Congregational Church (Brooklyn, New York, N.Y.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Brooklyn, New York, N.Y. Beecher Memorial Congregational
+        Church records, 1888-1896, RG5607. The Congregational Library &amp; Archives, Boston,
+        MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by the New York
+        Conference of the United Church of Christ in 1979; no accession number.</p>
+    </acqinfo>
+    <custodhist>
+      <head>Custodial History</head>
+      <p>Materials in this collection were given to the New York Conference of the United Church of
+        Christ at an unknown time, likely following the church's dissolution. This collection was
+        originally processed as part of the New York Conference records (RG0112) circa 1980.</p>
+    </custodhist>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>This collection was processed by Zachary Bodnar, August 2026, according to the rules of
+        Describing Archives: A Content Standard.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>The Tabernacle Congregational Church of Brooklyn, New York, New York was gathered in 1888.
+        Within two years, the church's name was changed to Beecher Memorial Congregational Church,
+        named after Henry Ward Beecher. The first minister of the church was Rev. Samuel B.
+        Halliday, a former assistant pastor at the Plymouth Church under Henry Ward Beecher. A
+        church building for the Beecher Memorial Church was built between 1890 and 1891 at 1325
+        Herkimer Street in the Ocean Hill neighborhood of Brooklyn. The church building was designed
+        by J. W. Bailey and it included a Tiffany Studios glass window. In 1893, the Orient Avenue
+        Union Congregational Church merged into the Beecher Memorial Congregational Church. The
+        church remained active until its dissolution in 1920.</p>
+      <p>The church building remained an active house of worship until 2016, housing at the time the
+        Greater Trinity Temple Church of God in Christ, when it was sold and subsequently
+        redeveloped into residential apartments.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains a single volume of trustees meeting minutes and financial records
+        for the for the Beecher Memorial Congregational Church in Brooklyn, New York, N.Y.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>Materials in this collection have been arranged into chronological order by start date.</p>
+    </arrangement>
+    <controlaccess>
+      <subject identifier="sh85025606" source="lcsh">
+        <part>Church finance.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <corpname rules="rda" source="local">
+        <part>Beecher Memorial Congregational Church (Brooklyn, New York, N.Y.)</part>
+      </corpname>
+      <corpname identifier="n80040311" source="lcnaf">
+        <part>Brooklyn (New York, N.Y.) -- Church history</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>Orient Avenue Union Congregational Church (Brooklyn, New York, N.Y.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="file">
+        <did>
+          <unittitle>Trustees minutes</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1888">1888</fromdate>
+              <todate standarddate="1896">1896</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1888-1896</unitdate>
+          <container label="Mixed Materials" localtype="box">NY 2</container>
+          <container localtype="folder">1</container>
+        </did>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
