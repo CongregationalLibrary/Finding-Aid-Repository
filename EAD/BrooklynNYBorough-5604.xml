@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/BrooklynNYBorough-5603.xml"
+      >BrooklynNYBorough-5603</recordid>
+    <representation localtype="pdf"
+      href="https://congregationallibrary.org/wp-content/uploads/2026/08/BrooklynNYBorough-5603.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Brooklyn, New York, N.Y. Borough Park Congregational Church records,
+          1913-1936.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline>
+            <ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref>
+          </addressline>
+        </address>
+        <date>2026-08-12</date>
+        <num>RG5604</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2026-08-18T15:38:27+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Tuesday August 18,
+          2026 at 15:38</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Brooklyn, New York, N.Y. Borough Park Congregational Church records,
+        1913-1936.</unittitle>
+      <unitid>RG5604</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>2</quantity>
+        <unittype>Folders</unittype>
+      </physdescstructured>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1913">1913</fromdate>
+          <todate standarddate="1936">1936</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1913-1936</unitdate>
+      <abstract>The Borough Park Congregational Church in Brooklyn, New York, was established in
+        1903. A church building was constructed at the corners of 49th street and Fort Hamilton
+        Parkway circa 1910. The church was dissolved in 1936. This collection contains two volumes
+        of trustees and executive board records that include meeting minutes and financial
+        records.</abstract>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">
+          <part>Borough Park Congregational Church (Brooklyn, New York, N.Y.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Brooklyn, New York, N.Y. Borough Park Congregational
+        Church records, 1913-1936, RG5604. The Congregational Library &amp; Archives, Boston,
+        MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by the New York
+        Conference of the United Church of Christ in 1979; no accession number.</p>
+    </acqinfo>
+    <custodhist>
+      <head>Custodial History</head>
+      <p>Materials in this collection were given to the New York Conference of the United Church of
+        Christ at an unknown time, likely following the church's dissolution. This collection was
+        originally processed as part of the New York Conference records (RG0112) circa 1980.</p>
+    </custodhist>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>This collection was processed by Zachary Bodnar, August 2026, according to the rules of
+        Describing Archives: A Content Standard.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>The Borough Park Congregational Church in Brooklyn, New York, was established in 1903. Rev.
+        Elliott Darling was the church's first minister. A church building was constructed at the
+        corners of 49th street and Fort Hamilton Parkway circa 1910. Lightning struck the church in
+        1916, damaging the cupola. The church was dissolved in 1936. The building was sold to Rabbi
+        Shlomo Chaim (Herbert) Port who converted the church into the Borough Park Synagogue. The
+        building was destroyed in a fire in 1941.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains two volumes of records from the Borough Park Congregational Church
+        in Brooklyn, New York. The volumes largely contain meeting minutes and financial records
+        related to the trustees and the executive board of the church.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>Materials in this collection have been arranged into chronological order by start date.</p>
+    </arrangement>
+    <controlaccess>
+      <subject identifier="sh85025854" source="lcsh">
+        <part>Church buildings.</part>
+      </subject>
+      <subject identifier="sh85025606" source="lcsh">
+        <part>Church finance.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <corpname rules="rda" source="local">
+        <part>Borough Park Congregational Church (Brooklyn, New York, N.Y.)</part>
+      </corpname>
+      <corpname identifier="n80040311" source="lcnaf">
+        <part>Brooklyn (New York, N.Y.) -- Church history</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="file">
+        <did>
+          <unittitle>Board of trustees minutes</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1913">1913</fromdate>
+              <todate standarddate="1923">1923</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1913-1923</unitdate>
+          <container label="Mixed Materials" localtype="box">NY 1</container>
+          <container localtype="folder">3</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Executive board minutes</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1936">1936</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">NY 1</container>
+          <container localtype="folder">4</container>
+        </did>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
