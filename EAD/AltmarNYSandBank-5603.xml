@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/AltmarNYSandBank-5603.xml"
+      >AltmarNYSandBank-5603</recordid>
+    <representation localtype="pdf"
+      href="https://congregationallibrary.org/wp-content/uploads/2026/08/AltmarNYSandBank-5603.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Altmar, N.Y. Congregational Church of Sand Bank records,
+          1886-1913.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline>
+            <ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref>
+          </addressline>
+        </address>
+        <date>2026-08-12</date>
+        <num>RG5603</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2026-08-18T13:00:43+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Tuesday August 18,
+          2026 at 13:00</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Altmar, N.Y. Congregational Church of Sand Bank records, 1886-1913.</unittitle>
+      <unitid>RG5603</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>2</quantity>
+        <unittype>Folders</unittype>
+      </physdescstructured>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1886">1886</fromdate>
+          <todate standarddate="1913">1913</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1886-1913</unitdate>
+      <abstract>The First Congregational Church, also named the Congregational Church of Sand Bank,
+        in Altmar, New York, was gathered in 1852 and was the successor church of the previously
+        established First Presbyterian Church. Church buildings were completed in 1840 and 1876. The
+        church was dissolved by 1914. This collection contains a single church record book and some
+        correspondence with the American Congregational Union.</abstract>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">
+          <part>Congregational Church of Sand Creek (Altmar, N.Y.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Altmar, N.Y. Congregational Church of Sand Bank records,
+        1886-1913, RG5603. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by the New York
+        Conference of the United Church of Christ in 1979; no accession number.</p>
+    </acqinfo>
+    <custodhist>
+      <head>Custodial History</head>
+      <p>Materials in this collection were given to the New York Conference of the United Church of
+        Christ at an unknown time, likely following the church's dissolution. This collection was
+        originally processed as part of the New York Conference records (RG0112) circa 1980.</p>
+    </custodhist>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>This collection was processed by Zachary Bodnar, August 2026, according to the rules of
+        Describing Archives: A Content Standard.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>The First Presbyterian Church of Albian was gathered in the village of Sand Bank on January
+        27, 1829. Meetings were initially held in a school house. Construction on a church edifice
+        began in 1834 and was completed in 1840. In 1852, the First Presbyterian Church was
+        reorganized as the First Congregational Church with Rev. Thomas Salmon as the first
+        installed minister. The name of the church is variously called the First Congregational
+        Church and the Congregational Church of Sand Bank depending on the source. Construction on a
+        new church building began in 1870 and the dedication for the building was held on June 2,
+        1876. A fire destroyed much of the village's center in 1885, though the church building
+        largely escaped the worst of the damage. In 1886, the church underwent renovations. By 1914,
+        the church was dissolved.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains a single church record book from the Congregational Church of Sand
+        Bank, also known as the First Congregational Church, in Altmar, New York as well as some
+        correspondence with the American Congregational Union. A copy of the church's covenant is
+        pasted into the front of the record book.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>Materials in this collection have been arranged into chronological order by start date.</p>
+    </arrangement>
+    <controlaccess>
+      <subject identifier="sh85025591" source="lcsh">
+        <part>Church correspondence.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <subject identifier="sh85033612" source="lcsh">
+        <part>Covenants (Church polity).</part>
+      </subject>
+      <corpname identifier="n82119809" source="lcnaf">
+        <part>Altmar (N.Y.) -- Church history</part>
+      </corpname>
+      <corpname rules="AACR2" source="naf">
+        <part>American Congregational Union.</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>Congregational Church of Sand Creek (Altmar, N.Y.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="file">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1886">1886</fromdate>
+              <todate standarddate="1913">1913</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1886-1913</unitdate>
+          <container label="Mixed Materials" localtype="box">NY 1</container>
+          <container localtype="folder">1</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Letters to American Congregational Union</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1890">1890</fromdate>
+              <todate standarddate="1897">1897</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive">1890,
+            1897</unitdate>
+          <container label="Mixed Materials" localtype="box">NY 1</container>
+          <container localtype="folder">2</container>
+        </did>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
