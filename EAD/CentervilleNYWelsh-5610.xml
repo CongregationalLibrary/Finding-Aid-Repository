@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/CentervilleNYWelsh-5610.xml"
+      >CentervilleNYWelsh-5610</recordid>
+    <representation localtype="pdf"
+      href="https://congregationallibrary.org/wp-content/uploads/2026/08/CentervilleNYWelsh-5610.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Centerville, Allegany County, N.Y. Fairview Welsh Congregational Church
+          records, 1846-1922.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline>
+            <ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref>
+          </addressline>
+        </address>
+        <date>2026-08-17</date>
+        <num>RG5610</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2026-08-21T18:12:12+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Friday August 21,
+          2026 at 18:12</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Centerville, Allegany County, N.Y. Fairview Welsh Congregational Church records,
+        1846-1922.</unittitle>
+      <unitid>RG5610</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+        <languageset>
+          <language langcode="wel">Welsh</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+        <quantity>6</quantity>
+        <unittype>Folders</unittype>
+      </physdescstructured>
+      <physdescstructured coverage="part" physdescstructuredtype="spaceoccupied">
+        <quantity>1</quantity>
+        <unittype>Volume</unittype>
+      </physdescstructured>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1846">1846</fromdate>
+          <todate standarddate="1922">1922</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1846-1922</unitdate>
+      <abstract>The Welsh Congregational Church in the Fairview hamlet of Centerville, Allegany
+        County, New York, was gathered in 1846. In 1847, the first church building was constructed
+        on the southern corner of Findlay Road and County Line Road. New church buildings were
+        constructed closer to the Fairview hamlet in 1865 and again in 1902. The church dissolved
+        around 1930. This collection contains administrative and membership records and includes
+        financial records, meeting minutes, and membership records.</abstract>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">
+          <part>Fairview Welsh Congregational Church (Centerville, Allegany County, N.Y.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Centerville, Allegany County, N.Y. Fairview Welsh
+        Congregational Church records, 1846-1922, RG5610. The Congregational Library &amp; Archives,
+        Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by the New York
+        Conference of the United Church of Christ in 1979; no accession number.</p>
+    </acqinfo>
+    <custodhist>
+      <head>Custodial History</head>
+      <p>Materials in this collection were given to the New York Conference of the United Church of
+        Christ at an unknown time, likely following the church's dissolution. This collection was
+        originally processed as part of the New York Conference records (RG0112) circa 1980.</p>
+    </custodhist>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>This collection was processed by Zachary Bodnar, August 2026, according to the rules of
+        Describing Archives: A Content Standard.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>Welsh immigrants arrived in Centerville, Allegany County, New York, around 1840. They
+        largely settled in the southwest part of the town; the hamlet would later be called
+        Fairview. The Welsh Congregational Church was gathered in 1846. The congregants initially
+        met at a schoolhouse in Freedom just across the town and county border. In 1847, the first
+        church building was constructed on the southern corner of Findlay Road and County Line Road
+        just across the street from the Freedom schoolhouse. New church buildings were constructed
+        closer to the Fairview hamlet in 1865 and again in 1902. The church dissolved around 1930;
+        different sources suggest 1928 and 1936 as possible dates of dissolution.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains administrative and membership records for the Fairview Welsh
+        Congregational Church in Centerville, Allegany County, New York. The collection includes
+        financial records, meeting minutes, membership records, articles of agreement for property
+        between the church and the towns of Freedom and Centerville, and correspondence with the
+        Home Missionary Society.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>Materials in this collection have been arranged into chronological order by start date.</p>
+    </arrangement>
+    <controlaccess>
+      <subject identifier="sh85025606" source="lcsh">
+        <part>Church finance.</part>
+      </subject>
+      <subject identifier="sh85076552" source="lcsh">
+        <part>Church libraries.</part>
+      </subject>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <corpname identifier="n84161610" source="lcnaf">
+        <part>American Home Missionary Society</part>
+      </corpname>
+      <corpname identifier="no2016079904" source="lcnaf">
+        <part>Centerville (Allegany County, N.Y.) -- Church history</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>Fairview Welsh Congregational Church (Centerville, Allegany County, N.Y.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="file">
+        <did>
+          <unittitle>Account book</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1846">1846</fromdate>
+              <todate standarddate="1894">1894</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1846-1894</unitdate>
+          <container label="Mixed Materials" localtype="box">NY 1</container>
+          <container localtype="folder">10</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Articles of agreement between Centerville, Freedom, and society</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1847">1847</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">NY 2</container>
+          <container localtype="folder">3</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Church and financial records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1850">1850</fromdate>
+              <todate standarddate="1892">1892</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1850-1892</unitdate>
+          <container label="Mixed Materials" localtype="box">NY 1</container>
+          <container localtype="folder">11</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Membership book</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1852">1852</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">NY 1</container>
+          <container localtype="folder">12</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Membership list and library account book</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1854">1854</fromdate>
+              <todate standarddate="1881">1881</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1854-1881</unitdate>
+          <container label="Mixed Materials" localtype="box">NY 1</container>
+          <container localtype="folder">13</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Home Missionary Society contributions</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1892">1892</fromdate>
+              <todate standarddate="1902">1902</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1892-1902</unitdate>
+          <container label="Mixed Materials" localtype="box">NY 1</container>
+          <container localtype="folder">14</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1905">1905</fromdate>
+              <todate standarddate="1922">1922</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1905-1922</unitdate>
+          <container label="Mixed Materials" localtype="box">NY 3</container>
+          <container localtype="volume">1</container>
+        </did>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
