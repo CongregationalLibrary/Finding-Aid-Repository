@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/NewYorkNYNewEngland-5612.xml"
+      >NewYorkNYNewEngland-5612</recordid>
+    <representation localtype="pdf"
+      href="https://congregationallibrary.org/wp-content/uploads/2026/08/NewYorkNYNewEngland-5612.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>New York, N.Y. New England Congregational Church records,
+          1866-1872.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline>
+            <ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref>
+          </addressline>
+        </address>
+        <date>2026-08-24</date>
+        <num>RG5612</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2026-09-25T13:34:00+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Friday September 25,
+          2026 at 13:34</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>New York, N.Y. New England Congregational Church records, 1866-1872.</unittitle>
+      <unitid>RG5612</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>7</quantity>
+        <unittype>Folders</unittype>
+      </physdescstructured>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1870">1870</fromdate>
+          <todate standarddate="1872">1872</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1870-1872</unitdate>
+      <abstract>The New England Congregational Church in Manhattan, New York, N.Y., was gathered in
+        1866. A building for the church was constructed near the corner of Forty-First Street. The
+        church dissolved in 1872 with its membership largely moving to help form the Madison Avenue
+        Congregational Church. This collection contains both administrative and membership-related
+        materials and includes church records and meeting minutes, registers, and other membership
+        materials.</abstract>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">
+          <part>New England Congregational Church (Manhattan, New York, N.Y.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the New York, N.Y. New England Congregational Church records,
+        1866-1872, RG5612. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by the New York
+        Conference of the United Church of Christ in 1979; no accession number.</p>
+    </acqinfo>
+    <custodhist>
+      <head>Custodial History</head>
+      <p>Materials in this collection were given to the New York Conference of the United Church of
+        Christ at an unknown time, likely following the church's dissolution. This collection was
+        originally processed as part of the New York Conference records (RG0112) circa 1980.</p>
+    </custodhist>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>This collection was processed by Zachary Bodnar, August 2026, according to the rules of
+        Describing Archives: A Content Standard.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>The New England Congregational Church in Manhattan, New York, N.Y., was gathered in 1866.
+        At first the church worshipped at a location near the corner of Forty-First Street and
+        Sixth-Avenue. For a time, the church worshipped at the Rutgers Chapel while a church
+        building was being constructed at the corner of Madison Avenue and Forty-Seventh Street. In
+        1870, Rev. Merrill Richardson was installed as the church's minister. In 1872, Rev. Isaac R.
+        Prior was ordained and installed as the new minister. The church dissolved in 1872 with its
+        membership largely moving to help form the Madison Avenue Congregational Church headed by
+        Rev. George Hughes Hepworth. The Madison Avenue Congregational Church building was located
+        at Madison Avenue and Forty-Fifth Street.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains both administrative and membership-related materials for the New
+        England Congregational Church in Manhattan, New York, N.Y. The collection includes church
+        records and meeting minutes, registers and other membership materials, and a committee
+        report on the formation of the church.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>Materials in this collection have been arranged into chronological order by start date.</p>
+    </arrangement>
+    <controlaccess>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <corpname identifier="n80118393" source="lcnaf">
+        <part>Manhattan (New York, N.Y.) -- Church history</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>New England Congregational Church (Manhattan, New York, N.Y.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="file">
+        <did>
+          <unittitle>Committee report on formation of society</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1866">circa 1866</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">NY 1</container>
+          <container localtype="folder">17</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Church governance and signatories</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1866">1866</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">NY 1</container>
+          <container localtype="folder">18</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1866">1866</fromdate>
+              <todate standarddate="1872">1872</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1866-1872</unitdate>
+          <container label="Mixed Materials" localtype="box">NY 1</container>
+          <container localtype="folder">19</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Church register</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1866">1866</fromdate>
+              <todate standarddate="1872">1872</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1866-1872</unitdate>
+          <container label="Mixed Materials" localtype="box">NY 1</container>
+          <container localtype="folder">20</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Church membership</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1868">1868</fromdate>
+              <todate standarddate="1872">1872</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1868-1872</unitdate>
+          <container label="Mixed Materials" localtype="box">NY 1</container>
+          <container localtype="folder">21</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Membership records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1868">1868</fromdate>
+              <todate standarddate="1872">1872</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1868-1872</unitdate>
+          <container label="Mixed Materials" localtype="box">NY 1</container>
+          <container localtype="folder">22</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1870">1870</fromdate>
+              <todate standarddate="1872">1872</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1870-1872</unitdate>
+          <container label="Mixed Materials" localtype="box">NY 1</container>
+          <container localtype="folder">23</container>
+        </did>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
