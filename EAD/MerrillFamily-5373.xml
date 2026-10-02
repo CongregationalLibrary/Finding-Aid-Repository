@@ -1,0 +1,1168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/MerrillFamily-5373.xml"
+      >MerrillFamily-5373</recordid>
+    <representation localtype="pdf"
+      href="https://congregationallibrary.org/wp-content/uploads/2026/05/MerrillFamily-5373.xml"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>John and Isabel Merrill papers, 1865-1990.</titleproper>
+        <author>Billy McCarthy</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline>
+            <ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref>
+          </addressline>
+        </address>
+        <date>2026-09-30</date>
+        <num>MS5373</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2026-10-02T13:46:31+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Friday October 2,
+          2026 at 13:46</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>John and Isabel Merrill papers, 1865-1990.</unittitle>
+      <unitid>MS5373</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>2.01</quantity>
+        <unittype>Cubic Feet</unittype>
+      </physdescstructured>
+      <physdesc localtype="container_summary">(4 boxes)</physdesc>
+      <unitdatestructured calendar="gregorian" certainty="approximate" datechar="creation"
+        unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1865">1865</fromdate>
+          <todate standarddate="1990">1990</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" certainty="approximate" datechar="creation"
+        unitdatetype="inclusive">1865-1990</unitdate>
+      <abstract>John Ernest Merrill was born on May 9, 1872, in New York. His parents were George
+        and Eunice Merrill. Isabel Trowbridge Merrill was born in London on August 12, 1876. Her
+        parents were Tillman C. and Margaret Riggs Trowbridge. John and Isabel met while the two
+        were in Aintab and would be married in 1905. They had two children, Dorothy and Margaret.
+        Both John and Isabel were ABCFM missionaries in Turkey, specifically at the Central Turkey
+        College. John would go on to be the president of the college and its successor, the Aleppo
+        College in Syria while Isabel worked at the Girls' School in Aintab. They would leave the
+        Middle East for the final time in 1936. Isabel died in Beacon, New York, on March 5, 1950,
+        and John died in Bellows Falls, Vermont, on September 22, 1960. The collection contains
+        records from John and Isabel Merrill, alongside other extended members of their family. This
+        includes various diaries and journals, writings and reports, and letters.</abstract>
+      <origination label="Creator">
+        <persname identifier="n85828452" source="lcnaf">
+          <part>Merrill, John Ernest</part>
+        </persname>
+      </origination>
+      <origination label="Creator">
+        <persname rules="rda" source="local">
+          <part>Merrill, Isabel Trowbridge</part>
+        </persname>
+      </origination>
+      <origination label="Creator">
+        <persname>
+          <part>Trowbridge, Margaret Riggs</part>
+        </persname>
+      </origination>
+      <origination label="Creator">
+        <persname>
+          <part>Trowbridge, Tillman C.</part>
+        </persname>
+      </origination>
+      <origination label="Creator">
+        <persname>
+          <part>Merrill, George</part>
+        </persname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the John and Isabel Merrill papers, 1865-1990, MS5373. The
+        Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by Priscilla D. Hall in
+        June 2018; 2018-14.</p>
+    </acqinfo>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>Collection processed by Billy McCarthy, September 2026 using DACS.</p>
+    </processinfo>
+    <bioghist>
+      <head>Biographical Information</head>
+      <p>John Ernest Merrill was born on May 9, 1872, in New York. His parents were George and
+        Eunice Merrill. He graduated from the University of Minnesota in 1891 and again in 1894 with
+        his Ph.D. He would go on to graduate from the Hartford Theological Seminary in 1896 and then
+        spend time at the University of Berlin. He died in Bellows Falls, Vermont, on September 22,
+        1960.</p>
+      <p>Isabel Trowbridge Merrill was born in London on August 12, 1876. Her parents were Tillman
+        C. and Margaret Riggs Trowbridge. She went to Ferry Hall Seminary in Illinois and graduated
+        from Vassar College in 1900. She died in Beacon, New York, on March 5, 1950.</p>
+      <p>Isabel grew up in Aintab as her father was the president of the Central Turkey College. He
+        died when she was 12 and the family moved to Constantinople to be with her grandfather,
+        Elias Riggs. She would attend the Women's College in Constantinople and was taught Greek by
+        her grandfather. Following her time at Vassar, she took up a position at the Girls' School
+        in Aintab where she met John.</p>
+      <p>John and Isabel were married in Switzerland on August 9, 1905. They had two children,
+        Dorothy and Margaret. Both John and Isabel were ABCFM missionaries in Turkey, specifically
+        at the Central Turkey College. Isabel, Margaret, and Dorothy would leave the country in May
+        1917, and John would not be able to join them in United States until the summer of 1920.
+        John and Isabel returned to the Middle East in 1924 as John became the president of Aleppo
+        College in Syria, the successor of the Central Turkey College. They would retire and leave
+        for the United States in 1936.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>The collection contains records from John and Isabel Merrill, alongside other extended
+        members of their family. This includes various diaries and journals, writings and reports,
+        and letters.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>The collection has been arranged into three series, with each one being further arranged
+        chronologically by start date.</p>
+      <p><emph render="bold">Series 1:</emph> Diaries and Journals, 1865-1950</p>
+      <p><emph render="bold">Series 2:</emph> Writings and Reports, 1872-1990</p>
+      <p><emph render="bold">Series 3:</emph> Letters, 1876-1935</p>
+    </arrangement>
+    <relatedmaterial>
+      <head>Related Materials</head>
+      <p>Additional letters by Isabel can be found in the "Vassar College Student Materials
+        Collection, 1859-2025". Additional records from the Riggs family can be found from SALT
+        Research based in Istanbul, Turkey.</p>
+    </relatedmaterial>
+    <bibliography>
+      <head>Bibliography</head>
+      <p>Dorman, Dorothy Merrill. <emph render="italic">The Belle of the Bosphorus: A Loving Tribute
+          To My Mother Isabel Trowbridge Merrill</emph> [Unpublished manuscript]</p>
+    </bibliography>
+    <controlaccess>
+      <subject identifier="sh85023564" source="lcsh">
+        <part>Children of missionaries.</part>
+      </subject>
+      <subject identifier="sh85037601" source="lcsh">
+        <part>Diaries.</part>
+      </subject>
+      <subject identifier="sh85076240" source="lcsh">
+        <part>Letters.</part>
+      </subject>
+      <subject source="lcsh">
+        <part>Missionaries -- Turkey.</part>
+      </subject>
+      <subject identifier="sh85086027" source="lcsh">
+        <part>Missionaries' spouses.</part>
+      </subject>
+      <subject identifier="sh85141090" source="lcsh">
+        <part>Universities and colleges -- Administration</part>
+      </subject>
+      <corpname rules="rda" source="naf">
+        <part>Central Turkey College</part>
+      </corpname>
+      <persname rules="rda" source="local">
+        <part>Merrill, Isabel Trowbridge</part>
+      </persname>
+      <persname identifier="n85828452" source="lcnaf">
+        <part>Merrill, John Ernest</part>
+      </persname>
+      <corpname identifier="n50060748" source="lcnaf">
+        <part>American Board of Commissioners for Foreign Missions</part>
+      </corpname>
+      <corpname rules="rda" source="naf">
+        <part>Aleppo College</part>
+      </corpname>
+      <persname>
+        <part>Coons, Margaret Merrill</part>
+      </persname>
+      <persname>
+        <part>Dorman, Dorothy Merrill</part>
+      </persname>
+    </controlaccess>
+    <dsc>
+      <c level="series">
+        <did>
+          <unittitle>Diaries and Journals</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>24</quantity>
+            <unittype>Items</unittype>
+          </physdescstructured>
+          <physdesc localtype="container_summary">(2 folders and 22 volumes)</physdesc>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1865">1865</fromdate>
+              <todate standarddate="1950">1950</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1865-1950</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains journals and diaries from John Merrill, Isabel Merrill and
+            Isabel's mother Margaret Riggs Trowbridge.</p>
+        </scopecontent>
+        <c level="file">
+          <did>
+            <unittitle>Margaret Riggs Trowbridge's Journal</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1865">1865</fromdate>
+                <todate standarddate="1867">1867</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+              >1865-1867</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">1</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>John Merrill's Journal</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1890">1890</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">2</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>John Merrill's Journal</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1890">1890</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">3</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>John Merrill's Journal</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1891">1891</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">1</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>John Merrill's Journal</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1891">1891</fromdate>
+                <todate standarddate="1893">1893</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1891-1893</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">2</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Isabel Merrill's Diary</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1893">1893</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">4</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Isabel Merrill's Diary</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1895">1895</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">5</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>John Merrill's Journal</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1902">1902</fromdate>
+                <todate standarddate="1933">1933</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1902-1933</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">6</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>John and Isabel Merrill's Diary</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1905">1905</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">7</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Isabel Merrill's Diaries</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1918">1918</fromdate>
+                <todate standarddate="1919">1919</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1918-1919</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">8</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Isabel Merrill's Diaries</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1920">1920</fromdate>
+                <todate standarddate="1921">1921</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1920-1921</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">9</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Isabel Merrill's Diaries</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1922">1922</fromdate>
+                <todate standarddate="1923">1923</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1922-1923</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">10</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Isabel Merrill's Diaries</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1924">1924</fromdate>
+                <todate standarddate="1925">1925</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1924-1925</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">11</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Isabel Merrill's Diaries</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1927">1927</fromdate>
+                <todate standarddate="1928">1928</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1927-1928</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">12</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Isabel Merrill's Diaries</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1929">1929</fromdate>
+                <todate standarddate="1930">1930</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1929-1930</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">13</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Isabel Merrill's Diaries</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1931">1931</fromdate>
+                <todate standarddate="1932">1932</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1931-1932</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">14</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Isabel Merrill's Diaries</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1933">1933</fromdate>
+                <todate standarddate="1934">1934</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1933-1934</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">15</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Isabel Merrill's Diaries</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1935">1935</fromdate>
+                <todate standarddate="1936">1936</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1935-1936</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">16</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Isabel Merrill's Diaries</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1937">1937</fromdate>
+                <todate standarddate="1944">1944</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1937, 1944</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">17</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Isabel Merrill's Diary</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1936">1936</fromdate>
+                <todate standarddate="1937">1937</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1936-1937</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">18</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Isabel Merrill's Diary</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1945">1945</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">19</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Isabel Merrill's Diary</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1946">1946</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">20</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Isabel Merrill's Diary</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1948">1948</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">21</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Isabel Merrill's Diary</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1950">1950</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="volume">22</container>
+          </did>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unittitle>Writings and Reports</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>32</quantity>
+            <unittype>Items</unittype>
+          </physdescstructured>
+          <physdesc localtype="container_summary">(1 folder and 31 volumes)</physdesc>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1872">1872</fromdate>
+              <todate standarddate="1990">1990</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1872-1990</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains writings and reports, most attributed to John Merrill from his
+            time working in Turkey as part of the American Commissioners for Foreign Missions. A
+            large portion of these works related to the Central Turkey College and its successor,
+            Aleppo College. Other material in the collection includes personal files between John
+            and Isabel, a biography of Isabel Merrill by Dorothy Merill Dorman, and photographs.</p>
+        </scopecontent>
+        <c level="file">
+          <did>
+            <unittitle>John and Isabel Merrill's personal files</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1872">1872</fromdate>
+                <todate standarddate="1906">1906</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1872-1906</unitdate>
+            <container label="Mixed Materials" localtype="box">4</container>
+            <container localtype="folder">5</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Central Turkey College documents</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1872">1872</fromdate>
+                <todate standarddate="1908">1908</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1872-1908</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">11</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>The Transcendental Aesthetic: a thesis</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1890">1890</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">12</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>The Parallel Development of Ideals and Institutions</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1893">1893</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="volume">1</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Biographies and tributes</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1910">1910</fromdate>
+                <todate standarddate="1961">1961</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1910-1961</unitdate>
+            <container label="Mixed Materials" localtype="box">4</container>
+            <container localtype="folder">6</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Information regarding conditions in the interior</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1915">1915</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">13</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Central Turkey College reports</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1916">1916</fromdate>
+                <todate standarddate="1923">1923</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1916-1923</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">14</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Letters related to "Near Eastern" affairs</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1922">1922</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">15</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Aleppo College letters and documents</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1924">1924</fromdate>
+                <todate standarddate="1929">1929</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1924-1929</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">16</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>The Gospel of the Glory of the King</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1926">1926</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">17</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Aleppo College documents (1 of 2)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1931">1931</fromdate>
+                <todate standarddate="1936">1936</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1931-1936</unitdate>
+            <container label="Mixed Materials" localtype="box">4</container>
+            <container localtype="folder">2</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Aleppo College documents (2 of 2)</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1931">1931</fromdate>
+                <todate standarddate="1936">1936</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1931-1936</unitdate>
+            <container label="Mixed Materials" localtype="box">4</container>
+            <container localtype="folder">3</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>The School of Religion</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1931">1931</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">18</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Gaziantep Hospital annual report</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1932">1932</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">19</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Muhammad and the Hebrew-Christian Tradition</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1939">1939</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">1</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Documents on Christian-Moslem relations</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1942">1942</fromdate>
+                <todate standarddate="1950">1950</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1942-1950</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">2</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Aleppo College letters</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1944">1944</fromdate>
+                <todate standarddate="1952">1952</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1944-1952</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">3</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>John Merrill writings and correspondences</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1946">1946</fromdate>
+                <todate standarddate="1950">1950</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1946-1950</unitdate>
+            <container label="Mixed Materials" localtype="box">4</container>
+            <container localtype="folder">1</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Let Us Follow the Gleam</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1949">1949</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">4</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>75th Anniversary Celebration of Aleppo College</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1951">1951</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">5</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Alumni dinner for John Merrill</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1955">1955</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">6</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Seekers for the Way of Life by Fred Field Goodsell</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1970">1970</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">7</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>The Belle of the Bosphorus by Dorothy Merrill Dorman</unittitle>
+            <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1990">1990</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">8</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Confirmation of John Merrill's diploma</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">9</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Suhuf - for Christian Friends of the Muslims</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">10</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>The Book of Central Turkey College</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">11</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Problems of American Education in the Near East</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">12</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Oration: The World was Ready</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">13</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>A Serious Call to A "Concern" for the Muslims</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">14</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>The Finger of God by Samuel Barsoumian</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">15</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Mission and Union in Syria and Turkey</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container label="Mixed Materials" localtype="box">3</container>
+            <container localtype="folder">16</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Photos</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">undated</unitdate>
+            <container label="Mixed Materials" localtype="box">4</container>
+            <container localtype="folder">4</container>
+          </did>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unittitle>Letters</unittitle>
+          <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>19</quantity>
+            <unittype>Folders</unittype>
+          </physdescstructured>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1876">1876</fromdate>
+              <todate standarddate="1935">1935</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1876-1935</unitdate>
+        </did>
+        <scopecontent>
+          <head>Scope and Contents</head>
+          <p>This series contains letters mostly written by John and Isabel Merrill to their
+            daughters Margaret and Dorothy, but also to extended family and friends. The series also
+            has letters by Isabel's father, Tillman C. Trowbridge and John Merrill's father, George
+            Merrill. There are also letters from John Merrill that relate to his work through the
+            American Board of Commissioners for Foreign Missions.</p>
+        </scopecontent>
+        <arrangement>
+          <head>Arrangement</head>
+          <p>The letters were kept in the arrangement that they were received, with only slight
+            edits to folder titles for readability.</p>
+        </arrangement>
+        <c level="file">
+          <did>
+            <unittitle>Letters from Tillman C. Trowbridge to his children</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1876">1876</fromdate>
+                <todate standarddate="1886">1886</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1876-1886</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">3</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Letter from George Merrill to John Merrill</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1897">1897</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">9</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Letters from John Merrill to various family members</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">1897-1898</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">4</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Letters to John Merrill from the ABCFM</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">1897-1900</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">5</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Letters to John Merrill on passports and finances</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">1898-1899</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">6</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Letters to John Merrill from siblings and aunts</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">1898-1905</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">7</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Postcards</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">1898-1927</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">8</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Letters to John Merrill from George Merrill</unittitle>
+            <unitdate datechar="creation" unitdatetype="inclusive">1900-1905</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">9</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Letter to John Merrill from W. W. Peet</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1916">1916</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">10</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Letters to Margaret Merrill from extended family</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1927">1927</fromdate>
+                <todate standarddate="1929">1929</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1927-1929</unitdate>
+            <container label="Mixed Materials" localtype="box">1</container>
+            <container localtype="folder">11</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Letters from John and Isabel Merrill to daughter Margaret</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1927">1927</fromdate>
+                <todate standarddate="1931">1931</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1927-1931</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">1</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Letters between Merrill extended family</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1928">1928</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">2</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Letters from John and Isabel Merrill to daughters Margaret and
+              Dorothy</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1929">1929</fromdate>
+                <todate standarddate="1931">1931</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1929-1931</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">3</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Letters from John and Isabel Merrill to daughters Margaret and
+              Dorothy</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1929">1929</fromdate>
+                <todate standarddate="1931">1931</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1929-1931</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">4</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Letter from John Merrill on a family gathering</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1932">1932</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">5</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Isabel Merrill letters to daughter Margaret</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1933">1933</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">6</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Letters from John and Isabel Merrill to daughters Margaret and
+              Dorothy</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <daterange>
+                <fromdate standarddate="1933">1933</fromdate>
+                <todate standarddate="1934">1934</todate>
+              </daterange>
+            </unitdatestructured>
+            <unitdate datechar="creation" unitdatetype="inclusive">1933-1934</unitdate>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">7</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Letter fragments</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1934">1934, undated</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">8</container>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unittitle>Letters from John Merrill to daughter Margaret</unittitle>
+            <unitdatestructured datechar="creation" unitdatetype="inclusive">
+              <datesingle standarddate="1935">1935, undated</datesingle>
+            </unitdatestructured>
+            <container label="Mixed Materials" localtype="box">2</container>
+            <container localtype="folder">10</container>
+          </did>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
