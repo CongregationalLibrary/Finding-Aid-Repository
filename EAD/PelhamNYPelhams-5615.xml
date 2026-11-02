@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/PelhamNYPelhams-5615.xml"
+      >PelhamNYPelhams-5615</recordid>
+    <representation localtype="pdf"
+      href="https://congregationallibrary.org/wp-content/uploads/2026/09/PelhamNYPelhams-5615.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Pelham, N.Y. Community Church of the Pelhams records, 1913-1961.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline>
+            <ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref>
+          </addressline>
+        </address>
+        <date>2026-09-28</date>
+        <num>RG5615</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2026-11-02T18:46:09+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Monday November 2,
+          2026 at 18:46</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Pelham, N.Y. Community Church of the Pelhams records, 1913-1961.</unittitle>
+      <unitid>RG5615</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>4</quantity>
+        <unittype>Folders</unittype>
+      </physdescstructured>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1913">1913</fromdate>
+          <todate standarddate="1961">1961</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1913-1961</unitdate>
+      <abstract>The Congregational Church of the Pelhams in Pelham, New York, was gathered in 1919
+        or 1921 as a sort of successor church to the Trinity Congregational Church in the Bronx.
+        Rev. William Milton Hess, who was pastor of the Trinity Congregational Church, was the first
+        pastor of the church. In the 1940s, members of other nearby protestant churches joined with
+        the church, prompting the church to be renamed as The Community Church of the Pelhams. The
+        church continues to serve the Pelham community today. This collection This collection
+        primarily contains financial records, reports, and correspondence related to the early years
+        of the church.</abstract>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">
+          <part>Community Church of the Pelhams (Pelham, N.Y.)</part>
+        </corpname>
+      </origination>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">
+          <part>Congregational Church of the Pelhams (Pelham, N.Y.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Pelham, N.Y. Congregational Church of the Pelhams records,
+        1913-1961, RG5615. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by the New York
+        Conference of the United Church of Christ in 1979; no accession number. Annual reports were
+        an internal transfer from the library to the archives, September 2026.</p>
+    </acqinfo>
+    <custodhist>
+      <head>Custodial History</head>
+      <p>Materials in this collection were given to the New York Conference of the United Church of
+        Christ at an unknown time, likely following the church's dissolution. This collection was
+        originally processed as part of the New York Conference records (RG0112) circa 1980. Annual
+        reports were initially catalogued as library materials; there is no information on when
+        these annual reports arrived at the Congregational Library &amp; Archives.</p>
+    </custodhist>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>This collection was processed by Zachary Bodnar, September 2026, according to the rules of
+        Describing Archives: A Content Standard.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>The Congregational Church of the Pelhams in Pelham, New York, was gathered in 1919 or 1921
+        as a sort of successor church to the Trinity Congregational Church in the Bronx. Land for
+        the church was purchased in 1919 and the first service in the still under construction
+        church was held on December 11, 1921. Rev. William Milton Hess, who was pastor of the
+        Trinity Congregational Church, was the first pastor of the church. The cornerstone of the
+        Trinity Congregational Church was laid as a part of church's construction in 1922. Other
+        materials from the Trinity Congregational Church, such as pews and the baptismal font, were
+        also installed in the Congregational Church of the Pelhams.</p>
+      <p>Rev. William Hess resigned in 1931. Between 1934 and 1935, an organ was installed in the
+        church and the church's chapel, kitchen, and Sunday School rooms were expanded and improved.
+        The church suffered significant flooding in 1942. In the 1940s, members of other nearby
+        protestant churches joined with the church, prompting the church to be renamed as The
+        Community Church of the Pelhams in 1947. It was also during this time that the church gained
+        its nickname, "the friendly church." After the formation of the United Church of Christ in
+        1957, the Community Church of the Pelhams joined with the denomination. The church continues
+        to serve the Pelham community today, though efforts to sell the church building, owing to
+        declining membership and rising maintenance costs, have been undertaken.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection primarily contains financial records, reports, and correspondence related
+        to the early years of the Congregational Church of the Pelhams in Pelham, New York. This
+        collection also includes annual reports and some church statistics.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>Materials in this collection have been arranged into chronological order by start date.</p>
+    </arrangement>
+    <controlaccess>
+      <subject identifier="sh85025854" source="lcsh">
+        <part>Church buildings.</part>
+      </subject>
+      <subject identifier="sh85025606" source="lcsh">
+        <part>Church finance.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <corpname rules="rda" source="local">
+        <part>Community Church of the Pelhams (Pelham, N.Y.)</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>Congregational Church of the Pelhams (Pelham, N.Y.)</part>
+      </corpname>
+      <corpname identifier="n88238287 " source="lcnaf">
+        <part>Pelham (N.Y.) -- Church history</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>Trinity Congregational Church (Bronx, New York, N.Y.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="file">
+        <did>
+          <unittitle>Building and financial difficulties</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1913">1913</fromdate>
+              <todate standarddate="1934">1934</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1913-1934</unitdate>
+          <container label="Mixed Materials" localtype="box">NY 1</container>
+          <container localtype="folder">25</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Reports and church statistics</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1930">1930</fromdate>
+              <todate standarddate="1932">1932</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1930-1932</unitdate>
+          <container label="Mixed Materials" localtype="box">NY 1</container>
+          <container localtype="folder">26</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Miscellaneous correspondence</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1931">1931</fromdate>
+              <todate standarddate="1932">1932</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1931-1932</unitdate>
+          <container label="Mixed Materials" localtype="box">NY 1</container>
+          <container localtype="folder">27</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Financial records and correspondence</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1932">1932</fromdate>
+              <todate standarddate="1933">1933</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1932-1933</unitdate>
+          <container label="Mixed Materials" localtype="box">NY 1</container>
+          <container localtype="folder">28</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Annual reports</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1952">1952</fromdate>
+              <todate standarddate="1961">1961</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1952-1961</unitdate>
+          <container label="Mixed Materials" localtype="box">NY 2</container>
+          <container localtype="folder">19</container>
+        </did>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
