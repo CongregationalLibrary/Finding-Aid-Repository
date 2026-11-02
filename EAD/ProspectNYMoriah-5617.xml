@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/ProspectNYMoriah-5617.xml"
+      >ProspectNYMoriah-5617</recordid>
+    <representation localtype="pdf"
+      href="https://congregationallibrary.org/wp-content/uploads/2026/09/ProspectNYMoriah-5617.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Prospect, N.Y. Moriah Congregational Church records, 1930-1943.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline>
+            <ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref>
+          </addressline>
+        </address>
+        <date>2026-09-28</date>
+        <num>RG5617</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2026-11-02T14:33:04+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Monday November 2,
+          2026 at 14:33</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="file">
+    <did>
+      <unittitle>Prospect, N.Y. Moriah Congregational Church records, 1930-1943.</unittitle>
+      <unitid>RG5617</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>1</quantity>
+        <unittype>Folder</unittype>
+      </physdescstructured>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1930">1930</fromdate>
+          <todate standarddate="1943">1943</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1930-1943</unitdate>
+      <abstract>The Moriah Welsh Congregational church was gathered in 1856 in the village of
+        Prospect, New York, as a Welsh-language church. At some point the name of the church was
+        changed to Moriah Congregational Church. The church experienced significant and rapid
+        membership decline in the early 1940s, resulting in the church's dissolution in 1943. This
+        collection contains a single record book of administrative records.</abstract>
+      <origination label="Creator">
+        <corpname rules="local" source="local">
+          <part>Moriah Congregational Church (Prospect, N.Y.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>The Moriah Welsh Congregational church was gathered in 1856 in the village of Prospect, New
+        York, as a Welsh-language church. The church likely became an English-language church around
+        1896, possibly after merging with another church. At some point the name of the church was
+        changed to Moriah Congregational Church. The church experienced significant and rapid
+        membership decline in the early 1940s, resulting in the church's dissolution in 1943. The
+        church building was given to the New York Conference following the church's dissolution.</p>
+    </bioghist>
+    <accessrestrict>
+      <head>Restrictions on Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <custodhist>
+      <head>Custodial History</head>
+      <p>Materials in this collection were given to the New York Conference of the United Church of
+        Christ at an unknown time, likely following the church's dissolution. This collection was
+        originally processed as part of the New York Conference records (RG0112) circa 1980.</p>
+    </custodhist>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by the New York
+        Conference of the United Church of Christ in 1979; no accession number.</p>
+    </acqinfo>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Prospect, N.Y. Moriah Congregational Church records,
+        1930-1943, RG5617. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>This collection was processed by Zachary Bodnar, September 2026, according to the rules of
+        Describing Archives: A Content Standard.</p>
+    </processinfo>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains a single record book of administrative records for the Moriah
+        Congregational Church in Prospect, New York. The volume contains meeting minutes,
+        correspondence, and records related to the 1943 dissolution of the church.</p>
+    </scopecontent>
+    <controlaccess>
+      <subject identifier="sh85025854" source="lcsh">
+        <part>Church buildings.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <corpname rules="local" source="local">
+        <part>Moriah Congregational Church (Prospect, N.Y.)</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>Moriah Welsh Congregational Church (Prospect, N.Y.)</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>Prospect (N.Y.) -- Church history</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="file">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1943">1943</fromdate>
+            </daterange>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">NY 1</container>
+          <container localtype="folder">29</container>
+        </did>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
