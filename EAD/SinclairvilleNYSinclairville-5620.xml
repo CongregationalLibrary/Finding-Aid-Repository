@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+  <control countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    relatedencoding="marc" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <recordid
+      instanceurl="https://raw.githubusercontent.com/CongregationalLibrary/Finding-Aid-Repository/master/EAD/SinclairvilleNYSinclairville-5620.xml"
+      >SinclairvilleNYSinclairville-5620</recordid>
+    <representation localtype="pdf"
+      href="https://congregationallibrary.org/wp-content/uploads/2026/11/SinclairvilleNYSinclairville-5620.pdf"/>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Sinclairville, N.Y. Sinclairville Congregational Church records,
+          1861-1903.</titleproper>
+        <author>Zachary Bodnar</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Congregational Library &amp; Archives</publisher>
+        <address>
+          <addressline>14 Beacon Street</addressline>
+          <addressline>Suite 200</addressline>
+          <addressline>Boston, MA 02108</addressline>
+          <addressline localtype="business">617-523-0470</addressline>
+          <addressline localtype="email">info@14beacon.org</addressline>
+          <addressline><ref href="http://www.CongregationalLibrary.org"
+              linktitle="http://www.CongregationalLibrary.org" show="new"
+              >http://www.CongregationalLibrary.org</ref></addressline>
+        </address>
+        <date>2026-11-04</date>
+        <num>RG5620</num>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="derived"/>
+    <maintenanceagency countrycode="US">
+      <agencycode>US-MBC</agencycode>
+      <agencyname>Congregational Library &amp; Archives</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <conventiondeclaration>
+      <abbr>DACS 2019.0.3</abbr>
+      <citation>Describing Archives: A Content Standard</citation>
+    </conventiondeclaration>
+    <localcontrol localtype="findaidstatus">
+      <term>completed</term>
+    </localcontrol>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="derived"/>
+        <eventdatetime>2026-11-06T15:45:59+00:00</eventdatetime>
+        <agenttype value="machine"/>
+        <agent>ArchivesSpace v3.2.0</agent>
+        <eventdescription>This finding aid was produced using ArchivesSpace on Friday November 6,
+          2026 at 15:45</eventdescription>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Sinclairville, N.Y. Sinclairville Congregational Church records,
+        1861-1903.</unittitle>
+      <unitid>RG5620</unitid>
+      <repository>
+        <corpname>
+          <part>Congregational Library &amp; Archives</part>
+        </corpname>
+      </repository>
+      <langmaterial>
+        <languageset>
+          <language langcode="eng">English</language>
+          <script scriptcode="Latn">Latin</script>
+        </languageset>
+      </langmaterial>
+      <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+        <quantity>2</quantity>
+        <unittype>Folders</unittype>
+      </physdescstructured>
+      <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1861">1861</fromdate>
+          <todate standarddate="1903">1903</todate>
+        </daterange>
+      </unitdatestructured>
+      <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+        >1861-1903</unitdate>
+      <abstract>This collection contains a volume of church administrative and membership records as
+        well as a church manual for the Sinclairville Congregational Church in Sinclairville, New
+        York. The records include meeting minutes, versions of the church covenant and confession of
+        faith, and membership lists.</abstract>
+      <origination label="Creator">
+        <corpname rules="rda" source="local">
+          <part>Sinclairville Congregational Church (Sinclairville, N.Y.)</part>
+        </corpname>
+      </origination>
+    </did>
+    <accessrestrict>
+      <head>Conditions Governing Access</head>
+      <p>Access to this collection is unrestricted and open to the public.</p>
+    </accessrestrict>
+    <userestrict>
+      <head>Restrictions on Use</head>
+      <p>Items in this collection are subject to U.S. Copyright Law. It is the responsibility of the
+        researcher to determine the copyright status of collection items and to secure any
+        permissions necessary for their reproduction and publication. Requests for permission to
+        publish material must be discussed with the archivist or librarian.</p>
+    </userestrict>
+    <prefercite>
+      <head>Preferred Citation</head>
+      <p>[Identification of item], in the Sinclairville, N.Y. Sinclairville Congregational Church
+        records, 1861-1903, RG5620. The Congregational Library &amp; Archives, Boston, MA.</p>
+    </prefercite>
+    <acqinfo>
+      <head>Acquisition Information</head>
+      <p>Materials were donated to the Congregational Library &amp; Archives by the New York
+        Conference of the United Church of Christ in 1979; no accession number. Annual reports were
+        an internal transfer from the library to the archives, September 2026.</p>
+    </acqinfo>
+    <custodhist>
+      <head>Custodial History</head>
+      <p>Materials in this collection were given to the New York Conference of the United Church of
+        Christ at an unknown time, likely following the church's dissolution. This collection was
+        originally processed as part of the New York Conference records (RG0112) circa 1980.</p>
+    </custodhist>
+    <processinfo>
+      <head>Processing Information</head>
+      <p>This collection was processed by Zachary Bodnar, November 2026, according to the rules of
+        Describing Archives: A Content Standard.</p>
+    </processinfo>
+    <bioghist>
+      <head>Historical Note</head>
+      <p>The first Presbyterian church in Sinclairville, New York, originally spelled
+        "Sinclearville", was organized on July 22, 1831. As with many Presbyterian churches of the
+        time in New York, this church was gathered under the Plan of Union between the Presbyterians
+        and Congregationalists. Reverends Isaac Jones, Timothy Stillman and O. C. Beardsley were
+        credited with the church's organization. On April 30, 1842, the church reformed under
+        Congregational polity to become the Sinclairville Congregational Church. Construction on the
+        church's first building was completed in 1845 with the building's dedication occurring on
+        September 25. Rev. Chester W. Carpenter was the first Congregational minister for the
+        church.</p>
+      <p>The Sinclairville Congregational Church federated with the local Methodist Episcopal
+        church, gathered in 1813, in 1917. The federated church closed in 1945.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Scope and Contents</head>
+      <p>This collection contains a volume of church administrative and membership records as well
+        as a church manual for the Sinclairville Congregational Church in Sinclairville, New York.
+        The records include meeting minutes, versions of the church covenant and confession of
+        faith, membership lists, and a brief history of the church's early years.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Arrangement</head>
+      <p>Materials in this collection have been arranged into chronological order by start date.</p>
+    </arrangement>
+    <controlaccess>
+      <subject identifier="sh85025649" source="lcsh">
+        <part>Church membership.</part>
+      </subject>
+      <subject identifier="sh85025741" source="lcsh">
+        <part>Church records and registers.</part>
+      </subject>
+      <corpname identifier="n81032777" source="lcnaf">
+        <part>Sinclairville (N.Y.) -- Church history</part>
+      </corpname>
+      <corpname rules="rda" source="local">
+        <part>Sinclairville Congregational Church (Sinclairville, N.Y.)</part>
+      </corpname>
+    </controlaccess>
+    <dsc>
+      <c level="file">
+        <did>
+          <unittitle>Church records</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1861">1861</fromdate>
+              <todate standarddate="1903">1903</todate>
+            </daterange>
+          </unitdatestructured>
+          <unitdate calendar="gregorian" datechar="creation" unitdatetype="inclusive"
+            >1861-1903</unitdate>
+          <container label="Mixed Materials" localtype="box">NY 2</container>
+          <container localtype="folder">13</container>
+        </did>
+      </c>
+      <c level="file">
+        <did>
+          <unittitle>Church manual</unittitle>
+          <unitdatestructured calendar="gregorian" datechar="creation" unitdatetype="inclusive">
+            <datesingle standarddate="1862">1862</datesingle>
+          </unitdatestructured>
+          <container label="Mixed Materials" localtype="box">NY 2</container>
+          <container localtype="folder">14</container>
+        </did>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
